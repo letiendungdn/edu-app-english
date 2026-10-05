@@ -1,0 +1,32 @@
+import { Routes } from '@angular/router';
+import { HomeComponent } from './pages/home.component';
+import { AuthComponent } from './pages/auth.component';
+import { VocabComponent } from './pages/vocab.component';
+import { FlashcardComponent } from './pages/flashcard.component';
+import { PictureComponent } from './pages/picture.component';
+import { ReviewComponent } from './pages/review.component';
+import { GrammarListComponent } from './pages/grammar-list.component';
+import { GrammarDetailComponent } from './pages/grammar-detail.component';
+import { ReadingListComponent } from './pages/reading-list.component';
+import { ReadingDetailComponent } from './pages/reading-detail.component';
+import { ListeningListComponent } from './pages/listening-list.component';
+import { ListeningDetailComponent } from './pages/listening-detail.component';
+import { DictationComponent } from './pages/dictation.component';
+import { AnalyticsComponent } from './pages/analytics.component';
+
+export const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'login', component: AuthComponent },
+  { path: 'vocab', component: VocabComponent },
+  { path: 'vocab/flashcard', component: FlashcardComponent },
+  { path: 'vocab/picture', component: PictureComponent },
+  { path: 'vocab/review', component: ReviewComponent },
+  { path: 'grammar', component: GrammarListComponent },
+  { path: 'grammar/:id', component: GrammarDetailComponent },
+  { path: 'reading', component: ReadingListComponent },
+  { path: 'reading/:id', component: ReadingDetailComponent },
+  { path: 'listening', component: ListeningListComponent },
+  { path: 'listening/:id', component: ListeningDetailComponent },
+  { path: 'dictation', component: DictationComponent },
+  { path: 'analytics', component: AnalyticsComponent },
+];

@@ -1,0 +1,21 @@
+<div style="min-height: 100vh; display: flex; flex-direction: column;">
+  <header class="site-header">
+    <div class="container row">
+      <a routerLink="/" style="font-weight: 800; color: var(--accent); text-decoration: none; margin-right: 0.5rem;">English</a>
+      @for (item of nav; track item.href) {
+        <a class="nav-link" [routerLink]="item.href" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: item.exact }">{{ item.label }}</a>
+      }
+      <span style="margin-left: auto;"></span>
+      @if (auth.loggedIn()) {
+        <span class="muted" style="font-size: 0.85rem;">{{ auth.user()?.name || auth.user()?.email }}</span>
+        <button class="btn" type="button" (click)="auth.logout()">Đăng xuất</button>
+      } @else {
+        <a class="btn btn-primary" routerLink="/login">Đăng nhập</a>
+      }
+    </div>
+  </header>
+  <main style="flex: 1;">
+    <router-outlet />
+  </main>
+  <footer class="site-footer">© {{ year }} English Learning App</footer>
+</div>

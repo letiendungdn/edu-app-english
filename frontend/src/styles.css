@@ -1,0 +1,121 @@
+:root {
+  --bg: #ffffff;
+  --bg-card: #f9fafb;
+  --text: #111827;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #3b82f6;
+  --accent-soft: #eff6ff;
+  --success: #22c55e;
+  --danger: #ef4444;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f172a;
+    --bg-card: #1e293b;
+    --text: #f1f5f9;
+    --text-muted: #94a3b8;
+    --border: #334155;
+    --accent: #60a5fa;
+    --accent-soft: #1e3a5f;
+    --success: #4ade80;
+    --danger: #f87171;
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+a { color: inherit; }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 1rem; }
+.page { padding: 1.5rem 1rem 3rem; }
+.muted { color: var(--text-muted); }
+.row { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.grid { display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0.5rem 1.25rem; border-radius: 8px; font-size: 0.9rem;
+  font-weight: 600; cursor: pointer; border: 1px solid var(--border);
+  background: var(--bg-card); color: var(--text); text-decoration: none;
+}
+.btn:hover { opacity: 0.85; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-primary { background: var(--accent); color: #fff; border-color: transparent; }
+.btn-success { background: var(--success); color: #fff; border-color: transparent; }
+.btn-danger { background: var(--danger); color: #fff; border-color: transparent; }
+
+.badge {
+  display: inline-block; padding: 2px 8px; border-radius: 5px;
+  font-size: 0.72rem; font-weight: 700;
+}
+.badge-A1 { background: #dbeafe; color: #1e40af; }
+.badge-A2 { background: #dcfce7; color: #166534; }
+.badge-B1 { background: #fef9c3; color: #854d0e; }
+.badge-B2 { background: #ffedd5; color: #9a3412; }
+.badge-C1 { background: #fce7f3; color: #9d174d; }
+.badge-C2 { background: #f3e8ff; color: #6b21a8; }
+
+.nav-link { padding: 0.4rem 0.75rem; border-radius: 7px; font-size: 0.875rem; color: var(--text-muted); text-decoration: none; }
+.nav-link:hover { background: var(--bg-card); color: var(--text); }
+.nav-link.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+
+input, textarea, select {
+  background: var(--bg); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 0.5rem 0.75rem; font-size: 0.95rem; width: 100%;
+  outline: none;
+}
+input:focus, textarea:focus, select:focus { border-color: var(--accent); }
+
+h1 { font-size: 1.6rem; font-weight: 800; }
+h2 { font-size: 1.15rem; font-weight: 700; }
+
+.option {
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.45rem 0.75rem; border-radius: 8px; cursor: pointer; margin-bottom: 0.35rem;
+  border: 1px solid var(--border);
+}
+.option.selected { background: var(--accent-soft); border-color: var(--accent); }
+.option.correct { background: rgba(34,197,94,0.12); border-color: var(--success); }
+.option.wrong { background: rgba(239,68,68,0.12); border-color: var(--danger); }
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 0;
+  background: var(--bg);
+  position: sticky; top: 0; z-index: 100;
+}
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.flashcard {
+  min-height: 240px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; cursor: pointer; padding: 2rem;
+}
+.picture-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.75rem; }
+.picture-card { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--bg-card); cursor: pointer; text-align: left; padding: 0; color: inherit; }
+.picture-card img, .thumb { width: 100%; height: 120px; object-fit: contain; background: var(--bg); }
+.heat { width: 12px; height: 12px; border-radius: 2px; }
+.error { color: var(--danger); font-size: 0.9rem; }

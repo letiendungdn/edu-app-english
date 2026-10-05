@@ -1,0 +1,21 @@
+{
+  "tracks": [
+    {
+      "title": "At the Cafe",
+      "level": "A1",
+      "durationSec": 90,
+      "sortOrder": 1,
+      "source": "EDU APP English sample",
+      "license": "original",
+      "transcript": "A: Hi, can I have a coffee, please? B: Sure. Anything else? A: A glass of water, thank you.",
+      "questions": [
+        {
+          "question": "What does the customer order first?",
+          "answer": "A coffee",
+          "sortOrder": 1,
+          "options": ["A tea", "A coffee", "A cake", "A sandwich"]
+        }
+      ]
+    }
+  ]
+}
