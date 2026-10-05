@@ -1,0 +1,9 @@
+{
+  "extends": "../../services/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "../../services/dist/packages/nest-prisma-english"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}

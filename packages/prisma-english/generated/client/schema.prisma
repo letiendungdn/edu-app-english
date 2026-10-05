@@ -1,0 +1,424 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("ENGLISH_DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────
+// Enums
+// ─────────────────────────────────────────────
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum EnglishLevel {
+  A1
+  A2
+  B1
+  B2
+  C1
+  C2
+}
+
+enum PartOfSpeech {
+  noun
+  verb
+  adjective
+  adverb
+  preposition
+  conjunction
+  pronoun
+  interjection
+  phrase
+  phrasal_verb
+}
+
+enum ContentType {
+  VOCABULARY
+  GRAMMAR
+}
+
+// ─────────────────────────────────────────────
+// Auth
+// ─────────────────────────────────────────────
+
+model User {
+  id             Int           @id @default(autoincrement())
+  email          String        @unique
+  passwordHash   String
+  name           String?
+  role           Role          @default(USER)
+  nativeLanguage String?       @default("vi")
+  targetLevel    EnglishLevel?
+  studyGoalMin   Int           @default(30)
+  lastActiveAt   DateTime?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  srsCards          SrsCard[]
+  readingAttempts   ReadingAttempt[]
+  dictationAttempts DictationAttempt[]
+  listeningAttempts ListeningAttempt[]
+  studySessions     StudySession[]
+  studyStreak       StudyStreak?
+  dailyNotes        DailyNote[]
+  dailyGoals        DailyGoal[]
+
+  @@index([role])
+}
+
+// ─────────────────────────────────────────────
+// Vocabulary
+// ─────────────────────────────────────────────
+
+model VocabTopic {
+  id        Int          @id @default(autoincrement())
+  name      String       @unique
+  icon      String?
+  sortOrder Int          @default(0)
+  words     Vocabulary[]
+}
+
+model Vocabulary {
+  id            Int                @id @default(autoincrement())
+  word          String
+  phonetic      String?
+  meaningVi     String
+  meaningEn     String?
+  partOfSpeech  PartOfSpeech?
+  level         EnglishLevel
+  exampleEn     String?
+  exampleVi     String?
+  audioUrl      String?
+  imageUrl      String?
+  frequencyRank Int?
+  sortOrder     Int                @default(0)
+  topicId       Int?
+  topic         VocabTopic?        @relation(fields: [topicId], references: [id])
+  dictations    DictationAttempt[]
+  createdAt     DateTime           @default(now())
+  updatedAt     DateTime           @updatedAt
+
+  @@index([level, sortOrder])
+  @@index([topicId, sortOrder])
+}
+
+// ─────────────────────────────────────────────
+// SRS — Spaced Repetition (SM-2)
+// Hỗ trợ cả Vocabulary và Grammar
+// ─────────────────────────────────────────────
+
+model SrsCard {
+  id          Int         @id @default(autoincrement())
+  userId      Int
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  contentType ContentType
+  contentId   Int
+
+  // SM-2 algorithm fields
+  easeFactor   Float     @default(2.5)
+  interval     Int       @default(0)
+  repetitions  Int       @default(0)
+  nextReviewAt DateTime  @default(now())
+  lastReviewAt DateTime?
+
+  // Statistics
+  correctCount Int     @default(0)
+  wrongCount   Int     @default(0)
+  reviewStreak Int     @default(0)
+  mastered     Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, contentType, contentId])
+  @@index([userId, nextReviewAt])
+  @@index([userId, contentType, mastered])
+}
+
+// ─────────────────────────────────────────────
+// Grammar
+// ─────────────────────────────────────────────
+
+model GrammarTopic {
+  id          Int             @id @default(autoincrement())
+  title       String
+  description String?
+  level       EnglishLevel
+  sortOrder   Int             @default(0)
+  lessons     GrammarLesson[]
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  @@index([level, sortOrder])
+}
+
+model GrammarLesson {
+  id          Int               @id @default(autoincrement())
+  topicId     Int
+  topic       GrammarTopic      @relation(fields: [topicId], references: [id])
+  title       String
+  explanation String
+  level       EnglishLevel
+  sortOrder   Int               @default(0)
+  examples    GrammarExample[]
+  exercises   GrammarExercise[]
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+
+  @@index([topicId, sortOrder])
+  @@index([level])
+}
+
+// Thay examples Json bằng bảng riêng — type-safe, có thể query, có audio
+model GrammarExample {
+  id        Int           @id @default(autoincrement())
+  lessonId  Int
+  lesson    GrammarLesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  en        String
+  vi        String?
+  audioUrl  String?
+  sortOrder Int           @default(0)
+
+  @@index([lessonId, sortOrder])
+}
+
+model GrammarExercise {
+  id          Int               @id @default(autoincrement())
+  lessonId    Int
+  lesson      GrammarLesson     @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  question    String
+  answer      String
+  explanation String?
+  sortOrder   Int               @default(0)
+  options     GrammarExOption[]
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+
+  @@index([lessonId, sortOrder])
+}
+
+// Tách options ra bảng riêng thay vì Json để nhất quán với nihongo-web
+model GrammarExOption {
+  id         Int             @id @default(autoincrement())
+  exerciseId Int
+  exercise   GrammarExercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  text       String
+  isCorrect  Boolean         @default(false)
+  sortOrder  Int             @default(0)
+
+  @@index([exerciseId, sortOrder])
+}
+
+// ─────────────────────────────────────────────
+// Reading
+// ─────────────────────────────────────────────
+
+model ReadingPassage {
+  id           Int               @id @default(autoincrement())
+  title        String
+  content      String            @db.Text
+  level        EnglishLevel
+  source       String?
+  estimatedMin Int               @default(5)
+  sortOrder    Int               @default(0)
+  questions    ReadingQuestion[]
+  attempts     ReadingAttempt[]
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+
+  @@index([level, sortOrder])
+}
+
+model ReadingQuestion {
+  id          Int             @id @default(autoincrement())
+  passageId   Int
+  passage     ReadingPassage  @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  question    String
+  answer      String
+  explanation String?
+  sortOrder   Int             @default(0)
+  options     ReadingOption[]
+
+  @@index([passageId, sortOrder])
+}
+
+model ReadingOption {
+  id         Int             @id @default(autoincrement())
+  questionId Int
+  question   ReadingQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  text       String
+  sortOrder  Int             @default(0)
+
+  @@index([questionId, sortOrder])
+}
+
+model ReadingAttempt {
+  id          Int            @id @default(autoincrement())
+  userId      Int?
+  passageId   Int
+  passage     ReadingPassage @relation(fields: [passageId], references: [id])
+  correct     Int
+  total       Int
+  percent     Float
+  submittedAt DateTime       @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@index([userId, submittedAt])
+  @@index([passageId])
+}
+
+// ─────────────────────────────────────────────
+// Listening
+// ─────────────────────────────────────────────
+
+model ListeningTrack {
+  id          Int                 @id @default(autoincrement())
+  title       String
+  youtubeUrl  String?
+  audioUrl    String?
+  transcript  String?             @db.Text
+  level       EnglishLevel
+  durationSec Int?
+  sortOrder   Int                 @default(0)
+  questions   ListeningQuestion[]
+  attempts    ListeningAttempt[]
+  createdAt   DateTime            @default(now())
+  updatedAt   DateTime            @updatedAt
+
+  @@index([level, sortOrder])
+}
+
+model ListeningQuestion {
+  id          Int               @id @default(autoincrement())
+  trackId     Int
+  track       ListeningTrack    @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  question    String
+  answer      String
+  explanation String?
+  sortOrder   Int               @default(0)
+  options     ListeningOption[]
+
+  @@index([trackId, sortOrder])
+}
+
+model ListeningOption {
+  id         Int               @id @default(autoincrement())
+  questionId Int
+  question   ListeningQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  text       String
+  sortOrder  Int               @default(0)
+
+  @@index([questionId, sortOrder])
+}
+
+model ListeningAttempt {
+  id          Int            @id @default(autoincrement())
+  userId      Int?
+  trackId     Int
+  track       ListeningTrack @relation(fields: [trackId], references: [id])
+  correct     Int
+  total       Int
+  percent     Float
+  submittedAt DateTime       @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@index([userId, submittedAt])
+  @@index([trackId])
+}
+
+// ─────────────────────────────────────────────
+// Dictation
+// ─────────────────────────────────────────────
+
+model DictationAttempt {
+  id        Int        @id @default(autoincrement())
+  userId    Int?
+  vocabId   Int
+  vocab     Vocabulary @relation(fields: [vocabId], references: [id])
+  userInput String
+  correct   Boolean
+  createdAt DateTime   @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@index([userId, createdAt])
+  @@index([vocabId])
+}
+
+// ─────────────────────────────────────────────
+// Study tracking
+// ─────────────────────────────────────────────
+
+model StudySession {
+  id           Int      @id @default(autoincrement())
+  userId       Int
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date         DateTime @db.Date
+  seconds      Int      @default(0)
+  cardsStudied Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}
+
+model StudyStreak {
+  id            Int      @id @default(autoincrement())
+  userId        Int      @unique
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  currentStreak Int      @default(0)
+  longestStreak Int      @default(0)
+  lastStudyDate String? // YYYY-MM-DD
+  updatedAt     DateTime @updatedAt
+}
+
+// ─────────────────────────────────────────────
+// Daily notes & goals (feature parity với nihongo-web)
+// ─────────────────────────────────────────────
+
+model DailyNote {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date      String // YYYY-MM-DD
+  content   String   @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}
+
+model DailyGoal {
+  id        Int             @id @default(autoincrement())
+  userId    Int
+  user      User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date      String // YYYY-MM-DD
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+  items     DailyGoalItem[]
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}
+
+model DailyGoalItem {
+  id        Int       @id @default(autoincrement())
+  goalId    Int
+  goal      DailyGoal @relation(fields: [goalId], references: [id], onDelete: Cascade)
+  text      String
+  done      Boolean   @default(false)
+  sortOrder Int       @default(0)
+
+  @@index([goalId, sortOrder])
+}
