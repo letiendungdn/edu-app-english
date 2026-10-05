@@ -1,0 +1,73 @@
+{
+  "passages": [
+    {
+      "title": "My Daily Routine",
+      "level": "A1",
+      "estimatedMin": 3,
+      "source": null,
+      "license": "original",
+      "sortOrder": 1,
+      "content": "My name is Lan. I am a student. Every day, I wake up at 6 o'clock in the morning. I wash my face and brush my teeth. Then I eat breakfast with my family.\n\nI go to school at 7 o'clock. I walk to school because my school is near my house. At school, I study Math, English, and Science.\n\nAfter school, I go home at 5 o'clock. I do my homework and then I watch TV. I eat dinner at 7 o'clock. I read a book before I sleep. I go to bed at 10 o'clock.",
+      "questions": [
+        {
+          "question": "What time does Lan wake up?",
+          "answer": "6 o'clock",
+          "explanation": null,
+          "sortOrder": 1,
+          "options": ["5 o'clock", "6 o'clock", "7 o'clock", "8 o'clock"]
+        },
+        {
+          "question": "How does Lan go to school?",
+          "answer": "She walks",
+          "explanation": null,
+          "sortOrder": 2,
+          "options": ["By bus", "By bicycle", "She walks", "By car"]
+        },
+        {
+          "question": "What does Lan do before sleeping?",
+          "answer": "She reads a book",
+          "explanation": null,
+          "sortOrder": 3,
+          "options": ["She watches TV", "She does homework", "She reads a book", "She plays games"]
+        }
+      ]
+    },
+    {
+      "title": "The Benefits of Learning English",
+      "level": "B1",
+      "estimatedMin": 5,
+      "source": "Adapted from various sources",
+      "license": "original",
+      "sortOrder": 1,
+      "content": "English is one of the most widely spoken languages in the world. More than 1.5 billion people speak English, either as their first or second language. Learning English can open many doors for you in life.\n\nFirst, English is the language of international business. Many multinational companies require their employees to speak English. If you can communicate effectively in English, you will have a significant advantage in the job market.\n\nSecond, most scientific research and academic papers are published in English. Students who can read English have access to a much wider range of educational resources.\n\nThird, English is the primary language of the internet. A large percentage of websites, videos, and online content are in English.\n\nFinally, learning English can help you understand different cultures and connect with people from all over the world.",
+      "questions": [
+        {
+          "question": "According to the passage, how many people speak English?",
+          "answer": "More than 1.5 billion",
+          "explanation": null,
+          "sortOrder": 1,
+          "options": ["More than 1 billion", "More than 1.5 billion", "More than 2 billion", "About 500 million"]
+        },
+        {
+          "question": "Why is English important in business?",
+          "answer": "Multinational companies require employees to speak English",
+          "explanation": "The passage states that many multinational companies require their employees to speak English.",
+          "sortOrder": 2,
+          "options": [
+            "It is the official language of all countries",
+            "Multinational companies require employees to speak English",
+            "It is easy to learn",
+            "It helps you make more money immediately"
+          ]
+        },
+        {
+          "question": "What share of the internet is in English?",
+          "answer": "A large percentage",
+          "explanation": null,
+          "sortOrder": 3,
+          "options": ["50%", "75%", "A large percentage", "Almost all of it"]
+        }
+      ]
+    }
+  ]
+}

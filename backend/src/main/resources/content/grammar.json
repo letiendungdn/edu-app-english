@@ -1,0 +1,131 @@
+{
+  "topics": [
+    {
+      "title": "Present Simple",
+      "description": "Thì hiện tại đơn — diễn tả thói quen, sự thật chung",
+      "level": "A1",
+      "sortOrder": 1,
+      "lessons": [
+        {
+          "title": "Cách dùng & cấu trúc",
+          "level": "A1",
+          "sortOrder": 1,
+          "explanation": "Present Simple (Thì hiện tại đơn) dùng để:\n1. Diễn tả thói quen, việc lặp đi lặp lại\n   → I drink coffee every morning.\n2. Diễn tả sự thật hiển nhiên, chân lý\n   → The sun rises in the east.\n3. Diễn tả lịch trình cố định\n   → The train leaves at 8am.\n\nCấu trúc:\n(+) S + V(s/es)\n(-) S + don't/doesn't + V\n(?) Do/Does + S + V?\n\nLưu ý: Thêm -s/-es với he/she/it",
+          "examples": [
+            { "en": "She speaks English very well.", "sortOrder": 1 },
+            { "en": "We don't eat meat on Fridays.", "sortOrder": 2 },
+            { "en": "Does he play football?", "sortOrder": 3 }
+          ],
+          "exercises": [
+            {
+              "question": "She ___ (work) at a hospital.",
+              "answer": "works",
+              "sortOrder": 1,
+              "options": ["work", "works", "working", "worked"]
+            },
+            {
+              "question": "They ___ (not/eat) fast food.",
+              "answer": "don't eat",
+              "sortOrder": 2,
+              "options": ["don't eat", "doesn't eat", "not eat", "aren't eat"]
+            },
+            {
+              "question": "___ he ___ (speak) French?",
+              "answer": "Does / speak",
+              "sortOrder": 3,
+              "options": ["Does / speak", "Do / speaks", "Is / speak", "Has / speak"]
+            },
+            {
+              "question": "Water ___ (boil) at 100°C.",
+              "answer": "boils",
+              "sortOrder": 4,
+              "options": ["boil", "boils", "is boiling", "boiled"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Present Continuous",
+      "description": "Thì hiện tại tiếp diễn — đang xảy ra lúc nói",
+      "level": "A1",
+      "sortOrder": 2,
+      "lessons": [
+        {
+          "title": "Cách dùng & cấu trúc",
+          "level": "A1",
+          "sortOrder": 1,
+          "explanation": "Present Continuous dùng để:\n1. Diễn tả hành động đang xảy ra tại thời điểm nói\n   → I am reading a book right now.\n2. Diễn tả sự thay đổi hoặc xu hướng\n   → Prices are rising.\n3. Diễn tả kế hoạch trong tương lai gần\n   → I am meeting him tomorrow.\n\nCấu trúc: S + am/is/are + V-ing",
+          "examples": [
+            { "en": "She is watching TV now.", "sortOrder": 1 },
+            { "en": "They aren't working today.", "sortOrder": 2 }
+          ],
+          "exercises": [
+            {
+              "question": "Listen! She ___ (sing).",
+              "answer": "is singing",
+              "sortOrder": 1,
+              "options": ["sings", "is singing", "are singing", "was singing"]
+            },
+            {
+              "question": "We ___ (not/watch) TV right now.",
+              "answer": "aren't watching",
+              "sortOrder": 2,
+              "options": ["aren't watching", "don't watch", "isn't watching", "not watching"]
+            },
+            {
+              "question": "___ they ___ (study) for the exam?",
+              "answer": "Are / studying",
+              "sortOrder": 3,
+              "options": ["Are / studying", "Do / study", "Is / studying", "Have / studying"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Conditional Sentences",
+      "description": "Câu điều kiện loại 1 và loại 2",
+      "level": "B1",
+      "sortOrder": 1,
+      "lessons": [
+        {
+          "title": "Conditional Type 1",
+          "level": "B1",
+          "sortOrder": 1,
+          "explanation": "Câu điều kiện loại 1 — điều kiện có thể xảy ra ở hiện tại hoặc tương lai.\n\nCấu trúc: If + S + V(simple present), S + will + V\n\n• If it rains, I will stay at home.\n• If you study hard, you will pass the exam.",
+          "examples": [{ "en": "If I have time, I will call you.", "sortOrder": 1 }],
+          "exercises": [
+            {
+              "question": "If it ___ (rain), we ___ (cancel) the picnic.",
+              "answer": "rains / will cancel",
+              "sortOrder": 1,
+              "options": ["rains / will cancel", "rained / would cancel", "will rain / cancel", "rains / cancel"]
+            },
+            {
+              "question": "She ___ (be) angry if you ___ (be) late.",
+              "answer": "will be / are",
+              "sortOrder": 2,
+              "options": ["will be / are", "would be / were", "is / will be", "will be / will be"]
+            }
+          ]
+        },
+        {
+          "title": "Conditional Type 2",
+          "level": "B1",
+          "sortOrder": 2,
+          "explanation": "Câu điều kiện loại 2 — giả thuyết không có thật ở hiện tại.\n\nCấu trúc: If + S + V(past simple), S + would + V\n\nVới động từ to be, dùng were cho mọi chủ ngữ.\n• If I were rich, I would travel the world.",
+          "examples": [{ "en": "If I were you, I would accept the job.", "sortOrder": 1 }],
+          "exercises": [
+            {
+              "question": "If I ___ (be) you, I ___ (study) harder.",
+              "answer": "were / would study",
+              "sortOrder": 1,
+              "options": ["were / would study", "was / will study", "am / would study", "were / will study"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

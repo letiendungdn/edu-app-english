@@ -1,0 +1,229 @@
+{
+  "topics": [
+    { "name": "Daily Life", "icon": "🏠", "sortOrder": 1 },
+    { "name": "Work & Career", "icon": "💼", "sortOrder": 2 },
+    { "name": "Travel", "icon": "✈️", "sortOrder": 3 }
+  ],
+  "words": [
+    {
+      "topic": "Daily Life",
+      "word": "hello",
+      "phonetic": "/həˈloʊ/",
+      "meaningVi": "xin chào",
+      "level": "A1",
+      "partOfSpeech": "interjection",
+      "exampleEn": "Hello, how are you?",
+      "exampleVi": "Xin chào, bạn khỏe không?",
+      "sortOrder": 0
+    },
+    {
+      "topic": "Daily Life",
+      "word": "goodbye",
+      "phonetic": "/ˌɡʊdˈbaɪ/",
+      "meaningVi": "tạm biệt",
+      "level": "A1",
+      "partOfSpeech": "interjection",
+      "exampleEn": "Goodbye, see you tomorrow!",
+      "exampleVi": "Tạm biệt, hẹn gặp lại ngày mai!",
+      "sortOrder": 1
+    },
+    {
+      "topic": "Daily Life",
+      "word": "house",
+      "phonetic": "/haʊs/",
+      "meaningVi": "ngôi nhà",
+      "level": "A1",
+      "partOfSpeech": "noun",
+      "exampleEn": "I live in a small house.",
+      "exampleVi": "Tôi sống trong một ngôi nhà nhỏ.",
+      "sortOrder": 2
+    },
+    {
+      "topic": "Daily Life",
+      "word": "water",
+      "phonetic": "/ˈwɔːtər/",
+      "meaningVi": "nước",
+      "level": "A1",
+      "partOfSpeech": "noun",
+      "exampleEn": "Can I have some water?",
+      "exampleVi": "Tôi có thể xin chút nước không?",
+      "sortOrder": 3
+    },
+    {
+      "topic": "Daily Life",
+      "word": "eat",
+      "phonetic": "/iːt/",
+      "meaningVi": "ăn",
+      "level": "A1",
+      "partOfSpeech": "verb",
+      "exampleEn": "I eat breakfast every morning.",
+      "exampleVi": "Tôi ăn sáng mỗi buổi sáng.",
+      "sortOrder": 4
+    },
+    {
+      "topic": "Daily Life",
+      "word": "book",
+      "phonetic": "/bʊk/",
+      "meaningVi": "quyển sách",
+      "level": "A1",
+      "partOfSpeech": "noun",
+      "exampleEn": "This is a good book.",
+      "exampleVi": "Đây là một cuốn sách hay.",
+      "sortOrder": 5
+    },
+    {
+      "topic": "Daily Life",
+      "word": "friend",
+      "phonetic": "/frend/",
+      "meaningVi": "bạn bè",
+      "level": "A1",
+      "partOfSpeech": "noun",
+      "exampleEn": "She is my best friend.",
+      "exampleVi": "Cô ấy là người bạn thân nhất của tôi.",
+      "sortOrder": 6
+    },
+    {
+      "topic": "Daily Life",
+      "word": "happy",
+      "phonetic": "/ˈhæpi/",
+      "meaningVi": "vui vẻ, hạnh phúc",
+      "level": "A1",
+      "partOfSpeech": "adjective",
+      "exampleEn": "I am very happy today.",
+      "exampleVi": "Hôm nay tôi rất vui.",
+      "sortOrder": 7
+    },
+    {
+      "topic": "Work & Career",
+      "word": "work",
+      "phonetic": "/wɜːrk/",
+      "meaningVi": "làm việc / công việc",
+      "level": "A1",
+      "partOfSpeech": "verb",
+      "exampleEn": "I work in an office.",
+      "exampleVi": "Tôi làm việc trong văn phòng.",
+      "sortOrder": 8
+    },
+    {
+      "topic": "Daily Life",
+      "word": "school",
+      "phonetic": "/skuːl/",
+      "meaningVi": "trường học",
+      "level": "A1",
+      "partOfSpeech": "noun",
+      "exampleEn": "My school is near my house.",
+      "exampleVi": "Trường tôi gần nhà tôi.",
+      "sortOrder": 9
+    },
+    {
+      "topic": "Daily Life",
+      "word": "although",
+      "phonetic": "/ɔːlˈðoʊ/",
+      "meaningVi": "mặc dù",
+      "level": "A2",
+      "partOfSpeech": "conjunction",
+      "exampleEn": "Although it was raining, we went out.",
+      "exampleVi": "Mặc dù trời mưa, chúng tôi vẫn ra ngoài.",
+      "sortOrder": 10
+    },
+    {
+      "topic": "Travel",
+      "word": "journey",
+      "phonetic": "/ˈdʒɜːrni/",
+      "meaningVi": "hành trình",
+      "level": "A2",
+      "partOfSpeech": "noun",
+      "exampleEn": "The journey took three hours.",
+      "exampleVi": "Hành trình mất ba tiếng đồng hồ.",
+      "sortOrder": 11
+    },
+    {
+      "topic": "Daily Life",
+      "word": "describe",
+      "phonetic": "/dɪˈskraɪb/",
+      "meaningVi": "mô tả",
+      "level": "A2",
+      "partOfSpeech": "verb",
+      "exampleEn": "Can you describe what you saw?",
+      "exampleVi": "Bạn có thể mô tả những gì bạn thấy không?",
+      "sortOrder": 12
+    },
+    {
+      "topic": "Daily Life",
+      "word": "popular",
+      "phonetic": "/ˈpɒpjʊlər/",
+      "meaningVi": "phổ biến",
+      "level": "A2",
+      "partOfSpeech": "adjective",
+      "exampleEn": "This song is very popular.",
+      "exampleVi": "Bài hát này rất phổ biến.",
+      "sortOrder": 13
+    },
+    {
+      "topic": "Travel",
+      "word": "passport",
+      "phonetic": "/ˈpæspɔːrt/",
+      "meaningVi": "hộ chiếu",
+      "level": "A2",
+      "partOfSpeech": "noun",
+      "exampleEn": "You need a passport to travel abroad.",
+      "exampleVi": "Bạn cần hộ chiếu để đi nước ngoài.",
+      "sortOrder": 14
+    },
+    {
+      "topic": "Work & Career",
+      "word": "negotiate",
+      "phonetic": "/nɪˈɡoʊʃieɪt/",
+      "meaningVi": "đàm phán, thương lượng",
+      "level": "B1",
+      "partOfSpeech": "verb",
+      "exampleEn": "We need to negotiate the contract terms.",
+      "exampleVi": "Chúng ta cần thương lượng các điều khoản hợp đồng.",
+      "sortOrder": 15
+    },
+    {
+      "topic": "Work & Career",
+      "word": "significant",
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "meaningVi": "đáng kể, quan trọng",
+      "level": "B1",
+      "partOfSpeech": "adjective",
+      "exampleEn": "There has been a significant improvement.",
+      "exampleVi": "Đã có sự cải thiện đáng kể.",
+      "sortOrder": 16
+    },
+    {
+      "topic": "Travel",
+      "word": "recommend",
+      "phonetic": "/ˌrekəˈmend/",
+      "meaningVi": "đề nghị, giới thiệu",
+      "level": "B1",
+      "partOfSpeech": "verb",
+      "exampleEn": "I recommend this restaurant.",
+      "exampleVi": "Tôi giới thiệu nhà hàng này.",
+      "sortOrder": 17
+    },
+    {
+      "topic": "Work & Career",
+      "word": "efficient",
+      "phonetic": "/ɪˈfɪʃənt/",
+      "meaningVi": "hiệu quả",
+      "level": "B1",
+      "partOfSpeech": "adjective",
+      "exampleEn": "She is a very efficient worker.",
+      "exampleVi": "Cô ấy là một nhân viên rất hiệu quả.",
+      "sortOrder": 18
+    },
+    {
+      "topic": "Work & Career",
+      "word": "approximately",
+      "phonetic": "/əˈprɒksɪmətli/",
+      "meaningVi": "xấp xỉ, khoảng",
+      "level": "B1",
+      "partOfSpeech": "adverb",
+      "exampleEn": "It costs approximately $50.",
+      "exampleVi": "Nó có giá khoảng 50 đô la.",
+      "sortOrder": 19
+    }
+  ]
+}
