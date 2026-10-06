@@ -1,0 +1,7 @@
+replicaCount: 1
+image:
+  gateway: edu-english-api:local
+  web: edu-english-web:local
+databaseUrl: jdbc:postgresql://postgres:5432/english
+redisHost: redis
+jwtSecret: edu-english-dev-secret-key-please-change-32

@@ -34,6 +34,12 @@ export class ApiService {
     return this.http.get<UserView>(`${this.base}/auth/me`);
   }
 
+  studySocketUrl(token: string) {
+    const httpOrigin = this.base.startsWith('http') ? this.base.replace(/\/api$/, '') : window.location.origin;
+    const wsOrigin = httpOrigin.replace(/^http/, 'ws');
+    return `${wsOrigin}/ws/study?token=${encodeURIComponent(token)}`;
+  }
+
   vocab(level: string, page: number) {
     let params = new HttpParams().set('page', page).set('limit', 30);
     if (level) params = params.set('level', level);

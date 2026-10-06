@@ -1,6 +1,7 @@
-import { Component, inject } from '@angular/core';
+import { Component, effect, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AuthService } from './core/auth.service';
+import { RealtimeService } from './core/realtime.service';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,7 @@ import { AuthService } from './core/auth.service';
 })
 export class AppComponent {
   auth = inject(AuthService);
+  realtime = inject(RealtimeService);
   year = new Date().getFullYear();
   nav = [
     { href: '/', label: 'Home', exact: true },
@@ -22,4 +24,10 @@ export class AppComponent {
     { href: '/dictation', label: 'Nghe chép', exact: false },
     { href: '/analytics', label: 'Tiến độ', exact: false },
   ];
+
+  constructor() {
+    effect(() => {
+      this.realtime.connect(this.auth.loggedIn() ? this.auth.token() : null);
+    });
+  }
 }

@@ -1,16 +1,259 @@
+name: edu-english
+
+networks:
+  default:
+    name: english-app_default
+
 services:
+  redis:
+    image: redis:7-alpine
+    container_name: en-redis
+    restart: unless-stopped
+    ports:
+      - '6380:6379'
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  mongodb:
+    image: mongo:7-jammy
+    container_name: en-mongodb
+    restart: unless-stopped
+    ports:
+      - '27018:27017'
+    environment:
+      MONGO_INITDB_DATABASE: english_audit
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: ['CMD', 'mongosh', '--eval', 'db.adminCommand("ping")']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.6.1
+    container_name: en-zookeeper
+    restart: unless-stopped
+    ports:
+      - '2182:2181'
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    healthcheck:
+      test: ['CMD-SHELL', 'echo srvr | nc localhost 2181 | grep -q Mode']
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
+
+  kafka:
+    image: confluentinc/cp-kafka:7.6.1
+    container_name: en-kafka
+    restart: unless-stopped
+    depends_on:
+      zookeeper:
+        condition: service_healthy
+    ports:
+      - '9094:9093'
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: INTERNAL://0.0.0.0:9092,EXTERNAL://0.0.0.0:9093
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:9092,EXTERNAL://localhost:9094
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
+    healthcheck:
+      test: ['CMD', 'kafka-broker-api-versions', '--bootstrap-server', 'localhost:9092']
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 40s
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: en-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: english
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-english}
+      POSTGRES_DB: english
+    ports:
+      - '5434:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U english -d english']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  postgres-keycloak:
+    image: postgres:16-alpine
+    container_name: en-postgres-keycloak
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: ${KEYCLOAK_DB_PASSWORD:-keycloak}
+      POSTGRES_DB: keycloak
+    ports:
+      - '5436:5432'
+    volumes:
+      - postgres_keycloak_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U keycloak -d keycloak']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.2
+    container_name: en-keycloak
+    restart: unless-stopped
+    command: ['start-dev', '--import-realm']
+    ports:
+      - '8083:8080'
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres-keycloak:5432/keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: ${KEYCLOAK_DB_PASSWORD:-keycloak}
+      KC_HTTP_ENABLED: 'true'
+      KC_HEALTH_ENABLED: 'true'
+      KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_ADMIN:-admin}
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-admin}
+    volumes:
+      - ./infra/keycloak/realm-english.json:/opt/keycloak/data/import/realm-english.json:ro
+    depends_on:
+      postgres-keycloak:
+        condition: service_healthy
+
   api:
     build: ./backend
+    container_name: en-api
+    restart: unless-stopped
     ports:
-      - "8082:8080"
+      - '8082:8080'
     environment:
-      SPRING_PROFILES_ACTIVE: dev
-    volumes:
-      - ./backend/data:/app/data
+      SPRING_PROFILES_ACTIVE: platform
+      ENGLISH_DATABASE_URL: jdbc:postgresql://postgres:5432/english
+      ENGLISH_DB_USER: english
+      ENGLISH_DB_PASSWORD: ${POSTGRES_PASSWORD:-english}
+      REDIS_HOST: redis
+      MONGODB_URI: mongodb://mongodb:27017/english_audit
+      KAFKA_BROKERS: kafka:9092
+      MAIL_HOST: mailpit
+      OTEL_EXPORTER_OTLP_ENDPOINT: http://jaeger:4318/v1/traces
+      JWT_SECRET: ${JWT_SECRET:-edu-english-dev-secret-key-please-change-32}
+    healthcheck:
+      test: ['CMD-SHELL', 'curl -fsS http://127.0.0.1:8080/actuator/health/liveness || exit 1']
+      interval: 10s
+      timeout: 3s
+      retries: 8
+      start_period: 90s
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
 
   web:
-    build: ./frontend
+    build:
+      context: ./frontend
+      args:
+        API_BASE: /api
+    container_name: en-web
+    restart: unless-stopped
     ports:
-      - "4200:80"
+      - '4200:80'
+    healthcheck:
+      test: ['CMD-SHELL', 'wget -qO /dev/null http://127.0.0.1/ || exit 1']
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
     depends_on:
-      - api
+      api:
+        condition: service_healthy
+
+  nginx:
+    build:
+      context: .
+      dockerfile: infra/nginx/Dockerfile
+    container_name: en-nginx
+    restart: unless-stopped
+    ports:
+      - '${NGINX_HTTP_PORT:-8088}:80'
+    depends_on:
+      api:
+        condition: service_healthy
+      web:
+        condition: service_healthy
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.57
+    container_name: en-jaeger
+    restart: unless-stopped
+    ports:
+      - '16687:16686'
+      - '14318:4318'
+    environment:
+      COLLECTOR_OTLP_ENABLED: 'true'
+
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    container_name: en-prometheus
+    restart: unless-stopped
+    ports:
+      - '9095:9090'
+    volumes:
+      - ./infra/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    depends_on:
+      api:
+        condition: service_started
+
+  grafana:
+    image: grafana/grafana:11.2.0
+    container_name: en-grafana
+    restart: unless-stopped
+    ports:
+      - '3002:3000'
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:-admin}
+    volumes:
+      - ./infra/grafana/provisioning:/etc/grafana/provisioning:ro
+    depends_on:
+      - prometheus
+
+  alertmanager:
+    image: prom/alertmanager:v0.27.0
+    container_name: en-alertmanager
+    restart: unless-stopped
+    ports:
+      - '9096:9093'
+    volumes:
+      - ./infra/alertmanager/alertmanager.yml:/etc/alertmanager/alertmanager.yml:ro
+
+  mailpit:
+    image: axllent/mailpit:v1.21
+    container_name: en-mailpit
+    restart: unless-stopped
+    ports:
+      - '8026:8025'
+      - '1026:1025'
+
+volumes:
+  postgres_data:
+  postgres_keycloak_data:
+  mongodb_data:

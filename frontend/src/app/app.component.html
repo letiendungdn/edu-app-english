@@ -6,7 +6,8 @@
         <a class="nav-link" [routerLink]="item.href" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: item.exact }">{{ item.label }}</a>
       }
       <span style="margin-left: auto;"></span>
-      @if (auth.loggedIn()) {
+        <span class="muted" style="font-size: 0.85rem;">{{ realtime.status() }}</span>
+        @if (auth.loggedIn()) {
         <span class="muted" style="font-size: 0.85rem;">{{ auth.user()?.name || auth.user()?.email }}</span>
         <button class="btn" type="button" (click)="auth.logout()">Đăng xuất</button>
       } @else {

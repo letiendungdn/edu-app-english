@@ -1,0 +1,40 @@
+spring:
+  config:
+    activate:
+      on-profile: platform
+  datasource:
+    url: ${ENGLISH_DATABASE_URL:jdbc:postgresql://postgres:5432/english}
+    driver-class-name: org.postgresql.Driver
+    username: ${ENGLISH_DB_USER:english}
+    password: ${ENGLISH_DB_PASSWORD:english}
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    locations: classpath:db/postgresql
+  data:
+    redis:
+      host: ${REDIS_HOST:redis}
+      port: ${REDIS_PORT:6379}
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://mongodb:27017/english_audit}
+  kafka:
+    bootstrap-servers: ${KAFKA_BROKERS:kafka:9092}
+  mail:
+    host: ${MAIL_HOST:mailpit}
+    port: ${MAIL_PORT:1025}
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+  otlp:
+    tracing:
+      endpoint: ${OTEL_EXPORTER_OTLP_ENDPOINT:http://jaeger:4318/v1/traces}
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:${APP_JWT_SECRET:edu-english-dev-secret-key-please-change-32}}
+  platform:
+    enabled: true

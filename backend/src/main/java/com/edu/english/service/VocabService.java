@@ -1,5 +1,6 @@
 package com.edu.english.service;
 
+import com.edu.english.config.PlatformGateway;
 import com.edu.english.domain.Enums.ContentType;
 import com.edu.english.domain.Enums.EnglishLevel;
 import com.edu.english.domain.SrsCard;
@@ -34,16 +35,27 @@ public class VocabService {
   private final VocabularyRepository vocabulary;
   private final SrsCardRepository cards;
   private final StudySessionRepository sessions;
+  private final PlatformGateway platform;
 
   public VocabService(
-      VocabularyRepository vocabulary, SrsCardRepository cards, StudySessionRepository sessions) {
+      VocabularyRepository vocabulary,
+      SrsCardRepository cards,
+      StudySessionRepository sessions,
+      PlatformGateway platform) {
     this.vocabulary = vocabulary;
     this.cards = cards;
     this.sessions = sessions;
+    this.platform = platform;
   }
 
   @Transactional(readOnly = true)
   public VocabPage list(String levelParam, int page, int limit, Long userId) {
+    if (userId != null) return loadPage(levelParam, page, limit, userId);
+    String key = "vocab:" + (levelParam == null ? "" : levelParam) + ":" + page + ":" + limit;
+    return platform.cache(key, VocabPage.class, () -> loadPage(levelParam, page, limit, null));
+  }
+
+  private VocabPage loadPage(String levelParam, int page, int limit, Long userId) {
     int safePage = Math.max(page, 1);
     int safeLimit = Math.min(Math.max(limit, 1), 100);
     EnglishLevel level = AuthService.parseLevel(levelParam);
@@ -127,6 +139,9 @@ public class VocabService {
     Sm2.apply(card, quality);
     cards.save(card);
     addStudy(userId, 20, 1);
+    platform.publish(
+        PlatformGateway.VOCAB_REVIEWED,
+        Map.of("userId", userId, "vocabId", vocabId, "quality", quality));
     return card;
   }
 
