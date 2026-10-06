@@ -13,15 +13,15 @@ export class AppComponent {
   realtime = inject(RealtimeService);
   year = new Date().getFullYear();
   nav = [
-    { href: '/', label: 'Home', exact: true },
-    { href: '/vocab', label: 'Từ vựng', exact: true },
-    { href: '/vocab/flashcard', label: 'Flashcard', exact: false },
-    { href: '/vocab/picture', label: 'Từ điển tranh', exact: false },
-    { href: '/vocab/review', label: 'SRS', exact: false },
+    { href: '/', label: 'Hôm nay', exact: true },
+    { href: '/roadmap', label: 'Lộ trình', exact: false },
+    { href: '/tests', label: 'Thi thử', exact: false },
+    { href: '/listening', label: 'Listening', exact: false },
+    { href: '/reading', label: 'Reading', exact: false },
+    { href: '/writing', label: 'Writing', exact: false },
+    { href: '/speaking', label: 'Speaking', exact: false },
+    { href: '/vocab', label: 'Từ vựng', exact: false },
     { href: '/grammar', label: 'Ngữ pháp', exact: false },
-    { href: '/reading', label: 'Đọc hiểu', exact: false },
-    { href: '/listening', label: 'Nghe', exact: false },
-    { href: '/dictation', label: 'Nghe chép', exact: false },
     { href: '/analytics', label: 'Tiến độ', exact: false },
   ];
 

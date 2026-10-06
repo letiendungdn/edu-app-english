@@ -5,8 +5,12 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "app.ai")
 public class AiProperties {
   private String apiKey = "";
-  private String provider = "";
-  private String model = "";
+  private String model = "claude-opus-5-5";
+  private int dailyLimit = 10;
+
+  public boolean enabled() {
+    return apiKey != null && !apiKey.isBlank();
+  }
 
   public String getApiKey() {
     return apiKey;
@@ -16,19 +20,19 @@ public class AiProperties {
     this.apiKey = apiKey;
   }
 
-  public String getProvider() {
-    return provider;
-  }
-
-  public void setProvider(String provider) {
-    this.provider = provider;
-  }
-
   public String getModel() {
     return model;
   }
 
   public void setModel(String model) {
     this.model = model;
+  }
+
+  public int getDailyLimit() {
+    return dailyLimit;
+  }
+
+  public void setDailyLimit(int dailyLimit) {
+    this.dailyLimit = dailyLimit;
   }
 }

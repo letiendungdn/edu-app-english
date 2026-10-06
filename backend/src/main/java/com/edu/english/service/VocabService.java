@@ -3,6 +3,7 @@ package com.edu.english.service;
 import com.edu.english.config.PlatformGateway;
 import com.edu.english.domain.Enums.ContentType;
 import com.edu.english.domain.Enums.EnglishLevel;
+import com.edu.english.domain.Enums.TaskType;
 import com.edu.english.domain.SrsCard;
 import com.edu.english.domain.StudySession;
 import com.edu.english.domain.Vocabulary;
@@ -16,6 +17,7 @@ import com.edu.english.web.ApiModels.SrsView;
 import com.edu.english.web.ApiModels.TopicView;
 import com.edu.english.web.ApiModels.VocabPage;
 import com.edu.english.web.ApiModels.VocabView;
+import java.time.Clock;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.util.List;
@@ -36,16 +38,22 @@ public class VocabService {
   private final SrsCardRepository cards;
   private final StudySessionRepository sessions;
   private final PlatformGateway platform;
+  private final RoadmapService roadmap;
+  private final Clock clock;
 
   public VocabService(
       VocabularyRepository vocabulary,
       SrsCardRepository cards,
       StudySessionRepository sessions,
-      PlatformGateway platform) {
+      PlatformGateway platform,
+      RoadmapService roadmap,
+      Clock clock) {
     this.vocabulary = vocabulary;
     this.cards = cards;
     this.sessions = sessions;
     this.platform = platform;
+    this.roadmap = roadmap;
+    this.clock = clock;
   }
 
   @Transactional(readOnly = true)
@@ -142,6 +150,10 @@ public class VocabService {
     platform.publish(
         PlatformGateway.VOCAB_REVIEWED,
         Map.of("userId", userId, "vocabId", vocabId, "quality", quality));
+    // Task "ôn thẻ đến hạn" chỉ xong khi đã ôn hết hàng đợi hôm nay.
+    if (cards.countByUserIdAndContentTypeAndNextReviewAtLessThanEqual(userId, ContentType.VOCABULARY, clock.instant()) == 0) {
+      roadmap.recordProgress(userId, TaskType.VOCAB_REVIEW);
+    }
     return card;
   }
 
@@ -166,7 +178,7 @@ public class VocabService {
 
   @Transactional
   public void addStudy(Long userId, int seconds, int cardsStudied) {
-    LocalDate today = LocalDate.now();
+    LocalDate today = LocalDate.now(clock);
     StudySession session =
         sessions
             .findByUserIdAndStudyDate(userId, today)

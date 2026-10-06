@@ -18,6 +18,7 @@ import { LEVELS, TrackListItem } from '../core/models';
       <div class="grid">
         @for (item of items(); track item.id) {
           <a class="card" [routerLink]="['/listening', item.id]" style="text-decoration: none;">
+            @if (item.ieltsPart) { <span class="badge badge-C1">IELTS Part {{ item.ieltsPart }}</span> }
             <span class="badge" [class]="'badge badge-' + item.level">{{ item.level }}</span>
             <h2 style="margin-top: 0.4rem;">{{ item.title }}</h2>
             <p class="muted">{{ item.questionCount }} câu hỏi</p>

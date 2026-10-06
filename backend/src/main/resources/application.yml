@@ -2,10 +2,13 @@ server:
   port: 8080
 
 spring:
+  application:
+    name: english-api
   profiles:
     default: dev
   datasource:
-    url: jdbc:h2:file:./data/english;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE
+    # H2 chạy ở chế độ PostgreSQL để dùng chung một bộ migration với Postgres.
+    url: jdbc:h2:file:./data/english;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE
     driver-class-name: org.h2.Driver
     username: sa
     password:
@@ -20,9 +23,10 @@ spring:
   flyway:
     enabled: true
     locations: classpath:db/migration
-    # Schema H2 hiện có (do Hibernate tạo trước Flyway) được đánh dấu đã ở V1, không chạy lại CREATE.
-    baseline-on-migrate: true
-    baseline-version: 1
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 12MB
   h2:
     console:
       enabled: true
@@ -37,6 +41,9 @@ management:
     health:
       probes:
         enabled: true
+      group:
+        readiness:
+          include: readinessState,db
   health:
     livenessstate:
       enabled: true
@@ -47,15 +54,32 @@ management:
       probability: 0.0
 
 app:
+  # Ngày học (streak, lộ trình, giờ học) tính theo múi giờ người học, không theo múi giờ máy chủ.
+  timezone: ${APP_TIMEZONE:Asia/Ho_Chi_Minh}
   jwt:
-    # Profile khác dev bắt buộc APP_JWT_SECRET. Profile dev có giá trị mặc định ở document bên dưới.
+    # Profile khác dev bắt buộc APP_JWT_SECRET (tối thiểu 32 ký tự).
     secret: ${APP_JWT_SECRET:}
     expiration-days: 30
   ai:
+    # Chấm Writing/Speaking bằng Claude. Để trống key thì bài nộp báo "AI chưa được cấu hình".
     api-key: ${APP_AI_API_KEY:}
-    provider: ${APP_AI_PROVIDER:}
-    model: ${APP_AI_MODEL:}
+    model: ${APP_AI_MODEL:claude-opus-5-5}
+    daily-limit: ${APP_AI_DAILY_LIMIT:10}
+  storage:
+    # Thư mục lưu file ghi âm Speaking.
+    dir: ${APP_STORAGE_DIR:./data/uploads}
+  roadmap:
+    default-weeks: 12
+    weeks-per-half-band: 8
+    baseline-daily-minutes: 75
+    phase-ratio:
+      foundation: 0.25
+      skill-building: 0.45
+      exam-practice: 0.20
+      final-review: 0.10
   cors-origins: http://localhost:4200,http://127.0.0.1:4200
+  # Origin được phép mở WebSocket. Gồm cổng Nginx 8088 vì Nginx đổi Host nên Spring không coi là cùng origin.
+  ws-origins: ${app.cors-origins},http://localhost:8088,http://127.0.0.1:8088
 
 ---
 spring:
@@ -80,5 +104,3 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-  flyway:
-    locations: classpath:db/postgresql

@@ -19,8 +19,12 @@ import { LEVELS, PassageListItem } from '../core/models';
         @for (item of items(); track item.id) {
           <a class="card" [routerLink]="['/reading', item.id]" style="text-decoration: none;">
             <span class="badge" [class]="'badge badge-' + item.level">{{ item.level }}</span>
+            @if (item.module !== 'BOTH') { <span class="badge badge-C2">{{ item.module === 'ACADEMIC' ? 'Academic' : 'General' }}</span> }
             <h2 style="margin-top: 0.4rem;">{{ item.title }}</h2>
-            <p class="muted">~{{ item.estimatedMin }} phút · {{ item.questionCount }} câu hỏi</p>
+            <p class="muted">
+              ~{{ item.estimatedMin }} phút · {{ item.questionCount }} câu hỏi
+              @if (item.bandMin != null) { · band {{ item.bandMin }}–{{ item.bandMax }} }
+            </p>
           </a>
         }
       </div>

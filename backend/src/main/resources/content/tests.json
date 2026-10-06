@@ -1,0 +1,37 @@
+{
+  "tests": [
+    {
+      "kind": "PLACEMENT",
+      "module": "ACADEMIC",
+      "title": "Bài kiểm tra đầu vào",
+      "description": "Khoảng 60 phút: 2 phần Listening, 1 bài Reading và 1 bài Writing Task 2. Kết quả dùng để xác định band hiện tại và lập lộ trình.",
+      "durationMin": 60,
+      "sortOrder": 1,
+      "sections": [
+        { "skill": "LISTENING", "refType": "LISTENING_TRACK", "title": "Booking a Community Hall" },
+        { "skill": "LISTENING", "refType": "LISTENING_TRACK", "title": "Riverside Park Volunteer Day" },
+        { "skill": "READING", "refType": "READING_PASSAGE", "title": "The Return of the Urban Beekeeper" },
+        { "skill": "WRITING", "refType": "WRITING_PROMPT", "title": "University education should be free" }
+      ]
+    },
+    {
+      "kind": "MOCK",
+      "module": "ACADEMIC",
+      "title": "Thi thử Academic số 1",
+      "description": "Đủ cấu trúc đề thật: Listening 4 phần (40 câu), Reading 3 bài (40 câu), Writing Task 1 và Task 2. Speaking luyện riêng ở mục Speaking.",
+      "durationMin": 150,
+      "sortOrder": 1,
+      "sections": [
+        { "skill": "LISTENING", "refType": "LISTENING_TRACK", "title": "Booking a Community Hall" },
+        { "skill": "LISTENING", "refType": "LISTENING_TRACK", "title": "Riverside Park Volunteer Day" },
+        { "skill": "LISTENING", "refType": "LISTENING_TRACK", "title": "A Research Project on Food Waste" },
+        { "skill": "LISTENING", "refType": "LISTENING_TRACK", "title": "The Bicycle and the City" },
+        { "skill": "READING", "refType": "READING_PASSAGE", "title": "The Return of the Urban Beekeeper" },
+        { "skill": "READING", "refType": "READING_PASSAGE", "title": "Sleep and the Teenage Brain" },
+        { "skill": "READING", "refType": "READING_PASSAGE", "title": "Reviving Silent Tongues" },
+        { "skill": "WRITING", "refType": "WRITING_PROMPT", "title": "Commuting time in three cities" },
+        { "skill": "WRITING", "refType": "WRITING_PROMPT", "title": "Working from home" }
+      ]
+    }
+  ]
+}

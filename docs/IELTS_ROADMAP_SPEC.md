@@ -5,6 +5,28 @@
 
 ---
 
+## 0. Trạng thái triển khai (cập nhật 06/10/2026)
+
+| Giai đoạn | Trạng thái | Ghi chú |
+|---|---|---|
+| P0 Nền móng | Xong | Một bộ migration chung cho H2 và Postgres (H2 chạy chế độ PostgreSQL), controller tách theo module, secret qua biến môi trường, seeder đọc JSON |
+| P1 Hồ sơ + ngân hàng câu hỏi | Xong | Migration `V3__ielts.sql` chuyển câu hỏi trắc nghiệm cũ sang `questions`; `AnswerGrader` + test |
+| P2 Placement + lộ trình + dashboard | Xong | `RoadmapPlanner` là hàm thuần có test; lộ trình lưu theo phiên bản (`roadmaps.version`, bản cũ `ARCHIVED`) |
+| P3 Writing chấm AI | Xong | Claude qua SDK `anthropic-java`, structured output, chấm nền sau commit |
+| P4 Speaking | Xong, có giới hạn | Speech-to-text chạy **trên trình duyệt** (Web Speech API, cần Chrome/Edge), server chỉ lưu file audio. Pronunciation chưa chấm |
+| P5 Mock test + điều chỉnh lộ trình | Xong, có giới hạn | Mock test gồm L + R + W. **Speaking không thi trong bài thi**: band Speaking lấy từ bài luyện gần nhất |
+| P6 Admin + import nội dung | **Chưa làm** | Thêm nội dung hiện tại bằng cách sửa JSON trong `backend/src/main/resources/content` |
+
+Khác với đặc tả ban đầu:
+- Bài nghe chưa có file audio: trình duyệt đọc lời thoại bằng giọng máy (`shared/tts-player.component.ts`). Khi có audio thật, điền `audioUrl` cho bài nghe là player tự dùng file đó. Trong bài thi, lời thoại vẫn được gửi xuống trình duyệt để đọc, nên người rành kỹ thuật có thể xem được qua DevTools.
+- Placement test khoảng 60 phút (2 phần Listening, 1 bài Reading, 1 bài Writing Task 2), không có Speaking.
+- Bảng quy đổi điểm thô sang band (mục 3.2) lấy từ nguồn luyện thi phổ biến, không phải bảng chính thức. Bảng nằm trong DB (`band_conversions`), sửa bằng migration mới.
+- Heuristic thời gian cần để tăng band (`app.roadmap.weeks-per-half-band: 8` ở 75 phút/ngày) là giả định, chưa kiểm chứng bằng dữ liệu người học thật.
+
+Việc nên làm tiếp: P6 (admin import JSON), thêm đề (hiện có 1 mock test, dùng lại bài luyện), audio thật cho Listening, dashboard biểu đồ band theo thời gian (dữ liệu đã có ở `GET /api/ielts/bands`), test E2E giao diện.
+
+---
+
 ## 1. Mục tiêu sản phẩm
 
 Người học nhập **band mục tiêu** và **ngày thi**, làm **bài kiểm tra đầu vào**. Từ đó app sinh ra **lộ trình học theo tuần và theo ngày** cho cả 4 kỹ năng (Listening, Reading, Writing, Speaking) cộng với từ vựng. Sau mỗi bài thi thử, lộ trình tự điều chỉnh theo điểm.

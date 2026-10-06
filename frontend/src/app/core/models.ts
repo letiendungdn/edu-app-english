@@ -77,21 +77,55 @@ export interface GrammarDetail {
   lessons: LessonView[];
 }
 
-export interface OptionView {
-  id: number;
+export interface OptionItem {
+  key: string;
   text: string;
 }
 
-export interface QuestionView {
+export interface QuestionItem {
   id: number;
-  question: string;
-  options: OptionView[];
+  number: number;
+  prompt: string;
+  options: OptionItem[];
+}
+
+export type QuestionType =
+  | 'MULTIPLE_CHOICE'
+  | 'MULTIPLE_CHOICE_MULTI'
+  | 'TRUE_FALSE_NOT_GIVEN'
+  | 'YES_NO_NOT_GIVEN'
+  | 'MATCHING_HEADINGS'
+  | 'MATCHING_INFORMATION'
+  | 'MATCHING_FEATURES'
+  | 'MATCHING_SENTENCE_ENDINGS'
+  | 'SENTENCE_COMPLETION'
+  | 'SUMMARY_COMPLETION'
+  | 'NOTE_COMPLETION'
+  | 'TABLE_COMPLETION'
+  | 'FLOW_CHART_COMPLETION'
+  | 'DIAGRAM_LABEL'
+  | 'SHORT_ANSWER'
+  | 'FORM_COMPLETION'
+  | 'MAP_LABELLING';
+
+export interface QuestionGroupView {
+  id: number;
+  type: QuestionType;
+  instruction: string;
+  wordLimit?: number | null;
+  imageUrl?: string | null;
+  options: OptionItem[];
+  questions: QuestionItem[];
 }
 
 export interface PassageListItem {
   id: number;
   title: string;
   level: string;
+  module: string;
+  topic?: string | null;
+  bandMin?: number | null;
+  bandMax?: number | null;
   estimatedMin?: number | null;
   source?: string | null;
   questionCount: number;
@@ -104,7 +138,7 @@ export interface PassageDetail {
   estimatedMin?: number | null;
   source?: string | null;
   content: string;
-  questions: QuestionView[];
+  groups: QuestionGroupView[];
 }
 
 export interface TrackListItem {
@@ -113,6 +147,7 @@ export interface TrackListItem {
   level: string;
   durationSec?: number | null;
   youtubeUrl?: string | null;
+  ieltsPart?: number | null;
   questionCount: number;
 }
 
@@ -124,20 +159,26 @@ export interface TrackDetail {
   youtubeUrl?: string | null;
   audioUrl?: string | null;
   transcript?: string | null;
-  questions: QuestionView[];
+  ieltsPart?: number | null;
+  groups: QuestionGroupView[];
 }
 
 export interface AnswerResult {
   questionId: number;
-  correct: boolean;
+  number: number;
+  points: number;
+  maxPoints: number;
+  given?: string | null;
   correctAnswer: string;
   explanation?: string | null;
+  evidence?: string | null;
 }
 
 export interface SubmitResult {
   percent: number;
   correct: number;
   total: number;
+  estimatedBand?: number | null;
   results: AnswerResult[];
 }
 

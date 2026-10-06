@@ -1,48 +1,48 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
+import { Component, computed, inject, OnInit, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ApiService } from '../core/api.service';
+import { band } from '../core/ielts.models';
 import { PassageDetail, SubmitResult } from '../core/models';
+import { QuestionGroupComponent } from '../shared/question-group.component';
 
 @Component({
   selector: 'app-reading-detail',
-  imports: [RouterLink],
+  imports: [RouterLink, QuestionGroupComponent],
   template: `
-    <div class="container page" style="max-width: 760px;">
+    <div class="container page">
       <a routerLink="/reading" class="muted">← Đọc hiểu</a>
       @if (passage(); as passage) {
-        <div style="margin: 1rem 0 0.25rem;">
+        <div style="margin: 0.75rem 0;">
           <span class="badge" [class]="'badge badge-' + passage.level">{{ passage.level }}</span>
-          <span class="muted"> ~{{ passage.estimatedMin }} phút</span>
+          <span class="muted"> ~{{ passage.estimatedMin }} phút · {{ questionCount() }} câu</span>
         </div>
         <h1 style="margin-bottom: 1rem;">{{ passage.title }}</h1>
-        <div class="card" style="white-space: pre-wrap; margin-bottom: 1.5rem;">{{ passage.content }}</div>
-        @if (!result()) {
-          @for (q of passage.questions; track q.id; let i = $index) {
-            <div class="card" style="margin-bottom: 0.75rem;">
-              <p style="font-weight: 600;">{{ i + 1 }}. {{ q.question }}</p>
-              @for (opt of q.options; track opt.id) {
-                <label class="option" [class.selected]="answers()[q.id] === opt.text">
-                  <input type="radio" [name]="'q-' + q.id" (change)="choose(q.id, opt.text)" />
-                  {{ opt.text }}
-                </label>
-              }
-            </div>
-          }
-          <button class="btn btn-primary" [disabled]="!complete() || busy()" (click)="submit()">Nộp bài</button>
-        } @else {
-          <div class="card" style="text-align: center; margin-bottom: 1rem;">
-            <div style="font-size: 2.4rem; font-weight: 800;">{{ result()!.percent }}%</div>
-            <div>{{ result()!.correct }}/{{ result()!.total }} câu đúng</div>
+        <div class="split">
+          <article class="card passage">{{ passage.content }}</article>
+          <div>
+            @if (result(); as r) {
+              <div class="card score-card">
+                <div class="band-big">{{ r.correct }}/{{ r.total }}</div>
+                @if (r.estimatedBand != null) {
+                  <div>Band Reading ước lượng: <strong>{{ fmt(r.estimatedBand) }}</strong></div>
+                } @else {
+                  <div class="muted">Bài ngắn, chưa đủ câu để quy đổi band.</div>
+                }
+              </div>
+            }
+            @for (group of passage.groups; track group.id) {
+              <app-question-group [group]="group" [answers]="answers()" [results]="result()?.results ?? null" (answer)="setAnswer($event)" />
+            }
+            @if (!result()) {
+              <div class="row">
+                <button class="btn btn-primary" [disabled]="busy()" (click)="submit()">Nộp bài</button>
+                <span class="muted">Đã làm {{ answered() }}/{{ questionCount() }}</span>
+              </div>
+            } @else {
+              <button class="btn" (click)="reset()">Làm lại</button>
+            }
           </div>
-          @for (q of passage.questions; track q.id; let i = $index) {
-            <div class="card" style="margin-bottom: 0.6rem;">
-              <p style="font-weight: 600;">{{ i + 1 }}. {{ q.question }}</p>
-              <p class="muted">Đáp án: <strong>{{ answerFor(q.id) }}</strong></p>
-              @if (explain(q.id)) { <p class="muted">{{ explain(q.id) }}</p> }
-            </div>
-          }
-          <button class="btn" (click)="reset()">Làm lại</button>
-        }
+        </div>
       }
     </div>
   `,
@@ -51,41 +51,34 @@ export class ReadingDetailComponent implements OnInit {
   private api = inject(ApiService);
   private route = inject(ActivatedRoute);
   passage = signal<PassageDetail | null>(null);
-  answers = signal<Record<number, string>>({});
+  answers = signal<Record<string, string>>({});
   result = signal<SubmitResult | null>(null);
   busy = signal(false);
+  fmt = band;
+
+  questionCount = computed(() => (this.passage()?.groups ?? []).reduce((n, g) => n + g.questions.length, 0));
+  answered = computed(() => Object.values(this.answers()).filter((v) => v.trim()).length);
 
   ngOnInit() {
     this.api.readingDetail(Number(this.route.snapshot.paramMap.get('id'))).subscribe((p) => this.passage.set(p));
   }
 
-  choose(id: number, text: string) {
-    this.answers.update((current) => ({ ...current, [id]: text }));
-  }
-
-  complete() {
-    const questions = this.passage()?.questions ?? [];
-    return questions.length > 0 && questions.every((q) => this.answers()[q.id]);
+  setAnswer(event: { questionId: number; value: string }) {
+    this.answers.update((current) => ({ ...current, [event.questionId]: event.value }));
   }
 
   submit() {
     const passage = this.passage();
     if (!passage) return;
-    const answers: Record<string, string> = {};
-    for (const [key, value] of Object.entries(this.answers())) answers[String(key)] = value;
     this.busy.set(true);
-    this.api.submitReading(passage.id, answers).subscribe({
-      next: (result) => { this.result.set(result); this.busy.set(false); },
+    this.api.submitReading(passage.id, this.answers()).subscribe({
+      next: (result) => {
+        this.result.set(result);
+        this.busy.set(false);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      },
       error: () => this.busy.set(false),
     });
-  }
-
-  answerFor(id: number) {
-    return this.result()?.results.find((item) => item.questionId === id)?.correctAnswer;
-  }
-
-  explain(id: number) {
-    return this.result()?.results.find((item) => item.questionId === id)?.explanation;
   }
 
   reset() {

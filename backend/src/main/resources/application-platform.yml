@@ -11,8 +11,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-  flyway:
-    locations: classpath:db/postgresql
   data:
     redis:
       host: ${REDIS_HOST:redis}

@@ -18,5 +18,7 @@ public interface SrsCardRepository extends JpaRepository<SrsCard, Long> {
 
   long countByUserId(Long userId);
 
+  long countByUserIdAndContentTypeAndNextReviewAtLessThanEqual(Long userId, ContentType contentType, Instant now);
+
   long countByUserIdAndRepetitionsGreaterThanEqual(Long userId, int repetitions);
 }

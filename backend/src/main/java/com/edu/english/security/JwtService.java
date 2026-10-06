@@ -18,7 +18,12 @@ public class JwtService {
   public JwtService(
       @Value("${app.jwt.secret}") String secret,
       @Value("${app.jwt.expiration-days}") long expirationDays) {
-    this.key = Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
+    byte[] bytes = secret == null ? new byte[0] : secret.getBytes(StandardCharsets.UTF_8);
+    if (bytes.length < 32) {
+      throw new IllegalStateException(
+          "APP_JWT_SECRET phải có tối thiểu 32 ký tự (profile dev có sẵn giá trị mặc định, profile khác bắt buộc đặt).");
+    }
+    this.key = Keys.hmacShaKeyFor(bytes);
     this.expirationDays = expirationDays;
   }
 

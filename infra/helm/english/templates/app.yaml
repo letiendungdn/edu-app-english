@@ -1,3 +1,5 @@
+# Secret không nằm trong values.yaml để không bị commit lên git. Tạo trước khi cài chart:
+#   kubectl create secret generic <release>-secrets --from-literal=jwt-secret=... --from-literal=ai-api-key=...
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -25,7 +27,16 @@ spec:
             - name: REDIS_HOST
               value: {{ .Values.redisHost | quote }}
             - name: JWT_SECRET
-              value: {{ .Values.jwtSecret | quote }}
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-secrets
+                  key: jwt-secret
+            - name: APP_AI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-secrets
+                  key: ai-api-key
+                  optional: true
           readinessProbe:
             httpGet:
               path: /actuator/health/readiness

@@ -61,12 +61,32 @@ public final class ApiModels {
   public record GrammarDetail(
       Long id, String title, String level, String description, List<LessonView> lessons) {}
 
-  public record OptionView(Long id, String text) {}
+  /** Lựa chọn theo chữ cái/số La Mã: A, B, C hoặc i, ii, iii. */
+  public record OptionItem(String key, String text) {}
 
-  public record QuestionView(Long id, String question, List<OptionView> options) {}
+  public record QuestionItem(Long id, int number, String prompt, List<OptionItem> options) {}
+
+  /** Nhóm câu hỏi chung hướng dẫn. Không bao giờ chứa đáp án. */
+  public record QuestionGroupView(
+      Long id,
+      String type,
+      String instruction,
+      Integer wordLimit,
+      String imageUrl,
+      List<OptionItem> options,
+      List<QuestionItem> questions) {}
 
   public record PassageListItem(
-      Long id, String title, String level, Integer estimatedMin, String source, int questionCount) {}
+      Long id,
+      String title,
+      String level,
+      String module,
+      String topic,
+      Double bandMin,
+      Double bandMax,
+      Integer estimatedMin,
+      String source,
+      long questionCount) {}
 
   public record PassageDetail(
       Long id,
@@ -75,7 +95,7 @@ public final class ApiModels {
       Integer estimatedMin,
       String source,
       String content,
-      List<QuestionView> questions) {}
+      List<QuestionGroupView> groups) {}
 
   public record TrackListItem(
       Long id,
@@ -83,7 +103,8 @@ public final class ApiModels {
       String level,
       Integer durationSec,
       String youtubeUrl,
-      int questionCount) {}
+      Integer ieltsPart,
+      long questionCount) {}
 
   public record TrackDetail(
       Long id,
@@ -93,14 +114,24 @@ public final class ApiModels {
       String youtubeUrl,
       String audioUrl,
       String transcript,
-      List<QuestionView> questions) {}
+      Integer ieltsPart,
+      List<QuestionGroupView> groups) {}
 
   public record SubmitRequest(Map<String, String> answers) {}
 
   public record AnswerResult(
-      Long questionId, boolean correct, String correctAnswer, String explanation) {}
+      Long questionId,
+      int number,
+      int points,
+      int maxPoints,
+      String given,
+      String correctAnswer,
+      String explanation,
+      String evidence) {}
 
-  public record SubmitResult(int correct, int total, int percent, List<AnswerResult> results) {}
+  /** estimatedBand chỉ có khi bài đủ dài (từ 10 câu) để quy đổi có ý nghĩa. */
+  public record SubmitResult(
+      int correct, int total, int percent, Double estimatedBand, List<AnswerResult> results) {}
 
   public record DictationWord(
       Long id, String word, String phonetic, String meaningVi, String exampleEn) {}

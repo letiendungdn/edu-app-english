@@ -1,6 +1,11 @@
 package com.edu.english.service;
 
+import com.edu.english.domain.Enums.BandSource;
 import com.edu.english.domain.Enums.EnglishLevel;
+import com.edu.english.domain.Enums.IeltsModule;
+import com.edu.english.domain.Enums.OwnerType;
+import com.edu.english.domain.Enums.Skill;
+import com.edu.english.domain.Enums.TaskType;
 import com.edu.english.domain.GrammarExercise;
 import com.edu.english.domain.GrammarLesson;
 import com.edu.english.domain.GrammarTopic;
@@ -12,6 +17,7 @@ import com.edu.english.domain.StudySession;
 import com.edu.english.domain.Vocabulary;
 import com.edu.english.repo.DictationAttemptRepository;
 import com.edu.english.repo.GrammarTopicRepository;
+import com.edu.english.repo.IeltsProfileRepository;
 import com.edu.english.repo.ListeningAttemptRepository;
 import com.edu.english.repo.ListeningTrackRepository;
 import com.edu.english.repo.ReadingAttemptRepository;
@@ -20,18 +26,15 @@ import com.edu.english.repo.SrsCardRepository;
 import com.edu.english.repo.StudySessionRepository;
 import com.edu.english.repo.VocabularyRepository;
 import com.edu.english.web.ApiModels.AnalyticsView;
-import com.edu.english.web.ApiModels.AnswerResult;
 import com.edu.english.web.ApiModels.DictationWord;
 import com.edu.english.web.ApiModels.ExerciseView;
 import com.edu.english.web.ApiModels.GrammarDetail;
 import com.edu.english.web.ApiModels.GrammarListItem;
 import com.edu.english.web.ApiModels.HistoryPoint;
 import com.edu.english.web.ApiModels.LessonView;
-import com.edu.english.web.ApiModels.OptionView;
 import com.edu.english.web.ApiModels.Overview;
 import com.edu.english.web.ApiModels.PassageDetail;
 import com.edu.english.web.ApiModels.PassageListItem;
-import com.edu.english.web.ApiModels.QuestionView;
 import com.edu.english.web.ApiModels.StudyPoint;
 import com.edu.english.web.ApiModels.SubmitResult;
 import com.edu.english.web.ApiModels.TrackDetail;
@@ -57,6 +60,10 @@ public class ContentService {
   private final SrsCardRepository cards;
   private final StudySessionRepository sessions;
   private final VocabService vocabService;
+  private final QuestionBank questionBank;
+  private final BandService bands;
+  private final RoadmapService roadmap;
+  private final IeltsProfileRepository profiles;
 
   public ContentService(
       GrammarTopicRepository grammar,
@@ -68,7 +75,11 @@ public class ContentService {
       DictationAttemptRepository dictations,
       SrsCardRepository cards,
       StudySessionRepository sessions,
-      VocabService vocabService) {
+      VocabService vocabService,
+      QuestionBank questionBank,
+      BandService bands,
+      RoadmapService roadmap,
+      IeltsProfileRepository profiles) {
     this.grammar = grammar;
     this.passages = passages;
     this.readingAttempts = readingAttempts;
@@ -79,6 +90,10 @@ public class ContentService {
     this.cards = cards;
     this.sessions = sessions;
     this.vocabService = vocabService;
+    this.questionBank = questionBank;
+    this.bands = bands;
+    this.roadmap = roadmap;
+    this.profiles = profiles;
   }
 
   @Transactional(readOnly = true)
@@ -112,6 +127,7 @@ public class ContentService {
 
   @Transactional(readOnly = true)
   public List<PassageListItem> readings(String levelParam) {
+    Map<Long, Long> counts = questionBank.questionCounts(OwnerType.READING_PASSAGE);
     return loadPassages(levelParam).stream()
         .map(
             p ->
@@ -119,9 +135,13 @@ public class ContentService {
                     p.getId(),
                     p.getTitle(),
                     p.getLevel().name(),
+                    p.getModule().name(),
+                    p.getTopic(),
+                    p.getBandMin(),
+                    p.getBandMax(),
                     p.getEstimatedMin(),
                     p.getSource(),
-                    p.getQuestions().size()))
+                    counts.getOrDefault(p.getId(), 0L)))
         .toList();
   }
 
@@ -135,13 +155,18 @@ public class ContentService {
         passage.getEstimatedMin(),
         passage.getSource(),
         passage.getContent(),
-        passage.getQuestions().stream().map(q -> toQuestion(q.getId(), q.getQuestion(), q.getOptions().stream().map(o -> new OptionView(o.getId(), o.getText())).toList())).toList());
+        questionBank.views(OwnerType.READING_PASSAGE, passage.getId()));
   }
 
   @Transactional
   public SubmitResult submitReading(Long id, Map<String, String> answers, Long userId) {
     ReadingPassage passage = requirePassage(id);
-    SubmitResult result = grade(passage.getQuestions().stream().map(q -> new Graded(q.getId(), q.getAnswer(), q.getExplanation())).toList(), answers);
+    QuestionBank.Graded graded = questionBank.grade(OwnerType.READING_PASSAGE, id, answers);
+    Double band =
+        graded.maxPoints() >= PRACTICE_BAND_MIN_QUESTIONS
+            ? bands.convert(Skill.READING, readingModule(passage, userId), graded.points(), graded.maxPoints())
+            : null;
+    SubmitResult result = toResult(graded, band);
     if (userId != null) {
       ReadingAttempt attempt = new ReadingAttempt();
       attempt.setUserId(userId);
@@ -151,12 +176,15 @@ public class ContentService {
       attempt.setPercent(result.percent());
       readingAttempts.save(attempt);
       vocabService.addStudy(userId, 60, 0);
+      if (band != null) bands.record(userId, Skill.READING, band, BandSource.PRACTICE, attempt.getId());
+      roadmap.recordProgress(userId, TaskType.READING);
     }
     return result;
   }
 
   @Transactional(readOnly = true)
   public List<TrackListItem> listenings(String levelParam) {
+    Map<Long, Long> counts = questionBank.questionCounts(OwnerType.LISTENING_TRACK);
     return loadTracks(levelParam).stream()
         .map(
             t ->
@@ -166,7 +194,8 @@ public class ContentService {
                     t.getLevel().name(),
                     t.getDurationSec(),
                     t.getYoutubeUrl(),
-                    t.getQuestions().size()))
+                    t.getIeltsPart(),
+                    counts.getOrDefault(t.getId(), 0L)))
         .toList();
   }
 
@@ -181,18 +210,19 @@ public class ContentService {
         track.getYoutubeUrl(),
         track.getAudioUrl(),
         track.getTranscript(),
-        track.getQuestions().stream()
-            .map(q -> toQuestion(q.getId(), q.getQuestion(), q.getOptions().stream().map(o -> new OptionView(o.getId(), o.getText())).toList()))
-            .toList());
+        track.getIeltsPart(),
+        questionBank.views(OwnerType.LISTENING_TRACK, track.getId()));
   }
 
   @Transactional
   public SubmitResult submitListening(Long id, Map<String, String> answers, Long userId) {
-    ListeningTrack track = requireTrack(id);
-    SubmitResult result =
-        grade(
-            track.getQuestions().stream().map(q -> new Graded(q.getId(), q.getAnswer(), q.getExplanation())).toList(),
-            answers);
+    requireTrack(id);
+    QuestionBank.Graded graded = questionBank.grade(OwnerType.LISTENING_TRACK, id, answers);
+    Double band =
+        graded.maxPoints() >= PRACTICE_BAND_MIN_QUESTIONS
+            ? bands.convert(Skill.LISTENING, IeltsModule.BOTH, graded.points(), graded.maxPoints())
+            : null;
+    SubmitResult result = toResult(graded, band);
     if (userId != null) {
       ListeningAttempt attempt = new ListeningAttempt();
       attempt.setUserId(userId);
@@ -202,6 +232,8 @@ public class ContentService {
       attempt.setPercent(result.percent());
       listeningAttempts.save(attempt);
       vocabService.addStudy(userId, 60, 0);
+      if (band != null) bands.record(userId, Skill.LISTENING, band, BandSource.PRACTICE, attempt.getId());
+      roadmap.recordProgress(userId, TaskType.LISTENING);
     }
     return result;
   }
@@ -227,7 +259,10 @@ public class ContentService {
     attempt.setCorrect(correct);
     attempt.setUserId(userId);
     dictations.save(attempt);
-    if (userId != null) vocabService.addStudy(userId, 15, 0);
+    if (userId != null) {
+      vocabService.addStudy(userId, 15, 0);
+      roadmap.recordProgress(userId, TaskType.DICTATION);
+    }
   }
 
   @Transactional(readOnly = true)
@@ -269,10 +304,6 @@ public class ContentService {
         exercise.getOptions().stream().map(o -> o.getText()).toList());
   }
 
-  private QuestionView toQuestion(Long id, String question, List<OptionView> options) {
-    return new QuestionView(id, question, options);
-  }
-
   private List<ReadingPassage> loadPassages(String levelParam) {
     EnglishLevel level = AuthService.parseLevel(levelParam);
     return level == null
@@ -299,22 +330,18 @@ public class ContentService {
         .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Không tìm thấy bài nghe"));
   }
 
-  private SubmitResult grade(List<Graded> questions, Map<String, String> answers) {
-    Map<String, String> safe = answers == null ? Map.of() : answers;
-    List<AnswerResult> results =
-        questions.stream()
-            .map(
-                q -> {
-                  String given = safe.get(String.valueOf(q.id()));
-                  boolean ok = q.answer().equals(given);
-                  return new AnswerResult(q.id(), ok, q.answer(), q.explanation());
-                })
-            .toList();
-    int correct = (int) results.stream().filter(AnswerResult::correct).count();
-    int total = questions.size();
-    int percent = total == 0 ? 0 : Math.round(correct * 100f / total);
-    return new SubmitResult(correct, total, percent, results);
+  /** Bài luyện ngắn hơn số câu này thì không quy đổi band: đúng 2/3 câu không nói lên band nào cả. */
+  static final int PRACTICE_BAND_MIN_QUESTIONS = 10;
+
+  private static SubmitResult toResult(QuestionBank.Graded graded, Double band) {
+    int total = graded.maxPoints();
+    int percent = total == 0 ? 0 : Math.round(graded.points() * 100f / total);
+    return new SubmitResult(graded.points(), total, percent, band, graded.results());
   }
 
-  private record Graded(Long id, String answer, String explanation) {}
+  private IeltsModule readingModule(ReadingPassage passage, Long userId) {
+    if (passage.getModule() != IeltsModule.BOTH) return passage.getModule();
+    if (userId == null) return IeltsModule.ACADEMIC;
+    return profiles.findById(userId).map(p -> p.getModule()).orElse(IeltsModule.ACADEMIC);
+  }
 }

@@ -1,39 +1,48 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
+import { Component, computed, inject, OnInit, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ApiService } from '../core/api.service';
+import { band } from '../core/ielts.models';
 import { SubmitResult, TrackDetail } from '../core/models';
+import { QuestionGroupComponent } from '../shared/question-group.component';
+import { TtsPlayerComponent } from '../shared/tts-player.component';
 
 @Component({
   selector: 'app-listening-detail',
-  imports: [RouterLink],
+  imports: [RouterLink, QuestionGroupComponent, TtsPlayerComponent],
   template: `
-    <div class="container page" style="max-width: 760px;">
+    <div class="container page" style="max-width: 820px;">
       <a routerLink="/listening" class="muted">← Nghe</a>
       @if (track(); as track) {
-        <h1 style="margin: 1rem 0;">{{ track.title }}</h1>
-        <div class="card" style="margin-bottom: 1rem;">
-          <p class="muted">{{ track.transcript }}</p>
-          <button class="btn" style="margin-top: 0.75rem;" (click)="speak()">Nghe transcript</button>
+        <div style="margin: 0.75rem 0;">
+          @if (track.ieltsPart) { <span class="badge badge-C1">Part {{ track.ieltsPart }}</span> }
+          <span class="badge" [class]="'badge badge-' + track.level">{{ track.level }}</span>
         </div>
-        @if (!result()) {
-          @for (q of track.questions; track q.id; let i = $index) {
-            <div class="card" style="margin-bottom: 0.75rem;">
-              <p style="font-weight: 600;">{{ i + 1 }}. {{ q.question }}</p>
-              @for (opt of q.options; track opt.id) {
-                <label class="option" [class.selected]="answers()[q.id] === opt.text">
-                  <input type="radio" [name]="'q-' + q.id" (change)="choose(q.id, opt.text)" />
-                  {{ opt.text }}
-                </label>
-              }
-            </div>
-          }
-          <button class="btn btn-primary" [disabled]="!complete() || busy()" (click)="submit()">Nộp bài</button>
-        } @else {
-          <div class="card" style="text-align: center;">
-            <div style="font-size: 2.4rem; font-weight: 800;">{{ result()!.percent }}%</div>
-            <div>{{ result()!.correct }}/{{ result()!.total }} câu đúng</div>
+        <h1 style="margin-bottom: 1rem;">{{ track.title }}</h1>
+        <app-tts-player [script]="track.transcript" [audioUrl]="track.audioUrl" />
+        <p class="muted" style="margin: 0.75rem 0;">Đọc trước câu hỏi, sau đó bấm Nghe. Lời thoại chỉ hiện sau khi nộp bài.</p>
+
+        @if (result(); as r) {
+          <div class="card score-card">
+            <div class="band-big">{{ r.correct }}/{{ r.total }}</div>
+            @if (r.estimatedBand != null) {
+              <div>Band Listening ước lượng: <strong>{{ fmt(r.estimatedBand) }}</strong></div>
+            }
           </div>
-          <button class="btn" style="margin-top: 1rem;" (click)="result.set(null); answers.set({})">Làm lại</button>
+        }
+        @for (group of track.groups; track group.id) {
+          <app-question-group [group]="group" [answers]="answers()" [results]="result()?.results ?? null" (answer)="setAnswer($event)" />
+        }
+        @if (!result()) {
+          <div class="row">
+            <button class="btn btn-primary" [disabled]="busy()" (click)="submit()">Nộp bài</button>
+            <span class="muted">Đã làm {{ answered() }}/{{ questionCount() }}</span>
+          </div>
+        } @else {
+          <details class="card" style="margin-bottom: 1rem;">
+            <summary><strong>Lời thoại</strong></summary>
+            <p class="passage" style="margin-top: 0.5rem;">{{ track.transcript }}</p>
+          </details>
+          <button class="btn" (click)="reset()">Làm lại</button>
         }
       }
     </div>
@@ -43,42 +52,37 @@ export class ListeningDetailComponent implements OnInit {
   private api = inject(ApiService);
   private route = inject(ActivatedRoute);
   track = signal<TrackDetail | null>(null);
-  answers = signal<Record<number, string>>({});
+  answers = signal<Record<string, string>>({});
   result = signal<SubmitResult | null>(null);
   busy = signal(false);
+  fmt = band;
+
+  questionCount = computed(() => (this.track()?.groups ?? []).reduce((n, g) => n + g.questions.length, 0));
+  answered = computed(() => Object.values(this.answers()).filter((v) => v.trim()).length);
 
   ngOnInit() {
-    this.api.listeningDetail(Number(this.route.snapshot.paramMap.get('id'))).subscribe((track) => this.track.set(track));
+    this.api.listeningDetail(Number(this.route.snapshot.paramMap.get('id'))).subscribe((t) => this.track.set(t));
   }
 
-  speak() {
-    const text = this.track()?.transcript;
-    if (!text) return;
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = 'en-US';
-    utter.rate = 0.9;
-    speechSynthesis.cancel();
-    speechSynthesis.speak(utter);
-  }
-
-  choose(id: number, text: string) {
-    this.answers.update((current) => ({ ...current, [id]: text }));
-  }
-
-  complete() {
-    const questions = this.track()?.questions ?? [];
-    return questions.every((q) => this.answers()[q.id]);
+  setAnswer(event: { questionId: number; value: string }) {
+    this.answers.update((current) => ({ ...current, [event.questionId]: event.value }));
   }
 
   submit() {
     const track = this.track();
     if (!track) return;
-    const answers: Record<string, string> = {};
-    for (const [key, value] of Object.entries(this.answers())) answers[String(key)] = value;
     this.busy.set(true);
-    this.api.submitListening(track.id, answers).subscribe({
-      next: (result) => { this.result.set(result); this.busy.set(false); },
+    this.api.submitListening(track.id, this.answers()).subscribe({
+      next: (result) => {
+        this.result.set(result);
+        this.busy.set(false);
+      },
       error: () => this.busy.set(false),
     });
+  }
+
+  reset() {
+    this.answers.set({});
+    this.result.set(null);
   }
 }

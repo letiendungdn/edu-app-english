@@ -3,17 +3,186 @@
     {
       "title": "At the Cafe",
       "level": "A1",
-      "durationSec": 90,
+      "bandMin": 2.0,
+      "bandMax": 3.5,
+      "durationSec": 30,
       "sortOrder": 1,
-      "source": "EDU APP English sample",
+      "source": "EDU APP English",
       "license": "original",
-      "transcript": "A: Hi, can I have a coffee, please? B: Sure. Anything else? A: A glass of water, thank you.",
-      "questions": [
+      "transcript": "Customer: Hi, can I have a coffee, please?\nWaiter: Sure. Anything else?\nCustomer: A glass of water, thank you.",
+      "groups": [
         {
-          "question": "What does the customer order first?",
-          "answer": "A coffee",
-          "sortOrder": 1,
-          "options": ["A tea", "A coffee", "A cake", "A sandwich"]
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            { "number": 1, "prompt": "What does the customer order first?", "answers": ["B"], "options": [{"key": "A", "text": "A tea"}, {"key": "B", "text": "A coffee"}, {"key": "C", "text": "A cake"}, {"key": "D", "text": "A sandwich"}] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Booking a Community Hall",
+      "level": "B1",
+      "ieltsPart": 1,
+      "bandMin": 4.0,
+      "bandMax": 6.0,
+      "durationSec": 360,
+      "sortOrder": 10,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Clerk: Good morning, Westbrook Community Centre. How can I help you?\nCaller: Hello. I'd like to book the main hall for a birthday party, please.\nClerk: Of course. Can I take your name first?\nCaller: Yes, it's Daniel Fairley. That's F-A-I-R-L-E-Y.\nClerk: Thank you, Mr Fairley. And what date were you thinking of?\nCaller: Saturday the fourteenth of March. Oh, sorry, the fifteenth. The fourteenth is a Friday.\nClerk: That's right, Saturday the fifteenth. How many guests are you expecting?\nCaller: About sixty adults, and maybe twenty children.\nClerk: So eighty people in total. The main hall holds up to one hundred, so that's fine. What time would you like to start?\nCaller: The party starts at seven, but we'd like to get in earlier to decorate. Could we have the hall from five thirty?\nClerk: Yes, five thirty is fine. The hall must be empty by eleven.\nCaller: That's no problem. What does it cost?\nClerk: For a Saturday evening it's forty-five pounds an hour. There's also a deposit of a hundred and fifty pounds, which we return after the event if there's no damage.\nCaller: Is there anywhere to prepare food?\nClerk: There's a fully equipped kitchen next to the hall. You can use the fridge and the oven, but please bring your own plates. We don't provide those any more.\nCaller: OK. And what about parking?\nClerk: There's free parking behind the building for about thirty cars. Your guests can also use the supermarket car park across the road after six o'clock.\nCaller: Great. Do I need to bring anything else?\nClerk: If you're playing music, you'll need to keep the volume down after ten, because of the neighbours. And we'll need a contact phone number.\nCaller: Sure, it's oh seven seven one five, double four two, nine three six.\nClerk: Thank you. I'll email you a booking form today.",
+      "groups": [
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            { "number": 1, "prompt": "Name: Daniel {{blank}}", "answers": ["Fairley"] },
+            { "number": 2, "prompt": "Date of party: Saturday {{blank}} March", "answers": ["15", "15th", "fifteenth", "the 15th", "the fifteenth"], "explanation": "Người gọi sửa lại: ngày 14 là thứ Sáu, nên đáp án là ngày 15." },
+            { "number": 3, "prompt": "Total number of guests: {{blank}}", "answers": ["80", "eighty"] },
+            { "number": 4, "prompt": "Hall needed from: {{blank}} p.m.", "answers": ["5.30", "5:30", "five thirty"] },
+            { "number": 5, "prompt": "Cost: £{{blank}} per hour", "answers": ["45", "forty-five"] },
+            { "number": 6, "prompt": "Deposit: £{{blank}}", "answers": ["150"] },
+            { "number": 7, "prompt": "Kitchen: guests must bring their own {{blank}}", "answers": ["plates"] },
+            { "number": 8, "prompt": "Free parking for about {{blank}} cars", "answers": ["30", "thirty"] },
+            { "number": 9, "prompt": "Music must be quiet after {{blank}} p.m.", "answers": ["10", "ten", "10.00", "10:00"] },
+            { "number": 10, "prompt": "Contact number: 0771 544 {{blank}}", "answers": ["2936", "2 9 3 6"], "explanation": "Số đọc là 0771 5 double 4 2 936 = 0771 544 2936." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Riverside Park Volunteer Day",
+      "level": "B2",
+      "ieltsPart": 2,
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "durationSec": 420,
+      "sortOrder": 11,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Good morning, everyone, and thank you for coming to the Riverside Park volunteer day. My name's Helen and I'm the park's volunteer coordinator. Before we split into groups, I'll explain how the day will work.\nGuide: First, a little background. The park opened in 1962 on land that used to be a timber yard, and for many years it was mainly used by dog walkers. Ten years ago the council planned to sell part of it for housing, but local residents campaigned against this, and that campaign is really how our volunteer group started. We now have over two hundred members.\nGuide: Today we'll be working until three o'clock. Lunch is provided, and it will be served at the boathouse, not at the visitor centre as it says on the website, because the visitor centre kitchen is being repaired. If you have any food allergies, please tell me before eleven.\nGuide: Please wear the gloves we give you at all times. You don't need to bring your own tools; everything is in the store room. The one thing we do ask is that you keep your phone switched off near the bird hide, because the noise disturbs the nesting birds.\nGuide: Now, let me tell you about the different areas and what we'll be doing in each one.\nGuide: Starting by the main gate, there's the rose garden. The roses are actually in good condition this year, so the team there will be painting the old benches, which are looking rather tired.\nGuide: Next to it is the children's playground. The equipment was checked last week, so today the job there is collecting litter, which tends to build up around the fence.\nGuide: Moving along the river, you'll come to the wildflower meadow. Many people think we cut the grass there, but in fact we leave it long. Today we'll be planting seeds to add more variety.\nGuide: Beyond the meadow is the pond. A lot of weed has grown over the surface this summer, and that needs to be removed so that light can reach the water.\nGuide: Then there's the woodland walk. Several trees came down in the storms last winter, and the team there will be clearing fallen branches from the path.\nGuide: And finally, the old orchard at the far end of the park. The fruit trees there are very old, and today a specialist will be showing volunteers how to prune them properly.\nGuide: Right, if you'd like to choose your area, come and write your name on the list.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            { "number": 11, "prompt": "The volunteer group was started because", "answers": ["C"], "options": [{"key": "A", "text": "the park was too popular with dog walkers."}, {"key": "B", "text": "the timber yard closed down."}, {"key": "C", "text": "residents opposed plans to build houses."}] },
+            { "number": 12, "prompt": "Today, lunch will be served at", "answers": ["B"], "options": [{"key": "A", "text": "the visitor centre."}, {"key": "B", "text": "the boathouse."}, {"key": "C", "text": "the main gate."}] },
+            { "number": 13, "prompt": "Volunteers should tell Helen about food allergies", "answers": ["A"], "options": [{"key": "A", "text": "before eleven o'clock."}, {"key": "B", "text": "when they sign the list."}, {"key": "C", "text": "at lunchtime."}] },
+            { "number": 14, "prompt": "What are volunteers asked to do near the bird hide?", "answers": ["B"], "options": [{"key": "A", "text": "wear gloves"}, {"key": "B", "text": "switch off their phones"}, {"key": "C", "text": "bring their own tools"}] }
+          ]
+        },
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "What will volunteers do in each area of the park? Choose SIX answers from the box and write the correct letter, A-G.",
+          "options": [
+            { "key": "A", "text": "collect rubbish" },
+            { "key": "B", "text": "cut the grass" },
+            { "key": "C", "text": "paint seating" },
+            { "key": "D", "text": "remove plants from water" },
+            { "key": "E", "text": "clear a path" },
+            { "key": "F", "text": "add new seeds" },
+            { "key": "G", "text": "learn to cut back trees" }
+          ],
+          "questions": [
+            { "number": 15, "prompt": "Rose garden", "answers": ["C"], "explanation": "Hoa hồng đang tốt, việc hôm nay là sơn ghế băng cũ." },
+            { "number": 16, "prompt": "Children's playground", "answers": ["A"] },
+            { "number": 17, "prompt": "Wildflower meadow", "answers": ["F"], "explanation": "Bẫy: nhiều người nghĩ cắt cỏ, nhưng thực ra để cỏ dài và gieo hạt." },
+            { "number": 18, "prompt": "Pond", "answers": ["D"] },
+            { "number": 19, "prompt": "Woodland walk", "answers": ["E"] },
+            { "number": 20, "prompt": "Old orchard", "answers": ["G"] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A Research Project on Food Waste",
+      "level": "C1",
+      "ieltsPart": 3,
+      "bandMin": 5.5,
+      "bandMax": 7.5,
+      "durationSec": 480,
+      "sortOrder": 12,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Tutor: So, Maya and Tom, how's the project on food waste going?\nMaya: Quite well, I think. We decided to focus on student halls rather than restaurants, because we could actually get access to the kitchens.\nTom: And restaurant owners weren't very keen to talk to us anyway.\nTutor: That makes sense. How did you collect your data?\nMaya: At first we wanted to interview students, but we realised people don't really remember what they throw away. So in the end we weighed the food waste bins in four halls every evening for two weeks.\nTutor: Good. And what did you find?\nTom: The biggest category by far was bread. We expected it to be fruit and vegetables, but bread was nearly a third of the total.\nMaya: Mostly because people buy a whole loaf and only eat half before it goes stale.\nTutor: Interesting. Did anything else surprise you?\nTom: The difference between the halls. The hall with shared fridges wasted much more than the ones where each student has their own small fridge.\nMaya: We think it's because in a shared fridge nobody feels responsible, and things get pushed to the back and forgotten.\nTutor: What about the time of the semester?\nMaya: Waste went up sharply in the last week before the holidays, when people were leaving and just emptied their cupboards.\nTutor: Right. Now, in your report you'll need to make recommendations. What have you got so far?\nTom: Well, we've talked about several ideas. One was a sharing shelf in each kitchen, where people can leave food they won't eat.\nMaya: And the other one we really like is selling smaller loaves in the campus shop. Both of those are cheap and easy to set up.\nTom: We also discussed cooking classes, but honestly that would be expensive, and the students who sign up probably aren't the ones wasting food.\nMaya: And we thought about fines for full bins, but we decided that would just make people hide their waste.\nTutor: I agree. So, which sources are you planning to use?\nMaya: For the background, the government report on household waste is really useful, especially the statistics, although it's a bit out of date now.\nTom: The article by Professor Lin is more recent, and it's very good on the psychology of why people waste food, but it doesn't have much data.\nMaya: And there's the campus sustainability survey, which is great because it's specific to our university, but only about a hundred students answered it, so it's not very reliable.\nTutor: Those are fair comments. Make sure they go into your discussion of limitations.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            { "number": 21, "prompt": "Why did the students choose to study student halls?", "answers": ["A"], "options": [{"key": "A", "text": "They could get into the kitchens."}, {"key": "B", "text": "Restaurants waste very little food."}, {"key": "C", "text": "Their tutor suggested it."}] },
+            { "number": 22, "prompt": "How did they collect their data in the end?", "answers": ["B"], "options": [{"key": "A", "text": "by interviewing students"}, {"key": "B", "text": "by weighing waste bins"}, {"key": "C", "text": "by asking students to keep diaries"}] },
+            { "number": 23, "prompt": "Which type of food was wasted most?", "answers": ["C"], "options": [{"key": "A", "text": "fruit"}, {"key": "B", "text": "vegetables"}, {"key": "C", "text": "bread"}] },
+            { "number": 24, "prompt": "The hall that wasted most food was the one where", "answers": ["C"], "options": [{"key": "A", "text": "students cooked together."}, {"key": "B", "text": "students had small fridges."}, {"key": "C", "text": "fridges were shared."}] },
+            { "number": 25, "prompt": "Waste increased most", "answers": ["B"], "options": [{"key": "A", "text": "at the start of the semester."}, {"key": "B", "text": "just before the holidays."}, {"key": "C", "text": "during exams."}] }
+          ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Questions 26-27. Choose TWO letters, A-E. Which TWO recommendations do the students prefer?",
+          "questions": [
+            {
+              "number": 26,
+              "prompt": "Which TWO recommendations do the students prefer?",
+              "answers": ["A", "D"],
+              "options": [
+                { "key": "A", "text": "a shelf for sharing food" },
+                { "key": "B", "text": "cooking classes" },
+                { "key": "C", "text": "fines for full bins" },
+                { "key": "D", "text": "smaller loaves in the shop" },
+                { "key": "E", "text": "bigger fridges" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "What do the students say about each source? Choose THREE answers from the box and write the correct letter, A-E.",
+          "options": [
+            { "key": "A", "text": "useful data but not current" },
+            { "key": "B", "text": "recent but contains few figures" },
+            { "key": "C", "text": "local but based on a small sample" },
+            { "key": "D", "text": "too difficult to understand" },
+            { "key": "E", "text": "written for restaurant owners" }
+          ],
+          "questions": [
+            { "number": 28, "prompt": "Government report", "answers": ["A"] },
+            { "number": 29, "prompt": "Professor Lin's article", "answers": ["B"] },
+            { "number": 30, "prompt": "Campus sustainability survey", "answers": ["C"] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Bicycle and the City",
+      "level": "C1",
+      "ieltsPart": 4,
+      "bandMin": 6.0,
+      "bandMax": 8.0,
+      "durationSec": 480,
+      "sortOrder": 13,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: Today I want to look at how the bicycle has shaped, and been shaped by, the design of cities.\nLecturer: The first machine that we would recognise as a bicycle appeared in the 1880s. Earlier designs had a huge front wheel, which made them fast but dangerous, and they were ridden mainly by young men. The so-called safety bicycle, with two wheels of equal size and a chain, changed that completely. Because it was cheaper and easier to ride, it was taken up by workers and, importantly, by women, for whom it offered a new kind of independence.\nLecturer: Cyclists quickly became a political force. In several countries, cycling clubs campaigned for better roads, and much of the smooth surfacing that motorists later enjoyed was originally laid because of pressure from cyclists, not drivers.\nLecturer: The twentieth century, of course, belonged to the car. From the 1950s, many cities were redesigned around motor traffic. Wide roads were built through historic centres, and bicycles came to be seen as old-fashioned. In the Netherlands, for example, cycling fell sharply in this period.\nLecturer: What reversed this trend? In the Dutch case, two things. One was a public protest movement in the 1970s against the number of children killed in road accidents. The other was the oil crisis of 1973, which made fuel expensive and led to car-free Sundays. Together these created the political will to invest in separated cycle lanes.\nLecturer: Researchers today talk about four features of a city that encourage cycling. The first is safety, and in practice that means physical separation from cars, not just a painted line. The second is a connected network: a lane that suddenly ends is almost worse than no lane at all. The third is secure parking, because the fear of theft discourages many people. And the fourth is what planners call mixed use, meaning that homes, shops and workplaces are close enough together for cycling to be practical.\nLecturer: The benefits go beyond transport. Studies have found that regular cyclists take fewer days off work through illness, and shops on streets with cycle lanes often see their sales rise, because cyclists tend to stop more often than drivers.\nLecturer: Finally, a word about electric bikes. These have extended cycling to older people and to cities with steep hills, where cycling was previously difficult. However, their higher speed means that the design of lanes may need to change, particularly at junctions.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "wordLimit": 1,
+          "questions": [
+            { "number": 31, "prompt": "Early bicycles had a very large front wheel and were fast but {{blank}}.", "answers": ["dangerous"] },
+            { "number": 32, "prompt": "The safety bicycle had equal wheels and a {{blank}}.", "answers": ["chain"] },
+            { "number": 33, "prompt": "It gave {{blank}} a new kind of independence.", "answers": ["women"] },
+            { "number": 34, "prompt": "Cycling clubs campaigned for better {{blank}}.", "answers": ["roads"] },
+            { "number": 35, "prompt": "Dutch protests in the 1970s were about road deaths of {{blank}}.", "answers": ["children"] },
+            { "number": 36, "prompt": "The {{blank}} crisis of 1973 led to car-free Sundays.", "answers": ["oil"] },
+            { "number": 37, "prompt": "Safety means physical {{blank}} from cars, not just a painted line.", "answers": ["separation"] },
+            { "number": 38, "prompt": "Secure parking matters because people fear {{blank}}.", "answers": ["theft"] },
+            { "number": 39, "prompt": "Shops on streets with cycle lanes often see higher {{blank}}.", "answers": ["sales"] },
+            { "number": 40, "prompt": "Electric bikes help in cities with steep {{blank}}.", "answers": ["hills"] }
+          ]
         }
       ]
     }

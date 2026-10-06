@@ -4,4 +4,3 @@ image:
   web: edu-english-web:local
 databaseUrl: jdbc:postgresql://postgres:5432/english
 redisHost: redis
-jwtSecret: edu-english-dev-secret-key-please-change-32

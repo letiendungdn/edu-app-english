@@ -1,6 +1,6 @@
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { AuthService } from '../core/auth.service';
 
 @Component({
@@ -28,6 +28,7 @@ import { AuthService } from '../core/auth.service';
 export class AuthComponent {
   private auth = inject(AuthService);
   private router = inject(Router);
+  private route = inject(ActivatedRoute);
   mode = signal<'login' | 'register'>('login');
   email = 'demo@edu.app';
   password = 'demo123';
@@ -47,7 +48,7 @@ export class AuthComponent {
       ? this.auth.login(this.email, this.password)
       : this.auth.register(this.email, this.password, this.name);
     req.subscribe({
-      next: () => void this.router.navigateByUrl('/'),
+      next: () => void this.router.navigateByUrl(this.route.snapshot.queryParamMap.get('next') || '/'),
       error: (err) => {
         this.error.set(err?.error?.error ?? 'Không thể đăng nhập');
         this.busy.set(false);

@@ -1,0 +1,33 @@
+{
+  "prompts": [
+    { "part": 1, "topic": "Hometown", "question": "Where is your hometown, and what is it like?", "sortOrder": 1 },
+    { "part": 1, "topic": "Hometown", "question": "What do you like most about living there?", "sortOrder": 2 },
+    { "part": 1, "topic": "Work or study", "question": "Do you work or are you a student? Tell me a little about it.", "sortOrder": 3 },
+    { "part": 1, "topic": "Work or study", "question": "What would you like to change about your job or your studies?", "sortOrder": 4 },
+    { "part": 1, "topic": "Free time", "question": "What do you usually do in your free time?", "sortOrder": 5 },
+    { "part": 1, "topic": "Free time", "question": "Did you have the same hobbies when you were a child?", "sortOrder": 6 },
+    { "part": 1, "topic": "Technology", "question": "How often do you use your phone each day, and what for?", "sortOrder": 7 },
+    { "part": 1, "topic": "Weather", "question": "What kind of weather do you enjoy most? Why?", "sortOrder": 8 },
+    {
+      "part": 2, "topic": "A useful skill", "sortOrder": 1,
+      "question": "Describe a skill that you learned and that has been useful to you.",
+      "cueCardPoints": ["what the skill is", "when and how you learned it", "how difficult it was to learn", "and explain why it has been useful to you"]
+    },
+    {
+      "part": 2, "topic": "A memorable journey", "sortOrder": 2,
+      "question": "Describe a journey you remember well.",
+      "cueCardPoints": ["where you went", "who you went with", "what happened during the journey", "and explain why you remember it well"]
+    },
+    {
+      "part": 2, "topic": "A person who helped you", "sortOrder": 3,
+      "question": "Describe a person who has helped you to achieve a goal.",
+      "cueCardPoints": ["who this person is", "what goal you wanted to achieve", "how they helped you", "and explain how you felt about their help"]
+    },
+    { "part": 3, "topic": "Learning skills", "question": "Do you think practical skills are more important than academic knowledge for young people today?", "sortOrder": 1 },
+    { "part": 3, "topic": "Learning skills", "question": "How has technology changed the way people learn new skills?", "sortOrder": 2 },
+    { "part": 3, "topic": "Travel", "question": "Why do you think some people prefer to travel alone?", "sortOrder": 3 },
+    { "part": 3, "topic": "Travel", "question": "What effects can tourism have on the environment?", "sortOrder": 4 },
+    { "part": 3, "topic": "Help and support", "question": "Should people rely more on family or on professionals when they need advice?", "sortOrder": 5 },
+    { "part": 3, "topic": "Help and support", "question": "Do you think people are less willing to help strangers than in the past?", "sortOrder": 6 }
+  ]
+}

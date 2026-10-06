@@ -1,0 +1,147 @@
+{
+  "prompts": [
+    {
+      "module": "ACADEMIC", "task": "TASK1", "taskKind": "LINE", "sortOrder": 1,
+      "title": "Commuting time in three cities",
+      "topic": "Transport",
+      "minWords": 150,
+      "prompt": "The line graph below shows the average time people spent commuting to work each day in three cities between 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chartData": {
+        "type": "line", "unit": "minutes per day", "labels": ["2000", "2005", "2010", "2015", "2020"],
+        "series": [
+          { "name": "Northport", "values": [42, 48, 55, 61, 58] },
+          { "name": "Eastvale", "values": [35, 36, 38, 37, 36] },
+          { "name": "Southbay", "values": [60, 57, 50, 44, 40] }
+        ]
+      }
+    },
+    {
+      "module": "ACADEMIC", "task": "TASK1", "taskKind": "BAR", "sortOrder": 2,
+      "title": "Household recycling 2010 and 2020",
+      "topic": "Environment",
+      "minWords": 150,
+      "prompt": "The bar chart below shows the percentage of households in one country that recycled five types of material in 2010 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chartData": {
+        "type": "bar", "unit": "% of households", "labels": ["Paper", "Glass", "Plastic", "Metal cans", "Food waste"],
+        "series": [
+          { "name": "2010", "values": [64, 51, 22, 40, 8] },
+          { "name": "2020", "values": [78, 70, 55, 62, 41] }
+        ]
+      }
+    },
+    {
+      "module": "ACADEMIC", "task": "TASK1", "taskKind": "PIE", "sortOrder": 3,
+      "title": "Household energy use 1990 and 2020",
+      "topic": "Energy",
+      "minWords": 150,
+      "prompt": "The pie charts below show how energy was used in an average household in one country in 1990 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chartData": {
+        "type": "pie", "unit": "%", "labels": ["Heating", "Hot water", "Cooking", "Lighting", "Electronic devices"],
+        "series": [
+          { "name": "1990", "values": [52, 22, 12, 9, 5] },
+          { "name": "2020", "values": [41, 18, 9, 4, 28] }
+        ]
+      }
+    },
+    {
+      "module": "ACADEMIC", "task": "TASK1", "taskKind": "TABLE", "sortOrder": 4,
+      "title": "Visitors to four museums",
+      "topic": "Culture",
+      "minWords": 150,
+      "prompt": "The table below shows the number of visitors (in thousands) to four museums in one city in 2015 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chartData": {
+        "type": "table", "unit": "thousands of visitors", "labels": ["Science Museum", "Art Gallery", "History Museum", "Children's Museum"],
+        "series": [
+          { "name": "2015", "values": [820, 640, 410, 150] },
+          { "name": "2020", "values": [610, 700, 395, 290] }
+        ]
+      }
+    },
+    {
+      "module": "ACADEMIC", "task": "TASK1", "taskKind": "PROCESS", "sortOrder": 5,
+      "title": "Rainwater collection at a school",
+      "topic": "Environment",
+      "minWords": 150,
+      "prompt": "The diagram below shows how rainwater is collected and used at a school.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chartData": {
+        "type": "process",
+        "steps": [
+          "Rain falls on the school roof",
+          "Water flows through gutters into a pipe",
+          "A filter removes leaves and dirt",
+          "Water is stored in an underground tank",
+          "A pump lifts the water to a smaller tank",
+          "Water is used to flush toilets and water the garden"
+        ]
+      }
+    },
+    {
+      "module": "ACADEMIC", "task": "TASK1", "taskKind": "MAP", "sortOrder": 6,
+      "title": "Changes to Fernley village",
+      "topic": "Town planning",
+      "minWords": 150,
+      "prompt": "The plans below show the village of Fernley in 1995 and today.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chartData": {
+        "type": "map",
+        "before": ["Farmland to the north of the main road", "A small primary school in the centre", "A post office next to the church", "A narrow bridge over the river", "Woodland to the east"],
+        "after": ["A housing estate on the former farmland", "The school extended with a sports field", "A café in place of the post office", "A wider bridge with a cycle lane", "Woodland kept, with a new car park beside it"]
+      }
+    },
+    {
+      "module": "GENERAL", "task": "TASK1", "taskKind": "LETTER", "sortOrder": 7,
+      "title": "Letter to a neighbour about noise",
+      "topic": "Community",
+      "minWords": 150,
+      "prompt": "Your neighbour has recently started doing building work on their house, and the noise is causing you problems.\n\nWrite a letter to your neighbour. In your letter\n- explain how the noise is affecting you\n- suggest a solution\n- say how you would like to stay in contact\n\nBegin your letter as follows: Dear ...,"
+    },
+    {
+      "module": "GENERAL", "task": "TASK1", "taskKind": "LETTER", "sortOrder": 8,
+      "title": "Letter to a manager about a course",
+      "topic": "Work",
+      "minWords": 150,
+      "prompt": "You would like to attend a training course that is related to your job.\n\nWrite a letter to your manager. In your letter\n- describe the course\n- explain how it would help you in your work\n- say how your work could be covered while you are away\n\nBegin your letter as follows: Dear ...,"
+    },
+    {
+      "module": "BOTH", "task": "TASK2", "taskKind": "OPINION", "sortOrder": 1,
+      "title": "University education should be free",
+      "topic": "Education",
+      "minWords": 250,
+      "prompt": "Some people believe that university education should be free for all students, paid for by the government.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+    },
+    {
+      "module": "BOTH", "task": "TASK2", "taskKind": "DISCUSSION", "sortOrder": 2,
+      "title": "Working from home",
+      "topic": "Work",
+      "minWords": 250,
+      "prompt": "Some people think that working from home is better for employees, while others believe that people work more effectively in an office.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+    },
+    {
+      "module": "BOTH", "task": "TASK2", "taskKind": "PROBLEM_SOLUTION", "sortOrder": 3,
+      "title": "Traffic congestion in cities",
+      "topic": "Transport",
+      "minWords": 250,
+      "prompt": "Traffic congestion is becoming a serious problem in many large cities.\n\nWhat are the causes of this problem, and what measures could be taken to reduce it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+    },
+    {
+      "module": "BOTH", "task": "TASK2", "taskKind": "ADVANTAGE_DISADVANTAGE", "sortOrder": 4,
+      "title": "Children using smartphones",
+      "topic": "Technology",
+      "minWords": 250,
+      "prompt": "Nowadays, many children have their own smartphones from a young age.\n\nDo the advantages of this outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+    },
+    {
+      "module": "BOTH", "task": "TASK2", "taskKind": "TWO_PART", "sortOrder": 5,
+      "title": "Living alone",
+      "topic": "Society",
+      "minWords": 250,
+      "prompt": "In many countries, more and more people are choosing to live alone.\n\nWhy is this happening? Is it a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+    },
+    {
+      "module": "BOTH", "task": "TASK2", "taskKind": "OPINION", "sortOrder": 6,
+      "title": "Tourism and local culture",
+      "topic": "Tourism",
+      "minWords": 250,
+      "prompt": "International tourism brings more problems than benefits to local communities.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+    }
+  ]
+}

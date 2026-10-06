@@ -40,7 +40,7 @@ public class SecurityConfig {
         .sessionManagement(s -> s.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .authorizeHttpRequests(
             auth ->
-                auth                    .requestMatchers("/h2/**", "/actuator/health", "/actuator/health/**", "/actuator/prometheus", "/ws/**")
+                auth.requestMatchers("/h2/**", "/actuator/health", "/actuator/health/**", "/actuator/prometheus", "/ws/**")
                     .permitAll()
                     .requestMatchers("/api/auth/**")
                     .permitAll()
@@ -49,6 +49,15 @@ public class SecurityConfig {
                     .requestMatchers(HttpMethod.POST, "/api/vocab/review")
                     .authenticated()
                     .requestMatchers(HttpMethod.GET, "/api/analytics")
+                    .authenticated()
+                    // Dữ liệu cá nhân: hồ sơ, band, lộ trình, bài làm.
+                    .requestMatchers(
+                        HttpMethod.GET,
+                        "/api/ielts/**",
+                        "/api/roadmap/**",
+                        "/api/tests/attempts/**",
+                        "/api/writing/submissions/**",
+                        "/api/speaking/submissions/**")
                     .authenticated()
                     .requestMatchers(HttpMethod.GET, "/api/**")
                     .permitAll()

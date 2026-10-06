@@ -3,69 +3,239 @@
     {
       "title": "My Daily Routine",
       "level": "A1",
+      "module": "BOTH",
+      "topic": "Daily life",
+      "bandMin": 2.0,
+      "bandMax": 3.5,
       "estimatedMin": 3,
-      "source": null,
+      "source": "EDU APP English",
       "license": "original",
       "sortOrder": 1,
       "content": "My name is Lan. I am a student. Every day, I wake up at 6 o'clock in the morning. I wash my face and brush my teeth. Then I eat breakfast with my family.\n\nI go to school at 7 o'clock. I walk to school because my school is near my house. At school, I study Math, English, and Science.\n\nAfter school, I go home at 5 o'clock. I do my homework and then I watch TV. I eat dinner at 7 o'clock. I read a book before I sleep. I go to bed at 10 o'clock.",
-      "questions": [
+      "groups": [
         {
-          "question": "What time does Lan wake up?",
-          "answer": "6 o'clock",
-          "explanation": null,
-          "sortOrder": 1,
-          "options": ["5 o'clock", "6 o'clock", "7 o'clock", "8 o'clock"]
-        },
-        {
-          "question": "How does Lan go to school?",
-          "answer": "She walks",
-          "explanation": null,
-          "sortOrder": 2,
-          "options": ["By bus", "By bicycle", "She walks", "By car"]
-        },
-        {
-          "question": "What does Lan do before sleeping?",
-          "answer": "She reads a book",
-          "explanation": null,
-          "sortOrder": 3,
-          "options": ["She watches TV", "She does homework", "She reads a book", "She plays games"]
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            { "number": 1, "prompt": "What time does Lan wake up?", "answers": ["B"], "options": [{"key": "A", "text": "5 o'clock"}, {"key": "B", "text": "6 o'clock"}, {"key": "C", "text": "7 o'clock"}, {"key": "D", "text": "8 o'clock"}], "evidence": "Every day, I wake up at 6 o'clock in the morning." },
+            { "number": 2, "prompt": "How does Lan go to school?", "answers": ["C"], "options": [{"key": "A", "text": "By bus"}, {"key": "B", "text": "By bicycle"}, {"key": "C", "text": "She walks"}, {"key": "D", "text": "By car"}], "evidence": "I walk to school because my school is near my house." },
+            { "number": 3, "prompt": "What does Lan do before sleeping?", "answers": ["C"], "options": [{"key": "A", "text": "She watches TV"}, {"key": "B", "text": "She does homework"}, {"key": "C", "text": "She reads a book"}, {"key": "D", "text": "She plays games"}], "evidence": "I read a book before I sleep." }
+          ]
         }
       ]
     },
     {
       "title": "The Benefits of Learning English",
       "level": "B1",
+      "module": "BOTH",
+      "topic": "Education",
+      "bandMin": 4.0,
+      "bandMax": 5.0,
       "estimatedMin": 5,
-      "source": "Adapted from various sources",
+      "source": "EDU APP English",
       "license": "original",
-      "sortOrder": 1,
+      "sortOrder": 2,
       "content": "English is one of the most widely spoken languages in the world. More than 1.5 billion people speak English, either as their first or second language. Learning English can open many doors for you in life.\n\nFirst, English is the language of international business. Many multinational companies require their employees to speak English. If you can communicate effectively in English, you will have a significant advantage in the job market.\n\nSecond, most scientific research and academic papers are published in English. Students who can read English have access to a much wider range of educational resources.\n\nThird, English is the primary language of the internet. A large percentage of websites, videos, and online content are in English.\n\nFinally, learning English can help you understand different cultures and connect with people from all over the world.",
-      "questions": [
+      "groups": [
         {
-          "question": "According to the passage, how many people speak English?",
-          "answer": "More than 1.5 billion",
-          "explanation": null,
-          "sortOrder": 1,
-          "options": ["More than 1 billion", "More than 1.5 billion", "More than 2 billion", "About 500 million"]
-        },
-        {
-          "question": "Why is English important in business?",
-          "answer": "Multinational companies require employees to speak English",
-          "explanation": "The passage states that many multinational companies require their employees to speak English.",
-          "sortOrder": 2,
-          "options": [
-            "It is the official language of all countries",
-            "Multinational companies require employees to speak English",
-            "It is easy to learn",
-            "It helps you make more money immediately"
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            { "number": 1, "prompt": "According to the passage, how many people speak English?", "answers": ["B"], "options": [{"key": "A", "text": "More than 1 billion"}, {"key": "B", "text": "More than 1.5 billion"}, {"key": "C", "text": "More than 2 billion"}, {"key": "D", "text": "About 500 million"}], "evidence": "More than 1.5 billion people speak English" },
+            { "number": 2, "prompt": "Why is English important in business?", "answers": ["B"], "options": [{"key": "A", "text": "It is the official language of all countries"}, {"key": "B", "text": "Multinational companies require employees to speak English"}, {"key": "C", "text": "It is easy to learn"}, {"key": "D", "text": "It helps you make more money immediately"}], "explanation": "Đoạn 2 nói nhiều công ty đa quốc gia yêu cầu nhân viên nói tiếng Anh.", "evidence": "Many multinational companies require their employees to speak English." }
           ]
         },
         {
-          "question": "What share of the internet is in English?",
-          "answer": "A large percentage",
-          "explanation": null,
-          "sortOrder": 3,
-          "options": ["50%", "75%", "A large percentage", "Almost all of it"]
+          "type": "TRUE_FALSE_NOT_GIVEN",
+          "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+          "questions": [
+            { "number": 3, "prompt": "Most academic papers are published in English.", "answers": ["TRUE"], "evidence": "most scientific research and academic papers are published in English." },
+            { "number": 4, "prompt": "English is the easiest language to learn on the internet.", "answers": ["NOT GIVEN"], "explanation": "Bài chỉ nói tiếng Anh là ngôn ngữ chính của internet, không so sánh độ dễ học." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Return of the Urban Beekeeper",
+      "level": "B2",
+      "module": "ACADEMIC",
+      "topic": "Environment",
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "estimatedMin": 20,
+      "source": "EDU APP English",
+      "license": "original",
+      "sortOrder": 10,
+      "content": "A\nTwenty years ago, the idea of keeping bees on the roof of an office building would have struck most city planners as eccentric at best. Bees belonged to the countryside, to orchards and wildflower meadows, not to car parks and shopping streets. Today, however, hives can be found on hotels in Paris, railway stations in Tokyo and apartment blocks in Melbourne. In London alone, the number of registered hives more than doubled between 2008 and 2013.\n\nB\nThe trend began partly as a response to alarming news from the countryside. From the mid-2000s, beekeepers in North America and Europe reported losing large proportions of their colonies over the winter, a problem that became known as colony collapse. Pesticides, parasites and a shrinking variety of flowers on industrial farms were all blamed. Many people concluded that cities, with their parks and private gardens, might offer bees a safer home.\n\nC\nThere is some evidence to support this view. Because urban gardeners plant a wide range of ornamental species, flowers are available in cities for much of the year, and pesticide use in private gardens is often lower than on farms. A study of honey produced in Paris found that it contained pollen from more than two hundred plant species, compared with around fifty in honey from nearby farmland. City bees, in other words, may enjoy a more varied diet.\n\nD\nYet ecologists warn that enthusiasm has outrun the evidence. The honeybee is only one of thousands of bee species, and most of the others are wild and solitary, nesting in the ground or in hollow stems. These wild bees are the ones in serious decline, and they compete with honeybees for the same nectar and pollen. Where hives are packed too densely, as in parts of central London, there may simply not be enough flowers to go around. Researchers in that city calculated that some districts would need several times more green space to support the colonies already registered there.\n\nE\nFor this reason, several cities have begun to change their approach. Rather than encouraging every company to install a hive as a sign of its environmental credentials, they now promote 'pollinator corridors': connected strips of flowering plants along roads, railways and rivers. These corridors benefit all kinds of insects, not only honeybees, and they are cheaper to maintain than hives, which need regular inspection by a trained keeper.\n\nF\nNone of this means that urban beekeeping should disappear. Hives on school roofs have proved to be a powerful teaching tool, giving children who rarely see the countryside a direct experience of how food is produced. The lesson for city authorities is one of balance: a few well-managed hives, surrounded by plenty of flowers, can do more good than hundreds of hives competing for a handful of window boxes.",
+      "groups": [
+        {
+          "type": "MATCHING_HEADINGS",
+          "instruction": "The passage has six paragraphs, A-F. Choose the correct heading for paragraphs B-F from the list of headings below. Write the correct number, i-viii.",
+          "options": [
+            { "key": "i", "text": "A more varied diet in the city" },
+            { "key": "ii", "text": "Why beekeepers moved towards cities" },
+            { "key": "iii", "text": "The cost of training new beekeepers" },
+            { "key": "iv", "text": "A better way to help all insects" },
+            { "key": "v", "text": "Competition for limited food" },
+            { "key": "vi", "text": "Hives as a way of learning" },
+            { "key": "vii", "text": "The rapid growth of honey exports" },
+            { "key": "viii", "text": "Laws that ban hives on roofs" }
+          ],
+          "questions": [
+            { "number": 1, "prompt": "Paragraph B", "answers": ["ii"], "explanation": "Đoạn B giải thích nguyên nhân: tin xấu từ nông thôn (colony collapse) khiến người ta nghĩ thành phố an toàn hơn cho ong." },
+            { "number": 2, "prompt": "Paragraph C", "answers": ["i"], "evidence": "City bees, in other words, may enjoy a more varied diet." },
+            { "number": 3, "prompt": "Paragraph D", "answers": ["v"], "evidence": "they compete with honeybees for the same nectar and pollen ... there may simply not be enough flowers to go around." },
+            { "number": 4, "prompt": "Paragraph E", "answers": ["iv"], "evidence": "These corridors benefit all kinds of insects, not only honeybees" },
+            { "number": 5, "prompt": "Paragraph F", "answers": ["vi"], "evidence": "Hives on school roofs have proved to be a powerful teaching tool" }
+          ]
+        },
+        {
+          "type": "TRUE_FALSE_NOT_GIVEN",
+          "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+          "questions": [
+            { "number": 6, "prompt": "The number of registered hives in London increased by more than 100% in five years.", "answers": ["TRUE"], "evidence": "In London alone, the number of registered hives more than doubled between 2008 and 2013." },
+            { "number": 7, "prompt": "Scientists agree that pesticides were the only cause of colony collapse.", "answers": ["FALSE"], "explanation": "Bài liệt kê ba nguyên nhân: thuốc trừ sâu, ký sinh trùng và ít loài hoa.", "evidence": "Pesticides, parasites and a shrinking variety of flowers on industrial farms were all blamed." },
+            { "number": 8, "prompt": "Honey from Paris sells at a higher price than honey from farmland.", "answers": ["NOT GIVEN"], "explanation": "Bài chỉ so sánh số loài phấn hoa, không nói gì về giá." },
+            { "number": 9, "prompt": "Most bee species live alone rather than in colonies.", "answers": ["TRUE"], "evidence": "most of the others are wild and solitary" }
+          ]
+        },
+        {
+          "type": "SENTENCE_COMPLETION",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            { "number": 10, "prompt": "In cities, flowers are available for much of the year because gardeners grow many {{blank}} species.", "answers": ["ornamental"], "evidence": "urban gardeners plant a wide range of ornamental species" },
+            { "number": 11, "prompt": "Wild bees often build their nests in the ground or in hollow {{blank}}.", "answers": ["stems"], "evidence": "nesting in the ground or in hollow stems" },
+            { "number": 12, "prompt": "Some cities now create connected areas of flowering plants called {{blank}}.", "answers": ["pollinator corridors", "corridors"], "evidence": "they now promote 'pollinator corridors'" },
+            { "number": 13, "prompt": "Unlike corridors, hives require regular inspection by a {{blank}}.", "answers": ["(trained) keeper"], "evidence": "which need regular inspection by a trained keeper" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sleep and the Teenage Brain",
+      "level": "C1",
+      "module": "ACADEMIC",
+      "topic": "Health",
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "estimatedMin": 20,
+      "source": "EDU APP English",
+      "license": "original",
+      "sortOrder": 11,
+      "content": "Parents have long complained that teenagers stay up too late and are impossible to wake in the morning. For most of the twentieth century this was treated as a matter of discipline: adolescents, it was assumed, simply lacked the self-control to go to bed. Research over the last three decades suggests a different explanation. The timing of sleep, it turns out, is governed by a biological clock that shifts significantly during the teenage years.\n\nThe key to this clock is melatonin, a hormone released in the evening that makes us feel drowsy. In children and adults, melatonin levels typically begin to rise around nine or ten o'clock at night. In adolescents, the release is delayed by as much as two hours. A sixteen-year-old who is sent to bed at ten may therefore lie awake for a long time, not out of defiance but because the body is not yet ready for sleep. The same delay means that waking at six-thirty feels, to a teenager, much as waking at four-thirty would feel to an adult.\n\nThis would matter less if teenagers needed less sleep than adults, but the opposite is true. Most studies estimate that adolescents require between eight and a half and nine and a half hours a night. Surveys in several countries have found that the majority get fewer than seven on school nights. The consequences go beyond tiredness. Sleep-deprived students perform worse on tests of memory and attention, and they are more likely to report low mood. Some researchers have also linked short sleep to a higher risk of road accidents among young drivers.\n\nOne response has been to start the school day later. When a group of schools in the American state of Minnesota moved their opening time from 7.15 to 8.40 in the 1990s, researchers found that students slept almost an hour more each night, attendance improved and fewer students fell asleep in class. Similar results have since been reported elsewhere. Critics point out that later starts can be expensive, because bus timetables and after-school sports must be reorganised, and that parents who work early may struggle with the change. In my view, however, these practical difficulties are a weak argument against a policy whose benefits are so well documented.\n\nNot every problem can be blamed on biology. Screens, in particular, make the situation worse: the blue light from phones and tablets suppresses melatonin further, and messages arriving late at night keep the brain alert. Yet it would be a mistake to assume that removing phones from bedrooms would solve the problem on its own. Even teenagers who follow good sleep habits are fighting against their internal clock when they are expected at school before eight.\n\nWhat the research offers, ultimately, is a change of attitude. A tired adolescent is not necessarily a lazy one. If schools and families accept that the teenage body runs on a different timetable, they can design days that work with that timetable rather than against it.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "questions": [
+            { "number": 14, "prompt": "In the first paragraph, the writer says that late sleeping among teenagers was once seen as", "answers": ["C"], "options": [{"key": "A", "text": "a sign of illness."}, {"key": "B", "text": "a result of too much homework."}, {"key": "C", "text": "a lack of self-control."}, {"key": "D", "text": "a normal part of growing up."}], "evidence": "adolescents, it was assumed, simply lacked the self-control to go to bed." },
+            { "number": 15, "prompt": "According to the second paragraph, compared with adults, teenagers release melatonin", "answers": ["B"], "options": [{"key": "A", "text": "in smaller quantities."}, {"key": "B", "text": "up to two hours later."}, {"key": "C", "text": "only after midnight."}, {"key": "D", "text": "at irregular times."}], "evidence": "In adolescents, the release is delayed by as much as two hours." },
+            { "number": 16, "prompt": "Why does the writer compare waking at six-thirty with waking at four-thirty?", "answers": ["A"], "options": [{"key": "A", "text": "to show how early school times feel to a teenager"}, {"key": "B", "text": "to suggest that adults also need more sleep"}, {"key": "C", "text": "to argue that teenagers should get up earlier"}, {"key": "D", "text": "to explain why adults dislike mornings"}] },
+            { "number": 17, "prompt": "What happened after the Minnesota schools changed their start time?", "answers": ["D"], "options": [{"key": "A", "text": "Test results immediately rose across the state."}, {"key": "B", "text": "Bus companies refused to change their timetables."}, {"key": "C", "text": "Students went to bed an hour later."}, {"key": "D", "text": "Students attended school more regularly."}], "evidence": "students slept almost an hour more each night, attendance improved" }
+          ]
+        },
+        {
+          "type": "YES_NO_NOT_GIVEN",
+          "instruction": "Do the following statements agree with the claims of the writer? Write YES, NO or NOT GIVEN.",
+          "questions": [
+            { "number": 18, "prompt": "Teenagers need less sleep than adults.", "answers": ["NO"], "evidence": "This would matter less if teenagers needed less sleep than adults, but the opposite is true." },
+            { "number": 19, "prompt": "The cost of later start times is a good reason not to introduce them.", "answers": ["NO"], "evidence": "these practical difficulties are a weak argument against a policy whose benefits are so well documented." },
+            { "number": 20, "prompt": "Taking phones out of bedrooms would be enough to solve teenagers' sleep problems.", "answers": ["NO"], "evidence": "it would be a mistake to assume that removing phones from bedrooms would solve the problem on its own." },
+            { "number": 21, "prompt": "Schools in Europe have been slower than American schools to change their start times.", "answers": ["NOT GIVEN"], "explanation": "Bài chỉ nói 'similar results have since been reported elsewhere', không so sánh châu Âu với Mỹ." }
+          ]
+        },
+        {
+          "type": "SUMMARY_COMPLETION",
+          "instruction": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            { "number": 22, "prompt": "Teenagers' sleep is controlled by a biological clock and a hormone called {{blank}}.", "answers": ["melatonin"] },
+            { "number": 23, "prompt": "Most studies suggest teenagers need eight and a half to nine and a half hours of sleep, but most get fewer than seven on {{blank}}.", "answers": ["school nights"], "evidence": "the majority get fewer than seven on school nights" },
+            { "number": 24, "prompt": "Lack of sleep harms memory and attention and is linked to low {{blank}}.", "answers": ["mood"], "evidence": "they are more likely to report low mood" },
+            { "number": 25, "prompt": "It may also increase the risk of {{blank}} among young drivers.", "answers": ["road accidents", "accidents"], "evidence": "a higher risk of road accidents among young drivers" },
+            { "number": 26, "prompt": "The {{blank}} from phones and tablets reduces melatonin even further.", "answers": ["blue light"], "evidence": "the blue light from phones and tablets suppresses melatonin further" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reviving Silent Tongues",
+      "level": "C1",
+      "module": "ACADEMIC",
+      "topic": "Language and culture",
+      "bandMin": 6.5,
+      "bandMax": 8.0,
+      "estimatedMin": 20,
+      "source": "EDU APP English",
+      "license": "original",
+      "sortOrder": 12,
+      "content": "Of the roughly seven thousand languages spoken today, linguists estimate that around forty per cent are endangered, meaning that they are no longer being learned by children as a first language. When the last fluent speaker of such a language dies, a unique way of describing the world disappears with them. Yet the story is not only one of loss. Over the past fifty years, a growing number of communities have attempted to bring their languages back into everyday use, and some of these efforts have been remarkably successful.\n\nThe best-known example is Hebrew, which for centuries was used mainly for religious and scholarly purposes. In the late nineteenth century, a small group of enthusiasts began to speak it at home and to create new words for modern objects. Within two generations it had become the first language of millions. Linguist Ghil'ad Zuckermann has argued, however, that the language spoken today is not simply the Hebrew of ancient texts brought back to life; it is a new language, shaped strongly by the European languages its first modern speakers already knew. In his view, every revived language is to some extent a hybrid.\n\nA very different approach was taken in New Zealand, where in the early 1980s Maori elders, concerned that few young families could speak their ancestral language, set up 'language nests'. In these pre-school centres, children spend the whole day with fluent older speakers and hear no English at all. The model spread quickly, and primary and secondary schools teaching entirely through Maori followed. Sociolinguist Bernard Spolsky observed that the nests succeeded because they involved parents and grandparents as well as children, turning language learning into a family activity rather than a school subject.\n\nIn Wales, the emphasis has been on official status. Since the 1990s, Welsh has had equal standing with English in public life, and road signs, government forms and a television channel all use it. Researcher Colin Williams has cautioned, though, that visibility is not the same as use. A language may appear on every sign and still be spoken at home by a shrinking minority, and he has argued that what matters most is whether young people choose to use it with their friends.\n\nTechnology has opened another route. Communities with only a handful of speakers now record elders telling stories, build online dictionaries and develop learning apps. Linguist Margaret Florey, who has worked with communities in eastern Indonesia, notes that recordings are valuable but warns against treating them as a substitute for speakers. A dictionary, she points out, can preserve a language's words, but only a community can keep it alive.\n\nWhat do successful projects have in common? Most researchers agree on three conditions. First, the community itself must want the language back; programmes imposed from outside rarely last. Second, children must hear the language early and often, ideally at home. Third, the language needs spaces in modern life, from shops to social media, where using it feels natural rather than ceremonial. Revival, it seems, is less a technical problem than a social one, and it depends above all on ordinary people deciding to speak.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "Look at the following statements and the list of researchers below. Match each statement with the correct researcher, A-D. You may use any letter more than once.",
+          "options": [
+            { "key": "A", "text": "Ghil'ad Zuckermann" },
+            { "key": "B", "text": "Bernard Spolsky" },
+            { "key": "C", "text": "Colin Williams" },
+            { "key": "D", "text": "Margaret Florey" }
+          ],
+          "questions": [
+            { "number": 27, "prompt": "Seeing a language in public does not mean that people speak it.", "answers": ["C"], "evidence": "visibility is not the same as use" },
+            { "number": 28, "prompt": "A revived language is always partly a mixture of languages.", "answers": ["A"], "evidence": "every revived language is to some extent a hybrid." },
+            { "number": 29, "prompt": "Records of a language cannot replace living speakers.", "answers": ["D"], "evidence": "warns against treating them as a substitute for speakers" },
+            { "number": 30, "prompt": "Success came from involving several generations of a family.", "answers": ["B"], "evidence": "they involved parents and grandparents as well as children" }
+          ]
+        },
+        {
+          "type": "MATCHING_SENTENCE_ENDINGS",
+          "instruction": "Complete each sentence with the correct ending, A-G.",
+          "options": [
+            { "key": "A", "text": "was used mainly in religious and scholarly contexts." },
+            { "key": "B", "text": "use only the community language all day." },
+            { "key": "C", "text": "has had equal status with English since the 1990s." },
+            { "key": "D", "text": "was replaced entirely by English in schools." },
+            { "key": "E", "text": "rarely last for long." },
+            { "key": "F", "text": "is how young people speak with their friends." },
+            { "key": "G", "text": "were created by government linguists." }
+          ],
+          "questions": [
+            { "number": 31, "prompt": "For centuries before its revival, Hebrew", "answers": ["A"] },
+            { "number": 32, "prompt": "The Maori language nests", "answers": ["B"], "evidence": "children spend the whole day with fluent older speakers and hear no English at all." },
+            { "number": 33, "prompt": "According to Colin Williams, the most important factor", "answers": ["F"], "evidence": "what matters most is whether young people choose to use it with their friends." },
+            { "number": 34, "prompt": "Programmes that are introduced by outsiders", "answers": ["E"], "evidence": "programmes imposed from outside rarely last." }
+          ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Questions 35-36. Choose TWO letters, A-E. Which TWO conditions for successful revival are mentioned in the final paragraph?",
+          "questions": [
+            {
+              "number": 35,
+              "prompt": "Which TWO conditions are mentioned?",
+              "answers": ["B", "D"],
+              "options": [
+                { "key": "A", "text": "government funding for dictionaries" },
+                { "key": "B", "text": "children hearing the language at an early age" },
+                { "key": "C", "text": "a large number of elderly speakers" },
+                { "key": "D", "text": "the community's own wish to restore the language" },
+                { "key": "E", "text": "a standard written form agreed by experts" }
+              ],
+              "evidence": "the community itself must want the language back ... children must hear the language early and often"
+            }
+          ]
+        },
+        {
+          "type": "SHORT_ANSWER",
+          "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+          "wordLimit": 3,
+          "questions": [
+            { "number": 37, "prompt": "What percentage of the world's languages are thought to be endangered?", "answers": ["40%", "forty per cent", "40 per cent", "40 percent"], "evidence": "around forty per cent are endangered" },
+            { "number": 38, "prompt": "Within how many generations did Hebrew become the first language of millions?", "answers": ["two", "2", "two generations", "2 generations"] },
+            { "number": 39, "prompt": "In which decade were the first Maori language nests set up?", "answers": ["(the) 1980s", "(the) early 1980s"] },
+            { "number": 40, "prompt": "Besides online dictionaries, what do communities develop to help people learn?", "answers": ["(learning) apps"], "evidence": "build online dictionaries and develop learning apps" }
+          ]
         }
       ]
     }
