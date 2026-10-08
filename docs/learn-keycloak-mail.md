@@ -126,4 +126,4 @@ Ba nguyên tắc:
 
 ---
 
-Hết lộ trình. Quay lại [bản đồ học](./learn-english.md), làm các bài tập cấp **Mid** bạn đã bỏ qua, rồi tới cấp **Senior**. Mỗi bài tập Senior trả lời được kèm lý lẽ về đánh đổi là bạn đã có thứ để kể trong một buổi phỏng vấn.
+Tiếp theo: [Bài 15: Chọn công nghệ](./learn-choosing-stack.md). Sau đó quay lại [bản đồ học](./learn-english.md), làm các bài tập cấp **Mid** bạn đã bỏ qua, rồi tới cấp **Senior**. Mỗi bài tập Senior trả lời được kèm lý lẽ về đánh đổi là bạn đã có thứ để kể trong một buổi phỏng vấn.

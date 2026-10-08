@@ -136,6 +136,14 @@ Hết chặng 1 bạn tự thêm được một tính năng nhỏ trọn vẹn: 
 | 13 | [Quan sát hệ thống](./learn-observability.md) | Health check, metric, trace, log |
 | 14 | [Keycloak và Mailpit](./learn-keycloak-mail.md) | SSO/OIDC, gửi mail: có trong cụm nhưng chưa dùng |
 
+### Chặng 4: Chọn công nghệ
+
+| # | Bài | Học được gì |
+|---|-----|-------------|
+| 15 | [Angular hay React, Spring hay NestJS](./learn-choosing-stack.md) | So sánh có ví dụ code, khi nào dùng cái nào, áp vào app Nihongo và app English, cách viết ADR |
+
+Đọc sau khi xong chặng 1 và 2, lúc đã đủ hiểu để so sánh.
+
 ### Đặc tả sản phẩm
 
 [IELTS_ROADMAP_SPEC.md](./IELTS_ROADMAP_SPEC.md) mô tả app **nên** làm gì. Mục 0 ghi phần nào đã làm, phần nào chưa. Đọc nó như đọc ticket ở công ty: so sánh với code và tìm chỗ lệch.
