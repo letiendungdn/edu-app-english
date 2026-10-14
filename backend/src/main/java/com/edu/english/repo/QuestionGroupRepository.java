@@ -14,4 +14,9 @@ public interface QuestionGroupRepository extends JpaRepository<QuestionGroup, Lo
       "select g.ownerId, count(q) from QuestionGroup g join g.questions q"
           + " where g.ownerType = :ownerType group by g.ownerId")
   List<Object[]> countQuestionsByOwner(@Param("ownerType") OwnerType ownerType);
+
+  @Query(
+      "select distinct g.ownerId, g.questionType from QuestionGroup g"
+          + " where g.ownerType = :ownerType order by g.ownerId")
+  List<Object[]> questionTypesByOwner(@Param("ownerType") OwnerType ownerType);
 }

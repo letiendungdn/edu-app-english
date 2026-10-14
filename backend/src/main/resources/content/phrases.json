@@ -1,0 +1,652 @@
+{
+  "phrases": [
+    {
+      "task": "TASK1",
+      "category": "Mở bài (viết lại đề)",
+      "phrase": "The bar chart compares ...",
+      "meaningVi": "Biểu đồ cột so sánh ...",
+      "example": "The bar chart compares the number of visitors to four museums in 2010 and 2020.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Mở bài (viết lại đề)",
+      "phrase": "The line graph illustrates how ... changed between ... and ...",
+      "meaningVi": "Biểu đồ đường cho thấy ... thay đổi thế nào từ ... đến ...",
+      "example": "The line graph illustrates how household energy use changed between 1990 and 2020.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Mở bài (viết lại đề)",
+      "phrase": "The table gives information about ...",
+      "meaningVi": "Bảng cung cấp thông tin về ...",
+      "example": "The table gives information about library loans in three age groups.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Mở bài (viết lại đề)",
+      "phrase": "The diagram shows the stages in ...",
+      "meaningVi": "Sơ đồ cho thấy các bước trong ...",
+      "example": "The diagram shows the stages in collecting rainwater at a school.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Mở bài (viết lại đề)",
+      "phrase": "The maps show how ... has developed since ...",
+      "meaningVi": "Hai bản đồ cho thấy ... đã phát triển thế nào kể từ ...",
+      "example": "The maps show how Fernley village has developed since 1995.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Câu tổng quan (Overview)",
+      "phrase": "Overall, ...",
+      "meaningVi": "Nhìn chung, ...",
+      "example": "Overall, recycling rose in every country, while landfill use fell.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Câu tổng quan (Overview)",
+      "phrase": "It is clear that ...",
+      "meaningVi": "Có thể thấy rõ rằng ...",
+      "example": "It is clear that car use remained the most common way to commute.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Câu tổng quan (Overview)",
+      "phrase": "The most noticeable trend is ...",
+      "meaningVi": "Xu hướng nổi bật nhất là ...",
+      "example": "The most noticeable trend is the sharp rise in online sales.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK1",
+      "category": "Câu tổng quan (Overview)",
+      "phrase": "In general, ... while ...",
+      "meaningVi": "Nhìn chung, ... trong khi ...",
+      "example": "In general, younger readers borrowed more e-books, while older readers preferred print.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Câu tổng quan (Overview)",
+      "phrase": "... saw the most dramatic change",
+      "meaningVi": "... thay đổi mạnh nhất",
+      "example": "Of the four cities, Lisbon saw the most dramatic change.",
+      "bandMin": 6.5
+    },
+    {
+      "task": "TASK1",
+      "category": "Xu hướng tăng / giảm",
+      "phrase": "rise / increase / grow",
+      "meaningVi": "tăng",
+      "example": "The number of cyclists rose from 2,000 to 5,500.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Xu hướng tăng / giảm",
+      "phrase": "fall / decrease / decline / drop",
+      "meaningVi": "giảm",
+      "example": "Coal use fell steadily throughout the period.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Xu hướng tăng / giảm",
+      "phrase": "remain stable / stay the same",
+      "meaningVi": "giữ ổn định",
+      "example": "Spending on transport remained stable at around 15%.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Xu hướng tăng / giảm",
+      "phrase": "fluctuate",
+      "meaningVi": "dao động lên xuống",
+      "example": "Sales fluctuated between 30 and 40 million units.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Xu hướng tăng / giảm",
+      "phrase": "reach a peak of ...",
+      "meaningVi": "đạt đỉnh ...",
+      "example": "Visitor numbers reached a peak of 1.2 million in 2015.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Xu hướng tăng / giảm",
+      "phrase": "hit a low of ...",
+      "meaningVi": "chạm đáy ...",
+      "example": "Unemployment hit a low of 4% in 2019.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK1",
+      "category": "Xu hướng tăng / giảm",
+      "phrase": "level off",
+      "meaningVi": "chững lại sau khi tăng/giảm",
+      "example": "After 2010, the figure levelled off at about 60%.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK1",
+      "category": "Xu hướng tăng / giảm",
+      "phrase": "a downward / an upward trend",
+      "meaningVi": "xu hướng giảm / tăng",
+      "example": "Petrol cars showed a downward trend over the decade.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Mức độ thay đổi",
+      "phrase": "slightly / marginally",
+      "meaningVi": "nhẹ",
+      "example": "The price rose slightly in March.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Mức độ thay đổi",
+      "phrase": "gradually / steadily",
+      "meaningVi": "dần dần, đều đặn",
+      "example": "Recycling rates increased steadily.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Mức độ thay đổi",
+      "phrase": "significantly / considerably",
+      "meaningVi": "đáng kể",
+      "example": "Water use fell considerably after 2005.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Mức độ thay đổi",
+      "phrase": "sharply / dramatically",
+      "meaningVi": "mạnh, đột ngột",
+      "example": "Online shopping grew dramatically after 2019.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK1",
+      "category": "Mức độ thay đổi",
+      "phrase": "a modest / substantial increase",
+      "meaningVi": "mức tăng nhỏ / lớn",
+      "example": "There was a substantial increase in solar power.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK1",
+      "category": "Mức độ thay đổi",
+      "phrase": "doubled / tripled / halved",
+      "meaningVi": "tăng gấp đôi / gấp ba / giảm một nửa",
+      "example": "The number of e-book loans almost tripled.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "So sánh và số liệu",
+      "phrase": "compared with ...",
+      "meaningVi": "so với ...",
+      "example": "Compared with 2010, twice as many households recycled in 2020.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "So sánh và số liệu",
+      "phrase": "twice as many ... as ...",
+      "meaningVi": "gấp đôi ... so với ...",
+      "example": "Twice as many people cycled as drove in Amsterdam.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "So sánh và số liệu",
+      "phrase": "by contrast",
+      "meaningVi": "ngược lại",
+      "example": "By contrast, train use in Madrid declined.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "So sánh và số liệu",
+      "phrase": "the figure for ...",
+      "meaningVi": "số liệu của ...",
+      "example": "The figure for Japan was much lower, at 12%.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "So sánh và số liệu",
+      "phrase": "approximately / roughly / just under / just over",
+      "meaningVi": "khoảng / hơn / kém một chút",
+      "example": "Just over half of the students walked to school.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "So sánh và số liệu",
+      "phrase": "account for",
+      "meaningVi": "chiếm (tỷ lệ)",
+      "example": "Coal accounted for 40% of electricity in 1990.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "So sánh và số liệu",
+      "phrase": "respectively",
+      "meaningVi": "lần lượt (theo thứ tự)",
+      "example": "The figures for France and Spain were 30% and 25% respectively.",
+      "bandMin": 6.5
+    },
+    {
+      "task": "TASK1",
+      "category": "Quy trình và bản đồ",
+      "phrase": "First, ... Next, ... Finally, ...",
+      "meaningVi": "Đầu tiên ... Tiếp theo ... Cuối cùng ...",
+      "example": "First, rainwater is collected from the roof. Next, it is filtered.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Quy trình và bản đồ",
+      "phrase": "Once ..., ...",
+      "meaningVi": "Sau khi ..., ...",
+      "example": "Once the water has been filtered, it is stored in a tank.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Quy trình và bản đồ",
+      "phrase": "... is + V3 (bị động)",
+      "meaningVi": "Câu bị động cho quy trình",
+      "example": "The leaves are dried and then crushed into powder.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Quy trình và bản đồ",
+      "phrase": "The process consists of ... stages",
+      "meaningVi": "Quy trình gồm ... bước",
+      "example": "The process consists of six stages, beginning with harvesting.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Quy trình và bản đồ",
+      "phrase": "was replaced by / was converted into",
+      "meaningVi": "được thay bằng / được chuyển thành",
+      "example": "The old factory was converted into apartments.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK1",
+      "category": "Quy trình và bản đồ",
+      "phrase": "to the north of / opposite / next to",
+      "meaningVi": "phía bắc của / đối diện / cạnh",
+      "example": "A new car park was built opposite the school.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Mở bài và nêu quan điểm",
+      "phrase": "It is often argued that ...",
+      "meaningVi": "Người ta thường cho rằng ...",
+      "example": "It is often argued that university education should be free.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Mở bài và nêu quan điểm",
+      "phrase": "This essay will discuss both views before giving my own opinion.",
+      "meaningVi": "Bài viết sẽ bàn cả hai quan điểm rồi nêu ý kiến của tôi.",
+      "example": "This essay will discuss both views before giving my own opinion.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Mở bài và nêu quan điểm",
+      "phrase": "I firmly believe that ...",
+      "meaningVi": "Tôi tin chắc rằng ...",
+      "example": "I firmly believe that cities should invest more in public transport.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Mở bài và nêu quan điểm",
+      "phrase": "In my view, ...",
+      "meaningVi": "Theo tôi, ...",
+      "example": "In my view, the advantages of working from home outweigh the drawbacks.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Mở bài và nêu quan điểm",
+      "phrase": "I partly agree with this statement.",
+      "meaningVi": "Tôi đồng ý một phần với nhận định này.",
+      "example": "I partly agree with this statement, for two main reasons.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Mở bài và nêu quan điểm",
+      "phrase": "While some people believe ..., others argue that ...",
+      "meaningVi": "Trong khi một số người tin ..., người khác lại cho rằng ...",
+      "example": "While some people believe tourism destroys local culture, others argue that it helps preserve it.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Bổ sung ý",
+      "phrase": "Furthermore, / Moreover,",
+      "meaningVi": "Hơn nữa,",
+      "example": "Moreover, free transport would reduce air pollution.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Bổ sung ý",
+      "phrase": "In addition,",
+      "meaningVi": "Ngoài ra,",
+      "example": "In addition, children learn to manage their time.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Bổ sung ý",
+      "phrase": "Another reason is that ...",
+      "meaningVi": "Một lý do khác là ...",
+      "example": "Another reason is that rents in city centres are rising.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Bổ sung ý",
+      "phrase": "Not only ... but also ...",
+      "meaningVi": "Không chỉ ... mà còn ...",
+      "example": "Not only does exercise improve health, but it also reduces stress.",
+      "bandMin": 6.5
+    },
+    {
+      "task": "TASK2",
+      "category": "Bổ sung ý",
+      "phrase": "What is more,",
+      "meaningVi": "Thêm vào đó,",
+      "example": "What is more, online courses are often cheaper.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK2",
+      "category": "Đối lập và nhượng bộ",
+      "phrase": "However,",
+      "meaningVi": "Tuy nhiên,",
+      "example": "However, this view ignores the cost to taxpayers.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Đối lập và nhượng bộ",
+      "phrase": "On the other hand,",
+      "meaningVi": "Mặt khác,",
+      "example": "On the other hand, living alone can be lonely.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Đối lập và nhượng bộ",
+      "phrase": "Although ..., ...",
+      "meaningVi": "Mặc dù ..., ...",
+      "example": "Although smartphones are useful, they can distract children.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Đối lập và nhượng bộ",
+      "phrase": "Despite / In spite of + N/V-ing",
+      "meaningVi": "Mặc dù (+ danh từ)",
+      "example": "Despite the high cost, many parents choose private schools.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Đối lập và nhượng bộ",
+      "phrase": "Admittedly, ...",
+      "meaningVi": "Phải thừa nhận rằng ...",
+      "example": "Admittedly, free transport would be expensive at first.",
+      "bandMin": 6.5
+    },
+    {
+      "task": "TASK2",
+      "category": "Đối lập và nhượng bộ",
+      "phrase": "Nevertheless, / Even so,",
+      "meaningVi": "Dù vậy,",
+      "example": "Nevertheless, the long-term benefits are clear.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK2",
+      "category": "Nguyên nhân và kết quả",
+      "phrase": "because / because of + N",
+      "meaningVi": "vì / do",
+      "example": "Many people move to cities because of better job opportunities.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Nguyên nhân và kết quả",
+      "phrase": "As a result, / Consequently,",
+      "meaningVi": "Kết quả là,",
+      "example": "Consequently, traffic congestion has become worse.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Nguyên nhân và kết quả",
+      "phrase": "This leads to ...",
+      "meaningVi": "Điều này dẫn đến ...",
+      "example": "This leads to higher levels of stress among workers.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Nguyên nhân và kết quả",
+      "phrase": "One major cause of ... is ...",
+      "meaningVi": "Một nguyên nhân chính của ... là ...",
+      "example": "One major cause of congestion is the rise in private car ownership.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Nguyên nhân và kết quả",
+      "phrase": "Due to / Owing to + N",
+      "meaningVi": "Do, vì",
+      "example": "Owing to rising rents, young people often share flats.",
+      "bandMin": 6.5
+    },
+    {
+      "task": "TASK2",
+      "category": "Nguyên nhân và kết quả",
+      "phrase": "This, in turn, ...",
+      "meaningVi": "Điều đó, đến lượt nó, ...",
+      "example": "This, in turn, puts pressure on public services.",
+      "bandMin": 7.0
+    },
+    {
+      "task": "TASK2",
+      "category": "Ví dụ và giải thích",
+      "phrase": "For example, / For instance,",
+      "meaningVi": "Ví dụ,",
+      "example": "For example, Tallinn made buses free for residents in 2013.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Ví dụ và giải thích",
+      "phrase": "such as ...",
+      "meaningVi": "chẳng hạn như ...",
+      "example": "Skills such as cooking and budgeting are rarely taught at school.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Ví dụ và giải thích",
+      "phrase": "A good example of this is ...",
+      "meaningVi": "Một ví dụ điển hình là ...",
+      "example": "A good example of this is the growth of remote working since 2020.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Ví dụ và giải thích",
+      "phrase": "This is because ...",
+      "meaningVi": "Điều này là bởi vì ...",
+      "example": "This is because employers value practical experience.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Ví dụ và giải thích",
+      "phrase": "In other words,",
+      "meaningVi": "Nói cách khác,",
+      "example": "In other words, the policy benefits the rich more than the poor.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK2",
+      "category": "Giải pháp và đề xuất",
+      "phrase": "One solution would be to ...",
+      "meaningVi": "Một giải pháp là ...",
+      "example": "One solution would be to introduce a congestion charge.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Giải pháp và đề xuất",
+      "phrase": "Governments should ...",
+      "meaningVi": "Chính phủ nên ...",
+      "example": "Governments should fund more affordable housing.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Giải pháp và đề xuất",
+      "phrase": "It is essential that ...",
+      "meaningVi": "Điều thiết yếu là ...",
+      "example": "It is essential that parents set clear limits on screen time.",
+      "bandMin": 6.0
+    },
+    {
+      "task": "TASK2",
+      "category": "Giải pháp và đề xuất",
+      "phrase": "This could be achieved by ...",
+      "meaningVi": "Điều này có thể đạt được bằng cách ...",
+      "example": "This could be achieved by offering tax breaks to employers.",
+      "bandMin": 6.5
+    },
+    {
+      "task": "TASK2",
+      "category": "Kết bài",
+      "phrase": "In conclusion, ...",
+      "meaningVi": "Tóm lại, ...",
+      "example": "In conclusion, the benefits of free education outweigh the costs.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Kết bài",
+      "phrase": "To sum up, ...",
+      "meaningVi": "Tóm lại, ...",
+      "example": "To sum up, both individuals and governments have a role to play.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Kết bài",
+      "phrase": "Overall, I believe that ...",
+      "meaningVi": "Nhìn chung, tôi tin rằng ...",
+      "example": "Overall, I believe that technology has made learning easier.",
+      "bandMin": null
+    },
+    {
+      "task": "TASK2",
+      "category": "Kết bài",
+      "phrase": "For the reasons mentioned above, ...",
+      "meaningVi": "Vì những lý do trên, ...",
+      "example": "For the reasons mentioned above, I support a ban on cars in city centres.",
+      "bandMin": null
+    },
+    {
+      "task": "BOTH",
+      "category": "Thư (General Task 1)",
+      "phrase": "Dear Sir or Madam,",
+      "meaningVi": "Kính gửi (thư trang trọng, không biết tên)",
+      "example": "Dear Sir or Madam, I am writing to complain about the service I received.",
+      "bandMin": null
+    },
+    {
+      "task": "BOTH",
+      "category": "Thư (General Task 1)",
+      "phrase": "I am writing to ...",
+      "meaningVi": "Tôi viết thư này để ...",
+      "example": "I am writing to request information about your evening courses.",
+      "bandMin": null
+    },
+    {
+      "task": "BOTH",
+      "category": "Thư (General Task 1)",
+      "phrase": "I would be grateful if you could ...",
+      "meaningVi": "Tôi rất biết ơn nếu ông/bà có thể ...",
+      "example": "I would be grateful if you could send me a full refund.",
+      "bandMin": null
+    },
+    {
+      "task": "BOTH",
+      "category": "Thư (General Task 1)",
+      "phrase": "I look forward to hearing from you.",
+      "meaningVi": "Mong sớm nhận được hồi âm.",
+      "example": "I look forward to hearing from you soon.",
+      "bandMin": null
+    },
+    {
+      "task": "BOTH",
+      "category": "Thư (General Task 1)",
+      "phrase": "Yours faithfully, / Yours sincerely,",
+      "meaningVi": "Trân trọng (faithfully khi không biết tên, sincerely khi biết tên)",
+      "example": "Yours sincerely, Anna Tran",
+      "bandMin": null
+    },
+    {
+      "task": "BOTH",
+      "category": "Thư (General Task 1)",
+      "phrase": "I hope you're well.",
+      "meaningVi": "Hy vọng bạn khỏe (thư thân mật)",
+      "example": "Hi Tom, I hope you're well and enjoying your new job.",
+      "bandMin": null
+    },
+    {
+      "task": "BOTH",
+      "category": "Thư (General Task 1)",
+      "phrase": "I'm sorry to bother you, but ...",
+      "meaningVi": "Xin lỗi làm phiền, nhưng ...",
+      "example": "I'm sorry to bother you, but the music from your flat is very loud at night.",
+      "bandMin": null
+    },
+    {
+      "task": "BOTH",
+      "category": "Thư (General Task 1)",
+      "phrase": "Best wishes, / Take care,",
+      "meaningVi": "Thân (kết thư thân mật)",
+      "example": "Best wishes, Linh",
+      "bandMin": null
+    }
+  ]
+}

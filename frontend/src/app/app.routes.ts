@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { loginGuard, profileGuard } from './core/guards';
+import { guestGuard, loginGuard, profileGuard } from './core/guards';
 import { HomeComponent } from './pages/home.component';
 import { AuthComponent } from './pages/auth.component';
 import { VocabComponent } from './pages/vocab.component';
@@ -17,7 +17,7 @@ import { AnalyticsComponent } from './pages/analytics.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'login', component: AuthComponent },
+  { path: 'login', component: AuthComponent, canActivate: [guestGuard] },
   { path: 'vocab', component: VocabComponent },
   { path: 'vocab/flashcard', component: FlashcardComponent },
   { path: 'vocab/picture', component: PictureComponent },
@@ -58,6 +58,7 @@ export const routes: Routes = [
     canActivate: [loginGuard],
     loadComponent: () => import('./pages/test-result.component').then((m) => m.TestResultComponent),
   },
+  { path: 'writing/phrases', loadComponent: () => import('./pages/phrases.component').then((m) => m.PhrasesComponent) },
   { path: 'writing', loadComponent: () => import('./pages/writing.component').then((m) => m.WritingComponent) },
   {
     path: 'writing/submissions/:id',
@@ -74,6 +75,11 @@ export const routes: Routes = [
     path: 'speaking/:id',
     canActivate: [loginGuard],
     loadComponent: () => import('./pages/speaking.component').then((m) => m.SpeakingPracticeComponent),
+  },
+  {
+    path: 'mistakes',
+    canActivate: [loginGuard],
+    loadComponent: () => import('./pages/mistakes.component').then((m) => m.MistakesComponent),
   },
   {
     path: 'history',

@@ -1,0 +1,73 @@
+POS	bid	noun
+POS	bite	verb
+POS	ring	noun
+POS	spell	verb
+POS	thirst	noun
+POS	assistant	noun
+POS	crush	verb
+POS	fold	verb
+POS	riddle	noun
+POS	soil	noun
+POS	split	verb
+POS	wake	verb
+POS	healing	noun
+POS	adult	noun
+POS	middle	noun
+POS	past	noun
+POS	latter	adjective
+POS	rear	noun
+POS	plastic	noun
+POS	comic	noun
+POS	pandemic	noun
+VI	bite	cắn; vết cắn
+VI	spell	đánh vần
+VI	wake	thức dậy
+VI	crush	nghiền nát, đè bẹp
+VI	fold	gấp
+VI	split	chia ra, tách ra
+VI	pandemic	đại dịch
+VI	rear	phía sau
+VI	middle	ở giữa, khoảng giữa
+VI	thirst	cơn khát
+EN	tomorrow	On the day after today.
+EN	pink	Pale red in colour.
+EN	too	More than is needed or wanted; also.
+EN	again	One more time.
+EN	another	One more; a different one.
+EN	both	The two; used for two people or things together.
+EN	few	A small number of.
+EN	once	One time; at some time in the past.
+EN	quite	Fairly, but not very; also completely.
+EN	especially	More than usual; particularly.
+EN	single	Only one; not married; (UK) a one-way ticket.
+EN	youngest	Least old in a group.
+EN	much	A lot (used with uncountable nouns and in questions).
+EN	many	A large number of.
+EN	adult	A fully grown person.
+EN	completely	Totally; in every way.
+EN	extremely	Very; to a great degree.
+EN	graduate	To complete a university or school course.
+EN	middle	The central point or part of something.
+EN	minimum	The smallest amount possible or allowed.
+EN	maximum	The largest amount possible or allowed.
+EN	past	The time before now.
+EN	slightly	A little.
+EN	somewhat	A little; to some degree.
+EN	latter	The second of two things mentioned.
+EN	worst	Most bad; least good.
+EN	lesbian	Relating to women who are attracted to women.
+EN	moan	To make a long low sound of pain; to complain.
+EN	howl	To make a long loud cry, like a dog or wolf.
+EN	hoax	A trick that makes people believe something false.
+EN	pandemic	A disease that spreads across many countries.
+EN	celsius	Relating to the temperature scale where water freezes at 0 degrees.
+EN	explosive	Able to explode; a substance that can explode.
+EN	hybrid	A mixture of two different things; a car with both a petrol and an electric engine.
+EN	bite	To cut into something with your teeth.
+EN	spell	To say or write the letters of a word in order.
+EN	wake	To stop sleeping.
+EN	crush	To press something so hard that it breaks.
+EN	fold	To bend paper or cloth so that one part lies on another.
+EN	split	To divide into parts.
+EN	stem	The main stalk of a plant; to come from or be caused by something.
+EN	measure	An action taken to deal with a problem; also a way of measuring.

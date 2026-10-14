@@ -34,5 +34,8 @@ public class SpeakingPrompt {
   @Convert(converter = StringListConverter.class)
   private List<String> cueCardPoints = new ArrayList<>();
 
+  /** Bài nói mẫu để học viên đối chiếu sau khi tự nói. */
+  private String sampleAnswer;
+
   private int sortOrder;
 }

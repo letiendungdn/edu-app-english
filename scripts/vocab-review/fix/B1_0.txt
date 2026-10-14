@@ -1,0 +1,424 @@
+EN	recommend	To suggest that someone or something is good or suitable.
+EN	treatment	Medical care for an illness or injury; also the way you behave towards someone.
+EN	appointment	An arranged meeting at a particular time.
+EN	receipt	A piece of paper showing that you have paid for something.
+EN	delay	A period of time when something is late.
+EN	effect	A change caused by something else; a result.
+EN	government	The group of people who officially control a country.
+EN	law	A rule made by the government that everyone must obey; the system of such rules.
+EN	rule	An instruction about what you must or must not do.
+EN	crime	An illegal act that can be punished by law.
+EN	prison	A building where criminals are kept as a punishment.
+EN	judge	A person who decides cases in a court of law.
+EN	vote	To choose someone or something in an election by marking a paper or raising your hand.
+EN	population	The number of people living in a place.
+EN	culture	The customs, beliefs and arts of a particular group of people.
+EN	belief	A feeling that something is true or exists.
+EN	value	How much something is worth; also beliefs about what is important.
+EN	wealth	A large amount of money or property.
+EN	protest	A public action to show strong disagreement.
+EN	newspaper	A printed publication with news, published every day or week.
+EN	article	A piece of writing in a newspaper or magazine.
+EN	performance	The act of performing a play or music; also how well something is done.
+EN	ceremony	A formal public event, such as a wedding.
+EN	celebrate	To do something enjoyable for a special occasion.
+EN	rude	Not polite.
+EN	honest	Always telling the truth.
+EN	fair	Treating people equally and reasonably.
+EN	responsible	Having the duty of looking after someone or something; being the cause of something.
+EN	profession	A job that needs special training, such as law or medicine.
+EN	occupation	A person's job.
+EN	department	A section of an organisation, such as a company, university or government.
+EN	client	A person who pays for a professional service.
+EN	agreement	An arrangement or decision accepted by two or more people.
+EN	presentation	A talk giving information about something.
+EN	report	A written or spoken description of an event or situation.
+EN	success	Achieving what you wanted or tried to do.
+EN	failure	Lack of success.
+EN	challenge	Something difficult that tests your ability.
+EN	pressure	Stress caused by having too much to do; also force pressing on something.
+EN	stress	Worry caused by difficult situations; also emphasis on a part of a word.
+EN	quit	To stop doing something or leave a job.
+EN	fire	To dismiss someone from their job.
+EN	prepare	To make something ready.
+EN	develop	To grow or change into something bigger, stronger or more advanced.
+EN	carry out	To do or complete a task, plan or piece of research.
+EN	set up	To start a business or organisation.
+EN	take over	To take control of something.
+EN	work out	To find the answer to something; also to do exercise.
+EN	education	The process of teaching and learning, especially at school or university.
+EN	argument	A reason given to support an idea; also an angry disagreement.
+EN	source	The place something comes from.
+EN	reference	A mention of something; a source of information.
+EN	concentrate	To give all your attention to something.
+EN	review	To look at something again carefully.
+EN	pronounce	To make the sound of a word.
+EN	vocabulary	All the words a person knows or uses.
+EN	topic	A subject that people talk or write about.
+EN	communication	The act of sharing information with others.
+EN	express	To show a feeling or opinion in words or actions.
+EN	claim	To say that something is true, although it may not be.
+EN	deny	To say that something is not true.
+EN	refuse	To say that you will not do or accept something.
+EN	accept	To agree to take something that is offered.
+EN	confirm	To say that something is definitely true or will happen.
+EN	blame	To say that someone is responsible for something bad.
+EN	doubt	To feel uncertain about something.
+EN	wonder	To want to know something; to ask yourself.
+EN	notice	To see or become aware of something.
+EN	recognize	To know someone or something because you have seen it before.
+EN	suppose	To think that something is probably true.
+EN	assume	To think something is true without checking.
+EN	consider	To think carefully about something.
+EN	decide	To make a choice about something.
+EN	purpose	The reason why something is done or made.
+EN	reason	A cause or explanation for something.
+EN	fear	The feeling of being afraid.
+EN	anger	A strong feeling of being angry.
+EN	shame	A bad feeling when you have done something wrong.
+EN	curiosity	The wish to know or learn about something.
+EN	sensitive	Easily upset; also quickly noticing other people's feelings.
+EN	mental	Relating to the mind.
+EN	physical	Relating to the body.
+EN	surgery	Medical treatment in which a doctor cuts open the body.
+EN	operation	The process of cutting open the body to repair or remove a part.
+EN	infection	A disease caused by bacteria or a virus entering the body.
+EN	virus	A very small living thing that causes disease; also a harmful computer program.
+EN	habit	Something that you do often and regularly.
+EN	balance	A state where different things are equal or in the right amounts.
+EN	energy	The power and ability to be active; also power used to produce heat or electricity.
+EN	avoid	To stay away from someone or something.
+EN	suffer	To experience pain or something unpleasant.
+EN	waste	Material that is not wanted after use; also a bad use of money or time.
+EN	resource	Something useful that a country or person has, such as oil, money or skills.
+EN	electricity	A form of energy used for light, heat and power.
+EN	flood	A large amount of water covering an area that is usually dry.
+EN	earthquake	A sudden shaking of the ground.
+EN	disaster	A sudden event that causes great damage or loss of life.
+EN	species	A group of animals or plants of the same type.
+EN	extinct	No longer existing, especially of a type of animal or plant.
+EN	damage	To harm or break something.
+EN	destroy	To damage something so badly that it no longer exists.
+EN	reduce	To make something smaller or less.
+EN	network	A system of connected computers, people or things.
+EN	connection	A link between two things or people.
+EN	signal	A sound, light or movement that gives information.
+EN	security	Protection from danger or crime.
+EN	install	To put software or equipment in place so it can be used.
+EN	delete	To remove something, especially from a computer.
+EN	search	To look carefully for someone or something.
+EN	attach	To fix or join one thing to another; to add a file to an email.
+EN	forward	To send an email or letter you have received to someone else.
+EN	link	A connection; a word or picture on a web page that takes you to another page.
+EN	memory	The ability to remember; something you remember.
+EN	risk	The possibility that something bad will happen.
+EN	chance	A possibility; also an opportunity.
+EN	possibility	Something that might happen or be true.
+EN	likely	Probably going to happen or be true.
+EN	necessary	Needed in order to achieve something.
+EN	suitable	Right for a particular purpose or situation.
+EN	typical	Having the usual qualities of a particular type.
+EN	main	Most important.
+EN	positive	Good or useful; hopeful and confident.
+EN	negative	Bad or harmful; not hopeful.
+EN	active	Busy and doing a lot of things.
+EN	passive	Accepting what happens without trying to change it.
+EN	ancient	Very old; from a long time ago.
+EN	former	Having been something in the past.
+EN	annual	Happening once a year.
+EN	temporary	Lasting for only a limited time.
+EN	immediate	Happening at once.
+EN	constant	Happening all the time; not changing.
+EN	frequent	Happening often.
+EN	supply	An amount of something that is available to use.
+EN	profit	Money you make by selling something for more than it cost.
+EN	loss	The fact of losing something; money lost in business.
+EN	tax	Money that people pay to the government.
+EN	loan	Money that you borrow and must pay back.
+EN	insurance	An arrangement in which you pay a company and it pays you if something bad happens.
+EN	advertise	To tell people about a product so they will buy it.
+EN	compete	To try to win or be more successful than others.
+EN	import	To bring goods into a country to sell.
+EN	export	To sell goods to another country.
+EN	accommodation	A place to live or stay.
+EN	reservation	An arrangement to keep a seat, room or table for you.
+EN	attraction	A place that people visit for interest or enjoyment.
+EN	departure	The act of leaving a place.
+EN	arrival	The act of reaching a place.
+EN	guide	A person who shows tourists around a place; a book giving information.
+EN	otherwise	If not; or else.
+EN	despite	Without being prevented by something.
+EN	depend on	To need someone or something for support; to be decided by something.
+EN	put off	To delay doing something until later.
+EN	bring up	To care for a child until they are an adult; to mention a subject.
+EN	get along	To have a friendly relationship with someone.
+EN	keep on	To continue doing something.
+EN	make up	To invent a story or excuse; to become friends again after an argument.
+EN	run into	To meet someone by chance.
+EN	take up	To start doing a new activity or hobby.
+EN	turn out	To happen in a particular way; to be found to be.
+EN	break into	To enter a building illegally, usually to steal.
+EN	break out	To start suddenly, such as a war or fire.
+EN	come across	To find or meet by chance.
+EN	cut down	To reduce the amount of something.
+EN	cut off	To stop the supply of something; to disconnect.
+EN	fall out	To have an argument and stop being friendly.
+EN	get over	To recover from an illness or a sad experience.
+EN	get through	To manage to deal with something difficult; to reach someone on the phone.
+EN	go over	To check or examine something carefully.
+EN	hold up	To delay someone or something.
+EN	take on	To accept work or responsibility.
+EN	set off	To start a journey.
+EN	run away	To leave a place or person secretly and quickly.
+EN	warm up	To do gentle exercise before sport.
+EN	developer	A person or company that makes software; also one that builds new buildings.
+EN	in time	Early enough; not late.
+EN	run out	To use all of something so that none is left.
+EN	marathon	A running race of about 42 kilometres.
+EN	roundabout	A place where roads meet and traffic moves around a circle.
+EN	catch up	To reach someone who is ahead of you.
+EN	fall behind	To fail to keep up with others.
+EN	go through	To experience something difficult; to examine carefully.
+EN	hardly	Almost not.
+EN	dumbbell	A short bar with weights at each end, used for exercise.
+EN	junction	A place where roads or railway lines meet.
+EN	abandon	To leave someone or something and not return.
+EN	abnormal	Different from what is usual, often in a worrying way.
+EN	aboard	On or onto a ship, plane or train.
+EN	accessory	An extra item that goes with something, such as a bag or belt.
+EN	accidentally	By chance; not on purpose.
+EN	administration	The management of an organisation; the government in power.
+EN	aggressive	Behaving in an angry, violent way.
+EN	agriculture	The science or work of farming.
+EN	alphabet	The set of letters used to write a language.
+EN	angle	The space between two lines that meet; also a way of looking at something.
+EN	ape	A large animal like a monkey without a tail, such as a gorilla.
+EN	appetite	The wish to eat food.
+EN	architect	A person who designs buildings.
+EN	army	The part of a country's military that fights on land.
+EN	artist	A person who paints, draws or makes art.
+EN	assist	To help someone.
+EN	awesome	Very impressive or very good.
+EN	baggage	The bags and cases you take on a journey.
+EN	bark	The hard outer covering of a tree; the sound a dog makes.
+EN	barrel	A large round container for liquids.
+EN	basin	A bowl for washing, especially a sink.
+EN	beat	To win against someone; to hit repeatedly.
+EN	beaver	An animal with a wide flat tail that builds dams in rivers.
+EN	bent	Not straight.
+EN	biology	The scientific study of living things.
+EN	blind	Unable to see.
+EN	bomb	A weapon that explodes.
+EN	boom	A sudden increase in business or activity.
+EN	boot	A strong shoe that covers the foot and ankle.
+EN	bow	A curved stick used to shoot arrows; also the front of a ship.
+EN	brass	A yellow metal made from copper and zinc.
+EN	breath	The air that goes into and out of your lungs.
+EN	bubble	A ball of air or gas inside a liquid.
+EN	builder	A person whose job is to build houses.
+EN	bull	An adult male cow.
+EN	bureau	An office or organisation that provides information or services.
+EN	cage	A box made of bars for keeping birds or animals.
+EN	calf	A young cow; also the back of the lower leg.
+EN	cell	The smallest unit of a living thing; also a small room in a prison.
+EN	chaos	A state of complete confusion and disorder.
+EN	chase	The act of following someone quickly to catch them.
+EN	chemistry	The science of substances and how they combine and change.
+EN	choir	A group of people who sing together.
+EN	choke	To be unable to breathe because something blocks the throat.
+EN	circular	Shaped like a circle.
+EN	citizenship	The legal right to belong to a particular country.
+EN	coal	A hard black substance burned as fuel.
+EN	comedy	A funny film, play or TV show.
+EN	command	An order; also control of a group.
+EN	compose	To write music, a poem or a letter.
+EN	composition	A piece of music or writing; also the parts that make up something.
+EN	compound	A substance made of two or more elements.
+EN	conquer	To take control of a country by force.
+EN	conscious	Awake and able to understand; aware of something.
+EN	consume	To use something such as fuel or energy; to eat or drink.
+EN	content	What is inside something, such as a book, website or container.
+EN	creator	A person who makes something new.
+EN	crisis	A time of great difficulty or danger.
+EN	crossroads	A place where two roads cross.
+EN	crow	A large black bird.
+EN	daisy	A small flower with white petals and a yellow centre.
+EN	darkness	The state of having no light.
+EN	defender	A player whose job is to stop the other team scoring; a person who protects something.
+EN	depth	How deep something is.
+EN	designer	A person who designs clothes, products or buildings.
+EN	desperate	Feeling hopeless and ready to do anything to change a bad situation.
+EN	devotion	Great love, loyalty or commitment.
+EN	differ	To be different from something.
+EN	disc	A flat round object.
+EN	dive	A jump into water head first.
+EN	document	A paper or computer file with official information.
+EN	dolphin	An intelligent sea animal like a small whale.
+EN	dozen	A group of twelve.
+EN	element	A basic part of something; also a chemical substance such as oxygen.
+EN	emperor	The male ruler of an empire.
+EN	entry	The act of entering; also a single item in a list or dictionary.
+EN	essential	Completely necessary; very important.
+EN	establishment	The act of starting an organisation; also a business or organisation.
+EN	examination	A formal test of knowledge; also a careful check.
+EN	existence	The state of existing.
+EN	exit	The way out of a building or place.
+EN	explosion	A sudden violent burst of energy, such as from a bomb.
+EN	fifth	Coming after the fourth in order.
+EN	flock	A group of sheep or birds.
+EN	fond	Liking someone or something very much.
+EN	forehead	The part of the face above the eyes.
+EN	format	The way something is arranged or organised.
+EN	foundation	The base under a building; also an organisation that gives money to good causes.
+EN	fountain	A structure that sends water up into the air.
+EN	frost	A thin white layer of ice on surfaces in cold weather.
+EN	gay	Attracted to people of the same sex.
+EN	governor	The person in charge of a region or an organisation.
+EN	grill	A device for cooking food over or under strong direct heat.
+EN	hammer	A tool with a heavy metal head used for hitting nails.
+EN	handball	A team game in which players throw a ball into a goal.
+EN	hang	To attach something at the top so that the lower part is free.
+EN	harbour	An area of water near the coast where ships stay safely.
+EN	hearing	The ability to hear; also an official meeting to examine facts.
+EN	hidden	Not easy to see or find.
+EN	historical	Relating to the past or to history.
+EN	horn	A hard pointed part on an animal's head; also a device that makes a loud sound.
+EN	humour	The ability to find things funny; the quality of being funny.
+EN	hunger	The feeling of needing food.
+EN	hunt	The act of chasing and killing wild animals.
+EN	infinitive	The basic form of a verb, such as 'to go'.
+EN	interval	A period of time between two events; a break in a performance.
+EN	introduction	The first part of a book or essay; also the act of introducing someone.
+EN	invasion	The act of an army entering a country by force.
+EN	invest	To put money into something to make a profit.
+EN	jade	A green stone used for jewellery and ornaments.
+EN	jar	A glass container with a lid.
+EN	jazz	A type of music with strong rhythms and free, invented melodies.
+EN	ladder	A piece of equipment with steps for climbing up and down.
+EN	lay	To put something down carefully; (of a bird) to produce eggs.
+EN	length	How long something is.
+EN	liberate	To make someone or something free.
+EN	liberation	The act of setting people or a country free.
+EN	lift	A machine that carries people between floors of a building.
+EN	lighter	A small device for lighting cigarettes or fires.
+EN	liquid	A substance that flows, like water.
+EN	literature	Novels, poems and plays, especially those considered to have artistic value.
+EN	liver	A large organ in the body that cleans the blood.
+EN	location	A place or position.
+EN	logic	A way of thinking that uses clear reasons.
+EN	magician	A person who performs magic tricks.
+EN	mankind	All humans considered as a group.
+EN	maple	A tree with leaves that have five points.
+EN	marriage	The legal relationship between a husband and wife.
+EN	mass	A large amount; involving many people.
+EN	mathematics	The science of numbers, quantities and shapes.
+EN	meditation	The practice of sitting quietly and calming the mind.
+EN	mineral	A natural substance found in rocks or the earth, such as gold or salt.
+EN	minimum	The smallest amount possible or allowed.
+EN	motive	A reason for doing something.
+EN	movement	A change of position; also a group of people working for a cause.
+EN	mud	Wet soft earth.
+EN	muscle	A part of the body that tightens and relaxes to make movement.
+EN	nail	A thin pointed piece of metal; also the hard part at the end of a finger.
+EN	naked	Not wearing any clothes.
+EN	narrow	Small from one side to the other.
+EN	nearby	Close by.
+VI	recommend	giới thiệu, đề xuất
+VI	angle	góc; góc nhìn
+VI	army	quân đội
+VI	basin	chậu rửa
+VI	bow	cái cung; mũi tàu
+VI	breath	hơi thở
+VI	builder	thợ xây
+VI	bureau	văn phòng, cục
+VI	boom	sự bùng nổ
+VI	choke	nghẹt thở
+VI	circular	hình tròn
+VI	compose	sáng tác, soạn
+VI	composition	tác phẩm; thành phần
+VI	conscious	tỉnh táo; ý thức được
+VI	consume	tiêu thụ
+VI	content	nội dung
+VI	county	hạt, quận
+VI	creator	người sáng tạo
+VI	crisis	cuộc khủng hoảng
+VI	defender	hậu vệ; người bảo vệ
+VI	devotion	sự tận tụy
+VI	dialogue	cuộc đối thoại
+VI	disappointment	sự thất vọng
+VI	dolphin	cá heo
+VI	element	yếu tố; nguyên tố
+VI	emperor	hoàng đế
+VI	empire	đế quốc
+VI	encyclopedia	bách khoa toàn thư
+VI	essential	cần thiết, thiết yếu
+VI	establishment	sự thành lập; tổ chức
+VI	examination	kỳ thi; sự kiểm tra
+VI	explosion	vụ nổ
+VI	fifth	thứ năm
+VI	fond	thích, quý mến
+VI	format	định dạng
+VI	foundation	nền móng; quỹ
+VI	gay	người đồng tính, đồng tính
+VI	gee	ồ, chà
+VI	grill	vỉ nướng
+VI	hairdresser	thợ làm tóc
+VI	handball	bóng ném
+VI	hearing	thính giác; phiên điều trần
+VI	holy	thiêng liêng
+VI	inconvenient	bất tiện
+VI	infinitive	động từ nguyên mẫu
+VI	invest	đầu tư
+VI	jar	lọ, hũ
+VI	lay	đặt; đẻ (trứng)
+VI	liberate	giải phóng
+VI	liberation	sự giải phóng
+VI	logic	logic, lập luận
+VI	magician	ảo thuật gia
+VI	mankind	loài người
+VI	maple	cây phong
+VI	mass	khối lượng; đại chúng
+VI	meditation	thiền
+VI	mission	nhiệm vụ
+VI	motive	động cơ
+VI	movement	sự chuyển động; phong trào
+VI	nearby	gần đó
+VI	abnormal	bất thường
+VI	aggressive	hung hăng
+VI	alphabet	bảng chữ cái
+VI	appetite	sự thèm ăn
+VI	applause	tiếng vỗ tay
+VI	assist	giúp đỡ, hỗ trợ
+VI	awesome	tuyệt vời
+VI	bent	cong
+VI	bomb	quả bom
+VI	brass	đồng thau
+VI	burst	vỡ, nổ tung
+VI	camel	lạc đà
+VI	cell	tế bào; xà lim
+VI	chaos	sự hỗn loạn
+VI	chase	cuộc rượt đuổi
+VI	chemistry	hóa học
+VI	choir	dàn hợp xướng
+VI	coffin	quan tài
+VI	complicated	phức tạp
+VI	copyright	bản quyền
+VI	designer	nhà thiết kế
+VI	ecology	sinh thái học
+VI	economics	kinh tế học
+VI	electron	electron
+VI	entry	sự đi vào; mục
+VI	genetics	di truyền học
+VI	geology	địa chất học
+VI	goddess	nữ thần
+VI	industry	ngành công nghiệp
+VI	jade	ngọc bích
+VI	lighter	bật lửa
+VI	liquid	chất lỏng
+VI	liver	gan
+VI	mayor	thị trưởng
+VI	accessory	phụ kiện
+VI	accidentally	vô tình
+VI	adopt	nhận nuôi; áp dụng
+VI	breast	ngực
+VI	hunger	cơn đói

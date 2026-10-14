@@ -1,7 +1,9 @@
 package com.edu.english.web;
 
 import com.edu.english.security.CurrentUser;
+import com.edu.english.service.PhraseService;
 import com.edu.english.service.WritingService;
+import com.edu.english.web.IeltsModels.WritingPhraseView;
 import com.edu.english.web.IeltsModels.WritingPromptView;
 import com.edu.english.web.IeltsModels.WritingSubmissionView;
 import com.edu.english.web.IeltsModels.WritingSubmitRequest;
@@ -19,9 +21,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/writing")
 public class WritingController {
   private final WritingService writing;
+  private final PhraseService phrases;
 
-  public WritingController(WritingService writing) {
+  public WritingController(WritingService writing, PhraseService phrases) {
     this.writing = writing;
+    this.phrases = phrases;
+  }
+
+  /** Ngân hàng cụm từ: từ nối, mở bài, mô tả số liệu. Không cần đăng nhập. */
+  @GetMapping("/phrases")
+  public List<WritingPhraseView> phrases() {
+    return phrases.all();
   }
 
   @GetMapping("/prompts")

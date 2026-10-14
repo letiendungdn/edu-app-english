@@ -1,0 +1,433 @@
+EX	cassette	My dad still has his old music cassettes.	Bố tôi vẫn còn giữ những cuộn băng nhạc cũ.
+EX	chart	The chart shows the number of tourists from 2010 to 2020.	Biểu đồ thể hiện số lượng du khách từ năm 2010 đến 2020.
+EX	chef	The chef cooked a special dish for us.	Bếp trưởng nấu một món đặc biệt cho chúng tôi.
+EX	classic	"Titanic" is a classic love story.	"Titanic" là một câu chuyện tình kinh điển.
+EX	cleaner	The cleaner comes to the office every evening.	Người dọn dẹp đến văn phòng mỗi tối.
+EX	clerk	The clerk at the bank helped me open an account.	Nhân viên ngân hàng giúp tôi mở tài khoản.
+EX	clone	Scientists cloned a sheep in 1996.	Các nhà khoa học đã nhân bản một con cừu vào năm 1996.
+EX	clown	The clown made the children laugh.	Chú hề làm bọn trẻ cười.
+EX	column	Write your answers in the right-hand column.	Viết câu trả lời vào cột bên phải.
+EX	complaint	The hotel received many complaints about the noise.	Khách sạn nhận nhiều lời phàn nàn về tiếng ồn.
+EX	convenient	Is Monday morning convenient for you?	Sáng thứ Hai có tiện cho bạn không?
+EX	cooker	The soup is on the cooker.	Nồi súp đang ở trên bếp.
+EX	curse	The old woman put a curse on the king.	Bà lão đã nguyền rủa nhà vua.
+EX	dam	The dam provides electricity for the whole region.	Con đập cung cấp điện cho cả vùng.
+EX	depend	Whether we go out depends on the weather.	Chúng ta có ra ngoài hay không còn tùy vào thời tiết.
+EX	disappear	The sun disappeared behind the clouds.	Mặt trời khuất sau những đám mây.
+EX	disco	They went to a disco on Saturday night.	Tối thứ Bảy họ đi sàn nhảy.
+EX	editor	She is the editor of a fashion magazine.	Cô ấy là biên tập viên của một tạp chí thời trang.
+EX	encourage	My parents always encouraged me to read.	Bố mẹ tôi luôn khuyến khích tôi đọc sách.
+EX	enormous	They live in an enormous house.	Họ sống trong một ngôi nhà khổng lồ.
+EX	episode	I watched three episodes last night.	Tối qua tôi đã xem ba tập phim.
+EX	expert	She is an expert in climate change.	Bà ấy là chuyên gia về biến đổi khí hậu.
+EX	fee	The course fee is two hundred dollars.	Học phí khóa học là hai trăm đô la.
+EX	fighter	He was a brave fighter.	Anh ấy là một chiến binh dũng cảm.
+EX	float	Wood floats on water.	Gỗ nổi trên mặt nước.
+EX	forbid	Smoking is forbidden in the building.	Hút thuốc bị cấm trong tòa nhà.
+EX	freeze	Water freezes at zero degrees Celsius.	Nước đóng băng ở không độ C.
+EX	frighten	The loud noise frightened the baby.	Tiếng động lớn làm em bé sợ.
+EX	fry	Fry the onions until they are brown.	Phi hành cho đến khi vàng.
+EX	globe	The teacher pointed to Vietnam on the globe.	Cô giáo chỉ vào Việt Nam trên quả địa cầu.
+EX	good-looking	He's a good-looking young man.	Anh ấy là một chàng trai trẻ ưa nhìn.
+EX	grocery store	I need to go to the grocery store for some milk.	Tôi cần ra cửa hàng tạp hóa mua ít sữa.
+EX	guard	A guard stood at the gate.	Một người bảo vệ đứng ở cổng.
+EX	harmony	People of different religions live in harmony here.	Người thuộc các tôn giáo khác nhau sống hòa hợp ở đây.
+EX	headteacher	The headteacher spoke to all the parents.	Thầy hiệu trưởng nói chuyện với tất cả phụ huynh.
+EX	hike	We went for a hike in the mountains.	Chúng tôi đi bộ đường dài trên núi.
+EX	image	The image on the screen was not very clear.	Hình ảnh trên màn hình không rõ lắm.
+EX	influence	Parents have a strong influence on their children.	Cha mẹ có ảnh hưởng lớn đến con cái.
+EX	instant	The film was an instant success.	Bộ phim thành công ngay lập tức.
+EX	instrument	Do you play a musical instrument?	Bạn có chơi nhạc cụ nào không?
+EX	intelligence	Artificial intelligence is changing many jobs.	Trí tuệ nhân tạo đang thay đổi nhiều nghề nghiệp.
+EX	jelly	The children had jelly and ice cream.	Bọn trẻ ăn thạch và kem.
+EX	laziness	He failed the exam because of laziness.	Anh ta trượt kỳ thi vì lười biếng.
+EX	lemonade	A glass of cold lemonade, please.	Cho tôi một cốc nước chanh lạnh.
+EX	level	This book is for students at intermediate level.	Cuốn sách này dành cho học sinh trình độ trung cấp.
+EX	liberty	The prisoners were given their liberty.	Các tù nhân đã được trả tự do.
+EX	load	The truck was carrying a heavy load.	Chiếc xe tải đang chở một khối hàng nặng.
+EX	magic	The magician did a magic trick with a coin.	Ảo thuật gia làm một trò ảo thuật với đồng xu.
+EX	maker	He is a famous film maker.	Ông ấy là một nhà làm phim nổi tiếng.
+EX	male	Most of the nurses here are female, but two are male.	Phần lớn y tá ở đây là nữ, nhưng có hai người là nam.
+EX	mall	Let's go shopping at the mall.	Chúng ta đi mua sắm ở trung tâm thương mại đi.
+EX	perform	The band will perform three new songs tonight.	Tối nay ban nhạc sẽ biểu diễn ba bài hát mới.
+EX	photography	She is interested in wildlife photography.	Cô ấy thích chụp ảnh động vật hoang dã.
+EX	pilgrim	Thousands of pilgrims visit the temple every year.	Hàng nghìn người hành hương đến thăm ngôi đền mỗi năm.
+EX	playground	The children are playing in the playground.	Bọn trẻ đang chơi ở sân chơi.
+EX	plural	The plural of "child" is "children".	Số nhiều của "child" là "children".
+EX	police station	He was taken to the police station.	Anh ta bị đưa về đồn cảnh sát.
+EX	powerful	The president is a very powerful person.	Tổng thống là một người rất có quyền lực.
+EX	pro	Let's discuss the pros and cons of living in a city.	Hãy thảo luận ưu và nhược điểm của việc sống ở thành phố.
+EX	produce	Vietnam produces a lot of coffee.	Việt Nam sản xuất rất nhiều cà phê.
+EX	production	Car production has increased this year.	Sản lượng ô tô đã tăng trong năm nay.
+EX	progressive	The school has progressive ideas about education.	Ngôi trường có những ý tưởng tiến bộ về giáo dục.
+EX	provide	The hotel provides free breakfast.	Khách sạn cung cấp bữa sáng miễn phí.
+EX	publish	Her first novel was published in 2015.	Cuốn tiểu thuyết đầu tiên của cô ấy được xuất bản năm 2015.
+EX	receptionist	The receptionist gave us our room keys.	Lễ tân đưa chìa khóa phòng cho chúng tôi.
+EX	retired	My grandfather is a retired teacher.	Ông tôi là một giáo viên đã nghỉ hưu.
+EX	robin	A robin was singing in the garden.	Một chú chim cổ đỏ đang hót trong vườn.
+EX	royal	The royal family lives in the palace.	Gia đình hoàng gia sống trong cung điện.
+EX	runner	She is the fastest runner in our class.	Cô ấy là người chạy nhanh nhất lớp tôi.
+EX	sample	The doctor took a blood sample.	Bác sĩ lấy mẫu máu.
+EX	scale	The map has a scale of one to ten thousand.	Bản đồ có tỉ lệ một trên mười nghìn.
+EX	schoolchild	Schoolchildren get free entry to the museum.	Học sinh được vào bảo tàng miễn phí.
+EX	script	The actors are reading the script for the new film.	Các diễn viên đang đọc kịch bản cho bộ phim mới.
+EX	senior	She has a senior position in the company.	Cô ấy giữ chức vụ cao trong công ty.
+EX	singular	"Mouse" is singular and "mice" is plural.	"Mouse" là số ít còn "mice" là số nhiều.
+EX	slice	Can I have a slice of cake?	Cho tôi một miếng bánh nhé?
+EX	slim	She is tall and slim.	Cô ấy cao và mảnh mai.
+EX	smooth	The baby's skin is very smooth.	Da em bé rất mịn.
+EX	snowboarding	We go snowboarding every winter.	Mùa đông nào chúng tôi cũng đi trượt ván tuyết.
+EX	soda	Would you like a soda?	Bạn có muốn uống nước ngọt không?
+EX	soft drink	Children should not have too many soft drinks.	Trẻ em không nên uống quá nhiều nước ngọt có ga.
+EX	splash	The children splashed each other in the pool.	Bọn trẻ té nước vào nhau trong hồ bơi.
+EX	strength	He doesn't have the strength to lift it.	Anh ấy không đủ sức nhấc nó lên.
+EX	survive	Only three people survived the crash.	Chỉ có ba người sống sót sau vụ tai nạn.
+EX	text message	She sent me a text message.	Cô ấy gửi cho tôi một tin nhắn.
+EX	tour guide	Our tour guide spoke excellent English.	Hướng dẫn viên của chúng tôi nói tiếng Anh rất giỏi.
+EX	track	We followed a narrow track through the forest.	Chúng tôi đi theo một con đường mòn hẹp xuyên qua khu rừng.
+EX	trap	The farmer set a trap for the fox.	Người nông dân đặt bẫy bắt con cáo.
+EX	treasure	The pirates buried their treasure on an island.	Bọn cướp biển chôn kho báu trên một hòn đảo.
+EX	trick	He played a trick on his sister.	Cậu ấy chơi khăm em gái mình.
+EX	unforgettable	Our trip to Ha Long Bay was unforgettable.	Chuyến đi vịnh Hạ Long của chúng tôi thật khó quên.
+EX	unit	The metre is a unit of length.	Mét là một đơn vị đo chiều dài.
+EX	verb	"Run" is a verb.	"Run" là một động từ.
+EX	weekday	The shop is open on weekdays only.	Cửa hàng chỉ mở cửa vào ngày thường.
+EX	wisdom	My grandmother is full of wisdom.	Bà tôi rất thông thái.
+EX	zone	This is a no-parking zone.	Đây là khu vực cấm đỗ xe.
+EX	lieutenant	The lieutenant gave orders to his soldiers.	Viên trung úy ra lệnh cho binh lính.
+EX	colonel	The colonel has served in the army for thirty years.	Viên đại tá đã phục vụ trong quân đội ba mươi năm.
+EX	sergeant	The sergeant shouted at the young soldiers.	Viên trung sĩ quát những người lính trẻ.
+EX	receipt	Keep the receipt in case you need to return it.	Hãy giữ hóa đơn phòng khi cần đổi trả.
+EX	tradition	Giving lucky money at Tet is an old tradition.	Lì xì vào dịp Tết là một truyền thống lâu đời.
+EX	value	The value of the house has doubled.	Giá trị căn nhà đã tăng gấp đôi.
+EX	occupation	Please write your name and occupation.	Vui lòng ghi tên và nghề nghiệp của bạn.
+EX	source	Tourism is the main source of income for the island.	Du lịch là nguồn thu nhập chính của hòn đảo.
+EX	bilingual	Their children are bilingual in English and Vietnamese.	Con họ nói thạo cả tiếng Anh lẫn tiếng Việt.
+EX	definition	Look up the definition of this word.	Hãy tra định nghĩa của từ này.
+EX	reason	What's the reason for your decision?	Lý do cho quyết định của bạn là gì?
+EX	result	The exam results will come out next week.	Kết quả thi sẽ có vào tuần sau.
+EX	link	Click on the link to download the file.	Nhấp vào đường dẫn để tải tệp xuống.
+EX	impossible	It's impossible to finish all this work today.	Không thể làm xong hết việc này trong hôm nay.
+EX	gradual	There has been a gradual increase in prices.	Giá cả đã tăng dần.
+EX	frequent	There are frequent buses to the airport.	Có xe buýt thường xuyên ra sân bay.
+EX	reservation	I'd like to make a reservation for two people.	Tôi muốn đặt bàn cho hai người.
+EX	give in	His parents finally gave in and bought him a phone.	Cuối cùng bố mẹ cậu ấy cũng chịu thua và mua cho cậu một chiếc điện thoại.
+EX	scoreboard	The scoreboard showed 2–1.	Bảng tỉ số hiện 2–1.
+EX	dishwasher	Put the plates in the dishwasher.	Cho đĩa vào máy rửa bát.
+EX	seatbelt	Please fasten your seatbelt.	Vui lòng thắt dây an toàn.
+EX	aboard	There were 200 passengers aboard the plane.	Có 200 hành khách trên máy bay.
+EX	abundance	The region has an abundance of fresh fruit.	Vùng này có rất nhiều trái cây tươi.
+EX	accessory	She bought a new bag and some accessories.	Cô ấy mua một chiếc túi mới và vài món phụ kiện.
+EX	accidentally	I accidentally deleted the file.	Tôi vô tình xóa mất tệp.
+EX	acquaintance	He's not a close friend, just an acquaintance.	Anh ấy không phải bạn thân, chỉ là người quen.
+EX	administration	She works in the hospital administration.	Cô ấy làm ở bộ phận hành chính của bệnh viện.
+EX	admiration	I have great admiration for her courage.	Tôi rất khâm phục lòng dũng cảm của cô ấy.
+EX	adverb	"Quickly" is an adverb.	"Quickly" là một trạng từ.
+EX	afterward	We had dinner and went for a walk afterward.	Chúng tôi ăn tối rồi sau đó đi dạo.
+EX	agriculture	Most people in the village work in agriculture.	Phần lớn người dân trong làng làm nông nghiệp.
+EX	air force	Her brother is a pilot in the air force.	Anh trai cô ấy là phi công không quân.
+EX	alphabet	There are 26 letters in the English alphabet.	Bảng chữ cái tiếng Anh có 26 chữ.
+EX	angle	The photo was taken from an unusual angle.	Bức ảnh được chụp từ một góc khác lạ.
+EX	ape	Gorillas and chimpanzees are apes.	Khỉ đột và tinh tinh là loài vượn.
+EX	applause	The singer finished to loud applause.	Ca sĩ kết thúc trong tràng pháo tay vang dội.
+EX	architect	The architect showed us the plans for the new library.	Kiến trúc sư cho chúng tôi xem bản thiết kế thư viện mới.
+EX	arrow	Follow the arrows to the exit.	Đi theo các mũi tên để đến lối ra.
+EX	assist	Staff will assist passengers with their bags.	Nhân viên sẽ hỗ trợ hành khách mang hành lý.
+EX	astronomer	The astronomer discovered a new planet.	Nhà thiên văn học đã phát hiện ra một hành tinh mới.
+EX	avenue	The hotel is on Fifth Avenue.	Khách sạn nằm trên Đại lộ số Năm.
+EX	backache	Sitting all day gives me backache.	Ngồi cả ngày khiến tôi bị đau lưng.
+EX	bakery	I buy fresh bread from the bakery every morning.	Sáng nào tôi cũng mua bánh mì tươi ở tiệm bánh.
+EX	bald	My uncle went bald in his thirties.	Chú tôi bị hói từ năm ba mươi mấy tuổi.
+EX	basement	We keep our bikes in the basement.	Chúng tôi để xe đạp dưới tầng hầm.
+EX	basin	Fill the basin with warm water.	Đổ đầy nước ấm vào chậu rửa.
+EX	battle	Many soldiers died in the battle.	Nhiều binh lính đã tử trận trong trận đánh.
+EX	beaver	Beavers build dams across rivers.	Hải ly xây đập chắn ngang sông.
+EX	beloved	He returned to his beloved hometown.	Ông ấy trở về quê hương yêu dấu.
+EX	biochemistry	She is studying biochemistry at university.	Cô ấy đang học hóa sinh ở trường đại học.
+EX	biography	I'm reading a biography of Steve Jobs.	Tôi đang đọc cuốn tiểu sử của Steve Jobs.
+EX	blog	She writes a travel blog.	Cô ấy viết blog du lịch.
+EX	bomb	A bomb exploded in the city centre.	Một quả bom đã phát nổ ở trung tâm thành phố.
+EX	boom	There has been a boom in online shopping.	Mua sắm trực tuyến đang bùng nổ.
+EX	boot	He bought a new pair of boots for winter.	Anh ấy mua một đôi ủng mới cho mùa đông.
+EX	boredom	He started eating out of boredom.	Anh ấy bắt đầu ăn vặt vì buồn chán.
+EX	bow	He shot the arrow with a wooden bow.	Anh ấy bắn mũi tên bằng một cây cung gỗ.
+EX	brass	The door handle is made of brass.	Tay nắm cửa làm bằng đồng thau.
+EX	brick	The house is built of red brick.	Ngôi nhà được xây bằng gạch đỏ.
+EX	bubble	The children are blowing bubbles.	Bọn trẻ đang thổi bong bóng xà phòng.
+EX	builder	The builders will finish the house next month.	Thợ xây sẽ hoàn thành ngôi nhà vào tháng tới.
+EX	bull	The bull was standing alone in the field.	Con bò đực đứng một mình trên cánh đồng.
+EX	bullet	The police found a bullet in the wall.	Cảnh sát tìm thấy một viên đạn trên tường.
+EX	bureau	Ask at the tourist information bureau.	Hãy hỏi ở văn phòng thông tin du lịch.
+EX	burst	The balloon burst with a loud bang.	Quả bóng nổ đánh bốp một tiếng.
+EX	cage	The bird escaped from its cage.	Con chim đã thoát khỏi lồng.
+EX	calf	The cow had a calf last night.	Con bò cái đã đẻ một con bê đêm qua.
+EX	camel	People cross the desert on camels.	Người ta băng qua sa mạc trên lưng lạc đà.
+EX	canal	Boats travel along the canal.	Thuyền bè đi lại dọc con kênh.
+EX	candle	She lit a candle.	Cô ấy thắp một ngọn nến.
+EX	canteen	We have lunch in the canteen.	Chúng tôi ăn trưa ở căng tin.
+EX	capsule	Take one capsule twice a day.	Uống một viên nang hai lần mỗi ngày.
+EX	chaos	The snow caused chaos on the roads.	Tuyết gây hỗn loạn trên các con đường.
+EX	chase	The film ends with a car chase.	Bộ phim kết thúc bằng một màn rượt đuổi xe hơi.
+EX	chemistry	We have a chemistry test tomorrow.	Ngày mai chúng tôi có bài kiểm tra hóa.
+EX	chewing gum	Chewing gum is not allowed in class.	Không được nhai kẹo cao su trong lớp.
+EX	choir	She sings in the school choir.	Cô ấy hát trong dàn đồng ca của trường.
+EX	Christian	Most people in this country are Christian.	Hầu hết người dân nước này theo đạo Thiên Chúa.
+EX	circus	We took the children to the circus.	Chúng tôi đưa bọn trẻ đi xem xiếc.
+EX	citizenship	She applied for British citizenship.	Cô ấy nộp đơn xin quốc tịch Anh.
+EX	coal	The power station burns coal.	Nhà máy điện đốt than.
+EX	coffin	The coffin was carried into the church.	Quan tài được khiêng vào nhà thờ.
+EX	comet	You can see the comet without a telescope.	Bạn có thể thấy sao chổi mà không cần kính thiên văn.
+EX	command	The soldiers waited for the command to fire.	Những người lính chờ lệnh nổ súng.
+EX	comparison	In comparison with last year, sales have increased.	So với năm ngoái, doanh số đã tăng.
+EX	compose	Mozart composed his first symphony at the age of eight.	Mozart sáng tác bản giao hưởng đầu tiên khi tám tuổi.
+EX	composition	The class wrote a composition about their holidays.	Cả lớp viết một bài văn về kỳ nghỉ của mình.
+EX	compound	Water is a compound of hydrogen and oxygen.	Nước là hợp chất của hydro và oxy.
+EX	conscious	The patient is still conscious.	Bệnh nhân vẫn còn tỉnh.
+EX	consonant	"B" and "c" are consonants.	"B" và "c" là phụ âm.
+EX	consume	Large cars consume more fuel.	Ô tô lớn tiêu thụ nhiều nhiên liệu hơn.
+EX	copyright	The author owns the copyright of the book.	Tác giả giữ bản quyền cuốn sách.
+EX	county	They live in a small village in the county of Kent.	Họ sống ở một ngôi làng nhỏ thuộc hạt Kent.
+EX	courgette	Slice the courgettes and fry them in oil.	Thái lát bí xanh rồi chiên với dầu.
+EX	creator	He is the creator of a popular cartoon.	Ông ấy là người tạo ra một bộ phim hoạt hình nổi tiếng.
+EX	crossroads	Turn right at the crossroads.	Rẽ phải ở ngã tư.
+EX	crow	A crow was sitting on the roof.	Một con quạ đậu trên mái nhà.
+EX	daisy	The field was full of daisies.	Cánh đồng đầy hoa cúc.
+EX	darkness	The room was in complete darkness.	Căn phòng chìm trong bóng tối hoàn toàn.
+EX	defender	He plays as a defender for the national team.	Anh ấy chơi ở vị trí hậu vệ cho đội tuyển quốc gia.
+EX	depart	The train departs at 6:30.	Tàu khởi hành lúc 6 giờ 30.
+EX	depth	The lake has a depth of ten metres.	Hồ sâu mười mét.
+EX	desperate	After a week without work, he was desperate for money.	Sau một tuần không có việc, anh ấy rất cần tiền.
+EX	detective	The detective solved the case.	Thám tử đã phá được vụ án.
+EX	devotion	Her devotion to her family is amazing.	Sự tận tụy của cô ấy dành cho gia đình thật đáng nể.
+EX	dialog	A dialog box appears on the screen.	Một hộp thoại hiện lên trên màn hình.
+EX	dialogue	Listen to the dialogue and answer the questions.	Nghe đoạn hội thoại và trả lời câu hỏi.
+EX	differ	Prices differ from shop to shop.	Giá cả khác nhau tùy từng cửa hàng.
+EX	disappoint	I don't want to disappoint my parents.	Tôi không muốn làm bố mẹ thất vọng.
+EX	disappointment	The match was a big disappointment.	Trận đấu thật đáng thất vọng.
+EX	disc	The music is on a disc.	Bản nhạc được ghi trên một chiếc đĩa.
+EX	dive	He made a perfect dive into the pool.	Anh ấy nhảy xuống hồ bơi một cú hoàn hảo.
+EX	dolphin	We saw dolphins swimming next to the boat.	Chúng tôi thấy cá heo bơi cạnh thuyền.
+EX	dozen	I bought a dozen eggs.	Tôi mua một tá trứng.
+EX	dynasty	The Nguyen dynasty ruled Vietnam until 1945.	Triều Nguyễn cai trị Việt Nam đến năm 1945.
+EX	ecology	Building the dam could damage the ecology of the river.	Việc xây đập có thể làm tổn hại hệ sinh thái của dòng sông.
+EX	economics	He studied economics at university.	Anh ấy học kinh tế học ở trường đại học.
+EX	elbow	She hurt her elbow when she fell.	Cô ấy bị đau khuỷu tay khi ngã.
+EX	electron	An electron has a negative charge.	Electron mang điện tích âm.
+EX	empire	The Roman Empire lasted for hundreds of years.	Đế chế La Mã tồn tại hàng trăm năm.
+EX	employment	It is hard to find employment in the countryside.	Ở nông thôn rất khó tìm việc làm.
+EX	encyclopedia	You can find the answer in an encyclopedia.	Bạn có thể tìm câu trả lời trong bách khoa toàn thư.
+EX	entry	Entry to the museum is free.	Vào cửa bảo tàng miễn phí.
+EX	establishment	The establishment of the school took five years.	Việc thành lập ngôi trường mất năm năm.
+EX	examination	She passed the examination with high marks.	Cô ấy đỗ kỳ thi với điểm cao.
+EX	existence	Scientists doubt the existence of life on Mars.	Các nhà khoa học nghi ngờ sự tồn tại của sự sống trên sao Hỏa.
+EX	explosion	The explosion destroyed three houses.	Vụ nổ đã phá hủy ba ngôi nhà.
+EX	fake	The police found fake money in his car.	Cảnh sát tìm thấy tiền giả trong xe của hắn.
+EX	fifth	This is my fifth visit to Hanoi.	Đây là lần thứ năm tôi đến Hà Nội.
+EX	filter	Change the water filter every six months.	Thay bộ lọc nước sáu tháng một lần.
+EX	fire station	The fire station is next to the hospital.	Trạm cứu hỏa nằm cạnh bệnh viện.
+EX	firefighter	Firefighters rescued a cat from the tree.	Lính cứu hỏa đã giải cứu một con mèo trên cây.
+EX	firework	We watched the fireworks on New Year's Eve.	Chúng tôi xem pháo hoa vào đêm Giao thừa.
+EX	flock	A flock of birds flew over the lake.	Một đàn chim bay qua hồ.
+EX	flute	She plays the flute in the school orchestra.	Cô ấy thổi sáo trong dàn nhạc của trường.
+EX	fond	I'm very fond of my little cousin.	Tôi rất quý cô em họ nhỏ của mình.
+EX	forehead	He wiped the sweat from his forehead.	Anh ấy lau mồ hôi trên trán.
+EX	format	The test has the same format as last year.	Bài thi có định dạng giống năm ngoái.
+EX	foundation	The foundations of the house are very strong.	Nền móng ngôi nhà rất chắc chắn.
+EX	fountain	There is a fountain in the middle of the square.	Có một đài phun nước ở giữa quảng trường.
+EX	frequency	The frequency of flights has increased.	Tần suất các chuyến bay đã tăng lên.
+EX	funeral	Many people came to his funeral.	Rất nhiều người đến dự đám tang ông ấy.
+EX	gee	Gee, that's a big dog!	Chà, con chó to thật!
+EX	genetics	Genetics can explain why children look like their parents.	Di truyền học có thể giải thích vì sao con cái giống bố mẹ.
+EX	geology	She is interested in the geology of volcanoes.	Cô ấy quan tâm đến địa chất của núi lửa.
+EX	ginger	Add some ginger to the soup.	Cho thêm ít gừng vào canh.
+EX	giraffe	Giraffes eat leaves from tall trees.	Hươu cao cổ ăn lá trên những cây cao.
+EX	goddess	Athena was the Greek goddess of wisdom.	Athena là nữ thần trí tuệ của Hy Lạp.
+EX	goods	The shop sells electrical goods.	Cửa hàng bán đồ điện.
+EX	gorilla	Gorillas live in the forests of Africa.	Khỉ đột sống trong các khu rừng châu Phi.
+EX	governor	The governor visited the flooded area.	Thống đốc đã đến thăm vùng bị lũ lụt.
+EX	grill	Cook the fish under the grill for ten minutes.	Nướng cá trong lò nướng mười phút.
+EX	hairdresser	I have an appointment at the hairdresser's.	Tôi có hẹn ở tiệm làm tóc.
+EX	handball	Handball is popular in Germany.	Bóng ném rất phổ biến ở Đức.
+EX	handkerchief	He wiped his nose with a handkerchief.	Anh ấy lau mũi bằng khăn tay.
+EX	harbour	The boats stayed in the harbour during the storm.	Các con thuyền neo trong cảng suốt trận bão.
+EX	hatred	The war left a lot of hatred between the two countries.	Cuộc chiến để lại nhiều hận thù giữa hai nước.
+EX	heater	Turn on the heater – it's cold.	Bật máy sưởi lên – trời lạnh quá.
+EX	herd	A herd of cows was crossing the road.	Một đàn bò đang băng qua đường.
+EX	holy	Jerusalem is a holy city for three religions.	Jerusalem là thành phố thiêng liêng của ba tôn giáo.
+EX	honeymoon	They went to Phu Quoc for their honeymoon.	Họ đi Phú Quốc hưởng tuần trăng mật.
+EX	humid	Hanoi is very hot and humid in summer.	Hà Nội rất nóng và ẩm vào mùa hè.
+EX	humour	He has a great sense of humour.	Anh ấy rất có khiếu hài hước.
+EX	hunt	The hunt for the missing child continued all night.	Cuộc tìm kiếm đứa trẻ mất tích kéo dài suốt đêm.
+EX	imitate	Children often imitate their parents.	Trẻ con thường bắt chước bố mẹ.
+EX	inconvenient	I'm sorry, is this an inconvenient time?	Xin lỗi, giờ này có bất tiện cho bạn không?
+EX	incredibly	The test was incredibly difficult.	Bài kiểm tra khó không tưởng.
+EX	infinitive	"To go" is an infinitive.	"To go" là động từ nguyên mẫu.
+EX	inspection	The car needs a safety inspection every year.	Xe cần được kiểm định an toàn hằng năm.
+EX	interval	There is a 20-minute interval between the two parts of the play.	Có 20 phút giải lao giữa hai phần của vở kịch.
+EX	introduction	Read the introduction before you start the book.	Hãy đọc phần giới thiệu trước khi bắt đầu đọc sách.
+EX	invasion	The invasion began in the early morning.	Cuộc xâm lược bắt đầu vào sáng sớm.
+EX	jade	She wears a jade bracelet.	Cô ấy đeo một chiếc vòng ngọc bích.
+EX	jar	There is a jar of honey in the cupboard.	Có một hũ mật ong trong tủ.
+EX	kitten	Our cat had four kittens.	Con mèo nhà tôi đẻ bốn mèo con.
+EX	laboratory	The students did an experiment in the laboratory.	Học sinh làm thí nghiệm trong phòng thí nghiệm.
+EX	leap	The cat leapt onto the wall.	Con mèo nhảy phóc lên bức tường.
+EX	liar	Don't believe him – he's a liar.	Đừng tin hắn – hắn là kẻ nói dối.
+EX	liberate	The soldiers liberated the city.	Những người lính đã giải phóng thành phố.
+EX	liberation	The country celebrates its liberation every year.	Đất nước kỷ niệm ngày giải phóng hằng năm.
+EX	librarian	The librarian helped me find the book.	Thủ thư giúp tôi tìm cuốn sách.
+EX	lighter	Have you got a lighter?	Bạn có bật lửa không?
+EX	liquid	Water is a liquid.	Nước là chất lỏng.
+EX	literature	She studies English literature.	Cô ấy học văn học Anh.
+EX	liver	Drinking too much alcohol damages your liver.	Uống quá nhiều rượu làm hại gan.
+EX	logic	I don't understand the logic of his argument.	Tôi không hiểu logic trong lập luận của anh ấy.
+EX	loudspeaker	The announcement came over the loudspeaker.	Thông báo phát ra từ loa.
+EX	lung	Smoking causes lung cancer.	Hút thuốc gây ung thư phổi.
+EX	magician	The magician pulled a rabbit out of a hat.	Ảo thuật gia lôi một con thỏ ra từ chiếc mũ.
+EX	mailbox	I found a letter in my mailbox.	Tôi thấy một lá thư trong hòm thư.
+EX	maple	Canada is famous for its maple trees.	Canada nổi tiếng với cây phong.
+EX	mass	A mass of people gathered in the square.	Một đám đông lớn tụ tập ở quảng trường.
+EX	mathematics	Mathematics is a compulsory subject.	Toán là môn học bắt buộc.
+EX	mechanic	The mechanic fixed my car in an hour.	Thợ máy sửa xong xe tôi trong một giờ.
+EX	merchant	He was a rich merchant who sold silk.	Ông ấy là một thương nhân giàu có buôn lụa.
+EX	miracle	It's a miracle that nobody was hurt.	Thật là kỳ diệu khi không ai bị thương.
+EX	modem	The modem is next to the computer.	Modem nằm cạnh máy tính.
+EX	molecule	A water molecule has two hydrogen atoms.	Một phân tử nước có hai nguyên tử hydro.
+EX	mosquito	I was bitten by mosquitoes all night.	Tôi bị muỗi đốt suốt đêm.
+EX	motherland	After many years abroad, he returned to his motherland.	Sau nhiều năm ở nước ngoài, ông ấy trở về quê hương.
+EX	motive	The police are looking for a motive for the crime.	Cảnh sát đang tìm động cơ gây án.
+EX	motor	The boat has an electric motor.	Chiếc thuyền có động cơ điện.
+EX	mud	His shoes were covered in mud.	Giày anh ấy dính đầy bùn.
+EX	mustard	Would you like mustard on your sandwich?	Bạn có muốn cho mù tạt vào bánh sandwich không?
+POS	float	verb
+POS	fry	verb
+POS	magic	noun
+POS	liquid	noun
+POS	mass	noun
+VI	aboard	trên tàu, trên máy bay
+VI	laboratory	phòng thí nghiệm
+VI	leap	nhảy vọt
+VI	liar	kẻ nói dối
+VI	Christian	theo đạo Cơ đốc
+VI	flock	đàn, bầy
+VI	heater	máy sưởi
+VI	filter	bộ lọc
+VI	fry	rán, chiên
+VI	float	nổi
+VI	mass	khối; số đông
+EN	clerk	A person who works in an office, keeping records or dealing with customers.
+EN	disco	A place or party where people dance to pop music.
+EN	editor	A person who prepares a book, newspaper or film for publishing.
+EN	encourage	To give someone support and confidence to do something.
+EN	enormous	Extremely large.
+EN	expert	A person with special knowledge or skill in a subject.
+EN	good-looking	Attractive in appearance.
+EN	grocery store	A shop that sells food and household goods.
+EN	hike	A long walk in the countryside.
+EN	image	A picture or photo; also the way people see someone.
+EN	influence	The power to affect how someone or something develops.
+EN	jelly	A soft sweet food that shakes, made from fruit juice and gelatin.
+EN	lemonade	A drink made from lemon juice, sugar and water.
+EN	photography	The art or job of taking photographs.
+EN	pilgrim	A person who travels to a holy place for religious reasons.
+EN	playground	An outdoor area where children can play.
+EN	plural	The form of a word used for more than one.
+EN	police station	The building where the local police work.
+EN	powerful	Having a lot of power, strength or influence.
+EN	publish	To prepare and print a book or magazine for sale.
+EN	receptionist	A person who greets visitors and answers the phone in an office or hotel.
+EN	schoolchild	A child who goes to school.
+EN	script	The written text of a play, film or broadcast.
+EN	slice	A thin flat piece cut from something.
+EN	snowboarding	The sport of moving over snow on a board.
+EN	soda	A sweet fizzy drink.
+EN	soft drink	A cold non-alcoholic drink.
+EN	splash	To hit water so that it flies through the air.
+EN	strength	The quality of being physically or mentally strong.
+EN	survive	To continue to live after a dangerous event.
+EN	verb	A word that describes an action, state or event.
+EN	tradition	A custom or belief that has existed for a long time.
+EN	definition	A statement of the meaning of a word.
+EN	result	Something that happens because of something else; a final score or mark.
+EN	impossible	Not able to happen or be done.
+EN	give in	To finally agree to something after refusing.
+EN	scoreboard	A large board that shows the score in a game.
+EN	seatbelt	A belt in a car or plane that holds you in your seat.
+EN	abundance	A very large amount of something.
+EN	acquaintance	A person you know but who is not a close friend.
+EN	admiration	A feeling of respect and approval.
+EN	adverb	A word that describes a verb, adjective or other adverb, such as "quickly".
+EN	afterward	Later; after something else has happened.
+EN	air force	The part of a country's military that uses aircraft.
+EN	applause	The sound of people clapping.
+EN	astronomer	A scientist who studies stars and planets.
+EN	avenue	A wide street in a town.
+EN	backache	A pain in your back.
+EN	bakery	A shop where bread and cakes are made or sold.
+EN	bald	Having little or no hair on the head.
+EN	basement	A room or floor below ground level.
+EN	battle	A fight between armies.
+EN	biochemistry	The study of the chemistry of living things.
+EN	biography	The story of a person's life written by someone else.
+EN	blog	A website where someone regularly writes about their life or opinions.
+EN	boredom	The feeling of being bored.
+EN	brick	A block of baked clay used for building.
+EN	bullet	A small metal object fired from a gun.
+EN	burst	To break open suddenly, or make something do this.
+EN	camel	A large desert animal with one or two humps.
+EN	canal	A man-made river for boats or for watering crops.
+EN	candle	A stick of wax with a string in the middle that you burn for light.
+EN	canteen	A place in a school, factory or office where people eat.
+EN	capsule	A small container of medicine that you swallow.
+EN	chewing gum	A sweet substance that you chew but do not swallow.
+EN	Christian	Believing in or relating to Christianity.
+EN	circus	A show with acrobats, clowns and animals that travels from place to place.
+EN	coffin	A box in which a dead body is buried.
+EN	comparison	The act of looking at how two things are similar or different.
+EN	copyright	The legal right to control the copying of a book, film or song.
+EN	courgette	A long green vegetable (also called zucchini).
+EN	depart	To leave, especially to start a journey.
+EN	dialog	A conversation; on a computer, a box that asks the user for input.
+EN	dialogue	A conversation in a book, film or play, or between groups.
+EN	disappoint	To make someone sad because something is not as good as expected.
+EN	disappointment	The feeling of being disappointed.
+EN	ecology	The relationship between living things and their environment.
+EN	economics	The study of how money, trade and industry work.
+EN	elbow	The joint in the middle of your arm.
+EN	employment	Paid work; a job.
+EN	filter	A device that removes dirt from liquid or gas passing through it.
+EN	fire station	A building where firefighters and fire engines are based.
+EN	firefighter	A person whose job is to put out fires.
+EN	frequency	How often something happens.
+EN	genetics	The study of how features pass from parents to children.
+EN	geology	The study of rocks and the structure of the earth.
+EN	ginger	A spicy root used in cooking.
+EN	giraffe	A tall African animal with a very long neck.
+EN	gorilla	The largest kind of ape.
+EN	grill	A device for cooking food under or over strong heat.
+EN	hairdresser	A person whose job is cutting and styling hair.
+EN	handkerchief	A small square of cloth for wiping your nose.
+EN	hatred	A very strong feeling of dislike.
+EN	heater	A machine that makes a room or water warm.
+EN	herd	A large group of animals such as cows.
+EN	holy	Connected with God or religion.
+EN	humid	Hot and wet (of air or weather).
+EN	imitate	To copy the way someone behaves or speaks.
+EN	inspection	An official check of something.
+EN	laboratory	A room where scientists do experiments.
+EN	leap	To jump high or far.
+EN	liar	A person who tells lies.
+EN	librarian	A person who works in a library.
+EN	loudspeaker	A device that makes sound louder.
+EN	lung	One of the two organs in your chest that you breathe with.
+EN	mailbox	A box where letters are delivered or posted.
+EN	mechanic	A person who repairs engines and vehicles.
+EN	merchant	A person who buys and sells goods, especially in large amounts.
+EN	miracle	A wonderful event that cannot be explained.
+EN	molecule	The smallest unit of a substance, made of atoms.
+EN	mosquito	A small flying insect that bites and sucks blood.
+EN	motor	A machine that makes something move.
+EN	mustard	A yellow spicy sauce made from seeds.
+EN	bakery	A shop where bread and cakes are made or sold.
+EN	cassette	A small plastic case containing tape for recording sound.
+EN	clown	A performer with a painted face who does funny things.
+EN	harbour	An area of water near the coast where ships stay safely.

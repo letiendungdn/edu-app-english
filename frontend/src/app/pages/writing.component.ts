@@ -50,7 +50,10 @@ export class AiBannerComponent implements OnInit {
     <div class="container page" style="max-width: 900px;">
       <div class="row" style="justify-content: space-between;">
         <h1>Writing</h1>
-        <a class="btn" routerLink="/history">Bài đã nộp</a>
+        <div class="row">
+          <a class="btn" routerLink="/writing/phrases">Cụm từ hay dùng</a>
+          <a class="btn" routerLink="/history">Bài đã nộp</a>
+        </div>
       </div>
       <app-ai-banner />
       <div class="row" style="margin: 1rem 0;">
@@ -103,6 +106,7 @@ export class WritingComponent implements OnInit {
               placeholder="Viết bài ở đây…" aria-label="Bài viết"></textarea>
             <div class="row" style="justify-content: space-between;">
               <span [class.error]="words() < p.minWords">{{ words() }} / {{ p.minWords }} từ</span>
+              <a routerLink="/writing/phrases" target="_blank" class="small" style="color: var(--accent);">Mở cụm từ hay dùng ↗</a>
               <span class="muted">⏱ {{ elapsed() }} · gợi ý {{ p.task === 'TASK1' ? 20 : 40 }} phút</span>
             </div>
             @if (error()) { <p class="error">{{ error() }}</p> }
@@ -110,6 +114,12 @@ export class WritingComponent implements OnInit {
             <p class="muted" style="font-size: 0.8rem; margin-top: 0.5rem;">Bản nháp tự lưu trên máy này.</p>
           </div>
         </div>
+        @if (p.sampleAnswer) {
+          <details class="card" style="margin-top: 1rem;">
+            <summary><strong>Bài mẫu</strong> @if (p.sampleBand) { <span class="muted">· band {{ p.sampleBand }}</span> }</summary>
+            <p class="passage" style="margin-top: 0.75rem;">{{ p.sampleAnswer }}</p>
+          </details>
+        }
       }
     </div>
   `,

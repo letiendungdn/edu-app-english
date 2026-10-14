@@ -10,6 +10,7 @@ import com.edu.english.domain.Enums.TaskStatus;
 import com.edu.english.domain.Enums.TaskType;
 import com.edu.english.domain.Enums.TestKind;
 import com.edu.english.domain.Enums.WritingTask;
+import com.edu.english.domain.GrammarTopic;
 import com.edu.english.domain.IeltsProfile;
 import com.edu.english.domain.ListeningTrack;
 import com.edu.english.domain.ReadingPassage;
@@ -19,6 +20,7 @@ import com.edu.english.domain.RoadmapTask;
 import com.edu.english.domain.SpeakingPrompt;
 import com.edu.english.domain.StudySession;
 import com.edu.english.domain.WritingPrompt;
+import com.edu.english.repo.GrammarTopicRepository;
 import com.edu.english.repo.IeltsProfileRepository;
 import com.edu.english.repo.IeltsTestRepository;
 import com.edu.english.repo.ListeningAttemptRepository;
@@ -77,6 +79,7 @@ public class RoadmapService {
   private final SpeakingPromptRepository speakingPrompts;
   private final SpeakingSubmissionRepository speakingSubmissions;
   private final IeltsTestRepository tests;
+  private final GrammarTopicRepository grammarTopics;
   private final SrsCardRepository cards;
   private final StudySessionRepository sessions;
   private final RoadmapPlanner.Settings settings;
@@ -98,6 +101,7 @@ public class RoadmapService {
       SpeakingPromptRepository speakingPrompts,
       SpeakingSubmissionRepository speakingSubmissions,
       IeltsTestRepository tests,
+      GrammarTopicRepository grammarTopics,
       SrsCardRepository cards,
       StudySessionRepository sessions,
       RoadmapPlanner.Settings settings,
@@ -117,6 +121,7 @@ public class RoadmapService {
     this.speakingPrompts = speakingPrompts;
     this.speakingSubmissions = speakingSubmissions;
     this.tests = tests;
+    this.grammarTopics = grammarTopics;
     this.cards = cards;
     this.sessions = sessions;
     this.settings = settings;
@@ -205,6 +210,7 @@ public class RoadmapService {
   @Transactional
   public RoadmapView view(Long userId) {
     Roadmap roadmap = activeOrGenerate(userId);
+    assignMissing(requireProfile(userId), roadmap.getId());
     return toView(roadmap, userId);
   }
 
@@ -226,6 +232,7 @@ public class RoadmapService {
     Context ctx = new Context(userId, profile);
     for (RoadmapTask t : todays) resolveContent(t, ctx);
     for (RoadmapTask t : overdue) resolveContent(t, ctx);
+    assignMissing(profile, roadmap.getId());
 
     RoadmapPhase phase =
         phases.findByRoadmapIdOrderBySortOrderAsc(roadmap.getId()).stream()
@@ -353,14 +360,14 @@ public class RoadmapService {
     return switch (t.getType()) {
       case VOCAB_REVIEW -> "/vocab/review";
       case VOCAB_NEW -> "/vocab/flashcard";
-      case GRAMMAR -> "/grammar";
+      case GRAMMAR -> ref == null ? "/grammar" : "/grammar/" + ref;
       case DICTATION -> "/dictation";
       case READING -> ref == null ? "/reading" : "/reading/" + ref;
       case LISTENING -> ref == null ? "/listening" : "/listening/" + ref;
       case WRITING_T1, WRITING_T2 -> ref == null ? "/writing" : "/writing/" + ref;
       case SPEAKING -> ref == null ? "/speaking" : "/speaking/" + ref;
       case MOCK_TEST -> "/tests";
-      case REVIEW_MISTAKES -> "/history";
+      case REVIEW_MISTAKES -> "/mistakes";
     };
   }
 
@@ -383,6 +390,81 @@ public class RoadmapService {
       this.listenDone = new HashSet<>(listeningAttempts.findTrackIdsDoneBy(userId));
       this.writingDone = new HashSet<>(writingSubmissions.findPromptIdsAttemptedBy(userId));
       this.speakingDone = new HashSet<>(speakingSubmissions.findPromptIdsAttemptedBy(userId));
+    }
+  }
+
+  /**
+   * Gắn mọi task còn trống vào bài thật, xoay vòng khi hết kho. Task hôm nay đã được chọn theo band thì giữ nguyên.
+   */
+  private void assignMissing(IeltsProfile profile, Long roadmapId) {
+    List<RoadmapTask> open =
+        tasks.findByRoadmapIdOrderByDueDateAscIdAsc(roadmapId).stream()
+            .filter(t -> t.getStatus() == TaskStatus.TODO && t.getRefId() == null)
+            .toList();
+    if (open.isEmpty()) return;
+
+    List<ReadingPassage> readings =
+        passages.findAll().stream()
+            .filter(p -> p.getModule() == IeltsModule.BOTH || p.getModule() == profile.getModule())
+            .toList();
+    List<ListeningTrack> listenings = tracks.findAll();
+    List<WritingPrompt> task1 =
+        writingPrompts.findAll().stream()
+            .filter(w -> w.getTask() == WritingTask.TASK1)
+            .filter(w -> w.getModule() == IeltsModule.BOTH || w.getModule() == profile.getModule())
+            .toList();
+    List<WritingPrompt> task2 =
+        writingPrompts.findAll().stream()
+            .filter(w -> w.getTask() == WritingTask.TASK2)
+            .filter(w -> w.getModule() == IeltsModule.BOTH || w.getModule() == profile.getModule())
+            .toList();
+    List<SpeakingPrompt> speaking = speakingPrompts.findAll();
+    List<GrammarTopic> grammar = grammarTopics.findAllByOrderByLevelAscSortOrderAsc();
+
+    int readingCursor = 0;
+    int listeningCursor = 0;
+    int writing1Cursor = 0;
+    int writing2Cursor = 0;
+    int speakingCursor = 0;
+    int grammarCursor = 0;
+    for (RoadmapTask task : open) {
+      switch (task.getType()) {
+        case READING -> {
+          if (readings.isEmpty()) continue;
+          ReadingPassage passage = readings.get(readingCursor++ % readings.size());
+          task.setRefType(SectionRef.READING_PASSAGE);
+          task.setRefId(passage.getId());
+        }
+        case LISTENING -> {
+          if (listenings.isEmpty()) continue;
+          ListeningTrack track = listenings.get(listeningCursor++ % listenings.size());
+          task.setRefType(SectionRef.LISTENING_TRACK);
+          task.setRefId(track.getId());
+        }
+        case WRITING_T1 -> {
+          if (task1.isEmpty()) continue;
+          WritingPrompt prompt = task1.get(writing1Cursor++ % task1.size());
+          task.setRefType(SectionRef.WRITING_PROMPT);
+          task.setRefId(prompt.getId());
+        }
+        case WRITING_T2 -> {
+          if (task2.isEmpty()) continue;
+          WritingPrompt prompt = task2.get(writing2Cursor++ % task2.size());
+          task.setRefType(SectionRef.WRITING_PROMPT);
+          task.setRefId(prompt.getId());
+        }
+        case SPEAKING -> {
+          if (speaking.isEmpty()) continue;
+          SpeakingPrompt prompt = speaking.get(speakingCursor++ % speaking.size());
+          task.setRefType(SectionRef.SPEAKING_PROMPT);
+          task.setRefId(prompt.getId());
+        }
+        case GRAMMAR -> {
+          if (grammar.isEmpty()) continue;
+          task.setRefId(grammar.get(grammarCursor++ % grammar.size()).getId());
+        }
+        default -> {}
+      }
     }
   }
 

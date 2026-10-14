@@ -118,7 +118,8 @@ public final class IeltsModels {
       /** Lời thoại để trình duyệt đọc bằng giọng máy khi bài nghe chưa có file audio. */
       String ttsScript,
       List<QuestionGroupView> groups,
-      WritingPromptView writing) {}
+      WritingPromptView writing,
+      SpeakingPromptView speaking) {}
 
   public record AttemptView(
       Long id,
@@ -131,7 +132,9 @@ public final class IeltsModels {
       int durationMin,
       List<SectionView> sections,
       Map<String, String> answers,
-      Map<String, String> writingDrafts) {}
+      Map<String, String> writingDrafts,
+      /** Câu Speaking đã ghi âm trong lượt thi này, để tải lại trang vẫn biết câu nào đã nói. */
+      List<Long> spokenPromptIds) {}
 
   public record AttemptSaveRequest(Map<String, String> answers, Map<String, String> writingDrafts) {}
 
@@ -152,7 +155,8 @@ public final class IeltsModels {
       Double bandSpeaking,
       Double bandOverall,
       List<SectionResult> sections,
-      List<WritingSubmissionView> writing) {}
+      List<WritingSubmissionView> writing,
+      List<SpeakingSubmissionView> speaking) {}
 
   // Writing ----------------------------------------------------------------------
 
@@ -167,7 +171,12 @@ public final class IeltsModels {
       String imageUrl,
       int minWords,
       String topic,
-      boolean attempted) {}
+      boolean attempted,
+      String sampleAnswer,
+      Double sampleBand) {}
+
+  public record WritingPhraseView(
+      Long id, String task, String category, String phrase, String meaningVi, String example, Double bandMin) {}
 
   public record WritingSubmitRequest(Long promptId, String text, Integer timeSpentSec) {}
 
@@ -197,7 +206,13 @@ public final class IeltsModels {
   // Speaking ---------------------------------------------------------------------
 
   public record SpeakingPromptView(
-      Long id, int part, String topic, String question, List<String> cueCardPoints, boolean attempted) {}
+      Long id,
+      int part,
+      String topic,
+      String question,
+      List<String> cueCardPoints,
+      boolean attempted,
+      String sampleAnswer) {}
 
   public record SpeakingSubmissionView(
       Long id,

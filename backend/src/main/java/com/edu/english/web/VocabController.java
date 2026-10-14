@@ -23,10 +23,17 @@ public class VocabController {
   @GetMapping
   public ApiModels.VocabPage vocab(
       @RequestParam(required = false) String level,
+      @RequestParam(required = false) String topic,
+      @RequestParam(required = false) String q,
       @RequestParam(defaultValue = "1") int page,
       @RequestParam(defaultValue = "30") int limit) {
     var user = CurrentUser.optional();
-    return vocab.list(level, page, limit, user == null ? null : user.id());
+    return vocab.list(level, topic, q, page, limit, user == null ? null : user.id());
+  }
+
+  @GetMapping("/topics")
+  public Object topics() {
+    return vocab.topics();
   }
 
   @GetMapping("/picture")

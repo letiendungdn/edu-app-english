@@ -41,15 +41,16 @@ public class SpeakingController {
     return speaking.prompt(id, user == null ? null : user.id());
   }
 
-  /** multipart: promptId, transcript (trình duyệt nhận dạng), durationSec, audio (tùy chọn). */
+  /** multipart: promptId, attemptId (khi thi thử), transcript (trình duyệt nhận dạng), durationSec, audio (tùy chọn). */
   @PostMapping(value = "/submissions", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
   @ResponseStatus(HttpStatus.ACCEPTED)
   public SpeakingSubmissionView submit(
       @RequestParam Long promptId,
+      @RequestParam(required = false) Long attemptId,
       @RequestParam(required = false) String transcript,
       @RequestParam(required = false) Integer durationSec,
       @RequestPart(required = false) MultipartFile audio) {
-    return speaking.submit(CurrentUser.require().id(), promptId, transcript, durationSec, audio);
+    return speaking.submit(CurrentUser.require().id(), promptId, attemptId, transcript, durationSec, audio);
   }
 
   @GetMapping("/submissions")

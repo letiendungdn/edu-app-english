@@ -1,6 +1,7 @@
 package com.edu.english.service;
 
 import com.edu.english.domain.Enums.OwnerType;
+import com.edu.english.domain.Enums.QuestionType;
 import com.edu.english.domain.Question;
 import com.edu.english.domain.QuestionGroup;
 import com.edu.english.repo.QuestionGroupRepository;
@@ -24,7 +25,12 @@ public class QuestionBank {
     this.groups = groups;
   }
 
-  public record Graded(int points, int maxPoints, List<AnswerResult> results, Map<Long, Integer> pointsByQuestion) {}
+  public record Graded(
+      int points,
+      int maxPoints,
+      List<AnswerResult> results,
+      Map<Long, Integer> pointsByQuestion,
+      Map<Long, QuestionType> typeByQuestion) {}
 
   @Transactional(readOnly = true)
   public List<QuestionGroupView> views(OwnerType ownerType, Long ownerId) {
@@ -39,12 +45,23 @@ public class QuestionBank {
     return counts;
   }
 
+  /** Các dạng câu hỏi có trong từng bài, để lọc "luyện theo dạng câu". */
+  @Transactional(readOnly = true)
+  public Map<Long, List<String>> questionTypes(OwnerType ownerType) {
+    Map<Long, List<String>> types = new HashMap<>();
+    for (Object[] row : groups.questionTypesByOwner(ownerType)) {
+      types.computeIfAbsent((Long) row[0], k -> new ArrayList<>()).add(((QuestionType) row[1]).name());
+    }
+    return types;
+  }
+
   /** answers: questionId (dạng chuỗi) → câu trả lời người học. */
   @Transactional(readOnly = true)
   public Graded grade(OwnerType ownerType, Long ownerId, Map<String, String> answers) {
     Map<String, String> safe = answers == null ? Map.of() : answers;
     List<AnswerResult> results = new ArrayList<>();
     Map<Long, Integer> byQuestion = new HashMap<>();
+    Map<Long, QuestionType> types = new HashMap<>();
     int points = 0;
     int max = 0;
     for (QuestionGroup group : groups.findByOwnerTypeAndOwnerIdOrderBySortOrderAsc(ownerType, ownerId)) {
@@ -55,6 +72,7 @@ public class QuestionBank {
         points += got;
         max += qMax;
         byQuestion.put(q.getId(), got);
+        types.put(q.getId(), group.getQuestionType());
         results.add(
             new AnswerResult(
                 q.getId(),
@@ -67,7 +85,7 @@ public class QuestionBank {
                 q.getEvidence()));
       }
     }
-    return new Graded(points, max, results, byQuestion);
+    return new Graded(points, max, results, byQuestion, types);
   }
 
   static QuestionGroupView toView(QuestionGroup group) {

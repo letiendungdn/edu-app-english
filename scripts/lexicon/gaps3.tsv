@@ -1,0 +1,64 @@
+Sports	A2	tennis	noun	quần vợt	She plays tennis on Sunday.	Chủ nhật cô ấy chơi quần vợt.
+Sports	A1	football	noun	bóng đá	The football match starts at seven.	Trận bóng đá bắt đầu lúc bảy giờ.
+Sports	A2	basketball	noun	bóng rổ	Basketball is played indoors.	Bóng rổ chơi trong nhà.
+Sports	B1	referee	noun	trọng tài	The referee stopped the game.	Trọng tài dừng trận đấu.
+Sports	A2	goal	noun	bàn thắng	He scored a goal.	Anh ấy ghi một bàn.
+Sports	A2	team	noun	đội	Our team won.	Đội chúng tôi thắng.
+Sports	B1	captain	noun	đội trưởng	The captain spoke to the team.	Đội trưởng nói với đội.
+Sports	A2	whistle	noun	còi	The whistle ended the match.	Tiếng còi kết thúc trận.
+Shopping	A2	bargain	noun	món hời	This coat was a bargain.	Chiếc áo này là món hời.
+Shopping	B1	receipt	noun	hóa đơn	Keep the receipt.	Giữ hóa đơn.
+Shopping	A2	queue	noun	hàng người chờ	There is a long queue.	Có một hàng dài.
+Shopping	A1	shop	noun	cửa hàng	The shop opens at nine.	Cửa hàng mở lúc chín giờ.
+Shopping	A2	size	noun	cỡ	What size do you wear?	Bạn mặc cỡ nào?
+Shopping	B1	exchange	verb	đổi hàng	I exchanged the shirt.	Tôi đổi chiếc áo.
+Shopping	A2	cash	noun	tiền mặt	I paid in cash.	Tôi trả bằng tiền mặt.
+Shopping	A2	card	noun	thẻ	You can pay by card.	Bạn có thể trả bằng thẻ.
+Home	A2	fridge	noun	tủ lạnh	The milk is in the fridge.	Sữa ở trong tủ lạnh.
+Home	A1	bed	noun	giường	The bed is next to the window.	Giường ở cạnh cửa sổ.
+Home	A1	table	noun	bàn	Put the book on the table.	Đặt sách lên bàn.
+Home	A1	chair	noun	ghế	This chair is comfortable.	Ghế này ngồi êm.
+Home	A2	lamp	noun	đèn	Turn on the lamp.	Bật đèn lên.
+Home	A2	shelf	noun	kệ	The photos are on the shelf.	Ảnh ở trên kệ.
+Home	A2	towel	noun	khăn tắm	There is a clean towel.	Có một chiếc khăn sạch.
+Home	B1	drawer	noun	ngăn kéo	The keys are in the drawer.	Chìa khóa ở trong ngăn kéo.
+City & Transport	A1	bus	noun	xe buýt	I take the bus to school.	Tôi đi học bằng xe buýt.
+City & Transport	A1	train	noun	tàu hỏa	The train is late.	Tàu hỏa bị trễ.
+City & Transport	A2	taxi	noun	taxi	We took a taxi home.	Chúng tôi bắt taxi về.
+City & Transport	A2	station	noun	nhà ga	The station is crowded.	Nhà ga đông người.
+City & Transport	A2	ticket	noun	vé	I bought a return ticket.	Tôi mua vé khứ hồi.
+City & Transport	B1	platform	noun	sân ga	The train leaves from platform 3.	Tàu đi từ sân ga số 3.
+City & Transport	A2	bridge	noun	cầu	We walked across the bridge.	Chúng tôi đi bộ qua cầu.
+City & Transport	A2	corner	noun	góc phố	The bank is on the corner.	Ngân hàng ở góc phố.
+Family	A1	mother	noun	mẹ	My mother cooks dinner.	Mẹ tôi nấu bữa tối.
+Family	A1	father	noun	bố	My father works in a bank.	Bố tôi làm ở ngân hàng.
+Family	A1	sister	noun	chị hoặc em gái	My sister is ten.	Em gái tôi mười tuổi.
+Family	A1	brother	noun	anh hoặc em trai	His brother lives in Hue.	Em trai anh ấy sống ở Huế.
+Family	A2	uncle	noun	chú bác cậu	My uncle visits on Sunday.	Chú tôi đến vào chủ nhật.
+Family	A2	aunt	noun	cô dì	My aunt sent a letter.	Dì tôi gửi một lá thư.
+Family	A2	cousin	noun	anh chị em họ	My cousin is a nurse.	Anh họ tôi là y tá.
+Family	A1	baby	noun	em bé	The baby is sleeping.	Em bé đang ngủ.
+Clothes	A1	shirt	noun	áo sơ mi	This shirt is white.	Áo sơ mi này màu trắng.
+Clothes	A1	dress	noun	váy	She bought a blue dress.	Cô ấy mua một chiếc váy xanh.
+Clothes	A1	shoes	noun	giày	These shoes are too small.	Đôi giày này nhỏ quá.
+Clothes	A1	hat	noun	mũ	Wear a hat in the sun.	Đội mũ khi ra nắng.
+Clothes	A2	jacket	noun	áo khoác	Take a jacket. It is cold.	Mang áo khoác. Trời lạnh.
+Clothes	A2	coat	noun	áo choàng	His coat is black.	Áo choàng của anh ấy màu đen.
+Clothes	A1	trousers	noun	quần dài	These trousers are new.	Chiếc quần này mới.
+Clothes	A2	skirt	noun	chân váy	The skirt is too long.	Chân váy dài quá.
+Technology	A2	keyboard	noun	bàn phím	SKIP	SKIP
+Technology	A2	battery	noun	pin	The battery is low.	Pin sắp hết.
+Technology	A2	message	noun	tin nhắn	I sent a message.	Tôi gửi một tin nhắn.
+Technology	B1	update	verb	cập nhật	Update the app.	Hãy cập nhật ứng dụng.
+Technology	A2	link	noun	đường dẫn	Click the link.	Bấm vào đường dẫn.
+Technology	B1	account	noun	tài khoản	I forgot my account name.	Tôi quên tên tài khoản.
+Technology	A2	photo	noun	ảnh	She posted a photo.	Cô ấy đăng một bức ảnh.
+Technology	B1	search	verb	tìm kiếm	Search for the word.	Hãy tìm từ đó.
+Travel	A2	luggage	noun	hành lý	Her luggage was heavy.	Hành lý của cô ấy nặng.
+Travel	A2	passport	noun	hộ chiếu	SKIP	SKIP
+Travel	B1	customs	noun	hải quan	We waited at customs.	Chúng tôi chờ ở hải quan.
+Travel	A2	flight	noun	chuyến bay	The flight is at noon.	Chuyến bay lúc trưa.
+Travel	A2	hotel	noun	khách sạn	The hotel is near the beach.	Khách sạn gần bãi biển.
+Travel	B1	reservation	noun	đặt chỗ	I have a reservation.	Tôi đã đặt chỗ.
+Travel	A2	guide	noun	hướng dẫn viên	The guide spoke slowly.	Hướng dẫn viên nói chậm.
+Travel	A2	camera	noun	máy ảnh	He took a camera.	Anh ấy mang máy ảnh.

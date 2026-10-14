@@ -1,0 +1,178 @@
+EN	let	To allow someone to do something.
+EN	lily	A plant with large bell-shaped flowers, often white.
+EN	machine	A piece of equipment with moving parts that does a particular job.
+EN	magazine	A thin book with pictures and articles, published every week or month.
+EN	matter	A subject or situation that you must deal with; also the physical substance of things.
+EN	middle	The central point or part of something.
+EN	moment	A very short period of time.
+EN	nationality	The legal right of belonging to a particular country.
+EN	neighbour	A person who lives near you.
+EN	nineteen	The number 19.
+EN	ninety	The number 90.
+EN	off	Away from a place; not switched on.
+EN	officer	A person with a position of authority in the army, police or government.
+EN	opera	A play in which the words are sung to music.
+EN	out	Away from the inside of a place.
+EN	painting	A picture made with paint.
+EN	pair	Two things of the same kind used together.
+EN	pants	Trousers (US); underwear (UK).
+EN	pardon	The act of forgiving someone.
+EN	party	A social event where people eat, drink and enjoy themselves.
+EN	past	The time before now.
+EN	peace	A situation with no war or fighting; calm and quiet.
+EN	piece	A part of something.
+EN	pleasure	A feeling of happiness or enjoyment.
+EN	point	An idea or opinion; also a mark used for scoring.
+EN	present	A gift; also the time now.
+EN	pretty	Attractive in a pleasant way.
+EN	program	A plan of activities; a television or radio show; software for a computer.
+EN	radio	A device for listening to programmes that are broadcast.
+EN	rat	An animal like a large mouse.
+EN	reading	The activity of reading books or other texts.
+EN	ribbon	A long narrow strip of cloth used for tying or decorating.
+EN	ring	A circle of metal worn on the finger; also the sound of a bell.
+EN	rose	A flower with a sweet smell that grows on a bush with thorns.
+EN	set	To put something in a particular place; also a group of things that belong together.
+EN	seventeen	The number 17.
+EN	seventy	The number 70.
+EN	shake	An act of moving something quickly up and down or from side to side.
+EN	share	To use or have something together with other people.
+EN	shoe	A covering for the foot, usually made of leather.
+EN	sight	The ability to see; something that you see.
+EN	sing	To make music with your voice.
+EN	smart	Clever and quick-thinking; also neat and well dressed.
+EN	smoke	The grey or white gas produced when something burns.
+EN	song	A short piece of music with words that you sing.
+EN	special	Different from what is usual; important.
+EN	speech	A formal talk given to an audience; the ability to speak.
+EN	spell	To say or write the letters of a word in the correct order.
+EN	stage	A raised area where people perform; also a step in a process.
+EN	strange	Unusual or surprising; not familiar.
+EN	suggestion	An idea or plan put forward for consideration.
+EN	super	Excellent; very good.
+EN	surprise	An unexpected event.
+EN	telephone	A device used to talk to someone who is in another place.
+EN	terrible	Very bad.
+EN	thick	Large in distance from one side to the other.
+EN	thin	Small in distance from one side to the other; not fat.
+EN	throw	An act of sending something through the air with your hand.
+EN	top	The highest part of something.
+EN	touch	The act of putting your hand or fingers on something.
+EN	tower	A tall narrow building or part of a building.
+EN	town	A place with many houses and shops, smaller than a city.
+EN	toy	An object for children to play with.
+EN	travel	To go from one place to another, especially over a long distance.
+EN	truck	A large road vehicle for carrying goods.
+EN	true	Based on facts; correct.
+EN	tube	A long hollow pipe.
+EN	turkey	A large bird often eaten at celebrations.
+EN	type	A kind or sort of something.
+EN	visit	An act of going to see a person or place.
+EN	war	Fighting between countries or groups using weapons.
+EN	wish	A feeling of wanting something to happen.
+EN	writer	A person who writes books or articles.
+EN	band	A group of musicians who play together; also a thin strip of material.
+EN	bath	A large container you fill with water and sit in to wash.
+EN	believe	To think that something is true.
+EN	blank	Empty, with nothing written on it.
+EN	block	A large building divided into flats or offices; also a solid piece of material.
+EN	build	To make something by putting parts together.
+EN	business	The activity of buying and selling; a company.
+EN	bye	Goodbye.
+EN	case	A particular situation or example; also a container.
+EN	character	A person in a story or film; also the qualities of a person.
+EN	cookie	A sweet biscuit.
+EN	cop	A police officer (informal).
+EN	cream	The thick part of milk; also a substance you put on your skin.
+EN	design	The way something is planned and made; a drawing or plan.
+EN	down	Towards a lower place.
+EN	excuse	A reason given to explain a mistake or bad behaviour.
+EN	fairy	A small imaginary creature with magic powers.
+EN	fine	Good or acceptable; also well, healthy.
+EN	focus	To give attention to one particular thing.
+EN	front	Located in the part that faces forward.
+EN	funny	Making you laugh.
+EN	grow	To become bigger or older.
+EN	hall	A large room for meetings or events; the room at the entrance of a house.
+EN	hide	To put something where it cannot be seen or found.
+EN	hole	An empty space or opening in something.
+EN	imagine	To form a picture of something in your mind.
+EN	item	One thing in a list or group.
+EN	jet	A fast aircraft with jet engines.
+EN	jump	To push yourself off the ground with your legs.
+EN	kid	A child (informal).
+EN	lady	A woman (polite).
+EN	line	A long thin mark; also a row of people or things.
+EN	list	A series of names or items written one below another.
+EN	luck	Good things that happen by chance.
+EN	mail	Letters and parcels sent by post.
+EN	move	An act of changing position, or of going to live in a different place.
+EN	mum	Mother (informal).
+EN	noise	A sound, especially a loud or unpleasant one.
+EN	partner	A person you do something with, or live with.
+EN	plan	An idea about how to do something in the future.
+EN	pool	A large container of water for swimming.
+EN	post	Letters and parcels; also a pole fixed in the ground.
+EN	practise	To do something regularly to improve your skill.
+EN	push	To press against something to move it away from you.
+EN	row	A line of people or things side by side.
+EN	sign	A board with words or pictures giving information; also a symbol.
+EN	social	Relating to society or to spending time with other people.
+EN	step	To move by lifting your foot and putting it down in a new place.
+EN	sunshine	The light and heat from the sun.
+EN	surf	The waves breaking on the shore.
+EN	survey	A set of questions used to find out people's opinions.
+EN	tool	A piece of equipment you hold in your hand to do a job.
+EN	wake	To stop sleeping.
+VI	let	để, cho phép
+VI	matter	vấn đề; vật chất
+VI	moment	khoảnh khắc, chốc lát
+VI	more	hơn, nhiều hơn
+VI	off	tắt; rời khỏi
+VI	out	ra ngoài
+VI	party	bữa tiệc; đảng phái
+VI	past	quá khứ
+VI	peace	hòa bình
+VI	picnic	buổi dã ngoại
+VI	point	điểm; ý chính
+VI	present	món quà; hiện tại
+VI	radio	đài, radio
+VI	rat	con chuột
+VI	ribbon	dải ruy băng
+VI	ring	chiếc nhẫn; tiếng chuông
+VI	set	đặt; bộ
+VI	shake	sự lắc
+VI	spell	đánh vần
+VI	stage	sân khấu; giai đoạn
+VI	throw	sự ném
+VI	top	đỉnh, phía trên
+VI	touch	sự chạm, xúc giác
+VI	vacation	kỳ nghỉ
+VI	visit	chuyến thăm
+VI	band	ban nhạc; dải băng
+VI	block	tòa nhà; khối
+VI	bye	tạm biệt
+VI	cream	kem
+VI	fine	tốt, khỏe
+VI	focus	tập trung
+VI	front	phía trước
+VI	hall	hội trường, sảnh
+VI	partner	đối tác, bạn đời
+VI	post	thư từ, bưu phẩm; cột
+VI	push	đẩy
+VI	reader	người đọc
+VI	survey	cuộc khảo sát
+VI	wake	thức dậy
+VI	cannot	không thể
+VI	TV	ti vi, truyền hình
+VI	telephone	điện thoại
+VI	smart	thông minh
+VI	magazine	tạp chí
+VI	movie	phim
+VI	palace	cung điện
+VI	prince	hoàng tử
+VI	spy	gián điệp
+VI	ugly	xấu xí
+VI	pray	cầu nguyện
+VI	town	thị trấn
+VI	poster	áp phích

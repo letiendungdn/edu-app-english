@@ -10,6 +10,8 @@ import org.springframework.data.repository.query.Param;
 public interface SpeakingSubmissionRepository extends JpaRepository<SpeakingSubmission, Long> {
   List<SpeakingSubmission> findTop50ByUserIdOrderByCreatedAtDesc(Long userId);
 
+  List<SpeakingSubmission> findByAttemptIdOrderByCreatedAtAsc(Long attemptId);
+
   long countByUserIdAndCreatedAtAfter(Long userId, Instant after);
 
   @Query("select distinct s.promptId from SpeakingSubmission s where s.userId = :userId")

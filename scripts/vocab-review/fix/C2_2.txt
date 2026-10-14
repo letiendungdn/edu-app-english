@@ -1,0 +1,109 @@
+DROP	viscount	
+DROP	lobotomy	
+DROP	ashram	
+DROP	poltergeist	
+DROP	circumcision	
+DROP	shangri-la	
+DROP	earthling	
+DROP	ninety-nine	
+DROP	kanji	
+DROP	musketeer	
+DROP	vizier	
+DROP	hashish	
+DROP	congee	
+DROP	thoracic	
+DROP	coot	
+DROP	ornery	
+DROP	lasso	
+DROP	bogeyman	
+EN	fizz	To produce lots of small bubbles.
+VI	fizz	sủi bọt
+EN	formaldehyde	A strong-smelling chemical used to preserve things.
+VI	lubricant	chất bôi trơn
+VI	insurrection	cuộc nổi dậy
+VI	twine	quấn, xoắn
+EN	hoard	To collect and store large amounts of something, often secretly.
+VI	telemetry	đo từ xa
+EN	telemetry	The automatic measuring and sending of data from far away.
+EN	camaraderie	A feeling of friendship and trust among people who spend time together.
+VI	camaraderie	tình đồng đội
+EN	sluice	A channel with a gate that controls the flow of water.
+EN	node	A point where lines or connections meet in a network.
+VI	node	nút, điểm nối
+VI	spoonful	một thìa
+EN	vagrant	A person who has no home or job and moves from place to place.
+VI	vagrant	người lang thang
+EN	gearbox	The set of gears in a vehicle that controls speed.
+VI	beech	cây sồi châu Âu
+EN	beech	A large tree with smooth grey bark.
+EN	duckling	A young duck.
+EN	fattening	Likely to make you fat (of food).
+VI	fattening	dễ gây béo
+EN	prelude	An event or action that comes before something more important.
+VI	prelude	khúc dạo đầu; màn mở đầu
+EN	respirator	A mask or machine that helps a person breathe.
+VI	respirator	mặt nạ thở; máy thở
+VI	mulberry	quả dâu tằm
+VI	cold-hearted	lạnh lùng, nhẫn tâm
+EN	wok	A large round pan used for Chinese-style cooking.
+VI	wok	chảo sâu lòng
+EN	stalemate	A situation in which neither side can make progress.
+VI	stalemate	thế bế tắc
+EN	obliterate	To destroy something completely.
+VI	obliterate	xóa sổ, phá hủy hoàn toàn
+EN	nexus	A connection or a central point linking several things.
+VI	nexus	mối liên kết, trung tâm
+VI	thyme	cỏ xạ hương
+EN	thyme	A small herb used in cooking.
+VI	boatman	người lái đò
+VI	clique	nhóm khép kín, bè phái
+EN	digit	Any of the numbers from 0 to 9.
+EN	loudmouth	A person who talks too loudly or too much.
+EN	scribe	A person who copied documents by hand before printing was invented.
+VI	scribe	người chép sách
+VI	hitchhiker	người đi nhờ xe
+EN	replenish	To fill something up again.
+EN	anime	Japanese animated films and TV programmes.
+VI	pseudonym	bút danh
+EN	pseudonym	A false name used by a writer or other person instead of their real name.
+VI	jackhammer	máy khoan phá bê tông
+VI	forklift	xe nâng
+EN	pigment	A substance that gives colour to something.
+EN	obstruct	To block a road or path; to prevent progress.
+VI	obstruct	cản trở
+EN	deliberation	Careful thought or discussion before making a decision.
+EN	constipation	A condition in which it is difficult to empty the bowels.
+EN	flamboyant	Confident and stylish in a way that attracts attention.
+VI	flamboyant	phô trương, rực rỡ
+EN	zenith	The highest point or most successful time.
+VI	zenith	đỉnh cao
+EN	dugout	A shelter dug in the ground; also a boat made from a hollowed tree trunk.
+VI	dugout	hầm trú ẩn; thuyền độc mộc
+EN	hitchhike	To travel by getting free rides from passing drivers.
+VI	goldsmith	thợ kim hoàn
+EN	impregnable	Too strong to be captured or defeated.
+VI	impregnable	bất khả xâm phạm
+EN	khaki	A yellowish-brown colour or cloth, often used for uniforms.
+EN	snipe	To shoot at someone from a hidden place; to criticise unpleasantly.
+VI	snipe	bắn tỉa; chỉ trích
+VI	gruel	cháo loãng
+VI	abscess	áp xe
+VI	cornflakes	ngũ cốc bỏng ngô
+EN	ricochet	To bounce off a surface (of a bullet or object).
+VI	ricochet	nảy bật ra
+EN	derail	To make a train leave the track; to disrupt a plan.
+VI	derail	trật bánh; làm hỏng (kế hoạch)
+VI	circumference	chu vi
+EN	excessively	Too much; more than is reasonable.
+VI	excessively	quá mức
+EN	sterilize	To make something free from bacteria; to make unable to have children.
+VI	sterilize	khử trùng; triệt sản
+VI	tapeworm	sán dây
+EN	semantics	The study of meaning in language.
+EN	splint	A piece of wood or plastic tied to a broken bone to keep it still.
+VI	windpipe	khí quản
+VI	ladle	cái muôi
+EN	savory	Salty or spicy rather than sweet (of food).
+VI	savory	mặn, có vị đậm
+EN	steppe	A large area of flat grassland without trees, especially in Russia and Asia.
+EN	denominator	The number below the line in a fraction.

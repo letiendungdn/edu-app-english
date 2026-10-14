@@ -1,12 +1,15 @@
 import { Component, computed, inject, OnInit, signal } from '@angular/core';
 import { ApiService } from '../core/api.service';
 import { LEVELS, VocabWord } from '../core/models';
+import { RespellPipe } from '../shared/respell';
 
 @Component({
   selector: 'app-picture',
+  imports: [RespellPipe],
   template: `
     <div class="container page">
       <h1>Từ điển tranh</h1>
+      <p class="muted" style="max-width: 42rem;">Tranh OpenMoji, giấy phép CC BY-SA 4.0. Các từ không có tranh vật thể vẫn nằm ở trang từ vựng.</p>
       <div class="row" style="margin: 1rem 0;">
         <button class="btn" [class.btn-primary]="level() === ''" (click)="setLevel('')">Tất cả</button>
         @for (item of levels; track item) {
@@ -32,7 +35,7 @@ import { LEVELS, VocabWord } from '../core/models';
           <div class="card" style="max-width: 420px; width: 100%; text-align: center;" (click)="$event.stopPropagation()">
             <img [src]="word.imageUrl || ''" [alt]="word.word" style="max-height: 180px; width: 100%; object-fit: contain;" />
             <h2>{{ word.word }}</h2>
-            <div class="muted">{{ word.phonetic }}</div>
+            @if (word.phonetic) { <div class="muted">{{ word.phonetic }} <span class="respell">· {{ word.phonetic | respell }}</span></div> }
             <div style="color: var(--accent); font-weight: 700; margin-top: 0.4rem;">{{ word.meaningVi }}</div>
             @if (word.exampleEn) { <p class="muted" style="font-style: italic; margin-top: 0.5rem;">"{{ word.exampleEn }}"</p> }
             <button class="btn" style="margin-top: 1rem;" (click)="selected.set(null)">Đóng</button>

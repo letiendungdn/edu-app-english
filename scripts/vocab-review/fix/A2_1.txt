@@ -1,0 +1,422 @@
+EN	crazy	Very strange or not sensible; mad.
+EN	creature	Any living thing that can move, such as an animal.
+EN	cricket	A game played with a bat and ball by two teams of eleven; also a small jumping insect.
+EN	cross	A mark (×) or a shape of two lines crossing.
+EN	crowded	Full of people.
+EN	crown	A gold circle worn on the head by a king or queen.
+EN	dancer	A person who dances.
+EN	danger	The possibility of harm or injury.
+EN	deep	Going a long way down from the top or surface.
+EN	desert	A large dry area of land with very little rain.
+EN	diamond	A very hard, clear, valuable stone.
+EN	die	To stop living.
+EN	director	The person who manages a company; the person who directs a film.
+EN	display	An arrangement of things for people to look at.
+EN	drawing	A picture made with a pencil or pen.
+EN	drill	A tool for making holes; also a practice exercise.
+EN	earth	The planet we live on; also soil.
+EN	envelope	A paper cover for a letter.
+EN	even	Used to emphasise something surprising.
+EN	explore	To travel around a place to learn about it.
+EN	expression	A word or phrase; also the look on someone's face.
+EN	fall	To drop down towards the ground.
+EN	favor	Something kind you do for someone.
+EN	feather	One of the soft light parts that cover a bird's body.
+EN	figure	A number; also the shape of a person's body.
+EN	film	A story shown as moving pictures in a cinema or on TV.
+EN	force	Physical strength or power; also an organised group such as the police force.
+EN	gather	To come together in a group; to collect things.
+EN	gender	The fact of being male or female.
+EN	gun	A weapon that fires bullets.
+EN	harvest	The time when crops are collected; the crops collected.
+EN	hit	To touch something or someone hard and suddenly.
+EN	hockey	A game in which two teams use curved sticks to hit a ball or puck.
+EN	honour	Great respect; something that makes you proud.
+EN	horror	A strong feeling of fear and shock.
+EN	hug	To put your arms around someone to show love.
+EN	human	Relating to people.
+EN	hunter	A person who hunts animals.
+EN	independence	Freedom from control by another country or person.
+EN	junk	Things that are old and useless.
+EN	kingdom	A country ruled by a king or queen.
+EN	land	To arrive on the ground after flying.
+EN	landscape	The appearance of an area of land, especially in the countryside.
+EN	lead	To show the way or be in charge; also a soft grey metal.
+EN	lip	One of the two soft edges of the mouth.
+EN	lost	Not knowing where you are; unable to be found.
+EN	low	Not high.
+EN	marry	To become someone's husband or wife.
+EN	material	Cloth; also a substance used to make things.
+EN	melon	A large round fruit with sweet juicy flesh.
+EN	metal	A hard shiny substance such as iron, gold or steel.
+EN	metre	A unit for measuring length, equal to 100 centimetres.
+EN	murder	The crime of killing someone deliberately.
+EN	mushroom	A fungus with a stem and a round top, some kinds of which can be eaten.
+EN	mysterious	Strange and difficult to explain.
+EN	napkin	A piece of cloth or paper used to clean your mouth and hands while eating.
+EN	nature	Plants, animals and the natural world; also the character of a person.
+EN	novel	A long written story about imaginary people and events.
+EN	painter	A person who paints pictures or paints walls.
+EN	peaceful	Quiet and calm; without violence.
+EN	personality	The character of a person.
+EN	planet	A large round object in space that moves around a star, like the earth.
+EN	pleased	Happy or satisfied.
+EN	pour	To make a liquid flow from a container.
+EN	print	To produce words or pictures on paper with a machine.
+EN	professional	Relating to a job that needs special training; doing something as a paid job.
+EN	queen	A female ruler of a country, or the wife of a king.
+EN	ray	A narrow line of light.
+EN	receive	To get something that someone gives or sends you.
+EN	release	The act of letting someone go free; a new product or film made available.
+EN	remote	Far away from towns and cities.
+EN	rhythm	A regular pattern of sounds or movements.
+EN	roll	A small round piece of bread; also something rolled into a tube shape.
+EN	romance	A loving relationship; a story about love.
+EN	romantic	Relating to love.
+EN	rope	A thick strong cord.
+EN	round	Shaped like a circle or ball.
+EN	ruin	To damage something so badly that it is destroyed.
+EN	scissors	A tool with two blades used for cutting paper or cloth.
+EN	screw	A thin pointed piece of metal that you turn to fix things together.
+EN	secretary	A person who types letters and organises an office.
+EN	seriously	In a serious way; badly.
+EN	shadow	A dark shape made when something blocks the light.
+EN	shampoo	A liquid soap for washing hair.
+EN	shape	The outer form of something, such as a circle or square.
+EN	shoot	To fire a gun.
+EN	shore	The land along the edge of the sea or a lake.
+EN	shot	The act of firing a gun; also a photograph or a kick at goal.
+EN	silence	Complete quiet; no sound.
+EN	situation	All the facts and conditions at a particular time.
+EN	slave	A person who is owned by another person and forced to work.
+EN	soft	Not hard; also quiet and gentle.
+EN	space	An empty area; also the area beyond the earth's air.
+EN	stair	One of a series of steps between floors.
+EN	stamp	A small piece of paper you stick on a letter to pay for post.
+EN	state	A condition; also a country or a part of a country such as the US.
+EN	statement	Something that someone says or writes officially.
+EN	steal	To take something that belongs to someone else.
+EN	stranger	A person you do not know.
+EN	strike	A time when workers refuse to work as a protest.
+EN	string	Thin rope or cord.
+EN	sunflower	A tall plant with a large yellow flower.
+EN	supper	A light evening meal.
+EN	swallow	To make food or drink go down your throat.
+EN	sweat	To produce liquid through your skin when you are hot.
+EN	sweetheart	A person you love.
+EN	talent	A natural ability to do something well.
+EN	target	Something you aim at; a goal.
+EN	tear	A drop of liquid that comes from the eye when you cry.
+EN	thought	An idea or opinion; the act of thinking.
+EN	toe	One of the five parts at the end of the foot.
+EN	toothbrush	A small brush for cleaning teeth.
+EN	trade	The buying and selling of goods.
+EN	violent	Using force to hurt or kill people.
+EN	web	A net made by a spider; also the internet.
+EN	wedding	A ceremony at which two people get married.
+EN	weep	To cry.
+EN	whole	All of something; complete.
+EN	windy	With a lot of wind.
+EN	wine	An alcoholic drink made from grapes.
+EN	winner	A person who wins.
+EN	wood	The hard material from trees; also a small forest.
+EN	youth	The time of life when a person is young; a young man.
+EN	act	Something that someone does.
+EN	advise	To tell someone what you think they should do.
+EN	agent	A person who acts for or represents another person or a company.
+EN	allow	To let someone do something.
+EN	artificial	Made by people, not natural.
+EN	assistant	A person who helps someone in their work.
+EN	association	An organisation of people with a common purpose.
+EN	attempt	An effort to do something difficult.
+EN	attitude	The way you think and feel about something.
+EN	award	A prize given for an achievement.
+EN	awful	Very bad.
+EN	batch	A group of things made or dealt with together.
+EN	beg	To ask for money or food; to ask strongly.
+EN	bit	A small piece or amount.
+EN	bother	To annoy or worry someone.
+EN	brilliant	Extremely clever or skilful; very bright.
+EN	chart	A diagram showing information, such as a graph.
+EN	classic	Of very high quality and lasting value.
+EN	cleaner	A person whose job is to clean buildings.
+EN	clone	To make an exact copy of an animal or plant.
+EN	column	A tall pillar; also a vertical section of a page or table.
+EN	comic	A magazine with stories told in pictures; funny.
+EN	complaint	A statement that something is wrong or not satisfactory.
+EN	condition	The state of something; also a requirement.
+EN	contact	Communication with someone; a person you know who can help you.
+EN	container	A box or bottle used to hold things.
+EN	control	The power to make decisions or direct something.
+EN	convenient	Easy to use; suitable for your plans.
+EN	cooker	A kitchen appliance for cooking food.
+EN	couple	Two people who are married or in a relationship; also two of something.
+EN	creative	Having the ability to make new and original things.
+EN	credit	An arrangement to buy now and pay later; praise.
+EN	curse	Words that wish bad things on someone.
+EN	dam	A wall built across a river to hold back water.
+EN	deal	An agreement, especially in business.
+EN	depend	To be decided by something; to rely on someone.
+EN	disappear	To go out of sight; to stop existing.
+EN	disturb	To interrupt someone.
+EN	done	Finished.
+EN	double	Twice as much or as many.
+EN	drug	A medicine; also an illegal substance that people take.
+EN	enter	To go into a place.
+EN	envy	The feeling of wanting what another person has.
+EN	episode	One part of a TV series.
+EN	error	A mistake.
+EN	escape	The act of getting away from a place or danger.
+EN	ever	At any time.
+EN	exhibition	A public show of paintings or other objects.
+EN	expect	To think something will happen.
+EN	fairly	Quite; more than a little.
+EN	familiar	Well known to you.
+EN	fee	Money paid for a service, such as a school or a doctor.
+EN	female	Relating to women or girls.
+EN	fighter	A person who fights; a fast military plane.
+EN	float	To stay on the surface of water.
+EN	follow	To go after someone; to come after something.
+EN	forbid	To order someone not to do something.
+EN	frame	The structure around a picture, window or door.
+EN	frighten	To make someone afraid.
+EN	fry	To cook something in hot oil.
+EN	fully	Completely.
+EN	gas	A substance like air that is not solid or liquid; also fuel for cars (US).
+EN	globe	A round model of the earth; the world.
+EN	guard	A person whose job is to protect a place or person.
+EN	handle	The part of an object that you hold.
+EN	harmony	A peaceful state of agreement.
+EN	honor	Great respect; something that makes you proud.
+EN	host	A person who invites guests and looks after them.
+EN	instant	Happening immediately.
+EN	instrument	An object used to make music; also a tool.
+EN	intelligence	The ability to learn and understand things.
+EN	interest	A feeling of wanting to know more about something; also money paid on a loan.
+EN	latter	The second of two things mentioned.
+EN	laziness	The quality of being lazy.
+EN	level	A height or amount; a stage or standard.
+EN	liberty	Freedom.
+EN	license	To give official permission.
+EN	load	Something heavy that is carried.
+EN	magic	Having special powers to make impossible things happen.
+EN	mall	A large building with many shops.
+EN	member	A person who belongs to a group or club.
+EN	meter	A device that measures something, such as electricity.
+EN	nation	A country and its people.
+EN	national	Relating to a whole country.
+EN	noisy	Making a lot of noise.
+EN	perfect	Without any mistakes; as good as possible.
+EN	perform	To act, sing or play music for an audience; to do a task.
+EN	plastic	A light artificial material used to make many things.
+EN	power	The ability to control people or events; also energy such as electricity.
+EN	pretend	To behave as if something is true when it is not.
+EN	private	For one person or group only; not public.
+EN	pro	An advantage of something (as in pros and cons).
+EN	produce	To make or grow something.
+EN	progressive	Supporting new ideas and social change.
+EN	provide	To give someone something they need.
+EN	raise	To lift something; to increase something; to bring up children.
+EN	rate	A speed or level of something, often given as a number.
+EN	raw	Not cooked.
+EN	reach	To arrive at a place; to stretch your arm to touch something.
+EN	record	To store sound or pictures so they can be played later; to write down information.
+EN	represent	To speak or act for someone; to be a sign of something.
+EN	robin	A small bird with a red breast.
+EN	royal	Relating to a king or queen.
+EN	runner	A person who runs.
+EN	sample	A small amount that shows what the whole is like.
+EN	scale	The size of something; a set of marks for measuring.
+EN	scene	A part of a play or film; the place where something happens.
+EN	senior	Higher in rank or older.
+EN	sense	The ability to see, hear, smell, taste or touch; good judgement.
+EN	shade	An area out of direct sunlight.
+EN	singular	The form of a word for one person or thing.
+EN	skate	A boot with a blade or wheels for moving on ice or the ground.
+EN	slim	Thin in an attractive way.
+EN	smooth	Having an even surface, not rough.
+EN	solution	A way of solving a problem; also a liquid mixture.
+EN	split	To divide into parts.
+EN	stuff	Things in general (informal).
+EN	style	A way of doing something; a fashion.
+EN	support	Help and encouragement.
+EN	tape	A long thin strip of sticky material.
+EN	tour	A journey visiting several places.
+EN	track	A path or rough road; also a piece of music on a recording.
+EN	trap	A device for catching animals.
+EN	treasure	Gold, jewels or other valuable things.
+EN	trick	Something done to deceive someone, or to amuse.
+EN	trouble	Problems or difficulties.
+EN	tune	A series of musical notes; a melody.
+EN	unit	One single thing; a standard measure such as a metre.
+EN	unknown	Not known.
+EN	weekday	Any day from Monday to Friday.
+EN	wild	Living or growing in nature, not controlled by people.
+EN	wisdom	Good judgement based on knowledge and experience.
+EN	worse	Less good; more ill.
+EN	zone	An area with a particular feature or purpose.
+EN	sergeant	A middle rank in the army or police.
+EN	lieutenant	An officer of low rank in the army or navy.
+EN	colonel	A senior officer in the army.
+VI	creature	sinh vật
+VI	cricket	môn cricket; con dế
+VI	crown	vương miện
+VI	danger	sự nguy hiểm
+VI	deep	sâu
+VI	desert	sa mạc
+VI	digital camera	máy ảnh kỹ thuật số
+VI	director	giám đốc; đạo diễn
+VI	display	sự trưng bày
+VI	drill	cái khoan; bài luyện tập
+VI	earth	trái đất; đất
+VI	east	phía đông
+VI	envelope	phong bì
+VI	escalator	thang cuốn
+VI	even	thậm chí
+VI	exist	tồn tại
+VI	explore	khám phá, thám hiểm
+VI	expression	thành ngữ; vẻ mặt
+VI	favor	sự giúp đỡ, ân huệ
+VI	figure	con số; hình dáng
+VI	film	phim
+VI	first name	tên (gọi)
+VI	folder	thư mục
+VI	forever	mãi mãi
+VI	freedom	sự tự do
+VI	garage	nhà để xe
+VI	gather	tập hợp; thu thập
+VI	gender	giới tính
+VI	granddaughter	cháu gái
+VI	grandson	cháu trai
+VI	gun	súng
+VI	handbag	túi xách
+VI	happiness	hạnh phúc
+VI	hero	anh hùng
+VI	independence	sự độc lập
+VI	intelligent	thông minh
+VI	invention	phát minh
+VI	junk	đồ bỏ đi
+VI	kilometre	ki-lô-mét
+VI	kingdom	vương quốc
+VI	labour	lao động
+VI	land	hạ cánh; đất liền
+VI	lead	dẫn dắt; chì
+VI	lover	người yêu
+VI	material	vật liệu; chất liệu
+VI	most	nhất
+VI	mysterious	bí ẩn
+VI	nature	thiên nhiên; bản chất
+VI	noun	danh từ
+VI	official	chính thức
+VI	personality	tính cách
+VI	photograph	bức ảnh
+VI	planet	hành tinh
+VI	pleased	hài lòng
+VI	policeman	cảnh sát
+VI	portrait	chân dung
+VI	print	in
+VI	professional	chuyên nghiệp
+VI	psychologist	nhà tâm lý học
+VI	punctuation	dấu câu
+VI	queen	nữ hoàng
+VI	quiz	bài đố, bài kiểm tra ngắn
+VI	release	sự phát hành; sự thả
+VI	romance	chuyện tình
+VI	romantic	lãng mạn
+VI	round	tròn
+VI	ruin	làm hỏng
+VI	situation	tình huống
+VI	slave	nô lệ
+VI	soft	mềm
+VI	somewhere	ở đâu đó
+VI	sound	âm thanh
+VI	spaceship	tàu vũ trụ
+VI	speed	tốc độ
+VI	stamp	con tem
+VI	state	trạng thái; bang
+VI	statement	lời tuyên bố
+VI	strike	cuộc đình công
+VI	symbol	biểu tượng, ký hiệu
+VI	symphony	bản giao hưởng
+VI	system	hệ thống
+VI	talent	tài năng
+VI	thought	suy nghĩ
+VI	weep	khóc
+VI	whole	toàn bộ
+VI	wine	rượu vang
+VI	wise	khôn ngoan
+VI	worldwide	trên toàn thế giới
+VI	youth	tuổi trẻ; thanh niên
+VI	act	hành động
+VI	addition	phép cộng; sự bổ sung
+VI	adventure	cuộc phiêu lưu
+VI	agent	đại lý, người đại diện
+VI	appearance	vẻ ngoài; sự xuất hiện
+VI	assistant	trợ lý
+VI	attempt	sự cố gắng
+VI	bit	một chút
+VI	boil	đun sôi, luộc
+VI	brilliant	xuất sắc
+VI	bus station	bến xe buýt
+VI	clone	nhân bản
+VI	comic	truyện tranh; hài hước
+VI	complaint	lời phàn nàn
+VI	complete	hoàn chỉnh
+VI	condition	điều kiện; tình trạng
+VI	contact	sự liên lạc; người quen
+VI	cooker	bếp nấu
+VI	deal	thỏa thuận
+VI	debate	cuộc tranh luận
+VI	done	xong
+VI	encourage	khuyến khích
+VI	episode	tập (phim)
+VI	escape	sự trốn thoát
+VI	familiar	quen thuộc
+VI	female	nữ
+VI	fighter	đấu sĩ; máy bay chiến đấu
+VI	float	nổi
+VI	frame	khung
+VI	fry	rán, chiên
+VI	fully	hoàn toàn
+VI	gas	khí ga
+VI	guard	người bảo vệ
+VI	handle	tay cầm
+VI	harmony	sự hòa hợp
+VI	instant	ngay lập tức
+VI	interest	sự quan tâm; tiền lãi
+VI	latter	cái sau
+VI	leisure	thời gian rảnh
+VI	level	mức độ, cấp độ
+VI	license	cấp phép
+VI	magic	phép thuật
+VI	mall	trung tâm thương mại
+VI	member	thành viên
+VI	meter	đồng hồ đo
+VI	nation	quốc gia
+VI	national	thuộc quốc gia
+VI	progressive	tiến bộ
+VI	provide	cung cấp
+VI	raise	nâng lên; nuôi
+VI	rate	tỷ lệ; tốc độ
+VI	reach	đến; với tới
+VI	record	ghi lại
+VI	retired	đã nghỉ hưu
+VI	robin	chim cổ đỏ
+VI	scale	quy mô; thang đo
+VI	scene	cảnh
+VI	senior	cấp cao; lớn tuổi hơn
+VI	sense	giác quan; ý thức
+VI	solution	giải pháp; dung dịch
+VI	split	chia ra
+VI	style	phong cách
+VI	support	sự ủng hộ, hỗ trợ
+VI	tape	băng dính
+VI	tour	chuyến tham quan
+VI	tour guide	hướng dẫn viên du lịch
+VI	track	đường mòn; bài hát
+VI	trick	mánh khóe, trò lừa
+VI	treasure	kho báu
+VI	unknown	chưa biết
+VI	wisdom	sự khôn ngoan
+VI	cheers	chúc sức khỏe (khi nâng ly); cảm ơn
+VI	ought	nên

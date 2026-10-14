@@ -1,0 +1,517 @@
+EN	object	A thing that you can see and touch; also an aim or purpose.
+EN	orchestra	A large group of musicians who play classical music together.
+EN	organ	A part of the body with a particular job, such as the heart; also a large musical instrument.
+EN	organization	A group of people working together for a purpose, such as a company or charity.
+EN	package	A box or parcel sent by post.
+EN	palm	The inside surface of the hand; also a tropical tree.
+EN	participant	A person who takes part in something.
+EN	passion	A very strong feeling of love, interest or enthusiasm.
+EN	peanut	A small nut that grows under the ground.
+EN	phrase	A group of words that has a particular meaning.
+EN	pin	To fasten something with a small sharp piece of metal.
+EN	plain	Simple and not decorated.
+EN	poetry	Poems in general.
+EN	poison	A substance that can kill or harm you if you eat or drink it.
+EN	port	A town or area by the sea where ships load and unload.
+EN	prayer	Words spoken to God.
+EN	precious	Very valuable or loved.
+EN	president	The leader of a country that has no king or queen; the head of an organisation.
+EN	press	Newspapers and journalists in general.
+EN	priest	A person who performs religious duties.
+EN	property	Something that belongs to someone; land and buildings.
+EN	puppy	A young dog.
+EN	purse	A small bag for money.
+EN	puzzle	A game or question that tests your thinking.
+EN	quantity	An amount or number of something.
+EN	radiation	Energy that comes from a source as rays or waves, which can be harmful.
+EN	raspberry	A small soft red fruit.
+EN	religious	Relating to religion; believing strongly in a religion.
+EN	remove	To take something away from a place.
+EN	reserve	A supply of something kept for later use; also a protected area for animals.
+EN	reunification	The joining together again of a divided country.
+EN	rubber	A strong elastic material used to make tyres; also an eraser.
+EN	sacred	Holy; connected with religion.
+EN	safety	The state of being safe from harm.
+EN	service	The work done for customers; also a system that provides something for the public.
+EN	sex	The state of being male or female; also sexual activity.
+EN	signature	Your name written in your own way, for example on a document.
+EN	skeleton	The frame of bones in a body.
+EN	skin	The outer layer of the body.
+EN	soul	The spiritual part of a person, believed to continue after death.
+EN	spectacular	Very impressive to look at.
+EN	standard	A level of quality.
+EN	steel	A strong hard metal made from iron.
+EN	stick	To fix things together with glue; also a thin piece of wood.
+EN	straw	Dried stems of crops; also a thin tube for drinking.
+EN	stream	A small narrow river.
+EN	stupid	Not intelligent; silly.
+EN	suicide	The act of killing yourself.
+EN	summit	The top of a mountain; also a meeting of world leaders.
+EN	surface	The outside or top layer of something.
+EN	suspicion	A feeling that someone has done something wrong.
+EN	swear	To make a serious promise; also to use rude words.
+EN	switch	A small device used to turn electricity on or off.
+EN	syndrome	A group of symptoms that together show a particular disease.
+EN	tale	A story.
+EN	tank	A large container for liquid; also a heavy armoured military vehicle.
+EN	technique	A particular way of doing something that needs skill.
+EN	tent	A shelter made of cloth, used for camping.
+EN	terror	Very great fear.
+EN	thirst	The feeling of needing to drink.
+EN	thumb	The short thick finger on the side of the hand.
+EN	tick	A mark (✓) showing something is correct; also a small insect that sucks blood.
+EN	tide	The regular rise and fall of the sea.
+EN	tin	A metal container for food; also a soft silver metal.
+EN	tissue	A soft paper handkerchief; also cells forming part of a body.
+EN	tongue	The soft part inside the mouth used for tasting and speaking.
+EN	tornado	A violent storm with a spinning column of air.
+EN	union	An organisation of workers; also the act of joining together.
+EN	vision	The ability to see; also an idea of the future.
+EN	wing	One of the parts a bird or plane uses to fly.
+EN	wrap	To cover something by folding paper or cloth around it.
+EN	absorb	To take in liquid, gas or information.
+EN	academic	Relating to schools, colleges and universities.
+EN	academy	A school or college for special training.
+EN	aim	A purpose; something you want to achieve.
+EN	alcoholic	Containing alcohol.
+EN	alike	Similar.
+EN	amount	A quantity of something.
+EN	animation	A film made from drawings or computer images that appear to move.
+EN	anti	Opposed to something.
+EN	approve	To think something is good or acceptable; to agree officially.
+EN	arrange	To plan or organise something; to put things in order.
+EN	arrest	The act of the police taking someone to a police station.
+EN	awareness	Knowledge or understanding of a situation.
+EN	bang	A sudden loud noise.
+EN	bare	Not covered by clothes; empty.
+EN	basis	The main reason or facts from which something develops.
+EN	bet	To risk money on the result of a game or race.
+EN	bishop	A senior Christian priest; also a piece in chess.
+EN	boast	To talk proudly about yourself.
+EN	bold	Brave and confident.
+EN	bond	A close connection between people.
+EN	booking	An arrangement to have a seat, room or ticket.
+EN	bore	To make someone tired and uninterested.
+EN	bronze	A brown metal made from copper and tin.
+EN	cabin	A small room on a ship or plane; also a small wooden house.
+EN	calculate	To find an amount using numbers.
+EN	calmness	The state of being calm.
+EN	capture	The act of catching someone or something.
+EN	careless	Not taking enough care.
+EN	carton	A box made of card or plastic, especially for drinks.
+EN	category	A group of things with similar features.
+EN	central	In or near the centre; most important.
+EN	channel	A television station; also a way of communicating.
+EN	characteristic	A typical quality or feature.
+EN	charge	The price asked for something; also responsibility for something.
+EN	chariot	A two-wheeled vehicle pulled by horses, used in ancient times.
+EN	chemist	A scientist who studies chemistry; also a pharmacist (UK).
+EN	civil	Relating to ordinary citizens, not the military or religion.
+EN	civilization	A developed and organised society.
+EN	classical	Traditional and of lasting value; relating to ancient Greece or Rome.
+EN	clip	A small metal object for holding things together; a short part of a film.
+EN	columnist	A journalist who writes a regular article.
+EN	comma	The punctuation mark (,).
+EN	comment	A remark expressing an opinion.
+EN	commit	To do something wrong or illegal; to promise to do something.
+EN	confidence	The feeling that you can do things well.
+EN	confirmation	A statement that something is true or will happen.
+EN	connect	To join two things together.
+EN	conservative	Not liking sudden change; traditional.
+EN	constantly	All the time.
+EN	construct	To build something.
+EN	construction	The process of building.
+EN	council	A group of people elected to manage a town or area.
+EN	counter	A long flat surface in a shop where customers are served.
+EN	crash	An accident in which a vehicle hits something.
+EN	critic	A person who writes opinions about books, films or art.
+EN	crop	A plant grown for food, such as wheat or rice.
+EN	crush	To press something so hard that it breaks.
+EN	cultivate	To grow crops; to prepare land for crops.
+EN	cultural	Relating to the culture of a society.
+EN	curious	Wanting to know about something.
+EN	curly	Having curls.
+EN	curve	A line that bends smoothly.
+EN	declare	To announce something officially.
+EN	defend	To protect someone or something from attack.
+EN	democratic	Based on the system in which people vote to choose their government.
+EN	demonstration	A public protest; also a practical display of how something works.
+EN	deposit	Money paid as the first part of a larger payment.
+EN	desire	A strong feeling of wanting something.
+EN	development	The process of growing or improving.
+EN	diagram	A simple drawing that explains something.
+EN	diameter	A straight line across a circle through its centre.
+EN	dirt	Dust, mud or soil.
+EN	disability	A condition that makes it difficult to do some things.
+EN	discovery	The act of finding something new.
+EN	disk	A flat round device used to store computer data.
+EN	dissolve	To mix completely with a liquid.
+EN	distinguish	To see or show the difference between things.
+EN	district	An area of a town or country.
+EN	diver	A person who swims underwater.
+EN	drag	To pull something heavy along the ground.
+EN	drown	To die under water because you cannot breathe.
+EN	dull	Boring; also not bright.
+EN	dump	A place where rubbish is left.
+EN	edge	The outer part or border of something.
+EN	edition	One version of a book, magazine or newspaper.
+EN	enclose	To surround something; to put something in an envelope with a letter.
+EN	era	A period of time in history.
+EN	extend	To make something longer or larger.
+EN	extreme	Very great; very severe.
+EN	fade	To slowly become less bright or strong.
+EN	faint	Not strong or clear; also feeling weak and about to fall.
+EN	fantasy	Something pleasant that you imagine but is not real.
+EN	fax	A copy of a document sent by telephone line.
+EN	fetch	To go and get something and bring it back.
+EN	finance	To provide money for something.
+EN	first floor	The floor above the ground floor (UK); the ground floor (US).
+EN	first lady	The wife of a president.
+EN	flavor	The taste of food or drink.
+EN	flow	A continuous movement of liquid, gas or traffic.
+EN	fold	To bend paper or cloth so that one part lies on another.
+EN	formula	A rule written in symbols; also a method for achieving something.
+EN	fund	An amount of money saved or collected for a purpose.
+EN	furnish	To put furniture in a room or building.
+EN	gallon	A unit for measuring liquid, about 4.5 litres (UK) or 3.8 litres (US).
+EN	giant	Very large.
+EN	glide	To move smoothly and quietly.
+EN	goodness	The quality of being good; used to express surprise.
+EN	govern	To officially control a country or region.
+EN	grab	To take hold of something quickly.
+EN	graduation	The ceremony when you receive your degree.
+EN	graphic	Relating to drawing or design; very clear and detailed.
+EN	graphics	Pictures and designs, especially on a computer.
+EN	guilty	Having done something wrong; feeling bad about something you did.
+EN	harness	A set of straps used to hold or control a person or animal.
+EN	hatch	To break out of an egg.
+EN	homeless	Having no place to live.
+EN	horizon	The line where the earth or sea seems to meet the sky.
+EN	identity	Who or what a person or thing is.
+EN	idol	A person who is greatly admired, such as a pop star.
+EN	ignore	To pay no attention to something.
+EN	immediately	At once; without delay.
+EN	impression	The opinion or feeling you have about someone or something.
+EN	incident	An event, especially an unusual or unpleasant one.
+EN	inform	To tell someone about something officially.
+EN	initial	The first letter of a name.
+EN	innocent	Not guilty of a crime.
+EN	institute	An organisation for research or education.
+EN	instruction	Information about how to do something.
+EN	intend	To plan to do something.
+EN	intention	Something you plan to do.
+EN	invitation	A request to come to an event.
+EN	jail	A prison.
+EN	jewel	A valuable stone, such as a diamond.
+EN	joint	Shared by two or more people.
+EN	journal	A magazine about a particular subject; also a diary.
+EN	jug	A container with a handle for pouring liquid.
+EN	jungle	A thick tropical forest.
+EN	kindness	The quality of being kind.
+EN	layer	A level of material covering a surface or lying between others.
+EN	leadership	The ability to lead people; the position of leader.
+EN	limit	The greatest amount allowed or possible.
+EN	log	A thick piece of wood cut from a tree; also an official record.
+EN	lottery	A game in which people buy numbered tickets to win prizes.
+EN	loyalty	The quality of staying faithful to someone or something.
+EN	luxury	Great comfort and expensive things.
+EN	magnificent	Very beautiful or impressive.
+EN	maintenance	The work of keeping something in good condition.
+EN	marble	A hard smooth stone used for buildings and statues.
+EN	measure	To find the size or amount of something; also an action taken to deal with a problem.
+EN	mile	A unit of distance equal to about 1.6 kilometres.
+EN	mischief	Bad behaviour that is annoying but not serious.
+EN	miserable	Very unhappy.
+EN	monster	A large, frightening, imaginary creature.
+EN	monthly	Happening every month.
+EN	moral	The lesson you learn from a story; relating to right and wrong.
+EN	myth	An ancient traditional story; also a false belief.
+EN	narrative	Telling a story.
+EN	neutral	Not supporting either side in a disagreement.
+EN	newborn	Recently born.
+EN	nucleus	The central part of an atom or cell.
+EN	observation	The act of watching carefully.
+EN	offensive	Rude and likely to upset people.
+EN	opposition	Strong disagreement; also the main political party not in power.
+EN	organism	A living thing.
+EN	paddle	A short pole with a flat end, used to move a small boat.
+EN	pale	Having less colour than usual.
+EN	parcel	Something wrapped in paper to be sent by post.
+EN	patrol	A group that walks or drives around an area to keep it safe.
+EN	philosopher	A person who studies philosophy.
+EN	philosophy	The study of the nature of knowledge, reality and life.
+EN	pipe	A tube that carries water or gas.
+EN	pit	A large hole in the ground.
+EN	plug	A device that connects a machine to the electricity supply.
+EN	pole	A long thin stick; also one of the two ends of the earth.
+EN	pound	The unit of money in the UK; also a unit of weight (about 450 grams).
+EN	powder	A dry substance made of very small grains.
+EN	preparation	The act of making something ready.
+EN	probability	How likely something is to happen.
+EN	promote	To give someone a higher position at work; to advertise something.
+EN	properly	Correctly; in the right way.
+EN	prosperous	Rich and successful.
+EN	pure	Not mixed with anything else.
+EN	qualify	To have the right skills or exams for a job; to win a place in a competition.
+EN	rank	A position in an organisation such as the army.
+EN	reception	The desk where visitors are welcomed in a hotel or office; also a formal party.
+EN	reef	A line of rocks or coral just below the surface of the sea.
+EN	representative	A person chosen to speak or act for others.
+EN	reputation	The opinion people have about someone or something.
+EN	resident	A person who lives in a particular place.
+EN	revision	Study done to prepare for an exam; also a change to improve something.
+EN	reward	Something given in return for good work or behaviour.
+EN	riddle	A difficult question that you answer with a clever trick.
+EN	ripe	Ready to be eaten (of fruit).
+EN	rise	An increase in amount or level.
+EN	scholar	A person who studies a subject in great detail.
+EN	scratch	A thin cut or mark on a surface.
+EN	select	To choose something.
+EN	sequence	A series of things that follow each other in order.
+EN	series	A number of similar things that come one after another; a set of TV programmes.
+EN	shave	To remove hair with a razor.
+EN	sigh	A long deep breath that shows you are tired, sad or relieved.
+EN	silent	Making no sound.
+EN	slip	To slide by accident and fall.
+EN	slogan	A short phrase used in advertising or politics.
+EN	soil	The top layer of earth in which plants grow.
+EN	solid	Hard and firm; not liquid or gas.
+EN	sort	A type or kind.
+EN	spirit	A person's character or mood; also a ghost.
+EN	spoil	To ruin something; to give a child everything they want.
+EN	sponge	A soft object full of holes used for washing.
+EN	stable	Firm and not likely to change or fall.
+EN	stall	A table or small shop in a market.
+EN	status	Social or professional position; also the current state of something.
+EN	stem	The main long part of a plant above the ground.
+EN	sticker	A small piece of paper with a picture or words that you can stick on things.
+EN	storage	The act of keeping things for future use.
+EN	strip	A long narrow piece of something.
+EN	studio	A room where artists work or where films and music are recorded; also a small flat.
+EN	surround	To be all around someone or something.
+EN	survivor	A person who continues to live after an accident or disaster.
+EN	suspect	A person thought to have committed a crime.
+EN	swell	To become larger and rounder.
+EN	sympathy	The feeling of being sorry for someone who is suffering.
+EN	talkative	Liking to talk a lot.
+EN	tasteless	Having no flavour.
+EN	tease	To laugh at someone in a playful or unkind way.
+EN	temper	A tendency to become angry quickly.
+EN	tension	A feeling of worry or nervousness; also tightness.
+EN	term	A word or expression; also one of the periods of a school year.
+EN	threat	A statement or situation that suggests harm or danger.
+EN	tile	A flat square piece used to cover floors, walls or roofs.
+EN	trace	A small sign that something has been present.
+EN	transfer	To move someone or something from one place to another.
+EN	treat	Something special that gives pleasure.
+EN	twist	To turn or bend something.
+EN	unique	Being the only one of its kind.
+EN	urge	A strong wish to do something.
+EN	van	A medium-sized road vehicle for carrying goods.
+EN	vehicle	A machine such as a car, bus or truck that carries people or goods.
+EN	vessel	A large boat or ship; also a container for liquids.
+EN	violence	Behaviour that uses physical force to hurt or kill.
+EN	visible	Able to be seen.
+EN	volume	The amount of space something fills; also the level of sound.
+EN	ward	A room in a hospital with beds for patients.
+EN	whatever	Anything or everything.
+EN	wire	A long thin piece of metal used to carry electricity.
+EN	wizard	A man with magic powers.
+EN	workshop	A meeting where people practise a skill; also a room for making or repairing things.
+EN	worthy	Deserving respect or attention.
+EN	dragon	An imaginary large animal that breathes fire.
+EN	witch	A woman believed to have magic powers.
+EN	sin	An act that breaks a religious or moral law.
+EN	alien	A creature from another planet; also a foreigner.
+EN	maid	A woman whose job is to clean in a house or hotel.
+EN	demon	An evil spirit.
+EN	virgin	A person who has never had sex.
+EN	closet	A cupboard for clothes (US).
+EN	siren	A device that makes a loud warning sound, such as on a police car.
+EN	comrade	A friend or fellow member, especially in a war or political group.
+EN	crystal	A clear transparent mineral or glass.
+EN	mistress	A woman who has a secret sexual relationship with a married man.
+EN	makeup	Substances such as powder and lipstick used on the face.
+EN	clay	Heavy earth that becomes hard when baked, used to make pots.
+EN	elder	Older of two people.
+EN	crane	A tall machine for lifting heavy things; also a tall bird.
+EN	throne	The special chair of a king or queen.
+VI	object	đồ vật; mục tiêu
+VI	ocean	đại dương
+VI	orbit	quỹ đạo
+VI	organ	cơ quan (cơ thể); đàn organ
+VI	paradise	thiên đường
+VI	physics	vật lý học
+VI	plain	đơn giản; đồng bằng
+VI	politician	chính trị gia
+VI	politics	chính trị
+VI	port	cảng
+VI	preposition	giới từ
+VI	president	tổng thống; chủ tịch
+VI	professor	giáo sư
+VI	pronoun	đại từ
+VI	property	tài sản
+VI	public transport	giao thông công cộng
+VI	publisher	nhà xuất bản
+VI	puzzle	câu đố
+VI	quantity	số lượng
+VI	radiation	bức xạ
+VI	religious	thuộc tôn giáo, sùng đạo
+VI	remove	loại bỏ, dời đi
+VI	republic	nước cộng hòa
+VI	reserve	nguồn dự trữ; khu bảo tồn
+VI	reunification	sự tái thống nhất
+VI	sacred	thiêng liêng
+VI	satellite	vệ tinh
+VI	service	dịch vụ
+VI	sex	giới tính; tình dục
+VI	soul	linh hồn
+VI	stick	dán; cái que
+VI	suicide	sự tự tử
+VI	summit	đỉnh núi; hội nghị thượng đỉnh
+VI	superstition	sự mê tín
+VI	surface	bề mặt
+VI	switch	công tắc
+VI	terror	sự kinh hoàng
+VI	terrorism	chủ nghĩa khủng bố
+VI	thirst	sự khát
+VI	tick	dấu tích; con ve
+VI	tin	hộp thiếc; thiếc
+VI	tissue	khăn giấy; mô (sinh học)
+VI	universe	vũ trụ
+VI	vein	tĩnh mạch
+VI	vision	thị lực; tầm nhìn
+VI	weapon	vũ khí
+VI	aim	mục tiêu
+VI	alcoholic	có cồn
+VI	alike	giống nhau
+VI	bang	tiếng nổ
+VI	bare	trần, trống trơn
+VI	bold	táo bạo
+VI	bond	mối liên kết
+VI	booking	sự đặt chỗ
+VI	bore	làm chán
+VI	bronze	đồng thiếc
+VI	capture	sự bắt giữ
+VI	carton	hộp các-tông
+VI	charge	phí; trách nhiệm
+VI	chariot	xe ngựa chiến
+VI	clip	cái kẹp; đoạn phim ngắn
+VI	comma	dấu phẩy
+VI	comment	lời bình luận
+VI	commit	phạm (tội); cam kết
+VI	conservative	bảo thủ
+VI	constantly	liên tục
+VI	construct	xây dựng
+VI	counter	quầy
+VI	crash	vụ va chạm, tai nạn
+VI	crop	cây trồng, vụ mùa
+VI	crush	nghiền nát
+VI	cultivate	trồng trọt
+VI	curve	đường cong
+VI	declare	tuyên bố
+VI	democratic	dân chủ
+VI	deposit	tiền đặt cọc
+VI	diagram	sơ đồ
+VI	dirt	bụi bẩn, đất
+VI	discovery	sự khám phá
+VI	drown	chết đuối
+VI	dull	buồn tẻ; mờ
+VI	dump	bãi rác
+VI	edition	ấn bản
+VI	enclose	bao quanh; gửi kèm
+VI	extreme	cực độ
+VI	faint	mờ nhạt; ngất
+VI	fantasy	sự tưởng tượng
+VI	fax	bản fax
+VI	fetch	đi lấy về
+VI	finance	cấp vốn
+VI	formula	công thức
+VI	gene	gen
+VI	giant	khổng lồ
+VI	goodness	lòng tốt; trời ơi
+VI	graphic	đồ họa; chi tiết rõ ràng
+VI	hatch	nở (trứng)
+VI	heal	chữa lành
+VI	heavenly	thuộc thiên đường; tuyệt diệu
+VI	identity	danh tính
+VI	identity card	chứng minh nhân dân, căn cước
+VI	ignore	phớt lờ
+VI	inform	thông báo
+VI	initial	chữ cái đầu
+VI	innocent	vô tội
+VI	journal	tạp chí; nhật ký
+VI	joint	chung; khớp
+VI	logo	logo, biểu trưng
+VI	measure	đo; biện pháp
+VI	monthly	hàng tháng
+VI	pipe	đường ống
+VI	plug	phích cắm
+VI	pole	cái cột; cực
+VI	pound	bảng Anh; pao
+VI	promote	thăng chức; quảng bá
+VI	properly	đúng cách
+VI	pure	tinh khiết
+VI	qualify	đủ điều kiện; vượt qua vòng loại
+VI	rank	cấp bậc
+VI	reality	thực tế
+VI	reception	quầy lễ tân; tiệc chiêu đãi
+VI	representative	người đại diện
+VI	reputation	danh tiếng
+VI	resident	cư dân
+VI	revision	sự ôn tập; sự sửa đổi
+VI	reward	phần thưởng
+VI	riddle	câu đố
+VI	rise	sự tăng
+VI	roadside	ven đường
+VI	scholar	học giả
+VI	select	lựa chọn
+VI	sequence	trình tự
+VI	series	loạt; bộ phim nhiều tập
+VI	shiny	sáng bóng
+VI	silent	im lặng
+VI	slip	trượt
+VI	soil	đất
+VI	solid	rắn chắc
+VI	sort	loại
+VI	spirit	tinh thần; linh hồn
+VI	spoil	làm hỏng; nuông chiều
+VI	stable	ổn định
+VI	stem	thân cây
+VI	sticker	nhãn dán
+VI	stir	khuấy
+VI	storage	sự lưu trữ
+VI	strip	dải
+VI	studio	xưởng phim, phòng thu; căn hộ studio
+VI	surround	bao quanh
+VI	sympathy	sự cảm thông
+VI	talkative	nói nhiều
+VI	tasteless	nhạt; vô duyên
+VI	tease	trêu chọc
+VI	temper	tính khí nóng nảy
+VI	tension	sự căng thẳng
+VI	term	thuật ngữ; học kỳ
+VI	threat	mối đe dọa
+VI	trace	dấu vết
+VI	transfer	chuyển
+VI	treat	món quà, điều thú vị
+VI	twist	vặn, xoắn
+VI	undo	tháo ra; hoàn tác
+VI	urge	sự thôi thúc
+VI	van	xe tải nhỏ
+VI	vessel	tàu thuyền; bình chứa
+VI	volume	thể tích; âm lượng
+VI	ward	khu bệnh; phường
+VI	warranty	bảo hành
+VI	whatever	bất cứ thứ gì
+VI	wizard	pháp sư
+VI	worthy	xứng đáng
+VI	elder	lớn tuổi hơn
+VI	crane	cần cẩu; con sếu
+VI	siren	còi báo động
+VI	loser	người thua cuộc
+VI	maid	người giúp việc
+VI	mistress	tình nhân
+VI	odds	khả năng, tỷ lệ cược
+VI	blessed	được ban phước
+VI	bye-bye	tạm biệt

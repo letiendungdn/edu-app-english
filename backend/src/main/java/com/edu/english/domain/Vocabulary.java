@@ -47,6 +47,9 @@ public class Vocabulary {
   private String exampleVi;
   private String audioUrl;
   private String imageUrl;
+
+  /** Họ từ, ví dụ "analyse (v) · analysis (n) · analytical (adj)". */
+  private String wordFamily;
   private Integer frequencyRank;
   private int sortOrder;
 

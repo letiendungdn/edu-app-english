@@ -1,0 +1,499 @@
+Family	A1	aunt	noun	dì, cô, bác gái	My aunt lives in Hanoi.	Dì tôi sống ở Hà Nội.
+Family	A1	uncle	noun	chú, bác, cậu	SKIP
+Family	A1	grandmother	noun	bà	My grandmother cooks very well.	Bà tôi nấu ăn rất ngon.
+Family	A1	grandfather	noun	ông	My grandfather tells funny stories.	Ông tôi kể chuyện rất vui.
+Family	A1	grandma	noun	bà	I call my grandma every Sunday.	Tôi gọi cho bà mỗi Chủ nhật.
+Family	A1	grandpa	noun	ông	Grandpa walks in the park.	Ông đi bộ trong công viên.
+Family	A1	son	noun	con trai	Their son is five years old.	Con trai họ năm tuổi.
+Family	A1	daughter	noun	con gái	Her daughter likes drawing.	Con gái cô ấy thích vẽ.
+Family	A1	husband	noun	chồng	Her husband works in a bank.	Chồng cô ấy làm việc ở ngân hàng.
+Family	A1	wife	noun	vợ	His wife is a teacher.	Vợ anh ấy là giáo viên.
+Family	A1	parents	noun	bố mẹ	My parents are at home.	Bố mẹ tôi đang ở nhà.
+Family	A1	baby	noun	em bé	The baby is sleeping.	Em bé đang ngủ.
+Family	A1	boy	noun	cậu bé	The boy is playing football.	Cậu bé đang chơi bóng đá.
+Family	A1	girl	noun	cô bé	The girl is reading a book.	Cô bé đang đọc sách.
+Family	A1	man	noun	đàn ông	That man is my neighbor.	Người đàn ông đó là hàng xóm của tôi.
+Family	A1	woman	noun	phụ nữ	The woman is waiting for the bus.	Người phụ nữ đang đợi xe buýt.
+Family	A1	people	noun	mọi người	Many people are in the park.	Nhiều người đang ở trong công viên.
+Family	A1	person	noun	người	She is a kind person.	Cô ấy là một người tử tế.
+Family	A1	name	noun	tên	What is your name?	Tên bạn là gì?
+Family	A1	age	noun	tuổi	What is your age?	Bạn bao nhiêu tuổi?
+Family	A1	neighbor	noun	hàng xóm	Our neighbor has a dog.	Hàng xóm chúng tôi có một con chó.
+Health	A1	head	noun	đầu	My head hurts.	Đầu tôi đau.
+Health	A1	hair	noun	tóc	She has long hair.	Cô ấy có mái tóc dài.
+Health	A1	face	noun	khuôn mặt	Wash your face.	Hãy rửa mặt đi.
+Health	A1	eye	noun	mắt	He has brown eyes.	Anh ấy có đôi mắt nâu.
+Health	A1	ear	noun	tai	I can hear with my ears.	Tôi nghe bằng tai.
+Health	A1	nose	noun	mũi	The dog has a black nose.	Con chó có chiếc mũi đen.
+Health	A1	mouth	noun	miệng	Open your mouth, please.	Hãy mở miệng ra.
+Health	A1	tooth	noun	răng	I brush my teeth twice a day.	Tôi đánh răng hai lần một ngày.
+Health	A1	teeth	noun	các răng	My teeth are white.	Răng tôi trắng.
+Health	A1	neck	noun	cổ	She wears a scarf on her neck.	Cô ấy quàng khăn quanh cổ.
+Health	A1	arm	noun	cánh tay	He broke his arm.	Anh ấy bị gãy tay.
+Health	A1	hand	noun	bàn tay	Wash your hands before dinner.	Hãy rửa tay trước bữa tối.
+Health	A1	finger	noun	ngón tay	I cut my finger.	Tôi cứa vào ngón tay.
+Health	A1	leg	noun	cẳng chân	My legs are tired.	Chân tôi mỏi.
+Health	A1	foot	noun	bàn chân	My foot is cold.	Bàn chân tôi lạnh.
+Health	A1	feet	noun	hai bàn chân	These shoes hurt my feet.	Đôi giày này làm đau chân tôi.
+Health	A1	knee	noun	đầu gối	She hurt her knee.	Cô ấy bị đau đầu gối.
+Health	A1	back	noun	lưng	My back hurts after work.	Lưng tôi đau sau giờ làm.
+Health	A1	stomach	noun	dạ dày, bụng	My stomach is full.	Bụng tôi no rồi.
+Health	A1	heart	noun	tim	Your heart beats fast when you run.	Tim bạn đập nhanh khi bạn chạy.
+Health	A1	body	noun	cơ thể	Exercise is good for your body.	Tập thể dục tốt cho cơ thể.
+Health	A1	pain	noun	cơn đau	I have a pain in my shoulder.	Tôi bị đau vai.
+Health	A1	shoulder	noun	vai	He carries a bag on his shoulder.	Anh ấy đeo túi trên vai.
+Health	A1	blood	noun	máu	There is blood on his hand.	Có máu trên tay anh ấy.
+Health	A1	nurse	noun	y tá	The nurse is very kind.	Y tá rất tử tế.
+Health	A1	dentist	noun	nha sĩ	I go to the dentist twice a year.	Tôi đi nha sĩ hai lần một năm.
+Health	A1	clinic	noun	phòng khám	The clinic opens at eight.	Phòng khám mở cửa lúc tám giờ.
+Health	A1	pill	noun	viên thuốc	Take this pill after lunch.	Uống viên thuốc này sau bữa trưa.
+Health	A1	fever	noun	sốt	He has a fever.	Anh ấy bị sốt.
+Health	A1	cough	noun	ho	She has a bad cough.	Cô ấy bị ho nặng.
+Health	A1	cold	noun	cảm lạnh	SKIP
+Clothes	A1	shirt	noun	áo sơ mi	He wears a white shirt.	Anh ấy mặc áo sơ mi trắng.
+Clothes	A1	t-shirt	noun	áo phông	I bought a blue T-shirt.	Tôi mua một chiếc áo phông xanh.
+Clothes	A1	trousers	noun	quần dài	These trousers are too long.	Chiếc quần này dài quá.
+Clothes	A1	jeans	noun	quần bò	She likes black jeans.	Cô ấy thích quần bò đen.
+Clothes	A1	dress	noun	váy, đầm	She wore a red dress.	Cô ấy mặc một chiếc váy đỏ.
+Clothes	A1	skirt	noun	chân váy	This skirt is new.	Chiếc chân váy này mới.
+Clothes	A1	jacket	noun	áo khoác	Take a jacket. It is cold.	Mang áo khoác đi. Trời lạnh.
+Clothes	A1	coat	noun	áo choàng	His coat is in the car.	Áo choàng của anh ấy ở trong xe.
+Clothes	A1	shoes	noun	giày	Where are my shoes?	Giày của tôi đâu?
+Clothes	A1	socks	noun	tất	I need clean socks.	Tôi cần đôi tất sạch.
+Clothes	A1	hat	noun	mũ	He wears a hat in the sun.	Anh ấy đội mũ khi trời nắng.
+Clothes	A1	bag	noun	túi, cặp	Her bag is on the chair.	Túi của cô ấy ở trên ghế.
+Clothes	A1	glasses	noun	kính mắt	I cannot read without glasses.	Tôi không đọc được nếu không có kính.
+Clothes	A1	watch	noun	đồng hồ đeo tay	What time is it on your watch?	Đồng hồ của bạn chỉ mấy giờ?
+Clothes	A1	pocket	noun	túi quần, túi áo	The key is in my pocket.	Chìa khóa ở trong túi tôi.
+Clothes	A1	umbrella	noun	ô, dù	Take an umbrella. It may rain.	Mang ô đi. Trời có thể mưa.
+Clothes	A1	uniform	noun	đồng phục	Students wear a uniform.	Học sinh mặc đồng phục.
+Clothes	A1	wear	verb	mặc, đội, đeo	I wear a coat in winter.	Tôi mặc áo khoác vào mùa đông.
+Clothes	A1	size	noun	cỡ	What size are these shoes?	Đôi giày này cỡ bao nhiêu?
+Daily Life	A1	red	adjective	đỏ	She has a red bag.	Cô ấy có một chiếc túi đỏ.
+Daily Life	A1	blue	adjective	xanh dương	The sky is blue.	Bầu trời màu xanh.
+Daily Life	A1	green	adjective	xanh lá	The grass is green.	Cỏ màu xanh.
+Daily Life	A1	yellow	adjective	vàng	Bananas are yellow.	Chuối màu vàng.
+Daily Life	A1	black	adjective	đen	He has a black cat.	Anh ấy có một con mèo đen.
+Daily Life	A1	white	adjective	trắng	The walls are white.	Những bức tường màu trắng.
+Daily Life	A1	brown	adjective	nâu	She has brown hair.	Cô ấy có tóc nâu.
+Daily Life	A1	orange	adjective	cam	I like the orange flowers.	Tôi thích những bông hoa màu cam.
+Daily Life	A1	pink	adjective	hồng	The baby has a pink hat.	Em bé có chiếc mũ hồng.
+Daily Life	A1	grey	adjective	xám	The clouds are grey.	Những đám mây màu xám.
+Daily Life	A1	purple	adjective	tím	She bought a purple dress.	Cô ấy mua một chiếc váy tím.
+Daily Life	A1	color	noun	màu sắc	What is your favorite color?	Màu yêu thích của bạn là gì?
+Daily Life	A1	number	noun	số	What is your phone number?	Số điện thoại của bạn là gì?
+Daily Life	A1	zero	noun	số không	The temperature is zero degrees.	Nhiệt độ là không độ.
+Daily Life	A1	one	noun	số một	I have one brother.	Tôi có một người anh.
+Daily Life	A1	two	noun	số hai	There are two windows.	Có hai cửa sổ.
+Daily Life	A1	three	noun	số ba	We need three chairs.	Chúng tôi cần ba cái ghế.
+Daily Life	A1	four	noun	số bốn	The class starts at four.	Lớp học bắt đầu lúc bốn giờ.
+Daily Life	A1	five	noun	số năm	She is five years old.	Cô bé năm tuổi.
+Daily Life	A1	six	noun	số sáu	There are six eggs.	Có sáu quả trứng.
+Daily Life	A1	seven	noun	số bảy	I get up at seven.	Tôi dậy lúc bảy giờ.
+Daily Life	A1	eight	noun	số tám	The shop opens at eight.	Cửa hàng mở cửa lúc tám giờ.
+Daily Life	A1	nine	noun	số chín	He has nine books.	Anh ấy có chín quyển sách.
+Daily Life	A1	ten	noun	số mười	Count from one to ten.	Đếm từ một đến mười.
+Daily Life	A1	eleven	noun	mười một	She is eleven.	Cô bé mười một tuổi.
+Daily Life	A1	twelve	noun	mười hai	There are twelve months.	Có mười hai tháng.
+Daily Life	A1	thirteen	noun	mười ba	The bus is number thirteen.	Xe buýt mang số mười ba.
+Daily Life	A1	twenty	noun	hai mươi	I am twenty years old.	Tôi hai mươi tuổi.
+Daily Life	A1	thirty	noun	ba mươi	The ticket costs thirty dollars.	Vé giá ba mươi đô la.
+Daily Life	A1	forty	noun	bốn mươi	He is forty.	Anh ấy bốn mươi tuổi.
+Daily Life	A1	fifty	noun	năm mươi	There are fifty students.	Có năm mươi học sinh.
+Daily Life	A1	hundred	noun	một trăm	This phone costs one hundred dollars.	Chiếc điện thoại này giá một trăm đô la.
+Daily Life	A1	thousand	noun	một nghìn	A thousand people came.	Một nghìn người đã đến.
+Daily Life	A1	first	adjective	thứ nhất	This is my first day.	Đây là ngày đầu tiên của tôi.
+Daily Life	A1	second	adjective	thứ hai	Take the second street.	Rẽ vào đường thứ hai.
+Daily Life	A1	third	adjective	thứ ba	She finished third.	Cô ấy về thứ ba.
+Daily Life	A1	time	noun	thời gian, lần	What time is it?	Mấy giờ rồi?
+Daily Life	A1	hour	noun	giờ	The film is two hours long.	Bộ phim dài hai giờ.
+Daily Life	A1	minute	noun	phút	Wait a minute, please.	Xin chờ một phút.
+Daily Life	A1	clock	noun	đồng hồ	The clock is on the wall.	Đồng hồ ở trên tường.
+Daily Life	A1	o'clock	phrase	giờ đúng	It is six o'clock.	Bây giờ là sáu giờ đúng.
+Daily Life	A1	morning	noun	buổi sáng	SKIP
+Daily Life	A1	afternoon	noun	buổi chiều	See you this afternoon.	Hẹn gặp buổi chiều nay.
+Daily Life	A1	night	noun	ban đêm	I sleep at night.	Tôi ngủ vào ban đêm.
+Daily Life	A1	today	adverb	hôm nay	SKIP
+Daily Life	A1	tomorrow	adverb	ngày mai	SKIP
+Daily Life	A1	yesterday	adverb	hôm qua	I saw her yesterday.	Tôi gặp cô ấy hôm qua.
+Daily Life	A1	now	adverb	bây giờ	I am busy now.	Bây giờ tôi đang bận.
+Daily Life	A1	early	adverb	sớm	I get up early.	Tôi dậy sớm.
+Daily Life	A1	late	adverb	muộn, trễ	Sorry, I am late.	Xin lỗi, tôi đến muộn.
+Daily Life	A1	always	adverb	luôn luôn	She always smiles.	Cô ấy luôn mỉm cười.
+Daily Life	A1	never	adverb	không bao giờ	I never drink coffee.	Tôi không bao giờ uống cà phê.
+Daily Life	A1	often	adverb	thường xuyên	We often eat out.	Chúng tôi thường ăn ngoài.
+Daily Life	A1	week	noun	tuần	I work five days a week.	Tôi làm việc năm ngày một tuần.
+Daily Life	A1	weekend	noun	cuối tuần	What do you do at the weekend?	Cuối tuần bạn làm gì?
+Daily Life	A1	month	noun	tháng	My birthday is next month.	Sinh nhật tôi là tháng sau.
+Daily Life	A1	year	noun	năm	This year I am learning English.	Năm nay tôi đang học tiếng Anh.
+Daily Life	A1	day	noun	ngày	Have a nice day.	Chúc một ngày tốt lành.
+Daily Life	A1	date	noun	ngày tháng	What is today's date?	Hôm nay là ngày mấy?
+Daily Life	A1	birthday	noun	sinh nhật	Happy birthday!	Chúc mừng sinh nhật!
+Daily Life	A1	monday	noun	thứ Hai	The meeting is on Monday.	Cuộc họp vào thứ Hai.
+Daily Life	A1	tuesday	noun	thứ Ba	I have class on Tuesday.	Tôi có lớp vào thứ Ba.
+Daily Life	A1	wednesday	noun	thứ Tư	Wednesday is the middle of the week.	Thứ Tư là giữa tuần.
+Daily Life	A1	thursday	noun	thứ Năm	We play football on Thursday.	Chúng tôi chơi bóng vào thứ Năm.
+Daily Life	A1	friday	noun	thứ Sáu	Friday is my favorite day.	Thứ Sáu là ngày tôi thích nhất.
+Daily Life	A1	saturday	noun	thứ Bảy	The market is busy on Saturday.	Chợ đông vào thứ Bảy.
+Daily Life	A1	sunday	noun	Chủ nhật	I rest on Sunday.	Tôi nghỉ vào Chủ nhật.
+Daily Life	A1	january	noun	tháng Một	January is cold here.	Tháng Một ở đây lạnh.
+Daily Life	A1	february	noun	tháng Hai	Her birthday is in February.	Sinh nhật cô ấy vào tháng Hai.
+Daily Life	A1	march	noun	tháng Ba	School starts in March.	Trường khai giảng vào tháng Ba.
+Daily Life	A1	april	noun	tháng Tư	It rains a lot in April.	Tháng Tư mưa nhiều.
+Daily Life	A1	may	noun	tháng Năm	May is warm.	Tháng Năm trời ấm.
+Daily Life	A1	june	noun	tháng Sáu	We travel in June.	Chúng tôi đi du lịch vào tháng Sáu.
+Daily Life	A1	july	noun	tháng Bảy	July is very hot.	Tháng Bảy rất nóng.
+Daily Life	A1	august	noun	tháng Tám	The holiday is in August.	Kỳ nghỉ vào tháng Tám.
+Daily Life	A1	september	noun	tháng Chín	Classes start in September.	Các lớp bắt đầu vào tháng Chín.
+Daily Life	A1	october	noun	tháng Mười	October is autumn.	Tháng Mười là mùa thu.
+Daily Life	A1	november	noun	tháng Mười một	It is cool in November.	Tháng Mười một trời mát.
+Daily Life	A1	december	noun	tháng Mười hai	December has Christmas.	Tháng Mười hai có lễ Giáng sinh.
+Daily Life	A1	spring	noun	mùa xuân	Flowers grow in spring.	Hoa nở vào mùa xuân.
+Daily Life	A1	summer	noun	mùa hè	We swim in summer.	Chúng tôi bơi vào mùa hè.
+Daily Life	A1	autumn	noun	mùa thu	The leaves fall in autumn.	Lá rụng vào mùa thu.
+Daily Life	A1	winter	noun	mùa đông	Winter is cold.	Mùa đông lạnh.
+Home	A1	room	noun	phòng	This room is small.	Căn phòng này nhỏ.
+Home	A1	door	noun	cửa	Please close the door.	Làm ơn đóng cửa lại.
+Home	A1	window	noun	cửa sổ	Open the window, please.	Làm ơn mở cửa sổ.
+Home	A1	floor	noun	sàn nhà	The keys are on the floor.	Chìa khóa ở trên sàn.
+Home	A1	wall	noun	tường	There is a clock on the wall.	Có một cái đồng hồ trên tường.
+Home	A1	kitchen	noun	nhà bếp	She is cooking in the kitchen.	Cô ấy đang nấu ăn trong bếp.
+Home	A1	bathroom	noun	phòng tắm	The bathroom is upstairs.	Phòng tắm ở trên lầu.
+Home	A1	bedroom	noun	phòng ngủ	My bedroom is quiet.	Phòng ngủ của tôi yên tĩnh.
+Home	A1	living room	noun	phòng khách	We watch TV in the living room.	Chúng tôi xem tivi trong phòng khách.
+Home	A1	table	noun	bàn	The books are on the table.	Sách ở trên bàn.
+Home	A1	chair	noun	ghế	Sit on this chair.	Ngồi lên chiếc ghế này.
+Home	A1	bed	noun	giường	I go to bed at ten.	Tôi đi ngủ lúc mười giờ.
+Home	A1	sofa	noun	ghế sofa	The cat is on the sofa.	Con mèo ở trên ghế sofa.
+Home	A1	lamp	noun	đèn	Turn on the lamp.	Bật đèn lên.
+Home	A1	key	noun	chìa khóa	I lost my key.	Tôi làm mất chìa khóa.
+Home	A1	garden	noun	vườn	They grow flowers in the garden.	Họ trồng hoa trong vườn.
+Home	A1	apartment	noun	căn hộ	We live in a small apartment.	Chúng tôi sống trong một căn hộ nhỏ.
+Home	A1	address	noun	địa chỉ	What is your address?	Địa chỉ của bạn là gì?
+Home	A1	stairs	noun	cầu thang	Be careful on the stairs.	Cẩn thận trên cầu thang.
+Home	A1	toilet	noun	nhà vệ sinh	Where is the toilet?	Nhà vệ sinh ở đâu?
+Home	A1	shower	noun	vòi sen	I take a shower every morning.	Tôi tắm vòi sen mỗi sáng.
+Home	A1	mirror	noun	gương	She looks in the mirror.	Cô ấy nhìn vào gương.
+Home	A1	fridge	noun	tủ lạnh	The milk is in the fridge.	Sữa ở trong tủ lạnh.
+Home	A1	plate	noun	đĩa	Put the plates on the table.	Đặt đĩa lên bàn.
+Home	A1	cup	noun	cốc, tách	Would you like a cup of tea?	Bạn dùng một tách trà chứ?
+Home	A1	glass	noun	cốc thủy tinh, ly	Can I have a glass of water?	Cho tôi một ly nước được không?
+Home	A1	bottle	noun	chai	There is a bottle of milk.	Có một chai sữa.
+Home	A1	knife	noun	dao	Use a knife to cut the bread.	Dùng dao để cắt bánh mì.
+Home	A1	fork	noun	nĩa	This fork is dirty.	Chiếc nĩa này bẩn.
+Home	A1	spoon	noun	thìa	I need a spoon for the soup.	Tôi cần một cái thìa để ăn súp.
+Home	A1	bowl	noun	bát, tô	The rice is in the bowl.	Cơm ở trong cái bát.
+Food	A1	food	noun	thức ăn	This food is delicious.	Món ăn này ngon.
+Food	A1	meal	noun	bữa ăn	Dinner is my favorite meal.	Bữa tối là bữa tôi thích nhất.
+Food	A1	lunch	noun	bữa trưa	We have lunch at noon.	Chúng tôi ăn trưa lúc giữa trưa.
+Food	A1	dinner	noun	bữa tối	Dinner is ready.	Bữa tối sẵn sàng rồi.
+Food	A1	egg	noun	trứng	I eat an egg for breakfast.	Tôi ăn một quả trứng vào bữa sáng.
+Food	A1	meat	noun	thịt	He does not eat meat.	Anh ấy không ăn thịt.
+Food	A1	fish	noun	cá	We had fish for dinner.	Chúng tôi ăn cá vào bữa tối.
+Food	A1	chicken	noun	thịt gà	She cooked chicken and rice.	Cô ấy nấu gà và cơm.
+Food	A1	beef	noun	thịt bò	This beef is very good.	Thịt bò này rất ngon.
+Food	A1	fruit	noun	trái cây	Eat more fruit.	Hãy ăn nhiều trái cây hơn.
+Food	A1	banana	noun	chuối	I eat a banana every day.	Tôi ăn một quả chuối mỗi ngày.
+Food	A1	orange	noun	quả cam	Would you like an orange?	Bạn ăn một quả cam chứ?
+Food	A1	tomato	noun	cà chua	Add a tomato to the salad.	Thêm cà chua vào món salad.
+Food	A1	potato	noun	khoai tây	These potatoes are hot.	Những củ khoai tây này nóng.
+Food	A1	onion	noun	hành tây	I do not like onion.	Tôi không thích hành.
+Food	A1	carrot	noun	cà rốt	Carrots are good for your eyes.	Cà rốt tốt cho mắt.
+Food	A1	salad	noun	salad	I want a green salad.	Tôi muốn một đĩa salad rau.
+Food	A1	soup	noun	súp	The soup is too hot.	Bát súp nóng quá.
+Food	A1	noodle	noun	mì	He ordered a bowl of noodles.	Anh ấy gọi một bát mì.
+Food	A1	sandwich	noun	bánh mì kẹp	I made a cheese sandwich.	Tôi làm một chiếc bánh mì kẹp phô mai.
+Food	A1	pizza	noun	pizza	We share a pizza.	Chúng tôi chia nhau một chiếc pizza.
+Food	A1	cake	noun	bánh ngọt	She baked a cake.	Cô ấy nướng một chiếc bánh.
+Food	A1	sugar	noun	đường	There is too much sugar.	Có quá nhiều đường.
+Food	A1	salt	noun	muối	Pass the salt, please.	Làm ơn đưa muối.
+Food	A1	oil	noun	dầu ăn	Heat the oil in a pan.	Đun nóng dầu trong chảo.
+Food	A1	butter	noun	bơ	I put butter on the bread.	Tôi phết bơ lên bánh mì.
+Food	A1	cheese	noun	phô mai	Do you like cheese?	Bạn có thích phô mai không?
+Food	A1	juice	noun	nước ép	Orange juice is sweet.	Nước cam ngọt.
+Food	A1	ice cream	noun	kem	The children want ice cream.	Bọn trẻ muốn ăn kem.
+Food	A1	thirsty	adjective	khát	I am thirsty. Can I have water?	Tôi khát. Cho tôi nước được không?
+Food	A1	cook	verb	nấu ăn	My father cooks dinner.	Bố tôi nấu bữa tối.
+Food	A1	drink	verb	uống	Drink more water.	Hãy uống nhiều nước hơn.
+Food	A1	breakfast	noun	bữa sáng	SKIP
+City & Transport	A1	street	noun	đường phố	The street is busy.	Đường phố rất đông.
+City & Transport	A1	road	noun	con đường	This road goes to the airport.	Con đường này dẫn ra sân bay.
+City & Transport	A1	bus	noun	xe buýt	I go to work by bus.	Tôi đi làm bằng xe buýt.
+City & Transport	A1	car	noun	ô tô	Their car is blue.	Xe của họ màu xanh.
+City & Transport	A1	taxi	noun	taxi	We took a taxi home.	Chúng tôi bắt taxi về nhà.
+City & Transport	A1	train	noun	tàu hỏa	The train leaves at nine.	Tàu khởi hành lúc chín giờ.
+City & Transport	A1	plane	noun	máy bay	The plane is late.	Máy bay bị trễ.
+City & Transport	A1	bike	noun	xe đạp	He rides a bike to school.	Anh ấy đạp xe đến trường.
+City & Transport	A1	bicycle	noun	xe đạp	She bought a new bicycle.	Cô ấy mua một chiếc xe đạp mới.
+City & Transport	A1	motorbike	noun	xe máy	He goes to work by motorbike.	Anh ấy đi làm bằng xe máy.
+City & Transport	A1	station	noun	nhà ga, trạm	The station is near my house.	Nhà ga gần nhà tôi.
+City & Transport	A1	stop	noun	điểm dừng	Wait at the bus stop.	Đợi ở trạm xe buýt.
+City & Transport	A1	park	noun	công viên	Children play in the park.	Trẻ em chơi trong công viên.
+City & Transport	A1	bank	noun	ngân hàng	The bank closes at four.	Ngân hàng đóng cửa lúc bốn giờ.
+City & Transport	A1	post office	noun	bưu điện	The post office is on this street.	Bưu điện ở trên phố này.
+City & Transport	A1	supermarket	noun	siêu thị	I buy food at the supermarket.	Tôi mua đồ ăn ở siêu thị.
+City & Transport	A1	market	noun	chợ	The market opens early.	Chợ mở cửa sớm.
+City & Transport	A1	hospital	noun	bệnh viện	SKIP
+City & Transport	A1	cinema	noun	rạp chiếu phim	Let's go to the cinema.	Chúng ta đi xem phim đi.
+City & Transport	A1	museum	noun	bảo tàng	The museum is free on Sunday.	Bảo tàng miễn phí vào Chủ nhật.
+City & Transport	A1	bridge	noun	cầu	We walked across the bridge.	Chúng tôi đi bộ qua cầu.
+City & Transport	A1	traffic	noun	giao thông	The traffic is bad today.	Giao thông hôm nay rất tệ.
+City & Transport	A1	left	noun	bên trái	Turn left at the bank.	Rẽ trái ở ngân hàng.
+City & Transport	A1	right	noun	bên phải	The shop is on the right.	Cửa hàng ở bên phải.
+City & Transport	A1	straight	adverb	thẳng	Go straight for two blocks.	Đi thẳng hai dãy nhà.
+City & Transport	A1	near	preposition	gần	The school is near my house.	Trường học gần nhà tôi.
+City & Transport	A1	far	adjective	xa	The station is not far.	Nhà ga không xa.
+Nature	A1	sun	noun	mặt trời	The sun is bright today.	Mặt trời hôm nay rất sáng.
+Nature	A1	moon	noun	mặt trăng	The moon is full tonight.	Đêm nay trăng tròn.
+Nature	A1	star	noun	ngôi sao	I can see many stars.	Tôi thấy nhiều ngôi sao.
+Nature	A1	sky	noun	bầu trời	The sky is blue.	Bầu trời màu xanh.
+Nature	A1	cloud	noun	đám mây	There is a dark cloud.	Có một đám mây đen.
+Nature	A1	wind	noun	gió	The wind is strong.	Gió mạnh.
+Nature	A1	snow	noun	tuyết	Children play in the snow.	Trẻ em chơi trong tuyết.
+Nature	A1	sea	noun	biển	We swam in the sea.	Chúng tôi bơi ở biển.
+Nature	A1	beach	noun	bãi biển	The beach is crowded.	Bãi biển đông người.
+Nature	A1	lake	noun	hồ	The lake is calm.	Mặt hồ yên ả.
+Nature	A1	forest	noun	rừng	They walked in the forest.	Họ đi bộ trong rừng.
+Nature	A1	flower	noun	hoa	She picked a flower.	Cô ấy hái một bông hoa.
+Nature	A1	grass	noun	cỏ	Do not walk on the grass.	Đừng đi trên cỏ.
+Nature	A1	leaf	noun	chiếc lá	A leaf fell from the tree.	Một chiếc lá rơi từ trên cây.
+Nature	A1	dog	noun	chó	Their dog is friendly.	Con chó của họ rất thân thiện.
+Nature	A1	cat	noun	mèo	The cat is under the table.	Con mèo ở dưới gầm bàn.
+Nature	A1	bird	noun	chim	A bird is singing.	Một con chim đang hót.
+Nature	A1	fish	noun	cá	SKIP
+Nature	A1	horse	noun	ngựa	The horse is fast.	Con ngựa chạy nhanh.
+Nature	A1	cow	noun	bò	The cow is in the field.	Con bò ở trên đồng.
+Nature	A1	pig	noun	lợn	The pig is eating.	Con lợn đang ăn.
+Nature	A1	chicken	noun	gà	SKIP
+Nature	A1	sheep	noun	cừu	There are sheep on the hill.	Có những con cừu trên đồi.
+Nature	A1	duck	noun	vịt	The ducks are on the lake.	Những con vịt ở trên hồ.
+Nature	A1	animal	noun	động vật	SKIP
+Education	A1	class	noun	lớp học	Our class starts at eight.	Lớp chúng tôi bắt đầu lúc tám giờ.
+Education	A1	classroom	noun	phòng học	The classroom is on the second floor.	Phòng học ở tầng hai.
+Education	A1	pen	noun	bút	Can I borrow your pen?	Tôi mượn bút của bạn được không?
+Education	A1	pencil	noun	bút chì	Write with a pencil.	Viết bằng bút chì.
+Education	A1	paper	noun	giấy	I need a piece of paper.	Tôi cần một tờ giấy.
+Education	A1	notebook	noun	vở	Write the new words in your notebook.	Viết từ mới vào vở.
+Education	A1	bag	noun	cặp	SKIP
+Education	A1	desk	noun	bàn học	The desk is next to the window.	Bàn học ở cạnh cửa sổ.
+Education	A1	board	noun	bảng	The teacher writes on the board.	Giáo viên viết lên bảng.
+Education	A1	question	noun	câu hỏi	I have a question.	Tôi có một câu hỏi.
+Education	A1	answer	noun	câu trả lời	That is the right answer.	Đó là câu trả lời đúng.
+Education	A1	test	noun	bài kiểm tra	We have a test tomorrow.	Ngày mai chúng tôi có bài kiểm tra.
+Education	A1	grade	noun	điểm	She got a good grade.	Cô ấy được điểm tốt.
+Education	A1	study	verb	học	I study English every day.	Tôi học tiếng Anh mỗi ngày.
+Education	A1	learn	verb	học, tiếp thu	Children learn quickly.	Trẻ em học rất nhanh.
+Education	A1	teach	verb	dạy	She teaches math.	Cô ấy dạy toán.
+Education	A1	read	verb	đọc	I read before I sleep.	Tôi đọc trước khi ngủ.
+Education	A1	write	verb	viết	Please write your name.	Làm ơn viết tên của bạn.
+Education	A1	listen	verb	nghe	Listen to the teacher.	Hãy nghe giáo viên.
+Education	A1	speak	verb	nói	She speaks English well.	Cô ấy nói tiếng Anh tốt.
+Education	A1	understand	verb	hiểu	I do not understand this word.	Tôi không hiểu từ này.
+Education	A1	remember	verb	nhớ	I cannot remember his name.	Tôi không nhớ tên anh ấy.
+Education	A1	forget	verb	quên	Don't forget your keys.	Đừng quên chìa khóa.
+Work & Career	A1	job	noun	công việc	She has a new job.	Cô ấy có một công việc mới.
+Work & Career	A1	office	noun	văn phòng	His office is downtown.	Văn phòng của anh ấy ở trung tâm.
+Work & Career	A1	boss	noun	sếp	My boss is kind.	Sếp của tôi tử tế.
+Work & Career	A1	worker	noun	công nhân, nhân viên	The workers start at seven.	Công nhân bắt đầu lúc bảy giờ.
+Work & Career	A1	driver	noun	tài xế	The bus driver is friendly.	Tài xế xe buýt rất thân thiện.
+Work & Career	A1	farmer	noun	nông dân	The farmer grows rice.	Người nông dân trồng lúa.
+Work & Career	A1	cook	noun	đầu bếp	The cook works in a hotel.	Đầu bếp làm việc ở khách sạn.
+Work & Career	A1	waiter	noun	bồi bàn nam	The waiter brought the menu.	Bồi bàn mang thực đơn đến.
+Work & Career	A1	police	noun	cảnh sát	Call the police.	Hãy gọi cảnh sát.
+Work & Career	A1	engineer	noun	kỹ sư	He is an engineer.	Anh ấy là kỹ sư.
+Work & Career	A1	manager	noun	quản lý	The manager is in a meeting.	Người quản lý đang họp.
+Shopping	A1	store	noun	cửa hàng	The store closes at nine.	Cửa hàng đóng cửa lúc chín giờ.
+Shopping	A1	customer	noun	khách hàng	SKIP
+Shopping	A1	cash	noun	tiền mặt	I paid in cash.	Tôi trả bằng tiền mặt.
+Shopping	A1	card	noun	thẻ	Can I pay by card?	Tôi trả bằng thẻ được không?
+Shopping	A1	cheap	adjective	rẻ	SKIP
+Shopping	A1	open	adjective	mở cửa	The shop is open.	Cửa hàng đang mở cửa.
+Shopping	A1	closed	adjective	đóng cửa	The bank is closed.	Ngân hàng đã đóng cửa.
+Shopping	A1	sell	verb	bán	They sell fruit here.	Họ bán trái cây ở đây.
+Shopping	A1	pay	verb	trả tiền	I will pay for the tickets.	Tôi sẽ trả tiền vé.
+Shopping	A1	cost	verb	có giá	How much does it cost?	Cái này giá bao nhiêu?
+Feelings	A1	sad	adjective	buồn	Why are you sad?	Sao bạn buồn?
+Feelings	A1	afraid	adjective	sợ	She is afraid of dogs.	Cô ấy sợ chó.
+Feelings	A1	bored	adjective	chán	I am bored at home.	Tôi chán khi ở nhà.
+Feelings	A1	excited	adjective	hào hứng	The children are excited.	Bọn trẻ rất hào hứng.
+Feelings	A1	surprised	adjective	ngạc nhiên	I was surprised by the news.	Tôi ngạc nhiên vì tin đó.
+Feelings	A1	sorry	adjective	xin lỗi, tiếc	I am sorry I am late.	Tôi xin lỗi vì đến muộn.
+Feelings	A1	smile	verb	mỉm cười	She smiles at everyone.	Cô ấy mỉm cười với mọi người.
+Feelings	A1	laugh	verb	cười	The joke made us laugh.	Câu chuyện đùa khiến chúng tôi cười.
+Feelings	A1	cry	verb	khóc	The baby is crying.	Em bé đang khóc.
+Feelings	A1	love	verb	yêu, thích	I love my family.	Tôi yêu gia đình mình.
+Feelings	A1	like	verb	thích	I like this song.	Tôi thích bài hát này.
+Feelings	A1	hate	verb	ghét	I hate waiting.	Tôi ghét phải chờ đợi.
+Feelings	A1	want	verb	muốn	I want a cup of tea.	Tôi muốn một tách trà.
+Feelings	A1	need	verb	cần	We need more time.	Chúng ta cần thêm thời gian.
+Daily Life	A1	go	verb	đi	I go to school by bus.	Tôi đi học bằng xe buýt.
+Daily Life	A1	come	verb	đến	Come here, please.	Làm ơn đến đây.
+Daily Life	A1	get	verb	lấy, trở nên	Can you get some water?	Bạn lấy ít nước được không?
+Daily Life	A1	make	verb	làm, tạo	She makes breakfast.	Cô ấy làm bữa sáng.
+Daily Life	A1	take	verb	lấy, mang, mất	Take your bag.	Mang túi của bạn đi.
+Daily Life	A1	give	verb	đưa, cho	Give me the key, please.	Làm ơn đưa tôi chìa khóa.
+Daily Life	A1	see	verb	thấy, gặp	I see a bird.	Tôi thấy một con chim.
+Daily Life	A1	look	verb	nhìn	Look at the board.	Nhìn lên bảng.
+Daily Life	A1	watch	verb	xem	We watch a film on Friday.	Chúng tôi xem phim vào thứ Sáu.
+Daily Life	A1	hear	verb	nghe thấy	I can hear the rain.	Tôi nghe thấy tiếng mưa.
+Daily Life	A1	say	verb	nói	What did she say?	Cô ấy đã nói gì?
+Daily Life	A1	tell	verb	kể, bảo	Tell me your name.	Hãy nói tên của bạn.
+Daily Life	A1	talk	verb	nói chuyện	They talk every evening.	Họ nói chuyện mỗi tối.
+Daily Life	A1	ask	verb	hỏi	Ask the teacher.	Hãy hỏi giáo viên.
+Daily Life	A1	know	verb	biết	I know this song.	Tôi biết bài hát này.
+Daily Life	A1	think	verb	nghĩ	I think it is true.	Tôi nghĩ điều đó đúng.
+Daily Life	A1	live	verb	sống	We live in Da Nang.	Chúng tôi sống ở Đà Nẵng.
+Daily Life	A1	stay	verb	ở lại	Stay here, please.	Làm ơn ở lại đây.
+Daily Life	A1	open	verb	mở	Open the window.	Mở cửa sổ ra.
+Daily Life	A1	close	verb	đóng	Close the door.	Đóng cửa lại.
+Daily Life	A1	start	verb	bắt đầu	The class starts at eight.	Lớp học bắt đầu lúc tám giờ.
+Daily Life	A1	stop	verb	dừng	The bus stopped.	Xe buýt đã dừng.
+Daily Life	A1	finish	verb	kết thúc	I finish work at five.	Tôi tan làm lúc năm giờ.
+Daily Life	A1	help	verb	giúp	Can you help me?	Bạn giúp tôi được không?
+Daily Life	A1	play	verb	chơi	The children play outside.	Bọn trẻ chơi ở ngoài.
+Daily Life	A1	use	verb	dùng	I use this pen.	Tôi dùng cây bút này.
+Daily Life	A1	try	verb	thử	Try this cake.	Hãy thử chiếc bánh này.
+Daily Life	A1	find	verb	tìm thấy	I cannot find my keys.	Tôi không tìm thấy chìa khóa.
+Daily Life	A1	lose	verb	làm mất	Don't lose your ticket.	Đừng làm mất vé.
+Daily Life	A1	put	verb	đặt	Put the book on the table.	Đặt sách lên bàn.
+Daily Life	A1	sit	verb	ngồi	Please sit down.	Mời ngồi.
+Daily Life	A1	stand	verb	đứng	Stand up, please.	Làm ơn đứng dậy.
+Daily Life	A1	walk	verb	đi bộ	We walk to school.	Chúng tôi đi bộ đến trường.
+Daily Life	A1	run	verb	chạy	He runs every morning.	Anh ấy chạy mỗi sáng.
+Daily Life	A1	drive	verb	lái xe	She drives to work.	Cô ấy lái xe đi làm.
+Daily Life	A1	ride	verb	đi, cưỡi	I ride a bike.	Tôi đi xe đạp.
+Daily Life	A1	fly	verb	bay	Birds fly in the sky.	Chim bay trên trời.
+Daily Life	A1	swim	verb	bơi	Can you swim?	Bạn có biết bơi không?
+Daily Life	A1	wash	verb	rửa, giặt	Wash your hands.	Hãy rửa tay.
+Daily Life	A1	clean	verb	lau, dọn	I clean my room on Sunday.	Tôi dọn phòng vào Chủ nhật.
+Daily Life	A1	carry	verb	mang, vác	He carries a heavy bag.	Anh ấy mang một chiếc túi nặng.
+Daily Life	A1	bring	verb	mang đến	Bring your notebook.	Mang vở của bạn đến.
+Daily Life	A1	leave	verb	rời đi	We leave at seven.	Chúng tôi đi lúc bảy giờ.
+Daily Life	A1	arrive	verb	đến nơi	The train arrives at noon.	Tàu đến lúc giữa trưa.
+Daily Life	A1	wait	verb	chờ	Wait for me.	Hãy chờ tôi.
+Daily Life	A1	meet	verb	gặp	Let's meet at the station.	Gặp nhau ở nhà ga nhé.
+Daily Life	A1	call	verb	gọi	Call me tonight.	Gọi cho tôi tối nay.
+Daily Life	A1	turn	verb	rẽ, xoay	Turn left here.	Rẽ trái ở đây.
+Daily Life	A1	change	verb	thay đổi	I want to change my shirt.	Tôi muốn đổi áo.
+Daily Life	A1	choose	verb	chọn	Choose a color.	Hãy chọn một màu.
+Daily Life	A1	feel	verb	cảm thấy	I feel tired.	Tôi cảm thấy mệt.
+Daily Life	A1	hope	verb	hy vọng	I hope you are well.	Tôi hy vọng bạn khỏe.
+Daily Life	A1	big	adjective	to, lớn	This house is big.	Ngôi nhà này to.
+Daily Life	A1	small	adjective	nhỏ	The room is small.	Căn phòng nhỏ.
+Daily Life	A1	long	adjective	dài	The road is long.	Con đường dài.
+Daily Life	A1	short	adjective	ngắn, thấp	Her hair is short.	Tóc cô ấy ngắn.
+Daily Life	A1	tall	adjective	cao	He is tall.	Anh ấy cao.
+Daily Life	A1	old	adjective	già, cũ	This is an old photo.	Đây là một bức ảnh cũ.
+Daily Life	A1	young	adjective	trẻ	She is young.	Cô ấy còn trẻ.
+Daily Life	A1	new	adjective	mới	I have a new phone.	Tôi có một chiếc điện thoại mới.
+Daily Life	A1	good	adjective	tốt	This is a good idea.	Đây là một ý hay.
+Daily Life	A1	bad	adjective	xấu, tệ	The weather is bad.	Thời tiết tệ.
+Daily Life	A1	nice	adjective	dễ chịu, tốt	Have a nice day.	Chúc một ngày tốt lành.
+Daily Life	A1	beautiful	adjective	đẹp	The beach is beautiful.	Bãi biển đẹp.
+Daily Life	A1	easy	adjective	dễ	This question is easy.	Câu hỏi này dễ.
+Daily Life	A1	difficult	adjective	khó	The test was difficult.	Bài kiểm tra khó.
+Daily Life	A1	fast	adjective	nhanh	This train is fast.	Chuyến tàu này nhanh.
+Daily Life	A1	slow	adjective	chậm	The bus is slow today.	Xe buýt hôm nay chậm.
+Daily Life	A1	hot	adjective	nóng	SKIP
+Daily Life	A1	warm	adjective	ấm	The soup is warm.	Bát súp còn ấm.
+Daily Life	A1	cool	adjective	mát	The evening is cool.	Buổi tối trời mát.
+Daily Life	A1	clean	adjective	sạch	The kitchen is clean.	Nhà bếp sạch sẽ.
+Daily Life	A1	dirty	adjective	bẩn	My shoes are dirty.	Giày của tôi bẩn.
+Daily Life	A1	full	adjective	đầy, no	The glass is full.	Cái ly đầy.
+Daily Life	A1	empty	adjective	trống	The bottle is empty.	Cái chai trống.
+Daily Life	A1	right	adjective	đúng	Your answer is right.	Câu trả lời của bạn đúng.
+Daily Life	A1	wrong	adjective	sai	This answer is wrong.	Câu trả lời này sai.
+Daily Life	A1	same	adjective	giống nhau	We have the same bag.	Chúng tôi có chiếc túi giống nhau.
+Daily Life	A1	different	adjective	khác nhau	These words are different.	Những từ này khác nhau.
+Daily Life	A1	important	adjective	quan trọng	This word is important.	Từ này quan trọng.
+Daily Life	A1	interesting	adjective	thú vị	The story is interesting.	Câu chuyện thú vị.
+Daily Life	A1	boring	adjective	nhàm chán	The film was boring.	Bộ phim nhàm chán.
+Daily Life	A1	busy	adjective	bận	I am busy today.	Hôm nay tôi bận.
+Daily Life	A1	free	adjective	rảnh, miễn phí	Are you free tonight?	Tối nay bạn có rảnh không?
+Daily Life	A1	ready	adjective	sẵn sàng	Are you ready?	Bạn sẵn sàng chưa?
+Daily Life	A1	sure	adjective	chắc chắn	I am sure.	Tôi chắc chắn.
+Daily Life	A1	quiet	adjective	yên tĩnh	The library is quiet.	Thư viện yên tĩnh.
+Daily Life	A1	loud	adjective	ồn	The music is too loud.	Nhạc ồn quá.
+Daily Life	A1	heavy	adjective	nặng	This bag is heavy.	Chiếc túi này nặng.
+Daily Life	A1	light	adjective	nhẹ, sáng	This box is light.	Cái hộp này nhẹ.
+Daily Life	A1	strong	adjective	khỏe, mạnh	He is strong.	Anh ấy khỏe.
+Daily Life	A1	weak	adjective	yếu	I feel weak today.	Hôm nay tôi cảm thấy yếu.
+Daily Life	A1	rich	adjective	giàu	The family is rich.	Gia đình đó giàu.
+Daily Life	A1	poor	adjective	nghèo	They were poor.	Họ từng nghèo.
+Daily Life	A1	kind	adjective	tử tế	She is a kind person.	Cô ấy là người tử tế.
+Daily Life	A1	friendly	adjective	thân thiện	The staff are friendly.	Nhân viên rất thân thiện.
+Daily Life	A1	hungry	adjective	đói	SKIP
+Daily Life	A1	here	adverb	ở đây	Come here.	Đến đây.
+Daily Life	A1	there	adverb	ở đó	The shop is over there.	Cửa hàng ở đằng kia.
+Daily Life	A1	very	adverb	rất	The soup is very hot.	Súp rất nóng.
+Daily Life	A1	too	adverb	quá	This bag is too heavy.	Chiếc túi này nặng quá.
+Daily Life	A1	also	adverb	cũng	I also like tea.	Tôi cũng thích trà.
+Daily Life	A1	only	adverb	chỉ	I only have ten minutes.	Tôi chỉ có mười phút.
+Daily Life	A1	again	adverb	lại, nữa	Say it again, please.	Làm ơn nói lại.
+Daily Life	A1	together	adverb	cùng nhau	We study together.	Chúng tôi học cùng nhau.
+Daily Life	A1	well	adverb	tốt, khỏe	She sings well.	Cô ấy hát hay.
+Daily Life	A1	quickly	adverb	nhanh chóng	Please come quickly.	Làm ơn đến nhanh.
+Daily Life	A1	slowly	adverb	chậm rãi	Speak slowly, please.	Làm ơn nói chậm.
+Daily Life	A1	because	conjunction	bởi vì	I stayed home because I was ill.	Tôi ở nhà vì tôi bị ốm.
+Daily Life	A1	but	conjunction	nhưng	I am tired but happy.	Tôi mệt nhưng vui.
+Daily Life	A1	and	conjunction	và	I like tea and coffee.	Tôi thích trà và cà phê.
+Daily Life	A1	or	conjunction	hoặc	Tea or coffee?	Trà hay cà phê?
+Daily Life	A1	if	conjunction	nếu	If it rains, we stay home.	Nếu trời mưa, chúng tôi ở nhà.
+Daily Life	A1	with	preposition	với	I live with my parents.	Tôi sống với bố mẹ.
+Daily Life	A1	without	preposition	không có	I cannot see without glasses.	Tôi không nhìn được nếu không có kính.
+Daily Life	A1	before	preposition	trước	Wash your hands before dinner.	Rửa tay trước bữa tối.
+Daily Life	A1	after	preposition	sau	We walk after dinner.	Chúng tôi đi bộ sau bữa tối.
+Daily Life	A1	under	preposition	dưới	The cat is under the table.	Con mèo ở dưới gầm bàn.
+Daily Life	A1	between	preposition	ở giữa	The bank is between the shop and the park.	Ngân hàng nằm giữa cửa hàng và công viên.
+Daily Life	A1	behind	preposition	phía sau	The garden is behind the house.	Khu vườn ở phía sau nhà.
+Daily Life	A1	next to	preposition	bên cạnh	Sit next to me.	Ngồi cạnh tôi.
+Sports	A1	football	noun	bóng đá	We play football on Sunday.	Chúng tôi chơi bóng đá vào Chủ nhật.
+Sports	A1	ball	noun	quả bóng	Throw me the ball.	Ném bóng cho tôi.
+Sports	A1	game	noun	trò chơi, trận đấu	The game starts at seven.	Trận đấu bắt đầu lúc bảy giờ.
+Sports	A1	team	noun	đội	Our team won.	Đội chúng tôi thắng.
+Sports	A1	win	verb	thắng	I want to win.	Tôi muốn thắng.
+Sports	A1	player	noun	cầu thủ, người chơi	He is a good player.	Anh ấy là một cầu thủ giỏi.
+Sports	A1	sport	noun	môn thể thao	What sport do you like?	Bạn thích môn thể thao nào?
+Communication	A1	hello	interjection	xin chào	SKIP
+Communication	A1	please	interjection	làm ơn	Sit down, please.	Mời ngồi.
+Communication	A1	thanks	interjection	cảm ơn	Thanks for your help.	Cảm ơn vì sự giúp đỡ của bạn.
+Communication	A1	thank you	phrase	cảm ơn bạn	Thank you very much.	Cảm ơn bạn rất nhiều.
+Communication	A1	sorry	interjection	xin lỗi	Sorry, I am late.	Xin lỗi, tôi đến muộn.
+Communication	A1	yes	interjection	vâng, có	Yes, I understand.	Vâng, tôi hiểu.
+Communication	A1	no	interjection	không	No, thank you.	Không, cảm ơn.
+Communication	A1	excuse me	phrase	xin lỗi, làm ơn chú ý	Excuse me, where is the station?	Xin lỗi, nhà ga ở đâu?
+Communication	A1	goodbye	interjection	tạm biệt	SKIP
+Communication	A1	hi	interjection	chào	Hi, how are you?	Chào, bạn khỏe không?
+Communication	A1	welcome	interjection	không có gì, chào mừng	You are welcome.	Không có gì.
+Communication	A1	phone	noun	điện thoại	SKIP
+Communication	A1	message	noun	tin nhắn	I sent you a message.	Tôi đã gửi cho bạn một tin nhắn.
+Communication	A1	letter	noun	lá thư, chữ cái	She wrote a letter to her aunt.	Cô ấy viết một lá thư cho dì.
+Communication	A1	word	noun	từ	I learned ten new words.	Tôi học mười từ mới.
+Communication	A1	sentence	noun	câu	Read this sentence.	Hãy đọc câu này.
+Communication	A1	language	noun	ngôn ngữ	English is a useful language.	Tiếng Anh là một ngôn ngữ hữu ích.
+Communication	A1	english	noun	tiếng Anh	I study English.	Tôi học tiếng Anh.
+Travel	A1	trip	noun	chuyến đi	We had a short trip.	Chúng tôi có một chuyến đi ngắn.
+Travel	A1	holiday	noun	kỳ nghỉ	Where do you go on holiday?	Bạn đi nghỉ ở đâu?
+Travel	A1	country	noun	đất nước	Vietnam is a beautiful country.	Việt Nam là một đất nước đẹp.
+Travel	A1	place	noun	nơi, địa điểm	This is a quiet place.	Đây là một nơi yên tĩnh.
+Travel	A1	photo	noun	bức ảnh	I took a photo of the beach.	Tôi chụp một bức ảnh bãi biển.
+Travel	A1	camera	noun	máy ảnh	Don't forget your camera.	Đừng quên máy ảnh.
+Travel	A1	suitcase	noun	vali	My suitcase is heavy.	Vali của tôi nặng.
+Travel	A1	visitor	noun	khách	The visitors arrived at noon.	Những vị khách đến lúc giữa trưa.
+Travel	A1	tourist	noun	khách du lịch	Many tourists visit the city.	Nhiều khách du lịch đến thành phố.
+Health	A1	sick	adjective	ốm	He is sick today.	Hôm nay anh ấy ốm.
+Health	A1	well	adjective	khỏe	I hope you get well soon.	Tôi hy vọng bạn chóng khỏe.
+Health	A1	hurt	verb	làm đau	My knee hurts.	Đầu gối tôi đau.
+Health	A1	rest	verb	nghỉ ngơi	You should rest.	Bạn nên nghỉ ngơi.
+Health	A1	better	adjective	khỏe hơn, tốt hơn	I feel better today.	Hôm nay tôi thấy khỏe hơn.
+Daily Life	A1	thing	noun	đồ vật, việc	What is this thing?	Cái này là gì?
+Daily Life	A1	way	noun	cách, đường	This is the way home.	Đây là đường về nhà.
+Daily Life	A1	life	noun	cuộc sống	Life in the city is busy.	Cuộc sống ở thành phố bận rộn.
+Daily Life	A1	world	noun	thế giới	People travel around the world.	Mọi người đi khắp thế giới.
+Daily Life	A1	home	noun	nhà	I go home at six.	Tôi về nhà lúc sáu giờ.
+Daily Life	A1	problem	noun	vấn đề	I have a problem.	Tôi có một vấn đề.
+Daily Life	A1	idea	noun	ý tưởng	That is a good idea.	Đó là một ý hay.
+Daily Life	A1	example	noun	ví dụ	Give me an example.	Hãy cho tôi một ví dụ.
+Daily Life	A1	part	noun	phần	This is the easy part.	Đây là phần dễ.
+Daily Life	A1	end	noun	kết thúc	This is the end of the road.	Đây là cuối đường.
+Daily Life	A1	beginning	noun	khởi đầu	The beginning of the film is slow.	Đầu phim diễn ra chậm.

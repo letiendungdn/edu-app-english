@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" font-family="Outfit, sans-serif">
+  <rect width="640" height="180" fill="#f7f4ec"/>
+  <text x="24" y="28" font-size="16" fill="#1c1917">City bike</text>
+  <rect x="24" y="58" width="120" height="72" rx="10" fill="#fff" stroke="#0f6e56" stroke-width="2"/>
+  <text x="84" y="100" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">1</text>
+  <path d="M144 94 H176" stroke="#1c1917" stroke-width="2"/>
+  <rect x="176" y="58" width="120" height="72" rx="10" fill="#fff" stroke="#0f6e56" stroke-width="2"/>
+  <text x="236" y="100" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">2</text>
+  <path d="M296 94 H328" stroke="#1c1917" stroke-width="2"/>
+  <rect x="328" y="58" width="120" height="72" rx="10" fill="#fff" stroke="#0f6e56" stroke-width="2"/>
+  <text x="388" y="100" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">3</text>
+  <path d="M448 94 H480" stroke="#1c1917" stroke-width="2"/>
+  <rect x="480" y="58" width="120" height="72" rx="10" fill="#fff" stroke="#0f6e56" stroke-width="2"/>
+  <text x="540" y="100" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">4</text>
+</svg>

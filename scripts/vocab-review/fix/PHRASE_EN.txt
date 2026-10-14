@@ -1,0 +1,382 @@
+IPA	health-conscious	/ˈhelθ ˌkɒnʃəs/
+IPA	user-friendly	/ˌjuːzə ˈfrendli/
+IPA	re-offend	/ˌriː əˈfend/
+IPA	homelessness	/ˈhəʊmləsnəs/
+IPA	well-connected	/ˌwel kəˈnektɪd/
+IPA	eco-tourism	/ˈiːkəʊ ˌtʊərɪzəm/
+IPA	respectively	/rɪˈspektɪvli/
+EN	with	Together with someone or something; using something.
+EN	against	In opposition to; touching or leaning on.
+EN	when	At the time that; at what time.
+EN	so	Therefore; also very.
+EN	as	In the role of; while; because.
+EN	it	Used for a thing, animal or situation already mentioned.
+EN	that	Used for something farther away or already mentioned.
+EN	who	Which person or people.
+EN	what	Used to ask about things or information.
+EN	which	Used to ask about one of a limited number of choices.
+EN	for	Intended to be given to; to show purpose or a period of time.
+EN	either	One or the other of two; (with not) also not.
+EN	are	The form of "be" used with you, we and they.
+EN	at	Used to show a place or a time.
+EN	by	Used to show who does something, how, or a deadline.
+EN	in	Inside a place; during a period of time.
+EN	is	The form of "be" used with he, she and it.
+EN	last	Coming after all others; the most recent.
+EN	more	A larger amount or number.
+EN	of	Belonging to or connected with; containing.
+EN	on	Touching the top surface of; on a particular day.
+EN	to	Towards a place; used before a verb.
+EN	up	Towards a higher place or position.
+EN	over	Above; more than; across.
+EN	reduce carbon emissions	To lower the amount of carbon dioxide released into the air.
+EN	tackle climate change	To take action to deal with climate change.
+EN	renewable energy sources	Energy from sources that do not run out, such as sun and wind.
+EN	fossil fuels	Fuels such as coal, oil and gas formed from ancient plants and animals.
+EN	raise environmental awareness	To make people understand environmental problems better.
+EN	endangered species	Animals or plants that may soon disappear.
+EN	natural habitats	The natural homes of animals and plants.
+EN	pose a threat to	To be a possible danger to.
+EN	cause irreversible damage	To cause harm that cannot be undone.
+EN	protect the environment	To keep the natural world safe from harm.
+EN	air pollution	Harmful substances in the air.
+EN	dispose of waste	To get rid of rubbish.
+EN	carbon footprint	The amount of carbon dioxide produced by a person's or organisation's activities.
+EN	sustainable development	Development that meets present needs without harming the future.
+EN	natural resources	Materials such as water, wood and minerals found in nature.
+EN	deplete resources	To use up natural resources.
+EN	extreme weather events	Very severe weather such as floods, droughts and storms.
+EN	take drastic measures	To take strong and severe action.
+EN	switch to public transport	To start using buses and trains instead of cars.
+EN	single-use plastics	Plastic items that are used once and then thrown away.
+EN	the ozone layer	The layer of gas in the atmosphere that protects the earth from the sun's rays.
+EN	conserve energy	To use less energy.
+EN	impose a ban on	To officially forbid something.
+EN	an ecological disaster	A disaster that seriously damages the natural environment.
+EN	the root cause of	The main or basic reason for something.
+EN	water shortages	Situations where there is not enough water.
+EN	a heavy price to pay	A serious negative result of an action.
+EN	go green	To start living in a more environmentally friendly way.
+EN	acquire knowledge	To gain knowledge.
+EN	further education	Education after secondary school that is not university.
+EN	higher education	Education at university or college.
+EN	tuition fees	Money paid for being taught at a school or university.
+EN	vocational training	Training for a particular job or trade.
+EN	extracurricular activities	Activities students do outside normal lessons.
+EN	the school curriculum	The subjects taught in a school.
+EN	rote learning	Learning by repeating things until you remember them, without understanding.
+EN	distance learning	Studying from home, usually online.
+EN	attend classes	To go to lessons.
+EN	drop out of school	To leave school before finishing.
+EN	gain a qualification	To get a certificate or degree.
+EN	a well-rounded education	An education that develops many different skills.
+EN	academic performance	How well a student does in their studies.
+EN	meet a deadline	To finish something by the required time.
+EN	learn by heart	To memorise something.
+EN	broaden your horizons	To increase your knowledge and experience.
+EN	a gap year	A year off between school and university.
+EN	single-sex schools	Schools for only boys or only girls.
+EN	mixed-ability classes	Classes with students of different levels.
+EN	lifelong learning	Continuing to learn throughout your life.
+EN	hands-on experience	Practical experience of doing something.
+EN	peer pressure	Pressure from people of your own age to behave like them.
+EN	a sense of discipline	The ability to control your behaviour and follow rules.
+EN	compulsory subjects	Subjects that every student must study.
+EN	an academic year	The period of the year when schools or universities are open.
+EN	put theory into practice	To use ideas in real situations.
+EN	equal access to education	The same chance for everyone to get an education.
+EN	a student loan	Money borrowed to pay for university studies.
+EN	a balanced diet	A diet with the right amounts of different kinds of food.
+EN	a sedentary lifestyle	A way of life with little physical activity.
+EN	lead a healthy lifestyle	To live in a way that is good for your health.
+EN	processed food	Food that has been changed by industrial methods.
+EN	obesity rates	The percentage of people who are very overweight.
+EN	take regular exercise	To exercise often.
+EN	mental health	The health of a person's mind.
+EN	healthcare system	The way a country provides medical care.
+EN	prevention is better than cure	It is better to stop a problem than to fix it later.
+EN	life expectancy	How long people are expected to live.
+EN	chronic diseases	Illnesses that last a long time.
+EN	junk food	Unhealthy food with a lot of fat or sugar.
+EN	cut down on	To reduce the amount of something you use or eat.
+EN	public health	The health of the population as a whole.
+EN	medical treatment	Care given by doctors to cure an illness.
+EN	raise awareness of	To make people know more about something.
+EN	a nutritious meal	A meal that is good for your health.
+EN	suffer from stress	To feel worried and under pressure.
+EN	get enough sleep	To sleep as much as you need.
+EN	boost the immune system	To make the body better at fighting disease.
+EN	health risks	Things that may harm your health.
+EN	an ageing population	A population with a growing number of old people.
+EN	contract a disease	To catch an illness.
+EN	make a full recovery	To become completely healthy again.
+EN	be in good shape	To be fit and healthy.
+EN	put on weight	To become heavier.
+EN	addictive substances	Substances that are hard to stop using, such as drugs.
+EN	a sugar tax	A tax on drinks or food with a lot of sugar.
+EN	work-life balance	A healthy division of time between work and personal life.
+EN	health-conscious	Careful about your health.
+EN	technological advances	Progress in technology.
+EN	cutting-edge technology	The most modern technology.
+EN	become obsolete	To become out of date and no longer used.
+EN	online privacy	Keeping your personal information private on the internet.
+EN	screen time	Time spent looking at phones, computers or TV.
+EN	be addicted to	To be unable to stop doing or using something.
+EN	access information	To find and use information.
+EN	a digital divide	The gap between people with and without internet access.
+EN	cyber crime	Crime committed using computers or the internet.
+EN	social media platforms	Websites and apps such as Facebook or TikTok.
+EN	face-to-face interaction	Talking to people in person.
+EN	labour-saving devices	Machines that make work easier, such as washing machines.
+EN	keep up with technology	To learn about new technology as it develops.
+EN	store data	To keep information on a computer.
+EN	remote working	Working from home or away from the office.
+EN	an invasion of privacy	Interference in someone's private life.
+EN	a double-edged sword	Something that has both good and bad effects.
+EN	revolutionise the way	To completely change how something is done.
+EN	rely heavily on	To depend a lot on.
+EN	user-friendly	Easy to use.
+EN	spread misinformation	To share false information.
+EN	the latest gadgets	The newest small electronic devices.
+EN	high-speed internet	A very fast internet connection.
+EN	automate tasks	To make machines do jobs that people used to do.
+EN	online shopping	Buying things on the internet.
+EN	computer literacy	The ability to use computers well.
+EN	go viral	To spread very quickly on the internet.
+EN	personal data	Information about a person, such as name and address.
+EN	pose ethical questions	To raise questions about what is morally right.
+EN	commit a crime	To do something illegal.
+EN	crime rates	The number of crimes in an area.
+EN	serve a prison sentence	To spend time in prison as a punishment.
+EN	a deterrent to crime	Something that stops people from committing crimes.
+EN	rehabilitate offenders	To help criminals return to normal life.
+EN	juvenile delinquency	Crime committed by young people.
+EN	break the law	To do something illegal.
+EN	law enforcement	The work of making people obey the law.
+EN	re-offend	To commit a crime again.
+EN	community service	Unpaid work for the community, often as a punishment.
+EN	capital punishment	Punishment by death.
+EN	petty crime	Minor crime such as shoplifting.
+EN	violent crime	Crime that involves hurting people.
+EN	a criminal record	An official record of crimes a person has committed.
+EN	strict penalties	Severe punishments.
+EN	tighten the law	To make a law stricter.
+EN	a fine	Money paid as a punishment.
+EN	be sent to prison	To be put in prison as a punishment.
+EN	surveillance cameras	Cameras used to watch public places.
+EN	the root causes of crime	The basic reasons why crime happens.
+EN	a sense of right and wrong	Knowing what is morally good or bad.
+EN	the justice system	The courts, police and prisons of a country.
+EN	legal action	Using the courts to settle a problem.
+EN	a repeat offender	A person who commits crimes again and again.
+EN	social exclusion	Being left out of normal society.
+EN	crack down on	To deal with a problem in a much stricter way.
+EN	law-abiding citizens	People who obey the law.
+EN	victims of crime	People harmed by crime.
+EN	prison overcrowding	Having too many prisoners in a prison.
+EN	allocate funding	To decide how money will be spent.
+EN	public services	Services such as schools and hospitals provided by the government.
+EN	taxpayers' money	Money collected from taxes.
+EN	government subsidies	Money given by the government to reduce costs.
+EN	introduce legislation	To bring in new laws.
+EN	social inequality	Unfair differences between groups in society.
+EN	the gap between rich and poor	The difference in wealth between rich and poor people.
+EN	live below the poverty line	To have too little money for basic needs.
+EN	a welfare state	A system where the government looks after people's health and income.
+EN	take responsibility for	To accept that something is your duty or fault.
+EN	play a key role in	To be very important in something.
+EN	a sense of community	A feeling of belonging to a group of people.
+EN	raise taxes	To increase taxes.
+EN	a top priority	The most important thing.
+EN	the elderly	Old people.
+EN	gender equality	Equal rights and opportunities for men and women.
+EN	ethnic minorities	Groups of people of a different race or culture from most of the population.
+EN	cultural diversity	The existence of many different cultures.
+EN	a heated debate	An angry or emotional discussion.
+EN	make a contribution to	To help achieve something.
+EN	meet the needs of	To provide what someone needs.
+EN	tackle unemployment	To deal with the problem of people having no jobs.
+EN	traditional values	Beliefs and customs from the past.
+EN	an ageing society	A society with a growing number of old people.
+EN	charitable organisations	Organisations that help people in need.
+EN	the general public	Ordinary people.
+EN	affordable housing	Homes that people with average incomes can buy or rent.
+EN	a long-term solution	A solution that works for a long time.
+EN	set an example	To behave in a way others should copy.
+EN	job satisfaction	The feeling of enjoying your work.
+EN	climb the career ladder	To get better jobs over time.
+EN	a well-paid job	A job with a high salary.
+EN	job security	Being sure you will keep your job.
+EN	the unemployment rate	The percentage of people without a job.
+EN	a skilled workforce	Workers with training and skills.
+EN	economic growth	An increase in a country's wealth.
+EN	the cost of living	The amount of money needed for basic things.
+EN	earn a living	To earn money to live.
+EN	flexible working hours	Working times that can be changed.
+EN	a heavy workload	A large amount of work.
+EN	apply for a job	To ask formally for a job.
+EN	start a business	To set up a new company.
+EN	consumer spending	The money people spend on goods and services.
+EN	boost the economy	To help the economy grow.
+EN	an economic downturn	A period when the economy gets weaker.
+EN	a minimum wage	The lowest pay allowed by law.
+EN	job prospects	Chances of finding or getting a better job.
+EN	gain work experience	To get experience of working.
+EN	be made redundant	To lose your job because it is no longer needed.
+EN	a nine-to-five job	An ordinary office job with regular hours.
+EN	work overtime	To work more than your normal hours.
+EN	fringe benefits	Extra things you get from a job besides your salary.
+EN	a brain drain	The movement of skilled people to other countries.
+EN	make a profit	To earn more money than you spend.
+EN	small and medium-sized businesses	Companies that are not large.
+EN	financial stability	Having enough money and a secure financial situation.
+EN	a lucrative career	A job that earns a lot of money.
+EN	retire early	To stop working before the usual age.
+EN	employee productivity	How much work employees produce.
+EN	traffic congestion	Too much traffic on the roads.
+EN	a daily commute	The journey to work every day.
+EN	urban sprawl	The spread of a city into the countryside.
+EN	overcrowded cities	Cities with too many people.
+EN	green spaces	Areas of grass and trees in a city.
+EN	the cost of housing	How much it costs to buy or rent a home.
+EN	move to the city	To leave the countryside to live in a city.
+EN	rural areas	The countryside.
+EN	public transport network	The system of buses, trains and other public transport.
+EN	pedestrian zones	Areas where cars are not allowed.
+EN	high-rise buildings	Very tall buildings.
+EN	a fast pace of life	A busy, rushed way of living.
+EN	noise pollution	Too much unpleasant noise.
+EN	improve infrastructure	To make roads, bridges and services better.
+EN	residential areas	Areas where people live.
+EN	job opportunities	Chances to get jobs.
+EN	a congestion charge	Money drivers pay to enter a busy city centre.
+EN	cycle lanes	Parts of a road only for bicycles.
+EN	the quality of life	How good or comfortable someone's life is.
+EN	urban regeneration	Improving old or poor parts of a city.
+EN	a lack of facilities	Not having enough buildings or services.
+EN	homelessness	The problem of people having no home.
+EN	a sense of isolation	The feeling of being alone or cut off.
+EN	relieve congestion	To reduce traffic jams.
+EN	city dwellers	People who live in cities.
+EN	well-connected	Having good transport links; knowing important people.
+EN	migrate from rural to urban areas	To move from the countryside to cities.
+EN	vibrant nightlife	Lively entertainment at night.
+EN	local amenities	Shops, parks and services near where you live.
+EN	the mass media	Newspapers, TV and radio that reach many people.
+EN	public opinion	What most people think.
+EN	target audience	The group of people a product or message is aimed at.
+EN	an advertising campaign	A series of advertisements for a product.
+EN	brand loyalty	Continuing to buy the same brand.
+EN	misleading advertisements	Advertisements that give a false idea.
+EN	freedom of the press	The right of newspapers to report freely.
+EN	fake news	False stories presented as news.
+EN	make headlines	To be reported as important news.
+EN	a reliable source	A source of information that you can trust.
+EN	cover a story	To report on an event.
+EN	invade someone's privacy	To interfere in someone's private life.
+EN	biased reporting	News reporting that unfairly favours one side.
+EN	impulse buying	Buying things suddenly without planning.
+EN	a consumer society	A society where buying goods is very important.
+EN	celebrity endorsement	A famous person promoting a product.
+EN	role models	People whose behaviour others copy.
+EN	prime time	The time when most people watch TV.
+EN	a news outlet	An organisation that publishes news.
+EN	go online	To connect to the internet.
+EN	be exposed to	To experience or come into contact with.
+EN	a means of communication	A way of communicating.
+EN	raise public awareness	To make more people know about something.
+EN	the tabloid press	Newspapers with sensational stories about famous people.
+EN	in-depth coverage	Detailed reporting.
+EN	an online presence	Being visible on the internet.
+EN	persuade people to buy	To convince people to purchase something.
+EN	censor content	To remove material considered unsuitable.
+EN	a wide audience	A large number of people.
+EN	cultural identity	The feeling of belonging to a culture.
+EN	international trade	Buying and selling between countries.
+EN	multinational companies	Companies that operate in many countries.
+EN	mass tourism	Travel by very large numbers of tourists.
+EN	tourist attractions	Places that tourists visit.
+EN	the tourism industry	The business of providing services for tourists.
+EN	preserve local traditions	To keep local customs alive.
+EN	broaden the mind	To make you more open and understanding.
+EN	a global village	The world seen as a single connected community.
+EN	eco-tourism	Tourism that protects nature and local people.
+EN	culture shock	Confusion felt when living in a new culture.
+EN	language barriers	Problems caused by not speaking the same language.
+EN	an influx of tourists	A large number of tourists arriving.
+EN	foreign investment	Money invested by people or companies from other countries.
+EN	cultural exchange	Sharing ideas and customs between cultures.
+EN	a global economy	The economy of the whole world as one system.
+EN	lose their cultural heritage	To lose the traditions and history of their culture.
+EN	a holiday destination	A place people go for holidays.
+EN	local businesses	Small companies in a particular area.
+EN	generate revenue	To produce income.
+EN	the spread of English	English becoming used in more places.
+EN	a melting pot	A place where people of many cultures live together.
+EN	go sightseeing	To visit interesting places as a tourist.
+EN	off the beaten track	Far from places that many people visit.
+EN	cheap labour	Workers who are paid very little.
+EN	homogenous culture	A culture where everyone is very similar.
+EN	travel restrictions	Rules that limit travel.
+EN	respect local customs	To behave according to local traditions.
+EN	a trade agreement	An agreement between countries about trade.
+EN	a world-famous landmark	A building or place known all over the world.
+EN	a nuclear family	A family of parents and their children only.
+EN	an extended family	A family that includes grandparents, aunts, uncles, etc.
+EN	bring up children	To raise children.
+EN	the generation gap	Differences in ideas between young and old people.
+EN	working parents	Parents who both have jobs.
+EN	spend quality time	To spend time giving full attention to someone.
+EN	family values	Traditional beliefs about family life.
+EN	carry out research	To do research.
+EN	a scientific breakthrough	An important scientific discovery.
+EN	conduct an experiment	To do an experiment.
+EN	space exploration	The investigation of space using spacecraft.
+EN	animal testing	Using animals in experiments.
+EN	genetic engineering	Changing the genes of living things.
+EN	evidence suggests that	Facts show that something is likely true.
+EN	draw a conclusion	To decide something after thinking about the facts.
+EN	research funding	Money given for research.
+EN	a turning point	A time when an important change happens.
+EN	have an impact on	To affect something.
+EN	make a decision	To decide.
+EN	take into account	To consider something when deciding.
+EN	pay attention to	To watch, listen or think carefully about.
+EN	there is no doubt that	It is certain that.
+EN	a growing number of	More and more.
+EN	from an early age	Since childhood.
+EN	a wide range of	Many different kinds of.
+EN	the pros and cons	The advantages and disadvantages.
+EN	solve a problem	To find the answer to a problem.
+EN	meet the demand for	To supply as much as people want.
+EN	reach a compromise	To agree by each side giving up something.
+EN	it is widely believed that	Many people believe that.
+EN	rise sharply	To go up quickly.
+EN	fall steadily	To go down gradually and regularly.
+EN	remain stable	To stay at the same level.
+EN	fluctuate slightly	To go up and down a little.
+EN	reach a peak	To get to the highest point.
+EN	hit a low	To get to the lowest point.
+EN	level off	To stop rising or falling and stay the same.
+EN	a dramatic increase	A sudden large rise.
+EN	a slight decrease	A small fall.
+EN	account for	To form a part or percentage of something.
+EN	the vast majority	Almost all.
+EN	a small proportion of	A small part of.
+EN	double in size	To become twice as big.
+EN	over the period shown	During the time shown in a chart.
+EN	in comparison with	Compared with.
+EN	the highest figure	The largest number.
+EN	stand at	To be at a particular level.
+EN	an upward trend	A general rise.
+EN	a downward trend	A general fall.
+EN	by contrast	Used to show a difference.
+EN	followed by	Coming next after.
+EN	respectively	In the same order as mentioned.
+EN	roughly a quarter	About 25 per cent.
+EN	the same pattern	A similar trend.
+EN	a threefold increase	A rise to three times the original amount.
+EN	be replaced by	To have something take the place of it.
+EN	is located next to	Is beside.
+EN	in the final stage	In the last step.
+EN	undergo significant changes	To change a lot.

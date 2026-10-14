@@ -20,12 +20,21 @@ export interface VocabWord {
   word: string;
   phonetic?: string | null;
   meaningVi: string;
+  meaningEn?: string | null;
   level: string;
   partOfSpeech?: string | null;
   exampleEn?: string | null;
   exampleVi?: string | null;
   imageUrl?: string | null;
   topic?: TopicView | null;
+  /** Họ từ: "analyse (v) · analysis (n) · analytical (adj)". */
+  family?: string | null;
+}
+
+export interface TopicCount {
+  name: string;
+  icon?: string | null;
+  count: number;
 }
 
 export interface VocabPage {
@@ -129,6 +138,7 @@ export interface PassageListItem {
   estimatedMin?: number | null;
   source?: string | null;
   questionCount: number;
+  questionTypes: string[];
 }
 
 export interface PassageDetail {
@@ -149,6 +159,7 @@ export interface TrackListItem {
   youtubeUrl?: string | null;
   ieltsPart?: number | null;
   questionCount: number;
+  questionTypes: string[];
 }
 
 export interface TrackDetail {

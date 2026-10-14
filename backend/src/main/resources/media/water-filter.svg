@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" font-family="Outfit, sans-serif">
+  <rect width="640" height="220" fill="#f7f4ec"/>
+  <text x="24" y="32" font-size="16" fill="#1c1917">Home water filter</text>
+  <rect x="24" y="70" width="110" height="70" rx="10" fill="#fff" stroke="#0f6e56" stroke-width="2"/>
+  <text x="79" y="100" text-anchor="middle" font-size="14" fill="#1c1917">tap water</text>
+  <text x="79" y="122" text-anchor="middle" font-size="18" font-weight="700" fill="#0f6e56">1</text>
+  <path d="M134 105 H170" stroke="#1c1917" stroke-width="2" marker-end="url(#a)"/>
+  <rect x="170" y="70" width="110" height="70" rx="10" fill="#fff" stroke="#0f6e56" stroke-width="2"/>
+  <text x="225" y="100" text-anchor="middle" font-size="14" fill="#1c1917">screen</text>
+  <text x="225" y="122" text-anchor="middle" font-size="18" font-weight="700" fill="#0f6e56">2</text>
+  <path d="M280 105 H316" stroke="#1c1917" stroke-width="2"/>
+  <rect x="316" y="70" width="110" height="70" rx="10" fill="#fff" stroke="#0f6e56" stroke-width="2"/>
+  <text x="371" y="100" text-anchor="middle" font-size="14" fill="#1c1917">carbon</text>
+  <text x="371" y="122" text-anchor="middle" font-size="18" font-weight="700" fill="#0f6e56">3</text>
+  <path d="M426 105 H462" stroke="#1c1917" stroke-width="2"/>
+  <rect x="462" y="70" width="140" height="70" rx="10" fill="#fff" stroke="#0f6e56" stroke-width="2"/>
+  <text x="532" y="100" text-anchor="middle" font-size="14" fill="#1c1917">drinking tap</text>
+  <text x="532" y="122" text-anchor="middle" font-size="18" font-weight="700" fill="#0f6e56">4</text>
+</svg>

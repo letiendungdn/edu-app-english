@@ -1,0 +1,462 @@
+Daily Life	A2	someone	pronoun	ai đó	Someone is at the door.	Có ai đó ở cửa.
+Daily Life	A2	anyone	pronoun	bất kỳ ai	Is anyone here?	Có ai ở đây không?
+Daily Life	A2	everyone	pronoun	mọi người	Everyone is ready.	Mọi người đã sẵn sàng.
+Daily Life	A2	something	pronoun	cái gì đó	I need something to drink.	Tôi cần cái gì đó để uống.
+Daily Life	A2	anything	pronoun	bất cứ thứ gì	You can ask me anything.	Bạn có thể hỏi tôi bất cứ điều gì.
+Daily Life	A2	everything	pronoun	mọi thứ	Everything is fine.	Mọi thứ đều ổn.
+Daily Life	A2	nothing	pronoun	không có gì	There is nothing in the fridge.	Trong tủ lạnh không có gì.
+Daily Life	A2	somebody	pronoun	ai đó	Somebody called you.	Có ai đó gọi cho bạn.
+Daily Life	A2	nobody	pronoun	không ai	Nobody knows the answer.	Không ai biết câu trả lời.
+Daily Life	A2	myself	pronoun	chính tôi	I made it myself.	Tôi tự làm cái đó.
+Daily Life	A2	yourself	pronoun	chính bạn	Did you hurt yourself?	Bạn có tự làm đau mình không?
+Daily Life	A2	another	adjective	một cái khác	Can I have another cup?	Cho tôi một tách nữa được không?
+Daily Life	A2	other	adjective	khác	The other bag is mine.	Chiếc túi kia là của tôi.
+Daily Life	A2	each	adjective	mỗi	Each student has a book.	Mỗi học sinh có một quyển sách.
+Daily Life	A2	both	adjective	cả hai	Both answers are correct.	Cả hai câu trả lời đều đúng.
+Daily Life	A2	few	adjective	một ít	I have a few questions.	Tôi có một vài câu hỏi.
+Daily Life	A2	several	adjective	vài	Several people are waiting.	Vài người đang chờ.
+Daily Life	A2	enough	adjective	đủ	We have enough chairs.	Chúng ta có đủ ghế.
+Daily Life	A2	almost	adverb	gần như	I almost forgot.	Tôi suýt quên.
+Daily Life	A2	already	adverb	đã rồi	I have already eaten.	Tôi ăn rồi.
+Daily Life	A2	still	adverb	vẫn	She is still at work.	Cô ấy vẫn đang làm việc.
+Daily Life	A2	yet	adverb	chưa	He has not arrived yet.	Anh ấy vẫn chưa đến.
+Daily Life	A2	just	adverb	vừa mới	I just got home.	Tôi vừa về đến nhà.
+Daily Life	A2	once	adverb	một lần	I have been there once.	Tôi đã đến đó một lần.
+Daily Life	A2	twice	adverb	hai lần	I called her twice.	Tôi gọi cô ấy hai lần.
+Daily Life	A2	ago	adverb	trước đây	I saw him two days ago.	Tôi gặp anh ấy hai ngày trước.
+Daily Life	A2	soon	adverb	sớm thôi	We will leave soon.	Chúng tôi sẽ đi sớm thôi.
+Daily Life	A2	later	adverb	sau đó	I will call you later.	Tôi sẽ gọi bạn sau.
+Daily Life	A2	then	adverb	sau đó, lúc đó	We ate, and then we walked.	Chúng tôi ăn, rồi đi bộ.
+Daily Life	A2	perhaps	adverb	có lẽ	Perhaps she is busy.	Có lẽ cô ấy đang bận.
+Daily Life	A2	maybe	adverb	có lẽ	Maybe it will rain.	Có lẽ trời sẽ mưa.
+Daily Life	A2	probably	adverb	có lẽ, chắc là	He will probably be late.	Anh ấy chắc sẽ đến muộn.
+Daily Life	A2	really	adverb	thực sự	I really like this song.	Tôi thực sự thích bài hát này.
+Daily Life	A2	quite	adverb	khá	The test was quite easy.	Bài kiểm tra khá dễ.
+Daily Life	A2	rather	adverb	hơi	It is rather cold today.	Hôm nay hơi lạnh.
+Daily Life	A2	especially	adverb	đặc biệt là	I like fruit, especially bananas.	Tôi thích trái cây, đặc biệt là chuối.
+Daily Life	A2	suddenly	adverb	đột nhiên	Suddenly the lights went out.	Đột nhiên đèn tắt.
+Daily Life	A2	finally	adverb	cuối cùng	We finally arrived.	Cuối cùng chúng tôi cũng đến.
+Daily Life	A2	recently	adverb	gần đây	I saw her recently.	Gần đây tôi gặp cô ấy.
+Daily Life	A2	carefully	adverb	cẩn thận	Drive carefully.	Lái xe cẩn thận.
+Daily Life	A2	quietly	adverb	nhẹ nhàng, yên lặng	Please speak quietly.	Làm ơn nói nhỏ.
+Daily Life	A2	loudly	adverb	to, ồn	Don't talk loudly.	Đừng nói to.
+Daily Life	A2	abroad	adverb	ở nước ngoài	She wants to study abroad.	Cô ấy muốn đi du học.
+Daily Life	A2	upstairs	adverb	trên lầu	The bedroom is upstairs.	Phòng ngủ ở trên lầu.
+Daily Life	A2	downstairs	adverb	dưới nhà	Dad is downstairs.	Bố đang ở dưới nhà.
+Daily Life	A2	inside	adverb	bên trong	Come inside. It is raining.	Vào trong đi. Trời đang mưa.
+Daily Life	A2	outside	adverb	bên ngoài	The children are playing outside.	Bọn trẻ đang chơi bên ngoài.
+Daily Life	A2	during	preposition	trong suốt	Don't talk during the film.	Đừng nói chuyện trong lúc xem phim.
+Daily Life	A2	until	preposition	cho đến khi	Wait until I come back.	Chờ đến khi tôi quay lại.
+Daily Life	A2	since	preposition	từ khi	I have lived here since 2020.	Tôi sống ở đây từ năm 2020.
+Daily Life	A2	across	preposition	băng qua	The school is across the street.	Trường học ở bên kia đường.
+Daily Life	A2	through	preposition	xuyên qua	We walked through the park.	Chúng tôi đi bộ xuyên qua công viên.
+Daily Life	A2	toward	preposition	về phía	She walked toward the station.	Cô ấy đi về phía nhà ga.
+Daily Life	A2	against	preposition	dựa vào, chống lại	Don't lean against the door.	Đừng dựa vào cửa.
+Daily Life	A2	among	preposition	trong số	He is popular among students.	Anh ấy được nhiều học sinh yêu thích.
+Daily Life	A2	except	preposition	ngoại trừ	Everyone came except Tom.	Mọi người đều đến trừ Tom.
+Daily Life	A2	including	preposition	bao gồm	The price is ten dollars, including tax.	Giá mười đô la, đã gồm thuế.
+Daily Life	A2	although	conjunction	mặc dù	SKIP
+Daily Life	A2	while	conjunction	trong khi	I read while I wait.	Tôi đọc sách trong lúc chờ.
+Daily Life	A2	when	conjunction	khi	Call me when you arrive.	Gọi tôi khi bạn đến.
+Daily Life	A2	while	conjunction	trong khi	SKIP
+Daily Life	A2	so	conjunction	vì vậy	I was tired, so I went to bed.	Tôi mệt nên tôi đi ngủ.
+Daily Life	A2	than	conjunction	hơn	She is taller than me.	Cô ấy cao hơn tôi.
+Daily Life	A2	as	conjunction	như, khi	Do as I say.	Hãy làm như tôi nói.
+Daily Life	A2	whether	conjunction	liệu	I don't know whether he will come.	Tôi không biết liệu anh ấy có đến không.
+Daily Life	A2	get up	phrasal_verb	thức dậy	I get up at six.	Tôi dậy lúc sáu giờ.
+Daily Life	A2	wake up	phrasal_verb	tỉnh giấc	I wake up early.	Tôi tỉnh dậy sớm.
+Daily Life	A2	look for	phrasal_verb	tìm kiếm	I am looking for my keys.	Tôi đang tìm chìa khóa.
+Daily Life	A2	look after	phrasal_verb	chăm sóc	She looks after her brother.	Cô ấy chăm em trai.
+Daily Life	A2	turn on	phrasal_verb	bật	Turn on the light.	Bật đèn lên.
+Daily Life	A2	turn off	phrasal_verb	tắt	Turn off the TV.	Tắt tivi đi.
+Daily Life	A2	put on	phrasal_verb	mặc vào	Put on your coat.	Mặc áo khoác vào.
+Daily Life	A2	take off	phrasal_verb	cởi ra	Take off your shoes.	Cởi giày ra.
+Daily Life	A2	find out	phrasal_verb	tìm ra, phát hiện	I found out the answer.	Tôi đã tìm ra câu trả lời.
+Daily Life	A2	give up	phrasal_verb	bỏ cuộc	Don't give up.	Đừng bỏ cuộc.
+Daily Life	A2	go on	phrasal_verb	tiếp tục	Please go on.	Làm ơn tiếp tục.
+Daily Life	A2	come back	phrasal_verb	quay lại	Come back soon.	Hãy quay lại sớm.
+Daily Life	A2	sit down	phrasal_verb	ngồi xuống	Please sit down.	Mời ngồi.
+Daily Life	A2	stand up	phrasal_verb	đứng dậy	Stand up, please.	Làm ơn đứng dậy.
+Daily Life	A2	pick up	phrasal_verb	nhặt lên	Pick up your bag.	Nhặt túi của bạn lên.
+Daily Life	A2	fill in	phrasal_verb	điền vào	Fill in this form.	Hãy điền vào mẫu này.
+Daily Life	A2	grow up	phrasal_verb	lớn lên	I grew up in Hue.	Tôi lớn lên ở Huế.
+Daily Life	A2	hurry up	phrasal_verb	nhanh lên	Hurry up or we will be late.	Nhanh lên kẻo muộn.
+Daily Life	A2	look up	phrasal_verb	tra cứu	Look up the word in a dictionary.	Tra từ này trong từ điển.
+Daily Life	A2	write down	phrasal_verb	ghi lại	Write down the new words.	Ghi lại các từ mới.
+Daily Life	A2	throw away	phrasal_verb	vứt đi	Throw away the old paper.	Vứt tờ giấy cũ đi.
+Daily Life	A2	try on	phrasal_verb	mặc thử	Can I try on this shirt?	Tôi mặc thử chiếc áo này được không?
+Daily Life	A2	turn up	phrasal_verb	vặn to	Turn up the music.	Vặn nhạc to lên.
+Daily Life	A2	turn down	phrasal_verb	vặn nhỏ, từ chối	Please turn down the TV.	Làm ơn vặn nhỏ tivi.
+Daily Life	A2	get on	phrasal_verb	lên xe	Get on the bus here.	Lên xe buýt ở đây.
+Daily Life	A2	get off	phrasal_verb	xuống xe	Get off at the next stop.	Xuống ở trạm kế tiếp.
+Daily Life	A2	run out of	phrasal_verb	hết	We ran out of milk.	Chúng ta hết sữa rồi.
+Daily Life	A2	take care of	phrasal_verb	chăm sóc	Take care of yourself.	Hãy chăm sóc bản thân.
+Daily Life	A2	look forward to	phrasal_verb	mong đợi	I look forward to the trip.	Tôi mong chuyến đi.
+Feelings	A2	angry	adjective	tức giận	SKIP
+Feelings	A2	nervous	adjective	lo lắng	I feel nervous before a test.	Tôi lo trước bài kiểm tra.
+Feelings	A2	calm	adjective	bình tĩnh	Stay calm.	Hãy bình tĩnh.
+Feelings	A2	proud	adjective	tự hào	I am proud of you.	Tôi tự hào về bạn.
+Feelings	A2	jealous	adjective	ghen tị	Don't be jealous.	Đừng ghen tị.
+Feelings	A2	lonely	adjective	cô đơn	He feels lonely.	Anh ấy cảm thấy cô đơn.
+Feelings	A2	shy	adjective	nhút nhát	She is shy with new people.	Cô ấy nhút nhát với người lạ.
+Feelings	A2	confident	adjective	tự tin	She is confident when she speaks.	Cô ấy tự tin khi nói.
+Feelings	A2	embarrassed	adjective	ngượng	I felt embarrassed.	Tôi cảm thấy ngượng.
+Feelings	A2	disappointed	adjective	thất vọng	I was disappointed with the film.	Tôi thất vọng về bộ phim.
+Feelings	A2	annoyed	adjective	bực mình	The noise annoyed me.	Tiếng ồn làm tôi bực.
+Feelings	A2	worried	adjective	lo lắng	SKIP
+Feelings	A2	relaxed	adjective	thư giãn	I feel relaxed on Sunday.	Tôi thấy thư giãn vào Chủ nhật.
+Feelings	A2	cheerful	adjective	vui vẻ	He is a cheerful person.	Anh ấy là người vui vẻ.
+Feelings	A2	upset	adjective	buồn bực	She is upset about the news.	Cô ấy buồn vì tin đó.
+Feelings	A2	hopeful	adjective	đầy hy vọng	I am hopeful about the exam.	Tôi hy vọng về kỳ thi.
+Feelings	A2	grateful	adjective	biết ơn	I am grateful for your help.	Tôi biết ơn sự giúp đỡ của bạn.
+Feelings	A2	mood	noun	tâm trạng	She is in a good mood.	Cô ấy đang có tâm trạng tốt.
+Feelings	A2	feeling	noun	cảm giác	It is a strange feeling.	Đó là một cảm giác lạ.
+Feelings	A2	emotion	noun	cảm xúc	Fear is a strong emotion.	Nỗi sợ là một cảm xúc mạnh.
+Feelings	A2	worry	verb	lo lắng	Don't worry.	Đừng lo.
+Feelings	A2	miss	verb	nhớ, bỏ lỡ	I miss my family.	Tôi nhớ gia đình.
+Feelings	A2	enjoy	verb	thích thú	I enjoy reading.	Tôi thích đọc sách.
+Feelings	A2	prefer	verb	thích hơn	I prefer tea to coffee.	Tôi thích trà hơn cà phê.
+Feelings	A2	mind	verb	phiền	Do you mind if I sit here?	Bạn có phiền nếu tôi ngồi đây không?
+Feelings	A2	care	verb	quan tâm	I care about my friends.	Tôi quan tâm đến bạn bè.
+Health	A2	illness	noun	bệnh	The illness lasted a week.	Căn bệnh kéo dài một tuần.
+Health	A2	disease	noun	bệnh tật	This disease is rare.	Căn bệnh này hiếm gặp.
+Health	A2	injury	noun	chấn thương	The injury is not serious.	Chấn thương không nghiêm trọng.
+Health	A2	wound	noun	vết thương	Clean the wound.	Hãy rửa vết thương.
+Health	A2	ache	noun	cơn đau âm ỉ	I have a stomach ache.	Tôi bị đau bụng.
+Health	A2	sore	adjective	đau	My throat is sore.	Họng tôi đau.
+Health	A2	throat	noun	họng	I have a sore throat.	Tôi bị đau họng.
+Health	A2	temperature	noun	nhiệt độ, sốt	She has a high temperature.	Cô ấy bị sốt cao.
+Health	A2	patient	noun	bệnh nhân	The patient is resting.	Bệnh nhân đang nghỉ.
+Health	A2	ambulance	noun	xe cấp cứu	Call an ambulance.	Hãy gọi xe cấp cứu.
+Health	A2	appointment	noun	cuộc hẹn	SKIP
+Health	A2	prescription	noun	đơn thuốc	The doctor wrote a prescription.	Bác sĩ kê một đơn thuốc.
+Health	A2	pharmacy	noun	nhà thuốc	The pharmacy is next to the clinic.	Nhà thuốc ở cạnh phòng khám.
+Health	A2	vitamin	noun	vitamin	Fruit has vitamins.	Trái cây có vitamin.
+Health	A2	diet	noun	chế độ ăn	He is on a healthy diet.	Anh ấy đang ăn kiêng lành mạnh.
+Health	A2	weight	noun	cân nặng	What is your weight?	Cân nặng của bạn là bao nhiêu?
+Health	A2	breathe	verb	thở	Breathe slowly.	Hãy thở chậm.
+Health	A2	sneeze	verb	hắt hơi	Cover your mouth when you sneeze.	Che miệng khi hắt hơi.
+Health	A2	bleed	verb	chảy máu	His finger is bleeding.	Ngón tay anh ấy đang chảy máu.
+Health	A2	recover	verb	hồi phục	She recovered quickly.	Cô ấy hồi phục nhanh.
+Health	A2	painful	adjective	đau	The cut is painful.	Vết cắt đau.
+Health	A2	serious	adjective	nghiêm trọng	It is not a serious problem.	Đó không phải vấn đề nghiêm trọng.
+Health	A2	dangerous	adjective	nguy hiểm	That road is dangerous.	Con đường đó nguy hiểm.
+Health	A2	safe	adjective	an toàn	This area is safe.	Khu này an toàn.
+Food	A2	snack	noun	đồ ăn vặt	I had a snack at four.	Tôi ăn vặt lúc bốn giờ.
+Food	A2	dessert	noun	món tráng miệng	Would you like some dessert?	Bạn dùng món tráng miệng chứ?
+Food	A2	sauce	noun	nước sốt	This sauce is spicy.	Nước sốt này cay.
+Food	A2	spicy	adjective	cay	I like spicy food.	Tôi thích đồ ăn cay.
+Food	A2	sweet	adjective	ngọt	The cake is too sweet.	Bánh ngọt quá.
+Food	A2	sour	adjective	chua	The lemon is sour.	Quả chanh chua.
+Food	A2	bitter	adjective	đắng	The coffee is bitter.	Cà phê đắng.
+Food	A2	fresh	adjective	tươi	These vegetables are fresh.	Rau này còn tươi.
+Food	A2	frozen	adjective	đông lạnh	I bought frozen fish.	Tôi mua cá đông lạnh.
+Food	A2	fried	adjective	rán	He ordered fried rice.	Anh ấy gọi cơm chiên.
+Food	A2	boiled	adjective	luộc	I prefer boiled eggs.	Tôi thích trứng luộc hơn.
+Food	A2	grilled	adjective	nướng	We ate grilled chicken.	Chúng tôi ăn gà nướng.
+Food	A2	taste	verb	nếm, có vị	Taste the soup.	Nếm thử súp đi.
+Food	A2	smell	verb	ngửi, có mùi	The bread smells good.	Bánh mì thơm.
+Food	A2	serve	verb	phục vụ	They serve lunch until two.	Họ phục vụ bữa trưa đến hai giờ.
+Food	A2	order	verb	gọi món	I ordered soup.	Tôi gọi súp.
+Food	A2	bill	noun	hóa đơn	Can we have the bill?	Cho chúng tôi hóa đơn được không?
+Food	A2	tip	noun	tiền tip	We left a tip.	Chúng tôi để lại tiền tip.
+Food	A2	waiter	noun	bồi bàn	SKIP
+Food	A2	menu	noun	thực đơn	SKIP
+Food	A2	delicious	adjective	ngon	SKIP
+Food	A2	pork	noun	thịt heo	This pork is tender.	Thịt heo này mềm.
+Food	A2	lamb	noun	thịt cừu	She does not eat lamb.	Cô ấy không ăn thịt cừu.
+Food	A2	seafood	noun	hải sản	The restaurant serves seafood.	Nhà hàng phục vụ hải sản.
+Food	A2	shrimp	noun	tôm	We cooked shrimp.	Chúng tôi nấu tôm.
+Food	A2	bean	noun	đậu	Add some beans to the soup.	Thêm đậu vào súp.
+Food	A2	corn	noun	ngô	I like sweet corn.	Tôi thích ngô ngọt.
+Food	A2	pepper	noun	hạt tiêu	Pass the pepper.	Đưa tiêu giúp tôi.
+Food	A2	honey	noun	mật ong	I put honey in my tea.	Tôi cho mật ong vào trà.
+Food	A2	jam	noun	mứt	There is jam on the bread.	Có mứt trên bánh mì.
+Food	A2	yogurt	noun	sữa chua	I eat yogurt for breakfast.	Tôi ăn sữa chua vào bữa sáng.
+Food	A2	cereal	noun	ngũ cốc	The children eat cereal.	Bọn trẻ ăn ngũ cốc.
+Food	A2	toast	noun	bánh mì nướng	I had toast and eggs.	Tôi ăn bánh mì nướng và trứng.
+Food	A2	pancake	noun	bánh kếp	We made pancakes.	Chúng tôi làm bánh kếp.
+Food	A2	chocolate	noun	sô cô la	She loves chocolate.	Cô ấy rất thích sô cô la.
+Food	A2	biscuit	noun	bánh quy	Would you like a biscuit?	Bạn ăn bánh quy chứ?
+Food	A2	pie	noun	bánh pie	Apple pie is sweet.	Bánh pie táo thì ngọt.
+Food	A2	steak	noun	bít tết	He ordered a steak.	Anh ấy gọi một phần bít tết.
+Food	A2	sausage	noun	xúc xích	The sausages are ready.	Xúc xích chín rồi.
+Food	A2	bacon	noun	thịt xông khói	I don't eat bacon.	Tôi không ăn thịt xông khói.
+Food	A2	grape	noun	nho	These grapes are sweet.	Những quả nho này ngọt.
+Food	A2	strawberry	noun	dâu tây	She picked strawberries.	Cô ấy hái dâu tây.
+Food	A2	lemon	noun	chanh vàng	Add a little lemon.	Thêm một chút chanh.
+Food	A2	peach	noun	đào	This peach is ripe.	Quả đào này chín rồi.
+Food	A2	mango	noun	xoài	Mango is my favorite fruit.	Xoài là trái cây tôi thích nhất.
+Food	A2	watermelon	noun	dưa hấu	We ate watermelon.	Chúng tôi ăn dưa hấu.
+Food	A2	cabbage	noun	bắp cải	Cabbage is cheap today.	Hôm nay bắp cải rẻ.
+Food	A2	lettuce	noun	xà lách	Put lettuce in the sandwich.	Cho xà lách vào bánh mì.
+Food	A2	cucumber	noun	dưa chuột	The salad has cucumber.	Salad có dưa chuột.
+Food	A2	garlic	noun	tỏi	I cooked with garlic.	Tôi nấu với tỏi.
+Food	A2	chili	noun	ớt	This dish has chili.	Món này có ớt.
+Food	A2	flour	noun	bột mì	We need flour for the cake.	Chúng ta cần bột để làm bánh.
+Food	A2	oven	noun	lò nướng	The cake is in the oven.	Bánh đang ở trong lò.
+Food	A2	pan	noun	chảo	Heat the pan first.	Hãy làm nóng chảo trước.
+Food	A2	pot	noun	nồi	The soup is in the pot.	Súp ở trong nồi.
+Travel	A2	flight	noun	chuyến bay	Our flight is at noon.	Chuyến bay của chúng tôi lúc giữa trưa.
+Travel	A2	gate	noun	cổng	Go to gate twelve.	Đến cổng số mười hai.
+Travel	A2	boarding pass	noun	thẻ lên máy bay	Show your boarding pass.	Xuất trình thẻ lên máy bay.
+Travel	A2	customs	noun	hải quan	We waited at customs.	Chúng tôi chờ ở hải quan.
+Travel	A2	visa	noun	thị thực	You need a visa.	Bạn cần thị thực.
+Travel	A2	passport	noun	hộ chiếu	SKIP
+Travel	A2	luggage	noun	hành lý	SKIP
+Travel	A2	backpack	noun	ba lô	He carries a backpack.	Anh ấy đeo một chiếc ba lô.
+Travel	A2	guidebook	noun	sách hướng dẫn du lịch	I bought a guidebook.	Tôi mua một cuốn sách hướng dẫn.
+Travel	A2	souvenir	noun	quà lưu niệm	She bought a souvenir.	Cô ấy mua một món quà lưu niệm.
+Travel	A2	view	noun	khung cảnh	The view from the hotel is beautiful.	Khung cảnh từ khách sạn rất đẹp.
+Travel	A2	island	noun	hòn đảo	We visited a small island.	Chúng tôi đến một hòn đảo nhỏ.
+Travel	A2	coast	noun	bờ biển	They live on the coast.	Họ sống ở vùng ven biển.
+Travel	A2	border	noun	biên giới	We crossed the border.	Chúng tôi vượt qua biên giới.
+Travel	A2	capital	noun	thủ đô	Hanoi is the capital.	Hà Nội là thủ đô.
+Travel	A2	abroad	adverb	nước ngoài	SKIP
+Travel	A2	foreign	adjective	nước ngoài	She speaks a foreign language.	Cô ấy nói một ngoại ngữ.
+Travel	A2	local	adjective	địa phương	Try the local food.	Hãy thử món ăn địa phương.
+Travel	A2	direction	noun	hướng	Can you give me directions?	Bạn chỉ đường cho tôi được không?
+Travel	A2	map	noun	bản đồ	SKIP
+Travel	A2	delay	noun	sự chậm trễ	SKIP
+Travel	A2	cancel	verb	hủy	They cancelled the flight.	Họ hủy chuyến bay.
+Travel	A2	book	verb	đặt chỗ	I booked a room.	Tôi đã đặt một phòng.
+Travel	A2	pack	verb	đóng gói, xếp đồ	Pack your suitcase tonight.	Tối nay hãy xếp đồ vào vali.
+Travel	A2	miss	verb	lỡ	I missed the train.	Tôi lỡ tàu.
+Travel	A2	catch	verb	kịp, bắt	We caught the last bus.	Chúng tôi kịp chuyến xe buýt cuối.
+Travel	A2	single	adjective	một chiều, đơn	A single ticket, please.	Cho tôi một vé một chiều.
+Travel	A2	return	adjective	khứ hồi	I need a return ticket.	Tôi cần vé khứ hồi.
+Travel	A2	platform	noun	sân ga	The train is on platform three.	Tàu ở sân ga số ba.
+Travel	A2	passenger	noun	hành khách	The passengers are boarding.	Hành khách đang lên tàu.
+Travel	A2	pilot	noun	phi công	The pilot greeted us.	Phi công chào chúng tôi.
+Travel	A2	captain	noun	thuyền trưởng, cơ trưởng	The captain spoke to the passengers.	Cơ trưởng nói với hành khách.
+City & Transport	A2	traffic jam	noun	tắc đường	We were stuck in a traffic jam.	Chúng tôi bị kẹt xe.
+City & Transport	A2	accident	noun	tai nạn	There was an accident on the road.	Có một vụ tai nạn trên đường.
+City & Transport	A2	corner	noun	góc	The cafe is on the corner.	Quán cà phê ở góc phố.
+City & Transport	A2	crossing	noun	vạch sang đường	Use the crossing.	Hãy đi ở vạch sang đường.
+City & Transport	A2	pavement	noun	vỉa hè	Walk on the pavement.	Đi trên vỉa hè.
+City & Transport	A2	parking	noun	chỗ đỗ xe	Parking is free here.	Đỗ xe ở đây miễn phí.
+City & Transport	A2	petrol	noun	xăng	We need petrol.	Chúng ta cần đổ xăng.
+City & Transport	A2	engine	noun	động cơ	The engine is loud.	Động cơ kêu to.
+City & Transport	A2	wheel	noun	bánh xe	The front wheel is flat.	Bánh trước bị xẹp.
+City & Transport	A2	seat	noun	ghế ngồi	Is this seat free?	Ghế này còn trống không?
+City & Transport	A2	driver	noun	tài xế	SKIP
+City & Transport	A2	subway	noun	tàu điện ngầm	Take the subway.	Đi tàu điện ngầm.
+City & Transport	A2	tram	noun	tàu điện	The tram stops here.	Tàu điện dừng ở đây.
+City & Transport	A2	ferry	noun	phà	We took the ferry.	Chúng tôi đi phà.
+City & Transport	A2	harbor	noun	cảng	The boats are in the harbor.	Thuyền ở trong cảng.
+City & Transport	A2	downtown	noun	trung tâm thành phố	Let's go downtown.	Chúng ta vào trung tâm đi.
+City & Transport	A2	suburb	noun	vùng ngoại ô	They live in the suburbs.	Họ sống ở ngoại ô.
+City & Transport	A2	village	noun	làng	The village is quiet.	Ngôi làng yên tĩnh.
+City & Transport	A2	building	noun	tòa nhà	That building is a bank.	Tòa nhà đó là ngân hàng.
+City & Transport	A2	factory	noun	nhà máy	His father works in a factory.	Bố anh ấy làm ở nhà máy.
+City & Transport	A2	church	noun	nhà thờ	The church is old.	Nhà thờ đã cũ.
+City & Transport	A2	temple	noun	đền, chùa	We visited a temple.	Chúng tôi đến thăm một ngôi chùa.
+City & Transport	A2	castle	noun	lâu đài	The castle is on the hill.	Lâu đài ở trên đồi.
+City & Transport	A2	square	noun	quảng trường	Meet me in the square.	Gặp tôi ở quảng trường.
+City & Transport	A2	neighborhood	noun	khu phố	This is a friendly neighborhood.	Đây là một khu phố thân thiện.
+Home	A2	furniture	noun	đồ nội thất	We bought new furniture.	Chúng tôi mua đồ nội thất mới.
+Home	A2	curtain	noun	rèm cửa	Close the curtains.	Kéo rèm lại.
+Home	A2	carpet	noun	thảm	The carpet is blue.	Tấm thảm màu xanh.
+Home	A2	shelf	noun	kệ	The books are on the shelf.	Sách ở trên kệ.
+Home	A2	drawer	noun	ngăn kéo	The keys are in the drawer.	Chìa khóa ở trong ngăn kéo.
+Home	A2	cupboard	noun	tủ chạn	The plates are in the cupboard.	Đĩa ở trong tủ.
+Home	A2	blanket	noun	chăn	I need another blanket.	Tôi cần thêm một cái chăn.
+Home	A2	pillow	noun	gối	This pillow is soft.	Chiếc gối này mềm.
+Home	A2	sheet	noun	ga trải giường	Change the sheets.	Hãy thay ga giường.
+Home	A2	towel	noun	khăn tắm	The towel is wet.	Khăn tắm ướt.
+Home	A2	soap	noun	xà phòng	There is no soap.	Hết xà phòng rồi.
+Home	A2	toothpaste	noun	kem đánh răng	I need toothpaste.	Tôi cần kem đánh răng.
+Home	A2	brush	noun	bàn chải	Where is my brush?	Bàn chải của tôi đâu?
+Home	A2	rubbish	noun	rác	Take out the rubbish.	Đem rác ra ngoài.
+Home	A2	bin	noun	thùng rác	Put it in the bin.	Bỏ nó vào thùng rác.
+Home	A2	repair	verb	sửa	Can you repair the door?	Bạn sửa được cửa không?
+Home	A2	break	verb	làm vỡ	I broke a glass.	Tôi làm vỡ một cái ly.
+Home	A2	fix	verb	sửa	He fixed the lamp.	Anh ấy sửa cái đèn.
+Home	A2	lock	verb	khóa	Lock the door.	Khóa cửa lại.
+Home	A2	knock	verb	gõ cửa	Someone is knocking.	Có ai đó đang gõ cửa.
+Home	A2	rent	verb	thuê	We rent an apartment.	Chúng tôi thuê một căn hộ.
+Home	A2	own	verb	sở hữu	They own a small house.	Họ có một ngôi nhà nhỏ.
+Home	A2	neighbor	noun	hàng xóm	SKIP
+Clothes	A2	sweater	noun	áo len	This sweater is warm.	Chiếc áo len này ấm.
+Clothes	A2	hoodie	noun	áo hoodie	He wears a grey hoodie.	Anh ấy mặc áo hoodie xám.
+Clothes	A2	suit	noun	bộ vest	He wore a suit to the meeting.	Anh ấy mặc vest đi họp.
+Clothes	A2	tie	noun	cà vạt	His tie is red.	Cà vạt của anh ấy màu đỏ.
+Clothes	A2	belt	noun	thắt lưng	I need a belt.	Tôi cần một cái thắt lưng.
+Clothes	A2	scarf	noun	khăn choàng	She wears a scarf in winter.	Cô ấy quàng khăn vào mùa đông.
+Clothes	A2	gloves	noun	găng tay	These gloves are warm.	Đôi găng này ấm.
+Clothes	A2	boots	noun	ủng, bốt	I bought new boots.	Tôi mua đôi bốt mới.
+Clothes	A2	sandals	noun	dép xăng đan	Sandals are good for summer.	Dép xăng đan hợp mùa hè.
+Clothes	A2	sneakers	noun	giày thể thao	He runs in sneakers.	Anh ấy chạy bằng giày thể thao.
+Clothes	A2	pajamas	noun	đồ ngủ	The children are in pajamas.	Bọn trẻ đang mặc đồ ngủ.
+Clothes	A2	pocket	noun	túi	SKIP
+Clothes	A2	button	noun	cúc áo	A button fell off.	Một cái cúc rơi mất.
+Clothes	A2	cotton	noun	vải cotton	This shirt is cotton.	Chiếc áo này bằng cotton.
+Clothes	A2	leather	noun	da	The bag is made of leather.	Chiếc túi làm bằng da.
+Clothes	A2	fashion	noun	thời trang	She works in fashion.	Cô ấy làm trong ngành thời trang.
+Clothes	A2	fit	verb	vừa	These shoes fit well.	Đôi giày này vừa.
+Clothes	A2	match	verb	hợp, đi cùng	The tie matches the shirt.	Cà vạt hợp với áo.
+Shopping	A2	sale	noun	đợt giảm giá	The shoes are on sale.	Giày đang giảm giá.
+Shopping	A2	bargain	noun	món hời	This coat was a bargain.	Chiếc áo khoác này là một món hời.
+Shopping	A2	queue	noun	hàng chờ	There is a long queue.	Có một hàng chờ dài.
+Shopping	A2	cashier	noun	thu ngân	Pay the cashier.	Trả tiền cho thu ngân.
+Shopping	A2	basket	noun	giỏ	Put the fruit in the basket.	Bỏ trái cây vào giỏ.
+Shopping	A2	trolley	noun	xe đẩy	I need a trolley.	Tôi cần một xe đẩy.
+Shopping	A2	brand	noun	thương hiệu	I don't care about the brand.	Tôi không quan tâm thương hiệu.
+Shopping	A2	quality	noun	chất lượng	The quality is good.	Chất lượng tốt.
+Shopping	A2	size	noun	kích cỡ	SKIP
+Shopping	A2	exchange	verb	đổi	Can I exchange this shirt?	Tôi đổi chiếc áo này được không?
+Shopping	A2	afford	verb	có đủ khả năng mua	I cannot afford it.	Tôi không đủ tiền mua nó.
+Shopping	A2	spend	verb	tiêu, dành	Don't spend all your money.	Đừng tiêu hết tiền.
+Shopping	A2	save	verb	tiết kiệm, cứu	I save a little every month.	Tôi tiết kiệm một ít mỗi tháng.
+Shopping	A2	borrow	verb	mượn	Can I borrow your pen?	Tôi mượn bút của bạn được không?
+Shopping	A2	lend	verb	cho mượn	I will lend you the book.	Tôi sẽ cho bạn mượn sách.
+Shopping	A2	owe	verb	nợ	I owe you five dollars.	Tôi nợ bạn năm đô la.
+Shopping	A2	coin	noun	đồng xu	I have a few coins.	Tôi có vài đồng xu.
+Shopping	A2	note	noun	tờ tiền	I paid with a twenty-dollar note.	Tôi trả bằng tờ hai mươi đô.
+Shopping	A2	wallet	noun	ví	My wallet is in my bag.	Ví của tôi ở trong túi.
+Shopping	A2	account	noun	tài khoản	I opened a bank account.	Tôi mở một tài khoản ngân hàng.
+Education	A2	course	noun	khóa học	I am taking an English course.	Tôi đang học một khóa tiếng Anh.
+Education	A2	subject	noun	môn học	SKIP
+Education	A2	math	noun	toán	Math is my favorite subject.	Toán là môn tôi thích nhất.
+Education	A2	science	noun	khoa học	We have science on Monday.	Chúng tôi có môn khoa học vào thứ Hai.
+Education	A2	history	noun	lịch sử	I like history.	Tôi thích lịch sử.
+Education	A2	geography	noun	địa lý	Geography teaches us about countries.	Địa lý dạy chúng ta về các nước.
+Education	A2	art	noun	mỹ thuật	She is good at art.	Cô ấy giỏi mỹ thuật.
+Education	A2	music	noun	âm nhạc	He studies music.	Anh ấy học âm nhạc.
+Education	A2	dictionary	noun	từ điển	Use a dictionary.	Hãy dùng từ điển.
+Education	A2	page	noun	trang	Open your book to page ten.	Mở sách đến trang mười.
+Education	A2	chapter	noun	chương	Read chapter two.	Đọc chương hai.
+Education	A2	title	noun	tiêu đề	What is the title of the book?	Tên sách là gì?
+Education	A2	author	noun	tác giả	Who is the author?	Tác giả là ai?
+Education	A2	mark	noun	điểm	She got a high mark.	Cô ấy được điểm cao.
+Education	A2	mistake	noun	lỗi sai	I made a mistake.	Tôi mắc một lỗi.
+Education	A2	correct	adjective	đúng	Your answer is correct.	Câu trả lời của bạn đúng.
+Education	A2	practice	verb	luyện tập	Practice these words.	Hãy luyện những từ này.
+Education	A2	revise	verb	ôn tập	I need to revise tonight.	Tối nay tôi cần ôn bài.
+Education	A2	pass	verb	đỗ, đi qua	I hope I pass the test.	Tôi hy vọng tôi đỗ bài kiểm tra.
+Education	A2	fail	verb	trượt	He failed the exam.	Anh ấy trượt kỳ thi.
+Education	A2	attend	verb	tham dự	You must attend every class.	Bạn phải tham dự mọi buổi học.
+Education	A2	pupil	noun	học sinh	The pupils are quiet.	Các học sinh đang yên lặng.
+Education	A2	classmate	noun	bạn cùng lớp	She is my classmate.	Cô ấy là bạn cùng lớp của tôi.
+Education	A2	principal	noun	hiệu trưởng	The principal spoke to us.	Hiệu trưởng nói chuyện với chúng tôi.
+Education	A2	college	noun	cao đẳng, đại học	He goes to college.	Anh ấy học cao đẳng.
+Education	A2	degree	noun	bằng cấp	She has a degree in English.	Cô ấy có bằng tiếng Anh.
+Education	A2	knowledge	noun	kiến thức	Reading builds knowledge.	Đọc sách xây dựng kiến thức.
+Education	A2	skill	noun	kỹ năng	Speaking is an important skill.	Nói là một kỹ năng quan trọng.
+Work & Career	A2	career	noun	sự nghiệp	She wants a career in medicine.	Cô ấy muốn theo ngành y.
+Work & Career	A2	company	noun	công ty	He works for a small company.	Anh ấy làm cho một công ty nhỏ.
+Work & Career	A2	staff	noun	nhân viên	The staff are helpful.	Nhân viên rất nhiệt tình.
+Work & Career	A2	colleague	noun	đồng nghiệp	SKIP
+Work & Career	A2	employer	noun	người chủ	My employer is fair.	Chủ của tôi công bằng.
+Work & Career	A2	employee	noun	nhân viên	The company has fifty employees.	Công ty có năm mươi nhân viên.
+Work & Career	A2	interview	noun	buổi phỏng vấn	I have an interview tomorrow.	Ngày mai tôi có buổi phỏng vấn.
+Work & Career	A2	application	noun	đơn xin việc	I sent my application.	Tôi đã gửi đơn.
+Work & Career	A2	experience	noun	kinh nghiệm	She has experience in teaching.	Cô ấy có kinh nghiệm giảng dạy.
+Work & Career	A2	duty	noun	nhiệm vụ	Helping customers is my duty.	Giúp khách hàng là nhiệm vụ của tôi.
+Work & Career	A2	task	noun	nhiệm vụ	This task takes an hour.	Nhiệm vụ này mất một giờ.
+Work & Career	A2	break	noun	giờ giải lao	We have a break at ten.	Chúng tôi nghỉ giải lao lúc mười giờ.
+Work & Career	A2	overtime	noun	làm thêm giờ	He works overtime.	Anh ấy làm thêm giờ.
+Work & Career	A2	wage	noun	tiền lương	The wage is paid weekly.	Lương được trả hàng tuần.
+Work & Career	A2	earn	verb	kiếm được	She earns a good salary.	Cô ấy kiếm được mức lương tốt.
+Work & Career	A2	employ	verb	thuê	The shop employs ten people.	Cửa hàng thuê mười người.
+Work & Career	A2	retire	verb	nghỉ hưu	He will retire next year.	Năm sau ông ấy nghỉ hưu.
+Work & Career	A2	apply	verb	nộp đơn	I applied for the job.	Tôi đã nộp đơn xin việc.
+Work & Career	A2	succeed	verb	thành công	If you practice, you will succeed.	Nếu bạn luyện tập, bạn sẽ thành công.
+Work & Career	A2	fail	verb	thất bại	SKIP
+Nature	A2	weather	noun	thời tiết	SKIP
+Nature	A2	storm	noun	bão	A storm is coming.	Một cơn bão đang đến.
+Nature	A2	thunder	noun	sấm	I heard thunder.	Tôi nghe thấy tiếng sấm.
+Nature	A2	lightning	noun	chớp	Lightning lit the sky.	Tia chớp chiếu sáng bầu trời.
+Nature	A2	fog	noun	sương mù	The fog is thick.	Sương mù dày đặc.
+Nature	A2	ice	noun	băng	There is ice on the road.	Có băng trên đường.
+Nature	A2	heat	noun	sức nóng	I cannot stand the heat.	Tôi không chịu nổi nóng.
+Nature	A2	degree	noun	độ	It is thirty degrees today.	Hôm nay ba mươi độ.
+Nature	A2	hill	noun	đồi	We climbed a small hill.	Chúng tôi leo một ngọn đồi nhỏ.
+Nature	A2	valley	noun	thung lũng	The village is in a valley.	Ngôi làng nằm trong thung lũng.
+Nature	A2	field	noun	cánh đồng	Cows are in the field.	Bò ở trên đồng.
+Nature	A2	ground	noun	mặt đất	The ball is on the ground.	Quả bóng ở trên mặt đất.
+Nature	A2	rock	noun	tảng đá	Don't climb that rock.	Đừng trèo tảng đá đó.
+Nature	A2	sand	noun	cát	The sand is hot.	Cát nóng.
+Nature	A2	stone	noun	hòn đá	He threw a stone.	Anh ấy ném một hòn đá.
+Nature	A2	plant	noun	cây cối	Water the plants.	Tưới cây đi.
+Nature	A2	root	noun	rễ	The roots are deep.	Rễ ăn sâu.
+Nature	A2	branch	noun	cành cây	A branch fell down.	Một cành cây rơi xuống.
+Nature	A2	seed	noun	hạt giống	Plant the seeds in spring.	Gieo hạt vào mùa xuân.
+Nature	A2	insect	noun	côn trùng	There is an insect on the leaf.	Có một con côn trùng trên lá.
+Nature	A2	bee	noun	ong	A bee is on the flower.	Một con ong đậu trên hoa.
+Nature	A2	butterfly	noun	bướm	The butterfly is yellow.	Con bướm màu vàng.
+Nature	A2	ant	noun	kiến	Ants are on the cake.	Kiến bâu trên bánh.
+Nature	A2	spider	noun	nhện	She is afraid of spiders.	Cô ấy sợ nhện.
+Nature	A2	snake	noun	rắn	Don't touch the snake.	Đừng đụng vào con rắn.
+Nature	A2	mouse	noun	chuột	A mouse ran under the door.	Một con chuột chạy xuống gầm cửa.
+Nature	A2	rabbit	noun	thỏ	The rabbit is in the garden.	Con thỏ ở trong vườn.
+Nature	A2	elephant	noun	voi	The elephant is huge.	Con voi rất to.
+Nature	A2	lion	noun	sư tử	The lion is sleeping.	Sư tử đang ngủ.
+Nature	A2	tiger	noun	hổ	Tigers live in the forest.	Hổ sống trong rừng.
+Nature	A2	monkey	noun	khỉ	The monkey climbed the tree.	Con khỉ trèo cây.
+Nature	A2	bear	noun	gấu	The bear is dangerous.	Con gấu nguy hiểm.
+Nature	A2	whale	noun	cá voi	We saw a whale.	Chúng tôi thấy một con cá voi.
+Nature	A2	shark	noun	cá mập	Sharks live in the sea.	Cá mập sống ở biển.
+Nature	A2	frog	noun	ếch	The frog jumped.	Con ếch nhảy.
+Nature	A2	pet	noun	thú cưng	Do you have a pet?	Bạn có thú cưng không?
+Sports	A2	tennis	noun	quần vợt	She plays tennis.	Cô ấy chơi quần vợt.
+Sports	A2	basketball	noun	bóng rổ	We play basketball after school.	Chúng tôi chơi bóng rổ sau giờ học.
+Sports	A2	swimming	noun	môn bơi	Swimming is good exercise.	Bơi là bài tập tốt.
+Sports	A2	running	noun	chạy bộ	Running keeps me fit.	Chạy bộ giúp tôi khỏe.
+Sports	A2	match	noun	trận đấu	The match is on TV.	Trận đấu chiếu trên tivi.
+Sports	A2	score	noun	tỷ số	The score is two to one.	Tỷ số là hai một.
+Sports	A2	goal	noun	bàn thắng	He scored a goal.	Anh ấy ghi một bàn.
+Sports	A2	coach	noun	huấn luyện viên	The coach is strict.	Huấn luyện viên nghiêm khắc.
+Sports	A2	race	noun	cuộc đua	She won the race.	Cô ấy thắng cuộc đua.
+Sports	A2	prize	noun	giải thưởng	He got a prize.	Anh ấy nhận được một giải thưởng.
+Sports	A2	practice	noun	buổi tập	Practice is at five.	Buổi tập lúc năm giờ.
+Sports	A2	fit	adjective	cân đối, khỏe	I want to stay fit.	Tôi muốn giữ sức khỏe.
+Sports	A2	exercise	verb	tập thể dục	I exercise three times a week.	Tôi tập thể dục ba lần một tuần.
+Communication	A2	conversation	noun	cuộc trò chuyện	We had a long conversation.	Chúng tôi trò chuyện rất lâu.
+Communication	A2	discussion	noun	cuộc thảo luận	The discussion was useful.	Cuộc thảo luận hữu ích.
+Communication	A2	opinion	noun	ý kiến	What is your opinion?	Ý kiến của bạn là gì?
+Communication	A2	advice	noun	lời khuyên	Can I ask for advice?	Tôi xin lời khuyên được không?
+Communication	A2	news	noun	tin tức	I heard the news.	Tôi nghe tin tức.
+Communication	A2	story	noun	câu chuyện	Tell me a story.	Kể cho tôi một câu chuyện.
+Communication	A2	joke	noun	chuyện cười	He told a joke.	Anh ấy kể một chuyện cười.
+Communication	A2	promise	noun	lời hứa	I made a promise.	Tôi đã hứa.
+Communication	A2	secret	noun	bí mật	Don't tell my secret.	Đừng nói bí mật của tôi.
+Communication	A2	truth	noun	sự thật	Tell me the truth.	Hãy nói sự thật.
+Communication	A2	lie	noun	lời nói dối	That is a lie.	Đó là lời nói dối.
+Communication	A2	agree	verb	đồng ý	I agree with you.	Tôi đồng ý với bạn.
+Communication	A2	disagree	verb	không đồng ý	I disagree.	Tôi không đồng ý.
+Communication	A2	explain	verb	giải thích	Can you explain this word?	Bạn giải thích từ này được không?
+Communication	A2	describe	verb	miêu tả	SKIP
+Communication	A2	suggest	verb	đề xuất	I suggest we leave early.	Tôi đề xuất chúng ta đi sớm.
+Communication	A2	invite	verb	mời	She invited me to dinner.	Cô ấy mời tôi ăn tối.
+Communication	A2	apologize	verb	xin lỗi	I apologized for being late.	Tôi xin lỗi vì đến muộn.
+Communication	A2	complain	verb	phàn nàn	He complained about the noise.	Anh ấy phàn nàn về tiếng ồn.
+Communication	A2	shout	verb	la hét	Don't shout.	Đừng la.
+Communication	A2	whisper	verb	thì thầm	She whispered the answer.	Cô ấy thì thầm câu trả lời.
+Communication	A2	repeat	verb	nhắc lại	Please repeat the sentence.	Làm ơn nhắc lại câu đó.
+Communication	A2	mean	verb	có nghĩa là	What does this word mean?	Từ này nghĩa là gì?
+Communication	A2	translate	verb	dịch	Can you translate this?	Bạn dịch câu này được không?
+Technology	A2	screen	noun	màn hình	The screen is bright.	Màn hình sáng.
+Technology	A2	keyboard	noun	bàn phím	The keyboard is new.	Bàn phím mới.
+Technology	A2	mouse	noun	chuột máy tính	I need a mouse.	Tôi cần một con chuột máy tính.
+Technology	A2	website	noun	trang web	This website is useful.	Trang web này hữu ích.
+Technology	A2	app	noun	ứng dụng	I downloaded an app.	Tôi tải một ứng dụng.
+Technology	A2	file	noun	tệp	Save the file.	Hãy lưu tệp.
+Technology	A2	click	verb	nhấp	Click the button.	Nhấp vào nút.
+Technology	A2	download	verb	tải xuống	Download the document.	Tải tài liệu xuống.
+Technology	A2	upload	verb	tải lên	Upload your photo.	Tải ảnh của bạn lên.
+Technology	A2	password	noun	mật khẩu	SKIP
+Technology	A2	battery	noun	pin	My battery is low.	Pin của tôi yếu.
+Technology	A2	charger	noun	sạc	I forgot my charger.	Tôi quên sạc.
+Technology	A2	camera	noun	máy ảnh	SKIP
+Technology	A2	video	noun	video	We watched a video.	Chúng tôi xem một video.
+Technology	A2	online	adjective	trực tuyến	The class is online.	Lớp học trực tuyến.
+Technology	A2	offline	adjective	ngoại tuyến	I was offline all day.	Cả ngày tôi không có mạng.
+Family	A2	nephew	noun	cháu trai	My nephew is six.	Cháu trai tôi sáu tuổi.
+Family	A2	niece	noun	cháu gái	Her niece lives abroad.	Cháu gái cô ấy sống ở nước ngoài.
+Family	A2	twins	noun	sinh đôi	They are twins.	Họ là sinh đôi.
+Family	A2	generation	noun	thế hệ	Three generations live together.	Ba thế hệ sống cùng nhau.
+Family	A2	relationship	noun	mối quan hệ	They have a good relationship.	Họ có mối quan hệ tốt.
+Family	A2	married	adjective	đã kết hôn	They got married last year.	Họ kết hôn năm ngoái.
+Family	A2	single	adjective	độc thân	He is single.	Anh ấy độc thân.
+Family	A2	childhood	noun	thời thơ ấu	I had a happy childhood.	Tôi có một tuổi thơ hạnh phúc.

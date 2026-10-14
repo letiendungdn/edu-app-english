@@ -15,10 +15,35 @@
           "type": "MULTIPLE_CHOICE",
           "instruction": "Choose the correct letter, A, B, C or D.",
           "questions": [
-            { "number": 1, "prompt": "What does the customer order first?", "answers": ["B"], "options": [{"key": "A", "text": "A tea"}, {"key": "B", "text": "A coffee"}, {"key": "C", "text": "A cake"}, {"key": "D", "text": "A sandwich"}] }
+            {
+              "number": 1,
+              "prompt": "What does the customer order first?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "A tea"
+                },
+                {
+                  "key": "B",
+                  "text": "A coffee"
+                },
+                {
+                  "key": "C",
+                  "text": "A cake"
+                },
+                {
+                  "key": "D",
+                  "text": "A sandwich"
+                }
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "audioUrl": "/api/media/at-the-cafe.m4a"
     },
     {
       "title": "Booking a Community Hall",
@@ -37,19 +62,95 @@
           "instruction": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
           "wordLimit": 2,
           "questions": [
-            { "number": 1, "prompt": "Name: Daniel {{blank}}", "answers": ["Fairley"] },
-            { "number": 2, "prompt": "Date of party: Saturday {{blank}} March", "answers": ["15", "15th", "fifteenth", "the 15th", "the fifteenth"], "explanation": "Người gọi sửa lại: ngày 14 là thứ Sáu, nên đáp án là ngày 15." },
-            { "number": 3, "prompt": "Total number of guests: {{blank}}", "answers": ["80", "eighty"] },
-            { "number": 4, "prompt": "Hall needed from: {{blank}} p.m.", "answers": ["5.30", "5:30", "five thirty"] },
-            { "number": 5, "prompt": "Cost: £{{blank}} per hour", "answers": ["45", "forty-five"] },
-            { "number": 6, "prompt": "Deposit: £{{blank}}", "answers": ["150"] },
-            { "number": 7, "prompt": "Kitchen: guests must bring their own {{blank}}", "answers": ["plates"] },
-            { "number": 8, "prompt": "Free parking for about {{blank}} cars", "answers": ["30", "thirty"] },
-            { "number": 9, "prompt": "Music must be quiet after {{blank}} p.m.", "answers": ["10", "ten", "10.00", "10:00"] },
-            { "number": 10, "prompt": "Contact number: 0771 544 {{blank}}", "answers": ["2936", "2 9 3 6"], "explanation": "Số đọc là 0771 5 double 4 2 936 = 0771 544 2936." }
+            {
+              "number": 1,
+              "prompt": "Name: Daniel {{blank}}",
+              "answers": [
+                "Fairley"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Date of party: Saturday {{blank}} March",
+              "answers": [
+                "15",
+                "15th",
+                "fifteenth",
+                "the 15th",
+                "the fifteenth"
+              ],
+              "explanation": "Người gọi sửa lại: ngày 14 là thứ Sáu, nên đáp án là ngày 15."
+            },
+            {
+              "number": 3,
+              "prompt": "Total number of guests: {{blank}}",
+              "answers": [
+                "80",
+                "eighty"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Hall needed from: {{blank}} p.m.",
+              "answers": [
+                "5.30",
+                "5:30",
+                "five thirty"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Cost: £{{blank}} per hour",
+              "answers": [
+                "45",
+                "forty-five"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Deposit: £{{blank}}",
+              "answers": [
+                "150"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Kitchen: guests must bring their own {{blank}}",
+              "answers": [
+                "plates"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Free parking for about {{blank}} cars",
+              "answers": [
+                "30",
+                "thirty"
+              ]
+            },
+            {
+              "number": 9,
+              "prompt": "Music must be quiet after {{blank}} p.m.",
+              "answers": [
+                "10",
+                "ten",
+                "10.00",
+                "10:00"
+              ]
+            },
+            {
+              "number": 10,
+              "prompt": "Contact number: 0771 544 {{blank}}",
+              "answers": [
+                "2936",
+                "2 9 3 6"
+              ],
+              "explanation": "Số đọc là 0771 5 double 4 2 936 = 0771 544 2936."
+            }
           ]
         }
-      ]
+      ],
+      "audioUrl": "/api/media/booking-a-community-hall.m4a"
     },
     {
       "title": "Riverside Park Volunteer Day",
@@ -67,34 +168,174 @@
           "type": "MULTIPLE_CHOICE",
           "instruction": "Choose the correct letter, A, B or C.",
           "questions": [
-            { "number": 11, "prompt": "The volunteer group was started because", "answers": ["C"], "options": [{"key": "A", "text": "the park was too popular with dog walkers."}, {"key": "B", "text": "the timber yard closed down."}, {"key": "C", "text": "residents opposed plans to build houses."}] },
-            { "number": 12, "prompt": "Today, lunch will be served at", "answers": ["B"], "options": [{"key": "A", "text": "the visitor centre."}, {"key": "B", "text": "the boathouse."}, {"key": "C", "text": "the main gate."}] },
-            { "number": 13, "prompt": "Volunteers should tell Helen about food allergies", "answers": ["A"], "options": [{"key": "A", "text": "before eleven o'clock."}, {"key": "B", "text": "when they sign the list."}, {"key": "C", "text": "at lunchtime."}] },
-            { "number": 14, "prompt": "What are volunteers asked to do near the bird hide?", "answers": ["B"], "options": [{"key": "A", "text": "wear gloves"}, {"key": "B", "text": "switch off their phones"}, {"key": "C", "text": "bring their own tools"}] }
+            {
+              "number": 11,
+              "prompt": "The volunteer group was started because",
+              "answers": [
+                "C"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the park was too popular with dog walkers."
+                },
+                {
+                  "key": "B",
+                  "text": "the timber yard closed down."
+                },
+                {
+                  "key": "C",
+                  "text": "residents opposed plans to build houses."
+                }
+              ]
+            },
+            {
+              "number": 12,
+              "prompt": "Today, lunch will be served at",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the visitor centre."
+                },
+                {
+                  "key": "B",
+                  "text": "the boathouse."
+                },
+                {
+                  "key": "C",
+                  "text": "the main gate."
+                }
+              ]
+            },
+            {
+              "number": 13,
+              "prompt": "Volunteers should tell Helen about food allergies",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "before eleven o'clock."
+                },
+                {
+                  "key": "B",
+                  "text": "when they sign the list."
+                },
+                {
+                  "key": "C",
+                  "text": "at lunchtime."
+                }
+              ]
+            },
+            {
+              "number": 14,
+              "prompt": "What are volunteers asked to do near the bird hide?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "wear gloves"
+                },
+                {
+                  "key": "B",
+                  "text": "switch off their phones"
+                },
+                {
+                  "key": "C",
+                  "text": "bring their own tools"
+                }
+              ]
+            }
           ]
         },
         {
           "type": "MATCHING_FEATURES",
           "instruction": "What will volunteers do in each area of the park? Choose SIX answers from the box and write the correct letter, A-G.",
           "options": [
-            { "key": "A", "text": "collect rubbish" },
-            { "key": "B", "text": "cut the grass" },
-            { "key": "C", "text": "paint seating" },
-            { "key": "D", "text": "remove plants from water" },
-            { "key": "E", "text": "clear a path" },
-            { "key": "F", "text": "add new seeds" },
-            { "key": "G", "text": "learn to cut back trees" }
+            {
+              "key": "A",
+              "text": "collect rubbish"
+            },
+            {
+              "key": "B",
+              "text": "cut the grass"
+            },
+            {
+              "key": "C",
+              "text": "paint seating"
+            },
+            {
+              "key": "D",
+              "text": "remove plants from water"
+            },
+            {
+              "key": "E",
+              "text": "clear a path"
+            },
+            {
+              "key": "F",
+              "text": "add new seeds"
+            },
+            {
+              "key": "G",
+              "text": "learn to cut back trees"
+            }
           ],
           "questions": [
-            { "number": 15, "prompt": "Rose garden", "answers": ["C"], "explanation": "Hoa hồng đang tốt, việc hôm nay là sơn ghế băng cũ." },
-            { "number": 16, "prompt": "Children's playground", "answers": ["A"] },
-            { "number": 17, "prompt": "Wildflower meadow", "answers": ["F"], "explanation": "Bẫy: nhiều người nghĩ cắt cỏ, nhưng thực ra để cỏ dài và gieo hạt." },
-            { "number": 18, "prompt": "Pond", "answers": ["D"] },
-            { "number": 19, "prompt": "Woodland walk", "answers": ["E"] },
-            { "number": 20, "prompt": "Old orchard", "answers": ["G"] }
+            {
+              "number": 15,
+              "prompt": "Rose garden",
+              "answers": [
+                "C"
+              ],
+              "explanation": "Hoa hồng đang tốt, việc hôm nay là sơn ghế băng cũ."
+            },
+            {
+              "number": 16,
+              "prompt": "Children's playground",
+              "answers": [
+                "A"
+              ]
+            },
+            {
+              "number": 17,
+              "prompt": "Wildflower meadow",
+              "answers": [
+                "F"
+              ],
+              "explanation": "Bẫy: nhiều người nghĩ cắt cỏ, nhưng thực ra để cỏ dài và gieo hạt."
+            },
+            {
+              "number": 18,
+              "prompt": "Pond",
+              "answers": [
+                "D"
+              ]
+            },
+            {
+              "number": 19,
+              "prompt": "Woodland walk",
+              "answers": [
+                "E"
+              ]
+            },
+            {
+              "number": 20,
+              "prompt": "Old orchard",
+              "answers": [
+                "G"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "audioUrl": "/api/media/riverside-park-volunteer-day.m4a"
     },
     {
       "title": "A Research Project on Food Waste",
@@ -112,11 +353,111 @@
           "type": "MULTIPLE_CHOICE",
           "instruction": "Choose the correct letter, A, B or C.",
           "questions": [
-            { "number": 21, "prompt": "Why did the students choose to study student halls?", "answers": ["A"], "options": [{"key": "A", "text": "They could get into the kitchens."}, {"key": "B", "text": "Restaurants waste very little food."}, {"key": "C", "text": "Their tutor suggested it."}] },
-            { "number": 22, "prompt": "How did they collect their data in the end?", "answers": ["B"], "options": [{"key": "A", "text": "by interviewing students"}, {"key": "B", "text": "by weighing waste bins"}, {"key": "C", "text": "by asking students to keep diaries"}] },
-            { "number": 23, "prompt": "Which type of food was wasted most?", "answers": ["C"], "options": [{"key": "A", "text": "fruit"}, {"key": "B", "text": "vegetables"}, {"key": "C", "text": "bread"}] },
-            { "number": 24, "prompt": "The hall that wasted most food was the one where", "answers": ["C"], "options": [{"key": "A", "text": "students cooked together."}, {"key": "B", "text": "students had small fridges."}, {"key": "C", "text": "fridges were shared."}] },
-            { "number": 25, "prompt": "Waste increased most", "answers": ["B"], "options": [{"key": "A", "text": "at the start of the semester."}, {"key": "B", "text": "just before the holidays."}, {"key": "C", "text": "during exams."}] }
+            {
+              "number": 21,
+              "prompt": "Why did the students choose to study student halls?",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "They could get into the kitchens."
+                },
+                {
+                  "key": "B",
+                  "text": "Restaurants waste very little food."
+                },
+                {
+                  "key": "C",
+                  "text": "Their tutor suggested it."
+                }
+              ]
+            },
+            {
+              "number": 22,
+              "prompt": "How did they collect their data in the end?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "by interviewing students"
+                },
+                {
+                  "key": "B",
+                  "text": "by weighing waste bins"
+                },
+                {
+                  "key": "C",
+                  "text": "by asking students to keep diaries"
+                }
+              ]
+            },
+            {
+              "number": 23,
+              "prompt": "Which type of food was wasted most?",
+              "answers": [
+                "C"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "fruit"
+                },
+                {
+                  "key": "B",
+                  "text": "vegetables"
+                },
+                {
+                  "key": "C",
+                  "text": "bread"
+                }
+              ]
+            },
+            {
+              "number": 24,
+              "prompt": "The hall that wasted most food was the one where",
+              "answers": [
+                "C"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "students cooked together."
+                },
+                {
+                  "key": "B",
+                  "text": "students had small fridges."
+                },
+                {
+                  "key": "C",
+                  "text": "fridges were shared."
+                }
+              ]
+            },
+            {
+              "number": 25,
+              "prompt": "Waste increased most",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "at the start of the semester."
+                },
+                {
+                  "key": "B",
+                  "text": "just before the holidays."
+                },
+                {
+                  "key": "C",
+                  "text": "during exams."
+                }
+              ]
+            }
           ]
         },
         {
@@ -126,13 +467,31 @@
             {
               "number": 26,
               "prompt": "Which TWO recommendations do the students prefer?",
-              "answers": ["A", "D"],
+              "answers": [
+                "A",
+                "D"
+              ],
               "options": [
-                { "key": "A", "text": "a shelf for sharing food" },
-                { "key": "B", "text": "cooking classes" },
-                { "key": "C", "text": "fines for full bins" },
-                { "key": "D", "text": "smaller loaves in the shop" },
-                { "key": "E", "text": "bigger fridges" }
+                {
+                  "key": "A",
+                  "text": "a shelf for sharing food"
+                },
+                {
+                  "key": "B",
+                  "text": "cooking classes"
+                },
+                {
+                  "key": "C",
+                  "text": "fines for full bins"
+                },
+                {
+                  "key": "D",
+                  "text": "smaller loaves in the shop"
+                },
+                {
+                  "key": "E",
+                  "text": "bigger fridges"
+                }
               ]
             }
           ]
@@ -141,19 +500,81 @@
           "type": "MATCHING_FEATURES",
           "instruction": "What do the students say about each source? Choose THREE answers from the box and write the correct letter, A-E.",
           "options": [
-            { "key": "A", "text": "useful data but not current" },
-            { "key": "B", "text": "recent but contains few figures" },
-            { "key": "C", "text": "local but based on a small sample" },
-            { "key": "D", "text": "too difficult to understand" },
-            { "key": "E", "text": "written for restaurant owners" }
+            {
+              "key": "A",
+              "text": "useful data but not current"
+            },
+            {
+              "key": "B",
+              "text": "recent but contains few figures"
+            },
+            {
+              "key": "C",
+              "text": "local but based on a small sample"
+            },
+            {
+              "key": "D",
+              "text": "too difficult to understand"
+            },
+            {
+              "key": "E",
+              "text": "written for restaurant owners"
+            }
           ],
           "questions": [
-            { "number": 28, "prompt": "Government report", "answers": ["A"] },
-            { "number": 29, "prompt": "Professor Lin's article", "answers": ["B"] },
-            { "number": 30, "prompt": "Campus sustainability survey", "answers": ["C"] }
+            {
+              "number": 28,
+              "prompt": "Government report",
+              "answers": [
+                "A"
+              ]
+            },
+            {
+              "number": 29,
+              "prompt": "Professor Lin's article",
+              "answers": [
+                "B"
+              ]
+            },
+            {
+              "number": 30,
+              "prompt": "Campus sustainability survey",
+              "answers": [
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 31,
+              "prompt": "Where did the students collect their data?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "In restaurants"
+                },
+                {
+                  "key": "B",
+                  "text": "In student halls"
+                },
+                {
+                  "key": "C",
+                  "text": "In a supermarket"
+                }
+              ],
+              "evidence": "focus on student halls rather than restaurants"
+            }
           ]
         }
-      ]
+      ],
+      "audioUrl": "/api/media/a-research-project-on-food-waste.m4a"
     },
     {
       "title": "The Bicycle and the City",
@@ -172,19 +593,4528 @@
           "instruction": "Complete the notes below. Write ONE WORD ONLY for each answer.",
           "wordLimit": 1,
           "questions": [
-            { "number": 31, "prompt": "Early bicycles had a very large front wheel and were fast but {{blank}}.", "answers": ["dangerous"] },
-            { "number": 32, "prompt": "The safety bicycle had equal wheels and a {{blank}}.", "answers": ["chain"] },
-            { "number": 33, "prompt": "It gave {{blank}} a new kind of independence.", "answers": ["women"] },
-            { "number": 34, "prompt": "Cycling clubs campaigned for better {{blank}}.", "answers": ["roads"] },
-            { "number": 35, "prompt": "Dutch protests in the 1970s were about road deaths of {{blank}}.", "answers": ["children"] },
-            { "number": 36, "prompt": "The {{blank}} crisis of 1973 led to car-free Sundays.", "answers": ["oil"] },
-            { "number": 37, "prompt": "Safety means physical {{blank}} from cars, not just a painted line.", "answers": ["separation"] },
-            { "number": 38, "prompt": "Secure parking matters because people fear {{blank}}.", "answers": ["theft"] },
-            { "number": 39, "prompt": "Shops on streets with cycle lanes often see higher {{blank}}.", "answers": ["sales"] },
-            { "number": 40, "prompt": "Electric bikes help in cities with steep {{blank}}.", "answers": ["hills"] }
+            {
+              "number": 31,
+              "prompt": "Early bicycles had a very large front wheel and were fast but {{blank}}.",
+              "answers": [
+                "dangerous"
+              ]
+            },
+            {
+              "number": 32,
+              "prompt": "The safety bicycle had equal wheels and a {{blank}}.",
+              "answers": [
+                "chain"
+              ]
+            },
+            {
+              "number": 33,
+              "prompt": "It gave {{blank}} a new kind of independence.",
+              "answers": [
+                "women"
+              ]
+            },
+            {
+              "number": 34,
+              "prompt": "Cycling clubs campaigned for better {{blank}}.",
+              "answers": [
+                "roads"
+              ]
+            },
+            {
+              "number": 35,
+              "prompt": "Dutch protests in the 1970s were about road deaths of {{blank}}.",
+              "answers": [
+                "children"
+              ]
+            },
+            {
+              "number": 36,
+              "prompt": "The {{blank}} crisis of 1973 led to car-free Sundays.",
+              "answers": [
+                "oil"
+              ]
+            },
+            {
+              "number": 37,
+              "prompt": "Safety means physical {{blank}} from cars, not just a painted line.",
+              "answers": [
+                "separation"
+              ]
+            },
+            {
+              "number": 38,
+              "prompt": "Secure parking matters because people fear {{blank}}.",
+              "answers": [
+                "theft"
+              ]
+            },
+            {
+              "number": 39,
+              "prompt": "Shops on streets with cycle lanes often see higher {{blank}}.",
+              "answers": [
+                "sales"
+              ]
+            },
+            {
+              "number": 40,
+              "prompt": "Electric bikes help in cities with steep {{blank}}.",
+              "answers": [
+                "hills"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "audioUrl": "/api/media/the-bicycle-and-the-city.m4a"
+    },
+    {
+      "title": "Asking for Directions",
+      "level": "A2",
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 70,
+      "sortOrder": 5,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Tourist: Excuse me, is the city museum near here?\nLocal: Yes. Keep going along this street and turn left at the bookshop.\nTourist: Left at the bookshop. Is it far?\nLocal: No. It takes about ten minutes on foot. The museum is next to the post office.\nTourist: What time does it close?\nLocal: It closes at five, but the ticket office shuts at four thirty.\nTourist: Thank you. Is there a bus?\nLocal: Bus number 12 stops outside, but walking is quicker today because of the market.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Turn left at the {{blank}}.",
+              "answers": [
+                "bookshop"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Walking time: {{blank}} minutes.",
+              "answers": [
+                "ten",
+                "10"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "The museum is next to the {{blank}}.",
+              "answers": [
+                "post office"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Ticket office closes at {{blank}}.",
+              "answers": [
+                "4.30",
+                "four thirty",
+                "4:30"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Bus number: {{blank}}.",
+              "answers": [
+                "12"
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/asking-for-directions.m4a"
+    },
+    {
+      "title": "Finding the sports hall",
+      "level": "A2",
+      "ieltsPart": 2,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 70,
+      "sortOrder": 6,
+      "source": "EDU APP English",
+      "license": "original",
+      "transcript": "Guide: Welcome to Riverside Sports Centre. I will point out five places on the plan.\nGuide: You are at the main entrance, which is number 1, at the bottom of the plan.\nGuide: Walk straight ahead and the swimming pool is number 2, on your left.\nGuide: Number 3, opposite the pool, is the cafe.\nGuide: The sports hall is number 4, at the far end of the corridor.\nGuide: The changing rooms are number 5, just before the sports hall, on the right.\nGuide: Please leave bags in the changing rooms. Food is only allowed in the cafe.",
+      "groups": [
+        {
+          "type": "MAP_LABELLING",
+          "instruction": "Label the plan. Write NO MORE THAN TWO WORDS for each answer.",
+          "wordLimit": 2,
+          "imageUrl": "/api/media/sports-centre.svg",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "1 {{blank}}",
+              "answers": [
+                "main entrance",
+                "entrance"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "2 {{blank}}",
+              "answers": [
+                "swimming pool",
+                "pool"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "3 {{blank}}",
+              "answers": [
+                "cafe"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "4 {{blank}}",
+              "answers": [
+                "sports hall"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "5 {{blank}}",
+              "answers": [
+                "changing rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/finding-the-sports-hall.m4a"
+    },
+    {
+      "title": "A check-up at City Dental",
+      "level": "B1",
+      "ieltsPart": 1,
+      "bandMin": 4.0,
+      "bandMax": 5.5,
+      "durationSec": 90,
+      "sortOrder": 20,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Receptionist: Good morning, City Dental. How can I help you?\nPatient: Hello. I'd like to book a check-up. My name is Anna Cole.\nReceptionist: Could you spell the surname?\nPatient: C-O-L-E. And my phone number is 0771 438 920.\nReceptionist: Thank you. The next free appointments are Thursday at ten, or Friday at two.\nPatient: Thursday at ten, please.\nReceptionist: That's with Dr Khan. A check-up costs forty-five pounds. Please arrive ten minutes early and bring a photo ID.\nPatient: Is there parking?\nReceptionist: The clinic car park is full by nine, so please use the station car park across the road. It is free for patients.",
+      "groups": [
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Surname: {{blank}}",
+              "answers": [
+                "Cole"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Phone: {{blank}}",
+              "answers": [
+                "0771 438 920",
+                "0771438920"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Day: {{blank}}",
+              "answers": [
+                "Thursday"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Time: {{blank}}",
+              "answers": [
+                "10",
+                "ten"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Dentist: Dr {{blank}}",
+              "answers": [
+                "Khan"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Price of check-up: £{{blank}}",
+              "answers": [
+                "45",
+                "forty-five"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Arrive {{blank}} minutes early",
+              "answers": [
+                "10",
+                "ten"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Parking: {{blank}} car park",
+              "answers": [
+                "station"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD AND/OR A NUMBER.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 9,
+              "prompt": "Bring a photo {{blank}}",
+              "answers": [
+                "ID"
+              ],
+              "evidence": "bring a photo ID"
+            },
+            {
+              "number": 10,
+              "prompt": "The clinic car park is full by {{blank}}",
+              "answers": [
+                "9",
+                "nine"
+              ],
+              "evidence": "The clinic car park is full by nine"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-check-up-at-city-dental.m4a"
+    },
+    {
+      "title": "Friday night market",
+      "level": "B2",
+      "ieltsPart": 2,
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "durationSec": 120,
+      "sortOrder": 21,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the Friday night market. The market opens at six and the last food stall closes at eleven. Entry is free, but the cookery demonstration at eight costs five pounds and must be booked at the information tent.\nThe north row is for hot food. The busiest stall is the noodle stall, which usually sells out by nine thirty. If you want a quieter meal, the soup stall at the far end has seats.\nOn the south row you will find clothes and handmade soap. Please do not bring dogs into the south row, because of the food samples. Bicycles can be left at the green rack beside the station entrance.\nIf it rains, the music stage moves inside the old post office. Toilets are behind the clock tower. Lost children should be taken to the information tent, where a member of staff called Priya is on duty all evening.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Market opens at {{blank}}",
+              "answers": [
+                "6",
+                "six"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Food stalls close at {{blank}}",
+              "answers": [
+                "11",
+                "eleven"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Cookery demonstration costs £{{blank}}",
+              "answers": [
+                "5",
+                "five"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Book the demonstration at the information {{blank}}",
+              "answers": [
+                "tent"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Noodle stall often sells out by {{blank}}",
+              "answers": [
+                "9.30",
+                "9:30",
+                "nine thirty"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Do not take {{blank}} into the south row",
+              "answers": [
+                "dogs"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "If it rains, the stage moves to the old {{blank}}",
+              "answers": [
+                "post office"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Lost children: ask for {{blank}}",
+              "answers": [
+                "Priya"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD ONLY.",
+          "wordLimit": 1,
+          "questions": [
+            {
+              "number": 9,
+              "prompt": "The soup stall has {{blank}}",
+              "answers": [
+                "seats"
+              ],
+              "evidence": "the soup stall at the far end has seats"
+            },
+            {
+              "number": 10,
+              "prompt": "Leave bicycles at the green {{blank}}",
+              "answers": [
+                "rack"
+              ],
+              "evidence": "the green rack beside the station entrance"
+            },
+            {
+              "number": 11,
+              "prompt": "Toilets are behind the clock {{blank}}",
+              "answers": [
+                "tower"
+              ],
+              "evidence": "Toilets are behind the clock tower"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/friday-night-market.m4a"
+    },
+    {
+      "title": "Choosing a research method",
+      "level": "C1",
+      "ieltsPart": 3,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 120,
+      "sortOrder": 22,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Tutor: You both want to study how students choose their lunch. Have you decided on a method?\nLena: I prefer a questionnaire. We can collect answers from two hundred students in one week, and the canteen manager will email the link.\nOmar: The numbers would be tidy, but people rush those forms. I want to sit in the canteen for three lunchtimes and write down what they actually pick.\nLena: Observation will not tell us why they choose. A short interview, maybe fifteen people, would explain the reasons.\nTutor: You do not have time for all three. The department deadline is the twelfth of May. I suggest the questionnaire for the main result, and ten interviews to explain the surprises. Leave the observation for a later project.\nOmar: Can we record the interviews?\nTutor: Yes, if each student signs a consent form. Store the files on the university drive, not on a personal laptop.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "What are the students studying?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "How the canteen hires staff"
+                },
+                {
+                  "key": "B",
+                  "text": "How students choose lunch"
+                },
+                {
+                  "key": "C",
+                  "text": "How much lunch costs"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Why does Lena like a questionnaire?",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It can reach many students quickly"
+                },
+                {
+                  "key": "B",
+                  "text": "It explains every reason in depth"
+                },
+                {
+                  "key": "C",
+                  "text": "It does not need the manager's help"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "What does Omar want to do in the canteen?",
+              "answers": [
+                "C"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Interview the manager"
+                },
+                {
+                  "key": "B",
+                  "text": "Serve food for three days"
+                },
+                {
+                  "key": "C",
+                  "text": "Watch what students actually choose"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "What does the tutor tell them to drop for now?",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Observation"
+                },
+                {
+                  "key": "B",
+                  "text": "The questionnaire"
+                },
+                {
+                  "key": "C",
+                  "text": "The interviews"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "When is the department deadline?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "The second of May"
+                },
+                {
+                  "key": "B",
+                  "text": "The twelfth of May"
+                },
+                {
+                  "key": "C",
+                  "text": "The twentieth of May"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Where must the recordings be stored?",
+              "answers": [
+                "C"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "On a personal laptop"
+                },
+                {
+                  "key": "B",
+                  "text": "In the canteen office"
+                },
+                {
+                  "key": "C",
+                  "text": "On the university drive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 7,
+              "prompt": "How many students does Lena hope to question?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Twenty"
+                },
+                {
+                  "key": "B",
+                  "text": "Two hundred"
+                },
+                {
+                  "key": "C",
+                  "text": "Two thousand"
+                }
+              ],
+              "evidence": "answers from two hundred students"
+            },
+            {
+              "number": 8,
+              "prompt": "How many interviews does the tutor suggest?",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Ten"
+                },
+                {
+                  "key": "B",
+                  "text": "Fifteen"
+                },
+                {
+                  "key": "C",
+                  "text": "Thirty"
+                }
+              ],
+              "evidence": "ten interviews to explain the surprises"
+            },
+            {
+              "number": 9,
+              "prompt": "What must each student sign before an interview?",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "A consent form"
+                },
+                {
+                  "key": "B",
+                  "text": "A library card"
+                },
+                {
+                  "key": "C",
+                  "text": "A lunch menu"
+                }
+              ],
+              "evidence": "if each student signs a consent form"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/choosing-a-research-method.m4a"
+    },
+    {
+      "title": "Why cities plant trees",
+      "level": "C1",
+      "ieltsPart": 4,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 150,
+      "sortOrder": 23,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: Cities plant trees for reasons that go well beyond appearance. A mature street tree can cut the temperature of the pavement beneath it by several degrees, which matters in heat waves. The leaves also catch fine dust. Studies in several European cities found lower particulate levels on tree-lined roads than on bare ones of the same width, though the difference is small on very windy days.\nRoots are a more awkward gift. They hold soil on slopes and take up storm water, so streets flood less. They also lift pavements and enter old drains. That is why new planting schemes now use underground crates, which guide the roots away from the pipes.\nSpecies choice decides whether the tree is still there in thirty years. Plane trees tolerate pollution and pruning, which is why so many avenues use them. They are a poor choice beside hospitals, because their fine hairs irritate some patients. Fruit trees feed birds, but fallen fruit makes pavements slippery, so councils usually keep them inside parks.\nThe expensive mistake is planting and then forgetting. A young tree needs water for the first three summers. After that, the main job is inspection, not daily care. Cities that budget only for the planting day lose a large share of the trees before they are big enough to shade anyone.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write NO MORE THAN TWO WORDS for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "A mature tree can lower the pavement {{blank}}",
+              "answers": [
+                "temperature"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Leaves catch fine {{blank}}",
+              "answers": [
+                "dust"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "The dust benefit is small on very {{blank}} days",
+              "answers": [
+                "windy"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Roots can enter old {{blank}}",
+              "answers": [
+                "drains"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Underground crates guide roots away from the {{blank}}",
+              "answers": [
+                "pipes"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Plane trees are a poor choice beside {{blank}}",
+              "answers": [
+                "hospitals"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Fallen fruit makes pavements {{blank}}",
+              "answers": [
+                "slippery"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Young trees need water for the first three {{blank}}",
+              "answers": [
+                "summers"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD ONLY.",
+          "wordLimit": 1,
+          "questions": [
+            {
+              "number": 9,
+              "prompt": "Councils usually keep fruit trees inside {{blank}}",
+              "answers": [
+                "parks"
+              ],
+              "evidence": "councils usually keep them inside parks"
+            },
+            {
+              "number": 10,
+              "prompt": "After the first years, the main job is {{blank}}",
+              "answers": [
+                "inspection"
+              ],
+              "evidence": "the main job is inspection, not daily care"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/why-cities-plant-trees.m4a"
+    },
+    {
+      "title": "A bag left on the train",
+      "level": "B1",
+      "ieltsPart": 1,
+      "bandMin": 4.0,
+      "bandMax": 5.5,
+      "durationSec": 90,
+      "sortOrder": 30,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Clerk: Good afternoon, station office. How can I help you?\nCaller: Hello. I think I left my bag on the 3.15 train from Eastvale.\nClerk: Can I take your name?\nCaller: Helen Brooks. That's B-R-O-O-K-S.\nClerk: Thank you. What does the bag look like?\nCaller: It is a blue backpack. There is a grey wallet inside and a library card.\nClerk: Where did you get off?\nCaller: At Central Station, on platform 2.\nClerk: We have a blue backpack from that train. You can collect it tomorrow after 9 a.m. Please bring photo ID. There is a fee of 5 pounds.",
+      "groups": [
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Train time: {{blank}}",
+              "answers": [
+                "3.15",
+                "3:15"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Train from: {{blank}}",
+              "answers": [
+                "Eastvale"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Surname: {{blank}}",
+              "answers": [
+                "Brooks"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Bag colour: {{blank}}",
+              "answers": [
+                "blue"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Got off at platform: {{blank}}",
+              "answers": [
+                "2",
+                "two"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Collect after: {{blank}} a.m.",
+              "answers": [
+                "9",
+                "nine"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Fee: £{{blank}}",
+              "answers": [
+                "5",
+                "five"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form. Write ONE WORD ONLY.",
+          "wordLimit": 1,
+          "questions": [
+            {
+              "number": 8,
+              "prompt": "Wallet colour: {{blank}}",
+              "answers": [
+                "grey",
+                "gray"
+              ],
+              "evidence": "a grey wallet"
+            },
+            {
+              "number": 9,
+              "prompt": "Also inside: a library {{blank}}",
+              "answers": [
+                "card"
+              ],
+              "evidence": "a library card"
+            },
+            {
+              "number": 10,
+              "prompt": "Bring photo {{blank}}",
+              "answers": [
+                "ID"
+              ],
+              "evidence": "Please bring photo ID"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-bag-left-on-the-train.m4a"
+    },
+    {
+      "title": "Sunday walking tour",
+      "level": "B2",
+      "ieltsPart": 2,
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "durationSec": 110,
+      "sortOrder": 31,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the Sunday walking tour. We meet at the clock tower at 9.30. The tour lasts about 90 minutes and costs 12 pounds. Children under 12 are free.\nWe start in the old market, then walk along River Street to the stone bridge. Please stay on the pavement, because the road is busy on Sundays.\nAt 10.15 we stop at the bakery for ten minutes. You can buy a drink, but the tour does not include food.\nIf it rains, we still go ahead, so bring a light jacket. The tour ends at the museum gate. Toilets are inside the museum, and you do not need a ticket to use them. The guide's name is Marco.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Meet at the clock {{blank}}",
+              "answers": [
+                "tower"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Meeting time: {{blank}}",
+              "answers": [
+                "9.30",
+                "9:30"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Adult price: £{{blank}}",
+              "answers": [
+                "12",
+                "twelve"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Children under {{blank}} are free",
+              "answers": [
+                "12",
+                "twelve"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Bakery stop at {{blank}}",
+              "answers": [
+                "10.15",
+                "10:15"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Bring a light {{blank}} if it rains",
+              "answers": [
+                "jacket"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Tour ends at the museum {{blank}}",
+              "answers": [
+                "gate"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Guide's name: {{blank}}",
+              "answers": [
+                "Marco"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD AND/OR A NUMBER.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 9,
+              "prompt": "Tour length: {{blank}} minutes",
+              "answers": [
+                "90",
+                "ninety"
+              ],
+              "evidence": "The tour lasts about 90 minutes"
+            },
+            {
+              "number": 10,
+              "prompt": "The walk starts in the old {{blank}}",
+              "answers": [
+                "market"
+              ],
+              "evidence": "We start in the old market"
+            },
+            {
+              "number": 11,
+              "prompt": "Then walk along River {{blank}}",
+              "answers": [
+                "Street"
+              ],
+              "evidence": "walk along River Street"
+            },
+            {
+              "number": 12,
+              "prompt": "The bakery stop lasts {{blank}} minutes",
+              "answers": [
+                "10",
+                "ten"
+              ],
+              "evidence": "we stop at the bakery for ten minutes"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/sunday-walking-tour.m4a"
+    },
+    {
+      "title": "Choosing an evening class",
+      "level": "B2",
+      "ieltsPart": 3,
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "durationSec": 100,
+      "sortOrder": 32,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Tutor: You both want an evening class. Have you chosen one?\nNina: I like the photography class on Wednesday. It starts at 6.30 and runs for eight weeks. The camera is provided.\nSam: Wednesday is my late shift. The cooking class is on Thursday, and it costs 90 pounds, which is less than photography.\nNina: Cooking finishes at 9, and the last bus on my route is at 8.45. I would have to take a taxi.\nTutor: There is also a writing class on Tuesday. It is free for library members, and it ends at 8. You only need a notebook.\nSam: Tuesday works for me. Nina, if the bus is the problem, Tuesday is safer than Thursday.\nNina: All right. Let's take the writing class. I already have a library card.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Why does Nina like the photography class?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It is the cheapest class"
+                },
+                {
+                  "key": "B",
+                  "text": "A camera is provided"
+                },
+                {
+                  "key": "C",
+                  "text": "It ends before 8"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Why can Sam not go on Wednesday?",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "He works a late shift"
+                },
+                {
+                  "key": "B",
+                  "text": "The class is full"
+                },
+                {
+                  "key": "C",
+                  "text": "He has no camera"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "What problem does Nina have with the cooking class?",
+              "answers": [
+                "C"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "It costs more than photography"
+                },
+                {
+                  "key": "B",
+                  "text": "It is on Tuesday"
+                },
+                {
+                  "key": "C",
+                  "text": "She would miss the last bus"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Which class do they choose?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Photography"
+                },
+                {
+                  "key": "B",
+                  "text": "Writing"
+                },
+                {
+                  "key": "C",
+                  "text": "Cooking"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "What does Nina already have?",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "A library card"
+                },
+                {
+                  "key": "B",
+                  "text": "A camera"
+                },
+                {
+                  "key": "C",
+                  "text": "A notebook"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 6,
+              "prompt": "What time does the photography class start?",
+              "answers": [
+                "A"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "6.30"
+                },
+                {
+                  "key": "B",
+                  "text": "8.00"
+                },
+                {
+                  "key": "C",
+                  "text": "9.00"
+                }
+              ],
+              "evidence": "It starts at 6.30"
+            },
+            {
+              "number": 7,
+              "prompt": "How much does the cooking class cost?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "£9"
+                },
+                {
+                  "key": "B",
+                  "text": "£90"
+                },
+                {
+                  "key": "C",
+                  "text": "£190"
+                }
+              ],
+              "evidence": "it costs 90 pounds"
+            },
+            {
+              "number": 8,
+              "prompt": "What time does the writing class end?",
+              "answers": [
+                "B"
+              ],
+              "options": [
+                {
+                  "key": "A",
+                  "text": "6.30"
+                },
+                {
+                  "key": "B",
+                  "text": "8.00"
+                },
+                {
+                  "key": "C",
+                  "text": "9.00"
+                }
+              ],
+              "evidence": "it ends at 8"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/choosing-an-evening-class.m4a"
+    },
+    {
+      "title": "The community garden",
+      "level": "B2",
+      "ieltsPart": 4,
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "durationSec": 120,
+      "sortOrder": 33,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Speaker: The community garden behind the health centre opened in March. Twenty families share sixteen beds. Each family pays 15 pounds a year, which covers seeds and tools. Water comes from a tank on the roof, so we ask people not to leave hoses running.\nWork sessions are on Saturday morning, from 8 to 11. If you cannot come, tell the coordinator, Priya, by Friday. Tools stay in the green shed. The code for the lock is on your membership card. Please lock the shed even if you think someone else is still inside.\nWe grow vegetables, not flowers. In the first season the most successful crops were beans and lettuce. Tomatoes needed more sun than this site gets. Produce is shared among the families who worked that month. Nothing is sold. Visitors are welcome on the first Sunday of the month, but they should stay on the path.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write NO MORE THAN TWO WORDS AND/OR A NUMBER.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "The garden opened in {{blank}}",
+              "answers": [
+                "March"
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Number of beds: {{blank}}",
+              "answers": [
+                "16",
+                "sixteen"
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Yearly fee: £{{blank}}",
+              "answers": [
+                "15",
+                "fifteen"
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Water comes from a {{blank}}",
+              "answers": [
+                "tank"
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Tell Priya by {{blank}} if you cannot come",
+              "answers": [
+                "Friday"
+              ]
+            },
+            {
+              "number": 6,
+              "prompt": "Tools are kept in the green {{blank}}",
+              "answers": [
+                "shed"
+              ]
+            },
+            {
+              "number": 7,
+              "prompt": "Crops that did well: beans and {{blank}}",
+              "answers": [
+                "lettuce"
+              ]
+            },
+            {
+              "number": 8,
+              "prompt": "Visitors should stay on the {{blank}}",
+              "answers": [
+                "path"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD ONLY.",
+          "wordLimit": 1,
+          "questions": [
+            {
+              "number": 9,
+              "prompt": "Work sessions are on {{blank}} morning",
+              "answers": [
+                "Saturday"
+              ],
+              "evidence": "Work sessions are on Saturday morning"
+            },
+            {
+              "number": 10,
+              "prompt": "Tomatoes needed more {{blank}}",
+              "answers": [
+                "sun"
+              ],
+              "evidence": "Tomatoes needed more sun"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/the-community-garden.m4a"
+    },
+    {
+      "title": "A table at the River Cafe",
+      "level": "A2",
+      "ieltsPart": 1,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 45,
+      "sortOrder": 40,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Staff: River Cafe, good morning.\nNam: Hello. I would like a table for Saturday.\nStaff: What name is the booking under?\nNam: Nam Tran.\nStaff: How many people?\nNam: Four.\nStaff: We can offer seven o'clock or half past eight.\nNam: Seven o'clock, please.\nStaff: May I take a phone number?\nNam: 0903 441 228.\nStaff: We will keep the table for fifteen minutes. If you arrive later, please call us.",
+      "groups": [
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form. Write NO MORE THAN TWO WORDS AND/OR A NUMBER.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Day: {{blank}}",
+              "answers": [
+                "Saturday"
+              ],
+              "evidence": "a table for Saturday"
+            },
+            {
+              "number": 2,
+              "prompt": "Name: {{blank}}",
+              "answers": [
+                "Nam Tran"
+              ],
+              "evidence": "Nam Tran"
+            },
+            {
+              "number": 3,
+              "prompt": "Number of people: {{blank}}",
+              "answers": [
+                "4",
+                "four"
+              ],
+              "evidence": "Four"
+            },
+            {
+              "number": 4,
+              "prompt": "Time: {{blank}}",
+              "answers": [
+                "7",
+                "seven",
+                "seven o'clock"
+              ],
+              "evidence": "Seven o'clock, please."
+            },
+            {
+              "number": 5,
+              "prompt": "The table is kept for {{blank}} minutes",
+              "answers": [
+                "15",
+                "fifteen"
+              ],
+              "evidence": "keep the table for fifteen minutes"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-table-at-the-river-cafe.m4a"
+    },
+    {
+      "title": "The station clock",
+      "level": "B1",
+      "ieltsPart": 2,
+      "bandMin": 4.0,
+      "bandMax": 5.5,
+      "durationSec": 70,
+      "sortOrder": 41,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to Central Station. Before we start the tour, a note about the clock above the main hall. The clock stopped last Tuesday after a storm. Engineers will repair it on Thursday morning, and the hall will stay open while they work.\nPlease use the clocks on the platforms, not the hall clock, until Friday. Trains are still on time. The repair will not close the ticket office. Lost property has moved for this week to the room beside the cafe, on your left as you face the platforms. It closes at six. If you lose a bag today, go there before six, and bring your ticket.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write ONE WORD ONLY.",
+          "wordLimit": 1,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "The hall clock stopped after a {{blank}}.",
+              "answers": [
+                "storm"
+              ],
+              "evidence": "after a storm"
+            },
+            {
+              "number": 2,
+              "prompt": "Engineers will repair it on {{blank}} morning.",
+              "answers": [
+                "Thursday"
+              ],
+              "evidence": "repair it on Thursday morning"
+            },
+            {
+              "number": 3,
+              "prompt": "Use the clocks on the {{blank}} until Friday.",
+              "answers": [
+                "platforms"
+              ],
+              "evidence": "use the clocks on the platforms"
+            },
+            {
+              "number": 4,
+              "prompt": "Lost property is beside the {{blank}}.",
+              "answers": [
+                "cafe"
+              ],
+              "evidence": "beside the cafe"
+            },
+            {
+              "number": 5,
+              "prompt": "Lost property closes at {{blank}}.",
+              "answers": [
+                "six"
+              ],
+              "evidence": "It closes at six"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/the-station-clock.m4a"
+    },
+    {
+      "title": "Why cities add salt to roads",
+      "level": "B2",
+      "ieltsPart": 4,
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "durationSec": 80,
+      "sortOrder": 42,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: When ice forms on a road, tyres lose their grip. Many cities spread salt because salt lowers the temperature at which water freezes. A thin layer of salty water stays liquid a few degrees below zero, so the ice does not bond to the road surface.\nSalt is cheap and easy to store, but it is not harmless. It eats into steel bridges and it washes into rivers, where it can harm freshwater plants. For that reason, some cities now mix salt with sand. The sand gives tyres something to grip, and crews can use less salt.\nThe mixture does not work in every storm. Below about minus ten degrees, ordinary road salt loses most of its effect, and crews switch to a different chemical. Drivers should still slow down. Salt makes a road safer. It does not make it dry.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write NO MORE THAN TWO WORDS.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Salt lowers the temperature at which water {{blank}}.",
+              "answers": [
+                "freezes"
+              ],
+              "evidence": "salt lowers the temperature at which water freezes"
+            },
+            {
+              "number": 2,
+              "prompt": "Salt can damage steel {{blank}}.",
+              "answers": [
+                "bridges"
+              ],
+              "evidence": "It eats into steel bridges"
+            },
+            {
+              "number": 3,
+              "prompt": "Some cities mix salt with {{blank}}.",
+              "answers": [
+                "sand"
+              ],
+              "evidence": "mix salt with sand"
+            },
+            {
+              "number": 4,
+              "prompt": "Ordinary salt is weak below about minus {{blank}} degrees.",
+              "answers": [
+                "ten",
+                "10"
+              ],
+              "evidence": "Below about minus ten degrees"
+            },
+            {
+              "number": 5,
+              "prompt": "Salt makes a road safer, but not {{blank}}.",
+              "answers": [
+                "dry"
+              ],
+              "evidence": "It does not make it dry."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/why-cities-add-salt-to-roads.m4a"
+    },
+    {
+      "title": "A bike for the weekend",
+      "level": "A2",
+      "ieltsPart": 1,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 50,
+      "sortOrder": 43,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Staff: Green Wheel hire, good morning.\nLinh: Hello. I would like a bike for Sunday.\nStaff: What name should I put on the form?\nLinh: Linh Pham.\nStaff: A city bike or a mountain bike?\nLinh: A city bike, please.\nStaff: For how many hours?\nLinh: Three hours.\nStaff: That is twelve pounds, and we need the bike back by five. Helmets are free. Please bring your student card.",
+      "groups": [
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form. Write NO MORE THAN TWO WORDS AND/OR A NUMBER.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Day: {{blank}}",
+              "answers": [
+                "Sunday"
+              ],
+              "evidence": "a bike for Sunday"
+            },
+            {
+              "number": 2,
+              "prompt": "Name: {{blank}}",
+              "answers": [
+                "Linh Pham"
+              ],
+              "evidence": "Linh Pham"
+            },
+            {
+              "number": 3,
+              "prompt": "Type of bike: {{blank}}",
+              "answers": [
+                "city",
+                "city bike"
+              ],
+              "evidence": "A city bike, please."
+            },
+            {
+              "number": 4,
+              "prompt": "Number of hours: {{blank}}",
+              "answers": [
+                "3",
+                "three"
+              ],
+              "evidence": "Three hours."
+            },
+            {
+              "number": 5,
+              "prompt": "Price: {{blank}} pounds",
+              "answers": [
+                "12",
+                "twelve"
+              ],
+              "evidence": "twelve pounds"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-bike-for-the-weekend.m4a"
+    },
+    {
+      "title": "Choosing a presentation topic",
+      "level": "B1",
+      "ieltsPart": 3,
+      "bandMin": 4.5,
+      "bandMax": 6.0,
+      "durationSec": 70,
+      "sortOrder": 44,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Mai: We still need a topic for Friday's presentation. I wanted to talk about city bikes, but the tutor said another group has taken transport.\nKhoa: What about the library's new late hours? They stay open until ten on weekdays now.\nMai: That is useful, but it is only a short announcement. We need something we can explain for eight minutes.\nKhoa: Then let's do food waste in the student canteen. I interviewed the manager yesterday, and she said most waste is bread and salad, not meat.\nMai: Perfect. I will make the slides, and you can present the interview. We should bring one chart and finish with three tips.\nKhoa: Agreed. Let's meet at the library at four to practise once.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Why do they reject the topic of city bikes?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "another group has taken transport",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "The tutor dislikes bikes."
+                },
+                {
+                  "key": "B",
+                  "text": "Another group is already doing transport."
+                },
+                {
+                  "key": "C",
+                  "text": "They cannot find any pictures."
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "What is the problem with the library topic?",
+              "answers": [
+                "A"
+              ],
+              "evidence": "it is only a short announcement",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "There is not enough to say."
+                },
+                {
+                  "key": "B",
+                  "text": "The library closes at six."
+                },
+                {
+                  "key": "C",
+                  "text": "Students may not visit the library."
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Most canteen waste is",
+              "answers": [
+                "C"
+              ],
+              "evidence": "most waste is bread and salad, not meat",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "meat."
+                },
+                {
+                  "key": "B",
+                  "text": "rice."
+                },
+                {
+                  "key": "C",
+                  "text": "bread and salad."
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Who will present the interview?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "you can present the interview",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Mai"
+                },
+                {
+                  "key": "B",
+                  "text": "Khoa"
+                },
+                {
+                  "key": "C",
+                  "text": "The canteen manager"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "When will they practise?",
+              "answers": [
+                "A"
+              ],
+              "evidence": "meet at the library at four",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "At four in the library"
+                },
+                {
+                  "key": "B",
+                  "text": "At ten in the canteen"
+                },
+                {
+                  "key": "C",
+                  "text": "On Friday morning"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/choosing-a-presentation-topic.m4a"
+    },
+    {
+      "title": "How bees find flowers",
+      "level": "B2",
+      "ieltsPart": 4,
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "durationSec": 80,
+      "sortOrder": 45,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: A honeybee that finds a rich patch of flowers has to tell the rest of the hive. She does this with a dance on the comb, in the dark, so the other bees follow the movement rather than a picture.\nIf the flowers are close, within about fifty metres, she turns in tight circles. This round dance says the patch is near, but it does not give a direction. For anything farther, she uses a waggle dance. The angle of the straight run, compared with the top of the comb, matches the angle between the sun and the flowers. The length of the waggle tells the distance. A longer waggle means a longer flight.\nThe dance is surprisingly accurate, yet it is not a map. Wind, hills, and a cloudy sky all make the route harder, and bees still search when they arrive in the area. The dance gets them to the right neighbourhood. Their eyes and their sense of smell finish the job.",
+      "groups": [
+        {
+          "type": "NOTE_COMPLETION",
+          "instruction": "Complete the notes. Write NO MORE THAN TWO WORDS AND/OR A NUMBER.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "The dance happens in the {{blank}}.",
+              "answers": [
+                "dark"
+              ],
+              "evidence": "in the dark"
+            },
+            {
+              "number": 2,
+              "prompt": "A round dance is used within about {{blank}} metres.",
+              "answers": [
+                "50",
+                "fifty"
+              ],
+              "evidence": "within about fifty metres"
+            },
+            {
+              "number": 3,
+              "prompt": "The round dance does not give a {{blank}}.",
+              "answers": [
+                "direction"
+              ],
+              "evidence": "it does not give a direction"
+            },
+            {
+              "number": 4,
+              "prompt": "The waggle is compared with the top of the {{blank}}.",
+              "answers": [
+                "comb"
+              ],
+              "evidence": "compared with the top of the comb"
+            },
+            {
+              "number": 5,
+              "prompt": "A longer waggle means a longer {{blank}}.",
+              "answers": [
+                "flight"
+              ],
+              "evidence": "A longer waggle means a longer flight."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/how-bees-find-flowers.m4a"
+    },
+    {
+      "title": "Plans for the riverside park",
+      "level": "B1",
+      "ieltsPart": 3,
+      "bandMin": 4.5,
+      "bandMax": 6.0,
+      "durationSec": 75,
+      "sortOrder": 46,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lan: The council wants ideas before they rebuild the riverside park. I read the leaflet. They will keep the playground, and they have already rejected a car park.\nMinh: Good. Parents asked for two things more than anything else: a fence around the playground, and lights along the path. A cafe would be nice, but it was near the bottom of the list. Nobody supported a stage for concerts.\nLan: For the path itself, the leaflet offers wood chips or smooth stone. Wood chips get slippery, so I would choose stone, and I would add benches every fifty metres.\nMinh: Agreed. And booking the picnic lawn should stay free for schools on weekday mornings. Companies can pay to use it after three. Weekends should remain first come, first served.\nLan: Then our two recommendations are the fence and the path lights. I will send that today.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO ideas do parents want most?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "a fence around the playground, and lights along the path",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a fence around the playground"
+                },
+                {
+                  "key": "B",
+                  "text": "a small cafe"
+                },
+                {
+                  "key": "C",
+                  "text": "lights along the path"
+                },
+                {
+                  "key": "D",
+                  "text": "a stage for concerts"
+                },
+                {
+                  "key": "E",
+                  "text": "a car park"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO points do Lan and Minh agree on?",
+              "answers": [
+                "B",
+                "E"
+              ],
+              "evidence": "I would choose stone, and I would add benches",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a surface of wood chips"
+                },
+                {
+                  "key": "B",
+                  "text": "a surface of stone"
+                },
+                {
+                  "key": "C",
+                  "text": "no benches"
+                },
+                {
+                  "key": "D",
+                  "text": "benches every twenty metres"
+                },
+                {
+                  "key": "E",
+                  "text": "benches every fifty metres"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/plans-for-the-riverside-park.m4a"
+    },
+    {
+      "title": "The library late pass",
+      "level": "A2",
+      "ieltsPart": 1,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 50,
+      "sortOrder": 47,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Librarian: Central Library, how can I help?\nHoa: I would like a late pass for Thursday.\nLibrarian: Which name is on your card?\nHoa: Hoa Le.\nLibrarian: The late room is the reading room on the second floor. It stays open until nine. Please bring the pass and a bottle of water. Food is not allowed. The pass costs nothing for students.",
+      "groups": [
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form. Write NO MORE THAN TWO WORDS AND/OR A NUMBER.",
+          "wordLimit": 2,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Day: {{blank}}",
+              "answers": [
+                "Thursday"
+              ],
+              "evidence": "a late pass for Thursday"
+            },
+            {
+              "number": 2,
+              "prompt": "Name: {{blank}}",
+              "answers": [
+                "Hoa Le"
+              ],
+              "evidence": "Hoa Le"
+            },
+            {
+              "number": 3,
+              "prompt": "Room: {{blank}} room",
+              "answers": [
+                "reading"
+              ],
+              "evidence": "the reading room"
+            },
+            {
+              "number": 4,
+              "prompt": "Floor: {{blank}}",
+              "answers": [
+                "2",
+                "second",
+                "the second"
+              ],
+              "evidence": "on the second floor"
+            },
+            {
+              "number": 5,
+              "prompt": "Closes at: {{blank}}",
+              "answers": [
+                "9",
+                "nine"
+              ],
+              "evidence": "open until nine"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/the-library-late-pass.m4a"
+    },
+    {
+      "title": "A walk around the market square",
+      "level": "A2",
+      "ieltsPart": 2,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 55,
+      "sortOrder": 48,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the Saturday market. I will label five places on the plan. You are standing at number 1, the entrance, at the south edge of the square.\nOn your left, number 2 is the bakery. The smell of bread comes from there.\nNumber 3, in the middle, is the fountain. Please do not climb on it.\nOn your right, number 4 is the bookshop. It stays open until six.\nStraight ahead, at the north edge, number 5 is the bus stop. The bus to the station leaves every twenty minutes.",
+      "groups": [
+        {
+          "type": "MAP_LABELLING",
+          "instruction": "Label the plan. Write NO MORE THAN TWO WORDS for each answer.",
+          "wordLimit": 2,
+          "imageUrl": "/api/media/market-square.svg",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "1 {{blank}}",
+              "answers": [
+                "entrance"
+              ],
+              "evidence": "number 1, the entrance"
+            },
+            {
+              "number": 2,
+              "prompt": "2 {{blank}}",
+              "answers": [
+                "bakery"
+              ],
+              "evidence": "number 2 is the bakery"
+            },
+            {
+              "number": 3,
+              "prompt": "3 {{blank}}",
+              "answers": [
+                "fountain"
+              ],
+              "evidence": "Number 3, in the middle, is the fountain"
+            },
+            {
+              "number": 4,
+              "prompt": "4 {{blank}}",
+              "answers": [
+                "bookshop"
+              ],
+              "evidence": "number 4 is the bookshop"
+            },
+            {
+              "number": 5,
+              "prompt": "5 {{blank}}",
+              "answers": [
+                "bus stop"
+              ],
+              "evidence": "number 5 is the bus stop"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-walk-around-the-market-square.m4a"
+    },
+    {
+      "title": "Stalls for the school fair",
+      "level": "B1",
+      "ieltsPart": 3,
+      "bandMin": 4.5,
+      "bandMax": 6.0,
+      "durationSec": 70,
+      "sortOrder": 49,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Mai: The school fair needs two stalls from our class. The list has five ideas.\nNam: A cake stall takes too long to bake. A book stall is fine, and so is a plant stall. The game stall needs prizes we do not have. The photo stall needs a camera from the office, and the office said no.\nMai: So we take the book stall and the plant stall.\nNam: Yes. Now the times. Friday at four is the football match, so the hall is full. Saturday morning is free, and Saturday afternoon is free too. Sunday is the teachers' meeting, so the hall is closed.\nMai: Then we run the stalls on Saturday morning and Saturday afternoon.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO stalls do Mai and Nam choose?",
+              "answers": [
+                "B",
+                "C"
+              ],
+              "evidence": "we take the book stall and the plant stall",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a cake stall"
+                },
+                {
+                  "key": "B",
+                  "text": "a book stall"
+                },
+                {
+                  "key": "C",
+                  "text": "a plant stall"
+                },
+                {
+                  "key": "D",
+                  "text": "a game stall"
+                },
+                {
+                  "key": "E",
+                  "text": "a photo stall"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO times are free for the stalls?",
+              "answers": [
+                "B",
+                "C"
+              ],
+              "evidence": "Saturday morning is free, and Saturday afternoon is free too",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Friday at four"
+                },
+                {
+                  "key": "B",
+                  "text": "Saturday morning"
+                },
+                {
+                  "key": "C",
+                  "text": "Saturday afternoon"
+                },
+                {
+                  "key": "D",
+                  "text": "Sunday morning"
+                },
+                {
+                  "key": "E",
+                  "text": "Sunday afternoon"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/stalls-for-the-school-fair.m4a"
+    },
+    {
+      "title": "Five trees on the high street",
+      "level": "B2",
+      "ieltsPart": 4,
+      "bandMin": 5.0,
+      "bandMax": 6.5,
+      "durationSec": 80,
+      "sortOrder": 50,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: The council plants five kinds of tree on the high street, and each kind has one job.\nThe oak is chosen because its roots hold the river bank. It grows slowly, so the council does not use it for shade.\nThe birch stands along the school path. Its pale bark is easy for children to see after dark.\nThe maple is placed in the square for shade in July. The leaves turn red, but colour is not the reason for planting it.\nThe willow grows beside the pond because it takes up extra water after heavy rain.\nThe pine is used next to the bus station. It stays green in winter and blocks the wind.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "What job does each tree do? Choose FIVE answers from the box and write the correct letter, A-E.",
+          "options": [
+            {
+              "key": "A",
+              "text": "holds the river bank"
+            },
+            {
+              "key": "B",
+              "text": "easy to see after dark"
+            },
+            {
+              "key": "C",
+              "text": "gives shade in July"
+            },
+            {
+              "key": "D",
+              "text": "takes up water after rain"
+            },
+            {
+              "key": "E",
+              "text": "blocks the winter wind"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Oak",
+              "answers": [
+                "A"
+              ],
+              "evidence": "its roots hold the river bank"
+            },
+            {
+              "number": 2,
+              "prompt": "Birch",
+              "answers": [
+                "B"
+              ],
+              "evidence": "easy for children to see after dark"
+            },
+            {
+              "number": 3,
+              "prompt": "Maple",
+              "answers": [
+                "C"
+              ],
+              "evidence": "placed in the square for shade in July"
+            },
+            {
+              "number": 4,
+              "prompt": "Willow",
+              "answers": [
+                "D"
+              ],
+              "evidence": "takes up extra water after heavy rain"
+            },
+            {
+              "number": 5,
+              "prompt": "Pine",
+              "answers": [
+                "E"
+              ],
+              "evidence": "blocks the wind"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/five-trees-on-the-high-street.m4a"
+    },
+    {
+      "title": "Grants for the town museum",
+      "level": "C1",
+      "ieltsPart": 3,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 75,
+      "sortOrder": 51,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Anya: The museum can fund only two of the five proposals this year.\nBen: The roof repair can wait. The surveyor said the tiles will last another winter.\nAnya: The children's workshop is cheap, and the schools have already booked dates, so that one stays. The evening lectures should stay too. Last year's talks were full, and the speakers have agreed to come for free.\nBen: The new cafe would need a kitchen we cannot afford. The digital archive is useful, but the grant rules say the university must pay for digitising, not us.\nAnya: So we fund the workshop and the lectures.\nBen: Then the cuts. We can drop the printed guidebook. Most visitors use their phones. We should also stop paying a guide on Sundays. Volunteers already cover that day.\nAnya: I want to keep the late opening on Thursday, and I want to keep the free coat check. Both bring people in when it rains.\nBen: Agreed. We cut the guidebook and the Sunday guide, and we leave Thursday and the coat check as they are.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO projects will the museum fund?",
+              "answers": [
+                "B",
+                "C"
+              ],
+              "evidence": "we fund the workshop and the lectures",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "roof repair"
+                },
+                {
+                  "key": "B",
+                  "text": "a children's workshop"
+                },
+                {
+                  "key": "C",
+                  "text": "evening lectures"
+                },
+                {
+                  "key": "D",
+                  "text": "a new cafe"
+                },
+                {
+                  "key": "E",
+                  "text": "a digital archive"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO costs will Anya and Ben cut?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "We cut the guidebook and the Sunday guide",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the printed guidebook"
+                },
+                {
+                  "key": "B",
+                  "text": "the paid Sunday guide"
+                },
+                {
+                  "key": "C",
+                  "text": "Thursday late opening"
+                },
+                {
+                  "key": "D",
+                  "text": "the free coat check"
+                },
+                {
+                  "key": "E",
+                  "text": "speaker fees"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/grants-for-the-town-museum.m4a"
+    },
+    {
+      "title": "A visit to the harbour",
+      "level": "B1",
+      "ieltsPart": 2,
+      "bandMin": 4.5,
+      "bandMax": 6.0,
+      "durationSec": 70,
+      "sortOrder": 52,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the Saturday harbour walk. I will tell you two things you may bring, and two places that are closed today.\nYou may bring a hat and a bottle of water. Please leave bikes at the gate. Dogs are not allowed on the boats. Food from outside is fine, but please do not bring glass bottles.\nThe ticket office is closed today. Buy tickets on the boat. The fish shop is also closed, because the boats came in late. The cafe is open until four. The lighthouse steps are open, and the small museum is open until three.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO things may visitors bring?",
+              "answers": [
+                "A",
+                "D"
+              ],
+              "evidence": "You may bring a hat and a bottle of water.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a hat"
+                },
+                {
+                  "key": "B",
+                  "text": "a bike"
+                },
+                {
+                  "key": "C",
+                  "text": "a dog"
+                },
+                {
+                  "key": "D",
+                  "text": "a bottle of water"
+                },
+                {
+                  "key": "E",
+                  "text": "a glass bottle"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO places are closed today?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "The ticket office is closed today. The fish shop is also closed",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the ticket office"
+                },
+                {
+                  "key": "B",
+                  "text": "the cafe"
+                },
+                {
+                  "key": "C",
+                  "text": "the fish shop"
+                },
+                {
+                  "key": "D",
+                  "text": "the lighthouse steps"
+                },
+                {
+                  "key": "E",
+                  "text": "the small museum"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-visit-to-the-harbour.m4a"
+    },
+    {
+      "title": "A call about the swimming class",
+      "level": "A2",
+      "ieltsPart": 1,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 65,
+      "sortOrder": 53,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Caller: Hello, is that the sports centre?\nReceptionist: Yes. How can I help?\nCaller: I want to know two things I should bring to the swimming class, and two times the pool is closed.\nReceptionist: Bring a towel and a swim hat. You can hire goggles here, so you do not need to bring those. Please do not bring food into the pool hall, and leave watches in a locker, not on the bench.\nThe pool is closed on Monday morning for cleaning, and on Friday evening for the club. It is open on Saturday afternoon and on Sunday morning. The shop beside the pool is closed on Wednesday, but the pool itself is open that day.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO things should the caller bring?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "Bring a towel and a swim hat.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a towel"
+                },
+                {
+                  "key": "B",
+                  "text": "goggles"
+                },
+                {
+                  "key": "C",
+                  "text": "a swim hat"
+                },
+                {
+                  "key": "D",
+                  "text": "food"
+                },
+                {
+                  "key": "E",
+                  "text": "a watch"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO times is the pool closed?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "closed on Monday morning for cleaning, and on Friday evening for the club",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Monday morning"
+                },
+                {
+                  "key": "B",
+                  "text": "Saturday afternoon"
+                },
+                {
+                  "key": "C",
+                  "text": "Friday evening"
+                },
+                {
+                  "key": "D",
+                  "text": "Sunday morning"
+                },
+                {
+                  "key": "E",
+                  "text": "Wednesday"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-call-about-the-swimming-class.m4a"
+    },
+    {
+      "title": "A walk through the town library",
+      "level": "A2",
+      "ieltsPart": 2,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 60,
+      "sortOrder": 54,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the town library. I will label five places on the plan. You are standing at number 1, the entrance, at the south side of the building.\nOn your left, number 2 is the children's room. Story time is at three.\nNumber 3, in the middle, is the desk. Ask here if you need a card.\nOn your right, number 4 is the quiet room. Please do not talk in there.\nStraight ahead, at the north end, number 5 is the computers. You may use them for one hour.",
+      "groups": [
+        {
+          "type": "MAP_LABELLING",
+          "instruction": "Label the plan. Write NO MORE THAN TWO WORDS for each answer.",
+          "wordLimit": 2,
+          "imageUrl": "/api/media/town-library.svg",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "1 {{blank}}",
+              "answers": [
+                "entrance"
+              ],
+              "evidence": "number 1, the entrance"
+            },
+            {
+              "number": 2,
+              "prompt": "2 {{blank}}",
+              "answers": [
+                "children's room",
+                "childrens room"
+              ],
+              "evidence": "number 2 is the children's room"
+            },
+            {
+              "number": 3,
+              "prompt": "3 {{blank}}",
+              "answers": [
+                "desk"
+              ],
+              "evidence": "Number 3, in the middle, is the desk"
+            },
+            {
+              "number": 4,
+              "prompt": "4 {{blank}}",
+              "answers": [
+                "quiet room"
+              ],
+              "evidence": "number 4 is the quiet room"
+            },
+            {
+              "number": 5,
+              "prompt": "5 {{blank}}",
+              "answers": [
+                "computers"
+              ],
+              "evidence": "number 5 is the computers"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-walk-through-the-town-library.m4a"
+    },
+    {
+      "title": "The Millford flood",
+      "level": "C1",
+      "ieltsPart": 4,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 80,
+      "sortOrder": 55,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: Today's short talk is about the 2019 flood in Millford. I will name two causes, and two steps the council will take.\nThe flood had two causes. Heavy rain fell for three days, and a new car park covered the field that used to soak up water. The old bridge did not cause the flood. The bridge was high enough. A broken pump at the mill was repaired a week before the rain, so that was not a cause either.\nAfter the flood, some people asked for a higher bridge and for a dam upstream. The council will not build either of those. They will widen the drains under the high street, and they will turn the car park back into a field of grass. They will also keep the Saturday market where it is.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO things caused the Millford flood?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "Heavy rain fell for three days, and a new car park covered the field",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "three days of heavy rain"
+                },
+                {
+                  "key": "B",
+                  "text": "the old bridge"
+                },
+                {
+                  "key": "C",
+                  "text": "the new car park"
+                },
+                {
+                  "key": "D",
+                  "text": "a broken pump"
+                },
+                {
+                  "key": "E",
+                  "text": "the Saturday market"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO steps will the council take?",
+              "answers": [
+                "C",
+                "D"
+              ],
+              "evidence": "They will widen the drains under the high street, and they will turn the car park back into a field of grass.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "build a higher bridge"
+                },
+                {
+                  "key": "B",
+                  "text": "build a dam upstream"
+                },
+                {
+                  "key": "C",
+                  "text": "widen the drains"
+                },
+                {
+                  "key": "D",
+                  "text": "turn the car park into grass"
+                },
+                {
+                  "key": "E",
+                  "text": "move the Saturday market"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/the-millford-flood.m4a"
+    },
+    {
+      "title": "The end of the night buses",
+      "level": "C1",
+      "ieltsPart": 4,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 80,
+      "sortOrder": 56,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: The council has ended the night buses, and the report gives two reasons. After eleven, most buses carried fewer than eight passengers. The depot also cannot staff a third night shift. The fare did not change, so price was not a cause. Roadworks on the ring road finished in May, before the decision. Complaints about noise were few, and the report sets them aside.\nTwo services will take the place of those buses. A shared taxi will leave the station every half hour until one in the morning. On Sundays, the first train will leave at six instead of seven. The old night route will not return. The council will not add a tram, and it will not keep a bus on Friday nights only.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO reasons does the lecturer give for ending the night buses?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "fewer than eight passengers. The depot also cannot staff a third night shift.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "very few passengers after eleven"
+                },
+                {
+                  "key": "B",
+                  "text": "no staff for another night shift"
+                },
+                {
+                  "key": "C",
+                  "text": "a rise in the fare"
+                },
+                {
+                  "key": "D",
+                  "text": "roadworks on the ring road"
+                },
+                {
+                  "key": "E",
+                  "text": "complaints about noise"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO services will replace the night buses?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "A shared taxi will leave the station every half hour until one. On Sundays, the first train will leave at six",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a shared taxi from the station"
+                },
+                {
+                  "key": "B",
+                  "text": "the old night route"
+                },
+                {
+                  "key": "C",
+                  "text": "an earlier Sunday train"
+                },
+                {
+                  "key": "D",
+                  "text": "a new tram"
+                },
+                {
+                  "key": "E",
+                  "text": "a Friday-night bus"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/the-end-of-the-night-buses.m4a"
+    },
+    {
+      "title": "Choosing a supervisor",
+      "level": "C1",
+      "ieltsPart": 3,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 75,
+      "sortOrder": 57,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lan: We need a supervisor before Friday. I read the staff notes.\nMinh: Dr Patel writes long comments on every draft, but she only meets students once a month. That would be slow when we are stuck.\nLan: Professor Okonkwo is the opposite. He sees his students every Tuesday, yet his notes are only a few lines. You leave the meeting knowing the next step, and you work out the detail yourself.\nMinh: Dr Silva understands the lab equipment better than anyone. The problem is June. She is at a conference for the whole month, and that is when we run the tests.\nLan: Ms Berger offered to help. She joined the department in September and has never supervised a thesis, so I would not ask her to be the main supervisor.\nMinh: Agreed. We can ask her about the library, and we can decide between Patel and Okonkwo tomorrow.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "What do Lan and Minh say about each person? Choose FOUR answers from the box and write the correct letter, A-D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dr Patel"
+            },
+            {
+              "key": "B",
+              "text": "Professor Okonkwo"
+            },
+            {
+              "key": "C",
+              "text": "Dr Silva"
+            },
+            {
+              "key": "D",
+              "text": "Ms Berger"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "writes long comments and meets students once a month",
+              "answers": [
+                "A"
+              ],
+              "evidence": "writes long comments on every draft, but she only meets students once a month"
+            },
+            {
+              "number": 2,
+              "prompt": "meets students every week and writes only a few lines",
+              "answers": [
+                "B"
+              ],
+              "evidence": "He sees his students every Tuesday, yet his notes are only a few lines."
+            },
+            {
+              "number": 3,
+              "prompt": "will be away in June, when the lab tests run",
+              "answers": [
+                "C"
+              ],
+              "evidence": "She is at a conference for the whole month, and that is when we run the tests."
+            },
+            {
+              "number": 4,
+              "prompt": "has never supervised a thesis",
+              "answers": [
+                "D"
+              ],
+              "evidence": "has never supervised a thesis"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/choosing-a-supervisor.m4a"
+    },
+    {
+      "title": "Reporting a leak in the flat",
+      "level": "B2",
+      "ieltsPart": 1,
+      "bandMin": 5.5,
+      "bandMax": 6.5,
+      "durationSec": 70,
+      "sortOrder": 58,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Caller: Hello, is that the housing office?\nOfficer: Yes. How can I help?\nCaller: There is a leak under the kitchen sink, and the light in the hall flickers. I also have a cracked window and a radiator that stays cold.\nOfficer: The engineer can fix the leak and the hall light this week. The window is booked for next month, and the radiator needs a part that has not arrived. The bathroom tap was repaired last Friday, so that one is done.\nCaller: What should I do before the visit?\nOfficer: Please be at home between two and four, and move the pots from under the sink. There is no fee on the day. You already sent a photo, so you do not need another one. Please do not leave a key with a neighbour. Someone must be in the flat.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO problems will the engineer fix this week?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "The engineer can fix the leak and the hall light this week.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the leak under the sink"
+                },
+                {
+                  "key": "B",
+                  "text": "the hall light"
+                },
+                {
+                  "key": "C",
+                  "text": "the cracked window"
+                },
+                {
+                  "key": "D",
+                  "text": "the cold radiator"
+                },
+                {
+                  "key": "E",
+                  "text": "the bathroom tap"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO things must the caller do before the visit?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "be at home between two and four, and move the pots from under the sink",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "be at home between two and four"
+                },
+                {
+                  "key": "B",
+                  "text": "pay a fee on the day"
+                },
+                {
+                  "key": "C",
+                  "text": "move the pots from under the sink"
+                },
+                {
+                  "key": "D",
+                  "text": "send another photo"
+                },
+                {
+                  "key": "E",
+                  "text": "leave a key with a neighbour"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/reporting-a-leak-in-the-flat.m4a"
+    },
+    {
+      "title": "A walk around the art gallery",
+      "level": "B1",
+      "ieltsPart": 2,
+      "bandMin": 4.0,
+      "bandMax": 5.5,
+      "durationSec": 65,
+      "sortOrder": 59,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the art gallery. I will label five places on the plan. You are standing at number 1, the entrance, on the south side of the building.\nOn your left, number 2 is the shop. Cards and prints are sold there.\nNumber 3, in the middle, is the cafe. It closes at four.\nOn your right, number 4 is the studio. Children paint there on Saturday.\nStraight ahead, at the north end, number 5 is the paintings. Please do not touch them.",
+      "groups": [
+        {
+          "type": "MAP_LABELLING",
+          "instruction": "Label the plan. Write NO MORE THAN TWO WORDS for each answer.",
+          "wordLimit": 2,
+          "imageUrl": "/api/media/art-gallery.svg",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "1 {{blank}}",
+              "answers": [
+                "entrance"
+              ],
+              "evidence": "number 1, the entrance"
+            },
+            {
+              "number": 2,
+              "prompt": "2 {{blank}}",
+              "answers": [
+                "shop"
+              ],
+              "evidence": "number 2 is the shop"
+            },
+            {
+              "number": 3,
+              "prompt": "3 {{blank}}",
+              "answers": [
+                "cafe"
+              ],
+              "evidence": "Number 3, in the middle, is the cafe"
+            },
+            {
+              "number": 4,
+              "prompt": "4 {{blank}}",
+              "answers": [
+                "studio"
+              ],
+              "evidence": "number 4 is the studio"
+            },
+            {
+              "number": 5,
+              "prompt": "5 {{blank}}",
+              "answers": [
+                "paintings"
+              ],
+              "evidence": "number 5 is the paintings"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-walk-around-the-art-gallery.m4a"
+    },
+    {
+      "title": "Plans for the class picnic",
+      "level": "A2",
+      "ieltsPart": 3,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 65,
+      "sortOrder": 60,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lan: We need food for the class picnic.\nMinh: Let's buy bread and juice. My mum will bring a cake, so we do not need one. Crisps are too salty, and we already have apples at home.\nLan: Where can we sit on Saturday?\nMinh: The park is free in the morning, and the school field is free after lunch. The river cafe wants money. The museum garden is closed, and the sports hall is for a match.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO things will they buy?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "Let's buy bread and juice.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "bread"
+                },
+                {
+                  "key": "B",
+                  "text": "juice"
+                },
+                {
+                  "key": "C",
+                  "text": "a cake"
+                },
+                {
+                  "key": "D",
+                  "text": "crisps"
+                },
+                {
+                  "key": "E",
+                  "text": "apples"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO places are free on Saturday?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "The park is free in the morning, and the school field is free after lunch.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the park in the morning"
+                },
+                {
+                  "key": "B",
+                  "text": "the river cafe"
+                },
+                {
+                  "key": "C",
+                  "text": "the school field after lunch"
+                },
+                {
+                  "key": "D",
+                  "text": "the museum garden"
+                },
+                {
+                  "key": "E",
+                  "text": "the sports hall"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/plans-for-the-class-picnic.m4a"
+    },
+    {
+      "title": "Four studies of city noise",
+      "level": "C1",
+      "ieltsPart": 4,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 75,
+      "sortOrder": 61,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: Four studies help the council decide where to put a night bus.\nDr Ahmed recorded sleep in fifty flats. She found that traffic noise after midnight cuts deep sleep, even when people say they are used to it.\nProfessor Lind did not stand on the street. He measured noise inside bedrooms, with the windows closed, and that figure was lower than the street reading.\nDr Costa looked at trees. A row of trees along a road lowers the noise by a small amount, but it does not remove it.\nMs Okada checked the method. She warned that one week of data is too short to judge a whole year, because summer nights are quieter than winter nights.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "What does each person say about city noise? Choose FOUR answers from the box and write the correct letter, A-D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dr Ahmed"
+            },
+            {
+              "key": "B",
+              "text": "Professor Lind"
+            },
+            {
+              "key": "C",
+              "text": "Dr Costa"
+            },
+            {
+              "key": "D",
+              "text": "Ms Okada"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "traffic noise after midnight cuts deep sleep",
+              "answers": [
+                "A"
+              ],
+              "evidence": "traffic noise after midnight cuts deep sleep"
+            },
+            {
+              "number": 2,
+              "prompt": "measured noise inside bedrooms, not on the street",
+              "answers": [
+                "B"
+              ],
+              "evidence": "He measured noise inside bedrooms, with the windows closed"
+            },
+            {
+              "number": 3,
+              "prompt": "trees along a road lower the noise only a little",
+              "answers": [
+                "C"
+              ],
+              "evidence": "A row of trees along a road lowers the noise by a small amount"
+            },
+            {
+              "number": 4,
+              "prompt": "one week of data is too short to judge a whole year",
+              "answers": [
+                "D"
+              ],
+              "evidence": "one week of data is too short to judge a whole year"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/four-studies-of-city-noise.m4a"
+    },
+    {
+      "title": "A call about the bike repair",
+      "level": "B1",
+      "ieltsPart": 1,
+      "bandMin": 4.0,
+      "bandMax": 5.5,
+      "durationSec": 65,
+      "sortOrder": 62,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Caller: Hello, is that the bike shop?\nMechanic: Yes. How can I help?\nCaller: My front brake is loose, the back light is broken, and the chain is dry. There is also a small hole in the front tyre, and the bell does not ring.\nMechanic: We can fix the brake and the back light today. The chain needs oil, but that is a job for tomorrow. The hole in the tyre is too small to repair, and we do not fit bells.\nCaller: What should I bring?\nMechanic: Bring the lock and the receipt. You do not need the old brake pads. Please do not bring the basket, because we take it off. And leave the helmet at home.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO problems can the shop fix today?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "We can fix the brake and the back light today.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the loose brake"
+                },
+                {
+                  "key": "B",
+                  "text": "the broken back light"
+                },
+                {
+                  "key": "C",
+                  "text": "the dry chain"
+                },
+                {
+                  "key": "D",
+                  "text": "the hole in the tyre"
+                },
+                {
+                  "key": "E",
+                  "text": "the bell"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO things must the caller bring?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "Bring the lock and the receipt.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the lock"
+                },
+                {
+                  "key": "B",
+                  "text": "the old brake pads"
+                },
+                {
+                  "key": "C",
+                  "text": "the receipt"
+                },
+                {
+                  "key": "D",
+                  "text": "the basket"
+                },
+                {
+                  "key": "E",
+                  "text": "the helmet"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-call-about-the-bike-repair.m4a"
+    },
+    {
+      "title": "A walk around the town theatre",
+      "level": "B2",
+      "ieltsPart": 2,
+      "bandMin": 5.5,
+      "bandMax": 6.5,
+      "durationSec": 65,
+      "sortOrder": 63,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the town theatre. I will label five places on the plan. You are standing at number 1, the entrance, on the south side of the building.\nOn your left, number 2 is the box office. Collect your tickets there before six.\nNumber 3, in the middle, is the cloakroom. Bags stay here during the show.\nOn your right, number 4 is the cafe. It opens one hour before the play.\nStraight ahead, at the north end, number 5 is the stage. Please stay behind the rope.",
+      "groups": [
+        {
+          "type": "MAP_LABELLING",
+          "instruction": "Label the plan. Write NO MORE THAN TWO WORDS for each answer.",
+          "wordLimit": 2,
+          "imageUrl": "/api/media/town-theatre.svg",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "1 {{blank}}",
+              "answers": [
+                "entrance"
+              ],
+              "evidence": "number 1, the entrance"
+            },
+            {
+              "number": 2,
+              "prompt": "2 {{blank}}",
+              "answers": [
+                "box office"
+              ],
+              "evidence": "number 2 is the box office"
+            },
+            {
+              "number": 3,
+              "prompt": "3 {{blank}}",
+              "answers": [
+                "cloakroom"
+              ],
+              "evidence": "Number 3, in the middle, is the cloakroom"
+            },
+            {
+              "number": 4,
+              "prompt": "4 {{blank}}",
+              "answers": [
+                "cafe"
+              ],
+              "evidence": "number 4 is the cafe"
+            },
+            {
+              "number": 5,
+              "prompt": "5 {{blank}}",
+              "answers": [
+                "stage"
+              ],
+              "evidence": "number 5 is the stage"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-walk-around-the-town-theatre.m4a"
+    },
+    {
+      "title": "A call about the conference hotel",
+      "level": "C1",
+      "ieltsPart": 1,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 70,
+      "sortOrder": 64,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Caller: Hello, I need to change a booking for the linguistics conference.\nReceptionist: The new rate covers breakfast and the airport shuttle. It does not include dinner, a late checkout, or a desk in the room.\nCaller: Which nights are still free?\nReceptionist: We are full on Thursday night and on Sunday night. Wednesday is the night you already hold. Friday and Saturday still have rooms, so you could arrive a day later and leave before Sunday.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO things does the new rate include?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "The new rate covers breakfast and the airport shuttle.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "breakfast"
+                },
+                {
+                  "key": "B",
+                  "text": "the airport shuttle"
+                },
+                {
+                  "key": "C",
+                  "text": "dinner"
+                },
+                {
+                  "key": "D",
+                  "text": "a late checkout"
+                },
+                {
+                  "key": "E",
+                  "text": "a desk in the room"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO nights is the hotel full?",
+              "answers": [
+                "B",
+                "E"
+              ],
+              "evidence": "We are full on Thursday night and on Sunday night.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Wednesday"
+                },
+                {
+                  "key": "B",
+                  "text": "Thursday"
+                },
+                {
+                  "key": "C",
+                  "text": "Friday"
+                },
+                {
+                  "key": "D",
+                  "text": "Saturday"
+                },
+                {
+                  "key": "E",
+                  "text": "Sunday"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-call-about-the-conference-hotel.m4a"
+    },
+    {
+      "title": "Helpers for the school trip",
+      "level": "A2",
+      "ieltsPart": 3,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 60,
+      "sortOrder": 65,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lan: We need four helpers for the school trip.\nMinh: Anna brings the water. She already bought two big bottles.\nLan: Ben carries the map. He knows the path to the lake.\nMinh: Cara counts the children when we get on the bus.\nLan: Dan calls the bus company if we are late. Eva wanted to take photos, but we do not need a photographer. Tom will stay at school.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "Who does each job? Choose FOUR answers from the box and write the correct letter, A-D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Anna"
+            },
+            {
+              "key": "B",
+              "text": "Ben"
+            },
+            {
+              "key": "C",
+              "text": "Cara"
+            },
+            {
+              "key": "D",
+              "text": "Dan"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "brings the water",
+              "answers": [
+                "A"
+              ],
+              "evidence": "Anna brings the water."
+            },
+            {
+              "number": 2,
+              "prompt": "carries the map",
+              "answers": [
+                "B"
+              ],
+              "evidence": "Ben carries the map."
+            },
+            {
+              "number": 3,
+              "prompt": "counts the children",
+              "answers": [
+                "C"
+              ],
+              "evidence": "Cara counts the children when we get on the bus."
+            },
+            {
+              "number": 4,
+              "prompt": "calls the bus company",
+              "answers": [
+                "D"
+              ],
+              "evidence": "Dan calls the bus company if we are late."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/helpers-for-the-school-trip.m4a"
+    },
+    {
+      "title": "New rules for the river path",
+      "level": "B2",
+      "ieltsPart": 4,
+      "bandMin": 5.5,
+      "bandMax": 6.5,
+      "durationSec": 70,
+      "sortOrder": 66,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: The council is changing the river path for two reasons. The path floods after heavy rain, and the lights failed twice last winter. The change is not a response to the new cafe, and cyclists did not ask for it. The ferry timetable is also unchanged.\nTwo things will stay the same. The path remains free, and dogs can still use it on a lead. It will not stay open all night. The council will not add a cafe on the path, and it will not charge a fee.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO reasons does the lecturer give for changing the path?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "The path floods after heavy rain, and the lights failed twice last winter.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the path floods after heavy rain"
+                },
+                {
+                  "key": "B",
+                  "text": "the lights failed last winter"
+                },
+                {
+                  "key": "C",
+                  "text": "a new cafe opened nearby"
+                },
+                {
+                  "key": "D",
+                  "text": "cyclists asked for a change"
+                },
+                {
+                  "key": "E",
+                  "text": "the ferry timetable changed"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO things will stay the same?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "The path remains free, and dogs can still use it on a lead.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the path stays free"
+                },
+                {
+                  "key": "B",
+                  "text": "the path stays open all night"
+                },
+                {
+                  "key": "C",
+                  "text": "dogs can still use the path"
+                },
+                {
+                  "key": "D",
+                  "text": "a cafe will open on the path"
+                },
+                {
+                  "key": "E",
+                  "text": "walkers will pay a fee"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/new-rules-for-the-river-path.m4a"
+    },
+    {
+      "title": "A walk around the research centre",
+      "level": "C1",
+      "ieltsPart": 2,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 70,
+      "sortOrder": 67,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the research centre. I will label five places on the plan. You are standing at number 1, the reception, on the south side. Collect your visitor card here. The cafe beside the door is not on the plan.\nOn your left, number 2 is the archive. Files from before 1990 are kept there. The computers in the corridor search only the later records.\nNumber 3, in the middle, is the laboratory. Visitors may look through the glass, but they may not enter.\nOn your right, number 4 is the seminar room. This afternoon's discussion is for staff, not for visitors.\nStraight ahead, at the north end, number 5 is the lecture hall. The public talk starts at four, and a ticket from reception is enough.",
+      "groups": [
+        {
+          "type": "MAP_LABELLING",
+          "instruction": "Label the plan. Write NO MORE THAN TWO WORDS for each answer.",
+          "wordLimit": 2,
+          "imageUrl": "/api/media/research-centre.svg",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "1 {{blank}}",
+              "answers": [
+                "reception"
+              ],
+              "evidence": "number 1, the reception"
+            },
+            {
+              "number": 2,
+              "prompt": "2 {{blank}}",
+              "answers": [
+                "archive"
+              ],
+              "evidence": "number 2 is the archive"
+            },
+            {
+              "number": 3,
+              "prompt": "3 {{blank}}",
+              "answers": [
+                "laboratory"
+              ],
+              "evidence": "Number 3, in the middle, is the laboratory"
+            },
+            {
+              "number": 4,
+              "prompt": "4 {{blank}}",
+              "answers": [
+                "seminar room"
+              ],
+              "evidence": "number 4 is the seminar room"
+            },
+            {
+              "number": 5,
+              "prompt": "5 {{blank}}",
+              "answers": [
+                "lecture hall"
+              ],
+              "evidence": "number 5 is the lecture hall"
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-walk-around-the-research-centre.m4a"
+    },
+    {
+      "title": "Changes to the school lunch",
+      "level": "B1",
+      "ieltsPart": 4,
+      "bandMin": 4.0,
+      "bandMax": 5.5,
+      "durationSec": 65,
+      "sortOrder": 68,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lecturer: The school is changing lunch for two reasons. The queue is too long, and too much food is thrown away. The price is not going up. Students did not ask for pizza, and the kitchen is not closing.\nTwo things will stay the same. Lunch is still free, and students can still sit outside. The break will not stay one hour. The school will not open a shop, and it will not charge a fee.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO reasons does the lecturer give for changing lunch?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "The queue is too long, and too much food is thrown away.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the queue is too long"
+                },
+                {
+                  "key": "B",
+                  "text": "too much food is thrown away"
+                },
+                {
+                  "key": "C",
+                  "text": "the price is going up"
+                },
+                {
+                  "key": "D",
+                  "text": "students asked for pizza"
+                },
+                {
+                  "key": "E",
+                  "text": "the kitchen is closing"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO things will stay the same?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "Lunch is still free, and students can still sit outside.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "lunch stays free"
+                },
+                {
+                  "key": "B",
+                  "text": "the break stays one hour"
+                },
+                {
+                  "key": "C",
+                  "text": "students can sit outside"
+                },
+                {
+                  "key": "D",
+                  "text": "a shop will open"
+                },
+                {
+                  "key": "E",
+                  "text": "students will pay a fee"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/changes-to-the-school-lunch.m4a"
+    },
+    {
+      "title": "Who is working at the sports centre",
+      "level": "A2",
+      "ieltsPart": 1,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 60,
+      "sortOrder": 69,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Caller: Hello, is that the sports centre?\nReceptionist: Yes. How can I help?\nCaller: Who is working today?\nReceptionist: Sam opens the pool at seven. Nina teaches the swimming class at nine. Omar sells tickets at the desk. Lily locks the doors at eight. Pat cleans the cafe, but that is a different job. Jo is off today.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "Who does each job? Choose FOUR answers from the box and write the correct letter, A-D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Sam"
+            },
+            {
+              "key": "B",
+              "text": "Nina"
+            },
+            {
+              "key": "C",
+              "text": "Omar"
+            },
+            {
+              "key": "D",
+              "text": "Lily"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "opens the pool",
+              "answers": [
+                "A"
+              ],
+              "evidence": "Sam opens the pool at seven."
+            },
+            {
+              "number": 2,
+              "prompt": "teaches the swimming class",
+              "answers": [
+                "B"
+              ],
+              "evidence": "Nina teaches the swimming class at nine."
+            },
+            {
+              "number": 3,
+              "prompt": "sells tickets at the desk",
+              "answers": [
+                "C"
+              ],
+              "evidence": "Omar sells tickets at the desk."
+            },
+            {
+              "number": 4,
+              "prompt": "locks the doors",
+              "answers": [
+                "D"
+              ],
+              "evidence": "Lily locks the doors at eight."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/who-is-working-at-the-sports-centre.m4a"
+    },
+    {
+      "title": "Choosing a fieldwork site",
+      "level": "B2",
+      "ieltsPart": 3,
+      "bandMin": 5.5,
+      "bandMax": 6.5,
+      "durationSec": 70,
+      "sortOrder": 70,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lan: We should pick the river site, not the hill.\nMinh: Agreed. The river is close to the bus, and the council already has last year's data. The hill is quieter, but that is not why we are choosing the river. The lab is not on the site, and the tutor did not recommend the hill.\nLan: What do we take?\nMinh: A permit, and waterproof notebooks. We do not need a drone. The tutor brings his own lunch. The old map is out of date, so leave it.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO reasons do they give for choosing the river?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "The river is close to the bus, and the council already has last year's data.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "it is close to the bus"
+                },
+                {
+                  "key": "B",
+                  "text": "the council has last year's data"
+                },
+                {
+                  "key": "C",
+                  "text": "the site is quiet"
+                },
+                {
+                  "key": "D",
+                  "text": "the lab is on the site"
+                },
+                {
+                  "key": "E",
+                  "text": "the tutor recommended the hill"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO things must they take?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "A permit, and waterproof notebooks.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a permit"
+                },
+                {
+                  "key": "B",
+                  "text": "a drone"
+                },
+                {
+                  "key": "C",
+                  "text": "waterproof notebooks"
+                },
+                {
+                  "key": "D",
+                  "text": "lunch for the tutor"
+                },
+                {
+                  "key": "E",
+                  "text": "the old map"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/choosing-a-fieldwork-site.m4a"
+    },
+    {
+      "title": "A visit to the city farm",
+      "level": "A2",
+      "ieltsPart": 2,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 65,
+      "sortOrder": 71,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the city farm. Children can feed the goats and the rabbits. Please do not feed the horses. They are too big. The farmer feeds the hens, and the sheep are in the far field.\nTwo things are free. The tractor ride is free on Saturday, and you can take a map at the gate. The cafe is not free. Pony rides cost three pounds, and the shop sells postcards.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO animals can children feed?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "Children can feed the goats and the rabbits.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the goats"
+                },
+                {
+                  "key": "B",
+                  "text": "the rabbits"
+                },
+                {
+                  "key": "C",
+                  "text": "the horses"
+                },
+                {
+                  "key": "D",
+                  "text": "the hens"
+                },
+                {
+                  "key": "E",
+                  "text": "the sheep"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO things are free?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "The tractor ride is free on Saturday, and you can take a map at the gate.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the tractor ride on Saturday"
+                },
+                {
+                  "key": "B",
+                  "text": "the cafe"
+                },
+                {
+                  "key": "C",
+                  "text": "a map at the gate"
+                },
+                {
+                  "key": "D",
+                  "text": "pony rides"
+                },
+                {
+                  "key": "E",
+                  "text": "postcards in the shop"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-visit-to-the-city-farm.m4a"
+    },
+    {
+      "title": "Who does what for the concert",
+      "level": "B1",
+      "ieltsPart": 3,
+      "bandMin": 4.0,
+      "bandMax": 5.5,
+      "durationSec": 60,
+      "sortOrder": 72,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Lan: We need four people for the concert.\nMinh: Mai prints the tickets. She has the list of names.\nLan: Leo checks the sound before seven. He knows the speakers.\nMinh: Noor welcomes the parents at the door.\nLan: Chris locks the hall at the end. Pia wanted to sell drinks, but the cafe does that. Sam is away this week.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "Who does each job? Choose FOUR answers from the box and write the correct letter, A-D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Mai"
+            },
+            {
+              "key": "B",
+              "text": "Leo"
+            },
+            {
+              "key": "C",
+              "text": "Noor"
+            },
+            {
+              "key": "D",
+              "text": "Chris"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "prints the tickets",
+              "answers": [
+                "A"
+              ],
+              "evidence": "Mai prints the tickets."
+            },
+            {
+              "number": 2,
+              "prompt": "checks the sound",
+              "answers": [
+                "B"
+              ],
+              "evidence": "Leo checks the sound before seven."
+            },
+            {
+              "number": 3,
+              "prompt": "welcomes the parents",
+              "answers": [
+                "C"
+              ],
+              "evidence": "Noor welcomes the parents at the door."
+            },
+            {
+              "number": 4,
+              "prompt": "locks the hall",
+              "answers": [
+                "D"
+              ],
+              "evidence": "Chris locks the hall at the end."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/who-does-what-for-the-concert.m4a"
+    },
+    {
+      "title": "Rules for the evening archive",
+      "level": "C1",
+      "ieltsPart": 2,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 70,
+      "sortOrder": 73,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Guide: Welcome to the evening archive. Visitors may enter two rooms. The reading room is open until nine, and the catalogue room is open for the card index. The store stays locked. The seminar room is for staff tonight, and the roof store is closed for repairs.\nYou must leave two things at the desk. Leave your bag, and leave your phone. You may keep a pencil. Keep your reader's card with you, because the door checks it. Coats can stay with you.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE_MULTI",
+          "instruction": "Choose TWO letters, A-E.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which TWO rooms may visitors enter?",
+              "answers": [
+                "A",
+                "B"
+              ],
+              "evidence": "The reading room is open until nine, and the catalogue room is open for the card index.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the reading room"
+                },
+                {
+                  "key": "B",
+                  "text": "the catalogue room"
+                },
+                {
+                  "key": "C",
+                  "text": "the store"
+                },
+                {
+                  "key": "D",
+                  "text": "the seminar room"
+                },
+                {
+                  "key": "E",
+                  "text": "the roof store"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which TWO things must visitors leave at the desk?",
+              "answers": [
+                "A",
+                "C"
+              ],
+              "evidence": "Leave your bag, and leave your phone.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a bag"
+                },
+                {
+                  "key": "B",
+                  "text": "a pencil"
+                },
+                {
+                  "key": "C",
+                  "text": "a phone"
+                },
+                {
+                  "key": "D",
+                  "text": "a reader's card"
+                },
+                {
+                  "key": "E",
+                  "text": "a coat"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/rules-for-the-evening-archive.m4a"
+    },
+    {
+      "title": "A talk about the school garden",
+      "level": "A2",
+      "ieltsPart": 4,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 70,
+      "sortOrder": 74,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Teacher: Hello. This is a short talk about the school garden. The garden opened in May. The children grow beans. They do not grow tomatoes. Tomatoes come from the market. Flowers are only in the park.\nThe class works in the garden on Friday afternoon. Monday is sports day, so they do not go then. Saturday is for families.\nThe river is too far. The water comes from a blue tank beside the shed. Do not use the kitchen tap. That tap is for cooking.\nThe children do not eat the beans in class. They sell them at the school fair. They do not give them to the park. The money buys new tools.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "When did the garden open?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "The garden opened in May.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "in March"
+                },
+                {
+                  "key": "B",
+                  "text": "in May"
+                },
+                {
+                  "key": "C",
+                  "text": "in September"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "What do the children grow?",
+              "answers": [
+                "A"
+              ],
+              "evidence": "The children grow beans.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "beans"
+                },
+                {
+                  "key": "B",
+                  "text": "tomatoes"
+                },
+                {
+                  "key": "C",
+                  "text": "flowers"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "When does the class work in the garden?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "The class works in the garden on Friday afternoon.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "on Monday"
+                },
+                {
+                  "key": "B",
+                  "text": "on Friday afternoon"
+                },
+                {
+                  "key": "C",
+                  "text": "on Saturday"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "Where does the water come from?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "The water comes from a blue tank beside the shed.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the river"
+                },
+                {
+                  "key": "B",
+                  "text": "a blue tank"
+                },
+                {
+                  "key": "C",
+                  "text": "the kitchen tap"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "What do the children do with the beans?",
+              "answers": [
+                "C"
+              ],
+              "evidence": "They sell them at the school fair.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "eat them in class"
+                },
+                {
+                  "key": "B",
+                  "text": "give them to the park"
+                },
+                {
+                  "key": "C",
+                  "text": "sell them at the school fair"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-talk-about-the-school-garden.m4a"
+    },
+    {
+      "title": "A call about the clinic rota",
+      "level": "B2",
+      "ieltsPart": 1,
+      "bandMin": 5.5,
+      "bandMax": 6.5,
+      "durationSec": 70,
+      "sortOrder": 75,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Caller: Hello. I am checking the clinic rota for Thursday.\nReceptionist: Dr Khan sees the morning patients. Ms Ortiz runs the vaccine room from ten. Mr Blake answers the phone after lunch. Dr Sen reads the test results in the lab.\nCaller: Does Dr Sen answer the phone as well?\nReceptionist: No. She stays in the lab. And Mr Blake does not see patients. The evening clinic is closed on Thursday.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "Who does each job? Choose FOUR answers from the box and write the correct letter, A-D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dr Khan"
+            },
+            {
+              "key": "B",
+              "text": "Ms Ortiz"
+            },
+            {
+              "key": "C",
+              "text": "Mr Blake"
+            },
+            {
+              "key": "D",
+              "text": "Dr Sen"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "sees the morning patients",
+              "answers": [
+                "A"
+              ],
+              "evidence": "Dr Khan sees the morning patients."
+            },
+            {
+              "number": 2,
+              "prompt": "runs the vaccine room",
+              "answers": [
+                "B"
+              ],
+              "evidence": "Ms Ortiz runs the vaccine room from ten."
+            },
+            {
+              "number": 3,
+              "prompt": "answers the phone after lunch",
+              "answers": [
+                "C"
+              ],
+              "evidence": "Mr Blake answers the phone after lunch."
+            },
+            {
+              "number": 4,
+              "prompt": "reads the test results",
+              "answers": [
+                "D"
+              ],
+              "evidence": "Dr Sen reads the test results in the lab."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-call-about-the-clinic-rota.m4a"
+    },
+    {
+      "title": "A call about the thesis defence",
+      "level": "C1",
+      "ieltsPart": 1,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 70,
+      "sortOrder": 76,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Caller: Hello. I am calling about my thesis defence.\nReceptionist: It is on Thursday, in the seminar room. Wednesday is the faculty meeting, so that day is closed.\nCaller: Which floor is the room on?\nReceptionist: The third floor. The ground floor is only the waiting room.\nCaller: And the time?\nReceptionist: It starts at two. The ten o'clock slot is the library tour, not your defence.\nCaller: Should I bring a projector?\nReceptionist: No. The slides are already on the room computer. Please bring two printed copies of the thesis. The examiners sit at the front table. You stand at the lectern. Guests sit at the back.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which day is the defence?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "It is on Thursday, in the seminar room.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Wednesday"
+                },
+                {
+                  "key": "B",
+                  "text": "Thursday"
+                },
+                {
+                  "key": "C",
+                  "text": "Friday"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "Which floor is the seminar room on?",
+              "answers": [
+                "A"
+              ],
+              "evidence": "The third floor.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "the third floor"
+                },
+                {
+                  "key": "B",
+                  "text": "the ground floor"
+                },
+                {
+                  "key": "C",
+                  "text": "the basement"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "What time does the defence start?",
+              "answers": [
+                "C"
+              ],
+              "evidence": "It starts at two.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "at ten"
+                },
+                {
+                  "key": "B",
+                  "text": "at noon"
+                },
+                {
+                  "key": "C",
+                  "text": "at two"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "What should the candidate bring?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "Please bring two printed copies of the thesis.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "a projector"
+                },
+                {
+                  "key": "B",
+                  "text": "two printed copies"
+                },
+                {
+                  "key": "C",
+                  "text": "the slides on a laptop"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "Where do the examiners sit?",
+              "answers": [
+                "A"
+              ],
+              "evidence": "The examiners sit at the front table.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "at the front table"
+                },
+                {
+                  "key": "B",
+                  "text": "at the lectern"
+                },
+                {
+                  "key": "C",
+                  "text": "at the back"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-call-about-the-thesis-defence.m4a"
+    },
+    {
+      "title": "Who planned the school show",
+      "level": "B1",
+      "ieltsPart": 4,
+      "bandMin": 4.0,
+      "bandMax": 5.5,
+      "durationSec": 70,
+      "sortOrder": 77,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Teacher: This short talk is about the people who planned the school show. Mia chooses the songs. She does not sell tickets. Tom sells the tickets at the door. Sara paints the posters. Jack checks the lights before the show. Nina wanted to sing, but the choir is already full. Ben is away this week.",
+      "groups": [
+        {
+          "type": "MATCHING_FEATURES",
+          "instruction": "Who does each job? Choose FOUR answers from the box and write the correct letter, A-D.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Mia"
+            },
+            {
+              "key": "B",
+              "text": "Tom"
+            },
+            {
+              "key": "C",
+              "text": "Sara"
+            },
+            {
+              "key": "D",
+              "text": "Jack"
+            }
+          ],
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "chooses the songs",
+              "answers": [
+                "A"
+              ],
+              "evidence": "Mia chooses the songs."
+            },
+            {
+              "number": 2,
+              "prompt": "sells the tickets at the door",
+              "answers": [
+                "B"
+              ],
+              "evidence": "Tom sells the tickets at the door."
+            },
+            {
+              "number": 3,
+              "prompt": "paints the posters",
+              "answers": [
+                "C"
+              ],
+              "evidence": "Sara paints the posters."
+            },
+            {
+              "number": 4,
+              "prompt": "checks the lights",
+              "answers": [
+                "D"
+              ],
+              "evidence": "Jack checks the lights before the show."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/who-planned-the-school-show.m4a"
+    },
+    {
+      "title": "A call about a flat viewing",
+      "level": "B2",
+      "ieltsPart": 1,
+      "bandMin": 5.5,
+      "bandMax": 6.5,
+      "durationSec": 70,
+      "sortOrder": 78,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Agent: Good afternoon. How can I help?\nCaller: I would like to view the flat. My surname is Brooks.\nAgent: Thank you, Ms Brooks. Thursday is full. The next viewing is on Friday.\nCaller: What time on Friday?\nAgent: Not at five. The five o'clock slot has gone. Yours is at six.\nCaller: Is the flat on Hill Street?\nAgent: No. It is on River Street. I will meet you there. My name is Nina. The owner will not be at home.",
+      "groups": [
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 1,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Surname: {{blank}}",
+              "answers": [
+                "Brooks"
+              ],
+              "evidence": "My surname is Brooks."
+            },
+            {
+              "number": 2,
+              "prompt": "Day: {{blank}}",
+              "answers": [
+                "Friday"
+              ],
+              "evidence": "The next viewing is on Friday."
+            },
+            {
+              "number": 3,
+              "prompt": "Time: {{blank}}",
+              "answers": [
+                "six",
+                "6"
+              ],
+              "evidence": "Yours is at six."
+            },
+            {
+              "number": 4,
+              "prompt": "Street: {{blank}}",
+              "answers": [
+                "River"
+              ],
+              "evidence": "It is on River Street."
+            },
+            {
+              "number": 5,
+              "prompt": "Agent: {{blank}}",
+              "answers": [
+                "Nina"
+              ],
+              "evidence": "My name is Nina."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-call-about-a-flat-viewing.m4a"
+    },
+    {
+      "title": "A call about the conference badge",
+      "level": "C1",
+      "ieltsPart": 1,
+      "bandMin": 6.0,
+      "bandMax": 7.5,
+      "durationSec": 70,
+      "sortOrder": 79,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Clerk: Conference office. How can I help?\nCaller: I need a badge for Friday. My surname is Hale.\nClerk: Thank you, Dr Hale. Your session is in room fourteen, not room forty.\nCaller: Does the fee include dinner?\nClerk: No. Dinner is extra. Lunch is included.\nCaller: Where do I collect the badge?\nClerk: At the desk in the lobby. The hall does not issue badges.",
+      "groups": [
+        {
+          "type": "FORM_COMPLETION",
+          "instruction": "Complete the form. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "wordLimit": 1,
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Surname: {{blank}}",
+              "answers": [
+                "Hale"
+              ],
+              "evidence": "My surname is Hale."
+            },
+            {
+              "number": 2,
+              "prompt": "Day: {{blank}}",
+              "answers": [
+                "Friday"
+              ],
+              "evidence": "I need a badge for Friday."
+            },
+            {
+              "number": 3,
+              "prompt": "Room: {{blank}}",
+              "answers": [
+                "fourteen",
+                "14"
+              ],
+              "evidence": "Your session is in room fourteen"
+            },
+            {
+              "number": 4,
+              "prompt": "Meal included: {{blank}}",
+              "answers": [
+                "lunch"
+              ],
+              "evidence": "Lunch is included."
+            },
+            {
+              "number": 5,
+              "prompt": "Collect the badge at the {{blank}}",
+              "answers": [
+                "desk"
+              ],
+              "evidence": "At the desk in the lobby."
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/a-call-about-the-conference-badge.m4a"
+    },
+    {
+      "title": "Plans for the class party",
+      "level": "A2",
+      "ieltsPart": 3,
+      "bandMin": 3.5,
+      "bandMax": 5.0,
+      "durationSec": 70,
+      "sortOrder": 80,
+      "source": "EDU APP English (giọng đọc máy)",
+      "license": "original",
+      "transcript": "Anna: Let's have the class party on Friday.\nBen: Friday is the football match. Saturday is better.\nAnna: Saturday morning?\nBen: No. Saturday afternoon. The morning is the swimming class.\nAnna: Where shall we have it?\nBen: Not in the classroom. The classroom is too small. Let's use the school hall.\nAnna: What food shall we buy?\nBen: Cake. Not pizza. Pizza is too expensive. And juice, not cola.",
+      "groups": [
+        {
+          "type": "MULTIPLE_CHOICE",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "number": 1,
+              "prompt": "Which day is the party?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "Saturday is better.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "Friday"
+                },
+                {
+                  "key": "B",
+                  "text": "Saturday"
+                },
+                {
+                  "key": "C",
+                  "text": "Sunday"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "prompt": "What time is the party?",
+              "answers": [
+                "C"
+              ],
+              "evidence": "Saturday afternoon.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "in the morning"
+                },
+                {
+                  "key": "B",
+                  "text": "at noon"
+                },
+                {
+                  "key": "C",
+                  "text": "in the afternoon"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "prompt": "Where will the party be?",
+              "answers": [
+                "A"
+              ],
+              "evidence": "Let's use the school hall.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "in the school hall"
+                },
+                {
+                  "key": "B",
+                  "text": "in the classroom"
+                },
+                {
+                  "key": "C",
+                  "text": "in the park"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "prompt": "What food will they buy?",
+              "answers": [
+                "B"
+              ],
+              "evidence": "Cake. Not pizza.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "pizza"
+                },
+                {
+                  "key": "B",
+                  "text": "cake"
+                },
+                {
+                  "key": "C",
+                  "text": "sandwiches"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "prompt": "What will they drink?",
+              "answers": [
+                "A"
+              ],
+              "evidence": "And juice, not cola.",
+              "options": [
+                {
+                  "key": "A",
+                  "text": "juice"
+                },
+                {
+                  "key": "B",
+                  "text": "cola"
+                },
+                {
+                  "key": "C",
+                  "text": "tea"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audioUrl": "/api/media/plans-for-the-class-party.m4a"
     }
   ]
 }

@@ -1,13 +1,19 @@
 package com.edu.english.service;
 
+import com.edu.english.domain.Enums.AttemptStatus;
 import com.edu.english.domain.Enums.BandSource;
+import com.edu.english.domain.Enums.SectionRef;
 import com.edu.english.domain.Enums.Skill;
 import com.edu.english.domain.Enums.SubmissionStatus;
 import com.edu.english.domain.Enums.TaskType;
 import com.edu.english.domain.SpeakingPrompt;
 import com.edu.english.domain.SpeakingSubmission;
+import com.edu.english.domain.TestAttempt;
+import com.edu.english.repo.IeltsTestRepository;
 import com.edu.english.repo.SpeakingPromptRepository;
 import com.edu.english.repo.SpeakingSubmissionRepository;
+import com.edu.english.repo.TestAttemptRepository;
+import com.edu.english.service.GradingEvents.AttemptSpeakingFinished;
 import com.edu.english.service.GradingEvents.SpeakingSubmitted;
 import com.edu.english.service.ai.IeltsAiGrader;
 import com.edu.english.service.ai.IeltsAiGrader.GradingException;
@@ -52,6 +58,8 @@ public class SpeakingService {
   private final ObjectMapper json;
   private final Clock clock;
   private final WritingService writing;
+  private final TestAttemptRepository attempts;
+  private final IeltsTestRepository tests;
 
   public SpeakingService(
       SpeakingPromptRepository prompts,
@@ -65,7 +73,9 @@ public class SpeakingService {
       PlatformTransactionManager transactionManager,
       ObjectMapper json,
       Clock clock,
-      WritingService writing) {
+      WritingService writing,
+      TestAttemptRepository attempts,
+      IeltsTestRepository tests) {
     this.prompts = prompts;
     this.submissions = submissions;
     this.grader = grader;
@@ -78,6 +88,8 @@ public class SpeakingService {
     this.json = json;
     this.clock = clock;
     this.writing = writing;
+    this.attempts = attempts;
+    this.tests = tests;
   }
 
   @Transactional(readOnly = true)
@@ -99,11 +111,20 @@ public class SpeakingService {
   @Transactional
   public SpeakingSubmissionView submit(
       Long userId, Long promptId, String transcript, Integer durationSec, MultipartFile audio) {
+    return submit(userId, promptId, null, transcript, durationSec, audio);
+  }
+
+  /** attemptId khác null: bài nói thuộc phần Speaking của một lượt thi thử đang làm. */
+  @Transactional
+  public SpeakingSubmissionView submit(
+      Long userId, Long promptId, Long attemptId, String transcript, Integer durationSec, MultipartFile audio) {
     usage.requireQuota(userId);
     SpeakingPrompt prompt = requirePrompt(promptId);
+    if (attemptId != null) requireAttemptPrompt(userId, attemptId, promptId);
     SpeakingSubmission s = new SpeakingSubmission();
     s.setUserId(userId);
     s.setPromptId(promptId);
+    s.setAttemptId(attemptId);
     s.setTranscript(transcript == null ? "" : transcript.strip());
     s.setDurationSec(durationSec);
     s.setCreatedAt(clock.instant());
@@ -120,6 +141,7 @@ public class SpeakingService {
     }
     submissions.save(s);
     if (s.getStatus() == SubmissionStatus.PENDING) events.publishEvent(new SpeakingSubmitted(s.getId()));
+    else if (attemptId != null) events.publishEvent(new AttemptSpeakingFinished(attemptId));
     return toView(s, prompt);
   }
 
@@ -188,6 +210,11 @@ public class SpeakingService {
     s.setFeedback(writing.writeFeedback(a.summary(), a.strengths(), a.improvements(), a.corrections()));
     s.setStatus(SubmissionStatus.GRADED);
     s.setGradedAt(clock.instant());
+    if (s.getAttemptId() != null) {
+      // Band Speaking của bài thi tính trên cả phần thi, ghi một lần ở TestService.
+      events.publishEvent(new AttemptSpeakingFinished(s.getAttemptId()));
+      return;
+    }
     bands.record(s.getUserId(), Skill.SPEAKING, s.getBand(), BandSource.PRACTICE, s.getId());
     roadmap.recordProgress(s.getUserId(), TaskType.SPEAKING);
   }
@@ -199,6 +226,7 @@ public class SpeakingService {
             s -> {
               s.setStatus(SubmissionStatus.FAILED);
               s.setError(message);
+              if (s.getAttemptId() != null) events.publishEvent(new AttemptSpeakingFinished(s.getAttemptId()));
             });
   }
 
@@ -225,12 +253,41 @@ public class SpeakingService {
   }
 
   private SpeakingPromptView toView(SpeakingPrompt p, boolean attempted) {
-    return new SpeakingPromptView(p.getId(), p.getPart(), p.getTopic(), p.getQuestion(), p.getCueCardPoints(), attempted);
+    return new SpeakingPromptView(
+        p.getId(), p.getPart(), p.getTopic(), p.getQuestion(), p.getCueCardPoints(), attempted, p.getSampleAnswer());
   }
 
   private SpeakingPrompt requirePrompt(Long id) {
     if (id == null) throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Thiếu câu hỏi");
     return prompts.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Không tìm thấy câu hỏi"));
+  }
+
+  /** Bài thi phải của chính người học, còn đang làm, và có câu hỏi này trong phần Speaking. */
+  private void requireAttemptPrompt(Long userId, Long attemptId, Long promptId) {
+    TestAttempt attempt =
+        attempts.findById(attemptId).filter(a -> a.getUserId().equals(userId))
+            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Không tìm thấy bài làm"));
+    if (attempt.getStatus() != AttemptStatus.IN_PROGRESS) throw new ResponseStatusException(HttpStatus.CONFLICT, "Bài đã nộp");
+    boolean inTest =
+        tests.findById(attempt.getTestId()).stream()
+            .flatMap(t -> t.getSections().stream())
+            .anyMatch(sec -> sec.getRefType() == SectionRef.SPEAKING_PROMPT && sec.getRefId().equals(promptId));
+    if (!inTest) throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Câu hỏi không thuộc bài thi này");
+  }
+
+  /** Bài nói của một lượt thi, mới nhất trước, cho trang kết quả. */
+  @Transactional(readOnly = true)
+  public List<SpeakingSubmissionView> forAttempt(Long attemptId) {
+    List<SpeakingSubmission> list = submissions.findByAttemptIdOrderByCreatedAtAsc(attemptId);
+    Map<Long, SpeakingPrompt> byId =
+        prompts.findAllById(list.stream().map(SpeakingSubmission::getPromptId).collect(Collectors.toSet())).stream()
+            .collect(Collectors.toMap(SpeakingPrompt::getId, Function.identity()));
+    return list.stream().map(s -> toView(s, byId.get(s.getPromptId()))).toList();
+  }
+
+  @Transactional(readOnly = true)
+  public SpeakingPromptView promptView(Long id) {
+    return toView(requirePrompt(id), false);
   }
 
   private SpeakingSubmission requireOwned(Long userId, Long id) {

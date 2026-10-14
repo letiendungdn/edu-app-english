@@ -269,7 +269,9 @@ public class WritingService {
         p.getImageUrl(),
         p.getMinWords(),
         p.getTopic(),
-        attempted);
+        attempted,
+        p.getSampleAnswer(),
+        p.getSampleBand());
   }
 
   WritingPrompt requirePrompt(Long id) {

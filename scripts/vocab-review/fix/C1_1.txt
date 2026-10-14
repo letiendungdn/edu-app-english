@@ -1,0 +1,195 @@
+EN	arc	A curved line, like part of a circle.
+EN	congregation	A group of people gathered in a church for worship.
+EN	cork	A stopper for a bottle; also the light material it is made from.
+EN	wormhole	A theoretical passage through space and time.
+EN	meadow	A field of grass and wild flowers.
+EN	diesel	A heavy fuel used in some engines; a vehicle that uses this fuel.
+EN	paranoia	An unreasonable feeling that people are trying to harm you.
+EN	hare	An animal like a large rabbit with long ears and strong back legs.
+EN	revolt	An attempt by a group of people to change their government, often using violence.
+EN	caliber	The level of quality or ability of someone or something.
+EN	emerald	A bright green precious stone.
+EN	afterlife	A life that some people believe exists after death.
+EN	premature	Happening too early or before the proper time.
+EN	incidentally	By the way; used to add extra information.
+EN	tasting	An event where people try small amounts of food or drink.
+EN	wrestle	To fight by holding someone and trying to throw them down; to struggle with a problem.
+EN	tweet	A short message posted on the social media platform X (formerly Twitter); also the sound of a bird.
+EN	skunk	A small black and white animal that produces a very bad smell.
+EN	renaissance	A new period of interest and activity in something; the period of European history from the 14th to 16th century.
+EN	leftovers	Food remaining after a meal.
+EN	nag	To keep criticising someone or asking them to do something.
+EN	marrow	The soft substance inside bones.
+EN	telegraph	An old system for sending messages over long distances using electrical signals.
+EN	tar	A thick black sticky substance used to make roads.
+EN	stance	An opinion or attitude about something.
+EN	nosy	Too interested in other people's private lives.
+EN	arsenal	A collection of weapons; a building where weapons are stored.
+EN	destroyer	A small fast warship.
+EN	redhead	A person with red hair.
+EN	abide	To accept or obey a rule (abide by).
+EN	cheesy	Cheap, silly or of low quality (informal).
+EN	furnace	A container in which very high heat is produced.
+EN	cuddle	To hold someone closely in your arms to show love.
+EN	lever	A bar used to lift or move something, or a handle that operates a machine.
+EN	shaman	A person in some societies believed to communicate with spirits.
+EN	crusade	A long and determined effort to achieve something you believe in.
+EN	alligator	A large reptile similar to a crocodile.
+EN	moth	An insect like a butterfly that usually flies at night.
+EN	array	A large and varied group of things.
+EN	moan	A long low sound expressing pain or unhappiness; also to complain.
+EN	defect	A fault in something.
+EN	cruiser	A large warship; also a boat with a cabin.
+EN	slime	A thick, wet, sticky substance.
+EN	badger	A wild animal with grey fur and black and white stripes on its head.
+EN	boundary	A line marking the limit of an area.
+EN	executioner	A person whose job is to carry out death sentences.
+EN	aerial	A wire or rod for receiving radio or television signals (UK).
+EN	howl	A long loud cry, like a dog or wolf.
+EN	headphones	A device worn over the ears for listening to music or sound.
+EN	rotation	The act of turning around a central point; the act of taking turns.
+EN	mutiny	A situation in which soldiers or sailors refuse to obey their officers.
+EN	dung	Solid waste from animals.
+EN	antenna	A device for receiving radio or television signals; also a long thin sensor on an insect's head.
+EN	rust	The reddish-brown substance that forms on iron when it gets wet.
+EN	hiccup	A sudden repeated sound in the throat; also a small problem.
+EN	coaster	A small mat put under a glass to protect a table.
+EN	representation	The way someone or something is shown or described; also acting or speaking for others.
+EN	gallant	Brave; also polite and attentive to women.
+EN	pornography	Pictures, films or writing showing sexual activity, intended to cause sexual excitement.
+EN	adultery	Sex between a married person and someone who is not their husband or wife.
+EN	harp	A large musical instrument with strings played with the fingers.
+EN	anthem	A song of praise, especially a country's national song.
+EN	starter	The first course of a meal (UK); also a device that starts an engine.
+EN	cling	To hold onto something tightly.
+EN	oyster	A sea creature with a hard shell, eaten as food.
+EN	pillar	A tall strong column supporting a building; also an important part of something.
+EN	spade	A tool with a flat blade for digging.
+EN	scalp	The skin on the top of the head where hair grows.
+EN	wonderfully	In a very good or pleasant way.
+EN	obnoxious	Very unpleasant and rude.
+EN	speedy	Fast; happening quickly.
+EN	hoax	To trick people with a false story or warning.
+EN	shuffle	To mix cards into a random order; to walk slowly without lifting your feet.
+EN	glitter	Tiny shiny pieces used for decoration; also a sparkling light.
+EN	guild	An organisation of people who do the same job or have the same interest.
+EN	canary	A small yellow songbird.
+EN	braces	A device worn on the teeth to straighten them.
+EN	redeem	To exchange vouchers or points for money or goods; to make up for something bad.
+EN	sect	A small religious group that has separated from a larger one.
+EN	coordinate	One of a pair of numbers that shows an exact position on a map or graph.
+EN	enlightenment	The state of understanding something clearly; also a period of European history focused on reason.
+EN	fungus	A plant-like living thing such as a mushroom or mould.
+EN	mascot	An animal or toy used as a symbol of a team or event.
+EN	comprehend	To understand something completely.
+EN	arcade	A covered passage with shops; also a place with video games.
+EN	crest	The top of a hill or wave.
+EN	halo	A circle of light around the head of a holy person in paintings.
+EN	containment	The act of keeping something harmful under control.
+EN	rung	One of the steps of a ladder.
+EN	anarchy	A situation in which there is no government or order.
+EN	cramp	A sudden painful tightening of a muscle.
+EN	missionary	A person sent to another country to spread a religion.
+EN	infinity	A space, time or amount without limit.
+EN	tyre	The rubber covering around a wheel.
+EN	clover	A small plant with three round leaves.
+EN	vulture	A large bird that eats dead animals.
+EN	jaguar	A large wild cat with spots, living in Central and South America.
+EN	oasis	A place in a desert with water and plants; also a calm pleasant place.
+EN	archive	A collection of historical records or documents.
+EN	sterile	Completely clean and free from bacteria; unable to have children.
+EN	intimidate	To frighten someone so that they do what you want.
+EN	chaplain	A priest who works in a hospital, school, prison or the army.
+EN	sorcerer	A man with magic powers in stories.
+EN	caste	A social class in a system where people are born into their class.
+EN	wedge	A piece of wood or metal with one thick end and one thin end.
+EN	stretcher	A frame used to carry a sick or injured person lying down.
+EN	masculine	Having qualities traditionally linked with men.
+EN	spleen	An organ near the stomach that controls the blood.
+EN	enlighten	To give someone information so they understand something better.
+EN	pagan	Relating to religions that worship many gods or nature.
+EN	purge	To remove people from an organisation, often by force.
+EN	disarm	To take weapons away from someone.
+EN	chord	A group of musical notes played together.
+EN	torso	The main part of the body, without the head, arms and legs.
+EN	charcoal	A black substance made by burning wood, used as fuel or for drawing.
+EN	eel	A long thin fish that looks like a snake.
+EN	hub	The central and most important part of an activity or place.
+EN	sedan	A car with four doors and a separate boot (US).
+EN	brook	A small stream.
+EN	herring	A small silver fish that lives in the sea.
+EN	shrapnel	Small pieces of metal thrown out by an exploding bomb.
+EN	stocking	A thin piece of clothing covering the foot and leg.
+EN	rinse	To wash something quickly in clean water.
+EN	manure	Animal waste used to make soil richer.
+VI	congregation	giáo đoàn
+VI	knockout	cú hạ đo ván
+VI	teal	màu xanh mòng két
+VI	premature	sớm, non
+VI	challenger	người thách đấu
+VI	incidentally	nhân tiện
+VI	tweet	bài đăng trên X (Twitter); tiếng chim hót
+VI	tar	nhựa đường
+VI	abide	tuân theo
+VI	cheesy	sến súa
+VI	furnace	lò nung
+VI	moth	bướm đêm
+VI	array	một loạt, mảng
+VI	defect	khiếm khuyết
+VI	boundary	ranh giới
+VI	aerial	ăng-ten
+VI	headphones	tai nghe
+VI	rotation	sự quay vòng
+VI	antenna	ăng-ten; râu (côn trùng)
+VI	coaster	miếng lót cốc
+VI	gallant	dũng cảm; ga-lăng
+VI	pornography	nội dung khiêu dâm
+VI	harp	đàn hạc
+VI	starter	món khai vị; bộ khởi động
+VI	spade	cái xẻng
+VI	obnoxious	đáng ghét
+VI	speedy	nhanh chóng
+VI	hoax	lừa bịp
+VI	glitter	kim tuyến; sự lấp lánh
+VI	canary	chim hoàng yến
+VI	braces	niềng răng
+VI	redeem	đổi (điểm thưởng); chuộc lỗi
+VI	coordinate	tọa độ
+VI	arcade	khu trò chơi điện tử; dãy cửa vòm
+VI	containment	sự ngăn chặn
+VI	tyre	lốp xe
+VI	sterile	vô trùng; vô sinh
+VI	speechless	không nói nên lời
+VI	stretcher	cái cáng
+VI	masculine	nam tính
+VI	disarm	giải giáp
+VI	hub	trung tâm
+VI	sedan	xe sedan
+VI	stocking	vớ, tất dài
+VI	tuxedo	áo tuxedo
+VI	resentment	sự oán giận
+VI	wonderfully	tuyệt vời
+VI	err	mắc lỗi
+DROP	cognac	
+DROP	hag	
+DROP	tee	
+DROP	pip	
+DROP	noose	
+DROP	gallows	
+DROP	roulette	
+DROP	triad	
+DROP	monsignor	
+DROP	hydra	
+DROP	amulet	
+DROP	rye	
+DROP	bai	
+DROP	wand	
+DROP	dharma	
+DROP	sakura	
+DROP	ashtray	
+DROP	tuxedo	
+DROP	pager	
+DROP	videotape	
+DROP	banjo	
+DROP	scarecrow	
+DROP	wonderland	

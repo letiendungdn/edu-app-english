@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Outfit, sans-serif">
+  <rect width="640" height="380" fill="#e7f3ee"/>
+  <text x="40" y="28" font-size="16" fill="#1c1917">Hill Street Clinic</text>
+  <text x="560" y="28" font-size="14" fill="#1c1917">N</text>
+  <rect x="40" y="48" width="560" height="300" rx="16" fill="#f7f4ec" stroke="#1c1917"/>
+  <rect x="250" y="70" width="120" height="60" rx="8" fill="#fff" stroke="#0f6e56"/>
+  <text x="310" y="106" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">1</text>
+  <rect x="420" y="80" width="140" height="70" rx="8" fill="#fff" stroke="#0f6e56"/>
+  <text x="490" y="122" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">2</text>
+  <rect x="400" y="230" width="140" height="70" rx="8" fill="#fff" stroke="#0f6e56"/>
+  <text x="470" y="272" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">3</text>
+  <rect x="80" y="220" width="140" height="70" rx="8" fill="#fff" stroke="#0f6e56"/>
+  <text x="150" y="262" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">4</text>
+  <rect x="70" y="120" width="80" height="50" rx="8" fill="#fff" stroke="#0f6e56"/>
+  <text x="110" y="152" text-anchor="middle" font-size="22" font-weight="700" fill="#0f6e56">5</text>
+  <path d="M310 130 V200 H420 M150 220 V170 H250" stroke="#1c1917" stroke-width="3" fill="none"/>
+</svg>

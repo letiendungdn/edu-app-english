@@ -14,7 +14,10 @@
 | P2 Placement + lộ trình + dashboard | Xong | `RoadmapPlanner` là hàm thuần có test; lộ trình lưu theo phiên bản (`roadmaps.version`, bản cũ `ARCHIVED`) |
 | P3 Writing chấm AI | Xong | Claude qua SDK `anthropic-java`, structured output, chấm nền sau commit |
 | P4 Speaking | Xong, có giới hạn | Speech-to-text chạy **trên trình duyệt** (Web Speech API, cần Chrome/Edge), server chỉ lưu file audio. Pronunciation chưa chấm |
-| P5 Mock test + điều chỉnh lộ trình | Xong, có giới hạn | Mock test gồm L + R + W. **Speaking không thi trong bài thi**: band Speaking lấy từ bài luyện gần nhất |
+| P5 Mock test + điều chỉnh lộ trình | Xong | Mock test gồm L + R + W + S (Speaking từ P5c) |
+| P5b Sổ lỗi sai + thống kê dạng câu | Xong (14/10/2026) | `V5__practice_answers.sql` lưu từng câu trả lời của bài luyện, placement, thi thử. `/mistakes`, lọc bài theo dạng câu, biểu đồ band ở `/analytics` |
+| P5c Speaking trong thi thử, thêm đề, cụm từ Writing | Xong (14/10/2026) | `V6__speaking_in_test_and_phrases.sql`. Mỗi đề thi thử có 6 câu Speaking (Part 1–3), band Speaking tính từ bài nói lúc thi; 6 đề thi thử; `/writing/phrases` |
+| P5d Nội dung từ vựng + ngữ pháp cho band 6.5 | Xong (14/10/2026) | `V7__vocab_cleanup_and_families.sql` loại 243 mục không phù hợp (từ tục, tên riêng...) và thêm họ từ. 12 chủ đề IELTS (354 collocation + từ chủ đề), 302 họ từ AWL, 10 chủ đề ngữ pháp lỗi Writing, 222 câu bài tập có giải thích |
 | P6 Admin + import nội dung | **Chưa làm** | Thêm nội dung hiện tại bằng cách sửa JSON trong `backend/src/main/resources/content` |
 
 Khác với đặc tả ban đầu:
@@ -23,7 +26,7 @@ Khác với đặc tả ban đầu:
 - Bảng quy đổi điểm thô sang band (mục 3.2) lấy từ nguồn luyện thi phổ biến, không phải bảng chính thức. Bảng nằm trong DB (`band_conversions`), sửa bằng migration mới.
 - Heuristic thời gian cần để tăng band (`app.roadmap.weeks-per-half-band: 8` ở 75 phút/ngày) là giả định, chưa kiểm chứng bằng dữ liệu người học thật.
 
-Việc nên làm tiếp: P6 (admin import JSON), thêm đề (hiện có 1 mock test, dùng lại bài luyện), audio thật cho Listening, dashboard biểu đồ band theo thời gian (dữ liệu đã có ở `GET /api/ielts/bands`), test E2E giao diện.
+Việc nên làm tiếp: P6 (admin import JSON), thêm đề (hiện có 1 mock test, dùng lại bài luyện), audio thật cho Listening, test E2E giao diện.
 
 ---
 

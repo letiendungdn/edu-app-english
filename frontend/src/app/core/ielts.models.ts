@@ -122,6 +122,8 @@ export interface WritingPromptView {
   minWords: number;
   topic?: string | null;
   attempted: boolean;
+  sampleAnswer?: string | null;
+  sampleBand?: number | null;
 }
 
 export interface SectionView {
@@ -134,6 +136,7 @@ export interface SectionView {
   ttsScript?: string | null;
   groups: QuestionGroupView[];
   writing?: WritingPromptView | null;
+  speaking?: SpeakingPromptView | null;
 }
 
 export interface AttemptView {
@@ -148,6 +151,7 @@ export interface AttemptView {
   sections: SectionView[];
   answers: Record<string, string>;
   writingDrafts: Record<string, string>;
+  spokenPromptIds: number[];
 }
 
 export interface SkillScore {
@@ -214,6 +218,17 @@ export interface AttemptResult {
   bandOverall?: number | null;
   sections: SectionResult[];
   writing: WritingSubmissionView[];
+  speaking: SpeakingSubmissionView[];
+}
+
+export interface WritingPhraseView {
+  id: number;
+  task: 'TASK1' | 'TASK2' | 'BOTH';
+  category: string;
+  phrase: string;
+  meaningVi: string;
+  example: string;
+  bandMin?: number | null;
 }
 
 export interface SpeakingPromptView {
@@ -223,6 +238,7 @@ export interface SpeakingPromptView {
   question: string;
   cueCardPoints: string[];
   attempted: boolean;
+  sampleAnswer?: string | null;
 }
 
 export interface SpeakingSubmissionView {
@@ -280,6 +296,59 @@ export const FEASIBILITY_LABELS: Record<string, string> = {
   TIGHT: 'Hơi gấp',
   AT_RISK: 'Khó kịp',
 };
+
+/** Một câu trong sổ lỗi sai. */
+export interface MistakeView {
+  questionId: number;
+  skill: 'LISTENING' | 'READING';
+  questionType: string;
+  ownerId: number;
+  ownerTitle: string;
+  link: string;
+  number: number;
+  instruction: string;
+  prompt: string;
+  options: { key: string; text: string }[];
+  given?: string | null;
+  correctAnswer: string;
+  explanation?: string | null;
+  evidence?: string | null;
+  source: string;
+  answeredAt: string;
+}
+
+export interface QuestionTypeStat {
+  type: string;
+  skill?: 'LISTENING' | 'READING' | null;
+  points: number;
+  maxPoints: number;
+  percent: number;
+  weak: boolean;
+}
+
+export const QUESTION_TYPE_LABELS: Record<string, string> = {
+  MULTIPLE_CHOICE: 'Trắc nghiệm',
+  MULTIPLE_CHOICE_MULTI: 'Chọn nhiều đáp án',
+  TRUE_FALSE_NOT_GIVEN: 'True / False / Not Given',
+  YES_NO_NOT_GIVEN: 'Yes / No / Not Given',
+  MATCHING_HEADINGS: 'Matching Headings',
+  MATCHING_INFORMATION: 'Matching Information',
+  MATCHING_FEATURES: 'Matching Features',
+  MATCHING_SENTENCE_ENDINGS: 'Sentence Endings',
+  SENTENCE_COMPLETION: 'Sentence Completion',
+  SUMMARY_COMPLETION: 'Summary Completion',
+  NOTE_COMPLETION: 'Note Completion',
+  TABLE_COMPLETION: 'Table Completion',
+  FLOW_CHART_COMPLETION: 'Flow-chart Completion',
+  DIAGRAM_LABEL: 'Diagram Labelling',
+  SHORT_ANSWER: 'Short Answer',
+  FORM_COMPLETION: 'Form Completion',
+  MAP_LABELLING: 'Map Labelling',
+};
+
+export function questionTypeLabel(type: string): string {
+  return QUESTION_TYPE_LABELS[type] ?? type;
+}
 
 export const BANDS = [3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9];
 

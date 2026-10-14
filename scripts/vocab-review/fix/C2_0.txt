@@ -1,0 +1,256 @@
+EN	exacerbate	To make a problem or bad situation worse.
+EN	alleviate	To make pain or a problem less severe.
+EN	quandary	A state of not being able to decide what to do.
+EN	ramification	A possible result of an action, often one that makes the situation more complicated.
+EN	substantiate	To provide evidence to prove that something is true.
+EN	tentative	Not certain or final; done without confidence.
+EN	unequivocal	Completely clear and without any doubt.
+EN	analogous	Similar in some way and so able to be compared.
+EN	anomaly	Something that is different from what is normal or expected.
+EN	antithesis	The exact opposite of something.
+EN	appease	To make someone calmer by giving them what they want.
+EN	archaic	Very old or old-fashioned.
+EN	assuage	To make an unpleasant feeling less strong.
+EN	austere	Simple and plain, without decoration or comfort.
+EN	caustic	Unkind and critical in a clever way; also able to burn chemically.
+EN	circumvent	To find a way of avoiding a rule or difficulty.
+EN	coalesce	To come together to form one group or mass.
+EN	concede	To admit, often unwillingly, that something is true.
+EN	delineate	To describe or mark the exact limits of something.
+EN	digress	To move away from the main subject when speaking or writing.
+EN	discern	To notice or understand something that is not obvious.
+EN	dissent	Strong disagreement with an official opinion.
+EN	dogmatic	Insisting that your beliefs are right without considering other opinions.
+EN	emulate	To copy someone because you admire them.
+EN	endemic	Regularly found in a particular place or group of people.
+EN	enervate	To make someone feel weak and tired.
+EN	equivocal	Unclear and possibly deliberately misleading.
+EN	exasperate	To make someone very annoyed.
+EN	expound	To explain something in detail.
+EN	extraneous	Not relevant to the subject.
+EN	extrapolate	To use known facts to estimate something unknown.
+EN	fathom	To understand something after careful thought.
+EN	hiatus	A pause or break in activity.
+EN	incisive	Clear and direct, showing sharp understanding.
+EN	ineffable	Too great or extreme to be described in words.
+EN	ingenuous	Honest, innocent and willing to trust people.
+EN	innocuous	Not harmful or offensive.
+EN	insinuate	To suggest something unpleasant in an indirect way.
+EN	intransigent	Refusing to change your opinion.
+EN	maverick	An independent person who thinks and acts differently from others.
+EN	meander	To follow a winding course; to wander without purpose.
+EN	mollify	To make someone less angry.
+EN	mundane	Ordinary and boring.
+EN	obviate	To remove the need for something.
+EN	ostensible	Seeming to be true but possibly hiding the real situation.
+EN	paramount	More important than anything else.
+EN	profligate	Wasting money or resources carelessly.
+EN	prolific	Producing a lot of work or results.
+EN	provincial	Relating to areas away from the capital; also narrow-minded.
+EN	rectify	To correct something that is wrong.
+EN	relegate	To move someone or something to a lower position.
+EN	sagacious	Wise and showing good judgement.
+EN	sanguine	Hopeful and positive about the future.
+EN	seminal	Very important and influencing later developments.
+EN	tangential	Only slightly connected to the main subject.
+EN	tenuous	Very weak or slight.
+EN	trenchant	Expressed strongly and clearly.
+EN	vacillate	To keep changing your mind.
+EN	veracity	The quality of being true or accurate.
+EN	vicarious	Experienced through another person rather than directly.
+EN	vicissitude	A change in circumstances, usually for the worse.
+EN	vitriolic	Full of bitter, angry criticism.
+EN	echo	A sound that is heard again because it bounces off a surface.
+EN	abject	Very bad and hopeless.
+EN	ore	Rock or earth from which metal can be taken.
+EN	cocoon	The silk cover that some insects make around themselves before becoming adults.
+EN	axiom	A statement accepted as true without needing proof.
+EN	reconciliation	The process of two people or groups becoming friendly again after an argument.
+EN	aberration	Something that is different from what is normal or expected.
+EN	brood	To keep thinking about something that makes you unhappy.
+EN	derelict	In very bad condition because it has not been used for a long time.
+EN	indulgence	The act of allowing yourself to have something enjoyable.
+EN	disperse	To spread out over a wide area.
+EN	insular	Interested only in your own group and not open to new ideas.
+EN	prostrate	Lying flat on the ground facing down.
+EN	declination	A polite refusal.
+EN	babble	To talk quickly in a way that is difficult to understand.
+EN	equilibrium	A state of balance between opposing forces.
+EN	interrogative	Used to ask a question.
+EN	pedestal	A base on which a statue stands.
+EN	secular	Not religious.
+EN	solitude	The state of being alone, especially when you enjoy it.
+EN	consign	To send or put something somewhere to get rid of it.
+EN	quiver	To shake slightly.
+EN	resuscitate	To bring someone back to consciousness or life.
+EN	astringent	A liquid used to clean skin and make it tighter.
+EN	thicket	A thick group of bushes and small trees.
+EN	amorphous	Without a clear shape or structure.
+EN	apostle	A strong supporter of an idea; one of the twelve followers of Jesus.
+EN	legion	A large number of people; a large group of soldiers.
+EN	python	A large snake that kills animals by squeezing them.
+EN	rake	A garden tool with a long handle and teeth for collecting leaves.
+EN	assassinate	To murder an important person for political reasons.
+EN	meltdown	A serious accident in a nuclear power station; also a sudden collapse.
+EN	mink	A small animal with valuable fur.
+EN	horseman	A man who rides horses.
+EN	fret	To worry about something.
+EN	cylinder	A solid shape with circular ends and long straight sides.
+EN	twenty-four	The number 24.
+EN	encore	An extra performance at the end of a concert because the audience asks for it.
+EN	barbarian	A person who is wild and uncivilised.
+EN	brownie	A small square chocolate cake.
+EN	chastity	The state of not having sex.
+EN	virtuous	Having good moral qualities.
+EN	suffocate	To die or make someone die from lack of air.
+EN	stalk	The main stem of a plant; also to follow someone secretly.
+EN	rugged	Rough and uneven; strong and tough.
+EN	crimson	Deep red.
+EN	coupon	A piece of paper that gives you a discount.
+EN	catfish	A fish with long whiskers around its mouth.
+EN	gore	Blood from a wound, especially in films.
+EN	chestnut	A smooth brown nut that can be eaten roasted.
+EN	illegitimate	Not allowed by law; born to parents who are not married.
+EN	grinder	A machine that crushes food such as coffee into small pieces.
+EN	coil	A series of loops formed by winding something.
+EN	cheesecake	A sweet cake made with soft cheese.
+EN	nebula	A cloud of gas and dust in space.
+EN	pasture	Land covered with grass for animals to eat.
+EN	compact	Small and taking up little space.
+EN	atlas	A book of maps.
+EN	birch	A tree with thin white bark.
+EN	inferno	A very large dangerous fire.
+EN	linden	A tree with heart-shaped leaves and sweet-smelling flowers.
+EN	foil	Very thin metal sheet used to wrap food.
+EN	orthodox	Following traditional or accepted beliefs.
+EN	cougar	A large wild cat living in America.
+EN	slipper	A soft comfortable shoe worn indoors.
+EN	rabid	Having rabies; also having extreme opinions.
+EN	malt	Grain used to make beer and whisky.
+EN	ostrich	A very large bird that cannot fly.
+EN	envoy	A person sent to represent a government.
+EN	twenty-two	The number 22.
+EN	constellation	A group of stars forming a pattern.
+EN	muzzle	The nose and mouth of an animal; a cover put over it.
+EN	gobble	To eat food quickly.
+EN	ignite	To start burning or cause something to burn; to start a strong feeling.
+EN	groin	The area where the legs join the body.
+EN	toothless	Having no teeth; having no real power.
+EN	confiscate	To officially take something away from someone.
+EN	ether	A chemical once used to make people unconscious.
+EN	wrinkled	Having small lines or folds.
+EN	twenty-one	The number 21.
+EN	latitude	The distance of a place north or south of the equator.
+EN	chameleon	A lizard that can change its colour.
+EN	trough	A long container for animal food or water.
+EN	reconstruct	To build or create something again.
+EN	complication	Something that makes a situation more difficult; a new medical problem.
+EN	slum	A poor crowded area of a city.
+EN	mandate	The authority given to a government by voters; an official order.
+EN	cram	To study a lot in a short time before an exam.
+VI	echo	tiếng vang
+VI	abject	thảm hại
+VI	ore	quặng
+VI	axiom	tiên đề
+VI	reconciliation	sự hòa giải
+VI	hysteria	sự kích động
+VI	aberration	sự lệch lạc
+VI	brood	nghiền ngẫm (chuyện buồn)
+VI	derelict	đổ nát, bỏ hoang
+VI	indulgence	sự nuông chiều bản thân
+VI	residue	cặn, phần còn lại
+VI	disperse	phân tán
+VI	insular	hẹp hòi, khép kín
+VI	declination	sự từ chối
+VI	babble	nói líu lo
+VI	chronology	trình tự thời gian
+VI	consign	gửi đi, bỏ vào
+VI	quiver	run rẩy
+VI	coax	dỗ dành
+VI	legion	đông đảo; binh đoàn
+VI	rake	cái cào
+VI	elope	bỏ trốn theo người yêu
+VI	fret	lo lắng
+VI	clueless	không biết gì
+VI	brownie	bánh brownie
+VI	chastity	sự trinh tiết
+VI	virtuous	đức hạnh
+VI	rugged	gồ ghề; rắn rỏi
+VI	coupon	phiếu giảm giá
+VI	catfish	cá trê
+VI	vendor	người bán hàng
+VI	illegitimate	bất hợp pháp; con ngoài giá thú
+VI	illiterate	mù chữ
+VI	grinder	máy xay
+VI	coil	cuộn
+VI	cheesecake	bánh phô mai
+VI	nebula	tinh vân
+VI	pasture	đồng cỏ
+VI	proceeds	tiền thu được
+VI	compact	nhỏ gọn
+VI	birch	cây bạch dương
+VI	linden	cây đoạn
+VI	orthodox	chính thống
+VI	cougar	báo sư tử
+VI	dwelling	chỗ ở
+VI	rabid	mắc bệnh dại; cuồng nhiệt
+VI	slipper	dép đi trong nhà
+VI	featured	nổi bật
+VI	twenty-two	hai mươi hai
+VI	gobble	ăn ngấu nghiến
+VI	groin	háng
+VI	toothless	móm; không có thực quyền
+VI	confiscate	tịch thu
+VI	u-turn	quay đầu xe
+VI	deodorant	chất khử mùi
+VI	milkshake	sữa lắc
+VI	sturdy	chắc chắn
+VI	crimson	đỏ thẫm
+VI	pathology	bệnh lý học
+VI	cylinder	hình trụ
+VI	stalk	cuống; theo dõi lén
+DROP	iranian	
+DROP	hui	
+DROP	finnish	
+DROP	saxon	
+DROP	armenian	
+DROP	cantonese	
+DROP	rom	
+DROP	baht	
+DROP	blowjob	
+DROP	masturbation	
+DROP	fetish	
+DROP	thong	
+DROP	topless	
+DROP	harem	
+DROP	geisha	
+DROP	schnapps	
+DROP	pika	
+DROP	wolverine	
+DROP	emery	
+DROP	dojo	
+DROP	lama	
+DROP	mahjong	
+DROP	talisman	
+DROP	guillotine	
+DROP	vendetta	
+DROP	gladiator	
+DROP	hearse	
+DROP	burp	
+DROP	toot	
+DROP	eureka	
+DROP	walkie-talkie	
+DROP	taser	
+DROP	teleport	
+DROP	buzzard	
+DROP	dwarfism	
+DROP	polysyllabic	
+DROP	plutocrat	
+DROP	floe	
+DROP	swordsman	
+DROP	bellows	
+DROP	slag	
+DROP	carmine	
+DROP	machete	
+DROP	snort	
+DROP	pedophile	

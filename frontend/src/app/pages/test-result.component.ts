@@ -1,7 +1,7 @@
 import { Component, inject, OnDestroy, OnInit, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ApiService } from '../core/api.service';
-import { AttemptResult, band, SKILL_LABELS } from '../core/ielts.models';
+import { AttemptResult, band, SKILL_LABELS, SpeakingSubmissionView } from '../core/ielts.models';
 import { FeedbackComponent } from '../shared/feedback.component';
 
 @Component({
@@ -18,14 +18,33 @@ import { FeedbackComponent } from '../shared/feedback.component';
           <div class="card band-card"><div class="muted">Reading</div><div class="band-big">{{ fmt(r.reading?.band) }}</div>
             @if (r.reading) { <div class="muted">{{ r.reading.raw }}/{{ r.reading.total }}</div> }</div>
           <div class="card band-card"><div class="muted">Writing</div><div class="band-big">{{ pending() ? '…' : fmt(r.bandWriting) }}</div></div>
-          <div class="card band-card"><div class="muted">Speaking*</div><div class="band-big">{{ fmt(r.bandSpeaking) }}</div></div>
+          <div class="card band-card"><div class="muted">Speaking{{ spokenInTest() ? '' : '*' }}</div><div class="band-big">{{ speakingPending() ? '…' : fmt(r.bandSpeaking) }}</div></div>
           <div class="card band-card target"><div class="muted">Overall</div><div class="band-big">{{ pending() ? '…' : fmt(r.bandOverall) }}</div></div>
         </div>
         <p class="muted" style="font-size: 0.8rem; margin: 0.4rem 0 1rem;">
-          * Speaking không thi trong bài này: lấy band Speaking gần đây của bạn, chưa có thì Overall tính trên các kỹ năng còn lại.
+          @if (!spokenInTest()) {
+            * Không có bài nói chấm được trong lần thi này: lấy band Speaking gần đây của bạn, chưa có thì Overall tính trên các kỹ năng còn lại.
+          }
           @if (shortTest()) { Bài ít hơn 40 câu nên band Listening/Reading được quy đổi theo tỉ lệ, chỉ mang tính ước lượng. }
         </p>
-        @if (pending()) { <div class="card warn">Writing đang được AI chấm, trang tự cập nhật khi xong.</div> }
+        @if (skipped().length) {
+          <div class="card warn">
+            {{ skipped().join(' và ') }} bỏ trống quá nửa số câu nên không quy ra band và không tính vào band hiện tại của bạn.
+            @if (r.kind === 'PLACEMENT') { Hãy làm lại bài kiểm tra đầu vào để app lập lộ trình sát hơn. }
+          </div>
+        }
+        @if (pending()) { <div class="card warn">Writing/Speaking đang được AI chấm, trang tự cập nhật khi xong.</div> }
+
+        @for (sp of speaking(); track sp.id) {
+          <h2 class="section-title">Speaking Part {{ sp.part }}: {{ sp.question }}</h2>
+          @if (sp.status === 'GRADED') {
+            <app-feedback [band]="sp.band" [criteria]="sp.criteria" [feedback]="sp.feedback" />
+          } @else if (sp.status === 'FAILED') {
+            <div class="card warn">{{ sp.error }}</div>
+          } @else {
+            <div class="card muted">Đang chấm…</div>
+          }
+        }
 
         @for (w of r.writing; track w.id) {
           <h2 class="section-title">Writing: {{ w.promptTitle }}</h2>
@@ -91,7 +110,32 @@ export class TestResultComponent implements OnInit, OnDestroy {
   }
 
   pending() {
-    return (this.result()?.writing ?? []).some((w) => w.status === 'PENDING');
+    return (this.result()?.writing ?? []).some((w) => w.status === 'PENDING') || this.speakingPending();
+  }
+
+  /** Mỗi câu hỏi lấy lần nói cuối, giống cách server tính band. */
+  speaking() {
+    const latest = new Map<number, SpeakingSubmissionView>();
+    for (const sp of this.result()?.speaking ?? []) latest.set(sp.promptId, sp);
+    return [...latest.values()];
+  }
+
+  speakingPending() {
+    return this.speaking().some((sp) => sp.status === 'PENDING');
+  }
+
+  spokenInTest() {
+    return this.speaking().some((sp) => sp.status === 'GRADED');
+  }
+
+  /** Kỹ năng có điểm thô nhưng không có band: server bỏ qua vì người học để trống quá nửa. */
+  skipped() {
+    const r = this.result();
+    if (!r) return [];
+    return [
+      r.listening && r.listening.band == null ? 'Listening' : '',
+      r.reading && r.reading.band == null ? 'Reading' : '',
+    ].filter(Boolean);
   }
 
   shortTest() {

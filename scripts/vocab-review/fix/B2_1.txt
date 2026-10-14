@@ -1,0 +1,504 @@
+EN	affordable	Cheap enough for most people to buy.
+EN	ally	A country or person that supports another.
+EN	altar	A table in a church or temple used in religious ceremonies.
+EN	anchorman	A man who presents a news programme.
+EN	apostrophe	The punctuation mark (') used in shortened forms and to show possession.
+EN	approximate	Close to the exact number but not exactly correct.
+EN	arch	A curved structure that supports a bridge or forms an opening.
+EN	arena	A large building with a central area for sports or entertainment.
+EN	assemble	To come together in a group; to put the parts of something together.
+EN	assembly	A group of people who meet to make laws or decisions; a meeting of a whole school.
+EN	backward	Towards the back.
+EN	badge	A small piece of metal or plastic worn to show who you are or what you belong to.
+EN	ban	An official order that stops something from being done.
+EN	barn	A large farm building for storing crops or keeping animals.
+EN	barrier	Something that stops people from moving or from achieving something.
+EN	beak	The hard pointed mouth of a bird.
+EN	bearing	A connection or influence (have a bearing on).
+EN	blade	The flat sharp part of a knife or tool.
+EN	blink	To close and open your eyes quickly.
+EN	blossom	Flowers on a tree or bush.
+EN	bolt	A metal bar used to lock a door; also a metal pin with a screw thread.
+EN	bomber	A plane that drops bombs; a person who causes a bomb to explode.
+EN	booth	A small enclosed space, such as a telephone or ticket booth.
+EN	boxer	A person who takes part in boxing.
+EN	bracket	One of a pair of marks ( ) used around words or numbers.
+EN	broadcaster	A person or company that makes television or radio programmes.
+EN	bumper	A bar at the front and back of a car that protects it in a crash.
+EN	burial	The act of putting a dead body into the ground.
+EN	buzz	A low continuous sound like a bee.
+EN	captive	A person who is kept as a prisoner.
+EN	cascade	A small waterfall.
+EN	cellar	A room under a house, often used for storage.
+EN	centigrade	The temperature scale on which water freezes at 0 and boils at 100 degrees.
+EN	cheat	To act dishonestly to gain an advantage.
+EN	chew	To break food into small pieces with your teeth.
+EN	chip	A small piece broken off something; also a tiny electronic part in a computer.
+EN	chop	To cut something into pieces with a knife or axe.
+EN	chunk	A thick solid piece of something.
+EN	circumstance	A fact or condition connected with an event or action.
+EN	cocktail	A mixed alcoholic drink.
+EN	collector	A person who collects things as a hobby.
+EN	colon	The punctuation mark (:).
+EN	commander	An officer in charge of a group of soldiers or a military operation.
+EN	commonwealth	A group of countries with political and economic connections.
+EN	compassion	Sympathy and concern for people who are suffering.
+EN	comprehension	The ability to understand something.
+EN	conceit	Too much pride in yourself.
+EN	cone	A solid shape with a round base and a pointed top.
+EN	confess	To admit that you have done something wrong.
+EN	confession	A statement admitting that you have done something wrong.
+EN	conquest	The act of taking control of a country by force.
+EN	consciousness	The state of being awake and aware.
+EN	console	To comfort someone who is sad.
+EN	controversy	A lot of public disagreement about something.
+EN	converse	The opposite of something.
+EN	cooperative	Willing to help and work with others.
+EN	core	The central or most important part of something.
+EN	cornerstone	The most important part on which something is based.
+EN	costume	Clothes worn for a performance or typical of a particular period or country.
+EN	craftsman	A skilled person who makes things by hand.
+EN	crease	A line made on cloth or paper by folding or crushing it.
+EN	creation	The act of making something new; something that has been made.
+EN	crew	The people who work on a ship, plane or film.
+EN	criticism	The act of saying that someone or something is bad; also the analysis of art or literature.
+EN	crystallize	To become clear and definite; to form crystals.
+EN	dash	The punctuation mark (–); also a quick run.
+EN	deck	The floor of a ship.
+EN	decorate	To make something look more attractive by adding things to it.
+EN	deputy	A person whose job is second in rank to the head of an organisation.
+EN	descend	To move down.
+EN	determiner	A word such as 'the', 'this' or 'some' used before a noun.
+EN	dim	Not bright.
+EN	dip	To put something into a liquid quickly and take it out again.
+EN	disorder	An illness of the mind or body; also a state of untidiness.
+EN	distributor	A company that supplies goods to shops.
+EN	division	The act of dividing; also a part of an organisation.
+EN	dock	The area of a port where ships are loaded and unloaded.
+EN	dormitory	A large bedroom for many people, or a building where students live.
+EN	drain	A pipe that carries away waste water.
+EN	duel	A formal fight between two people.
+EN	dye	A substance used to change the colour of cloth or hair.
+EN	endeavor	A serious attempt to do something.
+EN	enterprise	A business or company; also a new and difficult project.
+EN	entitle	To give someone the right to have or do something.
+EN	everlasting	Lasting forever.
+EN	exile	The state of being forced to live outside your own country.
+EN	explosive	A substance that can cause an explosion; likely to explode.
+EN	extension	An extra part added to a building; also extra time allowed.
+EN	fabric	Cloth or material made by weaving.
+EN	fate	A power believed to control events; what will happen to someone.
+EN	fed up	Annoyed or bored with something that has continued too long.
+EN	fibre	A thin thread; also parts of plants in food that help digestion.
+EN	figurative	Used with a meaning different from the basic meaning, as in a metaphor.
+EN	flap	To move up and down, like a bird's wings.
+EN	fleet	A group of ships or vehicles.
+EN	fluid	A liquid.
+EN	formation	The process of forming something; the way something is arranged.
+EN	forthcoming	Going to happen soon.
+EN	generalize	To make a general statement based on limited facts.
+EN	gorge	A deep narrow valley with steep sides.
+EN	greatness	The quality of being great or important.
+EN	grief	Great sadness, especially after someone dies.
+EN	grieve	To feel great sadness, especially after someone dies.
+EN	guerrilla	A member of a small unofficial army that fights against the government.
+EN	heap	An untidy pile of things.
+EN	helper	A person who helps someone.
+EN	hijack	The act of taking control of a plane or vehicle by force.
+EN	hollow	Empty inside.
+EN	hone	To improve a skill through practice.
+EN	hood	A part of a coat that covers the head; also the metal cover over a car engine (US).
+EN	hook	A curved piece of metal used for hanging things or catching fish.
+EN	housewife	A woman who manages a home and does not work outside it.
+EN	humiliation	The feeling of being ashamed and losing respect.
+EN	hybrid	A mixture of two different things; a car with both a petrol engine and an electric motor.
+EN	identical	Exactly the same.
+EN	immerse	To put something completely into a liquid; to involve yourself deeply in something.
+EN	impressed	Feeling admiration for someone or something.
+EN	incense	A substance that produces a sweet smell when burned.
+EN	inert	Not moving; not reacting chemically.
+EN	institution	A large important organisation, such as a university or bank.
+EN	insult	A rude remark or action that offends someone.
+EN	intent	Determined to do something.
+EN	interior	The inside of something, especially a building.
+EN	invisible	Impossible to see.
+EN	irritating	Annoying.
+EN	itch	To have an uncomfortable feeling on the skin that makes you want to scratch.
+EN	knot	A join made by tying pieces of string or rope together.
+EN	label	A piece of paper attached to something with information about it.
+EN	landing	The act of a plane arriving on the ground.
+EN	lecturer	A person who teaches at a university.
+EN	legend	An old story about famous people or events, which may not be true.
+EN	lick	To move your tongue over something.
+EN	lighting	The lights used in a room or building.
+EN	limb	An arm or leg.
+EN	lobby	The entrance area of a large building; also a group that tries to influence politicians.
+EN	lousy	Very bad (informal).
+EN	madam	A polite way to address a woman.
+EN	manufacture	The process of making goods in large quantities.
+EN	mask	A cover for the face to hide or protect it.
+EN	master	A man in control of something; also a person very skilled in something.
+EN	medieval	Relating to the Middle Ages (about 500 to 1500 AD).
+EN	melody	A tune.
+EN	mercy	Kindness and forgiveness shown to someone you could punish.
+EN	merge	To combine two or more things into one.
+EN	metric	Using the metre, kilogram and litre as units of measurement.
+EN	minister	A senior member of a government in charge of a department; also a priest.
+EN	mint	A plant with a fresh smell used in cooking; also a sweet with this flavour.
+EN	mixture	A combination of different things.
+EN	mold	A green or black substance that grows on old food; also a container used to shape liquid.
+EN	mortal	Certain to die eventually.
+EN	mortar	A mixture of cement, sand and water used to join bricks.
+EN	mumble	To speak quietly and unclearly.
+EN	murmur	A quiet continuous sound of voices.
+EN	mutter	To speak quietly so that others cannot hear clearly.
+EN	naughty	Behaving badly (used about children).
+EN	necessity	Something that you must have.
+EN	odd	Strange or unusual.
+EN	operator	A person who works a machine; a company that runs a service.
+EN	originate	To come from a particular place or begin at a particular time.
+EN	parade	A public procession celebrating a special event.
+EN	paradox	A situation or statement that seems impossible because it contains opposite facts.
+EN	particle	An extremely small piece of something.
+EN	patch	A small area that is different from what is around it; a piece of cloth sewn over a hole.
+EN	percentage	An amount stated as a number out of 100.
+EN	perception	The way you notice or understand something.
+EN	phase	A stage in a process.
+EN	plead	To ask for something in an emotional way; to say in court whether you are guilty.
+EN	plot	The story of a book or film; also a secret plan.
+EN	pluck	To pull something quickly, such as feathers or a fruit.
+EN	polish	A substance rubbed onto a surface to make it shine.
+EN	postpone	To change an event to a later time.
+EN	prehistoric	From the time before history was written down.
+EN	primary	Main or most important; also relating to the first years of school.
+EN	procedure	A set of actions done in a particular order; an official way of doing something.
+EN	prompt	Done quickly and without delay.
+EN	quote	Words repeated from what someone else said or wrote.
+EN	rack	A frame with bars or shelves for holding things.
+EN	rag	An old piece of cloth.
+EN	rally	A large public meeting to support or protest about something.
+EN	rash	Done without careful thought; also red spots on the skin.
+EN	rattle	A short repeated knocking sound.
+EN	rear	The back part of something.
+EN	reasonably	Fairly; in a sensible way.
+EN	reckon	To think or believe (informal).
+EN	recognition	The act of identifying someone or something; also public praise.
+EN	recommendation	A suggestion about what should be done.
+EN	reed	A tall grass that grows near water.
+EN	refresh	To make someone feel less tired; to update a web page.
+EN	relay	A race in which team members run one after another.
+EN	repress	To control strong feelings; to control people by force.
+EN	repression	The use of force to control people.
+EN	residence	The place where someone lives.
+EN	resignation	The act of leaving a job officially.
+EN	resolution	A firm decision to do something; also the clarity of an image.
+EN	restriction	A rule that limits what you can do.
+EN	retirement	The time when you stop working because of age.
+EN	revive	To bring back to life or use.
+EN	rhyme	To have the same ending sound as another word.
+EN	rider	A person who rides a horse, bicycle or motorbike.
+EN	rip	To tear something quickly.
+EN	ritual	A set of actions always done in the same way, often in a religious ceremony.
+EN	rival	A person or group competing with another.
+EN	roar	To make a deep loud sound, like a lion.
+EN	route	The way from one place to another.
+EN	rub	To move your hand or something firmly backwards and forwards on a surface.
+EN	sack	To dismiss someone from their job (informal); also a large bag.
+EN	sage	A herb used in cooking; also a very wise person.
+EN	scandal	An event that shocks people because it is morally wrong.
+EN	secondary	Less important; also relating to education for children aged 11 to 18.
+EN	serial	Happening in a series; also a story told in parts.
+EN	sexual	Relating to sex.
+EN	shed	A small simple building used for storage.
+EN	shield	A large piece of metal or wood used for protection; something that protects.
+EN	sketch	To make a quick rough drawing.
+EN	skillful	Very good at doing something.
+EN	slap	A hit with the flat part of the hand.
+EN	slash	The punctuation mark (/); also to cut something violently.
+EN	sniff	To breathe in quickly through the nose to smell something.
+EN	soak	To make something completely wet.
+EN	solo	Done by one person alone.
+EN	spark	A small flash of fire or electricity.
+EN	specialty	A food or product that a place is famous for; an area of special knowledge.
+EN	splatter	Drops of liquid that have splashed onto a surface.
+EN	spur	Something that encourages an action.
+EN	squash	A game played by two people hitting a ball against a wall; also a vegetable.
+EN	squeeze	To press something firmly from the sides.
+EN	stab	To push a knife into someone.
+EN	stack	A neat pile of things.
+EN	stain	A mark that is difficult to remove.
+EN	startle	To surprise and slightly frighten someone.
+EN	stiff	Hard and not easy to bend or move.
+EN	stingy	Unwilling to spend or give money.
+EN	stitch	A short line of thread sewn into cloth or skin.
+EN	subtract	To take one number away from another.
+EN	suck	To pull liquid into your mouth using your lips.
+EN	supervisor	A person who is in charge of workers or students.
+EN	surrender	To stop fighting and accept defeat.
+EN	swift	Fast.
+EN	swing	A seat hanging from ropes that children move backwards and forwards on.
+EN	tan	The brown colour of the skin after being in the sun.
+EN	tanned	Having skin made brown by the sun.
+EN	taunt	A remark made to make someone angry or upset.
+EN	terrace	A flat area outside a building; also a row of houses joined together.
+EN	thickness	How thick something is.
+EN	thinker	A person who thinks deeply about important things.
+EN	threaten	To say you will harm someone; to be likely to cause harm.
+EN	tough	Difficult; also strong and not easily damaged.
+EN	trainer	A person who teaches skills, especially in sport; also a sports shoe (UK).
+EN	tramp	A person with no home or job who travels around.
+EN	tray	A flat container used for carrying food or drinks.
+EN	triangle	A shape with three straight sides.
+EN	trunk	The thick main stem of a tree; also an elephant's long nose.
+EN	understanding	Knowledge of a subject; also sympathy towards others.
+EN	vanity	Too much pride in your appearance or achievements.
+EN	variation	A change or difference in amount or level.
+EN	vibrate	To shake with small fast movements.
+EN	vibration	A continuous shaking movement.
+EN	virtually	Almost.
+EN	waist	The middle part of the body above the hips.
+EN	weed	A wild plant growing where it is not wanted.
+EN	wink	The act of closing one eye quickly as a signal.
+EN	withdraw	To take money out of a bank account; to move back or away.
+EN	worship	The act of showing respect and love for a god.
+EN	zip	A fastener with two rows of metal or plastic teeth (UK).
+EN	zoom	To make a picture on a screen bigger or smaller.
+EN	nest	A structure built by birds to lay eggs in.
+EN	poker	A card game in which players bet money.
+EN	baron	A man of high social rank; a very powerful business person.
+EN	gut	To remove the internal organs of a fish or animal.
+EN	ace	A person who is extremely good at something; a playing card with one symbol.
+EN	cart	A vehicle with wheels pulled by a horse or pushed by a person.
+EN	scout	A member of the Scouts, a youth organisation; a person sent to get information.
+EN	cannon	A large old gun that fires heavy balls.
+EN	fist	A hand with the fingers closed tightly.
+EN	imperial	Relating to an empire or emperor.
+EN	prey	An animal hunted and killed by another animal.
+EN	rod	A long thin pole.
+EN	constable	A police officer of the lowest rank (UK).
+EN	prostitute	A person who has sex for money.
+EN	mole	A small dark mark on the skin; also a small animal that lives underground.
+EN	rot	To decay.
+EN	gin	A strong clear alcoholic drink.
+EN	den	The home of a wild animal; also a small private room.
+EN	pony	A small horse.
+EN	cape	A piece of land that sticks out into the sea; also a short cloak.
+EN	buffalo	A large animal of the cow family.
+EN	armor	Metal covering worn by soldiers in the past for protection.
+EN	font	A set of letters of a particular design and size.
+EN	swamp	An area of wet, soft land.
+EN	rig	A large structure for drilling oil from under the sea.
+EN	dice	Small cubes with dots on each side, used in games; also to cut food into small cubes.
+EN	grid	A pattern of crossing lines forming squares; also the network that supplies electricity.
+EN	cue	A signal for someone to do something.
+EN	loop	A shape like a circle made by a line curving back on itself.
+EN	blond	A person with pale yellow hair.
+EN	mafia	A secret criminal organisation.
+EN	iris	The coloured part of the eye; also a flower.
+EN	sting	To hurt with a sharp point, as a bee does.
+EN	vacuum	A space with no air; also a machine that cleans floors by sucking up dirt.
+EN	chapel	A small church or a room used for prayer.
+EN	wrestling	A sport in which two people fight and try to throw each other to the ground.
+EN	pledge	To make a serious promise.
+EN	cult	A small religious group with extreme beliefs; also something very popular with a particular group.
+EN	delta	The flat area where a river divides before entering the sea.
+EN	cardinal	Most important.
+EN	bodyguard	A person whose job is to protect someone important.
+EN	saddle	A leather seat on a horse or bicycle.
+EN	bounty	A reward offered for catching a criminal.
+EN	blunt	Not sharp; also saying exactly what you think without being polite.
+EN	twilight	The time just before night when the sky is getting dark.
+EN	pinch	To press skin tightly between your finger and thumb.
+EN	ammunition	Bullets and shells fired from weapons.
+EN	shovel	A tool with a wide blade for digging and moving soil or snow.
+EN	portal	A website that gives access to many other sites or services; also a grand entrance.
+EN	trump	A card from a suit that has a higher value in a game.
+EN	sincerely	In an honest way; used at the end of a formal letter (Yours sincerely).
+EN	bunker	An underground shelter for protection from bombs.
+EN	grease	A thick oily substance.
+EN	squirrel	A small animal with a long thick tail that lives in trees.
+EN	infinite	Without limits; extremely large.
+EN	cavalry	Soldiers who fight on horses or in armoured vehicles.
+EN	perfection	The state of being perfect.
+EN	battalion	A large group of soldiers, part of an army.
+EN	vibe	A feeling or atmosphere (informal).
+EN	lizard	A small reptile with four legs and a long tail.
+EN	parish	An area with its own church and priest.
+EN	platoon	A small group of soldiers.
+EN	grenade	A small bomb thrown by hand.
+EN	lens	A curved piece of glass in glasses, cameras or microscopes.
+EN	filth	Very unpleasant dirt.
+EN	jasmine	A plant with small sweet-smelling white or yellow flowers.
+EN	tribute	Something said or done to show respect or admiration.
+EN	claw	A sharp curved nail on an animal's foot.
+EN	skinny	Very thin.
+EN	weed	A wild plant growing where it is not wanted.
+VI	arena	nhà thi đấu
+VI	backward	về phía sau
+VI	ban	lệnh cấm
+VI	barn	nhà kho (trang trại)
+VI	bearing	sự liên quan
+VI	booth	quầy, buồng nhỏ
+VI	boxer	võ sĩ quyền anh
+VI	bracket	dấu ngoặc
+VI	broadcaster	đài phát thanh truyền hình; phát thanh viên
+VI	bumper	cái cản xe
+VI	captive	tù nhân
+VI	cascade	thác nước nhỏ
+VI	chew	nhai
+VI	chip	mảnh vụn; con chip
+VI	cocktail	cốc-tai
+VI	conceit	sự tự phụ
+VI	cone	hình nón
+VI	confession	lời thú tội
+VI	console	an ủi
+VI	controversy	cuộc tranh cãi
+VI	converse	điều ngược lại
+VI	cooperative	hợp tác
+VI	costume	trang phục
+VI	crease	nếp nhăn
+VI	creation	sự sáng tạo; tác phẩm
+VI	crew	phi hành đoàn, thủy thủ đoàn
+VI	dash	dấu gạch ngang
+VI	deck	boong tàu
+VI	decorate	trang trí
+VI	deputy	phó, cấp phó
+VI	determiner	từ hạn định
+VI	dip	nhúng
+VI	division	phép chia; bộ phận
+VI	dock	bến tàu
+VI	dormitory	ký túc xá
+VI	entitle	cho quyền
+VI	enterprise	doanh nghiệp
+VI	explosive	chất nổ; dễ nổ
+VI	fate	số phận
+VI	fed up	chán ngấy
+VI	fibre	chất xơ; sợi
+VI	figurative	nghĩa bóng
+VI	flap	vỗ (cánh)
+VI	flee	chạy trốn
+VI	fluid	chất lỏng
+VI	formation	sự hình thành
+VI	gorge	hẻm núi
+VI	greatness	sự vĩ đại
+VI	grief	nỗi đau buồn
+VI	heap	đống
+VI	helper	người giúp đỡ
+VI	hijack	vụ cướp phương tiện
+VI	hone	mài giũa (kỹ năng)
+VI	hood	mũ trùm đầu; nắp ca-pô
+VI	hybrid	lai; xe hybrid
+VI	identical	giống hệt
+VI	immerse	nhúng; đắm mình
+VI	intent	chăm chú, quyết tâm
+VI	irritating	khó chịu
+VI	label	nhãn
+VI	legend	truyền thuyết
+VI	limb	chân tay
+VI	lousy	tồi tệ
+VI	master	chủ; bậc thầy
+VI	minister	bộ trưởng; mục sư
+VI	mint	bạc hà
+VI	mold	nấm mốc; khuôn
+VI	mortal	phải chết, phàm trần
+VI	murmur	tiếng rì rầm
+VI	naughty	nghịch ngợm
+VI	operator	người vận hành; nhà khai thác
+VI	originate	bắt nguồn
+VI	parade	cuộc diễu hành
+VI	particle	hạt
+VI	percentage	tỷ lệ phần trăm
+VI	perception	nhận thức
+VI	polish	xi đánh bóng
+VI	prehistoric	thời tiền sử
+VI	primary	chính; tiểu học
+VI	procedure	thủ tục, quy trình
+VI	prompt	nhanh chóng, kịp thời
+VI	rag	giẻ rách
+VI	rally	cuộc mít tinh
+VI	rash	hấp tấp; phát ban
+VI	rear	phía sau
+VI	reckon	nghĩ, cho rằng
+VI	recognition	sự nhận ra; sự công nhận
+VI	refresh	làm mới
+VI	relay	chạy tiếp sức
+VI	resolution	quyết tâm; độ phân giải
+VI	rider	người cưỡi
+VI	rip	xé
+VI	sack	sa thải; bao tải
+VI	sage	cây xô thơm; nhà hiền triết
+VI	secondary	thứ yếu; trung học
+VI	serial	nối tiếp; phim dài tập
+VI	shed	nhà kho nhỏ
+VI	skillful	khéo léo
+VI	soak	ngâm
+VI	solo	đơn ca, một mình
+VI	specialty	đặc sản; chuyên môn
+VI	spur	động lực thúc đẩy
+VI	squash	môn bóng quần; quả bí
+VI	squeeze	bóp, ép
+VI	stain	vết bẩn
+VI	startle	làm giật mình
+VI	stingy	keo kiệt
+VI	swift	nhanh
+VI	tan	làn da rám nắng
+VI	tough	khó khăn; cứng rắn
+VI	tramp	kẻ lang thang
+VI	trunk	thân cây; vòi voi
+VI	understanding	sự hiểu biết; sự cảm thông
+VI	undergraduate	sinh viên đại học
+VI	vanity	tính tự phụ
+VI	vibrate	rung
+VI	vibration	sự rung động
+VI	waist	vòng eo
+VI	weed	cỏ dại
+VI	wink	cái nháy mắt
+VI	withdraw	rút (tiền); rút lui
+VI	worship	sự thờ cúng
+VI	zip	khóa kéo
+VI	zoom	phóng to, thu nhỏ
+VI	nest	cái tổ
+VI	poker	bài poker
+VI	scout	hướng đạo sinh; người do thám
+VI	fist	nắm đấm
+VI	imperial	thuộc đế chế
+VI	rod	cái que
+VI	constable	cảnh sát viên
+VI	prostitute	gái mại dâm
+VI	cape	mũi đất; áo choàng ngắn
+VI	font	phông chữ
+VI	dice	xúc xắc; cắt hạt lựu
+VI	cue	tín hiệu
+VI	loop	vòng lặp
+VI	glue	keo dán
+VI	sting	châm, đốt
+VI	vacuum	chân không; máy hút bụi
+VI	nun	nữ tu
+VI	cult	giáo phái; sự sùng bái
+VI	delta	đồng bằng châu thổ
+VI	cardinal	chủ yếu; hồng y
+VI	twilight	chạng vạng
+VI	trump	quân bài chủ
+VI	bunker	hầm trú ẩn
+VI	grease	dầu mỡ
+VI	infinite	vô hạn
+VI	vibe	cảm giác, bầu không khí
+VI	tribute	sự tri ân
+VI	claw	móng vuốt
+VI	skinny	gầy gò
+VI	boiling	đang sôi
+VI	helper	người giúp đỡ
+DROP	zombie	
+DROP	ninja	
+DROP	samurai	
+DROP	werewolf	
+DROP	chow	
+DROP	vodka	
+DROP	rum	
+DROP	brandy	
+DROP	fisher	
+DROP	countess	
+DROP	grunt	
+DROP	jingle	
+DROP	harrow	
+DROP	scythe	

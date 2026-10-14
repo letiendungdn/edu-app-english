@@ -11,6 +11,7 @@ import {
   PicturePage,
   ReviewCard,
   SubmitResult,
+  TopicCount,
   TrackDetail,
   TrackListItem,
   UserView,
@@ -22,7 +23,9 @@ import {
   AttemptSummary,
   AttemptView,
   BandSummary,
+  MistakeView,
   ProfileRequest,
+  QuestionTypeStat,
   ProfileView,
   RoadmapView,
   SpeakingPromptView,
@@ -30,6 +33,7 @@ import {
   TaskView,
   TestListItem,
   TodayView,
+  WritingPhraseView,
   WritingPromptView,
   WritingSubmissionView,
 } from './ielts.models';
@@ -52,14 +56,20 @@ export class ApiService {
     return this.http.get<UserView>(`${this.base}/auth/me`);
   }
 
-  vocab(level: string, page: number) {
-    let params = new HttpParams().set('page', page).set('limit', 30);
+  vocab(level: string, page: number, limit = 30, topic = '', q = '') {
+    let params = new HttpParams().set('page', page).set('limit', limit);
     if (level) params = params.set('level', level);
+    if (topic) params = params.set('topic', topic);
+    if (q.trim()) params = params.set('q', q.trim());
     return this.http.get<VocabPage>(`${this.base}/vocab`, { params });
   }
 
+  vocabTopics() {
+    return this.http.get<TopicCount[]>(`${this.base}/vocab/topics`);
+  }
+
   picture(level: string) {
-    let params = new HttpParams().set('limit', 200);
+    let params = new HttpParams().set('limit', 600);
     if (level) params = params.set('level', level);
     return this.http.get<PicturePage>(`${this.base}/vocab/picture`, { params });
   }
@@ -158,6 +168,26 @@ export class ApiService {
     return this.http.patch<TaskView>(`${this.base}/roadmap/tasks/${id}`, { status });
   }
 
+  // Sổ lỗi sai ---------------------------------------------------------------
+
+  mistakes(skill = '') {
+    let params = new HttpParams();
+    if (skill) params = params.set('skill', skill);
+    return this.http.get<MistakeView[]>(`${this.base}/mistakes`, { params });
+  }
+
+  mistakeCount() {
+    return this.http.get<{ open: number }>(`${this.base}/mistakes/count`);
+  }
+
+  markMistakeReviewed(questionId: number) {
+    return this.http.post<void>(`${this.base}/mistakes/${questionId}/reviewed`, {});
+  }
+
+  questionTypeStats() {
+    return this.http.get<QuestionTypeStat[]>(`${this.base}/mistakes/question-types`);
+  }
+
   // Bài thi -------------------------------------------------------------------
 
   tests() {
@@ -194,6 +224,10 @@ export class ApiService {
 
   // Writing -------------------------------------------------------------------
 
+  writingPhrases() {
+    return this.http.get<WritingPhraseView[]>(`${this.base}/writing/phrases`);
+  }
+
   writingPrompts() {
     return this.http.get<WritingPromptView[]>(`${this.base}/writing/prompts`);
   }
@@ -228,9 +262,10 @@ export class ApiService {
     return this.http.get<SpeakingPromptView>(`${this.base}/speaking/prompts/${id}`);
   }
 
-  submitSpeaking(promptId: number, transcript: string, durationSec: number, audio: Blob | null) {
+  submitSpeaking(promptId: number, transcript: string, durationSec: number, audio: Blob | null, attemptId: number | null = null) {
     const form = new FormData();
     form.append('promptId', String(promptId));
+    if (attemptId != null) form.append('attemptId', String(attemptId));
     form.append('transcript', transcript);
     form.append('durationSec', String(durationSec));
     if (audio) form.append('audio', audio, 'answer.webm');

@@ -64,6 +64,7 @@ public class ContentService {
   private final BandService bands;
   private final RoadmapService roadmap;
   private final IeltsProfileRepository profiles;
+  private final MistakeService mistakes;
 
   public ContentService(
       GrammarTopicRepository grammar,
@@ -79,7 +80,8 @@ public class ContentService {
       QuestionBank questionBank,
       BandService bands,
       RoadmapService roadmap,
-      IeltsProfileRepository profiles) {
+      IeltsProfileRepository profiles,
+      MistakeService mistakes) {
     this.grammar = grammar;
     this.passages = passages;
     this.readingAttempts = readingAttempts;
@@ -94,6 +96,7 @@ public class ContentService {
     this.bands = bands;
     this.roadmap = roadmap;
     this.profiles = profiles;
+    this.mistakes = mistakes;
   }
 
   @Transactional(readOnly = true)
@@ -128,6 +131,7 @@ public class ContentService {
   @Transactional(readOnly = true)
   public List<PassageListItem> readings(String levelParam) {
     Map<Long, Long> counts = questionBank.questionCounts(OwnerType.READING_PASSAGE);
+    Map<Long, List<String>> types = questionBank.questionTypes(OwnerType.READING_PASSAGE);
     return loadPassages(levelParam).stream()
         .map(
             p ->
@@ -141,7 +145,8 @@ public class ContentService {
                     p.getBandMax(),
                     p.getEstimatedMin(),
                     p.getSource(),
-                    counts.getOrDefault(p.getId(), 0L)))
+                    counts.getOrDefault(p.getId(), 0L),
+                    types.getOrDefault(p.getId(), List.of())))
         .toList();
   }
 
@@ -175,6 +180,7 @@ public class ContentService {
       attempt.setTotal(result.total());
       attempt.setPercent(result.percent());
       readingAttempts.save(attempt);
+      mistakes.record(userId, OwnerType.READING_PASSAGE, id, BandSource.PRACTICE, attempt.getId(), graded);
       vocabService.addStudy(userId, 60, 0);
       if (band != null) bands.record(userId, Skill.READING, band, BandSource.PRACTICE, attempt.getId());
       roadmap.recordProgress(userId, TaskType.READING);
@@ -185,6 +191,7 @@ public class ContentService {
   @Transactional(readOnly = true)
   public List<TrackListItem> listenings(String levelParam) {
     Map<Long, Long> counts = questionBank.questionCounts(OwnerType.LISTENING_TRACK);
+    Map<Long, List<String>> types = questionBank.questionTypes(OwnerType.LISTENING_TRACK);
     return loadTracks(levelParam).stream()
         .map(
             t ->
@@ -195,7 +202,8 @@ public class ContentService {
                     t.getDurationSec(),
                     t.getYoutubeUrl(),
                     t.getIeltsPart(),
-                    counts.getOrDefault(t.getId(), 0L)))
+                    counts.getOrDefault(t.getId(), 0L),
+                    types.getOrDefault(t.getId(), List.of())))
         .toList();
   }
 
@@ -231,6 +239,7 @@ public class ContentService {
       attempt.setTotal(result.total());
       attempt.setPercent(result.percent());
       listeningAttempts.save(attempt);
+      mistakes.record(userId, OwnerType.LISTENING_TRACK, id, BandSource.PRACTICE, attempt.getId(), graded);
       vocabService.addStudy(userId, 60, 0);
       if (band != null) bands.record(userId, Skill.LISTENING, band, BandSource.PRACTICE, attempt.getId());
       roadmap.recordProgress(userId, TaskType.LISTENING);

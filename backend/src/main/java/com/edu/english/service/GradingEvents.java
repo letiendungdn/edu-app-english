@@ -10,4 +10,7 @@ public final class GradingEvents {
 
   /** Một bài Writing trong bài thi vừa chấm xong (hoặc lỗi): bài thi cần tính lại band Writing và band tổng. */
   public record AttemptWritingFinished(Long attemptId) {}
+
+  /** Một bài nói trong bài thi vừa chấm xong (hoặc lỗi): bài thi cần tính lại band Speaking và band tổng. */
+  public record AttemptSpeakingFinished(Long attemptId) {}
 }

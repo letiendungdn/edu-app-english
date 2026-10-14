@@ -1,0 +1,618 @@
+DROP	twenty-four	
+EX	presupposition	The argument is based on a false presupposition.	Lập luận dựa trên một tiền giả định sai.
+EX	diffuse	The light in the room was soft and diffuse.	Ánh sáng trong phòng dịu nhẹ và tỏa đều.
+EX	disperse	The police dispersed the crowd.	Cảnh sát giải tán đám đông.
+EX	insular	The village was small and insular.	Ngôi làng nhỏ và khép kín.
+EX	antidote	There is no antidote to this poison.	Không có thuốc giải cho chất độc này.
+EX	prostrate	He lay prostrate on the floor.	Anh ấy nằm sấp trên sàn.
+EX	chrysalis	The butterfly came out of its chrysalis.	Con bướm chui ra khỏi nhộng.
+EX	maggot	There were maggots in the rotten meat.	Có giòi trong miếng thịt thối.
+EX	palate	The food was too spicy for my palate.	Món ăn quá cay so với khẩu vị của tôi.
+EX	hermit	He lived like a hermit in the mountains.	Ông ấy sống ẩn dật trên núi.
+EX	declination	The declination of the invitation surprised us.	Việc từ chối lời mời khiến chúng tôi bất ngờ.
+EX	spatial	The test measures spatial awareness.	Bài kiểm tra đo khả năng nhận thức không gian.
+EX	minefield	The area is still a minefield after the war.	Khu vực vẫn còn là bãi mìn sau chiến tranh.
+EX	tactic	Delaying the vote was a clever tactic.	Trì hoãn cuộc bỏ phiếu là một chiến thuật khôn ngoan.
+EX	babble	The baby babbled happily.	Em bé bi bô vui vẻ.
+EX	anthology	The book is an anthology of short stories.	Cuốn sách là một tuyển tập truyện ngắn.
+EX	chronology	Put the events in chronology.	Sắp xếp các sự kiện theo trình tự thời gian.
+EX	equilibrium	The market has reached equilibrium.	Thị trường đã đạt trạng thái cân bằng.
+EX	seismic	Seismic activity has increased in the area.	Hoạt động địa chấn trong khu vực đã gia tăng.
+EX	procedural	The case was delayed for procedural reasons.	Vụ án bị hoãn vì lý do thủ tục.
+EX	archetype	He is the archetype of a hero.	Anh ấy là hình mẫu điển hình của một người hùng.
+EX	loiter	Teenagers were loitering outside the shop.	Mấy thiếu niên lảng vảng bên ngoài cửa hàng.
+EX	incumbent	The incumbent president is running again.	Tổng thống đương nhiệm tái tranh cử.
+EX	interrogate	The police interrogated the suspect for hours.	Cảnh sát thẩm vấn nghi phạm hàng giờ liền.
+EX	interrogation	He confessed during the interrogation.	Hắn khai nhận trong lúc bị thẩm vấn.
+EX	interrogative	"Who" is an interrogative pronoun.	"Who" là đại từ nghi vấn.
+EX	depraved	The crime was described as depraved.	Tội ác được mô tả là đồi bại.
+EX	whirlwind	They had a whirlwind romance.	Họ có một chuyện tình chớp nhoáng.
+EX	secular	It is a secular state.	Đó là một nhà nước thế tục.
+EX	condensation	There was condensation on the window.	Có hơi nước đọng trên cửa sổ.
+EX	colloquial	"Gonna" is a colloquial form of "going to".	"Gonna" là cách nói thông tục của "going to".
+EX	surrealism	Dali is famous for surrealism.	Dali nổi tiếng với chủ nghĩa siêu thực.
+EX	solitude	He enjoys the solitude of the countryside.	Ông ấy thích sự tĩnh mịch của vùng quê.
+EX	consign	The old furniture was consigned to the attic.	Đồ đạc cũ bị dồn lên gác mái.
+EX	quiver	Her lips quivered as she tried not to cry.	Môi cô ấy run run khi cố không khóc.
+EX	conglomerate	Samsung is a huge conglomerate.	Samsung là một tập đoàn đa ngành khổng lồ.
+EX	artifact	The museum displays ancient artifacts.	Bảo tàng trưng bày các hiện vật cổ.
+EX	resuscitate	The doctors tried to resuscitate him.	Các bác sĩ cố gắng hồi sức cho anh ấy.
+EX	patchy	The fog will be patchy this morning.	Sáng nay sương mù rải rác.
+EX	resound	The hall resounded with applause.	Hội trường vang dội tiếng vỗ tay.
+EX	laryngitis	She lost her voice because of laryngitis.	Cô ấy bị mất giọng vì viêm thanh quản.
+EX	astringent	Use an astringent to clean your skin.	Dùng nước se khít lỗ chân lông để làm sạch da.
+EX	misdemeanor	Shoplifting is often a misdemeanor.	Ăn cắp vặt trong cửa hàng thường chỉ là tội nhẹ.
+EX	scroll	The ancient scroll was found in a cave.	Cuộn giấy cổ được tìm thấy trong một hang động.
+EX	collide	Two cars collided on the bridge.	Hai chiếc xe đâm nhau trên cầu.
+EX	thicket	The rabbit hid in a thicket.	Con thỏ trốn trong bụi rậm.
+EX	assimilate	Immigrants often assimilate into the local culture.	Người nhập cư thường hòa nhập vào văn hóa địa phương.
+EX	verbatim	He repeated the speech verbatim.	Anh ấy nhắc lại bài phát biểu nguyên văn.
+EX	corpus	The dictionary is based on a large corpus of texts.	Cuốn từ điển dựa trên một kho ngữ liệu lớn.
+EX	coax	She coaxed the cat out of the tree.	Cô ấy dỗ con mèo xuống khỏi cây.
+EX	agile	Monkeys are very agile.	Khỉ rất nhanh nhẹn.
+EX	agility	The game requires speed and agility.	Trò chơi đòi hỏi tốc độ và sự nhanh nhẹn.
+EX	apostle	He is an apostle of free trade.	Ông ấy là người nhiệt thành cổ vũ tự do thương mại.
+EX	embodiment	She is the embodiment of kindness.	Cô ấy là hiện thân của lòng tốt.
+EX	legion	His fans are legion.	Người hâm mộ anh ấy đông vô kể.
+EX	gout	My grandfather suffers from gout.	Ông tôi bị bệnh gút.
+EX	hindrance	Lack of money is a hindrance to progress.	Thiếu tiền là một trở ngại cho sự phát triển.
+EX	allegory	The novel is an allegory of war.	Cuốn tiểu thuyết là một câu chuyện ngụ ngôn về chiến tranh.
+EX	ecotourism	Ecotourism is growing in Vietnam.	Du lịch sinh thái đang phát triển ở Việt Nam.
+EX	latch	She lifted the latch and opened the gate.	Cô ấy nhấc chốt và mở cổng.
+EX	oatmeal	I eat oatmeal for breakfast.	Tôi ăn cháo yến mạch vào bữa sáng.
+EX	unmarried	She is unmarried and lives alone.	Cô ấy chưa kết hôn và sống một mình.
+EX	python	The python swallowed a rabbit.	Con trăn nuốt chửng một con thỏ.
+EX	puberty	Children's bodies change during puberty.	Cơ thể trẻ thay đổi trong tuổi dậy thì.
+EX	rake	He collected the leaves with a rake.	Anh ấy gom lá bằng cái cào.
+EX	miner	The miners were trapped underground.	Các thợ mỏ bị mắc kẹt dưới lòng đất.
+EX	broth	The chicken broth is good for a cold.	Nước dùng gà tốt khi bị cảm.
+EX	sesame	Sprinkle sesame seeds on the rice.	Rắc vừng lên cơm.
+EX	elope	The young couple eloped.	Đôi trẻ bỏ trốn theo nhau.
+EX	assassinate	The president was assassinated in 1963.	Tổng thống bị ám sát năm 1963.
+EX	mentality	We need to change our mentality about waste.	Chúng ta cần thay đổi tư duy về rác thải.
+EX	meltdown	The nuclear meltdown was a disaster.	Sự cố nóng chảy lò phản ứng hạt nhân là một thảm họa.
+EX	cyborg	The film is about a cyborg police officer.	Bộ phim kể về một cảnh sát nửa người nửa máy.
+EX	hologram	The card has a hologram to prevent copying.	Tấm thẻ có hình ba chiều để chống làm giả.
+EX	creed	People of every creed are welcome.	Mọi người thuộc bất kỳ tín ngưỡng nào đều được chào đón.
+EX	mink	She wore a mink coat.	Bà ấy mặc áo khoác lông chồn.
+EX	horseman	The horseman rode into the village.	Người kỵ sĩ cưỡi ngựa vào làng.
+EX	avalanche	The skiers were caught in an avalanche.	Những người trượt tuyết bị kẹt trong trận tuyết lở.
+EX	fret	Don't fret – everything will be fine.	Đừng lo – mọi chuyện sẽ ổn.
+EX	eyeball	Eyeballs are very sensitive.	Nhãn cầu rất nhạy cảm.
+EX	clueless	I'm clueless about computers.	Tôi chẳng biết gì về máy tính.
+EX	tempo	The song has a fast tempo.	Bài hát có nhịp độ nhanh.
+EX	bumpy	The road to the village is bumpy.	Con đường vào làng gồ ghề.
+EX	chime	The clock chimed twelve.	Đồng hồ điểm mười hai tiếng.
+EX	cylinder	A can is shaped like a cylinder.	Lon nước có hình trụ.
+EX	disgraceful	His behaviour was disgraceful.	Cách cư xử của anh ta thật đáng hổ thẹn.
+EX	encore	The audience shouted for an encore.	Khán giả hô vang yêu cầu hát thêm.
+EX	bowel	He had surgery on his bowel.	Ông ấy được phẫu thuật ruột.
+EX	mayonnaise	Do you want mayonnaise on your sandwich?	Bạn có muốn cho sốt mayonnaise vào bánh mì không?
+EX	evolutionary	It was an evolutionary change, not a revolution.	Đó là một sự thay đổi từ từ, không phải một cuộc cách mạng.
+EX	barbarian	The Romans called their enemies barbarians.	Người La Mã gọi kẻ thù của họ là man rợ.
+EX	unanimous	The decision was unanimous.	Quyết định được nhất trí hoàn toàn.
+EX	baptism	The baby's baptism took place on Sunday.	Lễ rửa tội của em bé diễn ra vào Chủ nhật.
+EX	notary	The contract was signed in front of a notary.	Hợp đồng được ký trước mặt công chứng viên.
+EX	dazzling	She gave a dazzling performance.	Cô ấy có một màn trình diễn rực rỡ.
+EX	mound	There was a mound of earth in the garden.	Có một ụ đất trong vườn.
+EX	mutation	A gene mutation can cause disease.	Đột biến gen có thể gây bệnh.
+EX	biopsy	The doctor took a biopsy.	Bác sĩ đã làm sinh thiết.
+EX	neon	The street was full of neon signs.	Con phố đầy biển hiệu đèn neon.
+EX	macaroni	The children love macaroni and cheese.	Bọn trẻ thích món mì ống phô mai.
+EX	rigid	The rules are too rigid.	Các quy định quá cứng nhắc.
+EX	empathy	Good doctors show empathy for their patients.	Bác sĩ giỏi biết thấu cảm với bệnh nhân.
+EX	overload	Don't overload the washing machine.	Đừng cho quá nhiều đồ vào máy giặt.
+EX	nonstop	We took a nonstop flight to Paris.	Chúng tôi đi chuyến bay thẳng đến Paris.
+EX	paranormal	She believes in paranormal activity.	Cô ấy tin vào các hiện tượng siêu nhiên.
+EX	jellyfish	I was stung by a jellyfish.	Tôi bị sứa đốt.
+EX	commune	They lived in a commune in the countryside.	Họ sống trong một công xã ở nông thôn.
+EX	granite	The building is made of granite.	Tòa nhà được làm bằng đá granite.
+EX	defenseless	The animals were defenseless against the hunters.	Những con vật không có khả năng tự vệ trước thợ săn.
+EX	rabies	Dogs should be vaccinated against rabies.	Chó cần được tiêm phòng dại.
+EX	brownie	She baked chocolate brownies.	Cô ấy nướng bánh brownie sô-cô-la.
+EX	chastity	The nuns took a vow of chastity.	Các nữ tu thề giữ trinh tiết.
+EX	mirage	We saw a mirage in the desert.	Chúng tôi thấy ảo ảnh giữa sa mạc.
+EX	backbone	Farmers are the backbone of the economy.	Nông dân là xương sống của nền kinh tế.
+EX	virtuous	She lived a virtuous life.	Bà ấy sống một cuộc đời đức hạnh.
+EX	amnesty	The government granted an amnesty to political prisoners.	Chính phủ ân xá cho các tù nhân chính trị.
+EX	cosmetics	She works for a cosmetics company.	Cô ấy làm việc cho một công ty mỹ phẩm.
+EX	fern	Ferns grow in the shade.	Dương xỉ mọc ở nơi râm mát.
+EX	plateau	The Tay Nguyen plateau is famous for coffee.	Cao nguyên Tây Nguyên nổi tiếng với cà phê.
+EX	hormone	Stress hormones can affect your health.	Hormone căng thẳng có thể ảnh hưởng đến sức khỏe.
+EX	apparatus	The firefighters wore breathing apparatus.	Lính cứu hỏa đeo thiết bị thở.
+EX	beverage	Hot beverages are served in the lobby.	Đồ uống nóng được phục vụ ở sảnh.
+EX	fetus	The fetus develops quickly in the first months.	Thai nhi phát triển nhanh trong những tháng đầu.
+EX	socialism	The country follows socialism.	Đất nước đi theo chủ nghĩa xã hội.
+EX	reflex	Doctors test your reflexes by tapping your knee.	Bác sĩ kiểm tra phản xạ bằng cách gõ vào đầu gối.
+EX	suffocate	Never put a plastic bag over a child's head – they could suffocate.	Đừng bao giờ trùm túi ni lông lên đầu trẻ – trẻ có thể bị ngạt thở.
+EX	roadblock	Police set up a roadblock on the highway.	Cảnh sát lập rào chắn trên đường cao tốc.
+EX	detain	He was detained at the airport.	Anh ta bị tạm giữ ở sân bay.
+EX	outpost	The soldiers guarded a remote outpost.	Những người lính canh giữ một tiền đồn hẻo lánh.
+EX	horoscope	She reads her horoscope every day.	Cô ấy đọc tử vi mỗi ngày.
+EX	density	Hanoi has a high population density.	Hà Nội có mật độ dân số cao.
+EX	stalk	Cut the flowers with long stalks.	Cắt hoa có cuống dài.
+EX	blueberry	I made blueberry muffins.	Tôi làm bánh nướng việt quất.
+EX	fertilizer	Farmers use fertilizer to grow more rice.	Nông dân dùng phân bón để tăng sản lượng lúa.
+EX	helium	The balloons are filled with helium.	Những quả bóng bay được bơm khí heli.
+EX	airfield	The plane landed at a small airfield.	Máy bay hạ cánh xuống một sân bay nhỏ.
+EX	rugged	The coast is wild and rugged.	Bờ biển hoang sơ và lởm chởm.
+EX	crimson	Her face turned crimson.	Mặt cô ấy đỏ bừng.
+EX	activist	Environmental activists protested outside the factory.	Các nhà hoạt động môi trường biểu tình bên ngoài nhà máy.
+EX	softball	The girls play softball after school.	Các cô gái chơi bóng mềm sau giờ học.
+EX	etiquette	Business etiquette varies from country to country.	Phép lịch sự trong kinh doanh khác nhau tùy từng nước.
+EX	tortoise	Tortoises can live for over a hundred years.	Rùa có thể sống hơn một trăm năm.
+EX	limousine	The singer arrived in a white limousine.	Ca sĩ đến trên một chiếc limousine trắng.
+EX	coupon	Use this coupon to get 10% off.	Dùng phiếu này để được giảm 10%.
+EX	kale	Kale is very healthy.	Cải xoăn rất tốt cho sức khỏe.
+EX	swipe	Swipe left to see more photos.	Vuốt sang trái để xem thêm ảnh.
+EX	livelihood	Fishing is the main livelihood of the villagers.	Đánh bắt cá là sinh kế chính của dân làng.
+EX	catfish	Mekong catfish is a local speciality.	Cá tra sông Mê Kông là đặc sản địa phương.
+EX	porcelain	The vase is made of fine porcelain.	Chiếc bình được làm bằng sứ cao cấp.
+EX	negligence	The accident was caused by negligence.	Vụ tai nạn xảy ra do sự cẩu thả.
+EX	pelvis	She broke her pelvis in the fall.	Bà ấy bị gãy xương chậu khi ngã.
+EX	hymn	The choir sang a hymn.	Dàn đồng ca hát một bài thánh ca.
+EX	poodle	She has a little white poodle.	Cô ấy nuôi một chú chó poodle trắng nhỏ.
+EX	meatball	We had spaghetti and meatballs.	Chúng tôi ăn mì Ý với thịt viên.
+EX	almond	Almonds are a healthy snack.	Hạnh nhân là món ăn vặt tốt cho sức khỏe.
+EX	chestnut	We bought roasted chestnuts on the street.	Chúng tôi mua hạt dẻ rang trên phố.
+EX	illegitimate	The court said the election was illegitimate.	Tòa án tuyên bố cuộc bầu cử không hợp pháp.
+EX	self-respect	Losing his job damaged his self-respect.	Việc mất việc làm tổn thương lòng tự trọng của anh ấy.
+EX	blender	Put the fruit in the blender.	Cho trái cây vào máy xay sinh tố.
+EX	mow	He mows the lawn every Sunday.	Anh ấy cắt cỏ mỗi Chủ nhật.
+EX	vendor	Street vendors sell food on every corner.	Người bán hàng rong bán đồ ăn ở mọi góc phố.
+EX	labyrinth	The old city is a labyrinth of narrow streets.	Phố cổ là một mê cung những con đường hẹp.
+EX	florist	I ordered roses from the florist.	Tôi đặt hoa hồng ở cửa hàng hoa.
+EX	ruse	The phone call was a ruse to get him out of the house.	Cuộc gọi chỉ là mưu mẹo để dụ anh ta ra khỏi nhà.
+EX	observatory	The observatory is on top of a mountain.	Đài quan sát thiên văn nằm trên đỉnh núi.
+EX	diplomacy	The conflict was solved through diplomacy.	Cuộc xung đột được giải quyết bằng con đường ngoại giao.
+EX	caterpillar	The caterpillar will turn into a butterfly.	Con sâu sẽ biến thành bướm.
+EX	chainsaw	He cut down the tree with a chainsaw.	Anh ấy đốn cây bằng cưa máy.
+EX	rudder	The rudder controls the direction of the boat.	Bánh lái điều khiển hướng đi của con thuyền.
+EX	lollipop	The child was licking a lollipop.	Đứa trẻ đang mút kẹo mút.
+EX	salami	I had a salami sandwich.	Tôi ăn bánh mì kẹp xúc xích Ý.
+EX	ulcer	Stress can make a stomach ulcer worse.	Căng thẳng có thể làm loét dạ dày nặng hơn.
+EX	dementia	My grandmother suffers from dementia.	Bà tôi bị chứng sa sút trí tuệ.
+EX	arthritis	Arthritis makes it hard for him to walk.	Viêm khớp khiến ông ấy đi lại khó khăn.
+EX	miscarriage	She had a miscarriage last year.	Cô ấy bị sẩy thai năm ngoái.
+EX	monarchy	Thailand is a monarchy.	Thái Lan là một nước quân chủ.
+EX	nebula	The telescope took pictures of a distant nebula.	Kính thiên văn chụp được ảnh một tinh vân xa xôi.
+EX	mammoth	Mammoths lived during the Ice Age.	Voi ma mút sống vào thời kỳ băng hà.
+EX	prostate	He had surgery for prostate cancer.	Ông ấy phẫu thuật ung thư tuyến tiền liệt.
+EX	snowman	The children built a snowman.	Bọn trẻ đắp người tuyết.
+EX	bridegroom	The bridegroom looked nervous.	Chú rể trông có vẻ hồi hộp.
+EX	tombstone	The tombstone was covered in moss.	Bia mộ phủ đầy rêu.
+EX	insomnia	He suffers from insomnia.	Anh ấy bị mất ngủ.
+EX	harmonica	He played a song on the harmonica.	Anh ấy thổi một bài hát bằng kèn harmonica.
+EX	proceeds	The proceeds from the concert went to charity.	Số tiền thu được từ buổi hòa nhạc được dùng làm từ thiện.
+EX	pasture	The cows are in the pasture.	Đàn bò đang ở trên đồng cỏ.
+EX	democrat	He has always been a democrat.	Ông ấy luôn là người ủng hộ dân chủ.
+EX	vial	The nurse opened a vial of medicine.	Y tá mở một lọ thuốc.
+EX	pious	She is a pious woman who prays every day.	Bà ấy là người sùng đạo, cầu nguyện mỗi ngày.
+EX	crossword	My father does the crossword every morning.	Bố tôi giải ô chữ mỗi sáng.
+EX	grinder	I need a new coffee grinder.	Tôi cần một máy xay cà phê mới.
+EX	accelerate	The car accelerated quickly.	Chiếc xe tăng tốc rất nhanh.
+EX	hemisphere	Australia is in the southern hemisphere.	Úc nằm ở bán cầu nam.
+EX	accordion	He plays the accordion.	Anh ấy chơi đàn phong cầm.
+EX	cowardice	He was accused of cowardice.	Anh ta bị buộc tội hèn nhát.
+EX	cramped	The flat is small and cramped.	Căn hộ nhỏ và chật chội.
+EX	cheesecake	She made a strawberry cheesecake.	Cô ấy làm bánh phô mai dâu.
+EX	coil	He wound the rope into a coil.	Anh ấy cuộn sợi dây thành một cuộn.
+EX	trespass	Do not trespass on private land.	Không được xâm phạm đất tư.
+EX	yak	Yaks live in the Himalayas.	Bò Tây Tạng sống ở dãy Himalaya.
+EX	odor	There was a strange odor in the room.	Có một mùi lạ trong phòng.
+EX	great-grandfather	My great-grandfather fought in the war.	Cụ tôi đã chiến đấu trong chiến tranh.
+EX	spam	Most of my emails are spam.	Phần lớn email của tôi là thư rác.
+EX	anesthesia	The operation was done under anesthesia.	Ca mổ được thực hiện dưới gây mê.
+EX	selfie	She took a selfie with the singer.	Cô ấy chụp ảnh tự sướng với ca sĩ.
+EX	meteorite	A meteorite landed in the field.	Một thiên thạch rơi xuống cánh đồng.
+EX	leukemia	The boy is being treated for leukemia.	Cậu bé đang được điều trị bệnh bạch cầu.
+EX	smuggler	The smugglers were caught at the border.	Bọn buôn lậu bị bắt ở biên giới.
+EX	pavilion	There is a small pavilion by the lake.	Có một ngôi đình nhỏ bên hồ.
+EX	pretext	He visited on the pretext of returning a book.	Anh ta đến thăm với cớ trả lại cuốn sách.
+EX	typhoon	The typhoon hit the central coast.	Cơn bão đổ bộ vào bờ biển miền Trung.
+EX	smallpox	Smallpox has been wiped out.	Bệnh đậu mùa đã bị xóa sổ.
+EX	voltage	The voltage in Vietnam is 220 volts.	Điện áp ở Việt Nam là 220 vôn.
+EX	chipped	She drank from a chipped cup.	Cô ấy uống bằng một cái cốc bị mẻ.
+EX	benefactor	An unknown benefactor paid for the new school.	Một ân nhân giấu tên đã chi tiền xây trường mới.
+EX	so-so	"How was the film?" "So-so."	"Bộ phim thế nào?" "Tàm tạm."
+EX	compact	This camera is light and compact.	Chiếc máy ảnh này nhẹ và nhỏ gọn.
+EX	anus	The doctor examined the area around the anus.	Bác sĩ khám vùng quanh hậu môn.
+EX	leech	A leech was stuck to his leg.	Một con đỉa bám vào chân anh ấy.
+EX	scapegoat	He was made the scapegoat for the team's failure.	Anh ấy bị biến thành vật tế thần cho thất bại của đội.
+EX	captivity	The bird was raised in captivity.	Con chim được nuôi nhốt.
+EX	atlas	Look up the country in the atlas.	Tra tên nước đó trong tập bản đồ.
+EX	dismissal	He was angry about his dismissal.	Anh ấy tức giận vì bị sa thải.
+EX	blurry	The photo is blurry.	Bức ảnh bị mờ.
+EX	fascism	The book describes the rise of fascism in Europe.	Cuốn sách mô tả sự trỗi dậy của chủ nghĩa phát xít ở châu Âu.
+EX	birch	Birch trees have white bark.	Cây bạch dương có vỏ màu trắng.
+EX	aviation	He has worked in aviation for twenty years.	Ông ấy làm trong ngành hàng không hai mươi năm.
+EX	inferno	The building became a raging inferno.	Tòa nhà biến thành một biển lửa dữ dội.
+EX	linden	Linden trees line the street.	Những hàng cây đoạn chạy dọc con phố.
+EX	algebra	We are learning algebra this term.	Học kỳ này chúng tôi học đại số.
+EX	doorknob	He turned the doorknob slowly.	Anh ấy xoay tay nắm cửa từ từ.
+EX	celery	Add some celery to the soup.	Thêm ít cần tây vào súp.
+EX	foil	Wrap the fish in foil and bake it.	Bọc cá trong giấy bạc rồi nướng.
+EX	troublemaker	He was a troublemaker at school.	Hồi đi học cậu ta là đứa gây rối.
+EX	slum	Many people live in slums on the edge of the city.	Nhiều người sống trong các khu ổ chuột ở rìa thành phố.
+EX	mainframe	The bank's data is stored on a mainframe.	Dữ liệu của ngân hàng được lưu trên máy tính lớn.
+EX	cannabis	Cannabis is illegal in Vietnam.	Cần sa là bất hợp pháp ở Việt Nam.
+EX	ridicule	They ridiculed his idea.	Họ chế nhạo ý tưởng của anh ấy.
+EX	ringtone	I changed my ringtone.	Tôi đã đổi nhạc chuông.
+EX	trademark	The logo is a registered trademark.	Logo là nhãn hiệu đã được đăng ký.
+EX	band-aid	Put a band-aid on the cut.	Dán băng cá nhân lên vết cắt.
+EX	genocide	The world must never forget the genocide.	Thế giới không bao giờ được quên cuộc diệt chủng.
+EX	orthodox	He follows orthodox medicine.	Ông ấy theo y học chính thống.
+EX	custard	We had apple pie with custard.	Chúng tôi ăn bánh táo với kem trứng.
+EX	bland	Hospital food is often bland.	Đồ ăn bệnh viện thường nhạt nhẽo.
+EX	toxin	The plant produces a toxin.	Loài cây này tiết ra độc tố.
+EX	mindless	It's a mindless job.	Đó là một công việc chẳng cần động não.
+EX	mackerel	Grilled mackerel is delicious.	Cá thu nướng rất ngon.
+EX	lagoon	Tam Giang is the largest lagoon in Southeast Asia.	Tam Giang là đầm phá lớn nhất Đông Nam Á.
+EX	dwelling	The village has about 200 dwellings.	Ngôi làng có khoảng 200 nóc nhà.
+EX	ultimatum	The government gave the rebels an ultimatum.	Chính phủ ra tối hậu thư cho quân nổi dậy.
+EX	wick	Trim the wick of the candle.	Cắt bớt bấc nến.
+EX	smoothie	I had a mango smoothie.	Tôi uống một ly sinh tố xoài.
+EX	congressional	The plan needs congressional approval.	Kế hoạch cần được quốc hội phê chuẩn.
+EX	bazaar	The school held a bazaar to raise money.	Nhà trường tổ chức một hội chợ gây quỹ.
+EX	doomsday	Some people believe doomsday is coming.	Một số người tin ngày tận thế sắp đến.
+EX	cougar	A cougar was seen near the town.	Người ta thấy một con báo sư tử gần thị trấn.
+EX	asparagus	We had asparagus with the steak.	Chúng tôi ăn măng tây kèm bít tết.
+EX	blasphemy	He was accused of blasphemy.	Ông ta bị buộc tội báng bổ.
+EX	crescent	A crescent moon hung in the sky.	Một vầng trăng lưỡi liềm treo trên bầu trời.
+EX	loch	Loch Ness is a famous lake in Scotland.	Hồ Loch Ness là một hồ nổi tiếng ở Scotland.
+EX	slipper	He put on his slippers.	Anh ấy đi đôi dép trong nhà vào.
+EX	monsoon	The monsoon brings heavy rain.	Gió mùa mang theo mưa lớn.
+EX	scripture	The monks study the scriptures.	Các nhà sư nghiên cứu kinh sách.
+EX	pox	He caught chicken pox as a child.	Hồi nhỏ anh ấy bị thủy đậu.
+EX	rabid	The rabid dog bit two people.	Con chó dại cắn hai người.
+EX	lovable	He is a lovable little boy.	Cậu bé thật đáng yêu.
+EX	malt	Beer is made from malt.	Bia được làm từ mạch nha.
+EX	homosexuality	Attitudes towards homosexuality have changed.	Thái độ đối với đồng tính luyến ái đã thay đổi.
+EX	fender	The fender of the car was dented.	Chắn bùn của xe bị móp.
+EX	vandalism	The bus shelter was damaged by vandalism.	Nhà chờ xe buýt bị phá hoại.
+EX	ostrich	Ostriches can run very fast.	Đà điểu có thể chạy rất nhanh.
+EX	mast	The sailor climbed the mast.	Người thủy thủ leo lên cột buồm.
+EX	illustrious	She had an illustrious career.	Bà ấy có một sự nghiệp lừng lẫy.
+EX	socket	Plug the charger into the socket.	Cắm sạc vào ổ điện.
+EX	bridesmaid	Her sister was a bridesmaid.	Em gái cô ấy làm phù dâu.
+EX	blockade	The navy set up a blockade of the port.	Hải quân phong tỏa cảng.
+EX	deserter	The deserter was caught and punished.	Kẻ đào ngũ bị bắt và trừng phạt.
+EX	feisty	She is a feisty old lady.	Bà ấy là một bà cụ cá tính, đanh đá.
+EX	humidity	The humidity in Hanoi is very high in summer.	Độ ẩm ở Hà Nội rất cao vào mùa hè.
+EX	featured	The featured article is about climate change.	Bài viết nổi bật là về biến đổi khí hậu.
+EX	reptile	Snakes and lizards are reptiles.	Rắn và thằn lằn là bò sát.
+EX	constellation	Orion is a famous constellation.	Orion là một chòm sao nổi tiếng.
+EX	deformed	The accident left his hand deformed.	Vụ tai nạn làm bàn tay anh ấy bị biến dạng.
+EX	grasshopper	A grasshopper jumped onto my arm.	Một con châu chấu nhảy lên tay tôi.
+EX	gullible	Gullible people believe everything they read online.	Những người cả tin tin mọi thứ họ đọc trên mạng.
+EX	realtor	The realtor showed us three houses.	Nhân viên môi giới bất động sản dẫn chúng tôi xem ba căn nhà.
+EX	muzzle	The dog must wear a muzzle in public.	Con chó phải đeo rọ mõm ở nơi công cộng.
+EX	envoy	The UN sent an envoy to the region.	Liên Hợp Quốc cử một đặc phái viên đến khu vực.
+EX	highland	They live in the highlands.	Họ sống ở vùng cao.
+EX	hardworking	She is a hardworking student.	Cô ấy là một học sinh chăm chỉ.
+EX	enlist	He enlisted in the army at eighteen.	Anh ấy nhập ngũ năm mười tám tuổi.
+EX	faucet	Turn off the faucet.	Khóa vòi nước lại.
+EX	weaponry	The army has modern weaponry.	Quân đội có vũ khí hiện đại.
+EX	gobble	The children gobbled up their dinner.	Bọn trẻ ăn ngấu nghiến bữa tối.
+EX	boutique	She owns a small fashion boutique.	Cô ấy sở hữu một cửa hàng thời trang nhỏ.
+EX	ignite	A spark ignited the fire.	Một tia lửa làm bùng lên đám cháy.
+EX	pathology	He works in the hospital's pathology department.	Anh ấy làm ở khoa giải phẫu bệnh của bệnh viện.
+EX	auditorium	The auditorium can hold 500 people.	Khán phòng có sức chứa 500 người.
+POS	prostrate	adjective
+POS	fret	verb
+POS	compact	adjective
+POS	barbarian	noun
+VI	prostrate	nằm sấp
+VI	fret	lo lắng, bồn chồn
+VI	compact	nhỏ gọn
+VI	barbarian	người man rợ
+VI	declination	sự từ chối
+VI	spatial	thuộc không gian
+VI	babble	nói bi bô, nói lảm nhảm
+VI	anthology	tuyển tập
+VI	equilibrium	trạng thái cân bằng
+VI	loiter	lảng vảng
+VI	interrogation	sự thẩm vấn
+VI	depraved	đồi bại
+VI	consign	đưa vào, dồn vào
+VI	resuscitate	hồi sức
+VI	patchy	rải rác, không đều
+VI	astringent	nước se khít da
+VI	misdemeanor	tội nhẹ
+VI	scroll	cuộn giấy
+VI	thicket	bụi rậm
+VI	assimilate	đồng hóa; hòa nhập
+VI	agility	sự nhanh nhẹn
+VI	gout	bệnh gút
+VI	hindrance	trở ngại
+VI	allegory	truyện ngụ ngôn, phúng dụ
+VI	oatmeal	yến mạch
+VI	sesame	vừng
+VI	cyborg	người máy sinh học
+VI	creed	tín ngưỡng
+VI	eyeball	nhãn cầu
+VI	bumpy	gồ ghề
+VI	chime	điểm chuông
+VI	disgraceful	đáng hổ thẹn
+VI	encore	tiết mục biểu diễn thêm
+VI	bowel	ruột
+VI	mayonnaise	sốt mayonnaise
+VI	baptism	lễ rửa tội
+VI	nonstop	thẳng, không ngừng
+VI	paranormal	siêu nhiên
+VI	commune	công xã
+VI	granite	đá granite
+VI	defenseless	không có khả năng tự vệ
+VI	rabies	bệnh dại
+VI	amnesty	sự ân xá
+VI	cosmetics	mỹ phẩm
+VI	fetus	thai nhi
+VI	detain	giam giữ, tạm giữ
+VI	horoscope	tử vi
+VI	density	mật độ
+VI	airfield	sân bay nhỏ
+VI	activist	nhà hoạt động
+VI	etiquette	phép lịch sự, nghi thức
+VI	limousine	xe limousine
+VI	negligence	sự cẩu thả
+VI	poodle	chó poodle
+VI	vendor	người bán hàng
+VI	ruse	mưu mẹo
+VI	dementia	chứng sa sút trí tuệ
+VI	harmonica	kèn harmonica
+VI	vial	lọ nhỏ
+VI	trespass	xâm phạm (đất đai)
+VI	selfie	ảnh tự chụp
+VI	leukemia	bệnh bạch cầu
+VI	pavilion	đình, nhà nghỉ mát
+VI	typhoon	bão nhiệt đới
+VI	chipped	bị mẻ
+VI	captivity	sự giam cầm, nuôi nhốt
+VI	dismissal	sự sa thải
+VI	inferno	biển lửa
+VI	ringtone	nhạc chuông
+VI	trademark	nhãn hiệu
+VI	custard	kem trứng
+VI	bland	nhạt nhẽo
+VI	mindless	không cần động não
+VI	lagoon	đầm phá
+VI	bazaar	chợ phiên, hội chợ
+VI	loch	hồ (Scotland)
+VI	pox	bệnh đậu
+VI	homosexuality	đồng tính luyến ái
+VI	vandalism	sự phá hoại
+VI	illustrious	lừng lẫy
+VI	blockade	sự phong tỏa
+VI	feisty	cá tính, đanh đá
+VI	featured	nổi bật
+VI	realtor	môi giới bất động sản
+VI	highland	vùng cao
+VI	enlist	nhập ngũ
+VI	faucet	vòi nước
+VI	ignite	đốt cháy, châm ngòi
+VI	auditorium	khán phòng
+VI	pretext	cái cớ
+EN	presupposition	Something you assume to be true before you start.
+EN	antidote	A substance that stops the effects of a poison.
+EN	chrysalis	The form of a butterfly or moth while it is changing inside a case.
+EN	maggot	A small worm-like creature that is the young of a fly.
+EN	palate	The top of the inside of your mouth; also your sense of taste.
+EN	hermit	A person who lives alone away from other people.
+EN	declination	A polite refusal.
+EN	spatial	Relating to space and position.
+EN	minefield	An area where explosive mines are hidden.
+EN	tactic	A method used to achieve something.
+EN	anthology	A collection of stories or poems by different writers.
+EN	chronology	The order in which events happened.
+EN	seismic	Relating to earthquakes.
+EN	procedural	Relating to official procedures.
+EN	archetype	A typical example of something.
+EN	incumbent	The person who currently holds an official position.
+EN	interrogate	To ask someone many questions, often aggressively.
+EN	interrogation	The act of questioning someone closely.
+EN	interrogative	Used for asking questions.
+EN	depraved	Morally very bad.
+EN	whirlwind	A column of air spinning fast; something that happens very quickly.
+EN	condensation	Drops of water that form when steam touches a cold surface.
+EN	colloquial	Used in informal conversation.
+EN	conglomerate	A large company made up of different businesses.
+EN	artifact	An object made by people, especially one of historical interest.
+EN	patchy	Uneven; existing only in some parts.
+EN	resound	To be filled with a loud sound.
+EN	laryngitis	An illness of the throat that makes it hard to speak.
+EN	scroll	A long roll of paper with writing on it.
+EN	collide	To crash into something.
+EN	thicket	A group of bushes and small trees growing close together.
+EN	assimilate	To become part of a group or culture; to fully understand information.
+EN	verbatim	Using exactly the same words.
+EN	corpus	A large collection of written or spoken texts.
+EN	coax	To persuade someone gently.
+EN	agility	The ability to move quickly and easily.
+EN	embodiment	A perfect example of a quality or idea.
+EN	hindrance	Something that makes progress difficult.
+EN	allegory	A story with a hidden moral or political meaning.
+EN	ecotourism	Tourism to natural areas that tries not to harm the environment.
+EN	latch	A simple metal bar used to fasten a door or gate.
+EN	oatmeal	Crushed oats, often cooked as porridge.
+EN	unmarried	Not married.
+EN	puberty	The time when a child's body changes into an adult's.
+EN	miner	A person who works in a mine.
+EN	broth	A thin soup made from meat or vegetables boiled in water.
+EN	sesame	A plant with small seeds used in cooking.
+EN	elope	To run away secretly to get married.
+EN	mentality	A way of thinking.
+EN	cyborg	A creature that is part human and part machine.
+EN	hologram	A three-dimensional image made with lasers.
+EN	creed	A set of beliefs, especially religious ones.
+EN	horseman	A man who rides a horse.
+EN	eyeball	The whole round part of the eye.
+EN	clueless	Not knowing anything about something.
+EN	tempo	The speed of a piece of music.
+EN	bumpy	Not smooth; uneven.
+EN	cylinder	A shape with round ends and straight sides, like a tube.
+EN	disgraceful	Very bad and shameful.
+EN	bowel	The long tube in the body that carries waste from the stomach.
+EN	mayonnaise	A thick cold sauce made from eggs and oil.
+EN	evolutionary	Relating to evolution; developing gradually.
+EN	barbarian	A wild or uncivilised person.
+EN	baptism	A Christian ceremony in which water is used to welcome someone into the church.
+EN	notary	An official who witnesses the signing of legal documents.
+EN	mound	A small hill or pile of earth.
+EN	biopsy	The removal of a small piece of tissue to check for disease.
+EN	neon	A gas used in bright coloured lights.
+EN	macaroni	Pasta in the shape of short tubes.
+EN	rigid	Stiff and not able to bend; not willing to change.
+EN	empathy	The ability to understand other people's feelings.
+EN	overload	To put too much in or on something.
+EN	nonstop	Without stopping.
+EN	paranormal	Impossible to explain by science.
+EN	jellyfish	A soft sea animal that can sting.
+EN	commune	A group of people who live together and share everything.
+EN	granite	A very hard grey stone.
+EN	defenseless	Unable to protect yourself.
+EN	rabies	A deadly disease passed on by the bite of an infected animal.
+EN	mirage	Something you see that is not really there, especially in a desert.
+EN	backbone	The spine; also the most important part of something.
+EN	virtuous	Morally good.
+EN	amnesty	An official pardon for people who have committed crimes.
+EN	fern	A green plant with feather-like leaves and no flowers.
+EN	plateau	A large flat area of high land.
+EN	hormone	A chemical in the body that controls growth and development.
+EN	apparatus	Equipment for a particular purpose.
+EN	beverage	A drink.
+EN	fetus	A baby before it is born.
+EN	socialism	A political system in which the state owns major industries.
+EN	reflex	An automatic reaction of the body.
+EN	roadblock	A barrier across a road to stop traffic.
+EN	outpost	A small military camp far from the main army.
+EN	horoscope	A prediction about your life based on the stars.
+EN	density	How much of something there is in a given space.
+EN	blueberry	A small dark blue fruit.
+EN	fertilizer	A substance added to soil to help plants grow.
+EN	helium	A very light gas used to fill balloons.
+EN	crimson	Dark red.
+EN	activist	A person who works to bring about political or social change.
+EN	softball	A game like baseball played with a larger, softer ball.
+EN	etiquette	The rules of polite behaviour.
+EN	tortoise	A slow land animal with a hard shell.
+EN	kale	A vegetable with curly green leaves.
+EN	swipe	To move your finger across a touch screen; to hit at something.
+EN	livelihood	The way you earn money to live.
+EN	porcelain	A fine hard white material used for cups and plates.
+EN	negligence	Failure to take proper care.
+EN	pelvis	The large bowl-shaped bone at the bottom of the spine.
+EN	hymn	A religious song.
+EN	poodle	A dog with thick curly hair.
+EN	meatball	A small ball of minced meat.
+EN	almond	A flat oval nut.
+EN	self-respect	A feeling of pride in yourself.
+EN	blender	A machine used to mix or crush food.
+EN	mow	To cut grass.
+EN	vendor	A person who sells things, often in the street.
+EN	labyrinth	A complicated network of paths.
+EN	florist	A person or shop that sells flowers.
+EN	ruse	A trick.
+EN	observatory	A building for watching the stars and planets.
+EN	diplomacy	The work of managing relations between countries; skill in dealing with people.
+EN	caterpillar	A small worm-like creature that becomes a butterfly.
+EN	chainsaw	A saw powered by a motor.
+EN	rudder	A flat part at the back of a boat or plane used for steering.
+EN	lollipop	A hard sweet on a stick.
+EN	salami	A spicy sausage eaten cold.
+EN	ulcer	A painful sore on the skin or inside the body.
+EN	dementia	A disease of the brain that causes memory loss.
+EN	arthritis	A disease that makes joints painful and swollen.
+EN	miscarriage	The loss of a baby before birth.
+EN	monarchy	A country ruled by a king or queen.
+EN	mammoth	A large hairy elephant that lived long ago.
+EN	prostate	A gland in men near the bladder.
+EN	snowman	A figure of a person made of snow.
+EN	bridegroom	A man on his wedding day.
+EN	tombstone	A stone on a grave with the dead person's name.
+EN	insomnia	The inability to sleep.
+EN	harmonica	A small instrument you blow into, moving it across your mouth.
+EN	proceeds	Money earned from an event or sale.
+EN	democrat	A person who believes in democracy.
+EN	vial	A small glass bottle for medicine.
+EN	pious	Very religious.
+EN	crossword	A word puzzle with numbered clues.
+EN	accelerate	To go faster.
+EN	hemisphere	One half of the earth.
+EN	accordion	A musical instrument you squeeze while pressing keys.
+EN	cowardice	Lack of courage.
+EN	coil	A series of circles made by winding something.
+EN	trespass	To go onto someone's land without permission.
+EN	yak	A large hairy animal like a cow from Tibet.
+EN	odor	A smell, often an unpleasant one.
+EN	spam	Unwanted emails, usually advertisements.
+EN	anesthesia	The use of drugs so that a patient feels no pain.
+EN	meteorite	A piece of rock from space that lands on earth.
+EN	leukemia	A cancer of the blood.
+EN	smuggler	A person who takes goods into or out of a country illegally.
+EN	pavilion	A building in a park or garden for shelter or display.
+EN	pretext	A false reason given to hide the real reason.
+EN	typhoon	A violent tropical storm in the Pacific.
+EN	smallpox	A serious infectious disease that is now eliminated.
+EN	voltage	The force of an electric current, measured in volts.
+EN	benefactor	A person who gives money to help others.
+EN	compact	Small and taking up little space.
+EN	anus	The opening through which solid waste leaves the body.
+EN	leech	A small worm that sucks blood.
+EN	scapegoat	A person blamed for something others did.
+EN	captivity	The state of being kept in a prison or cage.
+EN	atlas	A book of maps.
+EN	dismissal	The act of removing someone from their job.
+EN	blurry	Not clear.
+EN	fascism	An extreme right-wing political system with a powerful leader.
+EN	aviation	The design, building and flying of aircraft.
+EN	inferno	A very large dangerous fire.
+EN	algebra	A type of maths that uses letters to represent numbers.
+EN	doorknob	A round handle on a door.
+EN	celery	A vegetable with long pale green stems.
+EN	troublemaker	A person who causes trouble.
+EN	mainframe	A large powerful computer.
+EN	cannabis	A drug made from the hemp plant.
+EN	ridicule	To laugh at someone in an unkind way.
+EN	trademark	A name or symbol a company uses on its products.
+EN	genocide	The killing of a whole national, racial or religious group.
+EN	custard	A sweet sauce made from milk, eggs and sugar.
+EN	bland	Without much flavour.
+EN	toxin	A poisonous substance.
+EN	mindless	Done without thinking; not needing thought.
+EN	mackerel	A sea fish with a strong taste.
+EN	lagoon	A lake of sea water separated from the sea by sand or rock.
+EN	dwelling	A house or place to live.
+EN	ultimatum	A final demand with a threat if it is not met.
+EN	wick	The string in a candle that you light.
+EN	smoothie	A thick drink made of blended fruit.
+EN	congressional	Relating to the US Congress.
+EN	bazaar	A market; a sale to raise money.
+EN	doomsday	The end of the world.
+EN	asparagus	A vegetable with long green stems.
+EN	blasphemy	Something said or done that shows disrespect to God or religion.
+EN	crescent	A curved shape like the moon at the start of its cycle.
+EN	monsoon	The season of heavy rain in South and Southeast Asia.
+EN	scripture	Holy writings of a religion.
+EN	pox	A disease that causes spots on the skin.
+EN	lovable	Easy to love.
+EN	malt	Grain used to make beer and whisky.
+EN	homosexuality	Sexual attraction to people of the same sex.
+EN	fender	The part of a car that covers the wheel.
+EN	vandalism	Deliberate damage to public property.
+EN	illustrious	Famous and admired.
+EN	blockade	The blocking of a place to stop goods or people getting in or out.
+EN	deserter	A soldier who leaves the army without permission.
+EN	feisty	Strong-minded and lively.
+EN	humidity	The amount of water in the air.
+EN	featured	Given special attention.
+EN	reptile	A cold-blooded animal such as a snake or lizard.
+EN	deformed	Having an abnormal shape.
+EN	grasshopper	A jumping insect that makes a noise with its legs.
+EN	envoy	An official sent to represent a government.
+EN	highland	An area of high or mountainous land.
+EN	hardworking	Working hard.
+EN	enlist	To join the armed forces.
+EN	faucet	A tap (US).
+EN	weaponry	Weapons as a group.
+EN	pathology	The study of diseases.
+EN	auditorium	The part of a theatre or hall where the audience sits.

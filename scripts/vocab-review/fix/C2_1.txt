@@ -1,0 +1,391 @@
+DROP	gigolo	
+DROP	ottoman	
+DROP	lol	
+DROP	tov	
+DROP	orbital	
+DROP	commie	
+DROP	bulgarian	
+DROP	spaniard	
+DROP	moroccan	
+DROP	banzai	
+DROP	booger	
+DROP	courtesan	
+DROP	cuckold	
+DROP	chink	
+DROP	vibrator	
+DROP	antichrist	
+DROP	vee	
+DROP	abracadabra	
+DROP	mikado	
+DROP	merc	
+DROP	nom	
+DROP	icelandic	
+DROP	koto	
+DROP	bolshevik	
+DROP	anglo-saxon	
+DROP	knock-knock	
+DROP	striptease	
+DROP	clitoris	
+DROP	scrotum	
+DROP	pornographic	
+DROP	incest	
+DROP	taoist	
+DROP	algerian	
+DROP	burmese	
+DROP	mongolian	
+DROP	georgian	
+DROP	taiwanese	
+DROP	indonesian	
+DROP	arabian	
+DROP	cossack	
+DROP	ronin	
+DROP	rishi	
+DROP	deva	
+DROP	kamikaze	
+DROP	chop-chop	
+DROP	oink	
+DROP	tick-tock	
+DROP	thirty-six	
+DROP	aye-aye	
+DROP	intubate	
+DROP	vasectomy	
+DROP	palanquin	
+DROP	hick	
+DROP	heathen	
+DROP	cluck	
+DROP	squawk	
+DROP	coo	
+DROP	yap	
+DROP	godspeed	
+DROP	a-bomb	
+DROP	tampon	
+DROP	testicle	
+DROP	shogunate	
+DROP	heterosexual	
+EN	slop	Waste food, especially when used to feed pigs.
+VI	slop	thức ăn thừa
+EN	quark	A very small particle that makes up protons and neutrons.
+VI	quark	hạt quark
+EN	puffy	Swollen, especially around the eyes.
+EN	wrinkle	A small line or fold in skin or cloth.
+EN	cubic	Relating to a measurement of volume, as in cubic metres.
+EN	anthrax	A serious bacterial disease that affects animals and people.
+EN	territorial	Relating to the land owned or controlled by a country or animal.
+EN	mannequin	A model of a human body used to display clothes in a shop.
+VI	newt	con sa giông
+EN	slender	Thin in a graceful way.
+EN	flake	A small, thin piece of something, such as snow or paint.
+VI	flake	mảnh nhỏ
+EN	utopia	An imagined perfect place or society.
+VI	utopia	xã hội lý tưởng
+VI	veterinarian	bác sĩ thú y
+EN	dredge	To remove mud or sand from the bottom of a river or harbour.
+VI	emir	tiểu vương
+EN	bead	A small ball of glass or wood with a hole, used in jewellery.
+VI	bead	hạt cườm
+EN	lodging	A place to stay temporarily, especially a rented room.
+VI	magma	mác-ma
+EN	reproduction	The process of producing young animals or plants; also a copy of something.
+VI	reproduction	sự sinh sản; bản sao
+VI	rampage	cơn bạo loạn
+EN	evade	To escape or avoid something, often by trickery.
+VI	evade	trốn tránh
+VI	dingo	chó dingo
+EN	plough	A farm tool pulled across a field to turn over the soil.
+VI	quail	chim cút
+EN	windmill	A building with sails that the wind turns to produce power or grind grain.
+VI	open-minded	cởi mở
+EN	seminary	A college for training priests or ministers.
+EN	nominate	To officially suggest someone for a job, position or prize.
+EN	lacrosse	A team sport played with sticks that have a net at the end.
+EN	dumpling	A small ball of dough, often filled with meat or vegetables, that is cooked.
+VI	dumpling	bánh bao, sủi cảo
+EN	hydraulic	Operated by the pressure of water or another liquid.
+EN	cartridge	A small container that holds ink, film or ammunition and fits into a device.
+VI	cartridge	hộp mực; băng đạn
+VI	eggplant	cà tím
+EN	dipper	A large spoon with a long handle used for scooping liquid.
+VI	mishap	rủi ro nhỏ
+VI	weir	đập tràn nhỏ
+VI	ventilator	máy thở
+EN	abduct	To take someone away illegally by force.
+VI	cloning	nhân bản vô tính
+VI	immaculate	sạch sẽ tinh tươm
+VI	monologue	độc thoại
+VI	yam	khoai mỡ
+VI	prognosis	tiên lượng
+EN	inauguration	A ceremony marking the start of an official's term in office.
+VI	inauguration	lễ nhậm chức
+EN	rein	A long strap used to control a horse.
+VI	swagger	dáng đi vênh vang
+EN	swagger	A confident, proud way of walking or behaving.
+EN	prune	A dried plum.
+VI	prune	mận khô
+EN	neanderthal	An extinct kind of early human.
+EN	ascend	To move upwards; to climb.
+VI	ascend	đi lên
+EN	clergy	Priests and religious leaders as a group.
+VI	clergy	giới tu sĩ
+EN	self-control	The ability to control your emotions and behaviour.
+VI	mascara	mascara
+EN	tout	To praise or advertise something in order to persuade people.
+VI	tout	quảng cáo rùm beng
+VI	heretic	kẻ dị giáo
+EN	brittle	Hard but easily broken.
+EN	weld	To join metal pieces by heating them.
+VI	walrus	hải mã
+VI	mantra	câu thần chú
+EN	flux	Continuous change.
+VI	flux	sự thay đổi liên tục
+VI	crossbow	nỏ
+EN	commandment	A rule given by God, especially one of the Ten Commandments.
+VI	moped	xe máy nhỏ
+EN	graze	To eat grass in a field (of animals); also to scrape the skin slightly.
+VI	graze	gặm cỏ; trầy da
+VI	clarinet	kèn clarinet
+EN	ordinance	An official rule or order made by a local government.
+EN	courtship	A period when two people are romantically getting to know each other.
+VI	feces	phân
+EN	diaphragm	The muscle between the chest and the stomach that helps you breathe.
+VI	rosary	chuỗi tràng hạt
+EN	scourge	Something that causes great trouble or suffering.
+VI	blackberry	quả mâm xôi đen
+EN	cache	A hidden store of things; also fast temporary computer memory.
+VI	cache	kho cất giấu; bộ nhớ đệm
+VI	cyclone	lốc xoáy, bão xoáy
+EN	evasion	The act of avoiding something, such as a question or paying tax.
+VI	evasion	sự trốn tránh
+EN	spruce	A type of evergreen tree with needle-like leaves.
+VI	opal	đá opal
+EN	built-in	Included as part of something.
+VI	built-in	gắn sẵn
+EN	hock	The middle joint in the back leg of a horse.
+EN	turban	A long cloth wrapped around the head, worn especially by Sikh and some Muslim men.
+VI	turban	khăn xếp
+VI	locksmith	thợ khóa
+VI	shellfish	động vật có vỏ (tôm, cua, sò)
+EN	specter	Something unpleasant that people fear may happen.
+VI	specter	bóng ma, mối đe dọa
+VI	blunder	sai lầm ngớ ngẩn
+EN	mistletoe	A plant with white berries that grows on trees, used as a Christmas decoration.
+VI	sorcery	phép phù thủy
+VI	asbestos	amiăng
+EN	crutch	A stick that fits under the arm to help someone walk.
+VI	hurdle	rào cản
+VI	bottomless	không đáy
+EN	bottomless	Having no bottom or limit; very deep.
+VI	irrigation	tưới tiêu
+VI	whence	từ đâu
+EN	seasoning	Salt, pepper, herbs or spices added to food to improve the flavour.
+VI	gist	ý chính
+EN	gist	The main point or general meaning of something.
+EN	vapor	Tiny drops of water or other liquid in the air.
+VI	vapor	hơi nước
+EN	drainage	The system or process of removing water from an area.
+EN	alloy	A metal made by mixing two or more metals.
+VI	shriek	thét lên
+EN	extinguish	To put out a fire or light.
+VI	cauldron	vạc
+VI	phobia	nỗi sợ hãi vô lý
+VI	sickly	ốm yếu
+EN	tetanus	A serious disease caused by bacteria entering a wound, making muscles stiff.
+VI	cutlery	dao dĩa, thìa nĩa
+EN	wavelength	The distance between two waves of sound or light.
+EN	processor	The part of a computer that carries out instructions.
+VI	subdue	khuất phục, kiềm chế
+EN	dub	To replace the original speech in a film with another language; also to give a nickname.
+VI	dashboard	bảng đồng hồ; trang tổng quan
+EN	squish	To squash something soft.
+VI	squish	bóp bẹp
+VI	humanoid	người máy hình người
+VI	manga	truyện tranh Nhật
+EN	theology	The study of religion and beliefs about God.
+VI	hooligan	côn đồ
+EN	hooligan	A violent young person who causes trouble, especially at football matches.
+VI	trashy	rẻ tiền, kém chất lượng
+EN	activation	The act of making something start working.
+EN	emblem	A symbol that represents a group, country or idea.
+VI	thermos	bình giữ nhiệt
+EN	prefecture	An administrative region in some countries, such as Japan.
+EN	craze	A short-lived fashion that is very popular.
+VI	craze	cơn sốt, trào lưu
+VI	watt	oát (W)
+VI	sarcophagus	quan tài đá
+EN	overflow	To flow over the edges of a container.
+VI	pimple	mụn
+VI	oar	mái chèo
+VI	radish	củ cải đỏ
+VI	alto	giọng nữ trầm
+VI	violinist	nghệ sĩ vĩ cầm
+VI	derivative	sản phẩm phái sinh; đạo hàm
+EN	derivative	Something developed from something else; in maths, a rate of change.
+VI	soot	bồ hóng, muội than
+EN	sloth	A slow-moving animal that lives in trees; also laziness.
+VI	sloth	con lười; sự lười biếng
+EN	physiology	The study of how living things and their bodies work.
+VI	confetti	hoa giấy
+VI	ceramic	đồ gốm sứ
+VI	enzyme	enzim
+EN	guesthouse	A small hotel or private house where travellers pay to stay.
+EN	snowflake	A single small piece of falling snow.
+VI	blackbird	chim sáo đen
+EN	maroon	A dark brownish-red colour.
+EN	slew	A large number or amount of something.
+VI	leprosy	bệnh phong (cùi)
+EN	albatross	A very large white seabird with long wings.
+VI	albatross	chim hải âu lớn
+VI	rheumatism	bệnh thấp khớp
+EN	gourd	A large fruit with a hard skin, often dried and used as a container.
+VI	gourd	quả bầu
+VI	barter	trao đổi hàng hóa
+VI	marlin	cá cờ
+VI	klaxon	còi báo động
+VI	buttermilk	sữa bơ
+EN	stinger	The sharp part of an insect used to sting.
+VI	kiosk	quầy, ki-ốt
+EN	kiosk	A small stall that sells newspapers, snacks or tickets.
+EN	insufferable	Extremely annoying and difficult to bear.
+VI	insufferable	không thể chịu nổi
+EN	parliamentary	Relating to a parliament.
+VI	parliamentary	thuộc nghị viện
+VI	iguana	kỳ đà
+VI	corkscrew	cái mở nút chai
+EN	starch	A substance in foods like rice and potatoes that gives energy.
+EN	wildfire	A large fire that spreads quickly through forests or grassland.
+VI	wildfire	cháy rừng
+EN	wart	A small hard lump on the skin caused by a virus.
+EN	iodine	A chemical element used as an antiseptic and needed for health.
+EN	flagship	The most important product, store or ship of a group.
+VI	flagship	sản phẩm chủ lực; soái hạm
+VI	placenta	nhau thai
+EN	knave	A dishonest man (old use); also the jack in a pack of cards.
+VI	knave	kẻ bất lương; quân J
+VI	black-and-white	đen trắng
+EN	urinate	To pass urine from the body.
+EN	horseshoe	A U-shaped piece of iron nailed to a horse's hoof.
+EN	twelfth	Coming after the eleventh in order.
+VI	twelfth	thứ mười hai
+VI	calligraphy	thư pháp
+EN	subscribe	To pay regularly to receive a service or publication.
+VI	gymnasium	phòng tập thể dục
+EN	consummate	Showing great skill; perfect.
+VI	consummate	tài ba, hoàn hảo
+VI	clasp	cái móc, cái khóa
+VI	relentlessly	không ngừng, không nương tay
+VI	frostbite	tê cóng
+EN	desist	To stop doing something.
+VI	ascent	sự đi lên
+VI	pretense	sự giả vờ
+EN	municipality	A town or city with its own local government.
+VI	municipality	thành phố tự quản
+VI	shorthand	tốc ký
+EN	entice	To persuade someone to do something by offering something attractive.
+VI	entice	lôi kéo, dụ dỗ
+EN	outreach	Efforts by an organization to reach and help people in the community.
+EN	seniority	A higher position or rank because of age or length of service.
+VI	mite	con mạt
+EN	pout	To push out your lips to show you are annoyed.
+VI	pout	bĩu môi
+VI	pistachio	hạt dẻ cười
+EN	apex	The top or highest point of something.
+VI	apex	đỉnh
+EN	revoke	To officially cancel something such as a law or licence.
+VI	scaffolding	giàn giáo
+EN	hearth	The floor of a fireplace; also home.
+VI	hearth	lò sưởi; mái ấm
+VI	crouch	ngồi xổm, cúi người
+EN	crouch	To bend your knees and lower your body close to the ground.
+VI	supremacy	quyền tối cao
+EN	hammerhead	A shark with a flat head shaped like a hammer.
+VI	sauerkraut	dưa cải bắp muối
+EN	differential	Relating to or showing a difference.
+VI	differential	chênh lệch
+EN	apparition	A ghost or something that appears unexpectedly.
+EN	lute	A stringed musical instrument with a rounded back, played in the past.
+VI	wheelbarrow	xe cút kít
+VI	armistice	hiệp định đình chiến
+EN	whisk	A kitchen tool used to beat eggs or cream.
+VI	valedictorian	thủ khoa
+VI	bureaucrat	quan chức (bàn giấy)
+EN	cervical	Relating to the neck or the cervix.
+VI	cervical	thuộc cổ; cổ tử cung
+VI	tutu	váy múa ba lê
+EN	mosaic	A picture made from small pieces of coloured stone or glass.
+VI	mucus	chất nhầy
+VI	tourniquet	dây garô
+VI	apricot	quả mơ
+VI	mahogany	gỗ gụ
+VI	microchip	vi mạch
+EN	tangerine	A small sweet orange fruit that is easy to peel.
+VI	tangerine	quả quýt
+VI	piranha	cá piranha
+VI	great-grandmother	bà cố, cụ bà
+VI	chipmunk	sóc chuột
+VI	bloc	khối (liên minh)
+EN	alight	To get off a bus or train (formal); also burning.
+VI	alight	xuống (xe); đang cháy
+EN	gull	A grey and white seabird.
+VI	gull	mòng biển
+VI	llama	lạc đà không bướu
+EN	pointer	A piece of advice; also a stick or arrow used to point at something.
+VI	pointer	lời khuyên; que chỉ
+VI	gondola	thuyền gondola; cabin cáp treo
+EN	grapevine	A climbing plant that grapes grow on; informally, the way news spreads by gossip.
+VI	piggyback	cõng trên lưng
+EN	piggyback	A ride on someone's back.
+VI	symbolism	chủ nghĩa tượng trưng
+VI	primate	động vật linh trưởng
+EN	indigo	A dark blue colour or dye.
+EN	sandbox	A box of sand for children to play in; also a safe testing area for software.
+VI	secretariat	ban thư ký
+VI	quarterly	ấn phẩm hàng quý
+VI	conspire	âm mưu
+EN	singularity	The quality of being unique; also a point where normal rules break down.
+VI	spanner	cờ lê
+VI	scallop	con sò điệp
+VI	veranda	hiên nhà
+VI	franc	đồng franc
+VI	ovation	tràng pháo tay
+EN	tongs	A tool with two arms used for picking things up.
+VI	tongs	cái kẹp
+EN	patriarch	The male head of a family or tribe.
+VI	patriarch	người gia trưởng
+EN	null	Having no legal force; having no value.
+VI	null	vô hiệu
+VI	edema	phù nề
+VI	chutney	tương trái cây (chutney)
+VI	beehive	tổ ong
+VI	gazebo	chòi nghỉ mát
+EN	remnant	A small part of something that is left.
+EN	rsvp	To reply to an invitation.
+VI	rsvp	hồi đáp lời mời
+EN	loin	Meat from the back of an animal near the spine.
+VI	varnish	vecni
+VI	gonorrhea	bệnh lậu
+EN	mouthpiece	The part of a musical instrument or phone you put to your mouth; a spokesperson.
+VI	mouthpiece	ống ngậm; người phát ngôn
+VI	bittersweet	vừa vui vừa buồn
+VI	tusk	ngà voi
+EN	memoir	A written account of someone's own life and experiences.
+EN	fable	A short story, often with animals, that teaches a moral lesson.
+VI	salamander	kỳ giông
+EN	bumble	To move or act in an awkward, confused way.
+VI	pulpit	bục giảng (nhà thờ)
+VI	minion	tay sai
+VI	township	thị trấn, xã
+VI	nutmeg	nhục đậu khấu
+VI	mongoose	cầy mangut
+VI	anvil	cái đe
+EN	hinge	A metal piece that allows a door or lid to open and close.
+EN	jot	To write something quickly.
+VI	jot	ghi nhanh
+VI	nutcracker	cái kẹp quả óc chó
+EN	nutcracker	A tool for cracking the shells of nuts.
+EN	incite	To encourage someone to do something violent or illegal.
+EN	cyst	A small sac of fluid that grows in the body.
+VI	cyst	u nang
+VI	crayon	bút sáp màu
+EN	dimple	A small hollow in the cheek, especially when smiling.
+EN	displacement	The act of forcing people to leave their homes.
+VI	displacement	sự di dời, sự phải rời bỏ nơi ở
+VI	tapioca	bột sắn

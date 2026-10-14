@@ -1,5 +1,6 @@
 package com.edu.english.config;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.edu.english.config.SeedModels.ExampleSeed;
 import com.edu.english.config.SeedModels.ExerciseSeed;
 import com.edu.english.config.SeedModels.GrammarFile;
@@ -14,6 +15,8 @@ import com.edu.english.config.SeedModels.ReadingFile;
 import com.edu.english.config.SeedModels.SectionSeed;
 import com.edu.english.config.SeedModels.SpeakingFile;
 import com.edu.english.config.SeedModels.SpeakingSeed;
+import com.edu.english.config.SeedModels.PhraseFile;
+import com.edu.english.config.SeedModels.PhraseSeed;
 import com.edu.english.config.SeedModels.TestFile;
 import com.edu.english.config.SeedModels.TestSeed;
 import com.edu.english.config.SeedModels.TopicSeed;
@@ -48,6 +51,7 @@ import com.edu.english.domain.ReadingPassage;
 import com.edu.english.domain.SpeakingPrompt;
 import com.edu.english.domain.StudySession;
 import com.edu.english.domain.TestSection;
+import com.edu.english.domain.WritingPhrase;
 import com.edu.english.domain.UserAccount;
 import com.edu.english.domain.VocabTopic;
 import com.edu.english.domain.Vocabulary;
@@ -55,6 +59,7 @@ import com.edu.english.domain.WritingPrompt;
 import com.edu.english.repo.GrammarTopicRepository;
 import com.edu.english.repo.IeltsProfileRepository;
 import com.edu.english.repo.IeltsTestRepository;
+import com.edu.english.repo.WritingPhraseRepository;
 import com.edu.english.repo.ListeningTrackRepository;
 import com.edu.english.repo.QuestionGroupRepository;
 import com.edu.english.repo.ReadingPassageRepository;
@@ -71,9 +76,12 @@ import java.io.InputStream;
 import java.time.Clock;
 import java.time.LocalDate;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
+import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -99,6 +107,7 @@ public class DataSeeder implements CommandLineRunner {
   private final QuestionGroupRepository groups;
   private final WritingPromptRepository writingPrompts;
   private final SpeakingPromptRepository speakingPrompts;
+  private final WritingPhraseRepository phrases;
   private final IeltsTestRepository tests;
   private final UserRepository users;
   private final IeltsProfileRepository profiles;
@@ -117,6 +126,7 @@ public class DataSeeder implements CommandLineRunner {
       QuestionGroupRepository groups,
       WritingPromptRepository writingPrompts,
       SpeakingPromptRepository speakingPrompts,
+      WritingPhraseRepository phrases,
       IeltsTestRepository tests,
       UserRepository users,
       IeltsProfileRepository profiles,
@@ -133,6 +143,7 @@ public class DataSeeder implements CommandLineRunner {
     this.groups = groups;
     this.writingPrompts = writingPrompts;
     this.speakingPrompts = speakingPrompts;
+    this.phrases = phrases;
     this.tests = tests;
     this.users = users;
     this.profiles = profiles;
@@ -146,13 +157,14 @@ public class DataSeeder implements CommandLineRunner {
   @Override
   @Transactional
   public void run(String... args) {
-    if (vocabulary.count() == 0) seedVocabulary();
-    if (grammar.count() == 0) seedGrammar();
+    seedVocabulary();
+    seedGrammar();
     seedReading();
     seedListening();
     seedWriting();
-    if (speakingPrompts.count() == 0) seedSpeaking();
-    if (tests.count() == 0) seedTests();
+    seedSpeaking();
+    seedPhrases();
+    seedTests();
     seedDemoUser();
   }
 
@@ -160,35 +172,178 @@ public class DataSeeder implements CommandLineRunner {
     VocabFile file = read("content/vocab.json", VocabFile.class);
     Map<String, VocabTopic> topicByName = new HashMap<>();
     for (TopicSeed seed : file.topics()) {
-      VocabTopic topic = new VocabTopic();
-      topic.setName(seed.name());
-      topic.setIcon(seed.icon());
-      topic.setSortOrder(seed.sortOrder());
-      topicByName.put(seed.name(), topics.save(topic));
+      VocabTopic topic =
+          topics
+              .findByName(seed.name())
+              .orElseGet(
+                  () -> {
+                    VocabTopic created = new VocabTopic();
+                    created.setName(seed.name());
+                    created.setIcon(seed.icon());
+                    created.setSortOrder(seed.sortOrder());
+                    return topics.save(created);
+                  });
+      topicByName.put(seed.name(), topic);
     }
+    Map<String, String> pictures = read("content/pictures.json", new TypeReference<Map<String, String>>() {});
+    Map<String, Vocabulary> known = new HashMap<>();
+    vocabulary.findAll().forEach((row) -> known.put(row.getWord().toLowerCase(), row));
     for (WordSeed seed : file.words()) {
+      Vocabulary existing = known.get(seed.word().toLowerCase());
+      if (existing != null) {
+        boolean changed = false;
+        if ((existing.getPhonetic() == null || existing.getPhonetic().isBlank())
+            && seed.phonetic() != null
+            && !seed.phonetic().isBlank()) {
+          existing.setPhonetic(seed.phonetic());
+          changed = true;
+        }
+        // JSON là nguồn chuẩn cho câu ví dụ và loại từ (đã rà tay trong scripts/vocab-review).
+        if (seed.exampleEn() != null && !seed.exampleEn().isBlank()
+            && (!seed.exampleEn().equals(existing.getExampleEn())
+                || !Objects.equals(seed.exampleVi(), existing.getExampleVi()))) {
+          existing.setExampleEn(seed.exampleEn());
+          existing.setExampleVi(seed.exampleVi() == null ? "" : seed.exampleVi());
+          changed = true;
+        }
+        PartOfSpeech seedPos = PartOfSpeech.valueOf(seed.partOfSpeech());
+        if (seedPos != existing.getPartOfSpeech()) {
+          existing.setPartOfSpeech(seedPos);
+          changed = true;
+        }
+        String pictured = pictureUrl(pictures, seed.word());
+        if (pictured != null && !pictured.equals(existing.getImageUrl())) {
+          existing.setImageUrl(pictured);
+          changed = true;
+        }
+        String nextEn = seed.meaningEn() == null ? "" : seed.meaningEn();
+        String currentEn = existing.getMeaningEn() == null ? "" : existing.getMeaningEn();
+        if (!nextEn.equals(currentEn)) {
+          existing.setMeaningEn(nextEn.isBlank() ? null : nextEn);
+          changed = true;
+        }
+        // JSON là nguồn chuẩn: nghĩa tiếng Việt sửa trong file thì cập nhật vào DB.
+        if (seed.meaningVi() != null && !seed.meaningVi().isBlank() && !seed.meaningVi().equals(existing.getMeaningVi())) {
+          existing.setMeaningVi(seed.meaningVi());
+          changed = true;
+        }
+        // Từ đang ở nhóm chung (Core, Academic) mà JSON xếp sang chủ đề IELTS thì chuyển theo JSON.
+        VocabTopic seedTopic = topicByName.get(seed.topic());
+        if (seedTopic != null && existing.getTopic() != null && !seedTopic.getId().equals(existing.getTopic().getId())
+            && isGeneralTopic(existing.getTopic().getName())) {
+          existing.setTopic(seedTopic);
+          changed = true;
+        }
+        if (seed.family() != null && !seed.family().equals(existing.getWordFamily())) {
+          existing.setWordFamily(seed.family());
+          changed = true;
+        }
+        if (changed) vocabulary.save(existing);
+        continue;
+      }
+      known.put(seed.word().toLowerCase(), new Vocabulary());
       Vocabulary word = new Vocabulary();
       word.setTopic(topicByName.get(seed.topic()));
       word.setWord(seed.word());
       word.setPhonetic(seed.phonetic());
       word.setMeaningVi(seed.meaningVi());
+      word.setMeaningEn(seed.meaningEn());
       word.setLevel(EnglishLevel.valueOf(seed.level()));
       word.setPartOfSpeech(PartOfSpeech.valueOf(seed.partOfSpeech()));
       word.setExampleEn(seed.exampleEn());
       word.setExampleVi(seed.exampleVi());
       word.setSortOrder(seed.sortOrder());
-      word.setImageUrl("https://api.dicebear.com/9.x/shapes/svg?seed=" + seed.word());
+      word.setWordFamily(seed.family());
+      String pictured = pictureUrl(pictures, seed.word());
+      word.setImageUrl(pictured != null ? pictured : "https://api.dicebear.com/9.x/shapes/svg?seed=" + seed.word());
       vocabulary.save(word);
     }
   }
 
+  /** Nhóm chung theo cấp độ hoặc học thuật: được phép chuyển từ sang chủ đề cụ thể hơn. */
+  private static boolean isGeneralTopic(String name) {
+    return name != null && (name.startsWith("Core ") || name.equals("Academic"));
+  }
+
   private void seedGrammar() {
-    for (GrammarTopicSeed seed : read("content/grammar.json", GrammarFile.class).topics()) grammar.save(toTopic(seed));
+    for (GrammarTopicSeed seed : read("content/grammar.json", GrammarFile.class).topics()) {
+      var found = grammar.findFirstByTitle(seed.title());
+      if (found.isEmpty()) {
+        grammar.save(toTopic(seed));
+        continue;
+      }
+      GrammarTopic topic = found.get();
+      Map<String, GrammarLesson> byTitle = new HashMap<>();
+      for (GrammarLesson lesson : topic.getLessons()) byTitle.put(lesson.getTitle(), lesson);
+      boolean added = false;
+      for (LessonSeed lessonSeed : seed.lessons()) {
+        GrammarLesson lesson = byTitle.get(lessonSeed.title());
+        if (lesson == null) {
+          attachLesson(topic, lessonSeed);
+          added = true;
+          continue;
+        }
+        if (lessonSeed.examples() != null) {
+          Set<String> haveEn = new HashSet<>();
+          for (GrammarExample example : lesson.getExamples()) {
+            if (example.getEn() != null) haveEn.add(example.getEn());
+          }
+          for (ExampleSeed exampleSeed : lessonSeed.examples()) {
+            if (exampleSeed.en() == null || exampleSeed.en().isBlank() || !haveEn.add(exampleSeed.en())) {
+              continue;
+            }
+            GrammarExample example = new GrammarExample();
+            example.setLesson(lesson);
+            example.setEn(exampleSeed.en());
+            example.setSortOrder(exampleSeed.sortOrder());
+            lesson.getExamples().add(example);
+            added = true;
+          }
+        }
+        if (lessonSeed.exercises() != null) {
+          Set<String> haveQuestion = new HashSet<>();
+          for (GrammarExercise exercise : lesson.getExercises()) {
+            if (exercise.getQuestion() != null) haveQuestion.add(exercise.getQuestion());
+          }
+          for (ExerciseSeed exerciseSeed : lessonSeed.exercises()) {
+            if (exerciseSeed.question() == null
+                || exerciseSeed.question().isBlank()
+                || !haveQuestion.add(exerciseSeed.question())) {
+              continue;
+            }
+            GrammarExercise exercise = new GrammarExercise();
+            exercise.setLesson(lesson);
+            exercise.setQuestion(exerciseSeed.question());
+            exercise.setAnswer(exerciseSeed.answer());
+            exercise.setExplanation(exerciseSeed.explanation());
+            exercise.setSortOrder(exerciseSeed.sortOrder());
+            lesson.getExercises().add(exercise);
+            int i = 1;
+            if (exerciseSeed.options() != null) {
+              for (String text : exerciseSeed.options()) {
+                GrammarOption option = new GrammarOption();
+                option.setExercise(exercise);
+                option.setText(text);
+                option.setCorrect(text.equals(exerciseSeed.answer()));
+                option.setSortOrder(i++);
+                exercise.getOptions().add(option);
+              }
+            }
+            added = true;
+          }
+        }
+      }
+      if (added) grammar.save(topic);
+    }
   }
 
   private void seedReading() {
     for (PassageSeed seed : read("content/reading.json", ReadingFile.class).passages()) {
-      if (passages.findFirstByTitle(seed.title()).isPresent()) continue;
+      var found = passages.findFirstByTitle(seed.title());
+      if (found.isPresent()) {
+        saveGroups(OwnerType.READING_PASSAGE, found.get().getId(), seed.groups());
+        continue;
+      }
       ReadingPassage passage = new ReadingPassage();
       passage.setTitle(seed.title());
       passage.setLevel(EnglishLevel.valueOf(seed.level()));
@@ -208,7 +363,18 @@ public class DataSeeder implements CommandLineRunner {
 
   private void seedListening() {
     for (TrackSeed seed : read("content/listening.json", ListeningFile.class).tracks()) {
-      if (tracks.findFirstByTitle(seed.title()).isPresent()) continue;
+      var existing = tracks.findFirstByTitle(seed.title());
+      if (existing.isPresent()) {
+        ListeningTrack track = existing.get();
+        if ((track.getAudioUrl() == null || track.getAudioUrl().isBlank())
+            && seed.audioUrl() != null
+            && !seed.audioUrl().isBlank()) {
+          track.setAudioUrl(seed.audioUrl());
+          tracks.save(track);
+        }
+        saveGroups(OwnerType.LISTENING_TRACK, track.getId(), seed.groups());
+        continue;
+      }
       ListeningTrack track = new ListeningTrack();
       track.setTitle(seed.title());
       track.setLevel(EnglishLevel.valueOf(seed.level()));
@@ -228,8 +394,30 @@ public class DataSeeder implements CommandLineRunner {
 
   private void saveGroups(OwnerType ownerType, Long ownerId, List<GroupSeed> seeds) {
     if (seeds == null) return;
-    int order = 1;
+    Map<String, QuestionGroup> byPrompt = new HashMap<>();
+    int order = 0;
+    for (QuestionGroup group : groups.findByOwnerTypeAndOwnerIdOrderBySortOrderAsc(ownerType, ownerId)) {
+      order = Math.max(order, group.getSortOrder());
+      for (Question question : group.getQuestions()) {
+        if (question.getPrompt() != null) byPrompt.put(question.getPrompt(), group);
+      }
+    }
     for (GroupSeed seed : seeds) {
+      if (seed.questions() == null || seed.questions().isEmpty()) continue;
+      QuestionGroup matched = null;
+      for (QuestionSeed question : seed.questions()) {
+        QuestionGroup found = byPrompt.get(question.prompt());
+        if (found != null) matched = found;
+      }
+      if (matched != null) {
+        if ((matched.getImageUrl() == null || matched.getImageUrl().isBlank())
+            && seed.imageUrl() != null
+            && !seed.imageUrl().isBlank()) {
+          matched.setImageUrl(seed.imageUrl());
+          groups.save(matched);
+        }
+        continue;
+      }
       QuestionGroup group = new QuestionGroup();
       group.setOwnerType(ownerType);
       group.setOwnerId(ownerId);
@@ -237,7 +425,7 @@ public class DataSeeder implements CommandLineRunner {
       group.setInstruction(seed.instruction());
       group.setWordLimit(seed.wordLimit());
       group.setImageUrl(seed.imageUrl());
-      group.setSortOrder(order++);
+      group.setSortOrder(++order);
       int optionOrder = 1;
       if (seed.options() != null) {
         for (OptionSeed o : seed.options()) {
@@ -276,7 +464,18 @@ public class DataSeeder implements CommandLineRunner {
 
   private void seedWriting() {
     for (WritingSeed seed : read("content/writing.json", WritingFile.class).prompts()) {
-      if (writingPrompts.findFirstByTitle(seed.title()).isPresent()) continue;
+      var existing = writingPrompts.findFirstByTitle(seed.title());
+      if (existing.isPresent()) {
+        WritingPrompt prompt = existing.get();
+        if ((prompt.getSampleAnswer() == null || prompt.getSampleAnswer().isBlank())
+            && seed.sampleAnswer() != null
+            && !seed.sampleAnswer().isBlank()) {
+          prompt.setSampleAnswer(seed.sampleAnswer());
+          prompt.setSampleBand(seed.sampleBand());
+          writingPrompts.save(prompt);
+        }
+        continue;
+      }
       WritingPrompt prompt = new WritingPrompt();
       prompt.setModule(IeltsModule.valueOf(seed.module()));
       prompt.setTask(WritingTask.valueOf(seed.task()));
@@ -295,18 +494,53 @@ public class DataSeeder implements CommandLineRunner {
 
   private void seedSpeaking() {
     for (SpeakingSeed seed : read("content/speaking.json", SpeakingFile.class).prompts()) {
+      var found = speakingPrompts.findFirstByQuestion(seed.question());
+      if (found.isPresent()) {
+        SpeakingPrompt existing = found.get();
+        if (seed.sampleAnswer() != null
+            && !seed.sampleAnswer().isBlank()
+            && (existing.getSampleAnswer() == null || !seed.sampleAnswer().equals(existing.getSampleAnswer()))) {
+          existing.setSampleAnswer(seed.sampleAnswer());
+          speakingPrompts.save(existing);
+        }
+        continue;
+      }
       SpeakingPrompt prompt = new SpeakingPrompt();
       prompt.setPart(seed.part());
       prompt.setTopic(seed.topic());
       prompt.setQuestion(seed.question());
       prompt.setCueCardPoints(seed.cueCardPoints() == null ? List.of() : seed.cueCardPoints());
+      prompt.setSampleAnswer(seed.sampleAnswer());
       prompt.setSortOrder(seed.sortOrder());
       speakingPrompts.save(prompt);
     }
   }
 
+  /** Cụm từ mới trong JSON được thêm vào, cụm đã có giữ nguyên. Thứ tự theo vị trí trong file. */
+  private void seedPhrases() {
+    int order = 0;
+    for (PhraseSeed seed : read("content/phrases.json", PhraseFile.class).phrases()) {
+      order++;
+      if (phrases.existsByCategoryAndPhrase(seed.category(), seed.phrase())) continue;
+      WritingPhrase phrase = new WritingPhrase();
+      phrase.setTask(seed.task());
+      phrase.setCategory(seed.category());
+      phrase.setPhrase(seed.phrase());
+      phrase.setMeaningVi(seed.meaningVi());
+      phrase.setExample(seed.example());
+      phrase.setBandMin(seed.bandMin());
+      phrase.setSortOrder(order);
+      phrases.save(phrase);
+    }
+  }
+
   private void seedTests() {
     for (TestSeed seed : read("content/tests.json", TestFile.class).tests()) {
+      var found = tests.findFirstByTitle(seed.title());
+      if (found.isPresent()) {
+        attachMissingSections(found.get(), seed);
+        continue;
+      }
       IeltsTest test = new IeltsTest();
       test.setKind(TestKind.valueOf(seed.kind()));
       test.setModule(IeltsModule.valueOf(seed.module()));
@@ -324,7 +558,7 @@ public class DataSeeder implements CommandLineRunner {
               case READING_PASSAGE -> passages.findFirstByTitle(s.title()).map(ReadingPassage::getId);
               case LISTENING_TRACK -> tracks.findFirstByTitle(s.title()).map(ListeningTrack::getId);
               case WRITING_PROMPT -> writingPrompts.findFirstByTitle(s.title()).map(WritingPrompt::getId);
-              case SPEAKING_PROMPT -> Optional.empty();
+              case SPEAKING_PROMPT -> speakingPrompts.findFirstByQuestion(s.title()).map(SpeakingPrompt::getId);
             };
         if (refId.isEmpty()) {
           log.warn("Test '{}' references missing content '{}'", seed.title(), s.title());
@@ -341,6 +575,52 @@ public class DataSeeder implements CommandLineRunner {
       }
       if (complete) tests.save(test);
     }
+  }
+
+  /** Đề đã có thì chỉ gắn thêm phần mới, để kéo một đề ngắn lên đủ câu mà không tạo đề trùng. */
+  private void attachMissingSections(IeltsTest test, TestSeed seed) {
+    boolean changed = false;
+    if (seed.description() != null && !seed.description().equals(test.getDescription())) {
+      test.setDescription(seed.description());
+      changed = true;
+    }
+    if (seed.durationMin() != test.getDurationMin()) {
+      test.setDurationMin(seed.durationMin());
+      changed = true;
+    }
+    int order = 0;
+    Set<String> linked = new HashSet<>();
+    for (TestSection section : test.getSections()) {
+      order = Math.max(order, section.getSortOrder());
+      linked.add(section.getRefType().name() + ":" + section.getRefId());
+    }
+    for (SectionSeed s : seed.sections()) {
+      SectionRef ref = SectionRef.valueOf(s.refType());
+      Optional<Long> refId = resolveRef(ref, s.title());
+      if (refId.isEmpty()) {
+        log.warn("Test '{}' references missing content '{}'", seed.title(), s.title());
+        continue;
+      }
+      if (!linked.add(ref.name() + ":" + refId.get())) continue;
+      TestSection section = new TestSection();
+      section.setTest(test);
+      section.setSkill(Skill.valueOf(s.skill()));
+      section.setRefType(ref);
+      section.setRefId(refId.get());
+      section.setSortOrder(++order);
+      test.getSections().add(section);
+      changed = true;
+    }
+    if (changed) tests.save(test);
+  }
+
+  private Optional<Long> resolveRef(SectionRef ref, String title) {
+    return switch (ref) {
+      case READING_PASSAGE -> passages.findFirstByTitle(title).map(ReadingPassage::getId);
+      case LISTENING_TRACK -> tracks.findFirstByTitle(title).map(ListeningTrack::getId);
+      case WRITING_PROMPT -> writingPrompts.findFirstByTitle(title).map(WritingPrompt::getId);
+      case SPEAKING_PROMPT -> speakingPrompts.findFirstByQuestion(title).map(SpeakingPrompt::getId);
+    };
   }
 
   /** Tài khoản demo có sẵn hồ sơ IELTS để mở app là thấy lộ trình. */
@@ -379,47 +659,64 @@ public class DataSeeder implements CommandLineRunner {
     topic.setDescription(seed.description());
     topic.setLevel(EnglishLevel.valueOf(seed.level()));
     topic.setSortOrder(seed.sortOrder());
-    for (LessonSeed lessonSeed : seed.lessons()) {
-      GrammarLesson lesson = new GrammarLesson();
-      lesson.setTopic(topic);
-      lesson.setTitle(lessonSeed.title());
-      lesson.setLevel(EnglishLevel.valueOf(lessonSeed.level()));
-      lesson.setSortOrder(lessonSeed.sortOrder());
-      lesson.setExplanation(lessonSeed.explanation());
-      topic.getLessons().add(lesson);
-      if (lessonSeed.examples() != null) {
-        for (ExampleSeed exampleSeed : lessonSeed.examples()) {
-          GrammarExample example = new GrammarExample();
-          example.setLesson(lesson);
-          example.setEn(exampleSeed.en());
-          example.setSortOrder(exampleSeed.sortOrder());
-          lesson.getExamples().add(example);
-        }
-      }
-      if (lessonSeed.exercises() != null) {
-        for (ExerciseSeed exerciseSeed : lessonSeed.exercises()) {
-          GrammarExercise exercise = new GrammarExercise();
-          exercise.setLesson(lesson);
-          exercise.setQuestion(exerciseSeed.question());
-          exercise.setAnswer(exerciseSeed.answer());
-          exercise.setSortOrder(exerciseSeed.sortOrder());
-          lesson.getExercises().add(exercise);
-          int i = 1;
-          for (String text : exerciseSeed.options()) {
-            GrammarOption option = new GrammarOption();
-            option.setExercise(exercise);
-            option.setText(text);
-            option.setCorrect(text.equals(exerciseSeed.answer()));
-            option.setSortOrder(i++);
-            exercise.getOptions().add(option);
-          }
-        }
-      }
-    }
+    for (LessonSeed lessonSeed : seed.lessons()) attachLesson(topic, lessonSeed);
     return topic;
   }
 
+  private void attachLesson(GrammarTopic topic, LessonSeed lessonSeed) {
+    GrammarLesson lesson = new GrammarLesson();
+    lesson.setTopic(topic);
+    lesson.setTitle(lessonSeed.title());
+    lesson.setLevel(EnglishLevel.valueOf(lessonSeed.level()));
+    lesson.setSortOrder(lessonSeed.sortOrder());
+    lesson.setExplanation(lessonSeed.explanation());
+    topic.getLessons().add(lesson);
+    if (lessonSeed.examples() != null) {
+      for (ExampleSeed exampleSeed : lessonSeed.examples()) {
+        GrammarExample example = new GrammarExample();
+        example.setLesson(lesson);
+        example.setEn(exampleSeed.en());
+        example.setSortOrder(exampleSeed.sortOrder());
+        lesson.getExamples().add(example);
+      }
+    }
+    if (lessonSeed.exercises() != null) {
+      for (ExerciseSeed exerciseSeed : lessonSeed.exercises()) {
+        GrammarExercise exercise = new GrammarExercise();
+        exercise.setLesson(lesson);
+        exercise.setQuestion(exerciseSeed.question());
+        exercise.setAnswer(exerciseSeed.answer());
+        exercise.setExplanation(exerciseSeed.explanation());
+        exercise.setSortOrder(exerciseSeed.sortOrder());
+        lesson.getExercises().add(exercise);
+        int i = 1;
+        for (String text : exerciseSeed.options()) {
+          GrammarOption option = new GrammarOption();
+          option.setExercise(exercise);
+          option.setText(text);
+          option.setCorrect(text.equals(exerciseSeed.answer()));
+          option.setSortOrder(i++);
+          exercise.getOptions().add(option);
+        }
+      }
+    }
+  }
+
+  private String pictureUrl(Map<String, String> pictures, String word) {
+    String file = pictures.get(word.toLowerCase());
+    if (file == null || file.isBlank()) return null;
+    return "/api/media/" + file;
+  }
+
   private <T> T read(String path, Class<T> type) {
+    try (InputStream in = new ClassPathResource(path).getInputStream()) {
+      return json.readValue(in, type);
+    } catch (IOException ex) {
+      throw new IllegalStateException("Không đọc được " + path, ex);
+    }
+  }
+
+  private <T> T read(String path, TypeReference<T> type) {
     try (InputStream in = new ClassPathResource(path).getInputStream()) {
       return json.readValue(in, type);
     } catch (IOException ex) {

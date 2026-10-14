@@ -77,9 +77,10 @@ app:
       skill-building: 0.45
       exam-practice: 0.20
       final-review: 0.10
-  cors-origins: http://localhost:4200,http://127.0.0.1:4200
-  # Origin được phép mở WebSocket. Gồm cổng Nginx 8088 vì Nginx đổi Host nên Spring không coi là cùng origin.
-  ws-origins: ${app.cors-origins},http://localhost:8088,http://127.0.0.1:8088
+  # Gồm cổng Nginx 8088 vì Nginx đổi Host nên Spring không coi là cùng origin (đăng nhập qua 8088 bị 403 nếu thiếu).
+  cors-origins: http://localhost:4200,http://127.0.0.1:4200,http://localhost:8088,http://127.0.0.1:8088
+  # Origin được phép mở WebSocket.
+  ws-origins: ${app.cors-origins}
 
 ---
 spring:

@@ -1,0 +1,67 @@
+EX	choke	He almost choked on a fish bone.	Anh ấy suýt bị hóc xương cá.
+EX	insane	It's insane to drive that fast.	Lái xe nhanh như thế là điên rồ.
+EX	narrate	The film is narrated by a famous actor.	Bộ phim được một diễn viên nổi tiếng dẫn chuyện.
+EX	quiz	We have a vocabulary quiz every Friday.	Thứ Sáu nào chúng tôi cũng có bài kiểm tra từ vựng ngắn.
+EX	theirs	Our house is small, but theirs is big.	Nhà chúng tôi nhỏ, nhưng nhà họ thì to.
+EX	chilly	It's a bit chilly this morning.	Sáng nay trời hơi se lạnh.
+EX	container	Keep the rice in an airtight container.	Đựng gạo trong hộp kín.
+EX	crystallize	Her ideas began to crystallize after the meeting.	Ý tưởng của cô ấy bắt đầu rõ ràng hơn sau cuộc họp.
+EX	descend	The plane began to descend.	Máy bay bắt đầu hạ độ cao.
+EX	fade	The colours faded in the sun.	Màu sắc phai đi dưới nắng.
+EX	inert	Gold is an inert metal.	Vàng là một kim loại trơ.
+EX	irritating	He has an irritating habit of interrupting.	Anh ta có thói quen ngắt lời rất khó chịu.
+EX	oneself	It's important to look after oneself.	Điều quan trọng là phải biết chăm sóc bản thân.
+EX	represent	She will represent our school in the competition.	Cô ấy sẽ đại diện trường chúng tôi trong cuộc thi.
+EX	roar	The lion roared loudly.	Con sư tử gầm vang.
+EX	stem	The problem stems from a lack of money.	Vấn đề bắt nguồn từ việc thiếu tiền.
+EX	unload	Help me unload the car.	Giúp tôi dỡ đồ xuống xe.
+EX	western	Many young people follow western fashion.	Nhiều người trẻ theo thời trang phương Tây.
+EX	salvage	Divers salvaged gold from the sunken ship.	Thợ lặn trục vớt vàng từ con tàu đắm.
+EX	cosmic	Cosmic rays come from outer space.	Tia vũ trụ đến từ ngoài không gian.
+EX	amorphous	The plan is still amorphous.	Kế hoạch vẫn còn mơ hồ, chưa định hình.
+EX	congratulations	Congratulations on passing your exam!	Chúc mừng bạn đã thi đỗ!
+EX	cheers	"Cheers!" they said, raising their glasses.	"Dô!" họ nói và nâng ly.
+EX	alibi	The suspect had an alibi for that night.	Nghi phạm có bằng chứng ngoại phạm cho đêm hôm đó.
+EX	peck	The chickens pecked at the grain.	Đàn gà mổ thóc.
+EX	nag	My mother nags me to tidy my room.	Mẹ tôi cứ cằn nhằn bắt tôi dọn phòng.
+EX	checkmate	"Checkmate!" said my grandfather with a smile.	"Chiếu hết!" ông tôi nói và mỉm cười.
+EX	hospitalized	The hospitalized patients receive daily visits.	Các bệnh nhân nằm viện được thăm hằng ngày.
+EX	barbaric	Many people think the punishment is barbaric.	Nhiều người cho rằng hình phạt đó là dã man.
+EX	high-speed	Japan has a high-speed railway.	Nhật Bản có đường sắt cao tốc.
+EX	dredge	They dredged the river to make it deeper.	Họ nạo vét lòng sông cho sâu hơn.
+EX	gory	The film has some gory scenes.	Bộ phim có vài cảnh máu me.
+EX	entice	Low prices entice customers into the shop.	Giá rẻ lôi kéo khách hàng vào cửa hàng.
+EX	reactionary	The government was accused of reactionary policies.	Chính phủ bị cáo buộc có chính sách bảo thủ.
+EX	supremacy	The two companies are fighting for supremacy in the market.	Hai công ty đang tranh giành vị thế số một trên thị trường.
+VI	stem	thân cây; bắt nguồn từ
+VI	fade	phai, nhạt dần
+VI	cheers	dô (khi nâng ly); cảm ơn
+VI	checkmate	chiếu hết
+VI	oneself	bản thân mình
+VI	reactionary	bảo thủ cực đoan, phản động
+VI	descend	đi xuống, hạ xuống
+VI	western	thuộc phương Tây
+VI	salvage	trục vớt, cứu vãn
+VI	inert	trơ
+VI	hospitalized	đang nằm viện
+VI	high-speed	tốc độ cao
+EN	stem	The main stalk of a plant; (verb) to come from or be caused by.
+EN	fade	To slowly become less bright or strong.
+EN	choke	To be unable to breathe because something is blocking your throat.
+EN	theirs	Belonging to them.
+EN	oneself	Used to refer to "one" as the object of a verb.
+EN	descend	To go or come down.
+EN	western	Relating to the west, especially Europe and North America.
+EN	salvage	To save something from damage or a wreck.
+EN	inert	Not reacting chemically; not moving.
+EN	cosmic	Relating to the universe.
+EN	peck	(Of a bird) to hit or pick up something with its beak.
+EN	nag	To keep complaining to someone to make them do something.
+EN	represent	To act or speak for someone; to be a sign of something.
+EN	crystallize	To become clear and definite.
+EN	roar	To make a deep loud sound, like a lion.
+EN	unload	To take things off a vehicle.
+EN	container	A box, bottle or other object for holding things.
+EN	quiz	A short test; a game with questions.
+EN	high-speed	Moving or working very fast.
+EN	hospitalized	Staying in hospital for treatment.

@@ -10,4 +10,6 @@ public interface IeltsTestRepository extends JpaRepository<IeltsTest, Long> {
   List<IeltsTest> findByPublishedTrue();
 
   Optional<IeltsTest> findFirstByKindAndPublishedTrueOrderBySortOrderAsc(TestKind kind);
+
+  Optional<IeltsTest> findFirstByTitle(String title);
 }

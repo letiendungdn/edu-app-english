@@ -1,0 +1,416 @@
+EN	nutrition	The food you eat and how it affects your health.
+EN	recovery	The process of becoming well or normal again.
+EN	scholarship	Money given to a student to help pay for their education.
+EN	curriculum	The subjects included in a course of study at a school or college.
+EN	sustainable	Able to continue without harming the environment or using up resources.
+EN	promotion	A move to a higher position at work; also activities to advertise a product.
+EN	resign	To leave your job officially.
+EN	evidence	Facts or signs that show something is true.
+EN	analyze	To examine something in detail to understand it.
+EN	trend	A general direction of change.
+EN	proportion	A part or share of a whole, often given as a percentage.
+EN	consequence	A result of an action or situation, often a bad one.
+EN	approach	A way of dealing with something.
+EN	aspect	One part or feature of a situation, problem or idea.
+EN	assumption	Something that you believe is true without proof.
+EN	authority	The power to give orders; also an official organisation.
+EN	conclude	To decide something after thinking about it; to end something.
+EN	conclusion	A decision reached after thinking; the final part of an essay or speech.
+EN	conduct	To organise and carry out an activity, such as research.
+EN	consist	To be made of particular parts (consist of).
+EN	contribute	To give money, help or ideas towards something; to help cause something.
+EN	create	To make something new.
+EN	crucial	Extremely important.
+EN	define	To explain the exact meaning of something.
+EN	demonstrate	To show clearly that something is true; to show how something works.
+EN	distribute	To give or share things among a number of people.
+EN	economy	The system of trade, industry and money in a country.
+EN	economic	Relating to trade, industry and money.
+EN	establish	To start or set up an organisation or system; to prove something is true.
+EN	estimate	To guess an amount or value based on information.
+EN	evaluate	To judge the quality, value or importance of something.
+EN	feature	A typical or important part or quality of something.
+EN	function	The purpose or job of something.
+EN	identify	To recognise and name someone or something.
+EN	impact	A strong effect on something.
+EN	indicate	To show that something is true or exists.
+EN	involve	To include something as a necessary part.
+EN	issue	An important topic or problem that people discuss.
+EN	maintain	To keep something in the same state or condition.
+EN	occur	To happen.
+EN	percent	One part in every hundred (%).
+EN	period	A length of time.
+EN	principle	A basic rule or belief that guides behaviour.
+EN	process	A series of actions or steps to achieve a result.
+EN	range	A set of different things of the same type; the limits between which something varies.
+EN	region	A large area of a country or of the world.
+EN	require	To need something; to make something necessary.
+EN	respond	To reply or react to something.
+EN	response	A reply or reaction.
+EN	role	The function or position that someone or something has.
+EN	structure	The way the parts of something are arranged or organised.
+EN	theory	An idea or set of ideas that tries to explain something.
+EN	vary	To be different in different situations; to change.
+EN	justice	Fair treatment of people; the legal system.
+EN	diversity	The fact of including many different types of people or things.
+EN	immigration	The act of coming to live permanently in a foreign country.
+EN	refugee	A person forced to leave their country because of war or danger.
+EN	democracy	A system of government in which people vote for their leaders.
+EN	regulation	An official rule; the control of an activity by rules.
+EN	domestic	Relating to your own country; also relating to the home.
+EN	ambitious	Having a strong wish to be successful.
+EN	flexible	Able to change easily to suit new conditions.
+EN	qualification	An exam passed or a course completed; a skill needed for a job.
+EN	responsibility	A duty to deal with or take care of something.
+EN	objective	Something you aim to achieve; a goal.
+EN	outcome	The final result of something.
+EN	feedback	Comments about how well someone has done something.
+EN	infer	To reach an opinion from the information you have.
+EN	clarify	To make something easier to understand.
+EN	justify	To give a good reason for something.
+EN	coherent	Clear, logical and well organised.
+EN	tone	The general feeling or attitude of a piece of writing or speech.
+EN	frustrated	Annoyed because you cannot do or achieve what you want.
+EN	reluctant	Not wanting to do something.
+EN	determined	Having a strong wish to do something and not letting anything stop you.
+EN	optimistic	Hopeful and confident about the future.
+EN	appreciate	To recognise the value of something; to be grateful for something.
+EN	obesity	The condition of being very overweight.
+EN	immune	Protected against a disease.
+EN	renewable	Able to be replaced naturally, such as wind or solar energy.
+EN	emission	Gas or other substance sent into the air.
+EN	carbon	A chemical element found in coal and in all living things.
+EN	shortage	A situation in which there is not enough of something.
+EN	stakeholder	A person or group with an interest in a business or project.
+EN	turnover	The total amount of business a company does; also the rate at which staff leave.
+EN	overhead	The regular costs of running a business, such as rent.
+EN	acquisition	The act of getting something, such as a skill or a company.
+EN	franchise	Permission to sell a company's products under its name.
+EN	startup	A new small company, especially one based on new technology.
+EN	innovation	A new idea, method or product.
+EN	benchmark	A standard used to measure or compare other things.
+EN	layoff	The ending of workers' jobs because there is not enough work.
+EN	delegate	To give part of your work or responsibility to someone else.
+EN	brainstorm	To think of many ideas quickly, often in a group.
+EN	implement	To put a plan or decision into action.
+EN	milestone	An important stage in a process or in history.
+EN	proposal	A plan or suggestion.
+EN	quota	A fixed amount or number that is allowed or expected.
+EN	commission	Money paid to a person for each sale they make.
+EN	bonus	Extra money paid in addition to normal pay.
+EN	internship	A period of work experience for a student or graduate.
+EN	recruit	To find new people to join a company or organisation.
+EN	streamline	To make a system simpler and more efficient.
+EN	portfolio	A collection of examples of a person's work.
+EN	credential	A qualification or experience that shows you are suitable for something.
+EN	briefing	A meeting to give people information or instructions.
+EN	redundancy	The loss of a job because the employer no longer needs the worker.
+EN	constitution	The set of basic laws by which a country is governed.
+EN	coalition	A government formed by two or more political parties working together.
+EN	bureaucracy	A complicated official system with many rules.
+EN	corruption	Dishonest or illegal behaviour, especially by people in power.
+EN	transparency	The quality of being open and honest, with nothing hidden.
+EN	censorship	The control of books, films or news by removing parts considered unacceptable.
+EN	petition	A written request signed by many people asking for action.
+EN	boycott	To refuse to buy or use something as a protest.
+EN	sanction	An official order that limits trade with a country as a punishment.
+EN	alliance	An agreement between countries or groups to work together.
+EN	sovereignty	The power of a country to govern itself.
+EN	asylum	Protection given by a country to someone fleeing danger.
+EN	integration	The process of people from different groups living and working together.
+EN	segregation	The separation of people of different races or religions.
+EN	minority	The smaller part of a group; less than half.
+EN	majority	The larger part of a group; more than half.
+EN	recession	A period when a country's economy becomes weaker.
+EN	idiom	A group of words whose meaning is different from the meanings of the separate words.
+EN	collocation	Words that are often used together, such as 'make a decision'.
+EN	register	The level of formality of language used in a situation.
+EN	cohesion	The way ideas in a text are connected so that it flows clearly.
+EN	abstract	A short summary of a research article.
+EN	appendix	An extra section at the end of a book or report.
+EN	findings	The results of research.
+EN	acknowledge	To accept or admit that something is true.
+EN	acquire	To get or gain something, such as knowledge or a skill.
+EN	adjust	To change something slightly to make it better or more suitable.
+EN	anticipate	To expect something to happen and prepare for it.
+EN	assess	To judge the quality or value of something.
+EN	assign	To give someone a particular job or task.
+EN	cite	To mention something as an example or as proof.
+EN	correspond	To match or be similar to something; to write letters to someone.
+EN	deviate	To move away from what is normal or planned.
+EN	differentiate	To see or show the difference between things.
+EN	disclose	To make information known publicly.
+EN	distort	To change facts or information so they are no longer true.
+EN	dominate	To control or have power over someone or something.
+EN	eliminate	To remove completely.
+EN	encounter	To experience or meet something, especially a problem.
+EN	exclude	To deliberately not include someone or something.
+EN	exhibit	To show something publicly, such as art.
+EN	expose	To show something that is hidden; to put someone in a situation where they may be harmed.
+EN	facilitate	To make something easier.
+EN	formulate	To develop a plan or idea carefully.
+EN	highlight	To draw attention to something important.
+EN	illustrate	To explain something by giving examples or pictures.
+EN	initiate	To start something.
+EN	integrate	To combine things or people so they work together.
+EN	intervene	To become involved in a situation to improve or stop it.
+EN	modify	To change something slightly.
+EN	monitor	To watch and check something over a period of time.
+EN	neglect	To fail to give enough care or attention to someone or something.
+EN	overcome	To succeed in dealing with a problem or difficulty.
+EN	overlook	To fail to notice something.
+EN	precede	To happen or come before something.
+EN	presume	To think that something is true without being certain.
+EN	pursue	To try to achieve something over a long time.
+EN	refine	To improve something by making small changes.
+EN	reflect	To show or express something; to think carefully.
+EN	reinforce	To make an idea, feeling or structure stronger.
+EN	reject	To refuse to accept something.
+EN	rely	To depend on someone or something (rely on).
+EN	resolve	To find a solution to a problem.
+EN	restore	To bring something back to its original condition.
+EN	reveal	To make known something that was secret.
+EN	specify	To state something clearly and exactly.
+EN	submit	To give a document or piece of work to someone for approval.
+EN	sustain	To keep something going over time.
+EN	transform	To change something completely, usually to improve it.
+EN	trigger	To cause something to start.
+EN	undertake	To agree to be responsible for a task and to start it.
+EN	violate	To break a law, rule or agreement.
+EN	yield	To produce a result, profit or crop.
+EN	assertive	Confident and direct in stating your opinions.
+EN	humble	Not proud; not thinking you are better than others.
+EN	stubborn	Refusing to change your opinion.
+EN	impulsive	Acting suddenly without thinking about the results.
+EN	naive	Lacking experience and believing things too easily.
+EN	sincere	Honest and meaning what you say.
+EN	mature	Behaving like a sensible adult.
+EN	tolerant	Accepting other people's beliefs and behaviour even if different from yours.
+EN	prescribe	To say what medicine or treatment a patient should have.
+EN	consult	To ask an expert for advice.
+EN	immunity	The body's ability to resist a disease.
+EN	hygiene	The practice of keeping yourself and your surroundings clean to prevent disease.
+EN	calorie	A unit for measuring the energy that food provides.
+EN	carbohydrate	A substance in foods such as bread and rice that gives the body energy.
+EN	habitat	The natural home of an animal or plant.
+EN	extinction	The situation in which a type of animal or plant no longer exists.
+EN	erosion	The gradual wearing away of soil or rock by wind or water.
+EN	atmosphere	The layer of gases around the earth; also the mood of a place.
+EN	ozone	A form of oxygen; the ozone layer protects the earth from the sun's rays.
+EN	organic	Produced without artificial chemicals; also relating to living things.
+EN	fertile	Able to produce good crops; able to have babies.
+EN	interface	The way a user interacts with a computer program.
+EN	server	A computer that stores information and provides services to other computers.
+EN	backup	A copy of computer files kept in case the originals are lost.
+EN	hack	To get into a computer system without permission.
+EN	firewall	A system that protects a computer network from unauthorised access.
+EN	syllabus	The list of topics to be studied in a course.
+EN	tuition	Teaching; also the money paid for teaching.
+EN	installment	One of a series of regular payments.
+EN	mortgage	A loan from a bank to buy a house.
+EN	currency	The money used in a particular country.
+EN	hence	For this reason; therefore.
+EN	hold back	To stop yourself or someone from doing something.
+EN	abandoned	Left empty and no longer used.
+EN	aboriginal	Relating to the original people of a country, especially Australia.
+EN	ambassador	An official who represents their country in another country.
+EN	anchor	A heavy metal object that stops a ship from moving.
+EN	ash	The grey powder left after something has burned.
+EN	await	To wait for something.
+EN	ballad	A song or poem that tells a story.
+EN	ballet	A style of dancing that tells a story with music.
+EN	beam	A line of light; also a long thick piece of wood or metal in a building.
+EN	berry	A small round fruit with seeds, such as a strawberry.
+EN	betray	To be disloyal to someone who trusts you.
+EN	bid	An offer to pay a particular price; an attempt to achieve something.
+EN	bind	To tie something tightly.
+EN	carnival	A public festival with music, dancing and parades.
+EN	cherry	A small round red fruit with a stone inside.
+EN	clam	A sea creature with a shell in two parts.
+EN	clause	A part of a sentence with a subject and verb; also a section of a legal document.
+EN	clumsy	Moving in an awkward way and often dropping things.
+EN	coconut	A large brown nut with white flesh and liquid inside.
+EN	component	One of the parts that make up something.
+EN	conception	An idea or understanding of something.
+EN	concrete	Real and specific, not abstract; also a hard building material.
+EN	conductor	A person who directs an orchestra; also a material that carries electricity or heat.
+EN	conjunction	A word such as 'and' or 'but' that joins words or clauses.
+EN	conscience	The part of your mind that tells you whether what you do is right or wrong.
+EN	copper	A reddish-brown metal used for wires and pipes.
+EN	coral	A hard substance formed by small sea animals, making reefs.
+EN	crab	A sea creature with a shell and ten legs.
+EN	crawl	To move on your hands and knees.
+EN	cube	A solid shape with six equal square sides.
+EN	dandelion	A wild plant with a bright yellow flower.
+EN	decade	A period of ten years.
+EN	deer	A large wild animal; the male has horns like branches.
+EN	dense	Containing a lot of things or people close together.
+EN	devil	An evil spirit; in some religions, the enemy of God.
+EN	dictator	A ruler who has complete power and was not elected.
+EN	dove	A white bird, often used as a symbol of peace.
+EN	dwarf	A person who is much smaller than usual; a small imaginary creature in stories.
+EN	eagle	A large strong bird that hunts small animals.
+EN	engagement	An agreement to marry someone.
+EN	faith	Strong trust or belief, especially religious belief.
+EN	flame	The hot bright burning gas you see in a fire.
+EN	fox	A wild animal with red-brown fur and a thick tail.
+EN	goat	A farm animal with horns, kept for milk and meat.
+EN	god	A being believed to have power over nature or people.
+EN	grain	The seeds of crops such as wheat and rice.
+EN	grip	A firm hold on something.
+EN	gum	The firm pink flesh around the teeth; also chewing gum.
+EN	hail	Small balls of ice that fall like rain.
+EN	headquarters	The main office of an organisation.
+EN	hemp	A plant whose fibres are used to make rope and cloth.
+EN	herb	A plant used to add flavour to food or as medicine.
+EN	index	A list at the back of a book showing where topics appear; also a number showing a level.
+EN	interpreter	A person who translates spoken words from one language to another.
+EN	investment	Money put into something to make a profit.
+EN	jaw	The lower part of the face that moves when you talk or eat.
+EN	lark	A small brown bird that sings while flying.
+EN	leak	A hole that lets liquid or gas escape; also secret information made public.
+EN	leopard	A large wild cat with yellow fur and black spots.
+EN	loneliness	The feeling of being unhappy because you are alone.
+EN	lyrics	The words of a song.
+EN	malaria	A serious disease spread by mosquitoes.
+EN	masterpiece	An excellent piece of art, writing or music.
+EN	micrometer	An instrument for measuring very small distances.
+EN	mill	A building where grain is made into flour; also a factory.
+EN	mimic	A person who copies how others speak or behave.
+EN	motion	Movement.
+EN	nerve	A fibre that carries messages between the brain and the body.
+EN	nobility	The people of the highest social class; also the quality of being noble.
+EN	nourishment	Food needed for health and growth.
+EN	nut	A fruit with a hard shell and a seed inside that can be eaten.
+EN	obedience	Willingness to do what you are told.
+EN	olive	A small green or black fruit eaten or used to make oil.
+EN	outback	The remote dry inland area of Australia.
+EN	ox	A large male cow used for pulling things.
+EN	packet	A small paper or plastic container for goods.
+EN	pastor	A Christian priest in charge of a church.
+EN	permanence	The state of lasting for a long time or forever.
+EN	pine	A tall tree with needle-shaped leaves that stay green all year.
+EN	pirate	A person who attacks ships at sea to steal from them.
+EN	plague	A serious infectious disease that kills many people.
+EN	plum	A soft round purple or red fruit with a stone.
+EN	portion	A part of something; an amount of food for one person.
+EN	predicate	The part of a sentence that says something about the subject.
+EN	province	A region of a country with its own local government.
+EN	quarrel	An angry argument.
+EN	ram	An adult male sheep.
+EN	rape	The crime of forcing someone to have sex.
+EN	recreation	Activities done for enjoyment when you are not working.
+EN	reverse	To change something to its opposite; to drive backwards.
+EN	revolutionary	Completely new and causing great change.
+EN	rib	One of the curved bones in the chest.
+EN	rocket	A vehicle that travels into space; also a type of weapon.
+EN	royalty	Kings, queens and their families; also money paid to a writer for each copy sold.
+EN	sail	To travel on water in a boat.
+EN	scar	A mark left on the skin after an injury has healed.
+EN	scarlet	Bright red.
+EN	scent	A pleasant smell.
+EN	seal	A sea animal with fur; also an official stamp.
+EN	so-called	Used to show that you think a name or description is wrong.
+EN	Soviet	Relating to the former Soviet Union.
+EN	soybean	A bean grown for food and oil, rich in protein.
+EN	spectacle	An impressive show or sight.
+EN	spray	Liquid sent through the air in small drops.
+EN	standstill	A situation in which all movement or activity has stopped.
+EN	stink	To have a very bad smell.
+EN	strait	A narrow area of sea connecting two larger seas.
+EN	suffering	Physical or mental pain.
+EN	sweep	To clean a floor with a brush.
+EN	tail	The part at the back of an animal's body that it can move.
+EN	tattoo	A permanent picture or design on the skin made with ink.
+EN	territory	An area of land controlled by a country or ruler.
+EN	theme	The main subject or idea in a piece of writing, music or art.
+EN	tomb	A large grave, often with a stone structure.
+EN	ton	A unit of weight equal to 1,000 kilograms (metric ton).
+EN	torch	A small electric light you hold in your hand.
+EN	traitor	A person who is disloyal to their country or friends.
+EN	translation	Text that has been changed from one language into another.
+EN	tulip	A brightly coloured cup-shaped flower that grows from a bulb.
+EN	vomit	Food brought back up from the stomach through the mouth.
+EN	wasp	A flying insect with yellow and black stripes that can sting.
+EN	weave	To make cloth by crossing threads over and under each other.
+EN	wed	To marry.
+EN	whip	To hit someone or something with a long thin rope or strip of leather.
+EN	wipe	To clean something by rubbing it with a cloth.
+EN	wolf	A wild animal like a large dog that lives and hunts in groups.
+EN	worm	A small long thin animal with no legs that lives in soil.
+EN	yawn	The act of opening your mouth wide because you are tired or bored.
+EN	accessibility	How easy something is to reach, use or understand.
+EN	adjustment	A small change made to improve something.
+VI	abandoned	bị bỏ hoang
+VI	aluminium	nhôm
+VI	ambassador	đại sứ
+VI	anchor	mỏ neo
+VI	carnival	lễ hội hóa trang
+VI	cello	đàn cello
+VI	cherry	quả anh đào
+VI	coconut	quả dừa
+VI	commerce	thương mại
+VI	concrete	cụ thể; bê tông
+VI	conductor	nhạc trưởng; chất dẫn điện
+VI	conjunction	liên từ
+VI	copper	đồng (kim loại)
+VI	decade	thập kỷ
+VI	dove	chim bồ câu
+VI	ballad	bản ballad
+VI	bid	sự trả giá; nỗ lực
+VI	cornet	kèn cornet
+VI	countryman	đồng hương
+VI	eagle	đại bàng
+VI	faith	niềm tin, đức tin
+VI	headquarters	trụ sở chính
+VI	helicopter	máy bay trực thăng
+VI	index	mục lục; chỉ số
+VI	interpreter	phiên dịch viên
+VI	kangaroo	chuột túi
+VI	leak	sự rò rỉ
+VI	leopard	báo hoa mai
+VI	lyrics	lời bài hát
+VI	nobility	giới quý tộc
+VI	nut	quả hạch
+VI	outback	vùng hẻo lánh (Úc)
+VI	outgrow	lớn vượt quá
+VI	passionate	say mê, nồng nhiệt
+VI	pastor	mục sư
+VI	permanence	sự lâu bền
+VI	plumber	thợ sửa ống nước
+VI	portion	phần, khẩu phần
+VI	predicate	vị ngữ
+VI	quarrel	cuộc cãi vã
+VI	reverse	đảo ngược; lùi
+VI	revolutionary	mang tính cách mạng
+VI	rocket	tên lửa
+VI	royalty	hoàng tộc; tiền bản quyền
+VI	sail	đi thuyền buồm
+VI	scarlet	đỏ tươi
+VI	scribble	chữ viết nguệch ngoạc
+VI	seal	con hải cẩu; con dấu
+VI	so-called	cái gọi là
+VI	spectacle	cảnh tượng
+VI	spray	bình xịt; tia nước
+VI	standstill	sự đình trệ
+VI	stink	bốc mùi hôi
+VI	strait	eo biển
+VI	subjunctive	thức giả định
+VI	suffering	sự đau khổ
+VI	sulfur	lưu huỳnh
+VI	tattoo	hình xăm
+VI	tomb	ngôi mộ
+VI	torch	đèn pin; ngọn đuốc
+VI	translation	bản dịch, sự dịch
+VI	translator	biên dịch viên
+VI	tulip	hoa tulip
+VI	upside down	lộn ngược
+VI	vomit	chất nôn; nôn
+VI	whip	quất roi; cái roi
+VI	whiskey	rượu whisky
+VI	accessibility	khả năng tiếp cận
+VI	papaya	đu đủ
+VI	plague	bệnh dịch hạch; tai họa
+VI	weave	dệt
+VI	ox	bò đực
+VI	skilful	khéo léo

@@ -1,0 +1,317 @@
+EN	popular	Liked or enjoyed by many people.
+EN	passport	An official document that you need to travel to other countries.
+EN	delicious	Having a very pleasant taste.
+EN	medicine	A substance taken to treat or prevent an illness.
+EN	headache	A pain in the head.
+EN	healthy	Physically strong and well; good for your health.
+EN	subject	Something you study at school, such as maths or history; also the topic of a discussion.
+EN	salary	The fixed amount of money you are paid each month or year for your job.
+EN	meeting	An occasion when people come together to discuss something.
+EN	several	More than two but not many.
+EN	still	Continuing until now; also without moving.
+EN	yet	Until now (used in questions and negatives).
+EN	perhaps	Possibly; maybe.
+EN	probably	Almost certainly.
+EN	quietly	In a quiet way, making little noise.
+EN	abroad	In or to a foreign country.
+EN	upstairs	On or to a higher floor of a building.
+EN	look after	To take care of someone or something.
+EN	turn on	To start a machine or light by pressing a switch.
+EN	put on	To dress yourself in clothes.
+EN	take off	To remove clothes; also, of a plane, to leave the ground.
+EN	go on	To continue.
+EN	come back	To return.
+EN	stand up	To rise to a standing position.
+EN	pick up	To lift something from a surface; also to collect someone.
+EN	fill in	To write information in the spaces of a form.
+EN	write down	To write something on paper so you remember it.
+EN	turn up	To increase the volume or heat; also to arrive.
+EN	get off	To leave a bus, train or plane.
+EN	nervous	Worried and slightly afraid.
+EN	jealous	Unhappy because someone has something you want.
+EN	shy	Nervous and uncomfortable with other people.
+EN	disappointed	Unhappy because something was not as good as you hoped.
+EN	upset	Unhappy and worried because something bad has happened.
+EN	feeling	An emotion or a physical sensation.
+EN	miss	To feel sad because someone is not with you; to fail to catch or hit something.
+EN	prefer	To like one thing more than another.
+EN	mind	To be annoyed or upset by something.
+EN	injury	Physical harm or damage to the body.
+EN	wound	An injury, especially a cut in the skin.
+EN	sore	Painful, especially when touched.
+EN	throat	The back of the mouth and the passage down the neck.
+EN	prescription	A doctor's written instruction for medicine.
+EN	diet	The food a person usually eats; a special plan of eating.
+EN	weight	How heavy someone or something is.
+EN	bleed	To lose blood from the body.
+EN	recover	To become healthy again after an illness or injury.
+EN	safe	Not in danger; not likely to cause harm.
+EN	spicy	Having a hot, strong flavour from spices.
+EN	sweet	Tasting of sugar.
+EN	sour	Having a sharp taste like a lemon.
+EN	bitter	Having a strong, unpleasant taste, like strong coffee.
+EN	fresh	Recently made, picked or prepared; not old.
+EN	frozen	Kept at a very low temperature so it becomes hard.
+EN	smell	To notice something with your nose; to have a particular smell.
+EN	order	To ask for food or goods in a restaurant or shop.
+EN	bill	A piece of paper showing how much you must pay.
+EN	tip	Extra money you give to a waiter or driver for good service.
+EN	bean	A seed from a plant that is cooked and eaten as a vegetable.
+EN	corn	A tall plant with yellow seeds that are eaten.
+EN	jam	A sweet food made from fruit and sugar, spread on bread.
+EN	toast	Bread that has been made brown and crisp by heating.
+EN	sausage	A long tube of minced meat, cooked and eaten.
+EN	grape	A small round green or purple fruit that grows in bunches.
+EN	strawberry	A small soft red fruit with tiny seeds on its skin.
+EN	lemon	A yellow fruit with sour juice.
+EN	peach	A round soft fruit with yellow-red skin and a large stone.
+EN	chili	A small hot-tasting pepper used in cooking.
+EN	pot	A deep round container used for cooking.
+EN	flight	A journey by plane.
+EN	customs	The place at a border where your bags are checked.
+EN	guidebook	A book giving information for tourists about a place.
+EN	view	What you can see from a place.
+EN	island	A piece of land surrounded by water.
+EN	coast	The land next to the sea.
+EN	border	The line that divides two countries.
+EN	capital	The city where a country's government is.
+EN	foreign	From or relating to another country.
+EN	direction	The way you go to get to a place.
+EN	cancel	To decide that a planned event will not happen.
+EN	pack	To put things into a bag or case for travel.
+EN	catch	To get on a bus or train; to take hold of something moving.
+EN	single	One only; a ticket for a journey in one direction.
+EN	platform	The raised area beside the track where you get on a train.
+EN	pilot	A person who flies a plane.
+EN	captain	The person in charge of a ship or plane; also the leader of a team.
+EN	accident	An unexpected event that causes damage or injury.
+EN	corner	The point where two streets or walls meet.
+EN	crossing	A place where people can cross a road safely.
+EN	petrol	The liquid fuel used in cars.
+EN	engine	The part of a vehicle that makes it move.
+EN	wheel	A round object that turns to move a vehicle.
+EN	tram	An electric vehicle that runs on rails in the street.
+EN	ferry	A boat that carries people and vehicles across water.
+EN	harbor	An area of water near the coast where ships stay safely.
+EN	building	A structure with walls and a roof, such as a house or office.
+EN	factory	A building where goods are made by machines.
+EN	square	An open area in a town surrounded by buildings; also a shape with four equal sides.
+EN	neighborhood	The area of a town around where you live.
+EN	curtain	A piece of cloth that hangs over a window.
+EN	carpet	A thick floor covering made of wool or other material.
+EN	drawer	A box that slides in and out of a piece of furniture.
+EN	cupboard	A piece of furniture with doors and shelves for storing things.
+EN	sheet	A large piece of cloth put on a bed; also a piece of paper.
+EN	brush	An object with hairs or bristles, used for cleaning or painting.
+EN	rubbish	Things that you throw away because you do not want them.
+EN	bin	A container for rubbish.
+EN	repair	To fix something that is broken or damaged.
+EN	break	To make something separate into pieces; to stop working.
+EN	fix	To repair something.
+EN	lock	To close something with a key.
+EN	knock	To hit a door with your hand to get attention.
+EN	sweater	A warm piece of clothing with sleeves, often made of wool.
+EN	suit	A jacket and trousers or skirt made from the same material.
+EN	fashion	A popular style of clothes or behaviour at a particular time.
+EN	fit	To be the right size for someone.
+EN	match	To look good with something; to be the same as something.
+EN	sale	The act of selling; a time when goods are sold at lower prices.
+EN	bargain	Something bought for less than its usual price.
+EN	queue	A line of people waiting for something.
+EN	basket	A container made of woven material for carrying things.
+EN	trolley	A cart with wheels used for carrying things in a shop or airport.
+EN	brand	The name of a product made by a particular company.
+EN	quality	How good or bad something is.
+EN	exchange	To give something and receive something else in return.
+EN	afford	To have enough money to pay for something.
+EN	spend	To use money to buy things; to use time doing something.
+EN	save	To keep money to use later; to rescue someone from danger.
+EN	borrow	To take something that you will give back later.
+EN	lend	To give something that will be given back later.
+EN	owe	To need to pay money back to someone.
+EN	note	A piece of paper money; also a short written message.
+EN	account	An arrangement with a bank to keep your money.
+EN	course	A series of lessons about a subject.
+EN	art	Paintings, drawings and other beautiful things that people make.
+EN	chapter	One of the main parts of a book.
+EN	title	The name of a book, film or song.
+EN	author	A person who writes a book.
+EN	mark	A number or letter given to show how good a piece of work is.
+EN	correct	Right; without mistakes.
+EN	revise	To study again for an exam.
+EN	pass	To succeed in an exam; also to go past something.
+EN	attend	To go to an event or a place regularly, such as school.
+EN	principal	The head of a school.
+EN	college	A place where people study after leaving school.
+EN	degree	A qualification from a university; also a unit for measuring temperature.
+EN	company	A business that makes or sells goods or services.
+EN	staff	The people who work for an organisation.
+EN	application	A formal written request, for example for a job.
+EN	earn	To get money for work you do.
+EN	retire	To stop working because of age.
+EN	apply	To make a formal request for a job, course or visa.
+EN	storm	Very bad weather with strong winds and rain.
+EN	thunder	The loud noise you hear after lightning.
+EN	fog	Thick cloud close to the ground that makes it hard to see.
+EN	ice	Frozen water.
+EN	heat	High temperature; the quality of being hot.
+EN	field	An area of land used for crops or animals; also an area for sport.
+EN	ground	The surface of the earth.
+EN	rock	The hard solid material that forms the earth's surface; a large stone.
+EN	sand	Very small grains of rock found on beaches and in deserts.
+EN	stone	A small piece of rock.
+EN	plant	A living thing that grows in the ground, such as a tree or flower.
+EN	root	The part of a plant that grows under the ground.
+EN	branch	A part of a tree that grows out from the trunk.
+EN	insect	A small creature with six legs, such as an ant or a fly.
+EN	bee	A flying insect that makes honey.
+EN	butterfly	An insect with large colourful wings.
+EN	snake	A long reptile with no legs.
+EN	mouse	A small animal with a long tail; also a device for moving the cursor on a computer.
+EN	rabbit	A small animal with long ears and soft fur.
+EN	elephant	A very large grey animal with a long nose called a trunk.
+EN	lion	A large wild cat that lives in Africa.
+EN	tiger	A large wild cat with orange fur and black stripes.
+EN	bear	A large heavy animal with thick fur.
+EN	whale	A very large animal that lives in the sea.
+EN	shark	A large fish with sharp teeth.
+EN	frog	A small green animal that lives near water and can jump.
+EN	pet	An animal kept at home as a companion.
+EN	basketball	A game in which two teams try to throw a ball through a high net.
+EN	swimming	The sport or activity of moving through water.
+EN	running	The sport or activity of running.
+EN	goal	The point scored when the ball goes into the net; also something you want to achieve.
+EN	coach	A person who trains a sports team or player.
+EN	race	A competition to see who is fastest.
+EN	opinion	What you think about something.
+EN	news	Information about recent events.
+EN	joke	A short funny story or remark.
+EN	promise	A statement that you will certainly do something.
+EN	truth	The true facts about something.
+EN	suggest	To put forward an idea or plan.
+EN	invite	To ask someone to come to an event.
+EN	apologize	To say that you are sorry.
+EN	complain	To say that something is wrong or not satisfactory.
+EN	shout	To say something very loudly.
+EN	repeat	To say or do something again.
+EN	screen	The flat surface of a television, computer or phone that shows pictures.
+EN	keyboard	The set of keys used to type on a computer.
+EN	website	A set of pages on the internet about a particular subject.
+EN	click	To press a button on a computer mouse.
+EN	upload	To send a file from your computer to the internet.
+EN	battery	A device that stores electricity, used in phones and other machines.
+EN	charger	A device used to put electricity into a battery.
+EN	video	A recording of moving pictures and sound.
+EN	online	Connected to or available on the internet.
+EN	generation	All the people born at about the same time.
+EN	little	Small in size or amount.
+EN	million	The number 1,000,000.
+EN	carry on	To continue doing something.
+EN	check out	To pay and leave a hotel.
+EN	come over	To visit someone's home.
+EN	give away	To give something to someone for free.
+EN	hold on	To wait for a short time, especially on the phone.
+EN	look out	To be careful; to watch for danger.
+EN	put away	To put something back where it is usually kept.
+EN	put out	To stop a fire from burning.
+EN	drop off	To take someone or something to a place and leave them there.
+EN	boxing	A sport in which two people fight with their hands, wearing gloves.
+EN	referee	The official who makes sure players follow the rules in a game.
+EN	racket	A bat with strings, used in tennis and badminton.
+EN	pitch	An area of ground where football and some other sports are played.
+EN	goalkeeper	The player who stands in front of the goal and tries to stop the ball.
+EN	spectator	A person who watches an event, especially a sports game.
+EN	defeat	To win against someone in a game or fight.
+EN	draw	A game that ends with equal scores.
+EN	collar	The part of a shirt or coat that goes around the neck.
+EN	sleeve	The part of a piece of clothing that covers the arm.
+EN	casual	Relaxed and not formal.
+EN	formal	Serious and following accepted rules, for official occasions.
+EN	tight	Fitting closely to the body.
+EN	router	A device that connects computers to the internet.
+EN	speaker	A device that produces sound; also a person who speaks.
+EN	notification	A message on a phone or computer telling you something has happened.
+EN	bug	A mistake in a computer program; also a small insect.
+EN	code	A set of instructions for a computer; also a system of secret signs.
+EN	resort	A place where people go on holiday.
+EN	terminal	A building at an airport where passengers arrive and leave.
+EN	aisle	A passage between rows of seats or shelves.
+EN	monument	A structure built to remember a person or event.
+EN	fare	The money you pay to travel by bus, train or plane.
+EN	carriage	One of the separate parts of a train where passengers sit.
+EN	ruler	A flat strip of wood or plastic used for measuring and drawing lines.
+EN	shift	A period of work in a day, such as the night shift.
+EN	jersey	A shirt worn by a sports player.
+EN	tap	A device that controls the flow of water from a pipe.
+EN	checkout	The place in a shop where you pay.
+EN	cap	A soft hat with a curved part at the front.
+EN	brochure	A thin book with pictures giving information about a product or place.
+EN	adult	A fully grown person.
+EN	agency	A business that provides a service, such as a travel agency.
+EN	air	The mixture of gases that we breathe.
+EN	amusement	The feeling of finding something funny.
+EN	angel	A spiritual being believed to act as a messenger of God.
+EN	anyway	Despite something; in any case.
+EN	area	A part of a place, town or country.
+EN	attack	A violent act to hurt someone or damage something.
+EN	automatic	Working by itself without human control.
+EN	background	A person's family, education and experience; also the area behind the main thing.
+EN	base	The bottom part of something; a main place of work.
+EN	bay	A part of the sea partly surrounded by land.
+EN	beauty	The quality of being beautiful.
+EN	beer	An alcoholic drink made from grain.
+EN	beginner	A person who is starting to learn something.
+EN	being	A living creature.
+EN	belly	The stomach area of the body.
+EN	bite	To use your teeth to cut into something.
+EN	brake	A device used to slow down or stop a vehicle.
+EN	brave	Willing to do dangerous or difficult things; not afraid.
+EN	calendar	A chart showing the days, weeks and months of a year.
+EN	cent	A small coin worth one hundredth of a dollar or euro.
+EN	center	The middle point or part of something.
+EN	chain	A series of metal rings joined together.
+EN	championship	A competition to find the best player or team.
+EN	cheek	The soft part of the face below the eye.
+EN	chest	The front part of the body between the neck and the stomach.
+EN	comb	A flat object with thin teeth, used for tidying hair.
+EN	competition	An event in which people try to win; also rivalry between businesses.
+EN	concern	A feeling of worry about something.
+VI	adjective	tính từ
+VI	air	không khí
+VI	attack	sự tấn công
+VI	atom	nguyên tử
+VI	bay	vịnh
+VI	beauty	vẻ đẹp
+VI	beer	bia
+VI	being	sinh vật, sự tồn tại
+VI	base	nền tảng; căn cứ
+VI	bite	vết cắn; cắn
+VI	bra	áo ngực
+VI	breeze	gió nhẹ
+VI	calendar	lịch
+VI	cent	xu
+VI	center	trung tâm
+VI	centimetre	xentimét
+VI	cheque	séc
+VI	cola	nước cô-la
+VI	comb	cái lược
+VI	concern	mối lo ngại
+VI	continent	châu lục
+VI	anyway	dù sao đi nữa
+VI	area	khu vực
+VI	automatic	tự động
+VI	astronaut	phi hành gia
+VI	alarm clock	đồng hồ báo thức
+VI	amusement	sự thích thú
+VI	armchair	ghế bành
+VI	balloon	bóng bay
+VI	background	nền; bối cảnh, lý lịch
+VI	classical music	nhạc cổ điển
+VI	cigarette	điếu thuốc lá
+VI	bury	chôn
+VI	beginner	người mới bắt đầu
+VI	bookshelf	giá sách
+VI	adult	người lớn
+VI	check in	làm thủ tục (nhận phòng, lên máy bay)
+VI	competition	cuộc thi; sự cạnh tranh
+VI	spectator	khán giả

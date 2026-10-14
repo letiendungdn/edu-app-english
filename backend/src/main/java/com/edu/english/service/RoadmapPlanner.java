@@ -23,7 +23,7 @@ public final class RoadmapPlanner {
   /** Band giả định khi người học chưa biết trình độ và chưa làm placement test. */
   static final double UNKNOWN_BAND = 5.0;
 
-  static final int MOCK_TEST_MIN = 150;
+  static final int MOCK_TEST_MIN = 165;
   private static final int MIN_FILLER_MIN = 10;
 
   private RoadmapPlanner() {}

@@ -1,0 +1,329 @@
+EN	sleep	To rest with your eyes closed and your mind unconscious.
+EN	hot	Having a high temperature.
+EN	rain	Water that falls from clouds in drops.
+EN	coffee	A hot drink made from roasted coffee beans.
+EN	tea	A hot drink made by pouring boiling water onto dried tea leaves.
+EN	child	A young human who is not yet an adult.
+EN	parent	A person's mother or father.
+EN	family	A group of people related to each other, such as parents and their children.
+EN	ill	Not in good health; sick.
+EN	student	A person who is studying at a school, college or university.
+EN	lesson	A period of time in which someone is taught something.
+EN	buy	To get something by paying money for it.
+EN	price	The amount of money you must pay for something.
+EN	ticket	A piece of paper that shows you have paid to travel or to enter a place.
+EN	city	A large and important town.
+EN	tree	A tall plant with a wooden trunk and branches.
+EN	boy	A male child or young man.
+EN	girl	A female child or young woman.
+EN	man	An adult male person.
+EN	woman	An adult female person.
+EN	people	Men, women and children; persons in general.
+EN	person	A human being.
+EN	neighbor	A person who lives near you.
+EN	head	The part of the body above the neck, containing the brain, eyes and mouth.
+EN	hair	The fine threads that grow on the head and body.
+EN	face	The front part of the head, where the eyes, nose and mouth are.
+EN	eye	The part of the body that you see with.
+EN	nose	The part of the face that you breathe and smell through.
+EN	tooth	One of the hard white objects in the mouth used for biting and chewing.
+EN	teeth	Plural of tooth: the hard white objects in the mouth used for biting.
+EN	neck	The part of the body between the head and the shoulders.
+EN	arm	The part of the body from the shoulder to the hand.
+EN	hand	The part of the body at the end of the arm, with fingers and a thumb.
+EN	finger	One of the five long parts at the end of the hand.
+EN	leg	One of the parts of the body used for standing and walking.
+EN	foot	The part of the body at the end of the leg that you stand on.
+EN	knee	The joint in the middle of the leg.
+EN	back	The part of the body from the neck to the bottom of the spine.
+EN	stomach	The organ inside the body where food is digested; the front of the body below the chest.
+EN	heart	The organ in the chest that pumps blood around the body.
+EN	body	The whole physical structure of a person or animal.
+EN	pain	The unpleasant feeling when part of the body is hurt or ill.
+EN	shoulder	The part of the body between the neck and the top of the arm.
+EN	nurse	A person whose job is to care for sick or injured people.
+EN	pill	A small piece of medicine that you swallow.
+EN	fever	A high body temperature caused by illness.
+EN	skirt	A piece of women's clothing that hangs from the waist.
+EN	jacket	A short coat.
+EN	coat	A piece of clothing with long sleeves, worn over other clothes to keep warm.
+EN	shoes	Coverings for the feet, usually made of leather or plastic.
+EN	hat	A covering for the head.
+EN	bag	A container made of cloth, paper or leather, used for carrying things.
+EN	watch	A small clock worn on the wrist.
+EN	umbrella	An object you hold over your head to keep dry in the rain.
+EN	red	Having the colour of blood.
+EN	blue	Having the colour of a clear sky.
+EN	green	Having the colour of grass.
+EN	yellow	Having the colour of lemons or butter.
+EN	black	Having the darkest colour, like the night sky.
+EN	white	Having the colour of snow or milk.
+EN	grey	Having the colour between black and white.
+EN	purple	Having a colour between red and blue.
+EN	zero	The number 0.
+EN	one	The number 1.
+EN	two	The number 2.
+EN	three	The number 3.
+EN	four	The number 4.
+EN	five	The number 5.
+EN	six	The number 6.
+EN	seven	The number 7.
+EN	eight	The number 8.
+EN	nine	The number 9.
+EN	ten	The number 10.
+EN	eleven	The number 11.
+EN	twenty	The number 20.
+EN	fifty	The number 50.
+EN	first	Coming before all others in order.
+EN	second	Coming after the first in order.
+EN	time	What is measured in minutes, hours, days and years.
+EN	hour	A period of 60 minutes.
+EN	now	At the present time.
+EN	always	At all times; every time.
+EN	week	A period of seven days.
+EN	year	A period of twelve months.
+EN	day	A period of 24 hours; the time when it is light.
+EN	date	A particular day of the month or year.
+EN	march	The third month of the year.
+EN	may	The fifth month of the year.
+EN	spring	The season between winter and summer.
+EN	summer	The warmest season of the year, between spring and autumn.
+EN	window	An opening in a wall, usually filled with glass, that lets in light and air.
+EN	floor	The flat surface you walk on inside a building.
+EN	wall	A side of a room or building.
+EN	key	A piece of metal used to open or lock a door.
+EN	garden	A piece of land next to a house where flowers and vegetables are grown.
+EN	shower	A device that sprays water on your body to wash it.
+EN	mirror	A piece of glass in which you can see yourself.
+EN	cup	A small container with a handle, used for drinking.
+EN	glass	A container made of glass, used for drinking.
+EN	bottle	A glass or plastic container with a narrow neck, used for liquids.
+EN	spoon	A tool with a small bowl and a handle, used for eating.
+EN	bowl	A deep round dish used for food.
+EN	beef	Meat from a cow.
+EN	fruit	The part of a plant that contains seeds and is often sweet, such as an apple.
+EN	carrot	A long orange vegetable that grows under the ground.
+EN	noodle	A long thin strip of pasta, cooked in water or soup.
+EN	cake	A sweet food made from flour, sugar, eggs and butter, baked in an oven.
+EN	sugar	A sweet substance used in food and drinks.
+EN	drink	To take liquid into the mouth and swallow it.
+EN	street	A road in a town or city with buildings along it.
+EN	road	A hard surface for cars and other vehicles to travel on.
+EN	bus	A large vehicle that carries many passengers along a fixed route.
+EN	car	A road vehicle with four wheels and an engine that carries a few people.
+EN	train	A line of carriages pulled by an engine along a railway.
+EN	station	A place where trains or buses stop for passengers.
+EN	stop	A place where a bus or train stops to let passengers on and off.
+EN	park	A public area of grass and trees in a town.
+EN	traffic	The vehicles moving along roads.
+EN	left	The side of the body where the heart is; the opposite of right.
+EN	right	The side opposite to the left.
+EN	straight	In a straight line; directly.
+EN	sun	The star that gives the earth light and heat.
+EN	moon	The round object that moves around the earth and shines at night.
+EN	star	A large ball of burning gas in space that looks like a point of light at night.
+EN	cloud	A white or grey mass of water drops floating in the sky.
+EN	wind	Air that moves quickly across the earth.
+EN	grass	A common green plant with thin leaves that covers fields and gardens.
+EN	leaf	A flat green part of a plant that grows from a stem or branch.
+EN	dog	An animal often kept as a pet or to guard places.
+EN	cat	A small furry animal often kept as a pet.
+EN	bird	An animal with feathers and wings that can usually fly.
+EN	horse	A large animal that people ride or use to pull things.
+EN	pig	A farm animal with a fat body, kept for its meat.
+EN	sheep	A farm animal with thick wool, kept for its meat and wool.
+EN	duck	A bird that lives near water and has a wide flat beak.
+EN	class	A group of students who are taught together.
+EN	paper	Thin material made from wood, used for writing on.
+EN	notebook	A book of plain paper for writing notes in.
+EN	board	A flat surface on a classroom wall, used for writing on.
+EN	answer	Something you say or write in reply to a question.
+EN	test	A short exam to check knowledge or ability.
+EN	grade	A mark given for a piece of school work or an exam.
+EN	learn	To get knowledge or a skill by studying or practising.
+EN	teach	To give lessons or show someone how to do something.
+EN	read	To look at words and understand them.
+EN	write	To make letters or words on paper or a screen.
+EN	remember	To keep something in your mind or bring it back to mind.
+EN	forget	To fail to remember something.
+EN	job	The work a person does regularly to earn money.
+EN	boss	A person who is in charge of other workers.
+EN	driver	A person who drives a vehicle.
+EN	manager	A person who is in charge of a business or a team.
+EN	card	A small piece of stiff paper or plastic, such as a bank card or birthday card.
+EN	open	Not closed, so people can go in.
+EN	closed	Not open.
+EN	sell	To give something to someone in exchange for money.
+EN	pay	To give money for something you buy or for work done.
+EN	cost	To have a particular price.
+EN	sad	Unhappy.
+EN	cry	To produce tears from the eyes, usually because you are unhappy.
+EN	love	To like someone or something very much.
+EN	want	To wish to have or do something.
+EN	go	To move or travel from one place to another.
+EN	come	To move towards the speaker or to a place.
+EN	get	To receive, obtain or become.
+EN	take	To carry something with you; to accept or use something.
+EN	give	To hand something to someone.
+EN	see	To notice something with your eyes.
+EN	look	To turn your eyes towards something.
+EN	hear	To notice sounds with your ears.
+EN	say	To speak words.
+EN	tell	To give information to someone by speaking.
+EN	talk	To speak with someone.
+EN	ask	To say something as a question.
+EN	think	To have an opinion; to use your mind.
+EN	live	To be alive; to have your home in a place.
+EN	close	To shut something.
+EN	start	To begin doing something.
+EN	finish	To complete something; to come to an end.
+EN	help	To make it easier for someone to do something.
+EN	play	To have fun with games or toys; to take part in a sport.
+EN	use	To do something with a tool, object or method.
+EN	try	To make an effort to do something.
+EN	find	To discover something you were looking for.
+EN	lose	To be unable to find something.
+EN	sit	To rest on a chair or seat.
+EN	stand	To be on your feet in an upright position.
+EN	walk	To move on foot at a normal speed.
+EN	run	To move on foot faster than walking.
+EN	drive	To control a car or other vehicle.
+EN	ride	To travel on a horse, bicycle or motorbike.
+EN	fly	To move through the air.
+EN	swim	To move through water using your arms and legs.
+EN	clean	To remove dirt from something.
+EN	carry	To hold something and take it somewhere.
+EN	bring	To take something or someone to a place.
+EN	meet	To come together with someone.
+EN	call	To phone someone; to give someone or something a name.
+EN	turn	To move in a different direction.
+EN	feel	To experience an emotion or a physical sensation.
+EN	hope	To want something to happen and think it is possible.
+EN	big	Large in size.
+EN	small	Little in size.
+EN	long	Measuring a great distance from end to end, or lasting a lot of time.
+EN	short	Small in length or height; lasting a little time.
+EN	old	Having lived or existed for a long time.
+EN	new	Recently made or bought; not used before.
+EN	good	Of high quality; pleasant.
+EN	bad	Not good; unpleasant.
+EN	easy	Not difficult.
+EN	fast	Moving or happening quickly.
+EN	slow	Not fast.
+EN	warm	Slightly hot in a pleasant way.
+EN	cool	Slightly cold in a pleasant way.
+EN	full	Containing as much as possible.
+EN	heavy	Weighing a lot.
+EN	light	Not heavy; also bright, not dark.
+EN	strong	Having great physical power.
+EN	weak	Not strong.
+EN	rich	Having a lot of money.
+EN	kind	Friendly and caring towards others.
+EN	quiet	Making little or no noise.
+EN	free	Costing nothing; also not busy.
+EN	only	No more than; just.
+EN	well	In a good way.
+EN	football	A game in which two teams kick a ball and try to score goals.
+EN	game	An activity with rules that people play for fun.
+EN	team	A group of people who play or work together.
+EN	sport	A physical activity with rules, such as football or tennis.
+EN	word	A unit of language that has a meaning.
+EN	language	A system of words used by the people of a country or community.
+EN	trip	A journey to a place and back again.
+EN	country	An area of land with its own government; a nation.
+EN	place	A particular area or position.
+EN	sick	Ill; not well.
+EN	hurt	To cause pain or injury.
+EN	rest	To relax or sleep after activity.
+EN	better	Of a higher standard; less ill than before.
+EN	thing	An object, idea or event.
+EN	life	The state of being alive; a person's existence.
+EN	home	The place where you live.
+EN	idea	A thought, plan or suggestion.
+EN	example	Something that shows what other things of the same kind are like.
+EN	part	One of the pieces that make up a whole.
+EN	end	The final part of something.
+EN	they	Those people or things already mentioned.
+EN	shorts	Short trousers that end above the knees.
+EN	laundry	Clothes that need to be washed or have just been washed.
+EN	tablet	A small flat computer with a touch screen; also a pill.
+EN	can	To be able to do something.
+EN	will	Used to talk about the future.
+EN	quarter	One of four equal parts of something.
+EN	glove	A covering for the hand with separate parts for each finger.
+EN	activity	Something that you do for pleasure or interest.
+EN	actor	A person who performs in plays or films.
+EN	bat	A small animal like a mouse with wings that flies at night; also a stick for hitting a ball.
+EN	be	To exist; used to describe a person or thing.
+EN	begin	To start.
+EN	bell	A hollow metal object that rings when it is hit.
+EN	blow	To send out air from the mouth.
+EN	boat	A small vehicle for travelling on water.
+EN	box	A container with flat sides, often with a lid.
+EN	brain	The organ inside the head that controls thought and feeling.
+EN	bright	Full of light; shining strongly.
+EN	check	An act of looking at something to make sure it is correct.
+EN	circle	A round shape.
+EN	climb	An act of going up something such as a hill or stairs.
+EN	club	A group of people who meet regularly for a shared interest.
+EN	collect	To bring things together from different places.
+EN	collection	A group of objects gathered together.
+EN	cover	Something placed over something to protect or hide it.
+EN	cut	To divide something with a knife or scissors.
+EN	dance	A series of movements done to music.
+EN	dark	With little or no light.
+EN	dear	Loved; used at the start of a letter.
+EN	dig	To make a hole in the ground.
+EN	do	To perform an action.
+EN	dollar	The unit of money of the USA and some other countries.
+EN	dream	Images you experience while sleeping; also a hope for the future.
+EN	drop	To let something fall.
+EN	drum	A musical instrument that you hit with sticks or your hands.
+EN	dry	Without water or liquid.
+EN	fat	Having a lot of flesh on the body.
+EN	feed	Food for animals.
+EN	fight	A violent struggle between people.
+EN	fill	To make something full.
+EN	flag	A piece of cloth with a design that represents a country or group.
+EN	flat	An apartment; also level and smooth.
+EN	form	A document with spaces to fill in; also a shape or type.
+EN	future	The time that will come after now.
+EN	gift	Something you give to someone; a present.
+EN	great	Very good; also very large.
+EN	guess	To give an answer without being sure.
+EN	hard	Difficult; also firm, not soft.
+EN	have	To own or hold something.
+EN	hobby	An activity you do for pleasure in your free time.
+EN	hold	A grip on something with your hand.
+EN	hurry	A need to do something quickly.
+EN	keep	To continue to have something.
+EN	kill	To make someone or something die.
+EN	king	A male ruler of a country.
+EN	kiss	A touch with the lips to show love or to greet someone.
+EN	large	Big in size.
+EN	lazy	Not wanting to work or make an effort.
+EN	hamburger	A round piece of minced beef, usually served in a bread roll.
+VI	kite	cái diều
+VI	add	thêm, cộng
+VI	airplane	máy bay
+VI	boyfriend	bạn trai
+VI	girlfriend	bạn gái
+VI	dance	điệu nhảy, khiêu vũ
+VI	do	làm
+VI	is	là
+VI	dear	thân yêu, thân mến
+VI	collect	thu thập, sưu tầm
+VI	blow	thổi
+VI	fill	làm đầy
+VI	high	cao
+VI	flat	căn hộ; bằng phẳng
+VI	feed	thức ăn (cho vật nuôi); cho ăn
+VI	fan	cái quạt; người hâm mộ
+VI	bat	con dơi; gậy (bóng chày)
+VI	dollar	đô la
+VI	climb	sự leo; leo
+VI	alone	một mình
+VI	bone	xương
+VI	ghost	ma
+VI	hobby	sở thích
+VI	hold	sự cầm, nắm; giữ

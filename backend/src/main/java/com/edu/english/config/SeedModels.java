@@ -16,11 +16,13 @@ public final class SeedModels {
       String word,
       String phonetic,
       String meaningVi,
+      String meaningEn,
       String level,
       String partOfSpeech,
       String exampleEn,
       String exampleVi,
-      int sortOrder) {}
+      int sortOrder,
+      String family) {}
 
   public record GrammarFile(List<GrammarTopicSeed> topics) {}
 
@@ -37,7 +39,8 @@ public final class SeedModels {
 
   public record ExampleSeed(String en, int sortOrder) {}
 
-  public record ExerciseSeed(String question, String answer, int sortOrder, List<String> options) {}
+  /** explanation: vì sao đáp án đúng, hiện sau khi người học kiểm tra. */
+  public record ExerciseSeed(String question, String answer, String explanation, int sortOrder, List<String> options) {}
 
   // Câu hỏi dùng chung cho Reading và Listening.
 
@@ -108,7 +111,17 @@ public final class SeedModels {
 
   public record SpeakingFile(List<SpeakingSeed> prompts) {}
 
-  public record SpeakingSeed(int part, String topic, String question, List<String> cueCardPoints, int sortOrder) {}
+  public record SpeakingSeed(
+      int part,
+      String topic,
+      String question,
+      List<String> cueCardPoints,
+      int sortOrder,
+      String sampleAnswer) {}
+
+  public record PhraseFile(List<PhraseSeed> phrases) {}
+
+  public record PhraseSeed(String task, String category, String phrase, String meaningVi, String example, Double bandMin) {}
 
   public record TestFile(List<TestSeed> tests) {}
 

@@ -14,6 +14,9 @@ public final class ApiModels {
 
   public record TopicView(String name, String icon) {}
 
+  /** Chủ đề kèm số từ, cho bộ lọc chủ đề. */
+  public record TopicCount(String name, String icon, long count) {}
+
   public record SrsView(Instant nextReviewAt, int repetitions) {}
 
   public record VocabView(
@@ -28,7 +31,8 @@ public final class ApiModels {
       String exampleVi,
       String imageUrl,
       TopicView topic,
-      SrsView srs) {}
+      SrsView srs,
+      String family) {}
 
   public record VocabPage(long total, int page, int limit, List<VocabView> words) {}
 
@@ -86,7 +90,8 @@ public final class ApiModels {
       Double bandMax,
       Integer estimatedMin,
       String source,
-      long questionCount) {}
+      long questionCount,
+      List<String> questionTypes) {}
 
   public record PassageDetail(
       Long id,
@@ -104,7 +109,8 @@ public final class ApiModels {
       Integer durationSec,
       String youtubeUrl,
       Integer ieltsPart,
-      long questionCount) {}
+      long questionCount,
+      List<String> questionTypes) {}
 
   public record TrackDetail(
       Long id,
@@ -156,4 +162,26 @@ public final class ApiModels {
       List<StudyPoint> studySessions,
       List<HistoryPoint> readingHistory,
       List<HistoryPoint> listeningHistory) {}
+
+  /** Một câu trong sổ lỗi sai, kèm đủ đề và đáp án để xem lại không cần mở bài. */
+  public record MistakeView(
+      Long questionId,
+      String skill,
+      String questionType,
+      Long ownerId,
+      String ownerTitle,
+      String link,
+      int number,
+      String instruction,
+      String prompt,
+      List<OptionItem> options,
+      String given,
+      String correctAnswer,
+      String explanation,
+      String evidence,
+      String source,
+      Instant answeredAt) {}
+
+  /** weak: đủ dữ liệu (từ 5 điểm) và đúng dưới 60%. skill null nghĩa là dạng câu có ở cả hai kỹ năng. */
+  public record QuestionTypeStat(String type, String skill, int points, int maxPoints, int percent, boolean weak) {}
 }

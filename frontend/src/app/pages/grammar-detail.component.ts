@@ -50,6 +50,7 @@ import { GrammarDetail } from '../core/models';
                 <p [style.color]="answers()[ex.id] === ex.answer ? 'var(--success)' : 'var(--danger)'">
                   {{ answers()[ex.id] === ex.answer ? 'Chính xác' : 'Đáp án đúng: ' + ex.answer }}
                 </p>
+                @if (ex.explanation) { <p class="muted small" style="margin-top: 0.25rem;">{{ ex.explanation }}</p> }
               }
             </div>
           }

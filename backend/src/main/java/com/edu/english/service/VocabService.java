@@ -15,6 +15,7 @@ import com.edu.english.web.ApiModels.PicturePage;
 import com.edu.english.web.ApiModels.ReviewCard;
 import com.edu.english.web.ApiModels.SrsView;
 import com.edu.english.web.ApiModels.TopicView;
+import com.edu.english.web.ApiModels.TopicCount;
 import com.edu.english.web.ApiModels.VocabPage;
 import com.edu.english.web.ApiModels.VocabView;
 import java.time.Clock;
@@ -26,7 +27,6 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -58,19 +58,42 @@ public class VocabService {
 
   @Transactional(readOnly = true)
   public VocabPage list(String levelParam, int page, int limit, Long userId) {
-    if (userId != null) return loadPage(levelParam, page, limit, userId);
-    String key = "vocab:" + (levelParam == null ? "" : levelParam) + ":" + page + ":" + limit;
-    return platform.cache(key, VocabPage.class, () -> loadPage(levelParam, page, limit, null));
+    return list(levelParam, null, null, page, limit, userId);
   }
 
-  private VocabPage loadPage(String levelParam, int page, int limit, Long userId) {
+  /** topic: tên chủ đề, ví dụ "IELTS Environment". q: từ hoặc nghĩa tiếng Việt. Bỏ trống là không lọc. */
+  @Transactional(readOnly = true)
+  public VocabPage list(String levelParam, String topic, String q, int page, int limit, Long userId) {
+    String topicName = topic == null || topic.isBlank() ? null : topic.trim();
+    String query = likeQuery(q);
+    if (userId != null) return loadPage(levelParam, topicName, query, page, limit, userId);
+    // Khoá có cả chủ đề và chữ tìm; cache sống 30 giây nên nội dung mới lên ngay sau khi seeder chạy.
+    String key = "vocab:" + (levelParam == null ? "" : levelParam) + ":" + (topicName == null ? "" : topicName)
+        + ":" + (query == null ? "" : query) + ":" + page + ":" + limit;
+    return platform.cache(key, VocabPage.class, () -> loadPage(levelParam, topicName, query, page, limit, null));
+  }
+
+  @Transactional(readOnly = true)
+  public List<TopicCount> topics() {
+    return vocabulary.countByTopic().stream()
+        .map(row -> new TopicCount((String) row[0], (String) row[1], (Long) row[2]))
+        .toList();
+  }
+
+  /** Thoát % và _ để người dùng tìm đúng chữ, không biến thành ký tự đại diện. */
+  private static String likeQuery(String raw) {
+    if (raw == null) return null;
+    String trimmed = raw.trim();
+    if (trimmed.isEmpty()) return null;
+    String cut = trimmed.length() > 80 ? trimmed.substring(0, 80) : trimmed;
+    return cut.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_");
+  }
+
+  private VocabPage loadPage(String levelParam, String topicName, String query, int page, int limit, Long userId) {
     int safePage = Math.max(page, 1);
     int safeLimit = Math.min(Math.max(limit, 1), 100);
     EnglishLevel level = AuthService.parseLevel(levelParam);
-    var pageable =
-        PageRequest.of(safePage - 1, safeLimit, Sort.by("sortOrder").ascending().and(Sort.by("id")));
-    Page<Vocabulary> result =
-        level == null ? vocabulary.findAll(pageable) : vocabulary.findByLevel(level, pageable);
+    Page<Vocabulary> result = vocabulary.search(level, topicName, query, PageRequest.of(safePage - 1, safeLimit));
 
     Map<Long, SrsCard> srs =
         userId == null
@@ -85,15 +108,17 @@ public class VocabService {
   @Transactional(readOnly = true)
   public PicturePage picture(String levelParam, boolean picturesOnly, int limit) {
     EnglishLevel level = AuthService.parseLevel(levelParam);
-    int safeLimit = Math.min(Math.max(limit, 1), 200);
+    int safeLimit = Math.min(Math.max(limit, 1), 600);
     List<Vocabulary> words =
         level == null
-            ? vocabulary.findAllByOrderBySortOrderAscIdAsc(PageRequest.of(0, safeLimit))
-            : vocabulary.findByLevelOrderBySortOrderAscIdAsc(level, PageRequest.of(0, safeLimit));
+            ? vocabulary.findAllByOrderBySortOrderAscIdAsc(PageRequest.of(0, 8000))
+            : vocabulary.findByLevelOrderBySortOrderAscIdAsc(level, PageRequest.of(0, 8000));
     List<PictureItem> items =
         words.stream()
+            .filter(word -> word.getImageUrl() != null && word.getImageUrl().contains("omoji-"))
+            .filter(word -> !picturesOnly || !word.getImageUrl().isBlank())
+            .limit(safeLimit)
             .map(this::toPicture)
-            .filter(item -> !picturesOnly || (item.imageUrl() != null && !item.imageUrl().isBlank()))
             .toList();
     return new PicturePage(items.size(), items);
   }
@@ -207,7 +232,8 @@ public class VocabService {
         w.getExampleVi(),
         w.getImageUrl(),
         w.getTopic() == null ? null : new TopicView(w.getTopic().getName(), w.getTopic().getIcon()),
-        card == null ? null : new SrsView(card.getNextReviewAt(), card.getRepetitions()));
+        card == null ? null : new SrsView(card.getNextReviewAt(), card.getRepetitions()),
+        w.getWordFamily());
   }
 
   private PictureItem toPicture(Vocabulary w) {

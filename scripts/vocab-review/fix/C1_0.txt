@@ -1,0 +1,441 @@
+EN	thesis	A long piece of writing based on research, done for a university degree; also the main idea of an essay.
+EN	controversial	Causing a lot of disagreement.
+EN	phenomenon	Something that exists or happens, especially something unusual or interesting.
+EN	implication	A possible effect or result of an action or decision.
+EN	fluctuate	To change often, going up and down.
+EN	inherent	Existing as a natural or basic part of something.
+EN	underlying	Real but not immediately obvious; forming the basis of something.
+EN	substantial	Large in amount or importance.
+EN	articulate	Able to express ideas clearly in words.
+EN	elaborate	To give more details about something.
+EN	advocate	To publicly support an idea or policy.
+EN	undermine	To make something gradually weaker or less effective.
+EN	derive	To get something from a source.
+EN	comprise	To consist of; to be made up of.
+EN	constitute	To form or be part of something.
+EN	prevail	To be more common or stronger than something else; to win.
+EN	paradigm	A model or typical pattern of something.
+EN	discourse	Written or spoken communication, especially on a serious subject.
+EN	rhetoric	Language used to persuade people, sometimes without real meaning.
+EN	correlation	A connection between two things in which one changes as the other changes.
+EN	causation	The process of one thing causing another.
+EN	abrupt	Sudden and unexpected.
+EN	accommodate	To provide space for someone or something; to adapt to someone's needs.
+EN	accumulate	To gradually collect more of something.
+EN	adhere	To follow a rule or belief exactly (adhere to).
+EN	adverse	Having a harmful or negative effect.
+EN	arbitrary	Based on chance or personal choice rather than reason.
+EN	autonomous	Able to govern itself or act independently.
+EN	bleak	Without hope or encouragement; cold and unpleasant.
+EN	breach	The act of breaking a rule, law or agreement.
+EN	cease	To stop.
+EN	cognitive	Relating to thinking, learning and understanding.
+EN	collapse	To fall down suddenly; to fail completely.
+EN	compatible	Able to exist or work together without problems.
+EN	compel	To force someone to do something.
+EN	compensate	To give someone something, usually money, for loss or damage; to make up for something.
+EN	competent	Having enough skill or knowledge to do something well.
+EN	complement	To add to something in a way that improves it.
+EN	conceive	To think of a new idea or plan.
+EN	condemn	To say strongly that something is wrong.
+EN	confer	To discuss something with others before deciding; to give an official honour.
+EN	confine	To keep something within limits.
+EN	conform	To behave according to accepted rules or standards.
+EN	conscientious	Careful to do work well and thoroughly.
+EN	conserve	To protect something from harm or loss; to use less of something.
+EN	consistent	Always behaving or happening in the same way.
+EN	constraint	Something that limits what you can do.
+EN	contemplate	To think carefully about something.
+EN	contemporary	Belonging to the present time; modern.
+EN	contend	To argue or state that something is true.
+EN	contingent	Depending on something else happening.
+EN	contrary	Opposite.
+EN	converge	To come together from different directions.
+EN	convert	To change something into a different form or use.
+EN	cope	To deal successfully with a difficult situation.
+EN	correlate	To have a connection in which one thing changes as another changes.
+EN	counterpart	A person or thing with the same job or function as another in a different place.
+EN	criterion	A standard by which something is judged.
+EN	culminate	To end with an important event or result.
+EN	curb	To control or limit something, especially something harmful.
+EN	curtail	To reduce or limit something.
+EN	deem	To consider or judge something in a particular way.
+EN	deficit	The amount by which money spent is more than money received.
+EN	defy	To refuse to obey someone or something.
+EN	degrade	To make something worse in quality; to treat someone without respect.
+EN	deliberate	Done on purpose.
+EN	deploy	To use something or someone for a purpose; to move soldiers into position.
+EN	designate	To choose someone or something for a particular purpose.
+EN	devastate	To destroy or badly damage something.
+EN	devise	To invent a plan or system.
+EN	devote	To give time or energy to something.
+EN	dilemma	A situation in which you must make a difficult choice.
+EN	dimension	A measurement such as length or height; also an aspect of a situation.
+EN	discretion	The freedom to decide what to do; also the ability to keep private things secret.
+EN	discriminate	To treat people unfairly because of their race, sex or another characteristic.
+EN	dismiss	To refuse to consider an idea; to remove someone from their job.
+EN	dispose	To get rid of something (dispose of).
+EN	diverse	Very different from each other; varied.
+EN	divert	To change the direction or purpose of something.
+EN	doctrine	A set of beliefs taught by a religion, political party or other group.
+EN	domain	An area of knowledge or activity.
+EN	draft	An early version of a piece of writing.
+EN	drawback	A disadvantage.
+EN	duration	The length of time that something lasts.
+EN	elicit	To get information or a reaction from someone.
+EN	elusive	Difficult to find, catch or achieve.
+EN	embark	To start something new (embark on).
+EN	embed	To fix something firmly into something else.
+EN	embody	To represent an idea or quality.
+EN	embrace	To accept new ideas or opportunities with enthusiasm; to hug.
+EN	enact	To make a law officially.
+EN	endorse	To publicly support someone or something.
+EN	entity	Something that exists as a separate unit.
+EN	envisage	To imagine something as a future possibility.
+EN	eradicate	To destroy or get rid of something completely.
+EN	essence	The most important basic quality of something.
+EN	ethnic	Relating to a group of people with a shared culture, origin or language.
+EN	evident	Clear and obvious.
+EN	evoke	To bring a memory or feeling into your mind.
+EN	exception	Something that does not follow the general rule.
+EN	excess	An amount that is more than necessary or allowed.
+EN	exclusive	Limited to only one person or group; expensive and not for everyone.
+EN	execute	To carry out a plan; also to kill someone as a legal punishment.
+EN	exempt	Not required to do something that others must do.
+EN	exert	To use power or influence; to make an effort.
+EN	exhaust	To make someone very tired; to use something completely.
+EN	extract	To remove or take out something.
+EN	fabricate	To invent false information; to make something from parts.
+EN	flaw	A fault or weakness.
+EN	focal	Central and important.
+EN	formidable	Causing respect or fear because of size, power or difficulty.
+EN	foster	To encourage the development of something; to look after a child who is not your own.
+EN	genuine	Real and not false.
+EN	grant	To give or allow something officially.
+EN	grave	Very serious.
+EN	halt	To stop.
+EN	harsh	Severe, unkind or unpleasant.
+EN	hostile	Unfriendly and showing opposition.
+EN	ideology	A set of political or social beliefs.
+EN	illuminate	To make something clearer; to light up.
+EN	illusion	A false idea or appearance.
+EN	immense	Extremely large.
+EN	impede	To slow down or block progress.
+EN	imperative	Extremely important and urgent.
+EN	impetus	Something that encourages a process to happen faster.
+EN	implicit	Suggested but not stated directly.
+EN	impose	To force a rule, tax or punishment on people.
+EN	incline	To tend to think or behave in a particular way.
+EN	incur	To experience something unpleasant as a result of an action, such as a cost.
+EN	induce	To cause something to happen; to persuade someone.
+EN	innate	Existing from birth.
+EN	insight	A clear and deep understanding of something.
+EN	instinct	A natural behaviour that is not learned.
+EN	integral	Necessary and important as part of a whole.
+EN	integrity	The quality of being honest and having strong moral principles.
+EN	intimate	Very close and personal.
+EN	intrinsic	Belonging naturally to something; basic.
+EN	intuition	The ability to know something without reasoning.
+EN	invoke	To mention a law or principle to support your actions.
+EN	ironic	Funny or strange because it is the opposite of what is expected.
+EN	judicial	Relating to courts of law and judges.
+EN	legitimate	Allowed by law; fair and reasonable.
+EN	liable	Legally responsible; likely to do or experience something.
+EN	literal	Using the basic meaning of a word.
+EN	manipulate	To control or influence someone or something in a clever, often dishonest way.
+EN	marginal	Very small and not important.
+EN	mediate	To try to help two sides end a disagreement.
+EN	merit	A good quality that deserves praise.
+EN	modest	Not very large; not talking proudly about your abilities.
+EN	momentum	The force that keeps something moving or developing.
+EN	norm	A usual or accepted standard of behaviour.
+EN	notable	Important and deserving attention.
+EN	notion	An idea or belief.
+EN	obstacle	Something that blocks your way or makes progress difficult.
+EN	opt	To choose (opt for).
+EN	orient	To direct something towards a particular aim or group.
+EN	outlook	A person's general attitude; also the likely future situation.
+EN	output	The amount of something produced.
+EN	outset	The beginning (at the outset).
+EN	overall	Considering everything; in general.
+EN	overlap	To cover part of the same area or subject.
+EN	parameter	A limit that affects how something can be done.
+EN	persistent	Continuing for a long time or happening again and again.
+EN	plunge	To fall suddenly and quickly; (of prices) to decrease suddenly.
+EN	portray	To describe or show someone or something in a particular way.
+EN	pose	To create a problem or danger (pose a threat).
+EN	potential	The ability to develop or succeed in the future.
+EN	precedent	An earlier action or decision used as an example for later ones.
+EN	predominant	Most common or most important.
+EN	preliminary	Coming before a more important action or event.
+EN	premise	An idea on which an argument or theory is based.
+EN	preserve	To keep something in its original state; to protect.
+EN	privilege	A special advantage given to some people.
+EN	probe	To investigate something carefully.
+EN	proceed	To continue; to move forward.
+EN	profound	Very great or deep; showing deep understanding.
+EN	prone	Likely to suffer from something or do something bad.
+EN	propagate	To spread ideas or beliefs.
+EN	proposition	A statement or idea to be considered; an offer.
+EN	protocol	A set of rules for doing something correctly.
+EN	provoke	To cause a reaction, especially an angry one.
+EN	radical	Very new and different; supporting complete change.
+EN	rational	Based on reason rather than emotion.
+EN	realm	An area of activity or knowledge.
+EN	reconcile	To find a way for two different ideas to exist together; to make people friends again.
+EN	redundant	No longer needed; (UK) having lost your job because it is no longer needed.
+EN	regime	A government, especially an undemocratic one; also a system of rules.
+EN	relentless	Continuing without stopping or getting weaker.
+EN	reliance	Dependence on someone or something.
+EN	remedy	A way of solving a problem; a treatment for an illness.
+EN	render	To cause someone or something to be in a particular state.
+EN	repercussion	An effect, usually bad, of an action or event.
+EN	restrain	To stop someone from doing something.
+EN	retrieve	To get something back.
+EN	robust	Strong and healthy; not likely to fail.
+EN	segment	One of the parts into which something is divided.
+EN	skeptical	Doubting that something is true or useful.
+EN	sophisticated	Advanced and complex; having experience of culture and fashion.
+EN	spectrum	A complete range of different ideas or qualities.
+EN	speculate	To guess without having all the facts.
+EN	sphere	An area of activity or influence; also a ball shape.
+EN	stake	A share or interest in a business or situation.
+EN	stark	Very obvious and unpleasant.
+EN	static	Not moving or changing.
+EN	strain	Pressure or stress on something or someone.
+EN	strategic	Planned to achieve a particular long-term purpose.
+EN	substance	A material with particular qualities; also the real meaning of something.
+EN	subtle	Not obvious; small but important.
+EN	superficial	Not deep or thorough; only on the surface.
+EN	suppress	To stop something by force; to prevent a feeling from being shown.
+EN	surplus	An amount that is more than is needed.
+EN	susceptible	Easily affected or harmed by something.
+EN	suspend	To stop something for a period of time.
+EN	synthesis	The combination of separate ideas or things into a whole.
+EN	tackle	To deal with a difficult problem.
+EN	tangible	Real and able to be shown or touched.
+EN	tense	Nervous and worried; also the form of a verb showing time.
+EN	terminate	To end something.
+EN	thorough	Done carefully and completely.
+EN	threshold	The level at which something starts to happen; also the entrance of a room.
+EN	thrive	To grow, develop or be successful.
+EN	thus	As a result; in this way.
+EN	tolerate	To accept something unpleasant without complaining.
+EN	trait	A particular quality of someone's character.
+EN	transparent	Clear enough to see through; also open and honest.
+EN	trivial	Not important.
+EN	underlie	To be the real cause or basis of something.
+EN	uphold	To support a decision or law and make sure it continues.
+EN	valid	Based on good reasons; legally acceptable.
+EN	variable	A number or factor that can change.
+EN	versatile	Able to do many different things.
+EN	viable	Able to work successfully.
+EN	vital	Extremely important.
+EN	vivid	Very clear and detailed; very bright.
+EN	voluntary	Done willingly without being forced; done without payment.
+EN	withstand	To be strong enough not to be damaged by something.
+EN	scarcely	Almost not.
+EN	sacrifice	The act of giving up something valuable for a more important purpose.
+EN	peacock	A large bird; the male has long colourful tail feathers.
+EN	peasant	A poor farmer who owns or rents a small piece of land.
+EN	swap	To exchange one thing for another.
+EN	snail	A small slow animal with a shell on its back.
+EN	goose	A large bird like a duck with a long neck.
+EN	chilly	Unpleasantly cold.
+EN	interjection	A word such as 'oh' or 'wow' that expresses a sudden feeling.
+EN	gypsy	A member of a group of people who traditionally travel from place to place.
+EN	purity	The state of being pure.
+EN	gem	A precious stone.
+EN	ego	Your opinion of your own importance.
+EN	expire	To come to the end of the period in which it can be used.
+EN	con	A disadvantage (as in pros and cons); also a trick to cheat someone.
+EN	protagonist	The main character in a story.
+EN	crumb	A very small piece of bread or cake.
+EN	fuse	To join together; also a safety device in an electrical circuit.
+EN	ceaselessly	Without stopping.
+EN	faction	A small group within a larger group that has different opinions.
+EN	scorn	A feeling that someone or something is not worth respect.
+EN	obscure	To hide something or make it difficult to see or understand.
+EN	tinker	To make small changes to something to try to improve it.
+EN	loom	To appear as a large unclear shape, often threatening.
+EN	quarry	A place where stone is dug from the ground.
+EN	specification	A detailed description of how something should be made.
+EN	desertion	The act of leaving the army without permission.
+EN	clutch	To hold something tightly.
+EN	taut	Stretched tightly.
+EN	salvation	The act of saving someone from harm or loss.
+EN	salvage	To save something from being destroyed.
+EN	tailor	A person who makes clothes, especially for men.
+EN	silhouette	The dark outline of someone or something against a light background.
+EN	reap	To get a result or benefit from something you have done.
+EN	crude	Simple and not carefully made; in its natural state (crude oil).
+EN	buffer	Something that protects against harmful effects.
+EN	radiator	A metal device that heats a room; also the part that cools a car engine.
+EN	plummet	To fall very quickly and suddenly.
+EN	antiquated	Old-fashioned and no longer suitable.
+EN	restoration	The process of repairing something old so it looks like new.
+EN	charter	To rent a plane or boat for a particular journey; also a formal document of rights.
+EN	resilience	The ability to recover quickly from difficulties.
+EN	numb	Unable to feel anything.
+EN	amateur	A person who does something for pleasure rather than as a job.
+EN	subordinate	A person with a lower position at work.
+EN	debut	A performer's first public appearance.
+EN	turmoil	A state of great confusion or anxiety.
+EN	elude	To escape from someone; to be difficult to achieve or understand.
+EN	glean	To collect information slowly from different sources.
+EN	niche	A specialised area of the market; a job or position that suits someone.
+EN	sap	The liquid inside plants.
+EN	neutralize	To stop something from having an effect.
+EN	testament	Proof that something is true or exists.
+EN	lump	A small solid piece of something; a swelling on the body.
+EN	shrine	A place of worship connected with a holy person or event.
+EN	barb	An unkind remark.
+EN	hen	An adult female chicken.
+EN	pyramid	A shape with a square base and four triangular sides that meet at a point.
+EN	turf	Grass and the soil under it; also an area someone controls.
+EN	gulf	A large area of sea partly surrounded by land; also a large difference between groups.
+EN	radius	A straight line from the centre of a circle to its edge.
+EN	compass	A device that shows direction with a needle pointing north.
+EN	mercury	A silver liquid metal used in thermometers.
+EN	frustrating	Making you feel annoyed because you cannot achieve something.
+EN	willow	A tree with long thin branches, often growing near water.
+EN	panda	A large black and white animal like a bear that lives in China.
+EN	banquet	A large formal meal for many people.
+EN	dine	To eat dinner.
+EN	weaver	A person who weaves cloth.
+EN	streak	A thin line or mark; also a series of successes or failures.
+EN	fin	A thin flat part on a fish's body that helps it swim.
+EN	printing	The process of producing books and newspapers on machines.
+EN	vocal	Expressing opinions loudly and often; relating to the voice.
+EN	reactor	A large machine used to produce nuclear energy.
+EN	cuckoo	A bird that lays its eggs in other birds' nests.
+EN	crib	A small bed with high sides for a baby.
+EN	lime	A small green sour fruit; also a white substance used in building.
+EN	marker	A thick pen; something that shows the position of something.
+EN	hog	A pig, especially one kept for meat.
+EN	gutter	A channel at the edge of a road or roof that carries away rainwater.
+EN	seizure	The act of taking something by force; also a sudden attack of illness.
+EN	verge	The edge of a road (UK); being very close to something (on the verge of).
+EN	plasma	The clear liquid part of blood.
+EN	crust	The hard outer layer of bread or the earth.
+EN	bundle	A number of things tied together.
+EN	mop	A tool with a long handle used for washing floors.
+EN	rue	To feel sorry about something you have done.
+EN	crank	A handle that you turn to make a machine work.
+EN	shady	Protected from the sun; also dishonest (informal).
+EN	blackout	A period when there is no electricity.
+EN	sinner	A person who has broken a religious or moral law.
+EN	hangover	A headache and sick feeling after drinking too much alcohol.
+EN	beta	A test version of a product before its final release.
+EN	matrix	A rectangular arrangement of numbers; a set of conditions in which something develops.
+EN	slug	A small soft creature like a snail without a shell.
+EN	venom	Poison produced by some snakes and insects.
+EN	octopus	A sea creature with eight long arms.
+EN	hash	The symbol #.
+EN	fingerprint	The mark left by the pattern of lines on the end of your finger.
+EN	dwell	To live in a place; to keep thinking about something unpleasant (dwell on).
+EN	squat	To sit on your heels with your knees bent.
+EN	scrape	To remove something from a surface using a sharp edge.
+EN	panther	A large wild black cat.
+EN	mechanics	The science of motion and force; also the way something works.
+EN	torpedo	A long underwater weapon fired from a ship or submarine.
+EN	dent	A small hollow in a surface made by a hit.
+EN	manifest	To show something clearly.
+EN	sexuality	A person's sexual feelings and preferences.
+EN	dairy	Food made from milk, such as cheese and butter.
+EN	troll	A person who posts offensive comments online to upset people; also a creature in old stories.
+VI	underlying	cơ bản, tiềm ẩn
+VI	essence	bản chất
+VI	ego	cái tôi
+VI	con	nhược điểm; trò lừa đảo
+VI	protagonist	nhân vật chính
+VI	crumb	vụn bánh
+VI	fuse	hợp nhất; cầu chì
+VI	ceaselessly	không ngừng
+VI	obscure	che khuất; tối nghĩa
+VI	tinker	sửa lặt vặt
+VI	loom	hiện ra lờ mờ
+VI	quarry	mỏ đá
+VI	specification	thông số kỹ thuật
+VI	conditional	có điều kiện
+VI	clutch	nắm chặt
+VI	taut	căng
+VI	salvage	cứu vớt
+VI	silhouette	hình bóng
+VI	crude	thô sơ; thô
+VI	buffer	vùng đệm
+VI	plummet	lao dốc
+VI	antiquated	lỗi thời
+VI	restoration	sự phục hồi
+VI	charter	thuê bao (máy bay, tàu); hiến chương
+VI	resilience	khả năng phục hồi
+VI	numb	tê
+VI	amateur	nghiệp dư
+VI	debut	lần ra mắt
+VI	elude	lẩn tránh; khó nắm bắt
+VI	glean	thu lượm (thông tin)
+VI	niche	thị trường ngách
+VI	sap	nhựa cây
+VI	neutralize	vô hiệu hóa
+VI	testament	minh chứng
+VI	lump	cục, khối
+VI	shrine	đền thờ
+VI	barb	lời châm chọc
+VI	turf	thảm cỏ; địa bàn
+VI	gulf	vịnh; khoảng cách lớn
+VI	radius	bán kính
+VI	frustrating	gây bực bội
+VI	canvas	vải bạt; tranh sơn dầu
+VI	empress	nữ hoàng
+VI	dine	ăn tối
+VI	weaver	thợ dệt
+VI	feminine	nữ tính
+VI	vocal	lên tiếng mạnh mẽ; thuộc giọng nói
+VI	reactor	lò phản ứng
+VI	tong	cái kẹp
+VI	lime	chanh xanh; vôi
+VI	marker	bút dạ; vật đánh dấu
+VI	seizure	sự tịch thu; cơn co giật
+VI	verge	lề đường; bờ vực
+VI	plasma	huyết tương
+VI	crust	lớp vỏ
+VI	bundle	bó
+VI	mop	cây lau nhà
+VI	rue	hối tiếc
+VI	crank	tay quay
+VI	shady	có bóng râm; mờ ám
+VI	blackout	mất điện
+VI	beta	bản thử nghiệm (beta)
+VI	matrix	ma trận
+VI	dungeon	ngục tối
+VI	hash	dấu thăng (#)
+VI	dwell	cư ngụ; day dứt
+VI	squat	ngồi xổm
+VI	scrape	cạo
+VI	mechanics	cơ học; cơ chế
+VI	manifest	biểu hiện
+VI	sexuality	xu hướng tính dục
+VI	dairy	sản phẩm từ sữa
+VI	swap	trao đổi
+VI	ewe	cừu cái
+VI	trampoline	bạt nhún
+VI	concerto	bản hòa tấu
+VI	gypsy	người Di-gan
+VI	gig	buổi biểu diễn
+VI	orchard	vườn cây ăn quả
+VI	hypocrite	kẻ đạo đức giả
+VI	chisel	cái đục
+VI	abound	có nhiều
+VI	billiards	bi-a
+VI	psyche	tâm lý
+VI	unplug	rút phích cắm
+VI	heroine	nữ anh hùng; nữ chính
+VI	dismay	sự thất vọng, mất tinh thần
+VI	aquarium	bể cá, thủy cung
+VI	dislodge	đánh bật ra
+VI	gag	bịt miệng; trò đùa
+VI	troll	kẻ quấy rối trên mạng
+DROP	playboy	
+DROP	lynch	
+DROP	potion	
+DROP	cocky	

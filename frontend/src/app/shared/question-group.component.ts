@@ -23,6 +23,9 @@ const MATCHING = new Set(['MATCHING_HEADINGS', 'MATCHING_INFORMATION', 'MATCHING
   template: `
     <section class="q-group">
       <p class="q-instruction">{{ group().instruction }}</p>
+      @if (group().imageUrl) {
+        <img class="q-figure" [src]="group().imageUrl" alt="Hình minh hoạ cho nhóm câu hỏi" />
+      }
       @if (group().wordLimit) {
         <span class="badge badge-B1">Tối đa {{ group().wordLimit }} từ</span>
       }

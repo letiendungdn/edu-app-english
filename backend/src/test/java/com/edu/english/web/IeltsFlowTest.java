@@ -2,6 +2,7 @@ package com.edu.english.web;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.multipart;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.patch;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
@@ -95,6 +96,154 @@ class IeltsFlowTest {
     assertThat(result.path("correct").asInt()).isEqualTo(12);
     assertThat(result.path("total").asInt()).isEqualTo(13);
     assertThat(result.path("estimatedBand").isNull()).isFalse();
+  }
+
+  @Test
+  void wrongAnswersGoToMistakeNotebookUntilReviewed() throws Exception {
+    saveProfile(5.5, 6.5);
+    long passageId = findId(read(get("/api/reading")), "The Return of the Urban Beekeeper");
+    JsonNode detail = read(get("/api/reading/" + passageId));
+    List<String> given =
+        List.of("ii", "i", "v", "iv", "vi", "TRUE", "FALSE", "NOT GIVEN", "TRUE", "Ornamental", "stems", "pollinator corridors", "a keeper");
+    mvc.perform(
+            auth(post("/api/reading/" + passageId + "/submit"))
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(json.writeValueAsString(Map.of("answers", answersFor(detail, given)))))
+        .andExpect(status().isOk());
+
+    JsonNode mistakes = read(auth(get("/api/mistakes")));
+    assertThat(mistakes.size()).isEqualTo(1);
+    JsonNode m = mistakes.get(0);
+    assertThat(m.path("given").asText()).isEqualTo("a keeper");
+    assertThat(m.path("skill").asText()).isEqualTo("READING");
+    assertThat(m.path("link").asText()).isEqualTo("/reading/" + passageId);
+    assertThat(read(auth(get("/api/mistakes/count"))).path("open").asInt()).isEqualTo(1);
+    assertThat(read(auth(get("/api/mistakes?skill=LISTENING"))).size()).isZero();
+
+    JsonNode stats = read(auth(get("/api/mistakes/question-types")));
+    assertThat(stats.size()).isGreaterThan(1);
+    // Sắp tăng dần theo % đúng: dạng có câu sai đứng đầu.
+    assertThat(stats.get(0).path("percent").asInt()).isLessThan(100);
+
+    mvc.perform(auth(post("/api/mistakes/" + m.path("questionId").asLong() + "/reviewed"))).andExpect(status().isNoContent());
+    assertThat(read(auth(get("/api/mistakes"))).size()).isZero();
+  }
+
+  @Test
+  void mockTestIncludesSpeakingAndStillGivesOverallWithoutAi() throws Exception {
+    saveProfile(5.5, 6.5);
+    long testId = -1;
+    for (JsonNode t : read(auth(get("/api/tests")))) {
+      if (t.path("title").asText().equals("Thi thử Academic số 3")) testId = t.path("id").asLong();
+    }
+    assertThat(testId).isPositive();
+    JsonNode attempt = read(auth(post("/api/tests/" + testId + "/attempts")));
+    long attemptId = attempt.path("id").asLong();
+    List<JsonNode> speaking = new java.util.ArrayList<>();
+    for (JsonNode section : attempt.path("sections")) {
+      if (section.path("skill").asText().equals("SPEAKING")) speaking.add(section);
+    }
+    assertThat(speaking).hasSize(6);
+    assertThat(speaking.get(3).path("speaking").path("part").asInt()).isEqualTo(2);
+
+    // Không có AI: bài nói được lưu nhưng không chấm; bài thi vẫn ra band tổng.
+    long promptId = speaking.get(0).path("refId").asLong();
+    mvc.perform(
+            auth(multipart("/api/speaking/submissions"))
+                .param("promptId", String.valueOf(promptId))
+                .param("attemptId", String.valueOf(attemptId))
+                .param("transcript", "My hometown is a small city near the sea with friendly people")
+                .param("durationSec", "30"))
+        .andExpect(status().isAccepted())
+        .andExpect(jsonPath("$.status").value("FAILED"));
+    // Câu hỏi không thuộc đề thì bị từ chối.
+    long otherPrompt = read(get("/api/speaking/prompts")).get(0).path("id").asLong();
+    if (speaking.stream().noneMatch(sec -> sec.path("refId").asLong() == otherPrompt)) {
+      mvc.perform(
+              auth(multipart("/api/speaking/submissions"))
+                  .param("promptId", String.valueOf(otherPrompt))
+                  .param("attemptId", String.valueOf(attemptId))
+                  .param("transcript", "one two three four five six"))
+          .andExpect(status().isBadRequest());
+    }
+
+    Map<String, String> answers = new LinkedHashMap<>();
+    for (JsonNode section : attempt.path("sections")) {
+      for (JsonNode group : section.path("groups")) {
+        for (JsonNode q : group.path("questions")) answers.put(q.path("id").asText(), "A");
+      }
+    }
+    mvc.perform(
+            auth(post("/api/tests/attempts/" + attemptId + "/submit"))
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(json.writeValueAsString(Map.of("answers", answers))))
+        .andExpect(status().isOk());
+    JsonNode result = read(auth(get("/api/tests/attempts/" + attemptId + "/result")));
+    assertThat(result.path("speaking").size()).isEqualTo(1);
+    assertThat(result.path("bandOverall").isNull()).isFalse();
+
+    // Bài đã nộp thì không nhận bài nói nữa.
+    mvc.perform(
+            auth(multipart("/api/speaking/submissions"))
+                .param("promptId", String.valueOf(promptId))
+                .param("attemptId", String.valueOf(attemptId))
+                .param("transcript", "one two three four five six"))
+        .andExpect(status().isConflict());
+  }
+
+  @Test
+  void vocabularyHasIeltsTopicsFamiliesAndNoBlockedWords() throws Exception {
+    JsonNode topics = read(get("/api/vocab/topics"));
+    boolean hasEnvironment = false;
+    for (JsonNode t : topics) {
+      if (t.path("name").asText().equals("IELTS Environment") && t.path("count").asInt() > 30) hasEnvironment = true;
+    }
+    assertThat(hasEnvironment).isTrue();
+
+    JsonNode env = read(get("/api/vocab?topic=IELTS Environment&limit=100"));
+    assertThat(env.path("words").size()).isGreaterThan(30);
+    assertThat(env.path("words").findValuesAsText("word")).contains("reduce carbon emissions");
+
+    // Từ bị loại ở V7 không còn; từ AWL có họ từ.
+    JsonNode all = read(get("/api/vocab?limit=100&page=1&level=A2"));
+    assertThat(all.path("words").findValuesAsText("word")).doesNotContain("yeah", "bullshit");
+    boolean hasFamily = false;
+    for (int page = 1; page <= 20 && !hasFamily; page++) {
+      for (JsonNode w : read(get("/api/vocab?limit=100&level=B2&page=" + page)).path("words")) {
+        if (!w.path("family").isNull() && w.path("family").asText().contains("·")) hasFamily = true;
+      }
+    }
+    assertThat(hasFamily).isTrue();
+
+    long topicId = -1;
+    for (JsonNode t : read(get("/api/grammar"))) {
+      if (t.path("title").asText().equals("Countable and uncountable nouns")) topicId = t.path("id").asLong();
+    }
+    assertThat(topicId).isPositive();
+    JsonNode exercise = read(get("/api/grammar/" + topicId)).path("lessons").get(0).path("exercises").get(0);
+    assertThat(exercise.path("explanation").asText()).isNotBlank();
+  }
+
+  @Test
+  void writingPhrasesAreSeeded() throws Exception {
+    JsonNode phrases = read(get("/api/writing/phrases"));
+    assertThat(phrases.size()).isGreaterThan(50);
+    assertThat(phrases.get(0).path("task").asText()).isEqualTo("TASK1");
+  }
+
+  @Test
+  void blankPlacementDoesNotOverwriteBand() throws Exception {
+    saveProfile(5.5, 6.5);
+    long attemptId = read(auth(post("/api/tests/placement/attempts"))).path("id").asLong();
+    mvc.perform(auth(post("/api/tests/attempts/" + attemptId + "/submit")).contentType(MediaType.APPLICATION_JSON).content("{}"))
+        .andExpect(status().isOk());
+
+    JsonNode result = read(auth(get("/api/tests/attempts/" + attemptId + "/result")));
+    assertThat(result.path("listening").path("raw").asInt()).isZero();
+    assertThat(result.path("listening").path("band").isNull()).isTrue();
+    JsonNode profile = read(auth(get("/api/ielts/profile")));
+    assertThat(profile.path("currentBand").asDouble()).isEqualTo(5.5);
+    assertThat(profile.path("placementDone").asBoolean()).isFalse();
   }
 
   @Test

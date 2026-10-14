@@ -1,22 +1,82 @@
-<div style="min-height: 100vh; display: flex; flex-direction: column;">
-  <header class="site-header">
-    <div class="container row">
-      <a routerLink="/" style="font-weight: 800; color: var(--accent); text-decoration: none; margin-right: 0.5rem;">IELTS Path</a>
-      @for (item of nav; track item.href) {
-        <a class="nav-link" [routerLink]="item.href" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: item.exact }">{{ item.label }}</a>
+<div class="shell">
+  @if (menuOpen()) {
+    <button class="scrim" type="button" aria-label="Đóng menu" (click)="menuOpen.set(false)"></button>
+  }
+  <aside class="sidebar" [class.open]="menuOpen()">
+    <a class="brand" routerLink="/" (click)="menuOpen.set(false)">
+      <span class="brand-mark">IP</span>
+      <span>
+        <strong>IELTS Path</strong>
+        <small>Luyện thi theo lộ trình</small>
+      </span>
+    </a>
+
+    @if (examDays() !== null) {
+      <a class="exam-chip" routerLink="/roadmap" (click)="menuOpen.set(false)">
+        <span>Còn đến ngày thi</span>
+        <strong>{{ examDays() }} ngày</strong>
+        <span>Mục tiêu band {{ targetBand() }}</span>
+      </a>
+    }
+
+    <nav class="side-nav" aria-label="Điều hướng chính">
+      @for (group of nav; track group.label) {
+        <p class="nav-label">{{ group.label }}</p>
+        @for (item of group.items; track item.href) {
+          <a class="nav-link" [routerLink]="item.href" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: item.exact }" (click)="menuOpen.set(false)">
+            <app-icon [name]="item.icon" />
+            {{ item.label }}
+            @if (item.href === '/mistakes' && mistakeCount() > 0) {
+              <span class="nav-count" [attr.aria-label]="mistakeCount() + ' câu cần xem lại'">{{ mistakeCount() > 99 ? '99+' : mistakeCount() }}</span>
+            }
+          </a>
+        }
       }
-      <span style="margin-left: auto;"></span>
+    </nav>
+
+    <div class="sidebar-foot">
       @if (auth.loggedIn()) {
-        <span class="muted" style="font-size: 0.85rem;">{{ realtime.status() }}</span>
-        <span class="muted" style="font-size: 0.85rem;">{{ auth.user()?.name || auth.user()?.email }}</span>
-        <button class="btn" type="button" (click)="auth.logout()">Đăng xuất</button>
-      } @else {
-        <a class="btn btn-primary" routerLink="/login">Đăng nhập</a>
+        <div class="who">
+          <span class="avatar">{{ initial() }}</span>
+          <span>{{ auth.user()?.name || auth.user()?.email }}</span>
+        </div>
       }
+      <div class="foot-actions">
+        @if (auth.loggedIn()) {
+          <button class="btn btn-sm" type="button" (click)="auth.logout()">
+            <app-icon name="logout" /> Đăng xuất
+          </button>
+        } @else {
+          <a class="btn btn-sm btn-primary" routerLink="/login" (click)="menuOpen.set(false)">Đăng nhập</a>
+        }
+        <button class="btn btn-sm icon-btn" type="button" (click)="toggleTheme()" [attr.aria-label]="dark() ? 'Chuyển sang nền sáng' : 'Chuyển sang nền tối'">
+          <app-icon [name]="dark() ? 'sun' : 'moon'" />
+        </button>
+      </div>
     </div>
-  </header>
-  <main style="flex: 1;">
-    <router-outlet />
-  </main>
-  <footer class="site-footer">© {{ year }} IELTS Path · nội dung luyện thi tự biên soạn, không phải đề thi chính thức</footer>
+  </aside>
+
+  <div class="shell-main">
+    <header class="mobile-bar">
+      <a class="brand" routerLink="/">
+        <span class="brand-mark">IP</span>
+        <strong>IELTS Path</strong>
+      </a>
+      <button class="btn menu-btn" type="button" (click)="menuOpen.set(!menuOpen())" [attr.aria-expanded]="menuOpen()" aria-label="Mở menu">
+        <app-icon name="menu" />
+      </button>
+    </header>
+    <main>
+      <router-outlet />
+    </main>
+  </div>
+
+  <nav class="bottom-nav" aria-label="Điều hướng nhanh">
+    @for (item of bottomNav; track item.href) {
+      <a [routerLink]="item.href" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: item.exact }">
+        <app-icon [name]="item.icon" />
+        {{ item.label }}
+      </a>
+    }
+  </nav>
 </div>

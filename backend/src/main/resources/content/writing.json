@@ -1,64 +1,197 @@
 {
   "prompts": [
     {
-      "module": "ACADEMIC", "task": "TASK1", "taskKind": "LINE", "sortOrder": 1,
+      "module": "ACADEMIC",
+      "task": "TASK1",
+      "taskKind": "LINE",
+      "sortOrder": 1,
       "title": "Commuting time in three cities",
       "topic": "Transport",
       "minWords": 150,
       "prompt": "The line graph below shows the average time people spent commuting to work each day in three cities between 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
       "chartData": {
-        "type": "line", "unit": "minutes per day", "labels": ["2000", "2005", "2010", "2015", "2020"],
+        "type": "line",
+        "unit": "minutes per day",
+        "labels": [
+          "2000",
+          "2005",
+          "2010",
+          "2015",
+          "2020"
+        ],
         "series": [
-          { "name": "Northport", "values": [42, 48, 55, 61, 58] },
-          { "name": "Eastvale", "values": [35, 36, 38, 37, 36] },
-          { "name": "Southbay", "values": [60, 57, 50, 44, 40] }
+          {
+            "name": "Northport",
+            "values": [
+              42,
+              48,
+              55,
+              61,
+              58
+            ]
+          },
+          {
+            "name": "Eastvale",
+            "values": [
+              35,
+              36,
+              38,
+              37,
+              36
+            ]
+          },
+          {
+            "name": "Southbay",
+            "values": [
+              60,
+              57,
+              50,
+              44,
+              40
+            ]
+          }
         ]
-      }
+      },
+      "sampleAnswer": "The line graph compares the average daily commuting time in Northport, Eastvale and Southbay between 2000 and 2020.\n\nOverall, journeys became longer in Northport, stayed almost the same in Eastvale, and grew shorter in Southbay. By the end of the period, Northport had the longest commute, whereas Eastvale still had the shortest.\n\nIn 2000, commuters in Southbay spent 60 minutes travelling to work, the highest figure of the three cities. This fell steadily, reaching 40 minutes in 2020. Northport moved in the opposite direction. It rose from 42 minutes to a peak of 61 minutes in 2015, then edged down to 58 minutes. Eastvale remained close to 36 minutes throughout, with only a small rise to 38 minutes in 2010.\n\nAs a result, the gap between the cities narrowed. Southbay, which began as the slowest city to commute in, finished only a little above Eastvale. Northport's small fall after 2015 did not change its overall rise.",
+      "sampleBand": 6.5
     },
     {
-      "module": "ACADEMIC", "task": "TASK1", "taskKind": "BAR", "sortOrder": 2,
+      "module": "ACADEMIC",
+      "task": "TASK1",
+      "taskKind": "BAR",
+      "sortOrder": 2,
       "title": "Household recycling 2010 and 2020",
       "topic": "Environment",
       "minWords": 150,
       "prompt": "The bar chart below shows the percentage of households in one country that recycled five types of material in 2010 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
       "chartData": {
-        "type": "bar", "unit": "% of households", "labels": ["Paper", "Glass", "Plastic", "Metal cans", "Food waste"],
+        "type": "bar",
+        "unit": "% of households",
+        "labels": [
+          "Paper",
+          "Glass",
+          "Plastic",
+          "Metal cans",
+          "Food waste"
+        ],
         "series": [
-          { "name": "2010", "values": [64, 51, 22, 40, 8] },
-          { "name": "2020", "values": [78, 70, 55, 62, 41] }
+          {
+            "name": "2010",
+            "values": [
+              64,
+              51,
+              22,
+              40,
+              8
+            ]
+          },
+          {
+            "name": "2020",
+            "values": [
+              78,
+              70,
+              55,
+              62,
+              41
+            ]
+          }
         ]
-      }
+      },
+      "sampleAnswer": "The bar chart shows the percentage of households that recycled five materials in 2010 and 2020.\n\nOverall, recycling increased for every material. Paper was the most common item in both years, while food waste remained the least common, despite the sharpest rise.\n\nIn 2010, 64% of households recycled paper and 51% recycled glass. Plastic was much lower, at 22%, and food waste was only 8%. Metal cans stood at 40%. By 2020, paper had risen to 78% and glass to 70%. Plastic more than doubled, from 22% to 55%, and metal cans climbed to 62%. Food waste increased to 41%, which was still the lowest figure but a large change from a decade earlier.\n\nIn short, households recycled more of every material, and the biggest gains were in plastic and food waste. Paper and glass were already common in 2010, so their increases, though clear, were smaller than the rise in the materials people had rarely recycled before.",
+      "sampleBand": 6.5
     },
     {
-      "module": "ACADEMIC", "task": "TASK1", "taskKind": "PIE", "sortOrder": 3,
+      "module": "ACADEMIC",
+      "task": "TASK1",
+      "taskKind": "PIE",
+      "sortOrder": 3,
       "title": "Household energy use 1990 and 2020",
       "topic": "Energy",
       "minWords": 150,
       "prompt": "The pie charts below show how energy was used in an average household in one country in 1990 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
       "chartData": {
-        "type": "pie", "unit": "%", "labels": ["Heating", "Hot water", "Cooking", "Lighting", "Electronic devices"],
+        "type": "pie",
+        "unit": "%",
+        "labels": [
+          "Heating",
+          "Hot water",
+          "Cooking",
+          "Lighting",
+          "Electronic devices"
+        ],
         "series": [
-          { "name": "1990", "values": [52, 22, 12, 9, 5] },
-          { "name": "2020", "values": [41, 18, 9, 4, 28] }
+          {
+            "name": "1990",
+            "values": [
+              52,
+              22,
+              12,
+              9,
+              5
+            ]
+          },
+          {
+            "name": "2020",
+            "values": [
+              41,
+              18,
+              9,
+              4,
+              28
+            ]
+          }
         ]
-      }
+      },
+      "sampleAnswer": "The pie charts compare how an average household used energy in 1990 and 2020.\n\nOverall, heating remained the largest use, but its share fell. Electronic devices grew from the smallest category to the second largest.\n\nIn 1990, heating accounted for 52% of household energy, and hot water for 22%. Cooking and lighting made up 12% and 9%, while electronic devices used only 5%. In 2020, heating was still the biggest share, at 41%, and hot water had fallen to 18%. Cooking dropped to 9% and lighting to 4%. By contrast, electronic devices rose to 28%.\n\nTherefore, a smaller proportion of energy went on heating, lighting and cooking, and a much larger proportion went on electronic devices. Heating was still the main use in both years, but the household of 2020 used a far greater share of its energy on screens and other equipment than the household of 1990.\n\nA clear answer also names the biggest change and the smallest change, then says what those figures mean.",
+      "sampleBand": 6.5
     },
     {
-      "module": "ACADEMIC", "task": "TASK1", "taskKind": "TABLE", "sortOrder": 4,
+      "module": "ACADEMIC",
+      "task": "TASK1",
+      "taskKind": "TABLE",
+      "sortOrder": 4,
       "title": "Visitors to four museums",
       "topic": "Culture",
       "minWords": 150,
       "prompt": "The table below shows the number of visitors (in thousands) to four museums in one city in 2015 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
       "chartData": {
-        "type": "table", "unit": "thousands of visitors", "labels": ["Science Museum", "Art Gallery", "History Museum", "Children's Museum"],
+        "type": "table",
+        "unit": "thousands of visitors",
+        "labels": [
+          "Science Museum",
+          "Art Gallery",
+          "History Museum",
+          "Children's Museum"
+        ],
         "series": [
-          { "name": "2015", "values": [820, 640, 410, 150] },
-          { "name": "2020", "values": [610, 700, 395, 290] }
+          {
+            "name": "2015",
+            "values": [
+              820,
+              640,
+              410,
+              150
+            ]
+          },
+          {
+            "name": "2020",
+            "values": [
+              610,
+              700,
+              395,
+              290
+            ]
+          }
         ]
-      }
+      },
+      "sampleAnswer": "The table shows visitor numbers, in thousands, for four museums in one city in 2015 and 2020.\n\nOverall, the Science Museum remained the most visited, although its numbers fell. The Children's Museum grew the most, while the History Museum changed very little.\n\nIn 2015, the Science Museum received 820,000 visitors, far more than the Art Gallery (640,000) and the History Museum (410,000). The Children's Museum had only 150,000 visitors. By 2020, the Science Museum had declined to 610,000, so it was no longer far ahead of the Art Gallery, which rose to 700,000. The History Museum slipped slightly to 395,000. The Children's Museum almost doubled, reaching 290,000.\n\nThus the Art Gallery overtook the Science Museum, and the Children's Museum closed much of the gap with the History Museum. Even after its fall, the Science Museum still attracted more than twice as many visitors as the Children's Museum.",
+      "sampleBand": 6.5
     },
     {
-      "module": "ACADEMIC", "task": "TASK1", "taskKind": "PROCESS", "sortOrder": 5,
+      "module": "ACADEMIC",
+      "task": "TASK1",
+      "taskKind": "PROCESS",
+      "sortOrder": 5,
       "title": "Rainwater collection at a school",
       "topic": "Environment",
       "minWords": 150,
@@ -73,75 +206,212 @@
           "A pump lifts the water to a smaller tank",
           "Water is used to flush toilets and water the garden"
         ]
-      }
+      },
+      "sampleAnswer": "The diagram shows how a school collects rainwater and then uses it.\n\nOverall, rain is taken from the roof, cleaned and stored, and later pumped up for two everyday uses: flushing toilets and watering the garden.\n\nFirst, rain falls on the school roof and flows through the gutters into a pipe. It then passes through a filter, which removes leaves and dirt. After that, the water is stored in an underground tank. When it is needed, a pump lifts it to a smaller tank. From there, the water is used to flush the toilets and to water the garden.\n\nThe process is therefore a simple cycle from the roof to storage underground and back up to the school buildings and grounds. The filter and the two tanks sit between the collection on the roof and the final uses, so the water is cleaned and held before it is needed.\n\nA clear answer also names the biggest change and the smallest change, then says what those figures mean.",
+      "sampleBand": 6.5
     },
     {
-      "module": "ACADEMIC", "task": "TASK1", "taskKind": "MAP", "sortOrder": 6,
+      "module": "ACADEMIC",
+      "task": "TASK1",
+      "taskKind": "MAP",
+      "sortOrder": 6,
       "title": "Changes to Fernley village",
       "topic": "Town planning",
       "minWords": 150,
       "prompt": "The plans below show the village of Fernley in 1995 and today.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
       "chartData": {
         "type": "map",
-        "before": ["Farmland to the north of the main road", "A small primary school in the centre", "A post office next to the church", "A narrow bridge over the river", "Woodland to the east"],
-        "after": ["A housing estate on the former farmland", "The school extended with a sports field", "A café in place of the post office", "A wider bridge with a cycle lane", "Woodland kept, with a new car park beside it"]
-      }
+        "before": [
+          "Farmland to the north of the main road",
+          "A small primary school in the centre",
+          "A post office next to the church",
+          "A narrow bridge over the river",
+          "Woodland to the east"
+        ],
+        "after": [
+          "A housing estate on the former farmland",
+          "The school extended with a sports field",
+          "A café in place of the post office",
+          "A wider bridge with a cycle lane",
+          "Woodland kept, with a new car park beside it"
+        ]
+      },
+      "sampleAnswer": "The plans compare Fernley village in 1995 with the village today.\n\nOverall, the village has become more built-up. Farmland has been replaced by housing, the school is larger, and the river crossing has been improved, while the woodland to the east has been kept.\n\nIn 1995, there was farmland to the north of the main road, a small primary school in the centre, and a post office next to the church. A narrow bridge crossed the river, and woodland lay to the east. Today, a housing estate stands on the former farmland. The school has been extended and now has a sports field. The post office has become a café. The bridge is wider and includes a cycle lane. The woodland remains, but a car park has been added beside it.\n\nIn summary, Fernley has gained homes, leisure space and easier travel, and it has lost farmland and the old post office.",
+      "sampleBand": 6.5
     },
     {
-      "module": "GENERAL", "task": "TASK1", "taskKind": "LETTER", "sortOrder": 7,
+      "module": "GENERAL",
+      "task": "TASK1",
+      "taskKind": "LETTER",
+      "sortOrder": 7,
       "title": "Letter to a neighbour about noise",
       "topic": "Community",
       "minWords": 150,
-      "prompt": "Your neighbour has recently started doing building work on their house, and the noise is causing you problems.\n\nWrite a letter to your neighbour. In your letter\n- explain how the noise is affecting you\n- suggest a solution\n- say how you would like to stay in contact\n\nBegin your letter as follows: Dear ...,"
+      "prompt": "Your neighbour has recently started doing building work on their house, and the noise is causing you problems.\n\nWrite a letter to your neighbour. In your letter\n- explain how the noise is affecting you\n- suggest a solution\n- say how you would like to stay in contact\n\nBegin your letter as follows: Dear ...,",
+      "sampleAnswer": "Dear Mr Hale,\n\nI am writing about the building work at your house, which has been going on since last Monday. The noise starts before seven in the morning and often continues until early evening. I work from home, and it has become very difficult to join online meetings or to concentrate. My daughter is also revising for her exams, and she cannot study in her room while the drilling is so loud.\n\nI understand that the work has to be done, and I do not want to cause trouble. Would it be possible to start a little later, perhaps at eight, and to avoid the noisiest jobs after six? If you know which days will be particularly loud, a short message the evening before would help us plan around them.\n\nPlease feel free to knock or to call me on 0903 441 228. I would like us to stay on good terms while the work continues.\n\nKind regards,\nLan Pham",
+      "sampleBand": 6.5
     },
     {
-      "module": "GENERAL", "task": "TASK1", "taskKind": "LETTER", "sortOrder": 8,
+      "module": "GENERAL",
+      "task": "TASK1",
+      "taskKind": "LETTER",
+      "sortOrder": 8,
       "title": "Letter to a manager about a course",
       "topic": "Work",
       "minWords": 150,
-      "prompt": "You would like to attend a training course that is related to your job.\n\nWrite a letter to your manager. In your letter\n- describe the course\n- explain how it would help you in your work\n- say how your work could be covered while you are away\n\nBegin your letter as follows: Dear ...,"
+      "prompt": "You would like to attend a training course that is related to your job.\n\nWrite a letter to your manager. In your letter\n- describe the course\n- explain how it would help you in your work\n- say how your work could be covered while you are away\n\nBegin your letter as follows: Dear ...,",
+      "sampleAnswer": "Dear Ms Nguyen,\n\nI am writing to ask for permission to attend a two-day course on writing clearer reports, which will be held at the city training centre on 12 and 13 November. The fee is 2,000,000 VND, and the sessions run from 8.30 a.m. to 4.30 p.m.\n\nThe course would help me in my current work. I prepare weekly reports for the sales team, and the trainer focuses on structure, charts and plain language. I think this would make our reports shorter and easier for clients to follow.\n\nWhile I am away, Minh can cover urgent emails, and I will finish the October figures before I leave. I can also check messages at lunchtime if something cannot wait.\n\nI would be grateful if you could let me know whether the company can support this course. I am happy to discuss the dates if November is a busy period for the team.\n\nYours sincerely,\nTran Bao",
+      "sampleBand": 6.5
     },
     {
-      "module": "BOTH", "task": "TASK2", "taskKind": "OPINION", "sortOrder": 1,
+      "module": "BOTH",
+      "task": "TASK2",
+      "taskKind": "OPINION",
+      "sortOrder": 1,
       "title": "University education should be free",
       "topic": "Education",
       "minWords": 250,
-      "prompt": "Some people believe that university education should be free for all students, paid for by the government.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+      "prompt": "Some people believe that university education should be free for all students, paid for by the government.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "sampleAnswer": "Some people argue that governments should pay the full cost of university so that every student can attend. I partly agree. Higher education should be much cheaper than it is in many countries, but making every course free for everyone may not be the best use of public money.\n\nThere are strong reasons to reduce fees. When university is expensive, talented students from low-income families often choose work instead of study. A country then loses doctors, engineers and teachers it could have trained. Fees also push graduates into debt, which can delay starting a family or a business. If the state covers most of the cost, access depends more on ability than on parents' income.\n\nHowever, a completely free system has limits. Universities are costly to run, and governments already fund schools and hospitals. If every course is free, some students may enrol without a clear plan and then drop out. It is also hard to explain why a taxpayer who did not attend university should pay the full cost of every degree, including those with weak links to public need.\n\nA fairer approach is to keep fees low, offer grants to students who cannot pay, and charge more only for courses that lead to very high salaries. Loans that are repaid only after a graduate earns a decent wage would also protect those who do not find well-paid work. In this way, university stays open to able students without placing an unlimited bill on the public.\n\nA clear answer also names the biggest change and the smallest change, then says what those figures mean.",
+      "sampleBand": 6.5
     },
     {
-      "module": "BOTH", "task": "TASK2", "taskKind": "DISCUSSION", "sortOrder": 2,
+      "module": "BOTH",
+      "task": "TASK2",
+      "taskKind": "DISCUSSION",
+      "sortOrder": 2,
       "title": "Working from home",
       "topic": "Work",
       "minWords": 250,
-      "prompt": "Some people think that working from home is better for employees, while others believe that people work more effectively in an office.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+      "prompt": "Some people think that working from home is better for employees, while others believe that people work more effectively in an office.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "sampleAnswer": "Working from home has become normal in many jobs, but people disagree about whether it is better than an office. Both arrangements have real advantages, and the better choice depends on the work and the person.\n\nThose who prefer home working point to time and focus. Employees skip the commute, which in a large city can take more than an hour each way. They can also arrange the day around a school run or a medical appointment. For tasks such as writing or analysing data, a quiet room at home may be more productive than an open-plan office.\n\nOthers argue that offices still matter. Colleagues solve problems faster when they can talk at a desk instead of booking a call. New staff learn by watching experienced people, which is difficult on a screen. Some employees also feel lonely at home, and the line between work and rest becomes unclear if the laptop stays in the kitchen.\n\nIn my view, a mixed week is the most effective pattern for office jobs. Two or three days at home suit concentrated work, while the remaining days in the office protect teamwork and training. Managers should judge staff by the work they finish, not by the hours they are visible at a desk. Jobs that need equipment or face-to-face service should stay on site, because a video call cannot replace a workshop or a customer standing at a counter.\n\nA clear answer also names the biggest change and the smallest change, then says what those figures mean.",
+      "sampleBand": 6.5
     },
     {
-      "module": "BOTH", "task": "TASK2", "taskKind": "PROBLEM_SOLUTION", "sortOrder": 3,
+      "module": "BOTH",
+      "task": "TASK2",
+      "taskKind": "PROBLEM_SOLUTION",
+      "sortOrder": 3,
       "title": "Traffic congestion in cities",
       "topic": "Transport",
       "minWords": 250,
-      "prompt": "Traffic congestion is becoming a serious problem in many large cities.\n\nWhat are the causes of this problem, and what measures could be taken to reduce it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+      "prompt": "Traffic congestion is becoming a serious problem in many large cities.\n\nWhat are the causes of this problem, and what measures could be taken to reduce it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "sampleAnswer": "Traffic jams are now a daily problem in many large cities. They waste time, damage health and make buses unreliable. The causes are well known, and several practical measures can reduce them.\n\nThe main cause is the growth in private cars. As incomes rise, more households buy a car, and many people drive alone to work. At the same time, cities have spread outwards, so homes, schools and offices are further apart. Public transport has not always kept up: if buses are slow or crowded, drivers see little reason to leave the car. Cheap city-centre parking makes the problem worse.\n\nCities can respond in stages. First, bus lanes and more frequent services make public transport faster than driving at peak hour. Second, a charge for entering the centre, as in Singapore or London, pushes some journeys onto trains and buses. Third, safer cycle lanes and better pavements help short trips. Employers can also spread start times so that everyone does not arrive at eight.\n\nNone of these steps removes congestion completely, but together they can cut the worst delays. Building more roads alone often fills up again within a few years, so it should not be the only response. The aim should be a city where driving is possible, but not the easiest choice for every trip.\n\nA clear answer also names the biggest change and the smallest change, then says what those figures mean.\n\nLinking phrases such as by contrast, meanwhile and as a result keep the description easy to follow.",
+      "sampleBand": 6.5
     },
     {
-      "module": "BOTH", "task": "TASK2", "taskKind": "ADVANTAGE_DISADVANTAGE", "sortOrder": 4,
+      "module": "BOTH",
+      "task": "TASK2",
+      "taskKind": "ADVANTAGE_DISADVANTAGE",
+      "sortOrder": 4,
       "title": "Children using smartphones",
       "topic": "Technology",
       "minWords": 250,
-      "prompt": "Nowadays, many children have their own smartphones from a young age.\n\nDo the advantages of this outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+      "prompt": "Nowadays, many children have their own smartphones from a young age.\n\nDo the advantages of this outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "sampleAnswer": "Many children now own a smartphone before they leave primary school. This brings useful tools, but the harm to sleep, attention and safety is serious enough that the disadvantages are greater if use is unlimited.\n\nSmartphones do help children. They can call a parent if they are late, use a map, and look up a word or a homework task. Messaging also lets them stay in touch with relatives who live far away. In a classroom, a phone can be a dictionary or a recorder when a teacher plans that use.\n\nThe drawbacks are harder to manage. Many children sleep with the phone beside the bed and stay online late, so they arrive at school tired. Short videos train them to switch task every few seconds, which makes long reading difficult. There is also a social cost: group chats can exclude a child or spread an unkind photo very quickly. Parents often discover the problem only after it has grown.\n\nLimits work better than a total ban. A shared charging spot outside the bedroom, no phones at meals, and a later age for a personal smartphone would keep the benefits while reducing the damage. Schools can teach children how to leave a group chat and how to check whether a story is true. On balance, unrestricted use by young children does more harm than good, even though a phone is a useful tool when an adult sets the rules.\n\nA clear answer also names the biggest change and the smallest change, then says what those figures mean.",
+      "sampleBand": 6.5
     },
     {
-      "module": "BOTH", "task": "TASK2", "taskKind": "TWO_PART", "sortOrder": 5,
+      "module": "BOTH",
+      "task": "TASK2",
+      "taskKind": "TWO_PART",
+      "sortOrder": 5,
       "title": "Living alone",
       "topic": "Society",
       "minWords": 250,
-      "prompt": "In many countries, more and more people are choosing to live alone.\n\nWhy is this happening? Is it a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+      "prompt": "In many countries, more and more people are choosing to live alone.\n\nWhy is this happening? Is it a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "sampleAnswer": "In many countries, a growing number of adults live alone. This is happening for several social and economic reasons, and it is a mixed development rather than a purely positive or negative one.\n\nPeople live alone partly because they marry later, or not at all. More women earn their own income, so sharing a home is a choice rather than a necessity. Cities also offer small flats, and young workers move away from their parents for study or jobs. Longer lives play a role too: many older people, especially widows and widowers, remain in their own homes instead of moving in with children.\n\nLiving alone can be positive. It gives privacy, and it lets a person cook, sleep and spend money as they wish. For some, it is a step towards independence. However, it can also mean loneliness, particularly for older people who rarely go out. A single person also faces the full rent and has no one at home if they fall ill. In expensive cities, one-person households use more housing than a city can easily supply.\n\nOverall, the freedom is valuable, but societies need shared housing, clubs and care services so that living alone does not turn into living in isolation. Cities that only build studios will keep raising rents. A mix of flat sizes, and places where neighbours actually meet, would make the choice to live alone safer and less lonely.\n\nA clear answer also names the biggest change and the smallest change, then says what those figures mean.",
+      "sampleBand": 6.5
     },
     {
-      "module": "BOTH", "task": "TASK2", "taskKind": "OPINION", "sortOrder": 6,
+      "module": "BOTH",
+      "task": "TASK2",
+      "taskKind": "OPINION",
+      "sortOrder": 6,
       "title": "Tourism and local culture",
       "topic": "Tourism",
       "minWords": 250,
-      "prompt": "International tourism brings more problems than benefits to local communities.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience."
+      "prompt": "International tourism brings more problems than benefits to local communities.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "sampleAnswer": "International tourism is often blamed for damaging local life. It does create real problems, but I disagree that those problems are greater than the benefits in every place. The result depends on how a town manages visitors.\n\nTourists bring money that many communities cannot replace. Hotels, restaurants, guides and craft shops employ local people, and ticket sales can pay for the repair of temples, museums and old streets. Visitors may also become interested in a local language or festival, which gives residents a reason to keep traditions that might otherwise fade.\n\nThe problems are equally clear. In some old towns, rents rise because flats become short-term lets, and local people move out. Crowds wear down paths and beaches, and shops sell the same souvenirs instead of everyday goods. A festival can turn into a show for cameras rather than a ceremony for the community. When this happens, residents understandably feel that their home has been taken over.\n\nThe answer is not to stop travel, but to limit it. Caps on daily visitors, rules on short-term rentals, and spending on local services can keep the income while protecting daily life. Money from tickets should stay in the town, for schools and street cleaning, rather than leave with outside hotel chains. Tourism then remains a benefit rather than a burden.\n\nA clear answer also names the biggest change and the smallest change, then says what those figures mean.\n\nLinking phrases such as by contrast, meanwhile and as a result keep the description easy to follow.",
+      "sampleBand": 6.5
+    },
+    {
+      "module": "ACADEMIC",
+      "task": "TASK1",
+      "taskKind": "BAR",
+      "sortOrder": 20,
+      "title": "Library loans in 2015 and 2024",
+      "topic": "Education",
+      "minWords": 150,
+      "prompt": "The bar chart below shows the number of books borrowed from four public libraries in 2015 and 2024.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "chartData": {
+        "type": "bar",
+        "unit": "thousands of loans",
+        "labels": [
+          "Central",
+          "West",
+          "East",
+          "North"
+        ],
+        "series": [
+          {
+            "name": "2015",
+            "values": [
+              120,
+              40,
+              55,
+              30
+            ]
+          },
+          {
+            "name": "2024",
+            "values": [
+              90,
+              85,
+              60,
+              70
+            ]
+          }
+        ]
+      },
+      "sampleAnswer": "The bar chart compares the number of books borrowed from four public libraries in 2015 and 2024, measured in thousands of loans.\nOverall, borrowing fell sharply at the Central Library, while the three smaller libraries all lent more books. By 2024, West Library had almost caught Central, which was no longer far ahead of the others.\nIn 2015, Central recorded 120,000 loans, more than twice the figure for East and four times the figure for North. West was the least used library, at 40,000 loans. East stood at 55,000.\nBy 2024 the pattern had changed. Central's loans dropped to 90,000, a fall of 30,000. West more than doubled, rising to 85,000, and North climbed from 30,000 to 70,000. East increased only slightly, from 55,000 to 60,000, and finished as the quietest of the four.\nThe gap between the busiest and the quietest library therefore narrowed. Central remained first, but its lead over West was only 5,000 loans, compared with 80,000 nine years earlier.",
+      "sampleBand": 6.5
+    },
+    {
+      "module": "BOTH",
+      "task": "TASK2",
+      "taskKind": "OPINION",
+      "sortOrder": 21,
+      "title": "Free public transport in cities",
+      "topic": "Transport",
+      "minWords": 250,
+      "prompt": "Some people believe that public transport in cities should be free for everyone. To what extent do you agree or disagree?",
+      "sampleAnswer": "Some people argue that city buses and trains should be free for everyone. I partly agree. Free local transport would cut traffic and help people on low incomes, but only if the service is frequent and the city can pay for it without starving other public needs.\nThe strongest argument is practical. When fares disappear, some drivers leave their cars at home. Fewer cars mean less congestion and cleaner air in the streets where people live. A second benefit is fairness. A nurse on a night shift and a student with a long commute both depend on the network. If the ticket price is a real part of their weekly budget, a free pass is not a luxury. It is the difference between taking the job and turning it down.\nThere are serious objections. A free system still costs money for drivers, fuel, tracks and repairs. If that money is taken from schools or hospitals, the city has not become fairer. It has only moved the bill. Free travel can also become crowded travel. If buses are already full at eight in the morning, removing the fare will not create more seats. Cities that have tried free fares have usually had to buy more vehicles at the same time, which is the expensive part of the policy.\nA better version is targeted rather than universal. Off-peak travel could be free, and people on low incomes could receive a pass, while peak-hour tickets stay cheap but not zero. The income from those tickets would keep the frequent services that make people willing to leave the car. In short, free transport is a good idea when it is funded honestly and matched with enough buses. Without that, it is a promise the timetable cannot keep.",
+      "sampleBand": 6.5
+    },
+    {
+      "module": "GENERAL",
+      "task": "TASK1",
+      "taskKind": "LETTER",
+      "sortOrder": 30,
+      "title": "Letter about a broken heater",
+      "topic": "Home",
+      "minWords": 150,
+      "prompt": "The heater in your rented flat has stopped working.\n\nWrite a letter to your landlord. In your letter\n- describe the problem\n- explain how it is affecting you\n- say what you would like the landlord to do\n\nBegin your letter as follows: Dear ...,",
+      "sampleAnswer": "Dear Mr Cole,\n\nI am writing about the heater in my flat at 14 River Street. It stopped working on Monday evening, and the bedroom has been very cold since then. I have a young son who has had a cough this week, and it is difficult for him to sleep in that room.\n\nCould you send someone to look at the heater this week? I am at home after 5.30 p.m. on weekdays, and I can also be there on Saturday morning. If the heater cannot be repaired quickly, a small electric heater for a few days would help.\n\nPlease call me on 0912 448 330 or reply to this letter. I would like the problem fixed before the weekend if possible. I can meet the repair person at the flat, and I will move the furniture away from the heater so the work can be done quickly. Thank you for your help with this.\n\nYours sincerely,\nMai Tran",
+      "sampleBand": 6.5
+    },
+    {
+      "module": "BOTH",
+      "task": "TASK2",
+      "taskKind": "OPINION",
+      "sortOrder": 31,
+      "title": "Growing food in the city",
+      "topic": "Environment",
+      "minWords": 250,
+      "prompt": "Some people think that everyone who lives in a city should grow some of their own food. To what extent do you agree or disagree?",
+      "sampleAnswer": "Some people believe that families in cities should grow at least some of their own food. I agree that a small amount of home growing is useful, but it cannot replace farms, and it only works when people have time, space and clean soil.\n\nGrowing a few herbs or salad leaves has clear benefits. The food is fresh, and children learn where a tomato comes from. A balcony box also uses a little water and almost no packaging. For a household that buys herbs in plastic every week, this is a real saving. There is a social benefit too. Shared gardens give neighbours a reason to cooperate, and the community garden near our health centre already shows that twenty families can share a small piece of land.\n\nThe limits are just as important. A flat without a balcony cannot produce rice, meat or cooking oil. Soil in some city yards is poor or polluted, so vegetables grown there may not be safe. Time is another barrier. A nurse on night shifts cannot look after plants every day, and a failed crop is not a lesson if the family needed that food.\n\nCities should therefore make growing easy rather than compulsory. Roof beds, safe soil tests and short evening classes would help people who want to try. Households without space should not be blamed for buying food. In short, growing a little of what you eat is a good habit. Treating it as a duty for every city family ignores how people actually live.",
+      "sampleBand": 6.5
     }
   ]
 }

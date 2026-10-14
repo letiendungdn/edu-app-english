@@ -4,13 +4,14 @@ import { ApiService } from '../core/api.service';
 import { AttemptView, SectionView, SKILL_LABELS } from '../core/ielts.models';
 import { ChartComponent } from '../shared/chart.component';
 import { QuestionGroupComponent } from '../shared/question-group.component';
+import { SpeakingRecorderComponent } from '../shared/speaking-recorder.component';
 import { TtsPlayerComponent } from '../shared/tts-player.component';
 
 const AUTOSAVE_MS = 30_000;
 
 @Component({
   selector: 'app-test-player',
-  imports: [QuestionGroupComponent, TtsPlayerComponent, ChartComponent],
+  imports: [QuestionGroupComponent, TtsPlayerComponent, ChartComponent, SpeakingRecorderComponent],
   template: `
     @if (attempt(); as a) {
       <div class="test-bar">
@@ -34,7 +35,7 @@ const AUTOSAVE_MS = 30_000;
 
       @if (section(); as s) {
         <div class="container page">
-          <h2 style="margin-bottom: 0.75rem;">{{ label(s) }}: {{ s.title }}</h2>
+          <h2 style="margin-bottom: 0.75rem;">{{ s.skill === 'SPEAKING' ? s.title : label(s) + ': ' + s.title }}</h2>
           @switch (s.skill) {
             @case ('LISTENING') {
               <app-tts-player [script]="s.ttsScript" [audioUrl]="s.audioUrl" />
@@ -72,6 +73,30 @@ const AUTOSAVE_MS = 30_000;
                 </div>
               }
             }
+            @case ('SPEAKING') {
+              @if (s.speaking; as p) {
+                <div class="card cue-card">
+                  <span class="badge badge-C1">Part {{ p.part }}</span> <span class="badge badge-B1">{{ p.topic }}</span>
+                  <h2 style="margin-top: 0.5rem;">{{ p.question }}</h2>
+                  @if (p.cueCardPoints.length) {
+                    <p class="muted" style="margin-top: 0.5rem;">You should say:</p>
+                    <ul>@for (point of p.cueCardPoints; track $index) { <li>{{ point }}</li> }</ul>
+                  }
+                </div>
+                @if (spoken().has(p.id)) {
+                  <div class="card" style="margin-top: 0.75rem; background: var(--success-soft); border-color: transparent;">
+                    ✓ Đã lưu câu trả lời cho câu này. Nói lại thì lần mới sẽ được chấm.
+                  </div>
+                }
+                <p class="muted small" style="margin-top: 0.75rem;">
+                  Như phòng thi thật: nói xong câu nào lưu câu đó, có thể nói lại (lần lưu cuối được chấm). Câu bỏ trống thì band Speaking lấy từ bài luyện gần nhất.
+                </p>
+                <!-- Mỗi câu hỏi một bộ ghi âm riêng: chuyển câu thì bộ cũ bị huỷ, không lẫn bản ghi. -->
+                @for (one of [p]; track one.id) {
+                  <app-speaking-recorder [prompt]="one" [attemptId]="a.id" (submitted)="markSpoken(one.id)" />
+                }
+              }
+            }
           }
           <div class="row" style="justify-content: space-between; margin-top: 1.5rem;">
             <button class="btn" (click)="go(index() - 1)" [disabled]="index() === 0">← Phần trước</button>
@@ -103,6 +128,8 @@ export class TestPlayerComponent implements OnInit, OnDestroy {
   lastSaved = signal<Date | null>(null);
   submitting = signal(false);
   error = signal('');
+  /** Câu Speaking đã lưu trong phiên này, để hiện tiến độ trên tab. */
+  spoken = signal<Set<number>>(new Set());
   private timers: number[] = [];
 
   section = computed<SectionView | null>(() => this.attempt()?.sections[this.index()] ?? null);
@@ -132,6 +159,7 @@ export class TestPlayerComponent implements OnInit, OnDestroy {
         this.attempt.set(a);
         this.answers.set(a.answers ?? {});
         this.drafts.set(a.writingDrafts ?? {});
+        this.spoken.set(new Set(a.spokenPromptIds ?? []));
         this.tick();
         this.timers.push(window.setInterval(() => this.tick(), 1000));
         this.timers.push(window.setInterval(() => this.save(), AUTOSAVE_MS));
@@ -186,11 +214,33 @@ export class TestPlayerComponent implements OnInit, OnDestroy {
   }
 
   label(s: SectionView) {
+    if (s.skill === 'SPEAKING' && s.speaking) return `Speaking P${s.speaking.part}`;
     return SKILL_LABELS[s.skill] ?? s.skill;
+  }
+
+  /** Nhắc số câu còn bỏ trống trước khi nộp: nộp nhầm bài trắng sẽ ra band 0 và kéo lệch lộ trình. */
+  private submitWarning() {
+    const sections = this.attempt()?.sections ?? [];
+    const ids = sections.flatMap((s) => s.groups.flatMap((g) => g.questions.map((q) => String(q.id))));
+    const blank = ids.filter((id) => !(this.answers()[id] ?? '').trim()).length;
+    const essays = sections.filter((s) => s.writing && this.words(s.writing.id) === 0).length;
+    const silent = sections.filter((s) => s.speaking && !this.spoken().has(s.speaking.id)).length;
+    const left = [
+      blank ? `${blank} câu chưa trả lời` : '',
+      essays ? `${essays} bài Writing chưa viết` : '',
+      silent ? `${silent} câu Speaking chưa nói` : '',
+    ].filter(Boolean);
+    const intro = left.length ? `Còn ${left.join(', ')}. ` : '';
+    return `${intro}Nộp bài? Sau khi nộp không sửa được câu trả lời.`;
+  }
+
+  markSpoken(promptId: number) {
+    this.spoken.update((set) => new Set(set).add(promptId));
   }
 
   progress(s: SectionView) {
     if (s.skill === 'WRITING' && s.writing) return `${this.words(s.writing.id)} từ`;
+    if (s.skill === 'SPEAKING') return this.spoken().has(s.refId) ? '✓' : '';
     const ids = s.groups.flatMap((g) => g.questions.map((q) => String(q.id)));
     const done = ids.filter((id) => (this.answers()[id] ?? '').trim()).length;
     return `${done}/${ids.length}`;
@@ -217,7 +267,7 @@ export class TestPlayerComponent implements OnInit, OnDestroy {
   submit(auto: boolean) {
     const a = this.attempt();
     if (!a || this.submitting()) return;
-    if (!auto && !confirm('Nộp bài? Sau khi nộp không sửa được câu trả lời.')) return;
+    if (!auto && !confirm(this.submitWarning())) return;
     this.submitting.set(true);
     this.api.submitAttempt(a.id, this.answers(), this.drafts()).subscribe({
       next: () => void this.router.navigate(['/tests/attempt', a.id, 'result'], { replaceUrl: true }),

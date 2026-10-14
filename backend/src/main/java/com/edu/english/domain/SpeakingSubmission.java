@@ -28,6 +28,9 @@ public class SpeakingSubmission {
   @Column(nullable = false)
   private Long promptId;
 
+  /** Lượt thi thử chứa bài nói này. NULL với bài luyện lẻ. */
+  private Long attemptId;
+
   /** Đường dẫn tương đối trong app.storage.dir. */
   private String audioPath;
 

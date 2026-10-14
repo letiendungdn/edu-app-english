@@ -1,0 +1,461 @@
+EX	name	What's your name?	Bạn tên là gì?
+EX	age	She started school at the age of six.	Cô ấy bắt đầu đi học lúc sáu tuổi.
+EX	face	Wash your face before breakfast.	Hãy rửa mặt trước khi ăn sáng.
+EX	yellow	She is wearing a yellow dress.	Cô ấy đang mặc một chiếc váy màu vàng.
+EX	eleven	There are eleven players in a football team.	Một đội bóng đá có mười một cầu thủ.
+EX	forty	My father is forty years old.	Bố tôi bốn mươi tuổi.
+EX	o'clock	The class starts at eight o'clock.	Lớp học bắt đầu lúc tám giờ.
+EX	address	Please write your address on the form.	Vui lòng ghi địa chỉ của bạn vào mẫu đơn.
+EX	toilet	Excuse me, where is the toilet?	Xin lỗi, nhà vệ sinh ở đâu ạ?
+EX	question	Can I ask you a question?	Tôi có thể hỏi bạn một câu được không?
+EX	police	Someone called the police after the accident.	Có người đã gọi cảnh sát sau vụ tai nạn.
+EX	tall	My brother is very tall.	Anh trai tôi rất cao.
+EX	young	My grandmother was a teacher when she was young.	Bà tôi từng là giáo viên khi còn trẻ.
+EX	strong	You need strong arms to carry that box.	Bạn cần đôi tay khỏe để bê cái hộp đó.
+EX	here	Come here and sit next to me.	Lại đây ngồi cạnh tôi.
+EX	welcome	Welcome to our school!	Chào mừng bạn đến với trường chúng tôi!
+EX	sentence	Write a sentence using this word.	Hãy viết một câu dùng từ này.
+EX	problem	Traffic is a big problem in this city.	Giao thông là một vấn đề lớn ở thành phố này.
+EX	rainbow	We saw a rainbow after the rain.	Chúng tôi thấy cầu vồng sau cơn mưa.
+EX	traffic light	Turn left at the traffic light.	Rẽ trái ở chỗ đèn giao thông.
+EX	activity	Swimming is my favourite activity in summer.	Bơi là hoạt động tôi thích nhất vào mùa hè.
+EX	alone	He lives alone in a small flat.	Anh ấy sống một mình trong một căn hộ nhỏ.
+EX	apron	The cook put on an apron before cooking.	Người đầu bếp đeo tạp dề trước khi nấu ăn.
+EX	blow	Blow out the candles on your cake!	Hãy thổi nến trên bánh của bạn đi!
+EX	bone	The dog is eating a bone.	Con chó đang gặm một khúc xương.
+EX	bucket	Fill the bucket with water.	Hãy đổ đầy nước vào xô.
+EX	cartoon	The children are watching a cartoon on TV.	Bọn trẻ đang xem phim hoạt hình trên TV.
+EX	circle	Draw a circle around the correct answer.	Hãy khoanh tròn đáp án đúng.
+EX	cloth	Clean the table with a wet cloth.	Lau bàn bằng một miếng vải ướt.
+EX	collect	My son collects stamps from different countries.	Con trai tôi sưu tầm tem của nhiều nước.
+EX	couch	He fell asleep on the couch.	Anh ấy ngủ thiếp đi trên ghế đi văng.
+EX	daddy	Daddy, can you read me a story?	Bố ơi, bố đọc truyện cho con nghe được không?
+EX	dear	Dear Mr Smith, thank you for your letter.	Kính gửi ông Smith, cảm ơn ông vì lá thư.
+EX	dig	The children dug a hole in the sand.	Bọn trẻ đào một cái hố trên cát.
+EX	dish	Pho is a famous Vietnamese dish.	Phở là một món ăn nổi tiếng của Việt Nam.
+EX	doll	My little sister plays with her doll every day.	Em gái tôi chơi với búp bê mỗi ngày.
+EX	drama	She studies drama at university.	Cô ấy học ngành kịch ở trường đại học.
+EX	drum	He plays the drums in a band.	Anh ấy chơi trống trong một ban nhạc.
+EX	feed	Don't forget to feed the cat.	Đừng quên cho mèo ăn.
+EX	fifteen	The bus comes every fifteen minutes.	Cứ mười lăm phút lại có một chuyến xe buýt.
+EX	fourteen	She is fourteen years old.	Cô bé mười bốn tuổi.
+EX	ghost	Do you believe in ghosts?	Bạn có tin vào ma không?
+EX	good morning	Good morning, everyone!	Chào buổi sáng mọi người!
+EX	hamburger	I'd like a hamburger and some chips, please.	Cho tôi một bánh hambơgơ và ít khoai tây chiên.
+EX	hometown	My hometown is a small town by the sea.	Quê tôi là một thị trấn nhỏ ven biển.
+EX	ideal	This is an ideal place for a picnic.	Đây là một nơi lý tưởng để đi dã ngoại.
+EX	kite	The children are flying a kite in the park.	Bọn trẻ đang thả diều trong công viên.
+EX	lily	She gave her mother a bunch of white lilies.	Cô ấy tặng mẹ một bó hoa ly trắng.
+EX	magazine	I read a fashion magazine on the train.	Tôi đọc một tạp chí thời trang trên tàu.
+EX	merry	Merry Christmas and Happy New Year!	Chúc Giáng sinh vui vẻ và Năm mới hạnh phúc!
+EX	mine	This book is mine, not yours.	Cuốn sách này là của tôi, không phải của bạn.
+EX	nineteen	He left school when he was nineteen.	Anh ấy rời trường khi mười chín tuổi.
+EX	ninety	My great-grandmother lived to ninety.	Cụ tôi sống đến chín mươi tuổi.
+EX	opera	We went to the opera on Saturday night.	Tối thứ Bảy chúng tôi đi xem nhạc kịch.
+EX	palace	The king lived in a large palace.	Nhà vua sống trong một cung điện lớn.
+EX	pardon	Pardon? Could you say that again?	Xin lỗi? Bạn có thể nói lại được không?
+EX	prince	The prince married a girl from the village.	Hoàng tử cưới một cô gái trong làng.
+EX	princess	The little girl wants to be a princess.	Cô bé muốn trở thành công chúa.
+EX	rainy	Take an umbrella on rainy days.	Hãy mang ô vào những ngày mưa.
+EX	ribbon	She tied her hair with a red ribbon.	Cô ấy buộc tóc bằng một dải ruy băng đỏ.
+EX	seventy	My grandfather is seventy.	Ông tôi bảy mươi tuổi.
+EX	spy	The film is about a spy who works in Paris.	Bộ phim kể về một điệp viên làm việc ở Paris.
+EX	super	We had a super time at the beach.	Chúng tôi đã có khoảng thời gian tuyệt vời ở bãi biển.
+EX	tower	You can see the whole city from the top of the tower.	Từ đỉnh tháp bạn có thể nhìn thấy cả thành phố.
+EX	toy	The children put their toys back in the box.	Bọn trẻ cất đồ chơi lại vào hộp.
+EX	tube	I need a new tube of toothpaste.	Tôi cần một tuýp kem đánh răng mới.
+EX	turkey	We usually eat turkey at Christmas.	Chúng tôi thường ăn gà tây vào dịp Giáng sinh.
+EX	waitress	The waitress brought us the menu.	Cô phục vụ mang thực đơn cho chúng tôi.
+EX	band	My favourite band is playing in town tonight.	Ban nhạc tôi thích nhất biểu diễn trong thành phố tối nay.
+EX	bye	Bye! See you tomorrow.	Tạm biệt! Hẹn gặp lại ngày mai.
+EX	cop	The cops arrived a few minutes later.	Vài phút sau cảnh sát đã tới.
+EX	fairy	In the story, a fairy gives the girl three wishes.	Trong truyện, một nàng tiên ban cho cô gái ba điều ước.
+EX	favourite	What's your favourite food?	Món ăn yêu thích của bạn là gì?
+EX	focus	Turn off your phone so you can focus on your homework.	Hãy tắt điện thoại để tập trung làm bài tập.
+EX	greet	The teacher greeted each student at the door.	Cô giáo chào từng học sinh ở cửa.
+EX	haircut	I need a haircut.	Tôi cần đi cắt tóc.
+EX	handsome	Her husband is tall and handsome.	Chồng cô ấy cao và đẹp trai.
+EX	hole	There's a hole in my sock.	Tất của tôi bị thủng một lỗ.
+EX	item	Each item on the menu costs five dollars.	Mỗi món trong thực đơn có giá năm đô la.
+EX	jet	The jet landed safely at the airport.	Chiếc máy bay phản lực hạ cánh an toàn xuống sân bay.
+EX	jewellery	She keeps her jewellery in a small box.	Cô ấy cất trang sức trong một chiếc hộp nhỏ.
+EX	jump	The cat jumped onto the table.	Con mèo nhảy lên bàn.
+EX	maths	Maths is my best subject at school.	Toán là môn tôi học giỏi nhất ở trường.
+EX	Mrs	Mrs Lan is our English teacher.	Cô Lan là giáo viên tiếng Anh của chúng tôi.
+EX	mum	My mum cooks dinner every evening.	Mẹ tôi nấu bữa tối mỗi tối.
+EX	partner	Work with a partner and discuss the question.	Làm việc với một bạn cùng nhóm và thảo luận câu hỏi.
+EX	poster	There is a poster of a famous singer on her wall.	Trên tường phòng cô ấy có tấm áp phích của một ca sĩ nổi tiếng.
+EX	practise	You need to practise speaking every day.	Bạn cần luyện nói mỗi ngày.
+EX	reader	The magazine has over a million readers.	Tạp chí này có hơn một triệu độc giả.
+EX	reporter	A reporter asked the minister a question.	Một phóng viên đặt câu hỏi cho bộ trưởng.
+EX	sum	He paid a large sum of money for the car.	Anh ấy trả một khoản tiền lớn cho chiếc xe.
+EX	surf	We watched the surf from the beach.	Chúng tôi ngắm sóng vỗ từ bãi biển.
+EX	survey	The survey shows that most students walk to school.	Cuộc khảo sát cho thấy phần lớn học sinh đi bộ đến trường.
+EX	tool	A hammer is a useful tool.	Búa là một dụng cụ hữu ích.
+EX	underline	Underline the key words in each question.	Gạch chân các từ khóa trong mỗi câu hỏi.
+EX	headache	I have a headache, so I'm going to bed early.	Tôi bị đau đầu nên sẽ đi ngủ sớm.
+EX	healthy	Eating fruit every day keeps you healthy.	Ăn trái cây mỗi ngày giúp bạn khỏe mạnh.
+EX	carefully	Read the instructions carefully.	Hãy đọc kỹ hướng dẫn.
+EX	downstairs	The kitchen is downstairs.	Nhà bếp ở tầng dưới.
+EX	give up	Don't give up – you're almost there!	Đừng bỏ cuộc – bạn sắp làm được rồi!
+EX	go on	Please go on – I'm listening.	Bạn cứ nói tiếp đi – tôi đang nghe.
+EX	sit down	Please sit down and open your books.	Mời các em ngồi xuống và mở sách ra.
+EX	calm	Stay calm and wait for help.	Hãy giữ bình tĩnh và chờ trợ giúp.
+EX	worry	Don't worry, everything will be fine.	Đừng lo, mọi chuyện sẽ ổn thôi.
+EX	wound	The nurse cleaned the wound on his leg.	Y tá làm sạch vết thương ở chân anh ấy.
+EX	weight	He wants to lose weight before summer.	Anh ấy muốn giảm cân trước mùa hè.
+EX	pepper	Add a little salt and pepper to the soup.	Cho thêm một chút muối và hạt tiêu vào súp.
+EX	boarding pass	Please show your boarding pass at the gate.	Vui lòng xuất trình thẻ lên máy bay ở cửa.
+EX	crossing	Always use the crossing when you cross the road.	Luôn đi qua vạch sang đường khi băng qua đường.
+EX	subway	We took the subway to the museum.	Chúng tôi đi tàu điện ngầm đến bảo tàng.
+EX	curtain	Please close the curtains – the sun is too bright.	Làm ơn kéo rèm lại – nắng chói quá.
+EX	sheet	I need a clean sheet of paper.	Tôi cần một tờ giấy sạch.
+EX	knock	Please knock before you come in.	Hãy gõ cửa trước khi vào.
+EX	cashier	Pay the cashier at the front of the shop.	Thanh toán cho thu ngân ở phía trước cửa hàng.
+EX	dictionary	Look up new words in a dictionary.	Hãy tra từ mới trong từ điển.
+EX	author	Who is the author of this book?	Ai là tác giả của cuốn sách này?
+EX	skill	Listening is an important skill in IELTS.	Nghe là một kỹ năng quan trọng trong IELTS.
+EX	plant	Don't forget to water the plants.	Đừng quên tưới cây.
+EX	opinion	In my opinion, the film was too long.	Theo tôi, bộ phim quá dài.
+EX	lie	He told a lie about his age.	Anh ta nói dối về tuổi của mình.
+EX	shout	Please don't shout – I can hear you.	Làm ơn đừng hét – tôi nghe thấy mà.
+EX	keyboard	My keyboard isn't working.	Bàn phím của tôi không hoạt động.
+EX	file	Save the file before you close it.	Hãy lưu tệp trước khi đóng.
+EX	raincoat	Put on your raincoat – it's raining.	Mặc áo mưa vào – trời đang mưa.
+EX	router	Restart the router if the internet is slow.	Khởi động lại bộ định tuyến nếu mạng chậm.
+EX	ruler	Use a ruler to draw a straight line.	Dùng thước kẻ để vẽ đường thẳng.
+EX	toothache	I have a terrible toothache.	Tôi bị đau răng kinh khủng.
+EX	crosswalk	Cross the street at the crosswalk.	Hãy băng qua đường ở vạch dành cho người đi bộ.
+EX	barcode	The cashier scanned the barcode.	Thu ngân quét mã vạch.
+EX	kettle	I'll put the kettle on and make some tea.	Để tôi đun nước pha trà.
+EX	price tag	The price tag says twenty dollars.	Mác giá ghi hai mươi đô la.
+EX	bus stop	I'll meet you at the bus stop.	Tôi sẽ gặp bạn ở trạm xe buýt.
+EX	inbox	I have fifty emails in my inbox.	Tôi có năm mươi email trong hộp thư đến.
+EX	adjective	"Happy" is an adjective.	"Happy" là một tính từ.
+EX	agency	She works for a travel agency.	Cô ấy làm việc cho một công ty du lịch.
+EX	alarm clock	My alarm clock rings at six every morning.	Đồng hồ báo thức của tôi reo lúc sáu giờ mỗi sáng.
+EX	amusement	To our amusement, the dog started to dance.	Chúng tôi buồn cười khi con chó bắt đầu nhảy.
+EX	astronaut	She dreams of becoming an astronaut.	Cô ấy mơ ước trở thành phi hành gia.
+EX	atom	Everything is made of atoms.	Mọi vật đều được cấu tạo từ nguyên tử.
+EX	automatic	The doors are automatic.	Cửa này là cửa tự động.
+EX	background	The photo has mountains in the background.	Bức ảnh có núi ở phía sau.
+EX	balloon	We decorated the room with balloons.	Chúng tôi trang trí căn phòng bằng bóng bay.
+EX	bay	The hotel has a view of the bay.	Khách sạn có tầm nhìn ra vịnh.
+EX	beginner	This course is for beginners.	Khóa học này dành cho người mới bắt đầu.
+EX	bend	Bend your knees when you lift something heavy.	Hãy khuỵu gối khi nâng vật nặng.
+EX	bookshop	I bought this novel at the bookshop near my house.	Tôi mua cuốn tiểu thuyết này ở hiệu sách gần nhà.
+EX	bra	She bought a new bra and some socks.	Cô ấy mua một chiếc áo ngực mới và vài đôi tất.
+EX	breeze	A cool breeze came from the sea.	Một làn gió mát thổi từ biển vào.
+EX	burn	He has a small burn on his hand from the oven.	Anh ấy bị một vết bỏng nhỏ trên tay do lò nướng.
+EX	bury	The dog buried a bone in the garden.	Con chó chôn một khúc xương trong vườn.
+EX	businessman	He is a successful businessman.	Ông ấy là một doanh nhân thành đạt.
+EX	cafeteria	We have lunch in the school cafeteria.	Chúng tôi ăn trưa ở nhà ăn của trường.
+EX	cent	It costs ninety-nine cents.	Nó có giá chín mươi chín xu.
+EX	centimetre	The table is ninety centimetres wide.	Cái bàn rộng chín mươi xentimét.
+EX	chain	She wears a gold chain around her neck.	Cô ấy đeo một sợi dây chuyền vàng ở cổ.
+EX	cheek	Her cheeks went red.	Má cô ấy đỏ ửng lên.
+EX	cheque	He paid by cheque.	Anh ấy thanh toán bằng séc.
+EX	chest	He felt a pain in his chest.	Anh ấy cảm thấy đau ở ngực.
+EX	chimpanzee	Chimpanzees are very intelligent animals.	Tinh tinh là loài vật rất thông minh.
+EX	chin	He rested his chin on his hand.	Anh ấy chống cằm lên tay.
+EX	classical music	She listens to classical music while she studies.	Cô ấy nghe nhạc cổ điển trong lúc học.
+EX	cola	Can I have a cola, please?	Cho tôi một lon cô-la nhé.
+EX	colorful	The market is full of colorful flowers.	Khu chợ tràn ngập hoa đủ màu sắc.
+EX	committee	The committee meets once a month.	Ủy ban họp mỗi tháng một lần.
+EX	comparative	"Bigger" is the comparative of "big".	"Bigger" là dạng so sánh hơn của "big".
+EX	concern	There is growing concern about air pollution.	Mối lo ngại về ô nhiễm không khí ngày càng tăng.
+EX	continent	Asia is the largest continent.	Châu Á là châu lục lớn nhất.
+EX	creature	Many strange creatures live deep in the ocean.	Nhiều sinh vật kỳ lạ sống sâu dưới đáy đại dương.
+EX	cricket	Cricket is very popular in India.	Cricket rất phổ biến ở Ấn Độ.
+EX	crown	The queen wore a gold crown.	Nữ hoàng đội một chiếc vương miện bằng vàng.
+EX	curry	We had chicken curry for dinner.	Chúng tôi ăn cà ri gà vào bữa tối.
+EX	dancer	She wants to be a professional dancer.	Cô ấy muốn trở thành vũ công chuyên nghiệp.
+EX	diary	I write in my diary every night.	Tôi viết nhật ký mỗi tối.
+EX	dinosaur	Dinosaurs lived millions of years ago.	Khủng long sống cách đây hàng triệu năm.
+EX	discover	Scientists have discovered a new kind of frog.	Các nhà khoa học đã phát hiện một loài ếch mới.
+EX	display	There is a display of children's paintings in the hall.	Có một buổi trưng bày tranh thiếu nhi ở hội trường.
+EX	divide	Divide the class into two groups.	Hãy chia lớp thành hai nhóm.
+EX	drill	He used a drill to make a hole in the wall.	Anh ấy dùng máy khoan để khoan lỗ trên tường.
+EX	dust	The old books were covered in dust.	Những cuốn sách cũ phủ đầy bụi.
+EX	escalator	Take the escalator to the second floor.	Đi thang cuốn lên tầng hai.
+EX	explore	We spent the afternoon exploring the old town.	Chúng tôi dành cả buổi chiều khám phá khu phố cổ.
+EX	expression	"Break a leg" is an expression that means "good luck".	"Break a leg" là một thành ngữ có nghĩa là "chúc may mắn".
+EX	feather	The bird has beautiful blue feathers.	Con chim có bộ lông màu xanh rất đẹp.
+EX	first name	Please write your first name and surname.	Vui lòng viết tên và họ của bạn.
+EX	fisherman	The fishermen go out to sea before dawn.	Ngư dân ra khơi trước bình minh.
+EX	flea	The dog has fleas.	Con chó bị bọ chét.
+EX	folder	Keep your homework in this folder.	Hãy giữ bài tập về nhà trong bìa hồ sơ này.
+EX	gender	The form asks for your age and gender.	Mẫu đơn hỏi tuổi và giới tính của bạn.
+EX	graduate	She graduated from university last year.	Cô ấy tốt nghiệp đại học năm ngoái.
+EX	gram	Add two hundred grams of flour.	Cho thêm hai trăm gam bột mì.
+EX	granddaughter	Their granddaughter visits them every weekend.	Cháu gái đến thăm ông bà mỗi cuối tuần.
+EX	grandson	His grandson is learning to walk.	Cháu trai ông ấy đang tập đi.
+EX	handbag	She left her handbag on the bus.	Cô ấy để quên túi xách trên xe buýt.
+EX	harvest	The rice harvest was good this year.	Năm nay mùa lúa bội thu.
+EX	hockey	He plays hockey every winter.	Anh ấy chơi khúc côn cầu mỗi mùa đông.
+EX	honour	It is an honour to meet you.	Thật vinh dự được gặp ông.
+EX	hunter	The hunter followed the deer into the forest.	Người thợ săn đuổi theo con nai vào rừng.
+EX	inexpensive	The hotel is clean and inexpensive.	Khách sạn sạch sẽ và không đắt.
+EX	intelligent	Dolphins are intelligent animals.	Cá heo là loài vật thông minh.
+EX	invent	Who invented the telephone?	Ai đã phát minh ra điện thoại?
+EX	junk	The garage is full of old junk.	Nhà để xe đầy đồ cũ bỏ đi.
+EX	killer	The police are still looking for the killer.	Cảnh sát vẫn đang truy tìm kẻ giết người.
+EX	kilogram	The baby weighed three kilograms at birth.	Em bé nặng ba ki-lô-gam khi mới sinh.
+EX	kilometre	The school is two kilometres from my house.	Trường cách nhà tôi hai ki-lô-mét.
+EX	kingdom	The United Kingdom has four countries.	Vương quốc Anh gồm bốn xứ.
+EX	labour	The price includes the cost of labour.	Giá đã bao gồm chi phí nhân công.
+EX	landscape	The landscape in the north is beautiful.	Phong cảnh miền Bắc rất đẹp.
+EX	lead	She will lead the team next year.	Cô ấy sẽ dẫn dắt đội vào năm tới.
+EX	lip	She put some balm on her dry lips.	Cô ấy thoa chút son dưỡng lên đôi môi khô.
+EX	litre	I drink two litres of water a day.	Tôi uống hai lít nước mỗi ngày.
+EX	marry	They married in 2020.	Họ kết hôn vào năm 2020.
+EX	melon	This melon is very sweet.	Quả dưa này rất ngọt.
+EX	metre	The pool is fifty metres long.	Bể bơi dài năm mươi mét.
+EX	mineral water	A bottle of mineral water, please.	Cho tôi một chai nước khoáng.
+EX	mosque	There is a beautiful old mosque in the city centre.	Ở trung tâm thành phố có một nhà thờ Hồi giáo cổ rất đẹp.
+EX	motorway	The motorway was closed because of an accident.	Đường cao tốc bị đóng vì một vụ tai nạn.
+EX	mystery	How the old man got rich is still a mystery.	Ông lão giàu lên bằng cách nào vẫn là một bí ẩn.
+EX	napkin	He wiped his mouth with a napkin.	Anh ấy lau miệng bằng khăn ăn.
+EX	nature	I love walking in nature.	Tôi thích đi dạo giữa thiên nhiên.
+EX	no one	No one answered the phone.	Không ai nghe điện thoại.
+EX	noun	"Table" is a noun.	"Table" là một danh từ.
+EX	nowadays	Nowadays, most people pay by card.	Ngày nay, hầu hết mọi người thanh toán bằng thẻ.
+EX	omelette	I had an omelette for breakfast.	Tôi ăn trứng tráng vào bữa sáng.
+EX	overseas	Many students want to study overseas.	Nhiều sinh viên muốn đi du học nước ngoài.
+EX	painter	The painter finished the portrait in a week.	Họa sĩ hoàn thành bức chân dung trong một tuần.
+EX	pea	Would you like some peas with your chicken?	Bạn có muốn ăn kèm chút đậu Hà Lan với thịt gà không?
+EX	peaceful	It's very peaceful in the countryside.	Ở nông thôn rất yên bình.
+EX	pear	She ate a pear after lunch.	Cô ấy ăn một quả lê sau bữa trưa.
+EX	perfume	She bought her mother a bottle of perfume.	Cô ấy mua tặng mẹ một chai nước hoa.
+EX	photograph	This photograph was taken in 1990.	Bức ảnh này được chụp năm 1990.
+EX	plus	Two plus three is five.	Hai cộng ba bằng năm.
+EX	policewoman	A policewoman helped the lost child.	Một nữ cảnh sát đã giúp đứa bé bị lạc.
+EX	portrait	There is a portrait of the king on the wall.	Trên tường có bức chân dung của nhà vua.
+EX	pour	Can you pour me a glass of water?	Bạn rót cho tôi một cốc nước được không?
+EX	professional	You should get professional advice before you buy a house.	Bạn nên hỏi ý kiến chuyên gia trước khi mua nhà.
+EX	psychologist	She went to see a psychologist about her stress.	Cô ấy đến gặp chuyên gia tâm lý vì bị căng thẳng.
+EX	punctuation	Check your spelling and punctuation.	Hãy kiểm tra chính tả và dấu câu.
+EX	ray	A ray of sunlight came through the window.	Một tia nắng chiếu qua cửa sổ.
+EX	release	The film's release date is next month.	Ngày phát hành bộ phim là tháng sau.
+EX	remote	They live in a remote village in the mountains.	Họ sống ở một ngôi làng hẻo lánh trên núi.
+EX	rhythm	Clap your hands to the rhythm of the music.	Vỗ tay theo nhịp điệu của bản nhạc.
+EX	rob	Two men robbed a bank last night.	Hai người đàn ông đã cướp một ngân hàng tối qua.
+EX	roll	I had a cheese roll for lunch.	Tôi ăn một chiếc bánh mì cuộn phô mai vào bữa trưa.
+EX	romance	Their romance began at university.	Chuyện tình của họ bắt đầu từ thời đại học.
+EX	romantic	We had a romantic dinner by the lake.	Chúng tôi có một bữa tối lãng mạn bên hồ.
+EX	rugby	Rugby is a popular sport in New Zealand.	Bóng bầu dục là môn thể thao phổ biến ở New Zealand.
+EX	ruin	The rain ruined our picnic.	Cơn mưa đã làm hỏng buổi dã ngoại của chúng tôi.
+EX	satisfy	Nothing I do seems to satisfy my boss.	Dường như tôi làm gì cũng không làm sếp hài lòng.
+EX	scientific	There is no scientific evidence for this claim.	Không có bằng chứng khoa học cho nhận định này.
+EX	scissors	Cut the paper with scissors.	Cắt giấy bằng kéo.
+EX	semester	The new semester starts in September.	Học kỳ mới bắt đầu vào tháng Chín.
+EX	shadow	In the evening, our shadows get longer.	Vào buổi chiều, bóng của chúng ta dài ra.
+EX	shampoo	This shampoo is good for dry hair.	Loại dầu gội này tốt cho tóc khô.
+EX	shell	We collected shells on the beach.	Chúng tôi nhặt vỏ sò trên bãi biển.
+EX	shore	They walked along the shore at sunset.	Họ đi dạo dọc bờ biển lúc hoàng hôn.
+EX	slave	Millions of people were taken from Africa as slaves.	Hàng triệu người bị bắt khỏi châu Phi làm nô lệ.
+EX	soft	This bed is too soft for me.	Cái giường này quá mềm với tôi.
+EX	spaceship	The spaceship landed on the Moon.	Con tàu vũ trụ hạ cánh xuống Mặt Trăng.
+EX	stair	She sat on the bottom stair.	Cô ấy ngồi ở bậc cầu thang dưới cùng.
+EX	stove	There's a pot of soup on the stove.	Có một nồi súp trên bếp.
+EX	string	Tie the box with a piece of string.	Buộc cái hộp bằng một đoạn dây.
+EX	sunflower	Sunflowers always turn towards the sun.	Hoa hướng dương luôn quay về phía mặt trời.
+EX	sunglasses	Don't forget your sunglasses – it's very sunny.	Đừng quên kính râm – trời nắng lắm.
+EX	superstar	He became a football superstar at the age of twenty.	Anh ấy trở thành siêu sao bóng đá ở tuổi hai mươi.
+EX	supper	We usually have supper at seven.	Chúng tôi thường ăn tối lúc bảy giờ.
+EX	surname	Her surname is Nguyen.	Họ của cô ấy là Nguyễn.
+EX	swallow	Chew your food well before you swallow it.	Hãy nhai kỹ thức ăn trước khi nuốt.
+EX	symphony	The orchestra played a symphony by Beethoven.	Dàn nhạc chơi một bản giao hưởng của Beethoven.
+EX	table tennis	We play table tennis after school.	Chúng tôi chơi bóng bàn sau giờ học.
+EX	tablespoon	Add two tablespoons of sugar.	Thêm hai thìa canh đường.
+EX	textbook	Open your textbooks at page ten.	Mở sách giáo khoa ra trang mười.
+EX	thunderstorm	The flight was delayed because of a thunderstorm.	Chuyến bay bị hoãn vì một trận giông bão.
+EX	toothbrush	Change your toothbrush every three months.	Hãy thay bàn chải đánh răng ba tháng một lần.
+EX	traveller	The hostel is popular with young travellers.	Nhà nghỉ này được nhiều du khách trẻ yêu thích.
+EX	unfair	It's unfair that he gets more money for the same work.	Thật bất công khi anh ta được trả nhiều tiền hơn cho cùng một công việc.
+EX	usual	Let's meet at the usual place.	Hãy gặp nhau ở chỗ cũ nhé.
+EX	web page	The web page takes a long time to load.	Trang web này tải rất lâu.
+EX	weep	She wept when she heard the news.	Cô ấy đã khóc khi nghe tin.
+EX	wheelchair	The building has a ramp for wheelchairs.	Tòa nhà có lối dốc cho xe lăn.
+EX	windy	It's too windy to play badminton outside.	Trời gió quá nên không chơi cầu lông ngoài trời được.
+EX	worldwide	The game is popular worldwide.	Trò chơi này phổ biến trên toàn thế giới.
+EX	youth	He spent his youth in the countryside.	Ông ấy đã trải qua tuổi trẻ ở nông thôn.
+EX	adventure	The book is about a boy's adventures at sea.	Cuốn sách kể về những cuộc phiêu lưu trên biển của một cậu bé.
+EX	advertising	The company spends a lot on advertising.	Công ty chi rất nhiều tiền cho quảng cáo.
+EX	agent	You can book tickets through a travel agent.	Bạn có thể đặt vé qua đại lý du lịch.
+EX	annoy	It really annoys me when people talk during films.	Tôi rất bực khi người ta nói chuyện lúc xem phim.
+EX	annoying	The noise from the street is really annoying.	Tiếng ồn từ ngoài đường thật khó chịu.
+EX	appear	A message appeared on the screen.	Một thông báo hiện lên trên màn hình.
+EX	artificial	These flowers are artificial.	Những bông hoa này là hoa giả.
+EX	association	She is a member of the teachers' association.	Cô ấy là thành viên của hiệp hội giáo viên.
+EX	award	The film won an award for best music.	Bộ phim giành giải nhạc phim hay nhất.
+EX	barbecue	We had a barbecue in the garden on Sunday.	Chủ nhật chúng tôi tổ chức tiệc nướng ngoài vườn.
+EX	barber	He goes to the barber once a month.	Anh ấy đi cắt tóc mỗi tháng một lần.
+EX	batch	She baked a batch of cookies for the party.	Cô ấy nướng một mẻ bánh quy cho bữa tiệc.
+EX	beg	The children begged their parents for a puppy.	Bọn trẻ nài nỉ bố mẹ mua một chú chó con.
+EX	bench	We sat on a bench in the park.	Chúng tôi ngồi trên một chiếc ghế dài trong công viên.
+EX	brilliant	She is a brilliant student.	Cô ấy là một học sinh xuất sắc.
+EX	bus station	The bus station is next to the market.	Bến xe buýt ở cạnh chợ.
+EX	campus	There are three cafés on campus.	Trong khuôn viên trường có ba quán cà phê.
+EX	capital letter	Start every sentence with a capital letter.	Hãy bắt đầu mỗi câu bằng chữ in hoa.
+POS	dig	verb
+POS	weep	verb
+POS	feed	verb
+VI	feed	cho ăn; thức ăn (cho vật nuôi)
+EN	feed	To give food to a person or animal.
+EN	question	A sentence or phrase used to ask for information.
+EN	bucket	An open container with a handle, used for carrying water.
+EN	kettle	A container with a lid and spout, used for boiling water.
+EN	police	The official organisation that keeps order and makes people obey the law.
+EN	sentence	A group of words that expresses a complete idea.
+EN	problem	A situation that causes difficulty.
+EN	age	The number of years someone has lived.
+EN	name	The word that a person, place or thing is called.
+EN	tall	Having a greater than average height.
+EN	young	Having lived for only a short time.
+EN	dish	A type of food prepared in a particular way; also a plate.
+VI	dish	món ăn; đĩa
+EN	cloth	Material made by weaving cotton, wool, etc.
+EN	ideal	Perfect, or the best possible.
+EN	merry	Happy and cheerful.
+EN	lily	A plant with large white or coloured flowers.
+EN	forty	The number 40.
+EN	fifteen	The number 15.
+EN	fourteen	The number 14.
+EN	palace	A large house where a king or queen lives.
+EN	handsome	Good-looking (usually of a man).
+EN	jewellery	Rings, necklaces and other decorations worn on the body.
+EN	maths	The study of numbers, shapes and quantities.
+EN	poster	A large printed picture or notice put on a wall.
+EN	reporter	A person who collects and writes news.
+EN	sum	An amount of money; also the total of numbers added together.
+EN	file	A collection of data stored on a computer; also a folder for papers.
+EN	worry	To keep thinking about problems or bad things that might happen.
+EN	greet	To say hello to someone.
+EN	toothache	A pain in a tooth.
+EN	crosswalk	A marked place where people can cross a road.
+EN	bus stop	A place where buses stop to let passengers on and off.
+EN	alarm clock	A clock that makes a noise to wake you up.
+EN	atom	The smallest part of a chemical element.
+EN	balloon	A small rubber bag filled with air, used as a decoration or toy.
+EN	bend	To make something curved; to move your body forward and down.
+EN	bury	To put something or someone in the ground and cover it.
+EN	businessman	A man who works in business, especially as a manager.
+EN	chimpanzee	An intelligent African ape.
+EN	classical music	Serious traditional music, such as that of Mozart or Beethoven.
+EN	cola	A sweet brown fizzy drink.
+EN	colorful	Having bright colours.
+EN	committee	A group of people chosen to make decisions about something.
+EN	dinosaur	A large reptile that lived millions of years ago.
+EN	discover	To find something for the first time.
+EN	divide	To separate something into parts.
+EN	dust	Very small pieces of dirt.
+EN	escalator	Moving stairs.
+EN	first name	The name given to you at birth, used before your family name.
+EN	flea	A very small jumping insect that lives on animals and bites.
+EN	folder	A cover for keeping loose papers; also a place to store computer files.
+EN	inexpensive	Not costing a lot of money.
+EN	intelligent	Able to learn and understand things quickly.
+EN	invent	To create something that did not exist before.
+EN	killer	A person or thing that kills.
+EN	kilometre	A unit of length equal to 1,000 metres.
+EN	labour	Work, especially physical work.
+EN	litre	A unit for measuring liquid, equal to 1,000 millilitres.
+EN	mineral water	Water from a natural spring, often sold in bottles.
+EN	motorway	A wide road for fast traffic between cities.
+EN	mystery	Something that is difficult to understand or explain.
+EN	noun	A word that names a person, place or thing.
+EN	omelette	Eggs that are beaten together and fried.
+EN	pea	A small round green seed eaten as a vegetable.
+EN	pear	A sweet juicy fruit that is narrow at the top and wide at the bottom.
+EN	perfume	A liquid with a pleasant smell that you put on your skin.
+EN	photograph	A picture taken with a camera.
+EN	policewoman	A female police officer.
+EN	portrait	A painting or photograph of a person.
+EN	psychologist	A person who studies the mind and behaviour.
+EN	punctuation	Marks such as full stops and commas used in writing.
+EN	rob	To steal money or property from a person or place.
+EN	satisfy	To please someone by giving them what they want.
+EN	scientific	Relating to science.
+EN	semester	Half of a school or university year.
+EN	shell	The hard outer covering of an egg, nut or sea animal.
+EN	spaceship	A vehicle that travels in space.
+EN	superstar	A very famous performer or sports player.
+EN	surname	Your family name.
+EN	sunglasses	Dark glasses that protect your eyes from the sun.
+EN	symphony	A long piece of music for an orchestra.
+EN	table tennis	A game in which players hit a small ball over a net on a table.
+EN	tablespoon	A large spoon; also the amount it holds.
+EN	thunderstorm	A storm with thunder and lightning.
+EN	traveller	A person who is travelling.
+EN	usual	Normal; happening most often.
+EN	web page	A single page of a website.
+EN	adventure	An exciting or unusual experience.
+EN	advertising	The business of telling people about products to make them buy them.
+EN	annoy	To make someone a little angry.
+EN	annoying	Making you feel a little angry.
+EN	appear	To start to be seen.
+EN	barbecue	A meal cooked outside over a fire; also the equipment used.
+EN	barber	A person whose job is cutting men's hair.
+EN	campus	The land and buildings of a university or college.
+EN	capital letter	A large letter such as A, B or C.
+EN	bay	A part of the coast where the land curves inwards.
+EN	breeze	A light, gentle wind.
+EN	burn	An injury caused by fire or heat.
+EN	chin	The part of the face below the mouth.
+EN	diary	A book in which you write what happens each day.
+EN	fisherman	A person who catches fish as a job or sport.
+EN	gram	A unit of weight equal to one thousandth of a kilogram.
+EN	handbag	A small bag used by women to carry money and personal things.
+EN	litre	A unit for measuring liquid, equal to 1,000 millilitres.
+EN	shampoo	A liquid soap for washing hair.
+EN	stove	A piece of kitchen equipment for cooking food.
+EN	supper	A light meal eaten in the evening.
+EN	textbook	A book used for studying a subject at school.
+EN	o'clock	Used after a number to give the exact hour.
+EN	toilet	A room with a toilet; a bathroom.
+EN	activity	Something that you do for enjoyment or interest.
+EN	apron	A piece of cloth worn over your clothes to keep them clean while cooking.
+EN	bone	One of the hard parts that make up the skeleton of a body.
+EN	cartoon	A film made from drawings; also a funny drawing.
+EN	couch	A long comfortable seat for two or three people.
+EN	drama	A play for the theatre, TV or radio; also the study of acting.
+EN	hamburger	A round piece of minced beef served in a bread roll.
+EN	hometown	The town where you were born or grew up.
+EN	kite	A toy made of light material that flies in the wind on a string.
+EN	opera	A play in which the words are sung to music.
+EN	princess	The daughter of a king or queen.
+EN	haircut	The act of cutting someone's hair; the style it is cut in.
+EN	healthy	Physically strong and well; good for your health.
+EN	give up	To stop trying to do something.
+EN	pepper	A spice made from small black or white seeds; also a vegetable.
+EN	subway	An underground railway.
+EN	cashier	A person who takes and gives out money in a shop or bank.
+EN	dictionary	A book that gives a list of words and their meanings.
+EN	skill	The ability to do something well.
+EN	lie	Something you say that you know is not true.
+EN	ruler	A flat strip of wood or plastic used for measuring and drawing straight lines.
+EN	price tag	A label showing the price of something.
+EN	adjective	A word that describes a noun, such as "big" or "happy".
+EN	automatic	Working by itself without human control.
+EN	cafeteria	A restaurant where you serve yourself.
+EN	centimetre	A unit of length equal to one hundredth of a metre.
+EN	cheque	A printed form you write on to pay money from your bank account.
+EN	creature	Any living animal.
+EN	dinosaur	A large reptile that lived millions of years ago.
+EN	hockey	A game played by two teams with curved sticks and a ball or puck.
+EN	kilogram	A unit of weight equal to 1,000 grams.
+EN	landscape	Everything you can see when you look across an area of land.
+EN	metre	A unit for measuring length, equal to 100 centimetres.
+EN	napkin	A piece of cloth or paper used to clean your mouth and hands while eating.
+EN	nowadays	At the present time, compared with the past.
+EN	scissors	A tool with two blades used for cutting paper or cloth.
+EN	stair	One of a set of steps between two floors.
+EN	swallow	To make food or drink go down your throat.
+EN	toothbrush	A small brush for cleaning your teeth.
+EN	unfair	Not right or not treating people equally.
+EN	wheelchair	A chair with wheels for people who cannot walk.
+EN	agent	A person who acts for another person or a company.
+EN	batch	A group of things made or dealt with together.
+EN	bench	A long seat for two or more people, often outdoors.
+EN	bus station	A building where many buses start and finish their journeys.

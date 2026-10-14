@@ -1,0 +1,475 @@
+EX	jungle	Tigers live in the jungle.	Hổ sống trong rừng rậm.
+EX	kindness	Thank you for your kindness.	Cảm ơn lòng tốt của bạn.
+EX	landlord	The landlord raised the rent again.	Chủ nhà lại tăng tiền thuê.
+EX	layer	A thin layer of dust covered the table.	Một lớp bụi mỏng phủ trên bàn.
+EX	leadership	The team did well under her leadership.	Đội làm việc tốt dưới sự lãnh đạo của cô ấy.
+EX	literary	The book won a major literary prize.	Cuốn sách đoạt một giải thưởng văn học lớn.
+EX	log	We put another log on the fire.	Chúng tôi cho thêm một khúc gỗ vào đống lửa.
+EX	logo	The company changed its logo last year.	Công ty đã đổi logo vào năm ngoái.
+EX	loyalty	Dogs are known for their loyalty.	Chó nổi tiếng vì lòng trung thành.
+EX	luxury	They live in luxury.	Họ sống trong nhung lụa.
+EX	management	The hotel is under new management.	Khách sạn đang có ban quản lý mới.
+EX	marble	The floor is made of marble.	Sàn nhà được lát bằng đá cẩm thạch.
+EX	mathematician	She is a brilliant mathematician.	Cô ấy là một nhà toán học xuất sắc.
+EX	meaningful	Volunteering gives me a meaningful way to spend my time.	Làm tình nguyện giúp tôi dành thời gian một cách có ý nghĩa.
+EX	measure	The government must take measures to reduce pollution.	Chính phủ phải có biện pháp giảm ô nhiễm.
+EX	Mediterranean	They spent their holiday on the Mediterranean coast.	Họ nghỉ dưỡng ở bờ biển Địa Trung Hải.
+EX	melt	The ice cream is melting in the sun.	Kem đang tan dưới nắng.
+EX	mend	Can you mend my bike?	Bạn sửa giúp tôi chiếc xe đạp được không?
+EX	merely	It was merely a joke.	Đó chỉ là một câu đùa thôi.
+EX	messy	Your room is very messy.	Phòng bạn bừa bộn quá.
+EX	minus	Ten minus four is six.	Mười trừ bốn bằng sáu.
+EX	mischief	The boys are always getting into mischief.	Lũ con trai lúc nào cũng nghịch ngợm.
+EX	miserable	He felt miserable after the argument.	Anh ấy cảm thấy khổ sở sau cuộc cãi vã.
+EX	moisture	The plant needs moisture to grow.	Cây cần độ ẩm để phát triển.
+EX	moral	The moral of the story is "never give up".	Bài học của câu chuyện là "đừng bao giờ bỏ cuộc".
+EX	moss	The old stones were covered in moss.	Những hòn đá cũ phủ đầy rêu.
+EX	motivate	Good teachers motivate their students.	Giáo viên giỏi biết tạo động lực cho học sinh.
+EX	motto	The school's motto is "Learn and grow".	Phương châm của trường là "Học để trưởng thành".
+EX	mourn	The whole country mourned the death of the president.	Cả nước thương tiếc sự ra đi của chủ tịch.
+EX	myth	It's a myth that eating carrots helps you see in the dark.	Ăn cà rốt giúp nhìn rõ trong bóng tối chỉ là một lầm tưởng.
+EX	narrative	The book is a narrative of his life in the army.	Cuốn sách là câu chuyện kể về cuộc đời trong quân ngũ của ông ấy.
+EX	nectar	Bees collect nectar from flowers.	Ong hút mật hoa.
+EX	neutral	Switzerland stayed neutral during the war.	Thụy Sĩ giữ trung lập trong chiến tranh.
+EX	nod	She gave a nod to show she agreed.	Cô ấy gật đầu tỏ ý đồng ý.
+EX	normally	I normally get up at six.	Tôi thường dậy lúc sáu giờ.
+EX	nuclear	The country uses nuclear power.	Đất nước này sử dụng năng lượng hạt nhân.
+EX	nucleus	The nucleus controls the activity of the cell.	Nhân tế bào điều khiển hoạt động của tế bào.
+EX	nutrient	Vegetables contain many important nutrients.	Rau củ chứa nhiều chất dinh dưỡng quan trọng.
+EX	observation	The patient is under observation in hospital.	Bệnh nhân đang được theo dõi trong bệnh viện.
+EX	obviously	Obviously, I'll pay you back.	Đương nhiên tôi sẽ trả lại tiền cho bạn.
+EX	offensive	His joke was offensive to many people.	Câu đùa của anh ta xúc phạm nhiều người.
+EX	old-fashioned	My grandmother's ideas are a bit old-fashioned.	Suy nghĩ của bà tôi hơi lỗi thời.
+EX	oppress	The people were oppressed by the king.	Người dân bị nhà vua áp bức.
+EX	oppression	They fought against oppression.	Họ đấu tranh chống áp bức.
+EX	option	You have two options: stay or leave.	Bạn có hai lựa chọn: ở lại hoặc rời đi.
+EX	organism	Bacteria are tiny organisms.	Vi khuẩn là những sinh vật rất nhỏ.
+EX	origin	The origin of the word is Latin.	Từ này có nguồn gốc từ tiếng La-tinh.
+EX	overjoyed	She was overjoyed to hear the good news.	Cô ấy vui mừng khôn xiết khi nghe tin tốt.
+EX	paddle	He used a paddle to move the canoe.	Anh ấy dùng mái chèo để đẩy chiếc xuồng.
+EX	parcel	I sent a parcel to my sister in Australia.	Tôi gửi một bưu kiện cho chị gái ở Úc.
+EX	partial	The plan was only a partial success.	Kế hoạch chỉ thành công một phần.
+EX	participle	"Broken" is the past participle of "break".	"Broken" là quá khứ phân từ của "break".
+EX	patrol	Police patrols have increased in the area.	Các đợt tuần tra của cảnh sát trong khu vực đã tăng lên.
+EX	philosopher	Socrates was a Greek philosopher.	Socrates là một triết gia Hy Lạp.
+EX	pipe	A water pipe burst in the kitchen.	Một đường ống nước bị vỡ trong bếp.
+EX	pit	They dug a deep pit.	Họ đào một cái hố sâu.
+EX	pole	The flag hung from a tall pole.	Lá cờ treo trên một cây cột cao.
+EX	pottery	Bat Trang village is famous for its pottery.	Làng Bát Tràng nổi tiếng với đồ gốm.
+EX	pound	It costs twenty pounds.	Nó có giá hai mươi bảng.
+EX	prefix	"Un-" is a prefix meaning "not".	"Un-" là tiền tố mang nghĩa "không".
+EX	preparation	Good preparation is the key to success in exams.	Chuẩn bị tốt là chìa khóa để thành công trong thi cử.
+EX	primary school	My son started primary school this year.	Năm nay con trai tôi bắt đầu vào tiểu học.
+EX	probability	There is a high probability of rain tomorrow.	Khả năng ngày mai có mưa là rất cao.
+EX	procrastination	Procrastination is a big problem for students.	Sự trì hoãn là một vấn đề lớn với học sinh.
+EX	prohibition	There is a prohibition on smoking in public places.	Có lệnh cấm hút thuốc ở nơi công cộng.
+EX	properly	Make sure the door is closed properly.	Hãy chắc chắn cửa đã được đóng kỹ.
+EX	prosperous	The town became prosperous thanks to tourism.	Thị trấn trở nên thịnh vượng nhờ du lịch.
+EX	proverb	"Practice makes perfect" is a well-known proverb.	"Có công mài sắt có ngày nên kim" là một câu tục ngữ quen thuộc.
+EX	punishment	The punishment for stealing is prison.	Hình phạt cho tội trộm cắp là ngồi tù.
+EX	pure	The water here is very pure.	Nước ở đây rất tinh khiết.
+EX	qualify	She qualified as a doctor last year.	Cô ấy đủ điều kiện hành nghề bác sĩ từ năm ngoái.
+EX	question mark	Don't forget the question mark at the end.	Đừng quên dấu chấm hỏi ở cuối câu.
+EX	rage	He was shaking with rage.	Anh ta run lên vì giận dữ.
+EX	rainfall	The region has low rainfall.	Khu vực này có lượng mưa thấp.
+EX	rainforest	The Amazon rainforest is home to many animals.	Rừng mưa Amazon là nơi sinh sống của nhiều loài động vật.
+EX	rank	He reached the rank of captain.	Ông ấy lên đến cấp bậc đại úy.
+EX	ration	During the war, food was rationed.	Trong chiến tranh, lương thực được phân phối theo khẩu phần.
+EX	razor	He shaves with an electric razor.	Anh ấy cạo râu bằng dao cạo điện.
+EX	reasonable	The prices here are very reasonable.	Giá ở đây rất phải chăng.
+EX	rebuild	They rebuilt the bridge after the flood.	Họ xây lại cây cầu sau trận lũ.
+EX	recording	This is a recording of the concert.	Đây là bản thu âm buổi hòa nhạc.
+EX	reef	The coral reef is full of colourful fish.	Rạn san hô có rất nhiều cá đủ màu sắc.
+EX	registration	Registration for the course closes on Friday.	Việc đăng ký khóa học kết thúc vào thứ Sáu.
+EX	remote control	Where's the TV remote control?	Cái điều khiển TV đâu rồi?
+EX	repeatedly	I've repeatedly asked him to be quiet.	Tôi đã nhiều lần bảo anh ta im lặng.
+EX	reputation	The restaurant has a good reputation.	Nhà hàng có tiếng tốt.
+EX	rescue	The rescue team arrived quickly.	Đội cứu hộ đến rất nhanh.
+EX	researcher	Researchers found a link between diet and health.	Các nhà nghiên cứu tìm thấy mối liên hệ giữa chế độ ăn và sức khỏe.
+EX	resident	Local residents complained about the noise.	Cư dân địa phương phàn nàn về tiếng ồn.
+EX	resist	I couldn't resist eating another cake.	Tôi không cưỡng lại được, ăn thêm một chiếc bánh nữa.
+EX	retail	She works in retail.	Cô ấy làm trong ngành bán lẻ.
+EX	revision	I'm doing some revision for my exams.	Tôi đang ôn tập cho kỳ thi.
+EX	roadside	They stopped at a roadside café.	Họ dừng lại ở một quán cà phê ven đường.
+EX	salesman	The salesman showed us several cars.	Người bán hàng cho chúng tôi xem vài chiếc xe.
+EX	satisfaction	She gets a lot of satisfaction from her job.	Cô ấy rất hài lòng với công việc của mình.
+EX	scholar	He is a respected scholar of Chinese history.	Ông ấy là một học giả uy tín về lịch sử Trung Quốc.
+EX	scratch	There is a scratch on my car.	Xe của tôi có một vết xước.
+EX	seawater	You can't drink seawater.	Bạn không thể uống nước biển.
+EX	secondary school	She teaches English at a secondary school.	Cô ấy dạy tiếng Anh ở một trường trung học.
+EX	secure	Keep your passport in a secure place.	Hãy giữ hộ chiếu ở nơi an toàn.
+EX	select	Select the correct answer from the list.	Chọn đáp án đúng từ danh sách.
+EX	self-service	It's a self-service restaurant.	Đây là nhà hàng tự phục vụ.
+EX	sequence	Put the pictures in the correct sequence.	Hãy sắp xếp các bức tranh theo đúng trình tự.
+EX	series	I'm watching a new TV series.	Tôi đang xem một bộ phim truyền hình mới.
+EX	shallow	The children played in the shallow water.	Bọn trẻ chơi ở chỗ nước nông.
+EX	shameful	His behaviour was shameful.	Cách cư xử của anh ta thật đáng xấu hổ.
+EX	shave	He shaves every morning.	Anh ấy cạo râu mỗi sáng.
+EX	shelter	We found shelter from the rain under a tree.	Chúng tôi trú mưa dưới một gốc cây.
+EX	sheriff	The sheriff arrested the robber.	Cảnh sát trưởng đã bắt tên cướp.
+EX	shiny	She has shiny black hair.	Cô ấy có mái tóc đen óng.
+EX	shocking	The news was shocking.	Tin tức thật gây sốc.
+EX	sigh	She gave a sigh of relief.	Cô ấy thở phào nhẹ nhõm.
+EX	significance	Few people understood the significance of the discovery.	Ít người hiểu được tầm quan trọng của phát hiện này.
+EX	similarity	There are many similarities between the two languages.	Hai ngôn ngữ có nhiều điểm giống nhau.
+EX	simplify	Can you simplify the instructions?	Bạn có thể đơn giản hóa phần hướng dẫn không?
+EX	slightly	The price has increased slightly.	Giá đã tăng nhẹ.
+EX	slip	Be careful not to slip on the wet floor.	Cẩn thận kẻo trượt chân trên sàn ướt.
+EX	smoker	He is a heavy smoker.	Ông ấy hút thuốc rất nhiều.
+EX	snowstorm	The snowstorm closed the roads.	Trận bão tuyết làm tắc nghẽn các con đường.
+EX	specialist	You should see a heart specialist.	Bạn nên đi khám bác sĩ chuyên khoa tim.
+EX	spoil	Don't let the rain spoil your day.	Đừng để cơn mưa làm hỏng ngày của bạn.
+EX	sponge	Wash the car with a sponge.	Rửa xe bằng miếng bọt biển.
+EX	sponsor	The event needs a sponsor.	Sự kiện cần một nhà tài trợ.
+EX	stable	The patient's condition is stable.	Tình trạng của bệnh nhân đã ổn định.
+EX	stall	She runs a fruit stall at the market.	Cô ấy có một sạp trái cây ở chợ.
+EX	sticker	He put a sticker on his laptop.	Anh ấy dán một miếng sticker lên laptop.
+EX	stir	Stir the soup every few minutes.	Cứ vài phút lại khuấy nồi súp một lần.
+EX	storage	The basement is used for storage.	Tầng hầm được dùng làm kho chứa đồ.
+EX	stormy	It was a dark and stormy night.	Đó là một đêm tối trời và giông bão.
+EX	strip	Cut the paper into long strips.	Cắt giấy thành những dải dài.
+EX	struggle	The book tells the story of her struggle against illness.	Cuốn sách kể về cuộc chiến chống bệnh tật của cô ấy.
+EX	studio	The band recorded the album in a London studio.	Ban nhạc thu âm album tại một phòng thu ở London.
+EX	suffix	"-ness" is a suffix used to make nouns.	"-ness" là hậu tố dùng để tạo danh từ.
+EX	surgeon	The surgeon operated on her knee.	Bác sĩ phẫu thuật đã mổ đầu gối cho cô ấy.
+EX	surprisingly	Surprisingly, the test was easy.	Thật bất ngờ, bài kiểm tra lại dễ.
+EX	surround	The village is surrounded by mountains.	Ngôi làng được bao quanh bởi núi.
+EX	survivor	There were only two survivors of the crash.	Chỉ có hai người sống sót sau vụ tai nạn.
+EX	swell	Her ankle began to swell.	Mắt cá chân cô ấy bắt đầu sưng lên.
+EX	sympathy	I have a lot of sympathy for him.	Tôi rất thông cảm với anh ấy.
+EX	talkative	She is very talkative and friendly.	Cô ấy rất hoạt ngôn và thân thiện.
+EX	tasteless	The soup was tasteless.	Món súp nhạt nhẽo.
+EX	tease	Stop teasing your little brother.	Đừng trêu em trai nữa.
+EX	telegram	In the past, people sent telegrams for urgent news.	Ngày xưa, người ta gửi điện tín khi có tin khẩn.
+EX	temper	He has a bad temper.	Anh ấy rất nóng tính.
+EX	tension	There is tension between the two countries.	Có căng thẳng giữa hai nước.
+EX	thankful	I'm thankful for all your help.	Tôi rất biết ơn mọi sự giúp đỡ của bạn.
+EX	threat	Climate change is a threat to the whole world.	Biến đổi khí hậu là mối đe dọa với toàn thế giới.
+EX	tile	The bathroom has blue tiles.	Phòng tắm được lát gạch men màu xanh.
+EX	timely	Thank you for your timely help.	Cảm ơn sự giúp đỡ kịp thời của bạn.
+EX	trace	The thief left no trace.	Tên trộm không để lại dấu vết nào.
+EX	tragedy	His death was a terrible tragedy.	Cái chết của anh ấy là một bi kịch khủng khiếp.
+EX	transfer	The money was transferred to my account.	Tiền đã được chuyển vào tài khoản của tôi.
+EX	treat	Let's go out for dinner – my treat!	Đi ăn tối nhé – tôi mời!
+EX	triumph	The concert was a triumph.	Buổi hòa nhạc thành công rực rỡ.
+EX	tropical	Vietnam has a tropical climate.	Việt Nam có khí hậu nhiệt đới.
+EX	trustworthy	She is honest and trustworthy.	Cô ấy trung thực và đáng tin cậy.
+EX	twist	Twist the lid to open the bottle.	Vặn nắp để mở chai.
+EX	undo	I can't undo this knot.	Tôi không gỡ được cái nút thắt này.
+EX	unexpected	We had an unexpected visitor.	Chúng tôi có một vị khách không mời mà đến.
+EX	unfortunate	It's unfortunate that you missed the meeting.	Thật đáng tiếc là bạn đã lỡ buổi họp.
+EX	unique	Each person's fingerprints are unique.	Dấu vân tay của mỗi người là duy nhất.
+EX	van	The delivery van is outside.	Xe tải giao hàng đang ở ngoài.
+EX	vehicle	The road is closed to all vehicles.	Con đường cấm tất cả các loại xe.
+EX	vessel	The fishing vessel returned to port.	Con tàu đánh cá đã trở về cảng.
+EX	vice president	The vice president will attend the meeting.	Phó chủ tịch sẽ dự cuộc họp.
+EX	victim	The victims of the flood need help.	Các nạn nhân lũ lụt cần được giúp đỡ.
+EX	ward	She works on the children's ward.	Cô ấy làm việc ở khoa nhi.
+EX	warning	The government issued a storm warning.	Chính phủ đã phát cảnh báo bão.
+EX	warranty	The TV has a two-year warranty.	Chiếc TV được bảo hành hai năm.
+EX	weird	I heard a weird noise last night.	Tối qua tôi nghe thấy một tiếng động lạ.
+EX	wire	Don't touch that electric wire.	Đừng chạm vào sợi dây điện đó.
+EX	wither	The flowers withered in the heat.	Những bông hoa héo đi vì nóng.
+EX	wizard	The wizard cast a spell on the prince.	Phù thủy yểm bùa lên hoàng tử.
+EX	workplace	Smoking is banned in the workplace.	Hút thuốc bị cấm ở nơi làm việc.
+EX	workshop	I went to a writing workshop last weekend.	Cuối tuần trước tôi tham gia một buổi hội thảo về viết.
+EX	wristwatch	He looked at his wristwatch.	Anh ấy nhìn đồng hồ đeo tay.
+EX	yell	She gave a yell of excitement.	Cô ấy hét lên vì phấn khích.
+EX	attorney	He hired an attorney to defend him.	Ông ấy thuê một luật sư để bào chữa.
+EX	dragon	The dragon is a symbol of power in Asian culture.	Rồng là biểu tượng của quyền lực trong văn hóa châu Á.
+EX	witch	The witch lived in a house in the forest.	Mụ phù thủy sống trong một ngôi nhà trong rừng.
+EX	fourth	He finished fourth in the race.	Anh ấy về thứ tư trong cuộc đua.
+EX	sin	Many religions teach that lying is a sin.	Nhiều tôn giáo dạy rằng nói dối là một tội lỗi.
+EX	alien	The film is about aliens who visit Earth.	Bộ phim kể về người ngoài hành tinh đến Trái Đất.
+EX	bravo	Bravo! That was a great performance!	Hoan hô! Màn trình diễn tuyệt quá!
+EX	mummy	We saw an Egyptian mummy at the museum.	Chúng tôi xem một xác ướp Ai Cập ở bảo tàng.
+EX	saint	The church is named after a saint.	Nhà thờ được đặt theo tên một vị thánh.
+EX	maid	The maid cleans the rooms every morning.	Người giúp việc dọn phòng mỗi sáng.
+EX	bye-bye	Say bye-bye to Grandma!	Chào bà đi con!
+EX	siren	We heard the siren of an ambulance.	Chúng tôi nghe thấy tiếng còi xe cứu thương.
+EX	comrade	He fought side by side with his comrades.	Ông ấy chiến đấu sát cánh cùng đồng đội.
+EX	skull	The doctor looked at an X-ray of his skull.	Bác sĩ xem phim chụp X-quang hộp sọ của anh ấy.
+EX	blessed	We are blessed with good weather.	Chúng tôi may mắn được thời tiết đẹp.
+EX	crystal	The glasses are made of crystal.	Những chiếc ly được làm bằng pha lê.
+EX	mistress	The king had several mistresses.	Nhà vua có vài người tình.
+EX	vampire	Vampires are popular in horror films.	Ma cà rồng rất phổ biến trong phim kinh dị.
+EX	bail	He was released on bail.	Anh ta được tại ngoại.
+EX	clay	The children made animals out of clay.	Bọn trẻ nặn con vật bằng đất sét.
+EX	knight	The knight fought to protect the king.	Hiệp sĩ chiến đấu để bảo vệ nhà vua.
+EX	odds	The odds are that it will rain tomorrow.	Nhiều khả năng ngày mai trời sẽ mưa.
+EX	escort	Police escorted the president to the airport.	Cảnh sát hộ tống tổng thống ra sân bay.
+EX	fort	The old fort stands on a hill.	Pháo đài cổ nằm trên một ngọn đồi.
+EX	alley	The cat ran down a dark alley.	Con mèo chạy vào một con hẻm tối.
+EX	locker	Leave your bags in the lockers.	Hãy để túi vào tủ khóa.
+EX	admiral	The admiral commanded the whole fleet.	Viên đô đốc chỉ huy toàn bộ hạm đội.
+EX	warehouse	The goods are stored in a warehouse.	Hàng hóa được cất trong nhà kho.
+EX	crane	A huge crane lifted the steel beams.	Một chiếc cần cẩu khổng lồ nâng các thanh dầm thép.
+EX	throne	The prince will take the throne next year.	Hoàng tử sẽ lên ngôi vào năm tới.
+EX	benefit	Regular exercise has many health benefits.	Tập thể dục đều đặn mang lại nhiều lợi ích cho sức khỏe.
+EX	factor	Cost is an important factor in our decision.	Chi phí là một yếu tố quan trọng trong quyết định của chúng tôi.
+EX	feature	The phone has many new features.	Chiếc điện thoại có nhiều tính năng mới.
+EX	stereotype	The film challenges the stereotype of the lazy student.	Bộ phim thách thức định kiến về học sinh lười biếng.
+EX	ambitious	She is ambitious and wants to run her own company.	Cô ấy đầy tham vọng và muốn điều hành công ty riêng.
+EX	requirement	A degree is a requirement for this job.	Bằng đại học là yêu cầu cho công việc này.
+EX	exaggerate	Don't exaggerate – it wasn't that bad.	Đừng phóng đại – mọi chuyện đâu tệ đến thế.
+EX	precise	Can you give me the precise time?	Bạn có thể cho tôi biết giờ chính xác không?
+EX	subjective	Beauty is subjective.	Cái đẹp mang tính chủ quan.
+EX	optimistic	I'm optimistic about the future.	Tôi lạc quan về tương lai.
+EX	metaphor	"Time is money" is a metaphor.	"Thời gian là tiền bạc" là một phép ẩn dụ.
+EX	idiom	"Piece of cake" is an idiom meaning "very easy".	"Piece of cake" là một thành ngữ có nghĩa là "rất dễ".
+EX	collocation	"Make a decision" is a common collocation.	"Make a decision" là một kết hợp từ phổ biến.
+EX	euphemism	"Pass away" is a euphemism for "die".	"Pass away" là cách nói giảm nói tránh của "die".
+EX	counterargument	A good essay considers the counterargument.	Một bài luận tốt có xét đến luận điểm phản bác.
+EX	participate	All students are encouraged to participate in sports.	Tất cả học sinh được khuyến khích tham gia thể thao.
+EX	compassionate	She is a kind and compassionate nurse.	Cô ấy là một y tá tốt bụng và giàu lòng trắc ẩn.
+EX	carbohydrate	Rice and bread are rich in carbohydrates.	Cơm và bánh mì giàu chất bột đường.
+EX	blood pressure	The nurse checked my blood pressure.	Y tá đo huyết áp cho tôi.
+EX	software update	Install the latest software update.	Hãy cài đặt bản cập nhật phần mềm mới nhất.
+EX	exchange rate	What's the exchange rate between the dollar and the dong?	Tỷ giá giữa đô la và đồng là bao nhiêu?
+EX	aboriginal	The museum displays aboriginal art.	Bảo tàng trưng bày nghệ thuật của thổ dân.
+EX	actual	The actual cost was higher than we expected.	Chi phí thực tế cao hơn chúng tôi dự tính.
+EX	addict	He is a coffee addict.	Anh ấy là người nghiện cà phê.
+EX	aircraft	The aircraft landed safely.	Chiếc máy bay đã hạ cánh an toàn.
+EX	aluminium	Cans are often made of aluminium.	Lon thường được làm bằng nhôm.
+EX	ambassador	The ambassador met the prime minister.	Đại sứ đã gặp thủ tướng.
+EX	amongst	She was amongst the best students in the class.	Cô ấy nằm trong số những học sinh giỏi nhất lớp.
+EX	ash	There was ash everywhere after the fire.	Sau vụ cháy, tro bụi khắp nơi.
+EX	attendance	Attendance at the meeting was low.	Số người tham dự buổi họp rất ít.
+EX	await	We are awaiting your reply.	Chúng tôi đang chờ hồi âm của bạn.
+EX	backyard	The kids are playing in the backyard.	Bọn trẻ đang chơi ở sân sau.
+EX	banker	Her father is a banker.	Bố cô ấy là một chủ ngân hàng.
+EX	barbershop	There's a barbershop on the corner.	Có một tiệm cắt tóc ở góc phố.
+EX	barley	Barley is used to make beer.	Lúa mạch được dùng để làm bia.
+EX	battlefield	Thousands of soldiers died on the battlefield.	Hàng nghìn binh lính đã hy sinh trên chiến trường.
+EX	beam	A beam of light came through the window.	Một chùm ánh sáng chiếu qua cửa sổ.
+EX	berry	Birds eat the berries from this bush.	Chim ăn quả mọng của bụi cây này.
+EX	bestseller	Her first novel became a bestseller.	Cuốn tiểu thuyết đầu tay của cô ấy trở thành sách bán chạy.
+EX	bind	They bound his hands with rope.	Họ trói tay anh ta bằng dây thừng.
+EX	birthplace	Hue is the birthplace of my mother.	Huế là quê hương của mẹ tôi.
+EX	booklet	The booklet explains how to use the machine.	Cuốn sách nhỏ giải thích cách sử dụng máy.
+EX	botany	She studied botany at university.	Cô ấy học thực vật học ở trường đại học.
+EX	bravery	He received a medal for bravery.	Anh ấy được trao huân chương vì lòng dũng cảm.
+EX	cabinet	The prime minister chose a new cabinet.	Thủ tướng chọn nội các mới.
+EX	candidate	There are three candidates for the job.	Có ba ứng viên cho vị trí này.
+EX	carnival	The town holds a carnival every summer.	Thị trấn tổ chức lễ hội hóa trang mỗi mùa hè.
+EX	cello	She plays the cello in an orchestra.	Cô ấy chơi đàn cello trong một dàn nhạc.
+EX	chancellor	The German Chancellor visited Vietnam.	Thủ tướng Đức đã thăm Việt Nam.
+EX	chimney	Smoke was rising from the chimney.	Khói bốc lên từ ống khói.
+EX	clam	We had clam soup for lunch.	Chúng tôi ăn canh nghêu vào bữa trưa.
+EX	classification	The classification of animals into groups helps scientists.	Việc phân loại động vật thành từng nhóm giúp ích cho các nhà khoa học.
+EX	clause	A clause in the contract says you can't have pets.	Một điều khoản trong hợp đồng quy định không được nuôi thú cưng.
+EX	climate change	Climate change is causing more floods.	Biến đổi khí hậu đang gây ra nhiều trận lũ hơn.
+EX	clumsy	I'm so clumsy – I've broken another glass.	Tôi vụng về quá – lại làm vỡ thêm một cái cốc.
+EX	coconut	We drank fresh coconut water on the beach.	Chúng tôi uống nước dừa tươi trên bãi biển.
+EX	coma	He was in a coma for two weeks after the accident.	Anh ấy hôn mê hai tuần sau tai nạn.
+EX	commerce	The city is a centre of commerce.	Thành phố là một trung tâm thương mại.
+EX	complexion	She has a pale complexion.	Cô ấy có nước da nhợt nhạt.
+EX	component	The factory makes car components.	Nhà máy sản xuất linh kiện ô tô.
+EX	conceal	She tried to conceal her feelings.	Cô ấy cố che giấu cảm xúc của mình.
+EX	conception	Children have a different conception of time.	Trẻ em có quan niệm khác về thời gian.
+EX	concrete	We need concrete evidence.	Chúng ta cần bằng chứng cụ thể.
+EX	conductor	The conductor raised his hands and the music began.	Nhạc trưởng giơ tay lên và âm nhạc bắt đầu.
+EX	conjunction	"And", "but" and "because" are conjunctions.	"And", "but" và "because" là liên từ.
+EX	conscience	He has a guilty conscience.	Anh ta cắn rứt lương tâm.
+EX	cooperation	Thank you for your cooperation.	Cảm ơn sự hợp tác của bạn.
+EX	coral	Coral reefs are in danger because of warmer seas.	Các rạn san hô đang bị đe dọa vì nước biển ấm lên.
+EX	cornet	He plays the cornet in a brass band.	Anh ấy chơi kèn cornet trong một ban nhạc kèn đồng.
+EX	corrupt	The corrupt official was sent to prison.	Viên quan tham nhũng đã bị bỏ tù.
+EX	countryman	He was happy to meet a fellow countryman abroad.	Anh ấy vui mừng gặp được đồng hương ở nước ngoài.
+EX	crocodile	A crocodile was lying on the river bank.	Một con cá sấu đang nằm trên bờ sông.
+EX	cube	Cut the meat into cubes.	Thái thịt thành miếng vuông.
+EX	cubism	Picasso is famous for cubism.	Picasso nổi tiếng với trường phái lập thể.
+EX	dandelion	Children love blowing dandelion seeds.	Trẻ con thích thổi hạt bồ công anh.
+EX	daughter-in-law	Her daughter-in-law is a doctor.	Con dâu bà ấy là bác sĩ.
+EX	dawn	We left at dawn.	Chúng tôi lên đường lúc bình minh.
+EX	decade	Prices have doubled in the past decade.	Giá cả đã tăng gấp đôi trong thập kỷ qua.
+EX	deer	We saw a deer in the forest.	Chúng tôi thấy một con nai trong rừng.
+EX	dense	The plane flew through dense fog.	Máy bay bay qua lớp sương mù dày đặc.
+EX	desperation	In desperation, he called the police.	Trong lúc tuyệt vọng, anh ấy gọi cảnh sát.
+EX	dictator	The dictator ruled the country for thirty years.	Tên độc tài cai trị đất nước suốt ba mươi năm.
+EX	dignity	Everyone should be treated with dignity.	Mọi người đều cần được đối xử tôn trọng.
+EX	diplomat	She worked as a diplomat in Japan.	Bà ấy từng làm nhà ngoại giao ở Nhật Bản.
+EX	disgrace	He left the company in disgrace.	Ông ta rời công ty trong ô nhục.
+EX	donkey	The farmer uses a donkey to carry water.	Người nông dân dùng con lừa để chở nước.
+EX	dove	The dove is a symbol of peace.	Chim bồ câu là biểu tượng của hòa bình.
+EX	dowry	In the past, a bride's family paid a dowry.	Ngày xưa, nhà gái phải lo của hồi môn.
+EX	dwarf	Snow White lived with seven dwarfs.	Bạch Tuyết sống cùng bảy chú lùn.
+EX	eagle	An eagle flew high above the mountains.	Một con đại bàng bay cao trên những ngọn núi.
+EX	edit	I made a few edits to the essay.	Tôi đã chỉnh sửa vài chỗ trong bài luận.
+EX	editorial	The newspaper's editorial criticised the government.	Bài xã luận của tờ báo chỉ trích chính phủ.
+EX	elect	The people elected a new president.	Người dân bầu ra một tổng thống mới.
+POS	select	verb
+POS	tease	verb
+POS	slip	verb
+POS	twist	verb
+POS	wizard	noun
+POS	resident	noun
+VI	overjoyed	vui mừng khôn xiết
+VI	workplace	nơi làm việc
+VI	stormy	có bão
+VI	resident	cư dân
+VI	select	chọn
+VI	dawn	bình minh
+VI	sponsor	nhà tài trợ
+VI	sigh	tiếng thở dài
+VI	scratch	vết xước
+VI	motto	phương châm, khẩu hiệu
+VI	pottery	đồ gốm
+VI	nod	cái gật đầu
+VI	yell	tiếng hét
+VI	edit	sự chỉnh sửa
+VI	tasteless	nhạt nhẽo; thiếu tế nhị
+VI	alien	người ngoài hành tinh; người nước ngoài
+VI	banker	chủ ngân hàng, nhân viên ngân hàng
+VI	measure	biện pháp; sự đo lường
+EN	landlord	A person who rents a house or room to someone.
+EN	literary	Relating to literature.
+EN	logo	A design used by a company as its symbol.
+EN	management	The control and organisation of a business; the people who run it.
+EN	mathematician	A person who studies or is an expert in mathematics.
+EN	melt	To change from solid to liquid because of heat.
+EN	mend	To repair something that is broken or torn.
+EN	messy	Untidy or dirty.
+EN	moisture	Small amounts of water in the air or on a surface.
+EN	moss	A small soft green plant that grows on stones and trees.
+EN	motivate	To make someone want to do something.
+EN	motto	A short phrase that expresses a belief or aim.
+EN	mourn	To feel very sad because someone has died.
+EN	nectar	A sweet liquid in flowers that bees collect.
+EN	nod	A movement of the head up and down to show agreement.
+EN	normally	Usually.
+EN	nuclear	Relating to the energy produced by splitting atoms.
+EN	nutrient	A substance in food that living things need to grow.
+EN	obviously	In a way that is easy to see or understand.
+EN	oppress	To treat people cruelly and unfairly.
+EN	oppression	Cruel and unfair treatment of people.
+EN	option	Something you can choose.
+EN	origin	The point where something starts or comes from.
+EN	partial	Not complete.
+EN	participle	A verb form such as "broken" or "going" used in tenses or as an adjective.
+EN	pottery	Pots and dishes made from baked clay; the craft of making them.
+EN	prefix	Letters added to the start of a word to change its meaning, such as "un-".
+EN	procrastination	The habit of delaying things you should do.
+EN	prohibition	An official rule that forbids something.
+EN	proverb	A short well-known saying that gives advice.
+EN	punishment	A penalty for doing something wrong.
+EN	question mark	The punctuation mark (?) used at the end of a question.
+EN	rainfall	The amount of rain that falls in a place.
+EN	ration	A fixed amount of food allowed to each person.
+EN	razor	A tool for shaving.
+EN	reasonable	Fair and sensible; not too expensive.
+EN	recording	Sound or pictures that have been recorded.
+EN	registration	The act of officially recording a name or joining a course.
+EN	remote control	A device used to control a TV or machine from a distance.
+EN	rescue	The act of saving someone from danger.
+EN	researcher	A person who does research.
+EN	resident	A person who lives in a particular place.
+EN	resist	To fight against something; to stop yourself doing something you want.
+EN	retail	The business of selling goods to the public.
+EN	roadside	The area at the side of a road.
+EN	salesman	A man whose job is selling things.
+EN	satisfaction	A pleasant feeling when you get what you want.
+EN	seawater	Salt water from the sea.
+EN	secondary school	A school for children aged about 11 to 18.
+EN	self-service	Where customers serve themselves.
+EN	shallow	Not deep.
+EN	shameful	Bad enough to make you feel ashamed.
+EN	shelter	A place that gives protection from bad weather or danger.
+EN	sheriff	The chief police officer of a county in the US.
+EN	shiny	Smooth and bright.
+EN	shocking	Very surprising and upsetting.
+EN	significance	The importance of something.
+EN	similarity	The way in which things are alike.
+EN	simplify	To make something easier to understand or do.
+EN	slightly	A little.
+EN	smoker	A person who smokes.
+EN	snowstorm	A storm with a lot of snow and wind.
+EN	specialist	An expert in a particular subject, especially a doctor.
+EN	sponsor	A person or company that pays for an event in return for advertising.
+EN	stir	To mix a liquid by moving a spoon round in it.
+EN	storage	A place or way of keeping things until they are needed.
+EN	stormy	With strong winds and heavy rain.
+EN	struggle	A great effort to do something difficult.
+EN	suffix	Letters added to the end of a word to make a new word, such as "-ness".
+EN	surgeon	A doctor who performs operations.
+EN	surprisingly	In a way that is surprising.
+EN	tasteless	Having no flavour; also rude or offensive.
+EN	telegram	A message sent by telegraph and delivered on paper.
+EN	thankful	Glad and grateful.
+EN	timely	Happening at the right time.
+EN	tragedy	A very sad event; a serious play with a sad ending.
+EN	triumph	A great success or victory.
+EN	tropical	Relating to the hot regions near the equator.
+EN	trustworthy	Able to be trusted.
+EN	undo	To open something tied or fastened; to cancel a change.
+EN	unexpected	Not expected; surprising.
+EN	unfortunate	Unlucky; regrettable.
+EN	unique	Being the only one of its kind.
+EN	van	A small truck for carrying goods.
+EN	vice president	The person below the president in rank.
+EN	victim	A person who is harmed by a crime, accident or disaster.
+EN	warning	Something that tells you about possible danger.
+EN	warranty	A written promise to repair or replace a product if it breaks.
+EN	weird	Very strange.
+EN	wither	To become dry and die (of plants).
+EN	wizard	A man with magic powers.
+EN	workplace	The place where people work.
+EN	yell	A loud shout.
+EN	attorney	A lawyer (US).
+EN	fourth	Coming after the third in order.
+EN	mummy	A dead body preserved by wrapping it in cloth, as in ancient Egypt.
+EN	saint	A very good person honoured by the Christian church after death.
+EN	skull	The bone structure of the head.
+EN	blessed	Lucky; holy.
+EN	bail	Money paid so that an accused person can leave prison until their trial.
+EN	knight	A soldier of high rank in the Middle Ages who served a king.
+EN	odds	The probability that something will happen.
+EN	escort	To go with someone to protect or guide them.
+EN	fort	A strong building used for defence.
+EN	admiral	A naval officer of very high rank.
+EN	warehouse	A large building for storing goods.
+EN	benefit	An advantage or good effect.
+EN	factor	One of the things that cause a situation.
+EN	stereotype	A fixed and often wrong idea about what a type of person is like.
+EN	requirement	Something that you need or must do.
+EN	exaggerate	To make something seem bigger, better or worse than it really is.
+EN	precise	Exact and accurate.
+EN	subjective	Based on personal feelings rather than facts.
+EN	metaphor	A way of describing something by calling it something else, e.g. "time is money".
+EN	euphemism	A polite word used instead of an unpleasant one.
+EN	counterargument	An argument against another argument.
+EN	participate	To take part in something.
+EN	compassionate	Showing care and sympathy for others.
+EN	blood pressure	The force of blood moving through the body.
+EN	exchange rate	The value of one currency compared with another.
+EN	actual	Real; not imagined.
+EN	addict	A person who cannot stop taking a drug or doing something.
+EN	aluminium	A light silver-coloured metal.
+EN	attendance	The number of people present at an event; being present.
+EN	backyard	The area behind a house.
+EN	banker	A person who works in a high position in a bank.
+EN	barley	A grain used for food and making beer.
+EN	battlefield	A place where a battle is fought.
+EN	bestseller	A book that sells a very large number of copies.
+EN	booklet	A small thin book with a paper cover.
+EN	botany	The scientific study of plants.
+EN	bravery	Courage.
+EN	candidate	A person who is trying to be chosen for a job or position.
+EN	chancellor	The head of government in some countries, such as Germany.
+EN	chimney	A pipe that takes smoke out of a building.
+EN	classification	The act of putting things into groups.
+EN	coma	A deep unconscious state that lasts a long time.
+EN	commerce	The buying and selling of goods.
+EN	complexion	The natural colour and condition of the skin on your face.
+EN	conceal	To hide something.
+EN	cooperation	Working together to achieve something.
+EN	cornet	A brass musical instrument like a small trumpet.
+EN	corrupt	Using power dishonestly, for example by taking bribes.
+EN	crocodile	A large reptile with a long mouth and sharp teeth.
+EN	cubism	A style of art using geometric shapes, started by Picasso.
+EN	desperation	The feeling of being so worried that you will try anything.
+EN	dignity	The quality of being respected or of respecting yourself.
+EN	donkey	An animal like a small horse with long ears.
+EN	dowry	Money or property given by a bride's family when she marries.
+EN	edit	A change made to a text or recording.
+EN	editorial	A newspaper article giving the editor's opinion.
