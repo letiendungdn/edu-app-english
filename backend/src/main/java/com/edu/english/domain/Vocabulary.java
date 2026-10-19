@@ -51,6 +51,10 @@ public class Vocabulary {
   /** Họ từ, ví dụ "analyse (v) · analysis (n) · analytical (adj)". */
   private String wordFamily;
   private Integer frequencyRank;
+
+  /** CORE: cốt lõi cho IELTS. EXTRA: từ hiếm, ít gặp trong đề (học sau). */
+  @Column(nullable = false)
+  private String priority = "CORE";
   private int sortOrder;
 
   @ManyToOne(fetch = FetchType.LAZY)

@@ -3,10 +3,11 @@ import { RouterLink } from '@angular/router';
 import { ApiService } from '../core/api.service';
 import { LEVELS, VocabPage, VocabWord } from '../core/models';
 import { RespellPipe } from '../shared/respell';
+import { PhonicsHintsComponent } from '../shared/phonics-hints.component';
 
 @Component({
   selector: 'app-vocab',
-  imports: [RespellPipe, RouterLink],
+  imports: [PhonicsHintsComponent, RespellPipe, RouterLink],
   template: `
     <div class="container page">
       <div class="row" style="justify-content: space-between; margin-bottom: 1rem;">
@@ -18,6 +19,7 @@ import { RespellPipe } from '../shared/respell';
         <div class="row">
           <a class="btn" routerLink="/vocab/flashcard">Flashcard</a>
           <a class="btn" routerLink="/vocab/picture">Từ điển tranh</a>
+          <a class="btn" routerLink="/phonics">Quy tắc phát âm</a>
           <a class="btn btn-primary" routerLink="/vocab/review">SRS Review</a>
         </div>
       </div>
@@ -26,6 +28,12 @@ import { RespellPipe } from '../shared/respell';
         @for (item of levels; track item) {
           <button class="btn" [class.btn-primary]="level() === item" (click)="setLevel(item)">{{ item }}</button>
         }
+      </div>
+      <div class="row" style="margin-bottom: 1rem;" role="group" aria-label="Mức ưu tiên">
+        @for (p of priorities; track p.value) {
+          <button class="btn btn-sm" [class.btn-primary]="priority() === p.value" (click)="setPriority(p.value)" [title]="p.hint">{{ p.label }}</button>
+        }
+        @if (query().trim()) { <span class="muted small" style="align-self: center;">Khi tìm kiếm, hiện mọi từ.</span> }
       </div>
       <input type="search" placeholder="Tìm từ hoặc nghĩa, ví dụ: apple, táo…" [value]="query()"
              (input)="onSearch($any($event.target).value)" aria-label="Tìm từ vựng"
@@ -36,7 +44,10 @@ import { RespellPipe } from '../shared/respell';
         @for (word of words(); track word.id) {
           <button class="card" style="text-align: left; cursor: pointer;" (click)="flip(word.id)">
             <div class="row" style="justify-content: space-between;">
-              <span class="badge" [class]="'badge badge-' + word.level">{{ word.level }}</span>
+              <span class="row" style="gap: 0.3rem;">
+                <span class="badge" [class]="'badge badge-' + word.level">{{ word.level }}</span>
+                @if (word.priority === 'EXTRA') { <span class="badge badge-extra" title="Từ hiếm, ít gặp trong đề IELTS">Ít gặp</span> }
+              </span>
               <span class="muted" style="font-size: 0.75rem;">{{ word.partOfSpeech }}</span>
             </div>
             <div style="font-size: 1.25rem; font-weight: 700;">{{ word.word }}</div>
@@ -46,6 +57,7 @@ import { RespellPipe } from '../shared/respell';
               @if (word.meaningEn) { <div class="muted">{{ word.meaningEn }}</div> }
               @if (word.exampleEn) { <div class="muted" style="font-style: italic;">"{{ word.exampleEn }}"</div> }
               @if (word.exampleVi) { <div class="muted">→ {{ word.exampleVi }}</div> }
+              <app-phonics-hints [word]="word.word" [phonetic]="word.phonetic" [pos]="word.partOfSpeech" />
               @if (word.family) { <div class="small" style="margin-top: 0.3rem;"><span class="muted">Họ từ:</span> {{ word.family }}</div> }
               <span class="btn" style="margin-top: 0.5rem;" (click)="speak(word.word, $event)">Nghe</span>
             } @else {
@@ -72,6 +84,13 @@ export class VocabComponent implements OnInit, AfterViewInit, OnDestroy {
   levels = LEVELS;
   level = signal('');
   query = signal('');
+  /** Mặc định chỉ học phần cốt lõi; từ hiếm để sau. */
+  priority = signal<'core' | 'extra' | ''>('core');
+  priorities: { value: 'core' | 'extra' | ''; label: string; hint: string }[] = [
+    { value: 'core', label: 'Cốt lõi IELTS', hint: 'Từ cần cho IELTS: học trước' },
+    { value: 'extra', label: 'Mở rộng (ít gặp)', hint: 'Từ hiếm, ít gặp trong đề: học sau' },
+    { value: '', label: 'Tất cả', hint: 'Cả cốt lõi và mở rộng' },
+  ];
   page = signal(1);
   private searchTimer?: number;
   data = signal<VocabPage | null>(null);
@@ -106,6 +125,11 @@ export class VocabComponent implements OnInit, AfterViewInit, OnDestroy {
     if (!el || !this.observer) return;
     this.observer.unobserve(el);
     this.observer.observe(el);
+  }
+
+  setPriority(value: 'core' | 'extra' | '') {
+    this.priority.set(value);
+    this.resetAndLoad();
   }
 
   setLevel(level: string) {
@@ -149,7 +173,7 @@ export class VocabComponent implements OnInit, AfterViewInit, OnDestroy {
     // Đổi cấp độ giữa chừng thì bỏ kết quả của lần tải cũ.
     const request = ++this.request;
     this.loading.set(true);
-    this.api.vocab(this.level(), this.page(), 30, '', this.query()).subscribe({
+    this.api.vocab(this.level(), this.page(), 30, '', this.query(), this.query().trim() ? '' : this.priority()).subscribe({
       next: (data) => {
         if (request !== this.request) return;
         this.data.set(data);

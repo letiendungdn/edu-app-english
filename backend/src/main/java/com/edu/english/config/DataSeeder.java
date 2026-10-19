@@ -192,9 +192,7 @@ public class DataSeeder implements CommandLineRunner {
       Vocabulary existing = known.get(seed.word().toLowerCase());
       if (existing != null) {
         boolean changed = false;
-        if ((existing.getPhonetic() == null || existing.getPhonetic().isBlank())
-            && seed.phonetic() != null
-            && !seed.phonetic().isBlank()) {
+        if (seed.phonetic() != null && !seed.phonetic().isBlank() && !seed.phonetic().equals(existing.getPhonetic())) {
           existing.setPhonetic(seed.phonetic());
           changed = true;
         }
@@ -234,6 +232,11 @@ public class DataSeeder implements CommandLineRunner {
           existing.setTopic(seedTopic);
           changed = true;
         }
+        String seedPriority = priorityOf(seed);
+        if (!seedPriority.equals(existing.getPriority())) {
+          existing.setPriority(seedPriority);
+          changed = true;
+        }
         if (seed.family() != null && !seed.family().equals(existing.getWordFamily())) {
           existing.setWordFamily(seed.family());
           changed = true;
@@ -254,6 +257,7 @@ public class DataSeeder implements CommandLineRunner {
       word.setExampleVi(seed.exampleVi());
       word.setSortOrder(seed.sortOrder());
       word.setWordFamily(seed.family());
+      word.setPriority(priorityOf(seed));
       String pictured = pictureUrl(pictures, seed.word());
       word.setImageUrl(pictured != null ? pictured : "https://api.dicebear.com/9.x/shapes/svg?seed=" + seed.word());
       vocabulary.save(word);
@@ -261,6 +265,10 @@ public class DataSeeder implements CommandLineRunner {
   }
 
   /** Nhóm chung theo cấp độ hoặc học thuật: được phép chuyển từ sang chủ đề cụ thể hơn. */
+  private static String priorityOf(WordSeed seed) {
+    return "EXTRA".equals(seed.priority()) ? "EXTRA" : "CORE";
+  }
+
   private static boolean isGeneralTopic(String name) {
     return name != null && (name.startsWith("Core ") || name.equals("Academic"));
   }

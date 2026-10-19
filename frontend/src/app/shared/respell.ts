@@ -7,7 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
  * Đây là cách đọc gần đúng: phụ âm cuối tiếng Anh (s, v, z...) được giữ nguyên để người học nhớ phải bật âm cuối.
  */
 
-const VOWELS: Record<string, string> = {
+export const VOWELS: Record<string, string> = {
   'eɪ': 'ây', 'aɪ': 'ai', 'aʊ': 'ao', 'ɔɪ': 'oi', 'oʊ': 'âu',
   i: 'i', ɪ: 'i', e: 'e', ɛ: 'e', æ: 'e', a: 'a', ɑ: 'a', ɒ: 'o', ɔ: 'o', o: 'ô',
   ʊ: 'u', u: 'u', ə: 'ơ', ʌ: 'ă', ɝ: 'ơr', ɜ: 'ơ',

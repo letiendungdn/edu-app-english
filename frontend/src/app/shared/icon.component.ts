@@ -17,6 +17,7 @@ const PATHS: Record<string, string> = {
   chart: '<path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/>',
   history: '<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/>',
   dictation: '<path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/>',
+  phonics: '<path d="M4 7V5h9v2"/><path d="M8.5 5v12"/><path d="M6.5 17h4"/><path d="M15 11a3 3 0 0 1 0 4"/><path d="M18 8.5a6.5 6.5 0 0 1 0 9"/>',
   menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
   moon: '<path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/>',

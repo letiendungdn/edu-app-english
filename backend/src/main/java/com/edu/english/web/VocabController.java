@@ -25,10 +25,11 @@ public class VocabController {
       @RequestParam(required = false) String level,
       @RequestParam(required = false) String topic,
       @RequestParam(required = false) String q,
+      @RequestParam(required = false) String priority,
       @RequestParam(defaultValue = "1") int page,
       @RequestParam(defaultValue = "30") int limit) {
     var user = CurrentUser.optional();
-    return vocab.list(level, topic, q, page, limit, user == null ? null : user.id());
+    return vocab.list(level, topic, q, priority, page, limit, user == null ? null : user.id());
   }
 
   @GetMapping("/topics")

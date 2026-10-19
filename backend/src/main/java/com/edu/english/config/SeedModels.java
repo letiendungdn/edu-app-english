@@ -22,7 +22,8 @@ public final class SeedModels {
       String exampleEn,
       String exampleVi,
       int sortOrder,
-      String family) {}
+      String family,
+      String priority) {}
 
   public record GrammarFile(List<GrammarTopicSeed> topics) {}
 

@@ -1,6 +1,7 @@
 import { Component, input, output } from '@angular/core';
 import { VocabWord } from '../core/models';
 import { RespellPipe } from './respell';
+import { PhonicsHintsComponent } from './phonics-hints.component';
 
 /** Đọc một đoạn tiếng Anh bằng giọng của trình duyệt. */
 export function speakEnglish(text: string | null | undefined) {
@@ -28,7 +29,7 @@ const POS_LABELS: Record<string, string> = {
 /** Thẻ từ vựng hai mặt, lật 3D. Mặt trước: từ, phiên âm. Mặt sau: nghĩa, ví dụ, hình. */
 @Component({
   selector: 'app-flip-card',
-  imports: [RespellPipe],
+  imports: [RespellPipe, PhonicsHintsComponent],
   template: `
     <div class="flip" [class.flipped]="flipped()" role="button" tabindex="0"
          [attr.aria-label]="flipped() ? 'Mặt sau: ' + word().meaningVi : 'Mặt trước: ' + word().word + '. Nhấn để lật'"
@@ -38,6 +39,7 @@ const POS_LABELS: Record<string, string> = {
           <div class="flip-meta">
             <span [class]="'badge badge-' + word().level">{{ word().level }}</span>
             @if (word().partOfSpeech) { <span class="badge">{{ pos(word().partOfSpeech) }}</span> }
+            @if (word().priority === 'EXTRA') { <span class="badge badge-extra" title="Từ hiếm, ít gặp trong đề IELTS">Ít gặp</span> }
             @if (word().topic?.name) { <span class="flip-topic">{{ word().topic!.name }}</span> }
           </div>
           <div class="flip-center">
@@ -45,6 +47,7 @@ const POS_LABELS: Record<string, string> = {
             @if (word().phonetic) {
               <div class="flip-phonetic">{{ word().phonetic }}</div>
               <div class="flip-respell" title="Cách đọc gần đúng bằng chữ Việt, âm tiết viết hoa là âm nhấn">Đọc: {{ word().phonetic | respell }}</div>
+              <app-phonics-hints [word]="word().word" [phonetic]="word().phonetic" [pos]="word().partOfSpeech" />
             }
             <button class="speak-btn" type="button" (click)="say($event, word().word)" aria-label="Nghe phát âm">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>

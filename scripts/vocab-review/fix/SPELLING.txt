@@ -1,0 +1,14 @@
+DROP	dialog	
+DROP	harbor	
+DROP	honor	
+DROP	neighbor	
+DROP	utilize	
+DROP	generalization	
+DROP	skillful	
+EN	dialogue	A conversation in a book, film or play, or between groups. (US: dialog)
+EN	harbour	An area of water near the coast where ships stay safely. (US: harbor)
+EN	honour	Great respect; something that makes you proud. (US: honor)
+EN	neighbour	A person who lives near you. (US: neighbor)
+EN	skilful	Good at doing something. (US: skillful)
+EN	utilise	To use something. (US: utilize)
+EN	generalisation	A statement about all members of a group based on only a few. (US: generalization)

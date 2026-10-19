@@ -58,19 +58,27 @@ public class VocabService {
 
   @Transactional(readOnly = true)
   public VocabPage list(String levelParam, int page, int limit, Long userId) {
-    return list(levelParam, null, null, page, limit, userId);
+    return list(levelParam, null, null, null, page, limit, userId);
   }
 
-  /** topic: tên chủ đề, ví dụ "IELTS Environment". q: từ hoặc nghĩa tiếng Việt. Bỏ trống là không lọc. */
+  /**
+   * topic: tên chủ đề, ví dụ "IELTS Environment". q: từ hoặc nghĩa tiếng Việt. priority: core, extra hoặc bỏ trống
+   * (tất cả). Bỏ trống là không lọc.
+   */
   @Transactional(readOnly = true)
-  public VocabPage list(String levelParam, String topic, String q, int page, int limit, Long userId) {
+  public VocabPage list(String levelParam, String topic, String q, String priorityParam, int page, int limit, Long userId) {
+    String priority = priorityParam == null ? "" : switch (priorityParam.trim().toLowerCase()) {
+      case "core" -> "CORE";
+      case "extra" -> "EXTRA";
+      default -> "";
+    };
     String topicName = topic == null || topic.isBlank() ? null : topic.trim();
     String query = likeQuery(q);
-    if (userId != null) return loadPage(levelParam, topicName, query, page, limit, userId);
+    if (userId != null) return loadPage(levelParam, topicName, query, priority, page, limit, userId);
     // Khoá có cả chủ đề và chữ tìm; cache sống 30 giây nên nội dung mới lên ngay sau khi seeder chạy.
     String key = "vocab:" + (levelParam == null ? "" : levelParam) + ":" + (topicName == null ? "" : topicName)
-        + ":" + (query == null ? "" : query) + ":" + page + ":" + limit;
-    return platform.cache(key, VocabPage.class, () -> loadPage(levelParam, topicName, query, page, limit, null));
+        + ":" + (query == null ? "" : query) + ":" + priority + ":" + page + ":" + limit;
+    return platform.cache(key, VocabPage.class, () -> loadPage(levelParam, topicName, query, priority, page, limit, null));
   }
 
   @Transactional(readOnly = true)
@@ -89,11 +97,11 @@ public class VocabService {
     return cut.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_");
   }
 
-  private VocabPage loadPage(String levelParam, String topicName, String query, int page, int limit, Long userId) {
+  private VocabPage loadPage(String levelParam, String topicName, String query, String priority, int page, int limit, Long userId) {
     int safePage = Math.max(page, 1);
     int safeLimit = Math.min(Math.max(limit, 1), 100);
     EnglishLevel level = AuthService.parseLevel(levelParam);
-    Page<Vocabulary> result = vocabulary.search(level, topicName, query, PageRequest.of(safePage - 1, safeLimit));
+    Page<Vocabulary> result = vocabulary.search(level, topicName, query == null ? "" : query, priority, PageRequest.of(safePage - 1, safeLimit));
 
     Map<Long, SrsCard> srs =
         userId == null
@@ -233,7 +241,8 @@ public class VocabService {
         w.getImageUrl(),
         w.getTopic() == null ? null : new TopicView(w.getTopic().getName(), w.getTopic().getIcon()),
         card == null ? null : new SrsView(card.getNextReviewAt(), card.getRepetitions()),
-        w.getWordFamily());
+        w.getWordFamily(),
+        w.getPriority());
   }
 
   private PictureItem toPicture(Vocabulary w) {

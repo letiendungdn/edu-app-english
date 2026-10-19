@@ -56,11 +56,13 @@ export class ApiService {
     return this.http.get<UserView>(`${this.base}/auth/me`);
   }
 
-  vocab(level: string, page: number, limit = 30, topic = '', q = '') {
+  /** priority: 'core', 'extra' hoặc rỗng (tất cả). */
+  vocab(level: string, page: number, limit = 30, topic = '', q = '', priority = '') {
     let params = new HttpParams().set('page', page).set('limit', limit);
     if (level) params = params.set('level', level);
     if (topic) params = params.set('topic', topic);
     if (q.trim()) params = params.set('q', q.trim());
+    if (priority) params = params.set('priority', priority);
     return this.http.get<VocabPage>(`${this.base}/vocab`, { params });
   }
 

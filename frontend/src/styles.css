@@ -632,3 +632,38 @@ kbd { font: 600 0.68rem var(--font); padding: 1px 5px; border-radius: 4px; borde
 .deck-done .big { font-size: 3rem; line-height: 1; margin-bottom: 0.5rem; }
 .deck-stats { display: flex; justify-content: center; gap: 2rem; margin: 1rem 0 1.25rem; }
 .deck-stats strong { display: block; font-size: 1.6rem; font-weight: 800; }
+
+/* Quy tắc phát âm (phonics) */
+.ph-hints { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.6rem; align-items: center; }
+.ph-hint { display: inline-flex; gap: 0.4rem; align-items: baseline; font-size: 0.8rem; line-height: 1.35; padding: 0.25rem 0.6rem;
+  border-radius: 999px; background: var(--success-soft); color: var(--text); text-decoration: none; max-width: 100%; text-align: left; }
+.ph-hint:hover { outline: 1px solid var(--success); }
+.ph-hint.ph-exc { background: var(--warn-bg); }
+.ph-hint.ph-exc:hover { outline-color: var(--warn-border); }
+.ph-mark { font-weight: 800; color: var(--success); }
+.ph-exc .ph-mark { color: var(--warn); }
+.ph-word { font-weight: 600; letter-spacing: 0.01em; }
+.ph-word b { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.card .ph-hints { align-items: flex-start; }
+.ph-quiz { margin-top: 0.5rem; }
+.ph-quiz-word { font-size: 2.4rem; font-weight: 800; letter-spacing: 0.02em; margin: 0.25rem 0 0.75rem; }
+.ph-quiz-word b { color: var(--accent); text-decoration: underline; text-underline-offset: 6px; }
+.ph-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.5rem; }
+.ph-options .option { text-align: center; font-weight: 600; }
+.ph-feedback { margin-top: 0.9rem; padding: 0.8rem 1rem; border-radius: 12px; background: var(--surface-2); line-height: 1.5; }
+.ph-rule { display: flex; flex-direction: column; scroll-margin-top: 5rem; }
+.ph-rule.ph-target, .ph-target { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ph-pattern { font-size: 1.35rem; font-weight: 800; }
+.ph-examples { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: auto; padding-top: 0.25rem; }
+.ph-example { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 0.05rem; padding: 0.35rem 0.6rem;
+  border: 1px solid var(--border); border-radius: 10px; background: var(--bg-card); cursor: pointer; color: var(--text); font: inherit; }
+.ph-example:hover { border-color: var(--accent); }
+.warn-text { color: var(--warn); }
+.ph-irregular { text-align: left; cursor: pointer; display: flex; flex-direction: column; gap: 0.25rem; }
+#irregular, [id^="group-"] { scroll-margin-top: 5rem; }
+.ph-exceptions { margin-top: 0.6rem; padding: 0.5rem 0.7rem; border-radius: 10px; background: var(--warn-bg); color: var(--text); }
+.ph-exceptions b { color: var(--warn); }
+.ph-exceptions ul { margin: 0.25rem 0 0; padding-left: 1.1rem; }
+.ph-exceptions li { margin: 0.15rem 0; }
+
+.badge-extra { background: var(--surface-2); color: var(--text-muted); border: 1px dashed var(--border-strong); }

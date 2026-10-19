@@ -44,6 +44,7 @@ export class AppComponent {
         { href: '/roadmap', label: 'Lộ trình', exact: false, icon: 'route' },
         { href: '/vocab', label: 'Từ vựng', exact: false, icon: 'vocab' },
         { href: '/grammar', label: 'Ngữ pháp', exact: false, icon: 'grammar' },
+        { href: '/phonics', label: 'Phát âm', exact: false, icon: 'phonics' },
       ],
     },
     {

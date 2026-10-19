@@ -19,22 +19,24 @@ public interface VocabularyRepository extends JpaRepository<Vocabulary, Long> {
   Page<Vocabulary> findByTopicNameAndLevel(String name, EnglishLevel level, Pageable pageable);
 
   /**
-   * q đã được thoát ký tự % và _. Null nghĩa là không lọc chữ. Sắp từ khớp đầu từ lên trước.
+   * q đã được thoát ký tự % và _. Chuỗi rỗng nghĩa là không lọc chữ (không dùng null: Postgres coi tham số null
+   * trong lower() là bytea và báo lỗi). Sắp từ khớp đầu từ lên trước.
    */
   @Query("""
       select v from Vocabulary v
       where (:level is null or v.level = :level)
         and (:topic is null or v.topic.name = :topic)
-        and (:q is null
+        and (:priority = '' or v.priority = :priority)
+        and (:q = ''
           or lower(v.word) like lower(concat('%', :q, '%')) escape '\\'
           or lower(v.meaningVi) like lower(concat('%', :q, '%')) escape '\\')
       order by
         case
-          when :q is null then v.sortOrder
+          when :q = '' then v.sortOrder
           when lower(v.word) like lower(concat(:q, '%')) escape '\\' then 0
           else 1
         end,
-        case when :q is null then v.id else 0 end,
+        case when :q = '' then v.id else 0 end,
         v.word,
         v.id
       """)
@@ -42,6 +44,7 @@ public interface VocabularyRepository extends JpaRepository<Vocabulary, Long> {
       @Param("level") EnglishLevel level,
       @Param("topic") String topic,
       @Param("q") String q,
+      @Param("priority") String priority,
       Pageable pageable);
 
   /** Tên, icon, số từ của từng chủ đề, theo thứ tự hiển thị. */

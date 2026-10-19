@@ -29,6 +29,8 @@ export interface VocabWord {
   topic?: TopicView | null;
   /** Họ từ: "analyse (v) · analysis (n) · analytical (adj)". */
   family?: string | null;
+  /** CORE: cốt lõi cho IELTS. EXTRA: từ hiếm, ít gặp trong đề. */
+  priority?: 'CORE' | 'EXTRA' | null;
 }
 
 export interface TopicCount {

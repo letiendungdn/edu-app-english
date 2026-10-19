@@ -32,7 +32,8 @@ public final class ApiModels {
       String imageUrl,
       TopicView topic,
       SrsView srs,
-      String family) {}
+      String family,
+      String priority) {}
 
   public record VocabPage(long total, int page, int limit, List<VocabView> words) {}
 

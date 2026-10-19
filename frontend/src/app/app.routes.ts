@@ -58,6 +58,7 @@ export const routes: Routes = [
     canActivate: [loginGuard],
     loadComponent: () => import('./pages/test-result.component').then((m) => m.TestResultComponent),
   },
+  { path: 'phonics', loadComponent: () => import('./pages/phonics.component').then((m) => m.PhonicsComponent) },
   { path: 'writing/phrases', loadComponent: () => import('./pages/phrases.component').then((m) => m.PhrasesComponent) },
   { path: 'writing', loadComponent: () => import('./pages/writing.component').then((m) => m.WritingComponent) },
   {

@@ -8,6 +8,7 @@ import { FlipCardComponent, speakEnglish } from '../shared/flip-card.component';
 /** Học theo bộ nhỏ: tải cả cấp độ (hơn 1000 từ) một lần vừa chậm vừa ngợp. */
 const SET_SIZE = 20;
 const SET_KEY = 'flashcard_set_';
+const EXTRA_KEY = 'flashcard_with_extra';
 
 /** Chất lượng gửi cho SM-2: "Chưa nhớ" cho ôn lại sớm, "Đã nhớ" giãn lịch ôn. */
 const QUALITY_AGAIN = 1;
@@ -47,6 +48,9 @@ const QUALITY_KNOW = 4;
             <button class="btn" [class.btn-primary]="level() === item" (click)="setLevel(item)">{{ item }}</button>
           }
           <span class="muted small" style="align-self: center;">Band 6.5 nên chắc B2–C1.</span>
+          <label class="small" style="align-self: center; display: inline-flex; gap: 0.35rem; align-items: center;" title="Mặc định chỉ học từ cốt lõi cho IELTS">
+            <input type="checkbox" [checked]="withExtra()" (change)="toggleExtra($any($event.target).checked)" /> Gồm từ ít gặp
+          </label>
         </div>
       }
 
@@ -109,6 +113,8 @@ export class FlashcardComponent implements OnInit {
   level = signal('A1');
   /** Tên chủ đề đang học; rỗng là học theo cấp độ. */
   topic = signal('');
+  /** Học cả từ hiếm (EXTRA). Mặc định tắt: chỉ học từ cốt lõi cho IELTS. */
+  withExtra = signal(this.savedExtra());
   ieltsTopics = signal<TopicCount[]>([]);
   setNo = signal(1);
   total = signal(0);
@@ -152,9 +158,28 @@ export class FlashcardComponent implements OnInit {
     this.load();
   }
 
-  /** Khoá nhớ bộ đang học: theo chủ đề hoặc theo cấp độ. */
+  /** Khoá nhớ bộ đang học: theo chủ đề hoặc theo cấp độ (bộ có từ ít gặp đánh số riêng). */
   private deckKey() {
-    return this.topic() ? 'topic:' + this.topic() : this.level();
+    return this.topic() ? 'topic:' + this.topic() : this.level() + (this.withExtra() ? ':all' : '');
+  }
+
+  toggleExtra(on: boolean) {
+    this.withExtra.set(on);
+    try {
+      localStorage.setItem(EXTRA_KEY, on ? '1' : '0');
+    } catch {
+      // Không lưu được (chế độ riêng tư): chỉ áp dụng trong phiên này.
+    }
+    this.setNo.set(this.savedSet(this.deckKey()));
+    this.load();
+  }
+
+  private savedExtra() {
+    try {
+      return localStorage.getItem(EXTRA_KEY) === '1';
+    } catch {
+      return false;
+    }
   }
 
   @HostListener('window:keydown', ['$event'])
@@ -253,7 +278,7 @@ export class FlashcardComponent implements OnInit {
 
   private load() {
     this.loading.set(true);
-    this.api.vocab(this.topic() ? '' : this.level(), this.setNo(), SET_SIZE, this.topic()).subscribe({
+    this.api.vocab(this.topic() ? '' : this.level(), this.setNo(), SET_SIZE, this.topic(), '', this.topic() || this.withExtra() ? '' : 'core').subscribe({
       next: (page) => {
         this.total.set(page.total);
         // Bộ đã lưu vượt quá số bộ hiện có (dữ liệu đổi): quay về bộ 1.
